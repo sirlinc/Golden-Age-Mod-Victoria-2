@@ -1,0 +1,226 @@
+# Triggered modifiers are here.
+# these are checked for each countries once/month and then applied.
+#
+# Effects are fully scriptable here.
+
+small_nation = {
+    trigger = {
+        total_pops = 1250000 #1.25 million POPs/5 Million population
+        NOT = {
+            OR = {
+                #is_culture_group = germanic
+                #is_culture_group = scandinavian
+                total_pops = 3750000 #3.75 million POPs/15 million population
+            }
+        }
+    }
+    global_population_growth = 0.003
+    mobilization_economy_impact = -0.25
+    supply_consumption = -0.25
+    mobilisation_size = 0.03
+    tax_efficiency = 0.20 #20% boost
+    icon = 6
+}
+
+medium_nation = {
+    trigger = {
+        total_pops = 3750000 #3.75 million POPs/15 Million population
+        NOT = {
+            OR = {
+                #is_culture_group = germanic
+                #is_culture_group = scandinavian
+                total_pops = 7500000 #7.5 million POPs/30 Million population
+            }
+
+        }
+    }
+    global_population_growth = 0.001
+    mobilization_economy_impact = -0.10
+    supply_consumption = -0.10
+    mobilisation_size = 0.01
+    tax_efficiency = 0.10 #10% boost
+    icon = 6
+}
+
+average_nation = {
+    trigger = {
+        year = 1500
+        civilized = yes
+        total_pops = 7500000 #7.5 million POPs/30 Million population
+        NOT = { total_pops = 12500000 } #12.5 million POPs/50 million population
+        ai = no
+    }
+    supply_consumption = 0.05
+    #mobilisation_size = -0.01
+    tax_efficiency = -0.05 #5% malus
+    #max_tariff = -0.1 #10%
+    icon = 6
+}
+
+large_nation = {
+    trigger = {
+        year = 1592
+        civilized = yes
+        total_pops = 12500000 #12.5 million POPs/50 million population
+        NOT = { total_pops = 21250000 } #21.25 million POPs/85 million population
+        ai = no
+    }
+    #global_population_growth = -0.001
+    supply_consumption = 0.1
+    #mobilisation_size = -0.02
+    tax_efficiency = -0.05 #5% malus
+    max_tariff = -0.05 #5% was 15%
+    mobilization_economy_impact = 0.1
+    icon = 6
+}
+
+empire = {
+    trigger = {
+        year = 1600
+        civilized = yes
+        total_pops = 21250000 #21.25 million POPs/85 million population
+        NOT = { total_pops = 37500000 } #37.5 million POPs/150 million population
+        OR = {
+            ai = no
+            AND = {
+                ai = yes
+                year = 1650
+            }
+        }
+
+    }
+    #global_population_growth = -0.001
+    #mobilisation_size = -0.02
+    supply_consumption = 0.15
+    tax_efficiency = -0.07 #7% malus
+    max_tariff = -0.10 #10% was 20%
+    factory_owner_cost = -0.10 #10% decrease in cost for buildings
+    mobilization_economy_impact = 0.2
+    icon = 6
+}
+
+medium_empire = {
+    trigger = {
+        year = 1600
+        civilized = yes
+        total_pops = 37500000 #37.5 million POPs/150 million population
+        NOT = { total_pops = 62500000 } #62.5 million POPs/250 million population
+        OR = {
+            ai = no
+            AND = {
+                ai = yes
+                year = 1885
+            }
+        }
+
+    }
+    #global_population_growth = -0.002
+    #mobilisation_size = -0.03
+    supply_consumption = 0.2
+    tax_efficiency = -0.09 #9% malus
+    max_tariff = -0.15 #15% was 20%
+    research_points_modifier = 0.1 #10% increase
+    factory_owner_cost = -0.10 #10% decrease in cost for buildings
+    mobilization_economy_impact = 0.4
+    icon = 6
+}
+
+large_empire = {
+    trigger = {
+        year = 1600
+        civilized = yes
+        total_pops = 62500000 #62.5 million POPs/250 million population
+        NOT = { total_pops = 87500000 } #87.5 million POPs/350 million population
+        OR = {
+            ai = no
+            AND = {
+                ai = yes
+                year = 1885
+            }
+        }
+
+    }
+    #global_population_growth = -0.003
+    #mobilisation_size = -0.04
+    supply_consumption = 0.3 #30% increase
+    tax_efficiency = -0.11 #11% malus
+    max_tariff = -0.20 #20% was 25%
+    research_points_modifier = 0.13 #13% increase
+    factory_owner_cost = -0.15 #15% decrease in cost for buildings
+    mobilization_economy_impact = 0.6
+    icon = 6
+}
+
+insane_empire = {
+    trigger = {
+        year = 1600
+        civilized = yes
+        total_pops = 87500000 #87.5 million POPs/350 million population
+        trade_policy = free_trade
+    }
+    #global_population_growth = -0.004
+    #mobilisation_size = -0.07
+    supply_consumption = 0.6 #60% increase
+    tax_efficiency = -0.2 #20% malus
+    max_tariff = -0.25 #25% malus
+    factory_owner_cost = -0.15 #15% decrease in cost for buildings
+    mobilization_economy_impact = 1.0
+    icon = 6
+}
+
+insane_empire2 = {
+    trigger = {
+        year = 1600
+        civilized = yes
+        total_pops = 87500000 #87.5 million POPs/350 million population
+        trade_policy = protectionism
+    }
+    #global_population_growth = -0.004
+    #mobilisation_size = -0.07
+    supply_consumption = 0.6 #60% increase
+    tax_efficiency = -0.2 #20% malus
+    max_tariff = -0.60 #60% malus
+    factory_owner_cost = -0.15 #15% decrease in cost for buildings
+    mobilization_economy_impact = 1.0
+    icon = 6
+}
+
+hre_member = {
+    trigger = {
+        has_country_flag = hre_member
+		exists = yes
+    }
+    icon = 9
+}
+
+elector_of_hre = {
+    trigger = {
+		exists = yes
+        has_country_flag = elector_hre
+		has_country_flag = hre_member
+    }
+    prestige = 0.04
+    icon = 9
+}
+
+holy_roman_emperor = {
+    trigger = {
+        has_country_flag = hre_emperor
+		has_country_flag = hre_member
+		exists = yes
+    }
+    mobilization_economy_impact = -0.1
+    mobilisation_size = 0.05
+    prestige = 0.07
+    icon = 9
+}
+
+italian_member_of_hre = {
+    trigger = {
+		has_country_flag = italian_member_of_hre
+		has_country_flag = hre_member
+		exists = yes
+    }
+	prestige = -0.01
+    icon = 9
+}

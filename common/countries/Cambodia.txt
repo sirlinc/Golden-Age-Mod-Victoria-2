@@ -1,0 +1,119 @@
+graphical_culture = AsianGC
+color = { 127 180 60 }
+
+party = {
+	name = "POR_fervent_clergy"
+	start_date = 1000.1.1
+	end_date = 1935.1.1
+
+	ideology = fervent_clergy
+
+	citizenship_policy = residency
+	economic_policy = state_capitalism
+	religious_policy = moralism
+	trade_policy = protectionism
+	war_policy = jingoism
+}
+
+party = {
+	name = "POR_clergy"
+	start_date = 1000.1.1
+	end_date = 1935.1.1
+
+	ideology = clergy
+
+	citizenship_policy = residency
+	economic_policy = state_capitalism
+	religious_policy = moralism
+	trade_policy = protectionism
+	war_policy = pro_military
+}
+
+party = {
+	name = "POR_modern_clergy"
+	start_date = 1000.1.1
+	end_date = 1935.1.1
+
+	ideology = modern_clergy
+
+	citizenship_policy = limited_citizenship
+	economic_policy = state_capitalism
+	religious_policy = moralism
+	trade_policy = protectionism
+	war_policy = pro_military
+}
+
+party = {
+	name = "POR_petty_bourgeoisie"
+	start_date = 1000.1.1
+	end_date = 1900.1.1
+
+	ideology = petty_bourgeoisie
+
+	citizenship_policy = full_citizenship
+	economic_policy = laissez_faire
+	religious_policy = pro_atheism
+	trade_policy = free_trade
+	war_policy = pacifism
+}
+
+party = {
+	name = "POR_upper_bourgeoisie"
+	start_date = 1000.1.1
+	end_date = 2000.1.1
+
+	ideology = upper_bourgeoisie
+
+	citizenship_policy = limited_citizenship
+	economic_policy = laissez_faire
+	religious_policy = pro_atheism
+	trade_policy = free_trade
+	war_policy = anti_military
+}
+
+party = {
+	name = "POR_nobility"
+	start_date = 1000.1.1
+	end_date = 2000.1.1
+
+	ideology = nobility
+
+	citizenship_policy = limited_citizenship
+	economic_policy = planned_economy
+	religious_policy = secularized
+	trade_policy = protectionism
+	war_policy = jingoism
+}
+
+unit_names = {
+	dreadnought = {
+		Angkor "Angkor Thom" "Angkor Wat" Bayon Baphuon Bati "Banteay Srei" "Banteay Kdei" "Banteay Chmar" "Beng Melea" Isanapura "Koh Ker" "Kra Isthmus" "Kompong Svay" "Koh Kor" Mekong "Muang Sing" "Muang Tam" "Neak Pean" Phimai "Preah Ko" "Phnom Bakheng" "Phra Phang Sam Yod" "Phnom Rung" "Phnom Chisor" "Preah Vihear" "Prasat Kamphaeng Yai" "Roy Et" Sikhoraphum "Srah Srang" "Ta Keo" "Ta Prohm" "Tonle Sap" Vyadhapura "Vat Banon" "Vat Nokor" "Vat Phu" Zhenla
+	}
+	battleship = {
+		
+	}
+	ironclad = {
+		Angkor "Angkor Thom" "Angkor Wat" Bayon Baphuon Bati "Banteay Srei" "Banteay Kdei" "Banteay Chmar" "Beng Melea" Isanapura "Koh Ker" "Kra Isthmus" "Kompong Svay" "Koh Kor" Mekong "Muang Sing" "Muang Tam" "Neak Pean" Phimai "Preah Ko" "Phnom Bakheng" "Phra Phang Sam Yod" "Phnom Rung" "Phnom Chisor" "Preah Vihear" "Prasat Kamphaeng Yai" "Roy Et" Sikhoraphum "Srah Srang" "Ta Keo" "Ta Prohm" "Tonle Sap" Vyadhapura "Vat Banon" "Vat Nokor" "Vat Phu" Zhenla
+	}
+	manowar = {
+		Angkor "Angkor Thom" "Angkor Wat" Bayon Baphuon Bati "Banteay Srei" "Banteay Kdei" "Banteay Chmar" "Beng Melea" Isanapura "Koh Ker" "Kra Isthmus" "Kompong Svay" "Koh Kor" Mekong "Muang Sing" "Muang Tam" "Neak Pean" Phimai "Preah Ko" "Phnom Bakheng" "Phra Phang Sam Yod" "Phnom Rung" "Phnom Chisor" "Preah Vihear" "Prasat Kamphaeng Yai" "Roy Et" Sikhoraphum "Srah Srang" "Ta Keo" "Ta Prohm" "Tonle Sap" Vyadhapura "Vat Banon" "Vat Nokor" "Vat Phu" Zhenla
+	}
+	cruiser = {
+		Angkor "Angkor Thom" "Angkor Wat" Bayon Baphuon Bati "Banteay Srei" "Banteay Kdei" "Banteay Chmar" "Beng Melea" Isanapura "Koh Ker" "Kra Isthmus" "Kompong Svay" "Koh Kor" Mekong "Muang Sing" "Muang Tam" "Neak Pean" Phimai "Preah Ko" "Phnom Bakheng" "Phra Phang Sam Yod" "Phnom Rung" "Phnom Chisor" "Preah Vihear" "Prasat Kamphaeng Yai" "Roy Et" Sikhoraphum "Srah Srang" "Ta Keo" "Ta Prohm" "Tonle Sap" Vyadhapura "Vat Banon" "Vat Nokor" "Vat Phu" Zhenla
+	}
+	frigate = {
+		Angkor "Angkor Thom" "Angkor Wat" Bayon Baphuon Bati "Banteay Srei" "Banteay Kdei" "Banteay Chmar" "Beng Melea" Isanapura "Koh Ker" "Kra Isthmus" "Kompong Svay" "Koh Kor" Mekong "Muang Sing" "Muang Tam" "Neak Pean" Phimai "Preah Ko" "Phnom Bakheng" "Phra Phang Sam Yod" "Phnom Rung" "Phnom Chisor" "Preah Vihear" "Prasat Kamphaeng Yai" "Roy Et" Sikhoraphum "Srah Srang" "Ta Keo" "Ta Prohm" "Tonle Sap" Vyadhapura "Vat Banon" "Vat Nokor" "Vat Phu" Zhenla
+	}
+	monitor = {
+		Angkor "Angkor Thom" "Angkor Wat" Bayon Baphuon Bati "Banteay Srei" "Banteay Kdei" "Banteay Chmar" "Beng Melea" Isanapura "Koh Ker" "Kra Isthmus" "Kompong Svay" "Koh Kor" Mekong "Muang Sing" "Muang Tam" "Neak Pean" Phimai "Preah Ko" "Phnom Bakheng" "Phra Phang Sam Yod" "Phnom Rung" "Phnom Chisor" "Preah Vihear" "Prasat Kamphaeng Yai" "Roy Et" Sikhoraphum "Srah Srang" "Ta Keo" "Ta Prohm" "Tonle Sap" Vyadhapura "Vat Banon" "Vat Nokor" "Vat Phu" Zhenla
+	}
+	clipper_transport = {
+		
+	}
+	steam_transport = {
+		
+	}
+	commerce_raider = {
+		Angkor "Angkor Thom" "Angkor Wat" Bayon Baphuon Bati "Banteay Srei" "Banteay Kdei" "Banteay Chmar" "Beng Melea" Isanapura "Koh Ker" "Kra Isthmus" "Kompong Svay" "Koh Kor" Mekong "Muang Sing" "Muang Tam" "Neak Pean" Phimai "Preah Ko" "Phnom Bakheng" "Phra Phang Sam Yod" "Phnom Rung" "Phnom Chisor" "Preah Vihear" "Prasat Kamphaeng Yai" "Roy Et" Sikhoraphum "Srah Srang" "Ta Keo" "Ta Prohm" "Tonle Sap" Vyadhapura "Vat Banon" "Vat Nokor" "Vat Phu" Zhenla
+	}
+}

@@ -1,0 +1,172 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new forms of governemnts, make sure they are uniquely named.
+
+
+
+proletarian_dictatorship =
+{
+	#which ideology of parties.
+	communist = yes
+	
+	election = no
+	appoint_ruling_party = yes
+	flagType = communist
+}
+
+
+
+presidential_dictatorship =
+{
+	#which ideology of parties.
+	reactionary = yes
+	
+	election = no
+	appoint_ruling_party = yes
+	flagType = republic
+}
+ 
+bourgeois_dictatorship =
+{
+	#which ideology of parties.
+	modern_clergy = yes
+	petty_bourgeoisie = yes
+	upper_bourgeoisie = yes
+	
+	election = no
+	appoint_ruling_party = yes
+	flagType = republic
+}
+
+fascist_dictatorship =
+{
+	#which ideology of parties.
+	fascist = yes
+	
+	election = no
+	appoint_ruling_party = yes
+	flagType = fascist
+}
+ 
+absolute_monarchy = {
+	fervent_clergy = yes
+	clergy = yes
+	modern_clergy = yes
+	petty_bourgeoisie = yes
+	upper_bourgeoisie = yes
+	nobility = yes
+	
+	election = no
+	appoint_ruling_party = yes
+	flagType = monarchy
+}
+
+feudal_monarchy = {
+	fervent_clergy = yes
+	clergy = yes
+	modern_clergy = yes
+	petty_bourgeoisie = yes
+	upper_bourgeoisie = yes
+	nobility = yes
+	
+	election = no
+	appoint_ruling_party = yes
+	flagType = monarchy
+}
+ 
+prussian_constitutionalism = {
+	fervent_clergy = yes
+	clergy = yes
+	modern_clergy = yes
+	petty_bourgeoisie = yes
+	upper_bourgeoisie = yes
+	nobility = yes
+	
+	election = yes
+	duration = 48
+	appoint_ruling_party = yes
+	flagType = monarchy
+}
+
+hms_government = {
+	fervent_clergy = yes
+	clergy = yes
+	modern_clergy = yes
+	petty_bourgeoisie = yes
+	upper_bourgeoisie = yes
+	nobility = yes
+	
+	election = yes
+	duration = 48
+	appoint_ruling_party = yes
+	flagType = monarchy
+}
+
+parliamentary_monarchy = {
+	fervent_clergy = yes
+	clergy = yes
+	modern_clergy = yes
+	petty_bourgeoisie = yes
+	upper_bourgeoisie = yes
+	nobility = yes
+	
+	election = yes
+	duration = 48
+	appoint_ruling_party = yes
+	flagType = monarchy
+}
+
+democracy = {
+	fervent_clergy = yes
+	clergy = yes
+	modern_clergy = yes
+	petty_bourgeoisie = yes
+	upper_bourgeoisie = yes
+	nobility = yes
+	
+	election = yes
+	duration = 48
+	appoint_ruling_party = no
+	flagType = republic
+}
+
+parliamentary_republic = {
+	fervent_clergy = yes
+	clergy = yes
+	modern_clergy = yes
+	petty_bourgeoisie = yes
+	upper_bourgeoisie = yes
+	nobility = yes
+	
+	election = yes
+	duration = 48
+	appoint_ruling_party = no
+	flagType = republic
+}
+
+theocracy = {
+	fervent_clergy = yes
+	clergy = yes
+	modern_clergy = yes
+	petty_bourgeoisie = yes
+	upper_bourgeoisie = yes
+	nobility = yes
+	
+	election = yes
+	duration = 120
+	appoint_ruling_party = no
+	flagType = monarchy
+}
+
+colonial_government = {
+	fervent_clergy = yes
+	clergy = yes
+	modern_clergy = yes
+	petty_bourgeoisie = yes
+	upper_bourgeoisie = yes
+	nobility = yes
+	
+	election = yes
+	duration = 48
+	appoint_ruling_party = no
+	flagType = republic
+}

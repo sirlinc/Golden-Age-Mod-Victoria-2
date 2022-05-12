@@ -1,0 +1,119 @@
+graphical_culture = Generic
+color = { 136 158 183 }
+
+party = {
+	name = "POR_fervent_clergy"
+	start_date = 1000.1.1
+	end_date = 1935.1.1
+
+	ideology = fervent_clergy
+
+	citizenship_policy = residency
+	economic_policy = state_capitalism
+	religious_policy = moralism
+	trade_policy = protectionism
+	war_policy = jingoism
+}
+
+party = {
+	name = "POR_clergy"
+	start_date = 1000.1.1
+	end_date = 1935.1.1
+
+	ideology = clergy
+
+	citizenship_policy = residency
+	economic_policy = state_capitalism
+	religious_policy = moralism
+	trade_policy = protectionism
+	war_policy = pro_military
+}
+
+party = {
+	name = "POR_modern_clergy"
+	start_date = 1000.1.1
+	end_date = 1935.1.1
+
+	ideology = modern_clergy
+
+	citizenship_policy = limited_citizenship
+	economic_policy = state_capitalism
+	religious_policy = moralism
+	trade_policy = protectionism
+	war_policy = pro_military
+}
+
+party = {
+	name = "POR_petty_bourgeoisie"
+	start_date = 1000.1.1
+	end_date = 1900.1.1
+
+	ideology = petty_bourgeoisie
+
+	citizenship_policy = full_citizenship
+	economic_policy = laissez_faire
+	religious_policy = pro_atheism
+	trade_policy = free_trade
+	war_policy = pacifism
+}
+
+party = {
+	name = "POR_upper_bourgeoisie"
+	start_date = 1000.1.1
+	end_date = 2000.1.1
+
+	ideology = upper_bourgeoisie
+
+	citizenship_policy = limited_citizenship
+	economic_policy = laissez_faire
+	religious_policy = pro_atheism
+	trade_policy = free_trade
+	war_policy = anti_military
+}
+
+party = {
+	name = "POR_nobility"
+	start_date = 1000.1.1
+	end_date = 2000.1.1
+
+	ideology = nobility
+
+	citizenship_policy = limited_citizenship
+	economic_policy = planned_economy
+	religious_policy = secularized
+	trade_policy = protectionism
+	war_policy = jingoism
+}
+
+unit_names = {
+	dreadnought = {
+		Petropavlovsk Mariya Ekaterina Velikaya "Svobodnaya Rossiya" Aleksander Gangut Sevastopol Poltava Volya Arkhangel’sk Novorossiysk Soyuz Ukraina Rossiya Alekseev Belarussia Potemkin Moskva Mariya Ekaterina Alekseev Krasnaya "Uralskiye gory" Sibir Imperator Komunna "General Alexeiev" Retivisan "Nizhny Novgorod" Omck Chelyabinsk Krasnoyarsk Saratov "Ivan Grozny" Kulikovo
+	}
+	battleship = {
+		
+	}
+	ironclad = {
+		Minin "Kniaz Pozharskii" Pervenets Kreml "Ne Tron Menia" Smerch Lazarev "Pyotr Velikyy" Chesma Kyiv Minsk "Zaria Svobody" "Admiral Butakov" Kreiser Ladoga Georgii "Sissoi Veliky" Navarin "Pamiat Merkuria" Tsesarevich Narodnaya "Poluostrov Kamchatka" Kama Voronezh Bityug
+	}
+	manowar = {
+		Sviatoslav Vola Andrei Fershampenuaz Konstantin Gavriil Selafail Varna Yagudiil Sviatoslav "Dvenadtsat Apostolov" Rostislav Khrabryi Sinop Bosfor Uriil "Tri Sviatitelia" Arsis Smolensk Oriol Finland Vola Prokhor Varshava Retvisan Iezekiil Azov Kul’m Lesnoye Brien Berezino Ostroloenka Vladimir Fershampenuaz
+	}
+	cruiser = {
+		Pallada Diana Askold Novik Boyarin Nakhimov Bogatyr Oleg Vityaz General-Admiral "Alexander Nevski" "Pamiyat Azova" Rurik Bayan Varyag Izmail Kinburn Navarin "Admiral Kornilov" Almaz Asia Aurora Gromoboi Volga "Novaya Zemlya" Dnepr Desna Zarya
+	}
+	frigate = {
+		Kulevtcha Kagul Kamchatka Odessa Arkhimed Polkan Vladimir Svetlana "Ilya Muromets" Medved Rynda Vityaz Neva Vilagosh Flora Mesemvriya Midya Gromoboi Riga "Kniaginia Lovitch" Elisaveta Anna Ekaterina Venus Pomona Kastor Prozerpina Mel’pomena Tenedos Arkhipelag Brailov Sizopol’ Kulevtchi Astrakhan
+	}
+	monitor = {
+		Uragan Veschun Koldun Lava Latnik Perun Strelets Tifon Novgorod Vyborg Rusalka "Admiral Ushakov" "Admiral Senivain" Edinorog "Admiral Graf Apraksin" Pushkin "Semion Chelyuskin" Yenisei "Ozero Baykal" Vyazma Valdai Topozero Caspian Kazan
+	}
+	clipper_transport = {
+		Razboinik Strelok Dzhigit Oprichnik Nayezdnik Plastun Gaidamak Abrek Vsadnik Almaz Zhemchug Izumrud Yakhont
+	}
+	steam_transport = {
+		Estonia Crimea Kola Latvia Murmansk Belgorod Karelia Tambov Ryazan Lipetsk Anjou Baranov Begichev Chelyuskin Kazan Irkutsk Rostov Bryansk
+	}
+	commerce_raider = {
+		Kem Yug Voronya Mezha Okhta Ravan Kunya Svir Seim Sestra Don Yeya Terek Sok Istra Dubna Ob Ket Nadym Indigirka Amur Bereya Sestra
+	}
+}

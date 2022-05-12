@@ -1,0 +1,508 @@
+political_decisions = {
+	form_union_nation = {
+		potential = {
+			culture_has_union_tag = yes
+			NOT = {
+				OR = {
+					cultural_union = { exists = yes }
+					is_culture_group = germanic
+					is_culture_group = scandinavian
+					is_culture_group = italian
+					is_culture_group = arab
+					tag = ECU
+					tag = CLM
+					tag = VNZ
+				}
+			}
+		}
+		
+		allow = {
+			prestige = 45
+			war = no
+			cultural_union = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 20
+			change_tag = culture
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+						tag = AUS
+						tag = KUK
+					}
+					is_culture_group = THIS
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+			add_accepted_culture = union
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	form_scandinavia = {
+		news = yes
+		news_desc_long = "form_scandinavia_NEWS_LONG"
+		news_desc_medium = "form_scandinavia_NEWS_MEDIUM"
+		news_desc_short = "form_scandinavia_NEWS_SHORT"
+		potential = {
+			OR = {
+				is_culture_group = scandinavian
+				is_culture_group = bears
+			}
+			NOT = {
+				exists = SCA
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			prestige = 45
+			war = no
+			SCA = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = SCA
+			add_accepted_culture = swedish
+			add_accepted_culture = danish
+			add_accepted_culture = norwegian
+			add_accepted_culture = finnish
+			add_accepted_culture = icelandic
+			add_accepted_culture = sami
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					is_culture_group = scandinavian
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_spain = {
+		news = yes
+		news_desc_long = "form_spain_NEWS_LONG"
+		news_desc_medium = "form_spain_NEWS_MEDIUM"
+		news_desc_short = "form_spain_NEWS_SHORT"
+		potential = {
+			OR = {
+				is_culture_group = spanish
+				is_culture_group = catalan
+				is_culture_group = basque
+			}
+			NOT = {
+				exists = SPA
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			prestige = 45
+			war = no
+			SPA = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = SPA
+			add_accepted_culture = spanish
+			add_accepted_culture = catalan
+			add_accepted_culture = basque
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					OR = {
+						is_culture_group = spanish
+						is_culture_group = catalan
+						is_culture_group = basque
+					}
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_japan = {
+		news = yes
+		news_desc_long = "form_japan_NEWS_LONG"
+		news_desc_medium = "form_japan_NEWS_MEDIUM"
+		news_desc_short = "form_japan_NEWS_SHORT"
+		potential = {
+			is_culture_group = japanese
+			NOT = {
+				exists = JAP
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			prestige = 45
+			war = no
+			JAP = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = SPA
+			add_accepted_culture = japanese
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					is_culture_group = japanese
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_poland_lithuania = {
+		news = yes
+		news_desc_long = "form_plc_NEWS_LONG"
+		news_desc_medium = "form_plc_NEWS_MEDIUM"
+		news_desc_short = "form_plc_NEWS_SHORT"
+		potential = {
+			OR = {	
+				is_culture_group = lithuanian
+				is_culture_group = polish
+			}
+			NOT = {
+				exists = PLC
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			prestige = 45
+			war = no
+			PLC = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = PLC
+			add_accepted_culture = polish
+			add_accepted_culture = lithuanian
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					OR = {
+						is_culture_group = polish
+						is_culture_group = lithuanian
+					}
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_russia = {
+		news = yes
+		news_desc_long = "form_russia_NEWS_LONG"
+		news_desc_medium = "form_russia_NEWS_MEDIUM"
+		news_desc_short = "form_russia_NEWS_SHORT"
+		potential = {
+			OR = {
+				is_culture_group = russian
+				is_culture_group = ugrian
+			}
+			NOT = {
+				exists = RUS
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			prestige = 45
+			war = no
+			RUS = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = SPA
+			add_accepted_culture = russian
+			add_accepted_culture = ugrian
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					OR = { 
+						is_culture_group = russian
+						is_culture_group = urgian
+					}
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	form_persia = {
+		news = yes
+		news_desc_long = "form_russia_NEWS_LONG"
+		news_desc_medium = "form_russia_NEWS_MEDIUM"
+		news_desc_short = "form_russia_NEWS_SHORT"
+		potential = {
+			OR = {
+				is_culture_group = uzbek
+				is_culture_group = persian
+			}
+			NOT = {
+				exists = PER
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			prestige = 45
+			war = no
+			PER = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = SPA
+			add_accepted_culture = uzbek
+			add_accepted_culture = persian
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					OR = { 
+						is_culture_group = uzbek
+						is_culture_group = persian
+					}
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_india = {
+		news = yes
+		news_desc_long = "form_india_NEWS_LONG"
+		news_desc_medium = "form_india_NEWS_MEDIUM"
+		news_desc_short = "form_india_NEWS_SHORT"
+		potential = {
+			OR = {
+				is_culture_group = rajput
+				is_culture_group = kannada
+				is_culture_group = tamil
+				is_culture_group = telegu
+				is_culture_group = avadhi
+				is_culture_group = kanauji
+				is_culture_group = bihari
+			}
+			NOT = {
+				exists = HND
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			prestige = 45
+			war = no
+			HND = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = HND
+			add_accepted_culture = rajput
+			add_accepted_culture = kannada
+			add_accepted_culture = tamil
+			add_accepted_culture = telegu
+			add_accepted_culture = avadhi
+			add_accepted_culture = kanauji
+			add_accepted_culture = bihari
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					OR = { 
+						is_culture_group = rajput
+						is_culture_group = kannada
+						is_culture_group = tamil
+						is_culture_group = telegu
+						is_culture_group = avadhi
+						is_culture_group = kanauji
+						is_culture_group = bihari
+					}
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#form_andalusia = {
+	#	news = yes
+	#	news_desc_long = "form_spain_NEWS_LONG"
+	#	news_desc_medium = "form_spain_NEWS_MEDIUM"
+	#	news_desc_short = "form_spain_NEWS_SHORT"
+	#	potential = {
+	#		OR = {
+	#			is_culture_group = spanish
+	#			is_culture_group = catalan
+	#			is_culture_group = basque
+	#		}
+	#		NOT = {
+	#			exists = SPA
+	#		}
+	#	}
+	#	
+	#	allow = {
+	#		is_greater_power = yes
+	#		prestige = 45
+	#		war = no
+	#		SPA = {
+	#			all_core = {
+	#				OR = {
+	#					owned_by = THIS
+	#					owner = {
+	#						in_sphere = THIS
+	#					}
+	#				}
+	#			}
+	#		}
+	#	}
+	#	
+	#	effect = {
+	#		prestige = 20
+	#		change_tag = SPA
+	#		add_accepted_culture = spanish
+	#		add_accepted_culture = catalan
+	#		add_accepted_culture = basque
+	#		any_country = {
+	#			limit = {
+	#				NOT = {
+	#					is_greater_power = yes
+	#				}
+	#				OR = {
+	#					is_culture_group = spanish
+	#					is_culture_group = catalan
+	#					is_culture_group = basque
+	#				}
+	#				in_sphere = THIS
+	#			}
+	#			country_event = { id=11101 days=0 }
+	#		}
+	#	}
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
+}

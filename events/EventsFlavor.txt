@@ -1,0 +1,861 @@
+country_event = { #build a palace event
+	id = 6705
+	title = "EVTNAME6705"
+	desc = "EVTDESC6705"
+	picture = "buildapalace"
+	
+	mean_time_to_happen = {
+		months = 0.0001
+	}
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA6705" 
+		prestige = 7
+		consciousness = 0.5
+		militancy = -1.4
+		money = -800000
+		ai_chance = { factor = 10 }
+	}
+	option = {
+		name = "EVTOPTB6705" 
+		prestige = 4
+		consciousness = 0.5
+		militancy = -1.4
+		money = -500000
+		ai_chance = { factor = 40 }
+	}
+	option = {
+		name = "EVTOPTC6705" 
+		prestige = 1
+		consciousness = 0.5
+		militancy = -1.4
+		money = -100000
+		ai_chance = { factor = 50 }
+	}
+	option = {
+		name = "EVTOPTD6705" 
+		ai_chance = { factor = 0 }
+	}
+}
+
+
+country_event = { #The King Is Dead
+	id = 50001
+	news = yes
+	tittle = "EVTNAME50001"
+	desc = "EVTDESC50001"
+	picture = "the_king_is_dead"
+	
+	mean_time_to_happen = {
+		months = 180
+	}
+	
+	fire_only_once = no
+	
+	option = {
+		name = "EVTOPTA50001"
+		add_country_modifier = {
+			name = death_of_ruler
+			duration = 40
+		}
+	}
+}
+
+country_event = { #Coronation
+	id = 50002
+	news = yes
+    title = "EVTNAME50002"
+	desc = "EVTDESC50002"
+	picture = "coronation_picture"
+	fire_only_once = no
+	is_triggered_only = yes
+	
+	trigger = { 
+		FROM = {
+			has_country_flag = new_king
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA50002"
+		prestige = 3
+		treasury = -6000
+		badboy = -6
+		consciousness = 0.5
+		militancy = 0.5
+		FROM = {
+			set_country_flag = royal_marriage_flag
+		}
+		ai_chance = { 
+			factor = 50
+		}
+	}	
+	
+	option = {
+		name = "EVTOPTB50002"
+		treasury = -1000
+		badboy = -3
+		consciousness = -0.5
+		militancy = -0.5
+		ai_chance = { 
+			factor = 50
+		}
+	}
+}
+
+country_event = { #Papacy
+	id = 110000
+    title = "EVTNAME110000"
+	desc = "EVTDESC110000"
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA110000" #Sell Indulgences
+		poor_strata = {
+			consciousness = -1.3
+			militancy = -1.3
+		}
+		middle_strata = {
+			consciousness = -0.9
+			militancy = -0.9
+		}
+		rich_strata = { 
+			consciousness = -0.3
+			militancy = -0.3
+		}
+		treasury = -6500
+		ai_chance = { 
+			factor = 11
+		}
+	}	
+	
+	option = {
+		name = "EVTOPTB110000" #Ask for blessing
+		treasury = -4500
+		prestige = 1
+		ai_chance = { 
+			factor = 12
+		}
+	}
+	option = {
+		name = "EVTOPTC110000" #Increase Papal Influence
+		treasury = -4500
+		any_pop = { literacy = 0.03 }
+		ai_chance = { 
+			factor = 12
+		}
+	}
+	option = { #Call a Crusade
+		name = "EVTOPTD110000"
+		treasury = -10500
+		FROM = {
+			AND = {
+				is_greater_power = yes
+				relation = { 
+					who = PAP
+					value = 50
+				}
+				money = 10500
+				war = no
+				OR = {
+					ruling_party_ideology = fervent_clergy
+					ruling_party_ideology = clergy
+				}
+			}
+		}
+		any_pop = {
+			militancy = -0.5
+		}
+		set_country_flag = holy_war
+		ai_chance = { 
+			factor = 9
+		}
+	}
+	option = { #Do nothing
+		name = "EVTOPTE110000"
+		ai_chance = { 
+			factor = 56
+		}
+	}
+}
+
+
+country_event = { #Castile Royal Marriage
+	id = 60001
+	title = "EVTNAME60001"
+	desc = "EVTDESC60001"
+	picture = "royal_marriage"
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = CST
+		year = 1474
+		has_country_flag = royal_marriage_flag
+	}
+	
+	option = {
+		name = "EVTOPTA60001"
+		create_alliance = ARN
+		relation = {
+			who = ARN 
+			value = 100
+		}
+		ai_chance = { 
+			factor = 80 
+		} 
+	}
+	option = {
+		name = "EVTOPTB60001"
+		create_alliance = POR
+		relation = {
+			who = POR
+			value = 50
+		}
+		ai_chance = { 
+			factor = 20
+		}
+	}
+}
+country_event = { #The King Is NOT dead
+	id = 50054
+	news = yes
+	title = "EVTNAME50054"
+	desc = "EVTDESC50054"
+	picture = "the_king_is_not_dead"
+	
+	fire_only_once = no
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA50054"
+		militancy = 1.0
+		consciousness = 1.0
+		clr_country_flag = asssassination_on
+	}
+}
+country_event = { #fix pops event
+	id = 70020
+	title = "EVTNAME70020"
+	desc = "EVTDESC70020"
+	picture = "fixallpops"
+	
+	trigger = {
+		ai = no 
+	}
+	mean_time_to_happen = {
+		months = 0.0001
+	}
+
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPTA70020" 
+		any_pop = {
+			ideology = {
+				factor = 0.1
+				value = fervent_clergy
+			}
+			ideology = {
+				factor = 0.2
+				value = clergy
+			}
+			ideology = {
+				factor = 0.1
+				value = modern_clergy
+			}
+			ideology = {
+				factor = 0.2
+				value = petty_bourgeoisie
+			}
+			ideology = {
+				factor = 0.2
+				value = upper_bourgeoisie
+			}
+			ideology = {
+				factor = 0.2
+				value = nobility
+			}
+		}
+		add_country_modifier = {
+			name = stability_normal
+			duration = 113880
+		}
+	}
+}
+country_event = { #fix pops event
+	id = 70040
+	title = "EVTNAME70040"
+	desc = "EVTDESC70040"
+	picture = "fixallpops"
+	
+	trigger = {
+		ai = yes 
+	}
+	mean_time_to_happen = {
+		months = 0.0001
+	}
+
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPTA70040" 
+		any_pop = {
+			ideology = {
+				factor = 0.1
+				value = fervent_clergy
+			}
+			ideology = {
+				factor = 0.2
+				value = clergy
+			}
+			ideology = {
+				factor = 0.1
+				value = modern_clergy
+			}
+			ideology = {
+				factor = 0.2
+				value = petty_bourgeoisie
+			}
+			ideology = {
+				factor = 0.2
+				value = upper_bourgeoisie
+			}
+			ideology = {
+				factor = 0.2
+				value = nobility
+			}
+		}
+		add_country_modifier = {
+			name = stability_normal
+			duration = 113880
+		}
+	}
+}
+country_event = { #The player can choose whether or not to invade Constantinople 
+	id = 51421
+	news = yes
+	title = "EVTNAME51421"
+	desc = "EVTDESC551421"
+	picture = "warottoman"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		year = 1453
+		month = 4
+		tag = TUR
+		NOT = {
+			war_with = BYZ
+			BYZ = {
+				has_country_Flag = no_event_constantinople
+			}
+		}
+		exists = BYZ
+	}
+	option = {
+		name = "EVTOPTA51421"
+		war = {
+			target = BYZ
+			attacker_goal = { 
+				casus_belli = acquire_capital
+				casus_belli = humiliate
+			}
+			defender_goal = { 
+				casus_belli = liberate_country
+				casus_belli = acquire_state
+			}
+			call_ally = no
+		}
+		ai_chance = { 
+			factor = 100
+		}
+	}
+	option = {
+		name = "EVTOPTB51421"
+		rich_strata = { militancy = 0.3 }
+		ai_chance = { 
+			factor = 0
+		}
+	}
+}
+
+country_event = { #stability -1
+	id = 70041
+	title = "70044title"
+	desc = "70041desc"
+	picture = "stability"
+	
+	trigger = {
+		OR = {
+			pop_militancy = 1.0
+			war = yes
+			has_recently_lost_war = yes
+			AND = {
+				pop_militancy = 1.0
+				OR = {
+					war = yes
+					has_recently_lost_war = yes
+				}
+			}
+		}
+	}
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "70045a" 
+		add_country_modifier = {
+			name = stability_negative_one
+			duration = 113880
+		}
+		remove_country_modifier = stability_normal
+	}
+}
+country_event = { #stability -2
+	id = 70042
+	title = "70044title"
+	desc = "70042desc"
+	picture = "stability"
+	
+	trigger = {
+		OR = {
+			pop_militancy = 2.0
+			AND = {
+				pop_militancy = 2.0
+				OR = {
+					has_recently_lost_war = yes
+					war = yes
+				}
+			}
+		}
+	}
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "70045a" 
+		add_country_modifier = {
+			name = stability_negative_two
+			duration = 113880
+		}
+		remove_country_modifier = stability_negative_one
+	}
+}
+country_event = { #stability -3
+	id = 70043
+	title = "70044title"
+	desc = "70043desc"
+	picture = "stability"
+	
+	trigger = {
+		OR = {
+			pop_militancy = 3.0
+			war_exhaustion = 50
+			AND = {
+				pop_militancy = 3.0
+				war = yes
+			}
+		}
+		has_country_modifier = stability_negative_two
+	}
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "70045a" 
+		add_country_modifier = {
+			name = stability_negative_three
+			duration = 113880
+		}
+		remove_country_modifier = stability_negative_two
+	}
+}
+
+country_event = { #stability 0
+	id = 70044
+	title = "70044title"
+	desc = "70044desc"
+	picture = "stability"
+	
+	trigger = {
+		OR = {
+			has_country_modifier = stability_negative_two
+			has_country_modifier = stability_negative_three
+			has_country_modifier = stability_negative_one
+			has_country_modifier = stability_positive_one
+			has_country_modifier = stability_positive_two
+			has_country_modifier = stability_positive_three
+		}
+		NOT = {
+			OR = {
+				war_exhaustion = 50
+				pop_militancy = 1.0
+				war = yes
+				any_pop = {
+					is_accepted_culture = yes
+				}
+				any_pop = {
+					is_culture_group = yes
+				}
+				any_pop = {
+					is_state_religion = yes
+				}
+				any_pop = {
+					is_primary_culture = yes
+				}
+				prestige = 20
+			}
+		}
+	}
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "70045a" 
+		add_country_modifier = {
+			name = stability_normal
+			duration = 113880
+		}
+		any_country = {
+			limit = {
+				tag = THIS
+				has_country_modifier = stability_negative_one
+			}
+			remove_country_modifier = stability_negative_one
+		}
+		any_country = {
+			limit = {
+				tag = THIS
+				has_country_modifier = stability_negative_two
+			}
+			remove_country_modifier = stability_negative_two
+		}
+		any_country = {
+			limit = {
+				tag = THIS
+				has_country_modifier = stability_negative_three
+			}
+			remove_country_modifier = stability_negative_three
+		}
+		any_country = {
+			limit = {
+				tag = THIS
+				has_country_modifier = stability_positive_one
+			}
+			remove_country_modifier = stability_positive_one
+		}
+		any_country = {
+			limit = {
+				tag = THIS
+				has_country_modifier = stability_positive_two
+			}
+			remove_country_modifier = stability_positive_two
+		}
+		any_country = {
+			limit = {
+				tag = THIS
+				has_country_modifier = stability_positive_three
+			}
+			remove_country_modifier = stability_positive_three
+		}
+	}
+}
+country_event = { #stability 1
+	id = 70045
+	title = "70044title"
+	desc = "70045desc"
+	picture = "stability"
+	
+	trigger = {
+		OR = {
+			any_pop = {
+				is_accepted_culture = yes
+			}
+			any_pop = {
+				is_culture_group = yes
+			}
+			AND = {
+				war = no
+				NOT = { pop_militancy = 0.5 }
+			}
+		}
+	}
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "70045a" 
+		add_country_modifier = {
+			name = stability_positive_one
+			duration = 113880
+		}
+		remove_country_modifier = stability_normal
+	}
+}
+country_event = { #stability 2
+	id = 70046
+	title = "70044title"
+	desc = "70046desc"
+	picture = "stability"
+	
+	trigger = {
+		OR = {
+			AND = {
+				war = no
+				NOT = { pop_militancy = 0.1 }
+			}
+			any_pop = {
+				is_state_religion = yes
+			}
+			any_pop = {
+				is_primary_culture = yes
+			}
+		}
+	}
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "70045a" 
+		add_country_modifier = {
+			name = stability_positive_two
+			duration = 113880
+		}
+		remove_country_modifier = stability_positive_one
+	}
+}
+country_event = { #stability 3
+	id = 70046
+	title = "70044title"
+	desc = "70047desc"
+	picture = "stability"
+	
+	trigger = {
+		AND = {
+			prestige = 20
+			has_country_modifier = stability_positive_two
+		}
+	}
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "70045a" 
+		add_country_modifier = {
+			name = stability_positive_three
+			duration = 113880
+		}
+		remove_country_modifier = stability_positive_two
+	}
+}
+
+country_event = {
+	id = 477877794
+	title = "Manage Relationship"
+	desc = "Who do you want to interact?."
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Neighbours"
+		
+		any_country = {
+			limit = {
+				exists = yes
+				neighbour = THIS
+				NOT = {
+					tag = THIS
+				}
+			}
+			set_country_flag = interacted_with
+			country_event = 477877793
+		}
+		ai_chance = { 
+			factor = 70
+		}
+	}
+	option = {
+		name = "Exit"
+		ai_chance = { 
+			factor = 0
+		}
+	}
+}
+country_event = {
+	id = 477877792
+	title = "$FROMCOUNTRY$"
+	desc = "If $FROMCOUNTRY$ is the country you want to interact with, select an option. Otherwise, select 'Next country' to cycle through, or select 'Exit options' to return to the game."
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Offer Royal Marriage"
+		any_country = {
+			limit = {
+				exists = yes
+				neighbour = THIS
+				NOT = { has_country_flag = f_royal_marriage }
+			}
+			clr_country_flag = interacted_with
+			country_event = 477877755
+		}
+		ai_chance = { 
+			factor = 20
+		}
+	}
+	
+	option = {
+		name = "Break Royal Marriage"
+		any_country = {
+			limit = {
+				exists = yes
+				neighbour = THIS
+				has_country_flag = f_royal_marriage
+			}
+			clr_country_flag = interacted_with
+		}
+		ai_chance = { 
+			factor = 5
+		}
+	}
+	
+	#option = {
+	#	name = "Offer Vassalage"
+	#	any_owned = {
+	#		limit = {
+	#			is_core = FROM
+	#			NOT = { is_core = THIS }
+	#		}
+	#		secede_province = FROM
+	#	}
+	#	any_country = {
+	#		limit = {
+	#			exists = yes
+	#			vassal_of = THIS
+	#		}
+	#		clr_country_flag = interacted_with
+	#	}
+	#}
+	
+	#option = {
+	#	name = "Demand Tribute"
+	#	any_owned = {
+	#		limit = {
+	#			is_core = FROM
+	#			NOT = { is_core = THIS }
+	#		}
+	#		secede_province = FROM
+	#	}
+	#	any_country = {
+	#		limit = {
+	#			exists = yes
+	#			neighbour = THIS
+	#		}
+	#		clr_country_flag = interacted_with
+	#	}
+	#}
+	
+	option = {
+		name = "Next country"
+		random_country = {
+			limit = {
+				neighbour = THIS
+				exists = yes
+				NOT = { 
+					has_country_flag = interacted_with 
+					tag = THIS
+				}
+			}
+			country_event = 477877793
+			THIS = { set_country_flag = possible_interactions }
+		}
+		any_country = {
+			limit = {
+				neighbour = THIS
+				exists = yes
+				THIS = { NOT = { has_country_flag = possible_interactions } }
+			}
+			clr_country_flag = interacted_with
+		}
+	}
+	
+	option = {
+		name = "Exit options"
+		any_country = {
+			limit = {
+				exists = yes
+				neighbour = THIS
+			}
+			clr_country_flag = interacted_with
+		}
+	}
+}
+country_event = {
+	id = 477877755
+	title = "Proposal - Royal Marriage"
+	desc = "$FROMCOUNTRY$ offered us a marriage between our two kingdoms."
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Accept"
+		set_country_flag = interacted_with
+		set_country_flag = f_royal_marriage
+		FROM = { clr_country_flag = possible_interactions }
+		create_alliance = FROM
+		diplomatic_influence = {
+			who = FROM
+			value = 80
+		}
+		ai_chance = { 
+			factor = 40
+		}
+	}
+	option = {
+		name = "Decline"
+		set_country_flag = interacted_with
+		FROM = { clr_country_flag = possible_interactions }
+		ai_chance = { 
+			factor = 60
+		}
+	}
+}
+country_event = {
+	id = 477877755
+	title = "Break - Royal Marriage"
+	desc = "$FROMCOUNTRY$ is breaking us a marriage between our two kingdoms."
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ok."
+		set_country_flag = interacted_with
+		clr_country_flag = f_royal_marriage
+		FROM = { clr_country_flag = possible_interactions }
+		leave_alliance = FROM
+		diplomatic_influence = {
+			who = FROM
+			value = 5
+		}
+	}
+}
+country_event = {
+	id = 477877793
+	title = "AI: Interactions"
+	desc = "This event lets your neighbour interact with you. If you are a player, just close this."
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		set_country_flag = interacted_with
+		FROM = { clr_country_flag = possible_interactions }
+		FROM = { country_event = 477877792 }
+	}
+}
+#AiMinorSelfSelect_title
+#Aachen, Ravensburg, Bremen, East Frisia, constitutional Republic, Pskov, Bologna, Luberk

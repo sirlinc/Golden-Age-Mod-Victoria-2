@@ -1,0 +1,161 @@
+
+country_event = {
+
+	id = 98007 # Burgundian Inheritance
+
+	title = "EVTNAME98007"
+	desc = "EVTDESC98007"
+	picture = burgundy
+
+	trigger = {
+		OR = {
+			tag = AUS
+		}
+		OR = {
+			exists = BRG
+		}
+		OR = {
+			BRG = {
+                        is_greater_power = no
+                        }
+		}
+		year = 1477
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1476
+		}
+		modifier = {
+			factor = 0.5 #increase likelihood to happen
+			year = 1475
+		}
+	}
+
+	option = {
+		name = "EVT98007OPTA"
+		relation = { who = FRA value = 50 }
+			BRG = {
+				all_core = {
+					limit = {
+						 is_core = HLR 
+					}
+					add_core = AUS
+				}
+				all_core = {
+					limit = {
+						 NOT = { is_core = HLR }
+					}
+					add_core = FRA
+				}
+			}
+			AUS = {
+                        inherit = BRG
+                        inherit = HLL
+		            inherit = BRB
+		            inherit = FLA
+				428 = {
+					secede_province = FRA
+				}
+				431 = {
+					secede_province = FRA
+				}
+				429 = {
+					secede_province = FRA
+				}
+				401 = {
+					secede_province = FRA
+				}
+				402 = {
+					secede_province = FRA
+				}
+		     }
+			HLL = {
+				all_core = {
+					add_core = AUS
+				}
+			}
+			BRB = {
+				all_core = {
+					add_core = AUS
+				}
+			}
+			FLA = {
+				all_core = {
+					add_core = AUS
+				}
+				all_core = {
+					add_core = HLR
+				}
+			}
+			NEV = {
+				all_core = {
+					add_core = FRA
+				}
+			}
+			FRA = {
+				inherit = NEV
+				}
+		badboy = 10
+		ai_chance = {
+			factor = 60
+		}
+	}
+
+	option = {
+		name = "EVT98007OPTB"
+	BRG = {
+		all_core = {
+			add_core = AUS
+			}
+		}
+	AUS = {
+		inherit = BRG
+		inherit = HLL
+		inherit = BRB
+		inherit = FLA
+		inherit = NEV
+		}
+			HLL = {
+				all_core = {
+					add_core = AUS
+				}
+			}
+			BRB = {
+				all_core = {
+					add_core = AUS
+				}
+			}
+			FLA = {
+				all_core = {
+					add_core = AUS
+				}
+				all_core = {
+					add_core = HLR
+				}
+			}
+			NEV = {
+				all_core = {
+					add_core = AUS
+				}
+			}
+
+		relation = { who = FRA value = -150 }
+		badboy = 20
+		ai_chance = {
+			factor = 30
+		}
+	}
+
+	option = {
+		name = "EVT98007OPTC"
+	diplomatic_influence = { who = BRG value = 200 }
+		ai_chance = {
+			factor = 10
+		}
+	}
+}

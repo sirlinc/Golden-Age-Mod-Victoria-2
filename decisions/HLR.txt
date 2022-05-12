@@ -1,0 +1,803 @@
+political_decisions = { #All decisions by German2002
+	enact_reichsreform = {
+		picture = hre_reform_1
+		potential = {
+			has_country_flag = hre_emperor
+			NOT = {
+				exists = HLR
+			}
+			NOT = { has_country_flag = enacted_reichsreform }
+		}
+		
+		allow = {
+			HLR = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			has_recently_lost_war = no
+			is_greater_power = yes
+			war = no
+			THIS = {
+				NOT = { has_country_modifier = hre_mendling }
+			}
+		}
+		effect = {
+			set_country_flag = enacted_reichsreform
+			HLR = {
+				all_core = {
+					owner = {
+						add_country_modifier = {
+							name = reichsreform
+							duration = -1
+						}
+					}
+				}				
+			}
+			add_country_modifier = {
+				name = reichsreform
+				duration = -1
+			}
+			add_country_modifier = {
+				name = hre_mendling
+				duration = 2600
+			}
+			prestige = 20
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	institute_reichsregiment = {
+		picture = hre_reform_3
+		potential = {
+			has_country_flag = hre_emperor
+			NOT = {
+				exists = HLR
+			}
+			NOT = { has_country_flag = instituted_reichsregiment }
+		}
+		
+		allow = {
+            has_country_flag = enacted_reichsreform
+			NOT = { has_country_modifier = hre_mendling }
+			has_recently_lost_war = no
+			is_greater_power = yes
+			war = no
+			HLR = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			military_score = 50
+		}
+		effect = {
+			set_country_flag = instituted_reichsregiment
+			HLR = {
+				all_core = {
+						owner = {
+					add_country_modifier = {
+						name = reichsregiment
+						duration = -1
+					}
+							}
+						}				
+					}
+				add_country_modifier = {
+					name = reichsregiment
+					duration = -1
+				}
+				add_country_modifier = {
+					name = hre_mendling
+					duration = 2600
+				}
+				prestige = 20
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	reform_the_hofgericht = {
+		picture = hre_reform_2
+		potential = {
+			has_country_flag = hre_emperor
+			NOT = {
+				exists = HLR
+			}
+			NOT = { has_country_flag = reformed_the_hofgericht }
+		}
+		
+		allow = {
+                  has_country_flag = enacted_reichsreform
+			has_recently_lost_war = no
+			is_greater_power = yes
+			war = no
+			HLR = {
+			all_core = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+		}
+            }
+		effect = {
+			set_country_flag = reformed_the_hofgericht
+			HLR = {
+				all_core = {
+						owner = {
+					add_country_modifier = {
+						name = the_hofgericht
+						duration = -1
+					}
+							}
+						}				
+					}
+				add_country_modifier = {
+					name = the_hofgericht
+					duration = -1
+				}
+				add_country_modifier = {
+					name = hre_mendling
+					duration = 2600
+				}
+				prestige = 20
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	reform_imperial_circles = {
+		picture = imperial_circles
+		potential = {
+			has_country_flag = hre_emperor
+			NOT = {
+				exists = HLR
+			}
+			NOT = { has_country_flag = reformed_imperial_circles }
+		}
+		
+		allow = {
+			has_recently_lost_war = no
+			is_greater_power = yes
+			war = no
+			HLR = {
+			all_core = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+		}
+			has_country_modifier = the_hofgericht
+			has_country_modifier = reichsregiment
+			has_country_modifier = reichsreform
+		}
+		effect = {
+			set_country_flag = reformed_imperial_circles
+			all_core = {
+				limit = {
+					is_core = HLR
+				}
+				annex_to = THIS
+			}
+			382 = {
+				add_core = AUS
+			}
+			377 = {
+				add_core = AUS
+			}
+			614 = {
+				add_core = AUS
+			}
+			734 = {
+				add_core = AUS
+			}
+			599 = {
+				add_core = BAV
+			}
+			592 = {
+				add_core = BAV
+			}
+			613 = {
+				add_core = BAV
+			}
+			600 = {
+				add_core = BAV
+			}
+			602 = {
+				add_core = BAV
+			}
+			601 = {
+				add_core = BAV
+			}
+			595 = {
+				add_core = BAV
+			}
+			597 = {
+				add_core = BAV
+			}
+			598 = {
+				add_core = BAV
+			}
+			release_vassal = BAV
+			560 = {
+				add_core = SAX
+			}
+			561 = {
+				add_core = SAX
+			}
+			562 = {
+				add_core = SAX
+			}
+			554 = {
+				add_core = SAX
+			}
+			555 = {
+				add_core = SAX
+			}
+			553 = {
+				add_core = SAX
+			}
+			release_vassal = SAX
+			594 = {
+				add_core = WUR
+			}
+			589 = {
+				add_core = WUR
+			}
+			591 = {
+				add_core = WUR
+			}
+			590 = {
+				add_core = WUR
+			}
+			569 = {
+				add_core = WUR
+			}
+			586 = {
+				add_core = WUR
+			}
+			588 = {
+				add_core = WUR
+			}
+			603 = {
+				add_core = WUR
+			}
+			606 = {
+				add_core = WUR
+			}
+			604 = {
+				add_core = WUR
+			}
+			605 = {
+				add_core = WUR
+			}
+			607 = {
+				add_core = WUR
+			}
+			release_vassal = WUR
+			WUR = {
+				add_accepted_culture = swiss
+			}
+			544 = {
+				add_core = BRN
+			}
+			548 = {
+				add_core = BRN
+			}
+			547 = {
+				add_core = BRN
+			}
+			546 = {
+				add_core = BRN
+			}
+			679 = {
+				add_core = BRN
+			}
+			680 = {
+				add_core = BRN
+			}
+			692 = {
+				add_core = BRN
+			}
+			release_vassal = BRN
+			529 = {
+				add_core = HOL
+			}
+			530 = {
+				add_core = HOL
+			}
+			528 = {
+				add_core = HOL
+			}
+			release_vassal = HOL
+			581 = {
+				add_core = KOL
+			}
+			580 = {
+				add_core = KOL
+			}
+			577 = {
+				add_core = KOL
+			}
+			578 = {
+				add_core = KOL
+			}
+			2561 = {
+				add_core = KOL
+			}
+			584 = {
+				add_core = KOL
+			}
+			566 = {
+				add_core = KOL
+			}
+			576 = {
+				add_core = KOL
+			}
+			381 = {
+				add_core = KOL
+			}
+			565 = {
+				add_core = KOL
+			}
+			564 = {
+				add_core = KOL
+			}
+			567 = {
+				add_core = KOL
+			}
+			568 = {
+				add_core = KOL
+			}
+			391 = {
+				add_core = KOL
+			}
+			396 = {
+				add_core = KOL
+			}
+			395 = {
+				add_core = KOL
+			}
+			398 = {
+				add_core = KOL
+			}
+			release_vassal = KOL
+			KOL = {
+				add_accepted_culture = dutch
+				add_accepted_culture = flemish
+			}
+			570 = {
+				add_core = PAL
+			}
+			2560 = {
+				add_core = PAL
+			}
+			596 = {
+				add_core = PAL
+			}
+			574 = {
+				add_core = PAL
+			}
+			572 = {
+				add_core = PAL
+			}
+			412 = {
+				add_core = PAL
+			}
+			409 = {
+				add_core = PAL
+			}
+			414 = {
+				add_core = PAL
+			}
+			411 = {
+				add_core = PAL
+			}
+			413 = {
+				add_core = PAL
+			}
+			release_vassal = PAL
+			PAL = {
+				add_accepted_culture = french
+			}
+			532 = {
+				add_core = HAN
+			}
+			531 = {
+				add_core = HAN
+			}
+			539 = {
+				add_core = HAN
+			}
+			540 = {
+				add_core = HAN
+			}
+			543 = {
+				add_core = HAN
+			}
+			542 = {
+				add_core = HAN
+			}
+			538 = {
+				add_core = HAN
+			}
+			541 = {
+				add_core = HAN
+			}
+			535 = {
+				add_core = HAN
+			}
+			534 = {
+				add_core = HAN
+			}
+			536 = {
+				add_core = HAN
+			}
+			537 = {
+				add_core = HAN
+			}
+			584 = {
+				add_core = HAN
+			}
+			583 = {
+				add_core = HAN
+			}
+			586 = {
+				add_core = HAN
+			}
+			585 = {
+				add_core = HAN
+			}
+			release_vassal = HAN
+			HAN = {
+				add_accepted_culture = dutch
+			}
+			611 = {
+				add_core = LOM
+			}
+			2568 = {
+				add_core = LOM
+			}
+			609 = {
+				add_core = LOM
+			}
+			465 = {
+				add_core = LOM
+			}
+			466 = {
+				add_core = LOM
+			}
+			720 = {
+				add_core = LOM
+			}
+			721 = {
+				add_core = LOM
+			}
+			472 = {
+				add_core = LOM
+			}
+			725 = {
+				add_core = LOM
+			}
+			724 = {
+				add_core = LOM
+			}
+			473 = {
+				add_core = LOM
+			}
+			723 = {
+				add_core = LOM
+			}
+			739 = {
+				add_core = LOM
+			}
+			742 = {
+				add_core = LOM
+			}
+			746 = {
+				add_core = LOM
+			}
+			745 = {
+				add_core = LOM
+			}
+			748 = {
+				add_core = LOM
+			}
+			747 = {
+				add_core = LOM
+			}
+			744 = {
+				add_core = LOM
+			}
+			740 = {
+				add_core = LOM
+			}
+			release_vassal = LOM
+			prestige = 50
+			badboy = 10
+			add_country_modifier = {
+				name = hre_mendling
+				duration = 2600
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	proclaim_erbkaisertum = {
+		picture = erbkaisertum
+		potential = {
+			has_country_flag = hre_emperor
+			NOT = {
+				exists = HLR
+			}
+			NOT = { has_country_flag = proclaimed_erbkaisertum }
+		}
+		
+		allow = {
+			has_recently_lost_war = no
+			is_greater_power = yes
+			war = no
+			HLR = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			has_country_flag = reformed_imperial_circles
+		}
+		effect = {
+			set_country_flag = proclaimed_erbkaisertum
+		HLR = {
+			all_core = {
+					owner = {
+				add_country_modifier = {
+					name = erbkaisertum
+					duration = -1
+				}
+						}
+					}				
+				}
+			add_country_modifier = {
+				name = erbkaisertum
+				duration = -1
+			}
+			add_country_modifier = {
+				name = hre_mendling
+				duration = 2000
+			}
+			badboy = 5
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	renoveto_imperii = {
+		picture = renoveto_imperii
+		potential = {
+			has_country_flag = hre_emperor
+			NOT = {
+				exists = HLR
+			}
+		}
+		
+		allow = {
+			has_recently_lost_war = no
+			has_country_flag = proclaimed_erbkaisertum
+			is_greater_power = yes
+			war = no
+			HLR = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			NOT = { has_country_modifier = hre_mendling }
+		}
+		effect = {
+			change_tag = HLR
+			set_global_flag = no_elections
+			all_core = {
+				limit = {
+					is_core = HLR
+				}
+					annex_to = HLR
+			}
+			set_country_flag = hre_formed
+			badboy = 5
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	be_a_member_of_hre = {
+		picture = member_holy_roman_empire
+		potential = {
+			OR = {
+				primary_culture = german
+				primary_culture = boehmisch
+				primary_culture = north_german
+				primary_culture = south_german
+				primary_culture = french
+				accepted_culture = german
+				accepted_culture = boehmisch
+				accepted_culture = north_german
+				accepted_culture = south_german
+				accepted_culture = french
+			}
+			NOT = {
+				OR = {
+					has_country_flag = hre_member
+					has_country_flag = hre_emperor
+					has_country_flag = elector_hre
+			}
+		}
+		allow = {
+			relation = {
+				who = AUS
+				value = 70
+			}
+			war = no
+		}
+		effect = {
+			set_country_flag = hre_member
+			prestige = 3
+			badboy = -6
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	leave_hre = {
+		picture = leave_hre
+		potential = {
+			has_country_flag = hre_member
+			NOT = {
+				has_country_flag = hre_emperor
+			}
+		}
+		allow = {
+			OR = {
+				AND = {
+					NOT = { 
+						relation = {
+							who = AUS
+							value = -76
+						}	
+					}
+					has_recently_lost_war = yes
+				}
+				AND = {
+					war = no
+					average_militancy = 2.0
+					has_recently_lost_war = yes
+					NOT = {
+						OR = {
+							pop_majority_culture = french
+							pop_majority_culture = south_german
+							pop_majority_culture = north_german
+							pop_majority_culture = boehmisch
+							pop_majority_culture = german
+						}
+					}
+				}
+			}
+			NOT = {
+				OR = {
+					pop_majority_culture = french
+					pop_majority_culture = south_german
+					pop_majority_culture = north_german
+					pop_majority_culture = boehmisch
+					pop_majority_culture = german
+				}
+			}
+			badboy = 36
+		}
+		effect = {
+			clr_country_flag = hre_member
+			clr_country_flag = elector_hre
+			prestige = 5
+			badboy = 6
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	be_a_elector = {
+		picture = be_a_elector
+		potential = {
+			has_country_flag = hre_member
+			NOT = { has_country_flag = elector_hre }
+		}
+		allow = {
+			relation = {
+				who = AUS
+				value = 150
+			}
+			war = no
+			OR = { 
+				NOT = { 
+					has_country_modifier = small_nation 
+				}			
+				AND = {
+					prestige = 10
+					has_recently_lost_war = no
+				}
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
+			is_independant = yes
+		}
+		effect = {
+			set_country_flag = elector_hre
+			prestige = 3
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	be_the_emperor = {
+		picture = be_the_emperor
+		potential = {
+			has_country_flag = hre_member
+			has_country_flag = elector_hre
+			NOT = { has_country_flag = hre_emperor }
+			NOT = { has_global_flag = no_elections }
+		}
+		allow = {
+			is_greater_power = yes
+			war = no
+			has_recently_lost_war = no
+			OR = {
+				NOT = {
+					exists = AUS
+				}
+				THIS = { 
+					is_sphere_leader_of = AUS
+				}
+			}
+			industrial_score = 4
+			is_independant = yes
+			is_mobilised = no 
+			prestige = 17
+		}
+		effect = {
+			set_country_flag = hre_emperor
+			prestige = 3
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

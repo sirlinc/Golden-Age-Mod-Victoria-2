@@ -1,0 +1,195 @@
+political_decisions = {
+
+	dissolve_parliament = {
+		picture = parliament
+		potential = {
+			OR = {
+				government = parliamentary_republic
+				government = parliamentary_monarchy
+			}
+			civilized = yes
+			NOT = {
+				has_country_flag = dissolved_parliament
+			}
+		}
+		allow = {
+			prestige = 5
+			militancy = 1.5
+		}
+		
+		effect = {
+			badboy = 2
+			prestige = -5
+			consciousness = -0.8
+			militancy = 1.2
+			set_country_flag = dissolved_parliament
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 10
+				war = yes
+			}
+			modifier = {
+				factor = 20
+				militancy = 2.5
+			}
+		}
+	}
+	open_parliament = {
+		picture = open_parliament
+		potential = {
+			AND = {
+				OR = {
+					government = parliamentary_republic
+					government = parliamentary_monarchy
+				}
+				civilized = yes
+				has_country_flag = dissolved_parliament
+			}
+		}
+		allow = {
+			prestige = 5
+			militancy = 1.5
+		}
+		
+		effect = {
+			badboy = -4
+			prestige = -5
+			consciousness = 0.8
+			militancy = -1.2
+			clr_country_flag = dissolved_parliament
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				war = no
+			}
+		}
+	}
+	aztec_human_sacrifice = { #Aztec Human Sacrifice
+		picture = aztec_human_sacrifice
+		potential = {
+			primary_culture = nahua
+			NOT = {
+				has_country_flag = aztec
+			}
+		}	
+		allow = {
+			money = 2000
+			war = yes
+		}
+		
+		effect = {
+			badboy = 3
+			consciousness = 1.0
+			militancy = -4.0
+			money = -2000
+			set_country_flag = aztec
+		}
+		ai_will_do = {
+			factor = 0.3
+		}
+	}
+	assassination_of_king = { 
+		picture = assassination_of_king
+		potential = {
+			NOT = {
+				has_country_flag = assassination_on
+			}
+		}	
+		allow = {
+			money = 2000
+			militancy = 2.0
+			pop_militancy = 1.0
+			consciousness = 2.0
+			NOT = {
+				ruling_party_ideology = nobility
+			}
+		}
+		effect = {
+			random = {
+				chance = 50
+				event = 50001
+				set_country_flag = assassination_on
+				country_event = 50001
+				pop_militancy = -2.0
+				consciousness = -1.2
+				militancy = -1.2
+			}
+			random = {
+				chance = 50
+				event = 50002
+				set_country_flag = assassination_of
+				country_event = 50054
+			}
+		}
+		ai_will_do = {
+			factor = 0.3
+		}
+	}
+	become_absolutist = { 
+		picture = absolutism
+		potential = {
+			government = feudal_monarchy
+		}	
+		allow = {
+			war = no
+			ruling_party_ideology = nobility
+			civilized = yes
+		}
+		effect = {
+			government = absolute_monarchy
+			militancy = 1.4
+			upper_house = {
+				ideology = nobility
+				value = 0.6
+			}
+			prestige = 2
+		}
+		ai_will_do = {
+			factor = 0.75
+		}
+	}
+	prevent_declaration_war_constantinople = { 
+		picture = constantinople
+		potential = {
+			tag = BYZ
+			NOT = {
+				war_with = TUR
+				has_country_flag = no_event_constantinople
+				year = 1454
+			}
+		}	
+		allow = {
+			OR = {
+				is_secondary_power = yes
+				is_greater_power = yes
+			}
+			is_independant = yes
+			stronger_army_than = TUR
+		}
+		effect = {
+			set_country_flag = no_event_constantinople
+		}
+		ai_will_do = {
+			factor = 0.84
+		}
+	}
+	manage_relationships_for_neighbours = { 
+		picture = manage
+		allow = {
+			war = no
+			is_independant = yes
+			is_mobilised = no
+			prestige = 10
+			ai = no
+		}
+		effect = {
+			country_event = 477877794
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+}

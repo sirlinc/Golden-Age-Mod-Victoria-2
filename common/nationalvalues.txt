@@ -1,0 +1,33 @@
+nv_order = {
+	mobilisation_size = 0.04
+	mobilisation_economy_impact = 1.0
+}
+
+nv_liberty = {
+	mobilisation_size = 0.02
+	mobilisation_economy_impact = 0.75
+}
+
+nv_equality = {
+	mobilisation_size = 0.06
+	mobilisation_economy_impact = 1.25
+}
+
+nv_catholic = {
+	badboy = 0.01
+	cb_generation_speed_modifier = 0.04
+	influence_modifier = 0.05
+	mobilisation_size = 0.03
+	mobilisation_economy_impact = 0.5
+	research_points_modifier = 0.05
+	tax_efficiency = 0.04
+}
+
+nv_hussite = {
+	badboy = 0.01
+	tax_efficiency = -0.02
+	diplomatic_points_modifier = 0.05
+	mobilisation_size = 0.06
+	mobilisation_economy_impact = 1.25
+	
+}

@@ -1,0 +1,392 @@
+#economy_and_commerce
+urban_centers = {
+	area = economy_and_commerce
+	year = 1444
+	cost = 3600
+	administrative_efficiency = 0.05
+	
+	tax_eff = 3
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 3.5
+			rank = 16
+		}
+		modifier = {
+			factor = 1.5
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.6
+		}
+	}
+}
+early_trade = {
+	area = economy_and_commerce
+	year = 1454
+	cost = 4600
+
+	administrative_efficiency = 0.05
+	tax_eff = 3
+	influence = 0.2
+	farm_rgo_eff = 0.1
+	factory_input = -0.01
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 3.5
+			rank = 16
+		}
+		modifier = {
+			factor = 1.5
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = industrial_tech_school
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.6
+		}
+	}
+}
+tech_name_wip = {
+	area = economy_and_commerce
+	year = 1444
+	cost = 3600
+	administrative_efficiency = 0.05
+	
+	tax_eff = 3
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 3.5
+			rank = 16
+		}
+		modifier = {
+			factor = 1.5
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.6
+		}
+	}
+}
+tech_economy_and_commerce_i = {
+	area = economy_and_commerce
+	year = 1444
+	cost = 3600
+	administrative_efficiency = 0.05
+	
+	tax_eff = 3
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 3.5
+			rank = 16
+		}
+		modifier = {
+			factor = 1.5
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.6
+		}
+	}
+}
+tech_economy_and_commerce_ii = {
+	area = economy_and_commerce
+	year = 1444
+	cost = 3600
+	administrative_efficiency = 0.05
+	
+	tax_eff = 3
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 3.5
+			rank = 16
+		}
+		modifier = {
+			factor = 1.5
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.6
+		}
+	}
+}
+tech_economy_and_commerce_iii = {
+	area = economy_and_commerce
+	year = 1444
+	cost = 3600
+	administrative_efficiency = 0.05
+	
+	tax_eff = 3
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 3.5
+			rank = 16
+		}
+		modifier = {
+			factor = 1.5
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.6
+		}
+	}
+}
+tech_economy_and_commerce_iv = {
+	area = economy_and_commerce
+	year = 1444
+	cost = 3600
+	administrative_efficiency = 0.05
+	
+	tax_eff = 3
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 3.5
+			rank = 16
+		}
+		modifier = {
+			factor = 1.5
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.6
+		}
+	}
+}
+tech_economy_and_commerce_v = {
+	area = economy_and_commerce
+	year = 1444
+	cost = 3600
+	administrative_efficiency = 0.05
+	
+	tax_eff = 3
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 3.5
+			rank = 16
+		}
+		modifier = {
+			factor = 1.5
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.6
+		}
+	}
+}
+tech_economy_and_commerce_vi = {
+	area = economy_and_commerce
+	year = 1444
+	cost = 3600
+	administrative_efficiency = 0.05
+	
+	tax_eff = 3
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 3.5
+			rank = 16
+		}
+		modifier = {
+			factor = 1.5
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.6
+		}
+	}
+}
+#society
+
+schools = {
+	area = society
+	year = 1444
+	cost = 3600
+	administrative_efficiency = 0.05
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.1
+			rank = 16
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = culture_tech_school
+		}
+	}
+}
+
+national_focus_i = {
+	area = society
+	year = 1454
+	cost = 3600
+
+	max_national_focus = 1
+	
+	ai_chance = {
+		factor = 11
+		modifier = {
+			factor = 1.02
+			tech_school = culture_tech_school
+		}
+		modifier = {
+			factor = 6
+			is_greater_power = yes
+			year = 1850
+		}
+	}
+}
+
+#production
+horses = {
+	area = production
+	year = 1200
+	cost = 1000
+	activate_building = stable_build 
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.1
+			rank = 16
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = workshop_school
+		}
+	}
+}
+basic_tools = {
+	area = production
+	year = 1444
+	cost = 3600
+	activate_building = cement_factory 
+	activate_building = construction_tools_factory 
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.1
+			rank = 16
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = workshop_school
+		}
+	}
+}
+improved_tools = {
+	area = production
+	year = 1490
+	cost = 3600
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.1
+			rank = 16
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = workshop_school
+		}
+	}
+}

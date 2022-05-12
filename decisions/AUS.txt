@@ -1,0 +1,233 @@
+political_decisions = { #All decisions by German2002
+
+	secure_electors = {
+		picture = flag_hre
+		potential = {
+            tag = AUS
+			NOT = { has_country_flag = secured_electors }
+		}
+		allow = {
+			relation = { who = BRN value = 150 }
+			relation = { who = SAX value = 150 }
+			relation = { who = PAL value = 150 }
+		}
+		effect = {
+            prestige = 10
+            add_country_flag = secured_electors
+			AUS = {
+				all_cores = {
+					add_core = BOH
+				}
+				add_country_modifier = {
+					name = stability_positive_one
+					duration = 180
+				}
+			}
+			badboy = 15
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	crown_of_Bohemia = {
+		picture = prussia_germany
+		potential = {
+			tag = AUS 
+			NOT = { has_country_flag = crown_of_bohemia }
+                  has_country_flag = secured_electors
+		}
+		
+		allow = {
+			war = no
+			owns = 625
+		}
+		
+		effect = {
+            prestige = 20
+			set_country_flag = crown_of_bohemia
+			release_vassal = BOH
+			create_alliance = BOH
+			create_vassal = BOH
+			diplomatic_influence = { who = BOH value = 300 }
+			X08 = {
+				all_cores = {
+					add_core = AUS
+					add_core = BOH
+				}
+			}
+			X22 = {
+				all_cores = {
+				add_core = AUS
+				add_core = BOH
+				}
+			}
+			BOH = {
+				primary_culture = south_german
+                add_accepted_culture = czech
+				inherit = X08
+				inherit = X22
+			}
+			badboy = -10
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	the_decline_of_hungary = {
+		picture = flag_hre
+		potential = {
+            tag = AUS
+			NOT = { has_country_flag = the_decline_of_hungary }
+			has_country_flag = crown_of_bohemia
+		}
+		allow = {
+			HUN = {
+				is_greater_power = no
+				NOT = { alliance_with = AUS }
+				NOT = { 
+					relation = { who = AUS value = 0 } 
+				}
+			}
+		}
+		effect = {
+			prestige = 10
+            add_country_flag = the_decline_of_hungary
+			HUN = {
+				all_cores = {
+					add_core = AUS
+				}
+			}
+			badboy = 15
+			add_country_modifier = {
+				name = stability_positive_one
+				duration = 180
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	habsburg_hungary = {
+		picture = prussia_germany
+		potential = {
+			tag = AUS 
+			NOT = { has_country_flag = habsburg_hungary }
+            has_country_flag = the_decline_of_hungary
+		}
+		
+		allow = {
+			war = no
+			owns = 641
+		}
+		
+		effect = {
+            prestige = 20
+			set_country_flag = habsburg_hungary
+			release_vassal = HUN
+			create_alliance = HUN
+			create_vassal = HUN
+			diplomatic_influence = { who = HUN value = 300 }
+			SIE = {
+				all_cores = {
+					add_core = AUS
+					add_core = HUN
+				}
+			}
+			CRO = {
+				all_cores = {
+					add_core = AUS
+					add_core = HUN
+				}
+			}
+			HUN = {
+                              primary_culture = south_german
+                              add_accepted_culture = hungarian
+				      inherit = CRO
+				      inherit = SIE
+			}
+			badboy = -10
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	centralize_the_habsburg_realms = {
+		picture = prussia_germany
+		potential = {
+			tag = AUS 
+			NOT = { has_country_flag = one_empire }
+                  has_country_flag = habsburg_hungary
+		}
+		
+		allow = {
+			war = no
+			HUN = {
+				is_vassal = this
+			}
+			BOH = {
+				is_vassal = this
+			}
+            year = 1550
+		}
+		effect = {
+            prestige = 20
+			set_country_flag = one_empire
+			inherit = HUN
+                  add_accepted_culture = hungarian
+			inherit = BOH
+                  add_accepted_culture = czech
+                  badboy = 5
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	balkan_ambitions = {
+		picture = passarowitz
+		potential = {
+			tag = AUS
+			has_country_flag = one_empire
+			NOT = { has_country_flag = balkan_ambitions }	
+		}
+		allow = {
+			war_policy = jingoism
+			641 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+			771 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+		}
+		effect = {
+			set_country_flag = balkan_ambitions
+			BOS = {
+				all_core = {
+                        add_core = AUS
+                }
+			}
+			SER = {
+				all_core = {
+                        add_core = AUS
+                        }
+			}
+			CRO = {
+				all_core = {
+                        add_core = AUS
+                        }
+			}
+			badboy = 10
+		}
+		ai_will_do = {
+			factor = 1 
+		}
+	}
+}

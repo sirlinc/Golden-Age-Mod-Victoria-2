@@ -1,0 +1,9 @@
+bookmark =
+{
+	name = "EU4_NAME"
+	desc = "EU4_DESC"
+	date = 1444.11.11
+	cameraX = 2950 
+	cameraY = 1550
+}
+
