@@ -1,0 +1,7 @@
+owner=QAR
+controller=QAR
+add_core=IRQ
+add_core=QAR
+trade_goods = sulphur
+life_rating = 35
+terrain = desert

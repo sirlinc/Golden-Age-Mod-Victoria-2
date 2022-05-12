@@ -1,0 +1,8 @@
+owner=DTT
+controller=DTT
+add_core=DTT
+add_core=GER
+add_core=HLR
+trade_goods = fish
+life_rating = 35
+terrain = plains

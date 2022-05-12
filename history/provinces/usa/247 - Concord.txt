@@ -1,0 +1,5 @@
+owner=ABE
+controller=ABE
+trade_goods = timber
+life_rating = 35
+terrain = woods

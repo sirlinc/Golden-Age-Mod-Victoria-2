@@ -1,0 +1,9 @@
+owner=X19
+controller=ANZ
+add_core=ANZ
+add_core=ARA
+add_core=X19
+trade_goods = grain
+life_rating = 35
+terrain = desert
+fort = 2

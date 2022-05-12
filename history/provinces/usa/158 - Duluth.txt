@@ -1,0 +1,5 @@
+owner=CYN
+controller=CYN
+trade_goods = iron
+life_rating = 35
+terrain = forest

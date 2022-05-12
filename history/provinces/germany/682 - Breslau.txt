@@ -1,0 +1,10 @@
+owner=X22
+controller=X08
+add_core=HLR
+add_core=PLC
+add_core=POL
+add_core=X08
+add_core=X22
+trade_goods = grain
+life_rating = 40
+terrain = plains

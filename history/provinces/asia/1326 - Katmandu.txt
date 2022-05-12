@@ -1,0 +1,8 @@
+owner=KTU
+controller=KTU
+add_core=HND
+add_core=KTU
+add_core=LWA
+trade_goods = tea
+life_rating = 25
+terrain = mountain

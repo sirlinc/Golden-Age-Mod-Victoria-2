@@ -1,0 +1,5 @@
+owner=WCY
+controller=WCY
+trade_goods = coal
+life_rating = 35
+terrain = forest

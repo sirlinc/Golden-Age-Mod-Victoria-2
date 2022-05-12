@@ -1,0 +1,9 @@
+owner=MJZ
+controller=MJZ
+add_core=CHI
+add_core=MCK
+add_core=MJZ
+add_core=NHX
+trade_goods = coal
+life_rating = 32
+terrain = plains

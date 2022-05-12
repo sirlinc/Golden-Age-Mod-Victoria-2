@@ -1,0 +1,8 @@
+owner=KRC
+controller=KRC
+add_core=KHA
+add_core=KRC
+add_core=MGL
+trade_goods = cattle
+life_rating = 35
+terrain = hills

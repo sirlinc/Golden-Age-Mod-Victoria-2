@@ -1,0 +1,5 @@
+owner=ERY
+controller=ERY
+trade_goods = timber
+life_rating = 35
+terrain = woods

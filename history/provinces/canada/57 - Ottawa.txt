@@ -1,0 +1,5 @@
+owner=ARR
+controller=ARR
+trade_goods = grain
+life_rating = 35
+terrain = plains

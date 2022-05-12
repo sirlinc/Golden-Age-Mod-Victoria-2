@@ -1,0 +1,9 @@
+owner=ORM
+controller=MHR
+add_core=ARA
+add_core=MHR
+add_core=OMA
+add_core=ORM
+trade_goods = fish
+life_rating = 35
+terrain = plains

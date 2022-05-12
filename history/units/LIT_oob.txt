@@ -1,0 +1,39 @@
+#Sphere of Influence
+MUS = {
+	value = -100
+}
+POL = {
+	value = 200
+}
+#Leaders
+
+#Armies
+#rmy = {
+#	name = "I. Armee"
+#	location = 938
+#	regiment = {
+#		name= "1.1. Infanteriedivision"
+#		type = infantry
+#		home = 938
+#	}
+#	regiment = {
+#		name= "1.2. Infanteriedivision"
+#		type = infantry
+#		home = 938
+#	}
+#	regiment = {
+#		name= "1.3. Infanteriedivision"
+#		type = infantry
+#		home = 938
+#	}
+#	regiment = {
+#		name= "1.4. Infanteriedivision"
+#		type = infantry
+#		home = 938
+#	}
+#	regiment = {
+#		name= "2.1. Kavalleriedivision"
+#		type = cavalry
+#		home = 938
+#	}
+#

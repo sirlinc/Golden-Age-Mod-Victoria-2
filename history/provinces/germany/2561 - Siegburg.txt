@@ -1,0 +1,8 @@
+owner=BEG
+controller=BEG
+add_core=BEG
+add_core=GER
+add_core=HLR
+trade_goods = cattle
+life_rating = 40
+terrain = plains

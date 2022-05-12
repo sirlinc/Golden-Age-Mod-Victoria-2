@@ -1,0 +1,5 @@
+owner=CYA
+controller=CYA
+trade_goods = wool
+life_rating = 30
+terrain = mountain

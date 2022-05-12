@@ -1,0 +1,57 @@
+#Sphere of Influence
+MUS = {
+	value = -20
+}
+LIV = {
+	value = -15
+	level = 2
+}
+LIT = {
+	value = 160
+}
+MAZ = {
+	value = 75
+	military_access = yes
+	influence_value = 56
+	level = 5
+}
+MOL = {
+	value = 50
+	level = 3
+}
+TEU = {
+	value = -30
+	level = 2
+}
+TUR = {
+	value = -15
+	level = 2
+}
+
+#Leaders
+
+#Armies
+#army = {
+#	name = "I. Armee"
+#	location = 814
+#	regiment = {
+#		name= "1.1. Infanteriedivision"
+#		type = infantry
+#		home = 814
+#	}
+#	regiment = {
+#		name= "1.2. Infanteriedivision"
+#		type = infantry
+#		home = 814
+#	}
+#	regiment = {
+#		name= "1.4. Infanteriedivision"
+#		type = infantry
+#		home = 814
+#	}
+#	regiment = {
+#		name= "2.1. Kavalleriedivision"
+#		type = cavalry
+#		home = 814
+#	}
+#}

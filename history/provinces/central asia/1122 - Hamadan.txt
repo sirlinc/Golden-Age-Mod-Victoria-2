@@ -1,0 +1,9 @@
+owner=QOM
+controller=QOM
+add_core=PER
+add_core=QOM
+add_core=TIM
+add_core=X17
+trade_goods = fruit
+life_rating = 35
+terrain = mountain

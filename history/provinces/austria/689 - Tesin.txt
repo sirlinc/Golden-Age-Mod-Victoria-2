@@ -1,0 +1,10 @@
+owner=MRV
+controller=MRV
+add_core=BOH
+add_core=CZE
+add_core=CZH
+add_core=HLR
+add_core=MRV
+trade_goods = coal
+life_rating = 35
+terrain = hills

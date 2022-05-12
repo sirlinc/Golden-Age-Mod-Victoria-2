@@ -1,0 +1,6 @@
+owner=OSA
+controller=OSA
+add_core=OSA
+trade_goods = grain
+life_rating = 35
+terrain = woods

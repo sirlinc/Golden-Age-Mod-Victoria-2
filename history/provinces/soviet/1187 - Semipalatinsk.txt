@@ -1,0 +1,7 @@
+owner=SHY
+controller=SHY
+add_core=KAZ
+add_core=SHY
+trade_goods = timber
+life_rating = 35
+terrain = woods

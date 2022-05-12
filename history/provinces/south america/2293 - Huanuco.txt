@@ -1,0 +1,6 @@
+owner=HJA
+controller=HJA
+add_core=HJA
+trade_goods = wool
+life_rating = 30
+terrain = mountain

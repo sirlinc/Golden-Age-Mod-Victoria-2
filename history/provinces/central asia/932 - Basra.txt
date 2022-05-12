@@ -1,0 +1,8 @@
+owner=MSY
+controller=MSY
+add_core=IRQ
+add_core=MSY
+add_core=X04
+trade_goods = fruit
+life_rating = 35
+terrain = marsh

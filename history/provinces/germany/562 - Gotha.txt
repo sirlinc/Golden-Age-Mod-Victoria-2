@@ -1,0 +1,9 @@
+owner=THU
+controller=THU
+add_core=COB
+add_core=GER
+add_core=HLR
+add_core=THU
+trade_goods = iron
+life_rating = 40
+terrain = woods

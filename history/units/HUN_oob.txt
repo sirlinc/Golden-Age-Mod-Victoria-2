@@ -1,0 +1,47 @@
+#Sphere of Influence
+CRO = {
+	value = 75
+	military_access = yes
+	influence_value = 56
+	level = 5
+}
+TUR = {
+	value = -15
+	level = 2
+}
+
+#Leaders
+leader = {
+	name="János Hunyadi"
+	date="1437.1.1"
+	type=land
+	personality="audacious"
+	background="uncommonly_young"
+}
+
+
+#Armies
+#army = {
+#	name = "I. Armee"
+#	location = 814
+#	regiment = {
+#		name= "1.1. Infanteriedivision"
+#		type = infantry
+#		home = 814
+#	}
+#	regiment = {
+#		name= "1.2. Infanteriedivision"
+#		type = infantry
+#		home = 814
+#	}
+#	regiment = {
+#		name= "1.4. Infanteriedivision"
+#		type = infantry
+#		home = 814
+#	}
+#	regiment = {
+#		name= "2.1. Kavalleriedivision"
+#		type = cavalry
+#		home = 814
+#	}
+#}

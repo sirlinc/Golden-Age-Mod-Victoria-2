@@ -1,0 +1,8 @@
+owner=COC
+controller=COC
+add_core=CCT
+add_core=COC
+add_core=ITZ
+trade_goods = timber
+life_rating = 30
+terrain = jungle

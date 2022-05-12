@@ -1,0 +1,9 @@
+owner=ORD
+controller=LEI
+add_core=ENG
+add_core=IRE
+add_core=LEI
+add_core=ORD
+trade_goods = fish
+life_rating = 35
+terrain = farmlands

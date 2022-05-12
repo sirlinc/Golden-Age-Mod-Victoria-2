@@ -1,0 +1,8 @@
+owner=SNA
+controller=SNA
+add_core=HLR
+add_core=ITA
+add_core=SNA
+trade_goods = cattle
+life_rating = 35
+terrain = farmlands

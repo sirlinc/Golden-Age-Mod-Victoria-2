@@ -1,0 +1,8 @@
+owner=NVG
+controller=NVG
+add_core=FIN
+add_core=NVG
+add_core=SCA
+trade_goods = grain
+life_rating = 35
+terrain = plains

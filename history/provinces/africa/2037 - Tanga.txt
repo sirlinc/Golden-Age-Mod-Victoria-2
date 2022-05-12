@@ -1,0 +1,6 @@
+owner=MBA
+controller=MBA
+add_core=MBA
+trade_goods = grain
+life_rating = 35
+terrain = plains

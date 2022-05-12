@@ -1,0 +1,10 @@
+owner=YAS
+controller=ORM
+add_core=ABU
+add_core=ARA
+add_core=ORM
+add_core=YAS
+trade_goods = grain
+life_rating = 35
+terrain = desert
+fort = 2

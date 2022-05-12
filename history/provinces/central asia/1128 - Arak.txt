@@ -1,0 +1,8 @@
+owner=QOM
+controller=QOM
+add_core=PER
+add_core=QOM
+add_core=TIM
+trade_goods = iron
+life_rating = 35
+terrain = mountain

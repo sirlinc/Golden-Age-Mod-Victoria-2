@@ -1,0 +1,9 @@
+owner=NEV
+controller=NEV
+add_core=BEL
+add_core=CPG
+add_core=NEV
+add_core=WLL
+trade_goods = coal
+life_rating = 30
+terrain = plains

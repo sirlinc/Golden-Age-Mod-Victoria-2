@@ -1,0 +1,216 @@
+252 = {
+	soldiers=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 126
+	}
+
+	craftsmen=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 8170
+	}
+
+	artisans=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 504
+	}
+
+	clergymen=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 82
+	}
+
+	clerks=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 494
+	}
+
+	bureaucrats=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 12
+	}
+
+	officers=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 10
+	}
+
+	capitalists=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 88
+	}
+
+	aristocrats=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 106
+	}
+
+	farmers=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 3008
+	}
+
+}
+3259 = {
+	farmers=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 1
+	}
+
+}
+3269 = {
+	farmers=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 1
+	}
+
+}
+3270 = {
+	farmers=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 1
+	}
+
+}
+3271 = {
+	farmers=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 1
+	}
+
+}
+3272 = {
+	farmers=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 1
+	}
+
+}
+3273 = {
+	farmers=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 1
+	}
+
+}
+3274 = {
+	farmers=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 1
+	}
+
+}
+3275 = {
+	farmers=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 1
+	}
+
+}
+3276 = {
+	farmers=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 1
+	}
+
+}
+3278 = {
+	farmers=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 1
+	}
+
+}
+3279 = {
+	farmers=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 1
+	}
+
+}
+3280 = {
+	farmers=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 1
+	}
+
+}
+3281 = {
+	farmers=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 1
+	}
+
+}
+3282 = {
+	farmers=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 1
+	}
+
+}
+3283 = {
+	farmers=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 1
+	}
+
+}
+3284 = {
+	farmers=
+	{
+		culture = icelandic
+		religion = catholic
+		size= 1
+	}
+
+}

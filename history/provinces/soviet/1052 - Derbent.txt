@@ -1,0 +1,8 @@
+owner=GZK
+controller=GZK
+add_core=DKU
+add_core=GZK
+trade_goods = fruit
+life_rating = 35
+terrain = hills
+fort = 2

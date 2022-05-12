@@ -1,0 +1,6 @@
+owner=BLA
+controller=BLA
+add_core=BLA
+trade_goods = fruit
+life_rating = 35
+terrain = steppe

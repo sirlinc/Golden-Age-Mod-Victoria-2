@@ -1,0 +1,6 @@
+owner=BLA
+controller=BLA
+add_core=BLA
+trade_goods = iron
+life_rating = 35
+terrain = mountain

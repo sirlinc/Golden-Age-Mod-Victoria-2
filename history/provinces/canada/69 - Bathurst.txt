@@ -1,0 +1,5 @@
+owner=MLS
+controller=MLS
+trade_goods = cattle
+life_rating = 35
+terrain = forest

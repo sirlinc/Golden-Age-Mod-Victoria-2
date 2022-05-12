@@ -1,0 +1,8 @@
+owner=AKK
+controller=AKK
+add_core=AKK
+add_core=ARM
+add_core=ERE
+trade_goods = iron
+life_rating = 35
+terrain = hills

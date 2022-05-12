@@ -1,0 +1,10 @@
+owner=AYU
+controller=BTL
+add_core=AYU
+add_core=BTL
+add_core=IRQ
+add_core=SRN
+trade_goods = fruit
+life_rating = 35
+terrain = plains
+fort = 2

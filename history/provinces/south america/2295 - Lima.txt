@@ -1,0 +1,6 @@
+owner=ICM
+controller=ICM
+add_core=ICM
+trade_goods = cattle
+life_rating = 35
+terrain = hills

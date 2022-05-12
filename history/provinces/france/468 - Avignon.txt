@@ -1,0 +1,9 @@
+owner=PAP
+controller=PAP
+add_core=AVI
+add_core=FRA
+add_core=OCC
+add_core=PRO
+trade_goods = sulphur
+life_rating = 32
+terrain = farmlands

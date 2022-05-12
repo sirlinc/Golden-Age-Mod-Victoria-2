@@ -1,0 +1,7 @@
+owner=ZIA
+controller=ACO
+add_core=ACO
+add_core=ZNI
+trade_goods = cattle
+life_rating = 35
+terrain = steppe

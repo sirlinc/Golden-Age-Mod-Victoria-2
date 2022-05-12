@@ -1,0 +1,6 @@
+owner=CUA
+controller=CUA
+add_core=CUA
+trade_goods = cattle
+life_rating = 35
+terrain = plains

@@ -1,0 +1,6 @@
+owner=YKA
+controller=YKA
+add_core=YKA
+trade_goods = fruit
+life_rating = 15
+terrain = jungle

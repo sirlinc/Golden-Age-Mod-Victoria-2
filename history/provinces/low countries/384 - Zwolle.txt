@@ -1,0 +1,8 @@
+owner=UTR
+controller=UTR
+add_core=HLR
+add_core=NET
+add_core=UTR
+trade_goods = fish
+life_rating = 35
+terrain = farmlands

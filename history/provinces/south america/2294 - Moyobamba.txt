@@ -1,0 +1,6 @@
+owner=CJA
+controller=CJA
+add_core=CJA
+trade_goods = timber
+life_rating = 30
+terrain = mountain

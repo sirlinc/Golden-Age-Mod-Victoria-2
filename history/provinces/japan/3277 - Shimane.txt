@@ -1,0 +1,7 @@
+owner=YAM
+controller=YAM
+add_core=YAM
+add_core=JAP
+trade_goods = fish
+life_rating = 35
+terrain = plains

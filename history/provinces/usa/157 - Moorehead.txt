@@ -1,0 +1,6 @@
+owner=ASI
+controller=ASI
+add_core=ASI
+trade_goods = timber
+life_rating = 35
+terrain = forest

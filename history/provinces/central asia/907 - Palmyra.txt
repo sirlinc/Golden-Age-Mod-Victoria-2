@@ -1,0 +1,10 @@
+owner=FDL
+controller=FDL
+add_core=FDL
+add_core=IRQ
+add_core=QAR
+add_core=SYR
+trade_goods = grain
+life_rating = 35
+terrain = desert
+fort = 2

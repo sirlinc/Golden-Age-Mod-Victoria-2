@@ -1,0 +1,7 @@
+owner=DAT
+controller=DAT
+add_core=DAT
+add_core=JAP
+trade_goods = fish
+life_rating = 35
+terrain = hills

@@ -1,0 +1,74 @@
+#Sphere of Influence
+
+ENL = {
+	value = 50
+	level = 3
+}
+GRA = {
+	value = -15
+	level = 2
+}
+
+#Leaders
+leader = {
+	name="Earl of Avranches"
+	date="1435.1.1"
+	type=land
+	personality="stalwart"
+	background="uncommonly_young"
+}
+
+leader = {
+	name="Diogo Gomes"
+	date="1443.1.1"
+	type=sea
+	personality="stalwart"
+	background="uncommonly_young"
+}
+
+
+#Armies
+#navy = {
+#	name="Armada Real"
+#	location=521
+#	ship = {
+#		name="1st Lisbon Clipper Transport"
+#		type=clipper_transport
+#	}
+#	ship = {
+#		name="2nd Lisbon Clipper Transport"
+#		type=clipper_transport
+#	}
+#	ship = {
+#		name="3rd Lisbon Clipper Transport"
+#		type=clipper_transport
+#	}
+#	ship = {
+#		name="4th Lisbon Clipper Transport"
+#		type=clipper_transport
+#	}
+#}
+#army = {
+#	name = "I. Armee"
+#	location = 521
+#	regiment = {
+#		name= "1.1. Infanteriedivision"
+#		type = infantry
+#		home = 521
+#	}
+#	regiment = {
+#		name= "1.3. Infanteriedivision"
+#		type = infantry
+#		home = 521
+#	}
+#	regiment = {
+#		name= "1.4. Infanteriedivision"
+#		type = infantry
+#		home = 521
+#	}
+#	regiment = {
+#		name= "2.1. Kavalleriedivision"
+#		type = cavalry
+#		home = 521
+#	}
+#}

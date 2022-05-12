@@ -1,0 +1,7 @@
+owner=KOC
+controller=KOC
+add_core=HND
+add_core=KOC
+trade_goods = grain
+life_rating = 32
+terrain = hills

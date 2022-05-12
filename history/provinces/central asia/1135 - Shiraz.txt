@@ -1,0 +1,9 @@
+owner=X07
+controller=X07
+add_core=PER
+add_core=TIM
+add_core=X07
+trade_goods = opium
+life_rating = 35
+terrain = plains
+fort = 2

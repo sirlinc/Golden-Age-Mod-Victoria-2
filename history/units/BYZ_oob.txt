@@ -1,0 +1,60 @@
+#Sphere of Influence
+TUR = {
+	value = -84
+	level = 2
+}
+ATH = {
+	value = 75
+	military_access = yes
+	influence_value = 56
+	level = 5
+}
+
+army = {
+	name = "Tagma I."
+	location = 860
+	regiment = {
+		name = "Infantry Brigade"
+		type = infantry
+		home = 860
+	}
+}
+#Leaders
+
+#Armies
+#army = {
+#	name = "I. Armee"
+#	location = 521
+#	regiment = {
+#		name= "1.1. Infanteriedivision"
+#		type = infantry
+#		home = 521
+#	}
+#	regiment = {
+#		name= "1.3. Infanteriedivision"
+#		type = infantry
+#		home = 521
+#	}
+#	regiment = {
+#		name= "1.4. Infanteriedivision"
+#		type = infantry
+#		home = 521
+#	}
+#	regiment = {
+#		name= "2.1. Kavalleriedivision"
+#		type = cavalry
+#		home = 521
+#	}
+#}
+#navy = {
+#	name="Thema Cibyrraeoton"
+#	location=839
+#	ship = {
+#		name="1st Istanbul Clipper Transport"
+#		type=clipper_transport
+#	}
+#	ship = {
+#		name="2nd Istanbul Clipper Transport"
+#		type=clipper_transport
+#	}
+#}

@@ -1,0 +1,9 @@
+owner=TRV
+controller=TRV
+add_core=TRV
+add_core=HUN
+add_core=ROM
+add_core=SIE
+trade_goods = grain
+life_rating = 35
+terrain = hills

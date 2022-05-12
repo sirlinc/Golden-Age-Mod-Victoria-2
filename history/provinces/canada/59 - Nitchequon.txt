@@ -1,0 +1,5 @@
+owner=INN
+controller=INN
+trade_goods = fish
+life_rating = 35
+terrain = forest

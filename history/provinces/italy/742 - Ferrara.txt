@@ -1,0 +1,8 @@
+owner=FER
+controller=FER
+add_core=FER
+add_core=HLR
+add_core=ITA
+trade_goods = grain
+life_rating = 35
+terrain = farmlands

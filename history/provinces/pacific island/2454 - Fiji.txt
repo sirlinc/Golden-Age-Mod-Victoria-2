@@ -1,0 +1,8 @@
+owner=FJV
+controller=FJL
+add_core=FJL
+add_core=FJV
+add_core=FJW
+trade_goods = fish
+life_rating = 15
+terrain = plains

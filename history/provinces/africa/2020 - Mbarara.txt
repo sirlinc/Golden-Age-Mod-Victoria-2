@@ -1,0 +1,7 @@
+owner=BNY
+controller=BNY
+add_core=BNY
+add_core=NKO
+trade_goods = cotton
+life_rating = 15
+terrain = plains

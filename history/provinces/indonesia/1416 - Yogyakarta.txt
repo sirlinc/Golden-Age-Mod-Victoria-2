@@ -1,0 +1,7 @@
+owner=MJP
+controller=MJP
+add_core=JAV
+add_core=MJP
+trade_goods = fruit
+life_rating = 30
+terrain = plains

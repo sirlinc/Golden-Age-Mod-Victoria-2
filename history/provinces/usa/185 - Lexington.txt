@@ -1,0 +1,7 @@
+owner=HWK
+controller=HWK
+add_core=HWK
+add_core=KSP
+trade_goods = coal
+life_rating = 35
+terrain = woods

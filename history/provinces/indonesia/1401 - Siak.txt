@@ -1,0 +1,8 @@
+owner=SAK
+controller=DLI
+add_core=DLI
+add_core=MLY
+add_core=SAK
+trade_goods = grain
+life_rating = 30
+terrain = hills

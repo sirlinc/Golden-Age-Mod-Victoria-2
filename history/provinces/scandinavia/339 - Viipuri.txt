@@ -1,0 +1,9 @@
+owner=SWE
+controller=NVG
+add_core=FIN
+add_core=NVG
+add_core=SCA
+add_core=SWE
+trade_goods = timber
+life_rating = 35
+terrain = forest

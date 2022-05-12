@@ -1,0 +1,6 @@
+owner=SAL
+controller=CNK
+add_core=CNK
+trade_goods = timber
+life_rating = 35
+terrain = forest

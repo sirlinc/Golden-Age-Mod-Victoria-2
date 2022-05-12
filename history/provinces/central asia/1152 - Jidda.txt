@@ -1,0 +1,8 @@
+owner=HDJ
+controller=HDJ
+add_core=ARA
+add_core=HDJ
+add_core=X19
+trade_goods = grain
+life_rating = 35
+terrain = plains

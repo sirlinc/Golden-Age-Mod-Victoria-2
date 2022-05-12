@@ -1,0 +1,8 @@
+owner=JNN
+controller=JNN
+add_core=JNN
+add_core=YAT
+add_core=ZAF
+trade_goods = cattle
+life_rating = 15
+terrain = plains

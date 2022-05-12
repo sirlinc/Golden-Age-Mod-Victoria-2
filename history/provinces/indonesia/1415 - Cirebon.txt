@@ -1,0 +1,8 @@
+owner=SUN
+controller=SUN
+add_core=JAV
+add_core=MJP
+add_core=SUN
+trade_goods = coffee
+life_rating = 30
+terrain = jungle

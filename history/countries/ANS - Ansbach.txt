@@ -1,0 +1,51 @@
+capital = 595
+primary_culture = south_german
+culture = zzz_religion_catholic
+religion = catholic
+government = feudal_monarchy
+plurality = 0
+nationalvalue = nv_order
+literacy = 0.066917
+
+civilized = yes
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+school_reforms = no_schools
+
+# political reforms
+slavery=prisoners_of_war
+vote_franschise=wealth_weighted_voting
+upper_house_composition=state_equal_weight
+voting_system=jefferson_method
+public_meetings=yes_meeting
+press_rights=censored_press
+trade_unions=non_socialist
+political_parties=gerrymandering
+
+ruling_party = POR_nobility
+upper_house = 
+{
+	fervent_clergy = 0
+	petty_bourgeoisie = 8
+	nobility = 86
+	clergy = 6
+	upper_bourgeoisie = 0
+	modern_clergy = 0
+	#a
+}
+
+# Starting Consciousness
+consciousness = 2
+nonstate_consciousness= 0
+
+# Technologies
+prestige=0
+oob = "ANS_OOB.txt"
+set_country_flag = member_hre
+set_country_flag = religi

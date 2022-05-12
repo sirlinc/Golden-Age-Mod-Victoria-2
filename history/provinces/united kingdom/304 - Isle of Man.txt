@@ -1,0 +1,8 @@
+owner=X14
+controller=X14
+add_core=X14
+add_core=KOI
+add_core=SCO
+trade_goods = fish
+life_rating = 35
+terrain = plains

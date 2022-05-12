@@ -1,0 +1,8 @@
+owner=PGR
+controller=PGR
+add_core=IPR
+add_core=MLY
+add_core=PGR
+trade_goods = tobacco
+life_rating = 30
+terrain = mountain

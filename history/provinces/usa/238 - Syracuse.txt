@@ -1,0 +1,7 @@
+owner=ONO
+controller=ONE
+add_core=ONE
+add_core=ONO
+trade_goods = grain
+life_rating = 35
+terrain = plains

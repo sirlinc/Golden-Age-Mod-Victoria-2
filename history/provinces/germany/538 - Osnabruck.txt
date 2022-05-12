@@ -1,0 +1,9 @@
+owner=MUN
+controller=MUN
+add_core=GER
+add_core=HLR
+add_core=MUN
+add_core=X23
+trade_goods = grain
+life_rating = 40
+terrain = plains

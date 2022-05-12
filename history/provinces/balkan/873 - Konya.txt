@@ -1,0 +1,8 @@
+owner=KRM
+controller=KRM
+add_core=ERE
+add_core=KRM
+add_core=TUR
+trade_goods = wool
+life_rating = 35
+terrain = hills

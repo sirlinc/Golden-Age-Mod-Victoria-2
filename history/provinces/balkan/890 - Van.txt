@@ -1,0 +1,7 @@
+owner=BTL
+controller=BTL
+add_core=ARM
+add_core=BTL
+trade_goods = iron
+life_rating = 35
+terrain = hills

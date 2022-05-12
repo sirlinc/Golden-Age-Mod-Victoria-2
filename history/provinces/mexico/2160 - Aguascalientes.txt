@@ -1,0 +1,6 @@
+owner=TON
+controller=TON
+add_core=TON
+trade_goods = timber
+life_rating = 35
+terrain = mountain

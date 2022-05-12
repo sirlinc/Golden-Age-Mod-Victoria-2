@@ -1,0 +1,6 @@
+owner=BON
+controller=BON
+add_core=BON
+trade_goods = coffee
+life_rating = 15
+terrain = plains

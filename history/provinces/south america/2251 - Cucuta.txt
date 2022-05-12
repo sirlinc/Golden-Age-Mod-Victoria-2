@@ -1,0 +1,5 @@
+owner=MCA
+controller=MCA
+trade_goods = coal
+life_rating = 30
+terrain = mountain

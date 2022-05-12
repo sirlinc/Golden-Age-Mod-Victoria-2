@@ -1,0 +1,8 @@
+owner=VEN
+controller=VEN
+add_core=ITA
+add_core=VEN
+add_core=X24
+trade_goods = fruit
+life_rating = 35
+terrain = farmlands

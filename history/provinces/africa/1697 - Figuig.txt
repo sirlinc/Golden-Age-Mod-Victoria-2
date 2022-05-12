@@ -1,0 +1,6 @@
+owner=TLC
+controller=TLC
+add_core=TLC
+trade_goods = fruit
+life_rating = 35
+terrain = desert

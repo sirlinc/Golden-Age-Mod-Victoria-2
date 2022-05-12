@@ -1,0 +1,6 @@
+owner=QAR
+controller=QAR
+add_core=ARM
+trade_goods = wool
+life_rating = 35
+terrain = mountain

@@ -1,0 +1,8 @@
+owner=ORM
+controller=ORM
+add_core=ARA
+add_core=OMA
+add_core=ORM
+trade_goods = opium
+life_rating = 35
+terrain = mountain

@@ -1,0 +1,10 @@
+owner=DAU
+controller=DAU
+add_core=DAU
+add_core=FRA
+add_core=HLR
+add_core=OCC
+add_core=SVY
+trade_goods = grain
+life_rating = 31
+terrain = plains

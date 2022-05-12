@@ -1,0 +1,6 @@
+owner=OEO
+controller=OEO
+add_core=OEO
+trade_goods = coal
+life_rating = 35
+terrain = forest

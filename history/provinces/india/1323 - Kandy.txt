@@ -1,0 +1,8 @@
+owner=X11
+controller=X11
+add_core=HND
+add_core=SRI
+add_core=X11
+trade_goods = tea
+life_rating = 32
+terrain = hills

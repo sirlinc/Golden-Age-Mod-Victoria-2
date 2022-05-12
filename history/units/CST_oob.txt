@@ -1,0 +1,65 @@
+#Sphere of Influence
+GRA = {
+	value = -100
+}
+
+#Leaders
+leader = {
+	name="Álvaro de Luna"
+	date="1422.1.1"
+	type=land
+	personality="stalwart"
+	background="bootlicker"
+}
+
+
+#Armies
+#navy = {
+#	name="Armada Real"
+#	location=478
+#	ship = {
+#		name="Águila"
+#		type=clipper_transport
+#	}
+#	ship = {
+#		name="Águila de Nantes"
+#		type=clipper_transport
+#	}
+#	ship = {
+#		name="Águila Volante"
+#		type=clipper_transport
+#	}
+#	ship = {
+#		name="Astrolabio"
+#		type=clipper_transport
+#	}
+#}
+#army = {
+#	name = "I. Armee"
+#	location = 485
+#	regiment = {
+#		name= "1.1. Infanteriedivision"
+#		type = infantry
+#		home = 485
+#	}
+#	regiment = {
+#		name= "1.2. Infanteriedivision"
+#		type = infantry
+#		home = 485
+#	}
+#	regiment = {
+#		name= "1.3. Infanteriedivision"
+#		type = infantry
+#		home = 485
+#	}
+#	regiment = {
+#		name= "1.4. Infanteriedivision"
+#		type = infantry
+#		home = 485
+#	}
+#	regiment = {
+#		name= "2.1. Kavalleriedivision"
+#		type = cavalry
+#		home = 485
+#	}
+#}

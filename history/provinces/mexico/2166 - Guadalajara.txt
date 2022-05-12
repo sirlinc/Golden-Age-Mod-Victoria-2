@@ -1,0 +1,8 @@
+owner=TON
+controller=CMA
+add_core=CMA
+add_core=TON
+add_core=TRS
+trade_goods = fish
+life_rating = 35
+terrain = woods

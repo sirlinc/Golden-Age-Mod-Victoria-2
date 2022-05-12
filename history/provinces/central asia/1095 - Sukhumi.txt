@@ -1,0 +1,7 @@
+owner=IME
+controller=IME
+add_core=GEO
+add_core=IME
+trade_goods = grain
+life_rating = 35
+terrain = mountain

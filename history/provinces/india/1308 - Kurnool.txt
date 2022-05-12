@@ -1,0 +1,10 @@
+owner=VIJ
+controller=VIJ
+add_core=AND
+add_core=HND
+add_core=KLN
+add_core=KRN
+add_core=VIJ
+trade_goods = tea
+life_rating = 32
+terrain = plains

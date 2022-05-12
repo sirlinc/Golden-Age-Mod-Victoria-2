@@ -1,0 +1,8 @@
+owner=TIM
+controller=TIM
+add_core=PER
+add_core=TIM
+add_core=X12
+trade_goods = cotton
+life_rating = 35
+terrain = hills

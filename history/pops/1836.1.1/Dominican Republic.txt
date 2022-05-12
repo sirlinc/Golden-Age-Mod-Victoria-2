@@ -1,0 +1,130 @@
+2214 = {
+	aristocrats=
+	{
+		culture = carribean
+		religion = animist
+		size= 300
+	}
+
+	clergymen=
+	{
+		culture = carribean
+		religion = animist
+		size= 125
+	}
+
+	artisans=
+	{
+		culture = carribean
+		religion = animist
+		size= 350
+	}
+
+	soldiers=
+	{
+		culture = carribean
+		religion = animist
+		size= 75
+	}
+
+	farmers=
+	{
+		culture = carribean
+		religion = animist
+		size= 6150
+	}
+
+	clergymen=
+	{
+		culture = afro_caribeno
+		religion = catholic
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = afro_caribeno
+		religion = catholic
+		size= 500
+	}
+
+	soldiers=
+	{
+		culture = afro_caribeno
+		religion = catholic
+		size= 100
+	}
+
+	farmers=
+	{
+		culture = afro_caribeno
+		religion = catholic
+		size= 9350
+	}
+
+}
+2216 = {
+	aristocrats=
+	{
+		culture = carribean
+		religion = animist
+		size= 250
+	}
+
+	clergymen=
+	{
+		culture = carribean
+		religion = animist
+		size= 100
+	}
+
+	artisans=
+	{
+		culture = carribean
+		religion = animist
+		size= 400
+	}
+
+	soldiers=
+	{
+		culture = carribean
+		religion = animist
+		size= 75
+	}
+
+	farmers=
+	{
+		culture = carribean
+		religion = animist
+		size= 7175
+	}
+
+	clergymen=
+	{
+		culture = afro_caribeno
+		religion = catholic
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = afro_caribeno
+		religion = catholic
+		size= 300
+	}
+
+	soldiers=
+	{
+		culture = afro_caribeno
+		religion = catholic
+		size= 75
+	}
+
+	farmers=
+	{
+		culture = afro_caribeno
+		religion = catholic
+		size= 5575
+	}
+
+}

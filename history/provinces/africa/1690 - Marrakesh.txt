@@ -1,0 +1,8 @@
+owner=MRK
+controller=MOR
+add_core=MOR
+add_core=MRK
+trade_goods = fruit
+life_rating = 35
+terrain = mountain
+fort = 2

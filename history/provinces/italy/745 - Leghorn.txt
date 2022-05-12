@@ -1,0 +1,9 @@
+owner=FLO
+controller=FLO
+add_core=FLO
+add_core=HLR
+add_core=ITA
+add_core=PIS
+trade_goods = fish
+life_rating = 35
+terrain = plains

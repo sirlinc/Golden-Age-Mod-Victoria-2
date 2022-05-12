@@ -1,0 +1,5 @@
+owner=CAB
+controller=CAB
+trade_goods = coffee
+life_rating = 30
+terrain = plains

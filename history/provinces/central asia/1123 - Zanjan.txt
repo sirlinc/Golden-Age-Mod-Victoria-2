@@ -1,0 +1,7 @@
+owner=QOM
+controller=QOM
+add_core=ARL
+add_core=AZB
+trade_goods = cattle
+life_rating = 35
+terrain = hills

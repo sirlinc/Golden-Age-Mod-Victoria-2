@@ -1,0 +1,9 @@
+owner=DAI
+controller=CHA
+add_core=ANN
+add_core=CHA
+add_core=DAI
+add_core=IDO
+trade_goods = tobacco
+life_rating = 30
+terrain = jungle

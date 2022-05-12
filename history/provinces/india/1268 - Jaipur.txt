@@ -1,0 +1,10 @@
+owner=RJP
+controller=RJP
+add_core=HAD
+add_core=HND
+add_core=MEW
+add_core=MWT
+add_core=RJP
+trade_goods = timber
+life_rating = 32
+terrain = plains

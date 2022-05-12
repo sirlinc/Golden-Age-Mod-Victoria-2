@@ -1,0 +1,8 @@
+owner=MNS
+controller=MNS
+add_core=ENG
+add_core=IRE
+add_core=MNS
+trade_goods = fish
+life_rating = 35
+terrain = hills

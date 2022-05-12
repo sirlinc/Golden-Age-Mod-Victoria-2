@@ -1,0 +1,7 @@
+owner=ODA
+controller=ODA
+add_core=ODA
+add_core=JAP
+trade_goods = silk
+life_rating = 35
+terrain = hills

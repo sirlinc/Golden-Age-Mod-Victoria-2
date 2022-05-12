@@ -1,0 +1,8 @@
+owner=TRY
+controller=TRY
+add_core=ENG
+add_core=IRE
+add_core=TRY
+trade_goods = cattle
+life_rating = 35
+terrain = plains

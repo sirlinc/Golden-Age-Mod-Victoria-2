@@ -1,0 +1,9 @@
+owner=MRE
+controller=MRE
+add_core=MAJ
+add_core=MRE
+add_core=SOM
+add_core=WRL
+trade_goods = grain
+life_rating = 15
+terrain = plains

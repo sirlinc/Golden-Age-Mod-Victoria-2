@@ -1,0 +1,8 @@
+owner=TRX
+controller=TRX
+add_core=KHI
+add_core=TKS
+add_core=TRX
+trade_goods = cotton
+life_rating = 35
+terrain = plains

@@ -1,0 +1,7 @@
+owner=OUC
+controller=OUC
+add_core=OUC
+add_core=JAP
+trade_goods = tea
+life_rating = 35
+terrain = hills

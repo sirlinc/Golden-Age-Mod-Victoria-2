@@ -1,0 +1,8 @@
+owner=TUN
+controller=TGT
+add_core=KBA
+add_core=TGT
+add_core=TUN
+trade_goods = iron
+life_rating = 35
+terrain = desert

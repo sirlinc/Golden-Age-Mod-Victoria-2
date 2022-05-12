@@ -1,0 +1,5 @@
+owner=WCR
+controller=WCR
+trade_goods = fish
+life_rating = 35
+terrain = forest

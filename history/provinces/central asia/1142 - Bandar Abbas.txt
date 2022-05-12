@@ -1,0 +1,7 @@
+owner=TIM
+controller=ORM
+add_core=ARA
+add_core=ORM
+trade_goods = fruit
+life_rating = 35
+terrain = plains

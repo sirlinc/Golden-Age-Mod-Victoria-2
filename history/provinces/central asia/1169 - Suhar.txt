@@ -1,0 +1,9 @@
+owner=ORM
+controller=OMA
+add_core=ARA
+add_core=OMA
+add_core=ORM
+add_core=YAS
+trade_goods = grain
+life_rating = 35
+terrain = desert

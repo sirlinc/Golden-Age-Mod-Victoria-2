@@ -1,0 +1,6 @@
+owner=TIO
+controller=OTT
+add_core=TIO
+trade_goods = grain
+life_rating = 35
+terrain = forest

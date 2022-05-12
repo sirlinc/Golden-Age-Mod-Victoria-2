@@ -1,0 +1,7 @@
+owner=MED
+controller=MED
+add_core=MED
+add_core=X05
+trade_goods = fruit
+life_rating = 35
+terrain = hills

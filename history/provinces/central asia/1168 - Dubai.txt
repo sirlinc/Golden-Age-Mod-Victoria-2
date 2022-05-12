@@ -1,0 +1,8 @@
+owner=ORM
+controller=ORM
+add_core=ABU
+add_core=ARA
+add_core=ORM
+trade_goods = grain
+life_rating = 35
+terrain = plains

@@ -1,0 +1,8 @@
+owner=SYG
+controller=SYG
+add_core=KHA
+add_core=MGL
+add_core=SYG
+trade_goods = grain
+life_rating = 32
+terrain = hills

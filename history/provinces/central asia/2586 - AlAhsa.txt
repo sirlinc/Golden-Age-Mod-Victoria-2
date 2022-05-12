@@ -1,0 +1,8 @@
+owner=ORM
+controller=DAW
+add_core=ARA
+add_core=DAW
+add_core=ORM
+trade_goods = grain
+life_rating = 10
+terrain = desert

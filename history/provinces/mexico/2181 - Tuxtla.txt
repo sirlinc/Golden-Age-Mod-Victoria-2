@@ -1,0 +1,6 @@
+owner=LAC
+controller=LAC
+add_core=LAC
+trade_goods = cotton
+life_rating = 30
+terrain = jungle

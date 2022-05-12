@@ -1,0 +1,47 @@
+alliance=
+{
+	first="ENL"
+	second="POR"
+	start_date="1373.1.1"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="SCO"
+	second="TIS"
+	start_date="1300.1.1"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="FRA"
+	second="PRO"
+	start_date="1431.1.25"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="ARL"
+	second="X13"
+	start_date="1440.1.1"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="VIJ"
+	second="AND"
+	start_date="1443.1.1"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="POL"
+	second="LIT"
+	start_date="1373.1.1"
+	end_date="1936.1.1"
+}

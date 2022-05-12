@@ -1,0 +1,10 @@
+owner=LBV
+controller=LBV
+add_core=GER
+add_core=HLR
+add_core=LBV
+add_core=UBV
+add_core=X25
+trade_goods = cattle
+life_rating = 40
+terrain = farmlands

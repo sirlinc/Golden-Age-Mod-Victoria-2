@@ -1,0 +1,8 @@
+owner=MFY
+controller=MFY
+add_core=MAD
+add_core=MFY
+add_core=MIR
+trade_goods = grain
+life_rating = 35
+terrain = hills

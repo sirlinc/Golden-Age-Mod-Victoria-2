@@ -1,0 +1,6 @@
+owner=PCJ
+controller=PCJ
+add_core=PCJ
+trade_goods = iron
+life_rating = 30
+terrain = desert

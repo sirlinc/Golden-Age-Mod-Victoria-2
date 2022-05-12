@@ -1,0 +1,7 @@
+owner=OTO
+controller=GAM
+add_core=GAM
+add_core=OTO
+trade_goods = grain
+life_rating = 35
+terrain = mountain

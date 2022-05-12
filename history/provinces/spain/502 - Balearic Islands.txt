@@ -1,0 +1,9 @@
+owner=ARN
+controller=ARN
+add_core=ARN
+add_core=CAT
+add_core=SPA
+add_core=X20
+trade_goods = cattle
+life_rating = 35
+terrain = plains

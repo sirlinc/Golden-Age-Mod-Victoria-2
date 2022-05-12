@@ -1,0 +1,6 @@
+owner=MMI
+controller=MMI
+add_core=MMI
+trade_goods = timber
+life_rating = 35
+terrain = woods

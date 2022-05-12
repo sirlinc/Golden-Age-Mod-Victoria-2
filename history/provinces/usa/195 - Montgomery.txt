@@ -1,0 +1,6 @@
+owner=COW
+controller=ATA
+add_core=ATA
+trade_goods = cotton
+life_rating = 35
+terrain = plains

@@ -1,0 +1,9 @@
+owner=SVY
+controller=SVY
+add_core=HLR
+add_core=ITA
+add_core=SVY
+add_core=X32
+trade_goods = fruit
+life_rating = 35
+terrain = farmlands

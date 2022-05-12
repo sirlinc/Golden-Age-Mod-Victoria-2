@@ -1,0 +1,9 @@
+owner=GRA
+controller=GRA
+add_core=ADU
+add_core=GRA
+add_core=CST
+add_core=SPA
+trade_goods = coal
+life_rating = 35
+terrain = mountain

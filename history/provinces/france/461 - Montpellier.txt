@@ -1,0 +1,8 @@
+owner=FRA
+controller=FRA
+add_core=FRA
+add_core=OCC
+add_core=TUL
+trade_goods = cattle
+life_rating = 31
+terrain = plains

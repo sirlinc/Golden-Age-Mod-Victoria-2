@@ -1,0 +1,9 @@
+owner=BRA
+controller=BRA
+add_core=BRA
+add_core=CLB
+add_core=GER
+add_core=HLR
+trade_goods = coal
+life_rating = 40
+terrain = plains

@@ -1,0 +1,9 @@
+owner=ARN
+controller=ARN
+add_core=ARN
+add_core=CAT
+add_core=SPA
+add_core=TUL
+trade_goods = grain
+life_rating = 31
+terrain = mountain

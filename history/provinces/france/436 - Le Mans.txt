@@ -1,0 +1,7 @@
+owner=ENL
+controller=ENL
+add_core=FRA
+add_core=PRO
+trade_goods = grain
+life_rating = 31
+terrain = plains

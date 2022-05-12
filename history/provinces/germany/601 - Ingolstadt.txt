@@ -1,0 +1,9 @@
+owner=ING
+controller=ING
+add_core=DWT
+add_core=GER
+add_core=HLR
+add_core=ING
+trade_goods = grain
+life_rating = 40
+terrain = farmlands

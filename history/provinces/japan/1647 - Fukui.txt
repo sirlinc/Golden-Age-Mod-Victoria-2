@@ -1,0 +1,7 @@
+owner=SHB
+controller=SHB
+add_core=SHB
+add_core=JAP
+trade_goods = fish
+life_rating = 35
+terrain = plains

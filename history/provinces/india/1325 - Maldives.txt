@@ -1,0 +1,7 @@
+owner=MLD
+controller=MLD
+add_core=HND
+add_core=MLD
+trade_goods = fish
+life_rating = 32
+terrain = plains

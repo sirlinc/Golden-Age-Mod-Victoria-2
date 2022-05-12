@@ -1,0 +1,9 @@
+owner=EGY
+controller=EGY
+add_core=EGY
+add_core=IRQ
+add_core=LBN
+add_core=SYR
+trade_goods = grain
+life_rating = 35
+terrain = hills

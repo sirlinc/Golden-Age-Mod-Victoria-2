@@ -1,0 +1,9 @@
+owner=X13
+controller=BPI
+add_core=BPI
+add_core=PER
+add_core=X13
+trade_goods = timber
+life_rating = 35
+terrain = mountain
+fort = 2

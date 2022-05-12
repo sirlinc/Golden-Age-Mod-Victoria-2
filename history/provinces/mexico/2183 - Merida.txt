@@ -1,0 +1,7 @@
+owner=XIU
+controller=XIU
+add_core=COC
+add_core=XIU
+trade_goods = grain
+life_rating = 30
+terrain = jungle

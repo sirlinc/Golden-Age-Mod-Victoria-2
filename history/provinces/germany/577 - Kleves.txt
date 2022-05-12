@@ -1,0 +1,8 @@
+owner=KLE
+controller=KLE
+add_core=GER
+add_core=HLR
+add_core=KLE
+trade_goods = coal
+life_rating = 40
+terrain = farmlands

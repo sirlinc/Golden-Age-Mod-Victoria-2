@@ -1,0 +1,8 @@
+owner=GLR
+controller=GLR
+add_core=GLR
+add_core=HLR
+add_core=NET
+trade_goods = cattle
+life_rating = 35
+terrain = farmlands

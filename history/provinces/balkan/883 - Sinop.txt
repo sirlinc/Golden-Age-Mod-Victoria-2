@@ -1,0 +1,7 @@
+owner=CND
+controller=CND
+add_core=CND
+add_core=TUR
+trade_goods = fish
+life_rating = 35
+terrain = mountain

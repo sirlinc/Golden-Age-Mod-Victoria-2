@@ -1,0 +1,48 @@
+#Sphere of Influence
+ENL = {
+	value = -30
+	level = 2
+}
+FRA = {
+	value = 10
+	level = 2
+}
+
+#Leaders
+#Armies
+#army = {
+#	name = "I. Armee"
+#	location = 269
+#	regiment = {
+#		name= "1.1. Infanteriedivision"
+#		type = infantry
+#		home = 269
+#	}
+#	regiment = {
+#		name= "2.2. Kavalleriedivision"
+#		type = infantry
+#		home = 269
+#	}
+#	regiment = {
+#		name= "2.1. Kavalleriedivision"
+#		type = cavalry
+#		home = 269
+#	}
+#}
+#
+#navy = {
+#	name="2nd Fleet"
+#	location=269
+#	ship = {
+#		name="Flying Spur"
+#		type=clipper_transport
+#	}
+#	ship = {
+#		name="Cutty Sark"
+#		type=clipper_transport
+#	}
+#	ship = {
+#		name="Falls of Clyde"
+#		type=clipper_transport
+#	}
+#}

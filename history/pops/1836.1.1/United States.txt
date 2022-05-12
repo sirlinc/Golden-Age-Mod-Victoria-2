@@ -1,0 +1,10843 @@
+1 = {
+	bureaucrats=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 2
+	}
+
+	clergymen=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 10
+	}
+
+	artisans=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 28
+	}
+
+	soldiers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 10
+	}
+
+	aristocrats=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 1750
+	}
+
+}
+2 = {
+	aristocrats=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 900
+	}
+
+}
+3 = {
+	aristocrats=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 5
+	}
+
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 10
+	}
+
+	artisans=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 25
+	}
+
+	soldiers=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 10
+	}
+
+	farmers=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 550
+	}
+
+}
+4 = {
+	aristocrats=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 5
+	}
+
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 10
+	}
+
+	artisans=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 25
+	}
+
+	soldiers=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 5
+	}
+
+	farmers=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 450
+	}
+
+}
+5 = {
+	aristocrats=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 2
+	}
+
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 3
+	}
+
+	artisans=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 15
+	}
+
+	soldiers=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 5
+	}
+
+	farmers=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 225
+	}
+
+	aristocrats=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 2
+	}
+
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 3
+	}
+
+	artisans=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 15
+	}
+
+	soldiers=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 5
+	}
+
+	farmers=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 225
+	}
+
+}
+78 = {
+	soldiers=
+	{
+		culture = penutian
+		religion = totemism
+		size= 28
+	}
+
+	artisans=
+	{
+		culture = penutian
+		religion = totemism
+		size= 114
+	}
+
+	clergymen=
+	{
+		culture = penutian
+		religion = totemism
+		size= 18
+	}
+
+	bureaucrats=
+	{
+		culture = penutian
+		religion = totemism
+		size= 2
+	}
+
+	officers=
+	{
+		culture = penutian
+		religion = totemism
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = penutian
+		religion = totemism
+		size= 24
+	}
+
+	farmers=
+	{
+		culture = penutian
+		religion = totemism
+		size= 2662
+	}
+
+}
+79 = {
+	aristocrats=
+	{
+		culture = penutian
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = penutian
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = penutian
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = penutian
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = penutian
+		religion = totemism
+		size= 900
+	}
+
+}
+80 = {
+	aristocrats=
+	{
+		culture = penutian
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = penutian
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = penutian
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = penutian
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = penutian
+		religion = totemism
+		size= 900
+	}
+
+}
+81 = {
+	aristocrats=
+	{
+		culture = penutian
+		religion = totemism
+		size= 50
+	}
+
+	clergymen=
+	{
+		culture = penutian
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = penutian
+		religion = totemism
+		size= 150
+	}
+
+	soldiers=
+	{
+		culture = penutian
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = penutian
+		religion = totemism
+		size= 2700
+	}
+
+}
+82 = {
+	aristocrats=
+	{
+		culture = penutian
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = penutian
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = penutian
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = penutian
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = penutian
+		religion = totemism
+		size= 900
+	}
+
+}
+83 = {
+	aristocrats=
+	{
+		culture = penutian
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = penutian
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = penutian
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = penutian
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = penutian
+		religion = totemism
+		size= 900
+	}
+
+}
+84 = {
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 10
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 20
+	}
+
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 10
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 350
+	}
+
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 1800
+	}
+
+}
+85 = {
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 900
+	}
+
+}
+86 = {
+	aristocrats=
+	{
+		culture = penutian
+		religion = totemism
+		size= 50
+	}
+
+	clergymen=
+	{
+		culture = penutian
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = penutian
+		religion = totemism
+		size= 150
+	}
+
+	soldiers=
+	{
+		culture = penutian
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = penutian
+		religion = totemism
+		size= 2700
+	}
+
+}
+87 = {
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 12
+	}
+
+	bureaucrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 3
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 15
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 35
+	}
+
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 10
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 525
+	}
+
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 900
+	}
+
+}
+88 = {
+	soldiers=
+	{
+		culture = penutian
+		religion = totemism
+		size= 20
+	}
+
+	artisans=
+	{
+		culture = penutian
+		religion = totemism
+		size= 78
+	}
+
+	clergymen=
+	{
+		culture = penutian
+		religion = totemism
+		size= 13
+	}
+
+	bureaucrats=
+	{
+		culture = penutian
+		religion = totemism
+		size= 1
+	}
+
+	officers=
+	{
+		culture = penutian
+		religion = totemism
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = penutian
+		religion = totemism
+		size= 16
+	}
+
+	farmers=
+	{
+		culture = penutian
+		religion = totemism
+		size= 1830
+	}
+
+}
+89 = {
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = mexican
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 900
+	}
+
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 1800
+	}
+
+}
+90 = {
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 900
+	}
+
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 1800
+	}
+
+}
+91 = {
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 1800
+	}
+
+}
+92 = {
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 900
+	}
+
+}
+93 = {
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 27
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 108
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 18
+	}
+
+	bureaucrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 1
+	}
+
+	officers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 23
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 2521
+	}
+
+}
+94 = {
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 900
+	}
+
+}
+95 = {
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 900
+	}
+
+}
+96 = {
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 900
+	}
+
+}
+97 = {
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 1800
+	}
+
+}
+98 = {
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 900
+	}
+
+}
+99 = {
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 900
+	}
+
+}
+100 = {
+	soldiers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 29
+	}
+
+	artisans=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 116
+	}
+
+	clergymen=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 19
+	}
+
+	bureaucrats=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 1
+	}
+
+	officers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 24
+	}
+
+	farmers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 2709
+	}
+
+}
+101 = {
+	aristocrats=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 1800
+	}
+
+	aristocrats=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 900
+	}
+
+}
+102 = {
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 31
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 123
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 20
+	}
+
+	bureaucrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 2
+	}
+
+	officers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 26
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 2883
+	}
+
+}
+103 = {
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 76
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 302
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 49
+	}
+
+	bureaucrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 4
+	}
+
+	officers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 6
+	}
+
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 63
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 7052
+	}
+
+}
+104 = {
+	soldiers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 11
+	}
+
+	artisans=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 44
+	}
+
+	clergymen=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 7
+	}
+
+	bureaucrats=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 1
+	}
+
+	officers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 9
+	}
+
+	farmers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 1025
+	}
+
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 36
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 143
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 23
+	}
+
+	officers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 3
+	}
+
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 31
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 3329
+	}
+
+	bureaucrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 2
+	}
+
+}
+105 = {
+	soldiers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 3
+	}
+
+	artisans=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 14
+	}
+
+	clergymen=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 3
+	}
+
+	farmers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 328
+	}
+
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 6
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 23
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 4
+	}
+
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 5
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 545
+	}
+
+}
+106 = {
+	aristocrats=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 1800
+	}
+
+}
+107 = {
+	aristocrats=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 900
+	}
+
+}
+108 = {
+	aristocrats=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 900
+	}
+
+}
+109 = {
+	aristocrats=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 900
+	}
+
+}
+110 = {
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 1800
+	}
+
+}
+111 = {
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 50
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 150
+	}
+
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 2700
+	}
+
+}
+112 = {
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 19
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 76
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 12
+	}
+
+	bureaucrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 1
+	}
+
+	officers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 16
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 1774
+	}
+
+}
+113 = {
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 1800
+	}
+
+}
+114 = {
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 900
+	}
+
+}
+115 = {
+	soldiers=
+	{
+		culture = plains_algonquian
+		religion = totemism
+		size= 19
+	}
+
+	artisans=
+	{
+		culture = plains_algonquian
+		religion = totemism
+		size= 77
+	}
+
+	clergymen=
+	{
+		culture = plains_algonquian
+		religion = totemism
+		size= 13
+	}
+
+	bureaucrats=
+	{
+		culture = plains_algonquian
+		religion = totemism
+		size= 1
+	}
+
+	officers=
+	{
+		culture = plains_algonquian
+		religion = totemism
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = plains_algonquian
+		religion = totemism
+		size= 16
+	}
+
+	farmers=
+	{
+		culture = plains_algonquian
+		religion = totemism
+		size= 1805
+	}
+
+}
+116 = {
+	soldiers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 29
+	}
+
+	artisans=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 117
+	}
+
+	clergymen=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 19
+	}
+
+	bureaucrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 1
+	}
+
+	officers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = sonoran
+		religion = totemism
+		size= 2732
+	}
+
+}
+117 = {
+	aristocrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 1800
+	}
+
+}
+118 = {
+	aristocrats=
+	{
+		culture = plains_algonquian
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = plains_algonquian
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = plains_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = plains_algonquian
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = plains_algonquian
+		religion = totemism
+		size= 900
+	}
+
+	aristocrats=
+	{
+		culture = plains_algonquian
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = plains_algonquian
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = plains_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = plains_algonquian
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = plains_algonquian
+		religion = totemism
+		size= 900
+	}
+
+}
+119 = {
+	aristocrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 900
+	}
+
+	aristocrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 900
+	}
+
+}
+120 = {
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 19
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 77
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 13
+	}
+
+	bureaucrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 1
+	}
+
+	officers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 16
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 1805
+	}
+
+}
+121 = {
+	aristocrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 1800
+	}
+
+}
+122 = {
+	aristocrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 900
+	}
+
+	aristocrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 900
+	}
+
+}
+123 = {
+	aristocrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 900
+	}
+
+	aristocrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 900
+	}
+
+}
+124 = {
+	aristocrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 900
+	}
+
+}
+125 = {
+	soldiers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 19
+	}
+
+	artisans=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 76
+	}
+
+	clergymen=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 12
+	}
+
+	bureaucrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 1
+	}
+
+	officers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 16
+	}
+
+	farmers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 1774
+	}
+
+}
+126 = {
+	aristocrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 1800
+	}
+
+}
+127 = {
+	aristocrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 1800
+	}
+
+}
+128 = {
+	aristocrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 1800
+	}
+
+}
+129 = {
+	aristocrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 800
+	}
+
+	slaves=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 100
+	}
+
+	aristocrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 1800
+	}
+
+}
+130 = {
+	aristocrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 1600
+	}
+
+	slaves=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 200
+	}
+
+	aristocrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 900
+	}
+
+}
+131 = {
+	aristocrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 1800
+	}
+
+}
+132 = {
+	slaves=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 725
+	}
+
+	soldiers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 49
+	}
+
+	artisans=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 194
+	}
+
+	clergymen=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 32
+	}
+
+	bureaucrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 2
+	}
+
+	officers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 4
+	}
+
+	aristocrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 41
+	}
+
+	farmers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 3810
+	}
+
+}
+133 = {
+	aristocrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 25
+	}
+
+	bureaucrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 75
+	}
+
+	officers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 20
+	}
+
+	clergymen=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 125
+	}
+
+	soldiers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 1100
+	}
+
+	farmers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 2220
+	}
+
+	slaves=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 500
+	}
+
+	aristocrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 2
+	}
+
+	clergymen=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 3
+	}
+
+	artisans=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 15
+	}
+
+	soldiers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 5
+	}
+
+	farmers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 225
+	}
+
+	aristocrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 2
+	}
+
+	clergymen=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 3
+	}
+
+	artisans=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 15
+	}
+
+	soldiers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 5
+	}
+
+	farmers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 225
+	}
+
+}
+134 = {
+	slaves=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 10
+	}
+
+	soldiers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 11
+	}
+
+	artisans=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 43
+	}
+
+	clergymen=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 7
+	}
+
+	bureaucrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 1
+	}
+
+	officers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 9
+	}
+
+	farmers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 981
+	}
+
+}
+135 = {
+	aristocrats=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 1800
+	}
+
+}
+136 = {
+	aristocrats=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 1800
+	}
+
+	aristocrats=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 2
+	}
+
+	clergymen=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 3
+	}
+
+	artisans=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 15
+	}
+
+	soldiers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 5
+	}
+
+	farmers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 225
+	}
+
+}
+137 = {
+	slaves=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 244
+	}
+
+	soldiers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 35
+	}
+
+	artisans=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 139
+	}
+
+	clergymen=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 23
+	}
+
+	bureaucrats=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 2
+	}
+
+	officers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 3
+	}
+
+	aristocrats=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 29
+	}
+
+	farmers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 3010
+	}
+
+}
+138 = {
+	soldiers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 15
+	}
+
+	artisans=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 58
+	}
+
+	clergymen=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 10
+	}
+
+	bureaucrats=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 1
+	}
+
+	officers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 12
+	}
+
+	farmers=
+	{
+		culture = na_dene
+		religion = totemism
+		size= 1365
+	}
+
+}
+139 = {
+	aristocrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 225
+	}
+
+	clergymen=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 125
+	}
+
+	artisans=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 650
+	}
+
+	soldiers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 250
+	}
+
+	farmers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 15250
+	}
+
+	aristocrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 100
+	}
+
+	clergymen=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 200
+	}
+
+	soldiers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 75
+	}
+
+	farmers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 4550
+	}
+
+	artisans=
+	{
+		culture = 
+		religion = jewish
+		size= 50
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 650
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 3325
+	}
+
+	slaves=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 10000
+	}
+
+}
+140 = {
+	aristocrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 150
+	}
+
+	bureaucrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 50
+	}
+
+	officers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 45
+	}
+
+	clergymen=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 175
+	}
+
+	soldiers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 100
+	}
+
+	farmers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 3430
+	}
+
+	aristocrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 125
+	}
+
+	bureaucrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 50
+	}
+
+	officers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 30
+	}
+
+	clergymen=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 150
+	}
+
+	soldiers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 100
+	}
+
+	farmers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 3470
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 15
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 125
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 10
+	}
+
+	slaves=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 9875
+	}
+
+}
+141 = {
+	aristocrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 150
+	}
+
+	clergymen=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 175
+	}
+
+	soldiers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 100
+	}
+
+	farmers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 3525
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 15
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 75
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 10
+	}
+
+	slaves=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 4900
+	}
+
+}
+142 = {
+	slaves=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 5700
+	}
+
+	soldiers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 105
+	}
+
+	artisans=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 422
+	}
+
+	clergymen=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 69
+	}
+
+	bureaucrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 5
+	}
+
+	officers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 8
+	}
+
+	aristocrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 89
+	}
+
+	farmers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 4147
+	}
+
+}
+143 = {
+	slaves=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 3600
+	}
+
+	soldiers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 133
+	}
+
+	artisans=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 534
+	}
+
+	clergymen=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 87
+	}
+
+	bureaucrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 7
+	}
+
+	officers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 11
+	}
+
+	aristocrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 112
+	}
+
+	farmers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 8873
+	}
+
+}
+144 = {
+	soldiers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 36
+	}
+
+	artisans=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 144
+	}
+
+	clergymen=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 23
+	}
+
+	bureaucrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 2
+	}
+
+	officers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 3
+	}
+
+	aristocrats=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 30
+	}
+
+	farmers=
+	{
+		culture = caddoan
+		religion = totemism
+		size= 3362
+	}
+
+}
+145 = {
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 35
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 2000
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 35
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 2000
+	}
+
+}
+146 = {
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 150
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 1175
+	}
+
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 250
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 23650
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 5
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 220
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 275
+	}
+
+	aristocrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 150
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 100
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 675
+	}
+
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 200
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 15875
+	}
+
+	aristocrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 15
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 10
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 915
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 150
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 1825
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 150
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 100
+	}
+
+	slaves=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 2700
+	}
+
+}
+147 = {
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 250
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 50
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 4625
+	}
+
+}
+148 = {
+	slaves=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 2850
+	}
+
+	soldiers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 95
+	}
+
+	artisans=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 380
+	}
+
+	clergymen=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 62
+	}
+
+	bureaucrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 5
+	}
+
+	officers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 8
+	}
+
+	aristocrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 80
+	}
+
+	farmers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 6020
+	}
+
+}
+149 = {
+	bureaucrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 150
+	}
+
+	officers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 45
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 300
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 75
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 5430
+	}
+
+	aristocrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 100
+	}
+
+	bureaucrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 150
+	}
+
+	officers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 50
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 200
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 75
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 4425
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 150
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 100
+	}
+
+	slaves=
+	{
+		culture = siouan
+		religion = totemism
+		size= 2700
+	}
+
+}
+150 = {
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 400
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 75
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 7475
+	}
+
+	aristocrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 50
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 225
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 50
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 4600
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 15
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 50
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 35
+	}
+
+	slaves=
+	{
+		culture = siouan
+		religion = totemism
+		size= 900
+	}
+
+}
+151 = {
+	bureaucrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 15
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 900
+	}
+
+	aristocrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 1800
+	}
+
+}
+152 = {
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 1850
+	}
+
+}
+153 = {
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 35
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 150
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 2790
+	}
+
+	aristocrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 900
+	}
+
+}
+154 = {
+	aristocrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 1800
+	}
+
+}
+155 = {
+	aristocrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 900
+	}
+
+	aristocrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 900
+	}
+
+}
+156 = {
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 19
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 76
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 12
+	}
+
+	bureaucrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 1
+	}
+
+	officers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 16
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 1774
+	}
+
+}
+157 = {
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 18
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 72
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 12
+	}
+
+	bureaucrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 1
+	}
+
+	officers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 1681
+	}
+
+}
+158 = {
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 6
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 4
+	}
+
+	aristocrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 5
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 582
+	}
+
+	soldiers=
+	{
+		culture = plains_algonquian
+		religion = totemism
+		size= 12
+	}
+
+	artisans=
+	{
+		culture = plains_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	clergymen=
+	{
+		culture = plains_algonquian
+		religion = totemism
+		size= 8
+	}
+
+	bureaucrats=
+	{
+		culture = plains_algonquian
+		religion = totemism
+		size= 1
+	}
+
+	officers=
+	{
+		culture = plains_algonquian
+		religion = totemism
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = plains_algonquian
+		religion = totemism
+		size= 10
+	}
+
+	farmers=
+	{
+		culture = plains_algonquian
+		religion = totemism
+		size= 1162
+	}
+
+}
+159 = {
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 200
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 50
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 3700
+	}
+
+}
+160 = {
+	aristocrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 900
+	}
+
+}
+161 = {
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 15
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 910
+	}
+
+	aristocrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 900
+	}
+
+}
+162 = {
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 18
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 72
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 12
+	}
+
+	bureaucrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 1
+	}
+
+	officers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 1681
+	}
+
+}
+163 = {
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 416
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 1663
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 270
+	}
+
+	bureaucrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 21
+	}
+
+	officers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 33
+	}
+
+	aristocrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 349
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 38814
+	}
+
+}
+164 = {
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 106
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 425
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 69
+	}
+
+	bureaucrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 5
+	}
+
+	officers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 9
+	}
+
+	aristocrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 89
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 9930
+	}
+
+}
+165 = {
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 450
+	}
+
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 100
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 8400
+	}
+
+}
+166 = {
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 17
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 719
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 74
+	}
+
+	bureaucrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 13
+	}
+
+	officers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 21
+	}
+
+	aristocrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 225
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 20961
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = mormon
+		size= 100
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = mormon
+		size= 350
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = mormon
+		size= 4000
+	}
+
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = mormon
+		size= 250
+	}
+
+}
+167 = {
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 86
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 346
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 56
+	}
+
+	bureaucrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 4
+	}
+
+	officers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 7
+	}
+
+	aristocrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 73
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 8073
+	}
+
+}
+168 = {
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 100
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 800
+	}
+
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 175
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 14925
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 15
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 110
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 875
+	}
+
+}
+169 = {
+	bureaucrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 275
+	}
+
+	officers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 150
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 375
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 3200
+	}
+
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 650
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 64225
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 250
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 4675
+	}
+
+}
+170 = {
+	slaves=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 1800
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 441
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 1764
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 287
+	}
+
+	bureaucrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 22
+	}
+
+	officers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 35
+	}
+
+	aristocrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 370
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 39381
+	}
+
+}
+171 = {
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 550
+	}
+
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 125
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 10275
+	}
+
+}
+172 = {
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 288
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 1152
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 187
+	}
+
+	bureaucrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 14
+	}
+
+	officers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 23
+	}
+
+	aristocrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 242
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 26894
+	}
+
+}
+173 = {
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 189
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 756
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 123
+	}
+
+	bureaucrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 9
+	}
+
+	officers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 15
+	}
+
+	aristocrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 159
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 17649
+	}
+
+}
+174 = {
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 300
+	}
+
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 75
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 5550
+	}
+
+}
+175 = {
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 200
+	}
+
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 3700
+	}
+
+}
+176 = {
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 27
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 108
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 18
+	}
+
+	bureaucrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 1
+	}
+
+	officers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 23
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 2521
+	}
+
+}
+177 = {
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 29
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 114
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 19
+	}
+
+	bureaucrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 1
+	}
+
+	officers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 24
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 2661
+	}
+
+}
+178 = {
+	clergymen=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 350
+	}
+
+	artisans=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 2250
+	}
+
+	soldiers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 450
+	}
+
+	farmers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 41950
+	}
+
+	clergymen=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 350
+	}
+
+	farmers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 6600
+	}
+
+}
+179 = {
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 637
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 2548
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 414
+	}
+
+	bureaucrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 32
+	}
+
+	officers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 51
+	}
+
+	aristocrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 535
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 59480
+	}
+
+}
+180 = {
+	clergymen=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 250
+	}
+
+	artisans=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 1850
+	}
+
+	soldiers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 375
+	}
+
+	farmers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 34525
+	}
+
+	clergymen=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 500
+	}
+
+	farmers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 9425
+	}
+
+}
+181 = {
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 532
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 2128
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 346
+	}
+
+	bureaucrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 27
+	}
+
+	officers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 43
+	}
+
+	aristocrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 447
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 49677
+	}
+
+}
+182 = {
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 375
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 2650
+	}
+
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 525
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 49450
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 400
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 7550
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 500
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 9425
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 200
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 2750
+	}
+
+}
+183 = {
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 225
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 1950
+	}
+
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 400
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 36425
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 15
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 85
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 900
+	}
+
+}
+184 = {
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 100
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 700
+	}
+
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 150
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 13050
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 250
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 4675
+	}
+
+	aristocrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 250
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 350
+	}
+
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 200
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 8125
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 100
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 700
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 700
+	}
+
+	slaves=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 9500
+	}
+
+}
+185 = {
+	slaves=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 10800
+	}
+
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 747
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 2992
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 486
+	}
+
+	bureaucrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 37
+	}
+
+	officers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 59
+	}
+
+	aristocrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 629
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 59040
+	}
+
+}
+186 = {
+	slaves=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 10450
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 352
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 1406
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 228
+	}
+
+	bureaucrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 18
+	}
+
+	officers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 28
+	}
+
+	aristocrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 295
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 22373
+	}
+
+}
+187 = {
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 250
+	}
+
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 4625
+	}
+
+	aristocrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 275
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 100
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 550
+	}
+
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 225
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 12850
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 350
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 100
+	}
+
+	slaves=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 7500
+	}
+
+}
+188 = {
+	bureaucrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 200
+	}
+
+	officers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 275
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 1800
+	}
+
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 350
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 28525
+	}
+
+	aristocrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 950
+	}
+
+	bureaucrats=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 300
+	}
+
+	officers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 150
+	}
+
+	clergymen=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 500
+	}
+
+	artisans=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 3100
+	}
+
+	soldiers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 2000
+	}
+
+	farmers=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 46000
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 125
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 850
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 325
+	}
+
+	slaves=
+	{
+		culture = central_algonquian
+		religion = totemism
+		size= 13700
+	}
+
+}
+189 = {
+	clergymen=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 400
+	}
+
+	soldiers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 75
+	}
+
+	farmers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 6475
+	}
+
+	aristocrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 450
+	}
+
+	clergymen=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 150
+	}
+
+	artisans=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 800
+	}
+
+	soldiers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 300
+	}
+
+	farmers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 15300
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 350
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 100
+	}
+
+	slaves=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 7500
+	}
+
+}
+190 = {
+	slaves=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 7200
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 261
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 1044
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 170
+	}
+
+	bureaucrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 13
+	}
+
+	officers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 21
+	}
+
+	aristocrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 219
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 17172
+	}
+
+}
+191 = {
+	slaves=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 5400
+	}
+
+	soldiers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 290
+	}
+
+	artisans=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 1159
+	}
+
+	clergymen=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 188
+	}
+
+	bureaucrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 14
+	}
+
+	officers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 23
+	}
+
+	aristocrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 243
+	}
+
+	farmers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 21663
+	}
+
+}
+192 = {
+	slaves=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 16800
+	}
+
+	soldiers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 384
+	}
+
+	artisans=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 1534
+	}
+
+	clergymen=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 250
+	}
+
+	bureaucrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 19
+	}
+
+	officers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 31
+	}
+
+	aristocrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 322
+	}
+
+	farmers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 19020
+	}
+
+}
+193 = {
+	slaves=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 12600
+	}
+
+	soldiers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 226
+	}
+
+	artisans=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 904
+	}
+
+	clergymen=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 146
+	}
+
+	bureaucrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 12
+	}
+
+	officers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 18
+	}
+
+	aristocrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 190
+	}
+
+	farmers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 8494
+	}
+
+}
+194 = {
+	aristocrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 250
+	}
+
+	clergymen=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 800
+	}
+
+	soldiers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 200
+	}
+
+	farmers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 7675
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 150
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 25
+	}
+
+	slaves=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 9800
+	}
+
+}
+195 = {
+	slaves=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 22400
+	}
+
+	soldiers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 627
+	}
+
+	artisans=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 2507
+	}
+
+	clergymen=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 407
+	}
+
+	bureaucrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 31
+	}
+
+	officers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 50
+	}
+
+	aristocrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 526
+	}
+
+	farmers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 36125
+	}
+
+}
+196 = {
+	slaves=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 15152
+	}
+
+	soldiers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 399
+	}
+
+	artisans=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 1598
+	}
+
+	clergymen=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 260
+	}
+
+	bureaucrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 20
+	}
+
+	officers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 32
+	}
+
+	aristocrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 336
+	}
+
+	farmers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 22150
+	}
+
+}
+197 = {
+	aristocrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 450
+	}
+
+	clergymen=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 100
+	}
+
+	artisans=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 600
+	}
+
+	soldiers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 325
+	}
+
+	farmers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 13525
+	}
+
+	aristocrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 15
+	}
+
+	clergymen=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 35
+	}
+
+	artisans=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 1825
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 300
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 25
+	}
+
+	slaves=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 17650
+	}
+
+}
+198 = {
+	aristocrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 100
+	}
+
+	bureaucrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 25
+	}
+
+	officers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 175
+	}
+
+	soldiers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 75
+	}
+
+	farmers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 3550
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 10
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 80
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 10
+	}
+
+	slaves=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 3900
+	}
+
+}
+199 = {
+	aristocrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 150
+	}
+
+	clergymen=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 325
+	}
+
+	soldiers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 125
+	}
+
+	farmers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 7350
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 10
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 80
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 10
+	}
+
+	slaves=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 3900
+	}
+
+}
+200 = {
+	aristocrats=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 1800
+	}
+
+}
+201 = {
+	slaves=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 20700
+	}
+
+	soldiers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 534
+	}
+
+	artisans=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 2132
+	}
+
+	clergymen=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 346
+	}
+
+	bureaucrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 26
+	}
+
+	officers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 42
+	}
+
+	aristocrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 448
+	}
+
+	farmers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 29074
+	}
+
+}
+202 = {
+	slaves=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 3734
+	}
+
+	soldiers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 102
+	}
+
+	artisans=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 410
+	}
+
+	clergymen=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 66
+	}
+
+	bureaucrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 6
+	}
+
+	officers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 8
+	}
+
+	aristocrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 86
+	}
+
+	farmers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 5854
+	}
+
+}
+204 = {
+	aristocrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 700
+	}
+
+	clergymen=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 200
+	}
+
+	artisans=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 1175
+	}
+
+	soldiers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 500
+	}
+
+	farmers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 26425
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 475
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 25
+	}
+
+	slaves=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 20475
+	}
+
+}
+205 = {
+	aristocrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 850
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 175
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 1100
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 2000
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 21725
+	}
+
+	artisans=
+	{
+		culture = 
+		religion = jewish
+		size= 250
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 15
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 675
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 10
+	}
+
+	slaves=
+	{
+		culture = siouan
+		religion = totemism
+		size= 35300
+	}
+
+}
+206 = {
+	slaves=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 41566
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 822
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 3287
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 534
+	}
+
+	bureaucrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 41
+	}
+
+	officers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 66
+	}
+
+	aristocrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 690
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 35160
+	}
+
+}
+207 = {
+	aristocrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 425
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 150
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 750
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 275
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 17400
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 325
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 50
+	}
+
+	slaves=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 7600
+	}
+
+}
+208 = {
+	slaves=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 9500
+	}
+
+	soldiers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 372
+	}
+
+	artisans=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 1487
+	}
+
+	clergymen=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 242
+	}
+
+	bureaucrats=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 19
+	}
+
+	officers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 30
+	}
+
+	aristocrats=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 312
+	}
+
+	farmers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 25206
+	}
+
+}
+209 = {
+	aristocrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 500
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 150
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 750
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 350
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 17250
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 550
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 25
+	}
+
+	slaves=
+	{
+		culture = siouan
+		religion = totemism
+		size= 14400
+	}
+
+}
+210 = {
+	aristocrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 775
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 225
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 1150
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 475
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 26375
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 500
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 25
+	}
+
+	slaves=
+	{
+		culture = siouan
+		religion = totemism
+		size= 17450
+	}
+
+}
+211 = {
+	slaves=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 29725
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 859
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 3436
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 558
+	}
+
+	bureaucrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 43
+	}
+
+	officers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 69
+	}
+
+	aristocrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 721
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 50477
+	}
+
+}
+212 = {
+	aristocrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 200
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 250
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 150
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 5350
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 550
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 625
+	}
+
+	slaves=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 9750
+	}
+
+}
+213 = {
+	aristocrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 425
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 125
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 600
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 275
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 13575
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 650
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 400
+	}
+
+	slaves=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 12875
+	}
+
+}
+214 = {
+	aristocrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 125
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 175
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 75
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 3650
+	}
+
+	aristocrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 225
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 100
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 500
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 175
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 11000
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 500
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 225
+	}
+
+	slaves=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 10225
+	}
+
+}
+215 = {
+	aristocrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 200
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 325
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 150
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 7275
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 350
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 250
+	}
+
+	slaves=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 6400
+	}
+
+}
+216 = {
+	aristocrats=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 225
+	}
+
+	clergymen=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 150
+	}
+
+	artisans=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 650
+	}
+
+	soldiers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 300
+	}
+
+	farmers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 14675
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 650
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 50
+	}
+
+	slaves=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 13275
+	}
+
+}
+217 = {
+	aristocrats=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 200
+	}
+
+	bureaucrats=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 200
+	}
+
+	clergymen=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 500
+	}
+
+	soldiers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 175
+	}
+
+	farmers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 12050
+	}
+
+	aristocrats=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 50
+	}
+
+	clergymen=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 200
+	}
+
+	soldiers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 50
+	}
+
+	farmers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 3625
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 500
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 1425
+	}
+
+	slaves=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 8000
+	}
+
+}
+218 = {
+	aristocrats=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 200
+	}
+
+	clergymen=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 500
+	}
+
+	soldiers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 175
+	}
+
+	farmers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 11050
+	}
+
+	aristocrats=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 50
+	}
+
+	clergymen=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 125
+	}
+
+	soldiers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 50
+	}
+
+	farmers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 2725
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 500
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 2425
+	}
+
+	slaves=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 7000
+	}
+
+}
+219 = {
+	aristocrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 525
+	}
+
+	bureaucrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 250
+	}
+
+	officers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 125
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 225
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 10000
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 3700
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 500
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 11750
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 225
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 1300
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 1875
+	}
+
+	slaves=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 22600
+	}
+
+}
+220 = {
+	aristocrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 475
+	}
+
+	bureaucrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 400
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 150
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 800
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 450
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 18125
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 200
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 1300
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 1900
+	}
+
+	slaves=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 26000
+	}
+
+}
+221 = {
+	aristocrats=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 150
+	}
+
+	clergymen=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 325
+	}
+
+	soldiers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 150
+	}
+
+	farmers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 7325
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 300
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 2650
+	}
+
+	slaves=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 6000
+	}
+
+}
+222 = {
+	aristocrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 75
+	}
+
+	bureaucrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 25
+	}
+
+	officers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 100
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 650
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 125
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 12015
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 300
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 5150
+	}
+
+	slaves=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 500
+	}
+
+}
+223 = {
+	slaves=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 7400
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 1093
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 3881
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 700
+	}
+
+	bureaucrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 55
+	}
+
+	officers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 87
+	}
+
+	aristocrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 918
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 94631
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = jewish
+		size= 10
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = jewish
+		size= 490
+	}
+
+}
+224 = {
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 300
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 2050
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 425
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 38225
+	}
+
+}
+225 = {
+	soldiers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 409
+	}
+
+	artisans=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 1634
+	}
+
+	clergymen=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 266
+	}
+
+	bureaucrats=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 20
+	}
+
+	officers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 33
+	}
+
+	aristocrats=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 343
+	}
+
+	farmers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 38145
+	}
+
+}
+226 = {
+	clergymen=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 550
+	}
+
+	artisans=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 3650
+	}
+
+	soldiers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 2000
+	}
+
+	farmers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 66800
+	}
+
+}
+227 = {
+	clergymen=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 400
+	}
+
+	artisans=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 2750
+	}
+
+	soldiers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 550
+	}
+
+	farmers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 51300
+	}
+
+	clergymen=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 150
+	}
+
+	artisans=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 900
+	}
+
+	soldiers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 175
+	}
+
+	farmers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 16775
+	}
+
+	clergymen=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 350
+	}
+
+	farmers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 6525
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 150
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 2800
+	}
+
+}
+228 = {
+	soldiers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 257
+	}
+
+	artisans=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 1026
+	}
+
+	clergymen=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 167
+	}
+
+	bureaucrats=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 13
+	}
+
+	officers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 21
+	}
+
+	aristocrats=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 215
+	}
+
+	farmers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 23951
+	}
+
+}
+229 = {
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 200
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 1550
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 325
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 28925
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 200
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 3700
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 200
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 3750
+	}
+
+}
+230 = {
+	bureaucrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 200
+	}
+
+	officers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 70
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 150
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 1050
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 225
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 21105
+	}
+
+	bureaucrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 25
+	}
+
+	officers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 15
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 150
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 2735
+	}
+
+}
+231 = {
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 150
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 1100
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 225
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 20525
+	}
+
+}
+232 = {
+	capitalists=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 125
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 675
+	}
+
+	clerks=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 125
+	}
+
+	craftsmen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 6500
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 6987
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 8375
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 2000
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 6512
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 2310
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 875
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 75
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	clergymen=
+	{
+		culture = 
+		religion = jewish
+		size= 10
+	}
+
+	artisans=
+	{
+		culture = 
+		religion = jewish
+		size= 490
+	}
+
+}
+233 = {
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 175
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 1250
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 250
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 23325
+	}
+
+}
+234 = {
+	bureaucrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 1800
+	}
+
+	officers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 500
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 625
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 3125
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 2000
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 70775
+	}
+
+	bureaucrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 100
+	}
+
+	officers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 250
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 4475
+	}
+
+}
+235 = {
+	clergymen=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 625
+	}
+
+	artisans=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 4400
+	}
+
+	soldiers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 2000
+	}
+
+	farmers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 80975
+	}
+
+}
+236 = {
+	soldiers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 549
+	}
+
+	artisans=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 2196
+	}
+
+	clergymen=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 357
+	}
+
+	bureaucrats=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 27
+	}
+
+	officers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 44
+	}
+
+	aristocrats=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 461
+	}
+
+	farmers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 51266
+	}
+
+}
+237 = {
+	soldiers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 396
+	}
+
+	artisans=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 1584
+	}
+
+	clergymen=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 257
+	}
+
+	bureaucrats=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 20
+	}
+
+	officers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 32
+	}
+
+	aristocrats=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 333
+	}
+
+	farmers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 36978
+	}
+
+}
+238 = {
+	soldiers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 684
+	}
+
+	artisans=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 2736
+	}
+
+	clergymen=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 445
+	}
+
+	bureaucrats=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 34
+	}
+
+	officers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 55
+	}
+
+	aristocrats=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 575
+	}
+
+	farmers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 63871
+	}
+
+}
+239 = {
+	clergymen=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 225
+	}
+
+	artisans=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 1450
+	}
+
+	soldiers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 300
+	}
+
+	farmers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 27025
+	}
+
+}
+240 = {
+	soldiers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 181
+	}
+
+	artisans=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 722
+	}
+
+	clergymen=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 117
+	}
+
+	bureaucrats=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 9
+	}
+
+	officers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 14
+	}
+
+	aristocrats=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 152
+	}
+
+	farmers=
+	{
+		culture = iroquoian
+		religion = totemism
+		size= 16855
+	}
+
+}
+241 = {
+	bureaucrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 150
+	}
+
+	officers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 75
+	}
+
+	capitalists=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 15
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 550
+	}
+
+	clerks=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	craftsmen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 550
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 3050
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 2000
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 66560
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 500
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 1475
+	}
+
+}
+242 = {
+	bureaucrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	officers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 25
+	}
+
+	capitalists=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 175
+	}
+
+	clerks=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 75
+	}
+
+	craftsmen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 750
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 4175
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 250
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 19475
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 500
+	}
+
+	farmers=
+	{
+		culture = afro_american
+		religion = totemism
+		size= 475
+	}
+
+}
+243 = {
+	bureaucrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 300
+	}
+
+	officers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 150
+	}
+
+	capitalists=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 350
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 675
+	}
+
+	clerks=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 825
+	}
+
+	craftsmen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 16250
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 10000
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 10000
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 10000
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 10000
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 7925
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 2000
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 22145
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	clerks=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	craftsmen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 1100
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 2950
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 75
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 2875
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 7000
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 925
+	}
+
+}
+244 = {
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 225
+	}
+
+	clerks=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 25
+	}
+
+	craftsmen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 300
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 1125
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 300
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 27025
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 1100
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 3950
+	}
+
+}
+245 = {
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 196
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 784
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 127
+	}
+
+	bureaucrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 9
+	}
+
+	officers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 16
+	}
+
+	aristocrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 165
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 18303
+	}
+
+}
+246 = {
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 683
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 2734
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 444
+	}
+
+	bureaucrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 34
+	}
+
+	officers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 55
+	}
+
+	aristocrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 574
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 63819
+	}
+
+}
+247 = {
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 668
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 2673
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 434
+	}
+
+	bureaucrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 33
+	}
+
+	officers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 53
+	}
+
+	aristocrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 561
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 62398
+	}
+
+}
+248 = {
+	bureaucrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 175
+	}
+
+	officers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 100
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 450
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 3000
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 600
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 55675
+	}
+
+}
+249 = {
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 418
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 1672
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 272
+	}
+
+	bureaucrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 21
+	}
+
+	officers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 33
+	}
+
+	aristocrats=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 351
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 39033
+	}
+
+}
+250 = {
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 250
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 4625
+	}
+
+	clergymen=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 200
+	}
+
+	soldiers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = eastern_algonquian
+		religion = totemism
+		size= 3725
+	}
+
+}
+2555 = {
+	slaves=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 13300
+	}
+
+	soldiers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 304
+	}
+
+	artisans=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 1216
+	}
+
+	clergymen=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 198
+	}
+
+	bureaucrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 15
+	}
+
+	officers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 24
+	}
+
+	aristocrats=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 255
+	}
+
+	farmers=
+	{
+		culture = muskogean
+		religion = totemism
+		size= 15088
+	}
+
+}
+2556 = {
+	slaves=
+	{
+		culture = native_american_minor
+		religion = totemism
+		size= 9000
+	}
+
+	soldiers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 167
+	}
+
+	artisans=
+	{
+		culture = siouan
+		religion = totemism
+		size= 666
+	}
+
+	clergymen=
+	{
+		culture = siouan
+		religion = totemism
+		size= 108
+	}
+
+	bureaucrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 8
+	}
+
+	officers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 13
+	}
+
+	aristocrats=
+	{
+		culture = siouan
+		religion = totemism
+		size= 140
+	}
+
+	farmers=
+	{
+		culture = siouan
+		religion = totemism
+		size= 11048
+	}
+
+	soldiers=
+	{
+		culture = cherokee
+		religion = totemism
+		size= 167
+	}
+
+	artisans=
+	{
+		culture = cherokee
+		religion = totemism
+		size= 666
+	}
+
+	clergymen=
+	{
+		culture = cherokee
+		religion = totemism
+		size= 108
+	}
+
+	bureaucrats=
+	{
+		culture = cherokee
+		religion = totemism
+		size= 8
+	}
+
+	officers=
+	{
+		culture = cherokee
+		religion = totemism
+		size= 13
+	}
+
+	aristocrats=
+	{
+		culture = cherokee
+		religion = totemism
+		size= 140
+	}
+
+	farmers=
+	{
+		culture = cherokee
+		religion = totemism
+		size= 11048
+	}
+
+}
+2599 = {
+	aristocrats=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 5
+	}
+
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 10
+	}
+
+	artisans=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 25
+	}
+
+	soldiers=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 5
+	}
+
+	farmers=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 450
+	}
+
+}
+2630 = {
+	aristocrats=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 5
+	}
+
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 10
+	}
+
+	artisans=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 20
+	}
+
+	soldiers=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 5
+	}
+
+	farmers=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 360
+	}
+
+}
+2631 = {
+	aristocrats=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 5
+	}
+
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 10
+	}
+
+	artisans=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 25
+	}
+
+	soldiers=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 5
+	}
+
+	farmers=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 450
+	}
+
+	aristocrats=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 2
+	}
+
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 3
+	}
+
+	artisans=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 15
+	}
+
+	soldiers=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 5
+	}
+
+	farmers=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 225
+	}
+
+}

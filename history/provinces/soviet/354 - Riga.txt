@@ -1,0 +1,7 @@
+owner=RIG
+controller=RIG
+add_core=GER
+add_core=RIG
+trade_goods = fish
+life_rating = 35
+terrain = farmlands

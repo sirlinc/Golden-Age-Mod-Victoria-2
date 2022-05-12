@@ -1,0 +1,9 @@
+owner=YAR
+controller=MUS
+add_core=MUS
+add_core=RUS
+add_core=X26
+add_core=YAR
+trade_goods = timber
+life_rating = 35
+terrain = forest

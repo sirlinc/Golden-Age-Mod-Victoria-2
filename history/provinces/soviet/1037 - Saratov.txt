@@ -1,0 +1,6 @@
+owner=GRH
+controller=GRH
+add_core=GRH
+trade_goods = grain
+life_rating = 35
+terrain = steppe

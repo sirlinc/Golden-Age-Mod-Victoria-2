@@ -1,0 +1,9 @@
+owner=RHD
+controller=JAR
+add_core=IDO
+add_core=JAR
+add_core=KOH
+add_core=RHD
+trade_goods = tobacco
+life_rating = 30
+terrain = jungle

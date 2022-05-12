@@ -1,0 +1,7 @@
+owner=KTS
+controller=KTS
+add_core=KTS
+add_core=ZZZ
+trade_goods = cattle
+life_rating = 35
+terrain = plains

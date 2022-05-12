@@ -1,0 +1,9 @@
+owner=TDO
+controller=TDO
+add_core=MNA
+add_core=PGS
+add_core=PHI
+add_core=TDO
+trade_goods = fish
+life_rating = 30
+terrain = plains

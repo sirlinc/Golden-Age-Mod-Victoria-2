@@ -1,0 +1,6 @@
+owner=POT
+controller=POT
+add_core=POT
+trade_goods = timber
+life_rating = 35
+terrain = forest

@@ -1,0 +1,6 @@
+owner=EGY
+controller=EGY
+add_core=ARA
+trade_goods = wool
+life_rating = 35
+terrain = desert

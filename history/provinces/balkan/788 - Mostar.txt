@@ -1,0 +1,8 @@
+owner=HRZ
+controller=HRZ
+add_core=BOS
+add_core=HRZ
+add_core=YUG
+trade_goods = grain
+life_rating = 35
+terrain = hills

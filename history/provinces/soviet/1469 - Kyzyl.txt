@@ -1,0 +1,6 @@
+owner=OIR
+controller=OIR
+add_core=YAK
+trade_goods = coal
+life_rating = 35
+terrain = woods

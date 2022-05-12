@@ -1,0 +1,7 @@
+owner=OTM
+controller=OTM
+add_core=OTM
+add_core=JAP
+trade_goods = coal
+life_rating = 35
+terrain = plains

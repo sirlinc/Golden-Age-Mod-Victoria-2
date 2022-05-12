@@ -1,0 +1,8 @@
+owner=MHR
+controller=MHR
+add_core=ARA
+add_core=MHR
+trade_goods = opium
+life_rating = 35
+terrain = desert
+fort = 2

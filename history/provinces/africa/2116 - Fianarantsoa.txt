@@ -1,0 +1,7 @@
+owner=MIR
+controller=MIR
+add_core=MAD
+add_core=MIR
+trade_goods = coal
+life_rating = 35
+terrain = mountain

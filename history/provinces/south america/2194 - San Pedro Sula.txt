@@ -1,0 +1,6 @@
+owner=CHT
+controller=CHT
+add_core=CHT
+trade_goods = fruit
+life_rating = 30
+terrain = mountain

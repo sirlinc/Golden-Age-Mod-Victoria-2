@@ -1,0 +1,9 @@
+owner=VEN
+controller=VEN
+add_core=HLR
+add_core=ITA
+add_core=LOM
+add_core=VEN
+trade_goods = silk
+life_rating = 35
+terrain = farmlands

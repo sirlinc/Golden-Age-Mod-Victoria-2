@@ -1,0 +1,7 @@
+owner=AZT
+controller=AZT
+add_core=AZT
+add_core=OTO
+trade_goods = fruit
+life_rating = 35
+terrain = mountain

@@ -1,0 +1,6 @@
+owner=AYR
+controller=AYR
+add_core=AYR
+trade_goods = cattle
+life_rating = 10
+terrain = plains

@@ -1,0 +1,8 @@
+owner=PTT
+controller=PTT
+add_core=HND
+add_core=PTT
+add_core=SBP
+trade_goods = grain
+life_rating = 32
+terrain = hills

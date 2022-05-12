@@ -1,0 +1,96 @@
+guarantee=
+{
+	first="TUR"
+	second="RAG"
+	start_date="1444.11.11"
+	end_date="1936.1.1"
+}
+
+guarantee=
+{
+	first="POL"
+	second="MOL"
+	start_date="1444.11.11"
+	end_date="1936.1.1"
+}
+
+guarantee=
+{
+	first="FRA"
+	second="SCO"
+	start_date="1444.11.11"
+	end_date="1936.1.1"
+}
+
+guarantee=
+{
+	first="VEN"
+	second="ALB"
+	start_date="1444.11.11"
+	end_date="1936.1.1"
+}
+
+guarantee=
+{
+	first="VEN"
+	second="KNI"
+	start_date="1444.11.11"
+	end_date="1936.1.1"
+}
+
+guarantee=
+{
+	first="EGY"
+	second="CYP"
+	start_date="1444.11.11"
+	end_date="1936.1.1"
+}
+
+guarantee=
+{
+	first="EGY"
+	second="X19"
+	start_date="1444.11.11"
+	end_date="1936.1.1"
+}
+
+guarantee=
+{
+	first="TUN"
+	second="FZA"
+	start_date="1444.11.11"
+	end_date="1936.1.1"
+}
+
+guarantee=
+{
+	first="BRU"
+	second="SUL"
+	start_date="1444.11.11"
+	end_date="1936.1.1"
+}
+
+guarantee=
+{
+	first="DAI"
+	second="MPH"
+	start_date="1444.11.11"
+	end_date="1936.1.1"
+}
+
+guarantee=
+{
+	first="LXA"
+	second="MPH"
+	start_date="1444.11.11"
+	end_date="1936.1.1"
+}
+
+guarantee=
+{
+	first="MAW"
+	second="BGA"
+	start_date="1444.11.11"
+	end_date="1936.1.1"
+}
+

@@ -1,0 +1,8 @@
+owner=LIT
+controller=LIT
+add_core=CHR
+add_core=LIT
+add_core=UKR
+trade_goods = coal
+life_rating = 35
+terrain = plains

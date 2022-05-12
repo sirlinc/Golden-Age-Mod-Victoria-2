@@ -1,0 +1,8 @@
+owner=SMB
+controller=SMB
+add_core=BRU
+add_core=MLY
+add_core=SMB
+trade_goods = grain
+life_rating = 15
+terrain = jungle

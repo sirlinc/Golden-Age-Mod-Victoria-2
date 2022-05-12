@@ -1,0 +1,7 @@
+owner=CEB
+controller=CEB
+add_core=CEB
+add_core=PHI
+trade_goods = fish
+life_rating = 30
+terrain = plains

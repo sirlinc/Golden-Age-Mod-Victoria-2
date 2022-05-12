@@ -1,0 +1,8 @@
+owner=JNP
+controller=DNG
+add_core=HND
+add_core=JNP
+add_core=TRT
+trade_goods = fruit
+life_rating = 32
+terrain = plains

@@ -1,0 +1,8 @@
+owner=PRO
+controller=PRO
+add_core=BXR
+add_core=FRA
+add_core=PRO
+trade_goods = iron
+life_rating = 30
+terrain = plains

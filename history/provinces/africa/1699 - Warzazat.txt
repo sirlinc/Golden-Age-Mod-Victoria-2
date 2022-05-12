@@ -1,0 +1,7 @@
+owner=SOS
+controller=SOS
+add_core=SOS
+trade_goods = fruit
+life_rating = 35
+terrain = desert
+fort = 2

@@ -1,0 +1,6 @@
+owner=NUP
+controller=NUP
+add_core=NUP
+trade_goods = grain
+life_rating = 35
+terrain = plains

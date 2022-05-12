@@ -1,0 +1,7 @@
+owner=ML1
+controller=ML1
+add_core=ML1
+add_core=PTE
+trade_goods = cattle
+life_rating = 35
+terrain = plains

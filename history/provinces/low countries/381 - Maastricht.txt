@@ -1,0 +1,9 @@
+owner=GLR
+controller=GLR
+add_core=BEL
+add_core=FLA
+add_core=GLR
+add_core=HLR
+trade_goods = coal
+life_rating = 35
+terrain = farmlands

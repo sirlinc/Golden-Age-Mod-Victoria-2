@@ -1,0 +1,8 @@
+owner=MUS
+controller=GRH
+add_core=GRH
+add_core=QAS
+trade_goods = grain
+life_rating = 35
+terrain = steppe
+colonial=2

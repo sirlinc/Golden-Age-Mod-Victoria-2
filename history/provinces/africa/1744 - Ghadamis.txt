@@ -1,0 +1,6 @@
+owner=GHD
+controller=GHD
+add_core=GHD
+trade_goods = fruit
+life_rating = 35
+terrain = desert

@@ -1,0 +1,16 @@
+2126 = {
+	farmers=
+	{
+		culture = african_minor
+		religion = animist
+		size= 20000
+	}
+
+	farmers=
+	{
+		culture = african_minor
+		religion = sunni
+		size= 4500
+	}
+
+}

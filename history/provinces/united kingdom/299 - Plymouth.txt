@@ -1,0 +1,8 @@
+owner=ENL
+controller=ENL
+add_core=ENG
+add_core=ENL
+add_core=KER
+trade_goods = fish
+life_rating = 35
+terrain = hills

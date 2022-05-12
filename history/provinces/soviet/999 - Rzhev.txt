@@ -1,0 +1,11 @@
+owner=SMK
+controller=SMK
+add_core=SMK
+add_core=LIT
+add_core=MUS
+add_core=PLT
+add_core=RUS
+add_core=TVE
+trade_goods = timber
+life_rating = 35
+terrain = plains

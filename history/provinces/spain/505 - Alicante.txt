@@ -1,0 +1,9 @@
+owner=ARN
+controller=ARN
+add_core=ARN
+add_core=CAT
+add_core=SPA
+add_core=X36
+trade_goods = fruit
+life_rating = 35
+terrain = hills

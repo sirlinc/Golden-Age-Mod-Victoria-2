@@ -1,0 +1,9 @@
+owner=HWH
+controller=HWH
+add_core=HWH
+add_core=HWM
+add_core=HWO
+add_core=X10
+trade_goods = fish
+life_rating = 15
+terrain = plains

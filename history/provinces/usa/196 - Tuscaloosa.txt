@@ -1,0 +1,5 @@
+owner=ABI
+controller=ABI
+trade_goods = iron
+life_rating = 35
+terrain = plains

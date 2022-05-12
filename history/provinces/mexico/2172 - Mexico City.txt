@@ -1,0 +1,6 @@
+owner=AZT
+controller=AZT
+add_core=AZT
+trade_goods = grain
+life_rating = 35
+terrain = mountain

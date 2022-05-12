@@ -1,0 +1,8 @@
+owner=MCM
+controller=MCM
+add_core=ENG
+add_core=IRE
+add_core=MCM
+trade_goods = fish
+life_rating = 35
+terrain = hills

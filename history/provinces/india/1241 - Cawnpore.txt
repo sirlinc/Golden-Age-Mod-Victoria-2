@@ -1,0 +1,9 @@
+owner=JNP
+controller=JNP
+add_core=DLH
+add_core=HND
+add_core=JNP
+add_core=KLP
+trade_goods = dye
+life_rating = 32
+terrain = farmlands

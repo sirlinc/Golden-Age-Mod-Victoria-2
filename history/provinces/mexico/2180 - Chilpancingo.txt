@@ -1,0 +1,6 @@
+owner=OAX
+controller=AZT
+add_core=OAX
+trade_goods = cattle
+life_rating = 35
+terrain = plains

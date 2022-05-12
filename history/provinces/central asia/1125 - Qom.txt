@@ -1,0 +1,9 @@
+owner=QOM
+controller=QOM
+add_core=PER
+add_core=QOM
+add_core=TIM
+trade_goods = grain
+life_rating = 35
+terrain = hills
+fort = 2

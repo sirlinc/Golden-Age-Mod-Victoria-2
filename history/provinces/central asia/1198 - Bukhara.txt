@@ -1,0 +1,11 @@
+owner=TRX
+controller=SHY
+add_core=KAZ
+add_core=KHI
+add_core=SHY
+add_core=TIM
+add_core=TKS
+add_core=TRX
+trade_goods = wool
+life_rating = 35
+terrain = steppe

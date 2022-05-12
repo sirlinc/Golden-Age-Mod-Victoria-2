@@ -1,0 +1,8 @@
+owner=TIM
+controller=TIM
+add_core=KHO
+add_core=PER
+add_core=TIM
+trade_goods = coal
+life_rating = 35
+terrain = hills

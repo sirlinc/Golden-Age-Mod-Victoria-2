@@ -1,0 +1,7 @@
+owner=YAO
+controller=YAO
+add_core=KBO
+add_core=YAO
+trade_goods = fish
+life_rating = 10
+terrain = plains

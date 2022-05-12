@@ -1,0 +1,6 @@
+owner=NDO
+controller=NDO
+add_core=NDO
+trade_goods = coffee
+life_rating = 25
+terrain = jungle

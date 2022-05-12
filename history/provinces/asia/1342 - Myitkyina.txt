@@ -1,0 +1,10 @@
+owner=MYA
+controller=MYA
+add_core=BUR
+add_core=IDO
+add_core=KWN
+add_core=MYA
+add_core=SHA
+trade_goods = grain
+life_rating = 35
+terrain = mountain

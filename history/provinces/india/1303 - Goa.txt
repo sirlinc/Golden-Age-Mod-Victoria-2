@@ -1,0 +1,8 @@
+owner=VIJ
+controller=VIJ
+add_core=BIJ
+add_core=BMN
+add_core=HND
+trade_goods = fruit
+life_rating = 32
+terrain = plains

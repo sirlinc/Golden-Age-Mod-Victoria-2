@@ -1,0 +1,8 @@
+owner=MFA
+controller=MFA
+add_core=HLR
+add_core=ITA
+add_core=MFA
+trade_goods = fruit
+life_rating = 35
+terrain = farmlands

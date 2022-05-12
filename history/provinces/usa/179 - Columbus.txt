@@ -1,0 +1,5 @@
+owner=CLG
+controller=CLG
+trade_goods = grain
+life_rating = 35
+terrain = woods

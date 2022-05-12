@@ -1,0 +1,8 @@
+owner=POL
+controller=POL
+add_core=KRA
+add_core=PLC
+add_core=POL
+trade_goods = coal
+life_rating = 40
+terrain = plains

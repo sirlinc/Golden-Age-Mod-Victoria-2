@@ -1,0 +1,6 @@
+owner=YOK
+controller=YOK
+add_core=YOK
+trade_goods = iron
+life_rating = 35
+terrain = plains

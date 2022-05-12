@@ -1,0 +1,488 @@
+633 = {
+	soldiers=
+	{
+		culture = slovak
+		religion = catholic
+		size= 1589
+	}
+
+	craftsmen=
+	{
+		culture = slovak
+		religion = catholic
+		size= 8170
+	}
+
+	clergymen=
+	{
+		culture = slovak
+		religion = catholic
+		size= 988
+	}
+
+	clerks=
+	{
+		culture = slovak
+		religion = catholic
+		size= 493
+	}
+
+	bureaucrats=
+	{
+		culture = slovak
+		religion = catholic
+		size= 179
+	}
+
+	officers=
+	{
+		culture = slovak
+		religion = catholic
+		size= 143
+	}
+
+	capitalists=
+	{
+		culture = slovak
+		religion = catholic
+		size= 138
+	}
+
+	aristocrats=
+	{
+		culture = slovak
+		religion = catholic
+		size= 1503
+	}
+
+	farmers=
+	{
+		culture = slovak
+		religion = catholic
+		size= 147627
+	}
+
+	clergymen=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 175
+	}
+
+	artisans=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 10000
+	}
+
+	soldiers=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 200
+	}
+
+	farmers=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 8625
+	}
+
+}
+634 = {
+	soldiers=
+	{
+		culture = slovak
+		religion = catholic
+		size= 505
+	}
+
+	artisans=
+	{
+		culture = slovak
+		religion = catholic
+		size= 1021
+	}
+
+	clergymen=
+	{
+		culture = slovak
+		religion = catholic
+		size= 320
+	}
+
+	bureaucrats=
+	{
+		culture = slovak
+		religion = catholic
+		size= 53
+	}
+
+	officers=
+	{
+		culture = slovak
+		religion = catholic
+		size= 42
+	}
+
+	aristocrats=
+	{
+		culture = slovak
+		religion = catholic
+		size= 445
+	}
+
+	farmers=
+	{
+		culture = slovak
+		religion = catholic
+		size= 48629
+	}
+
+	clergymen=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 1100
+	}
+
+	soldiers=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 850
+	}
+
+}
+635 = {
+	soldiers=
+	{
+		culture = slovak
+		religion = catholic
+		size= 794
+	}
+
+	artisans=
+	{
+		culture = slovak
+		religion = catholic
+		size= 2176
+	}
+
+	clergymen=
+	{
+		culture = slovak
+		religion = catholic
+		size= 507
+	}
+
+	bureaucrats=
+	{
+		culture = slovak
+		religion = catholic
+		size= 82
+	}
+
+	officers=
+	{
+		culture = slovak
+		religion = catholic
+		size= 66
+	}
+
+	aristocrats=
+	{
+		culture = slovak
+		religion = catholic
+		size= 688
+	}
+
+	farmers=
+	{
+		culture = slovak
+		religion = catholic
+		size= 72621
+	}
+
+	clergymen=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 1100
+	}
+
+	soldiers=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 850
+	}
+
+}
+636 = {
+	soldiers=
+	{
+		culture = slovak
+		religion = catholic
+		size= 479
+	}
+
+	artisans=
+	{
+		culture = slovak
+		religion = catholic
+		size= 416
+	}
+
+	clergymen=
+	{
+		culture = slovak
+		religion = catholic
+		size= 278
+	}
+
+	bureaucrats=
+	{
+		culture = slovak
+		religion = catholic
+		size= 50
+	}
+
+	officers=
+	{
+		culture = slovak
+		religion = catholic
+		size= 40
+	}
+
+	aristocrats=
+	{
+		culture = slovak
+		religion = catholic
+		size= 423
+	}
+
+	farmers=
+	{
+		culture = slovak
+		religion = catholic
+		size= 45714
+	}
+
+	clergymen=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 1600
+	}
+
+	soldiers=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 1325
+	}
+
+}
+637 = {
+	soldiers=
+	{
+		culture = slovak
+		religion = catholic
+		size= 1635
+	}
+
+	artisans=
+	{
+		culture = slovak
+		religion = catholic
+		size= 5539
+	}
+
+	clergymen=
+	{
+		culture = slovak
+		religion = catholic
+		size= 1029
+	}
+
+	bureaucrats=
+	{
+		culture = slovak
+		religion = catholic
+		size= 166
+	}
+
+	officers=
+	{
+		culture = slovak
+		religion = catholic
+		size= 133
+	}
+
+	aristocrats=
+	{
+		culture = slovak
+		religion = catholic
+		size= 1394
+	}
+
+	farmers=
+	{
+		culture = slovak
+		religion = catholic
+		size= 154080
+	}
+
+	clergymen=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 1100
+	}
+
+	soldiers=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 825
+	}
+
+}
+638 = {
+	soldiers=
+	{
+		culture = slovak
+		religion = catholic
+		size= 309
+	}
+
+	artisans=
+	{
+		culture = slovak
+		religion = catholic
+		size= 236
+	}
+
+	clergymen=
+	{
+		culture = slovak
+		religion = catholic
+		size= 167
+	}
+
+	bureaucrats=
+	{
+		culture = slovak
+		religion = catholic
+		size= 33
+	}
+
+	officers=
+	{
+		culture = slovak
+		religion = catholic
+		size= 27
+	}
+
+	aristocrats=
+	{
+		culture = slovak
+		religion = catholic
+		size= 280
+	}
+
+	farmers=
+	{
+		culture = slovak
+		religion = catholic
+		size= 30338
+	}
+
+	clergymen=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 1100
+	}
+
+	soldiers=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 825
+	}
+
+}

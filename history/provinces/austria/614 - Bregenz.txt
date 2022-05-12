@@ -1,0 +1,8 @@
+owner=MBZ
+controller=MBZ
+add_core=GER
+add_core=HLR
+add_core=MBZ
+trade_goods = timber
+life_rating = 35
+terrain = mountain

@@ -1,0 +1,5 @@
+owner=PEO
+controller=PEO
+trade_goods = coal
+life_rating = 35
+terrain = woods

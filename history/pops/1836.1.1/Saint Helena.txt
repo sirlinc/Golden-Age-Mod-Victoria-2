@@ -1,0 +1,27 @@
+2129 = {
+	farmers=
+	{
+		culture = native_american_minor
+		religion = animist
+		size= 1000
+	}
+
+}
+2130 = {
+	farmers=
+	{
+		culture = native_american_minor
+		religion = animist
+		size= 35
+	}
+
+}
+2132 = {
+	farmers=
+	{
+		culture = native_american_minor
+		religion = animist
+		size= 25
+	}
+
+}

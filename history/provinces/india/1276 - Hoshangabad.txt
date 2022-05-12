@@ -1,0 +1,7 @@
+owner=KHD
+controller=KHD
+add_core=HND
+add_core=KHD
+trade_goods = dye
+life_rating = 32
+terrain = plains

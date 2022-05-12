@@ -1,0 +1,8 @@
+owner=X34
+controller=X34
+add_core=HLR
+add_core=ITA
+add_core=X34
+trade_goods = grain
+life_rating = 35
+terrain = hills

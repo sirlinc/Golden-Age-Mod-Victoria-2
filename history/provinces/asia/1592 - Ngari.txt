@@ -1,0 +1,9 @@
+owner=GUG
+controller=GUG
+add_core=GUG
+add_core=PHA
+add_core=TIB
+add_core=UTS
+trade_goods = cattle
+life_rating = 30
+terrain = mountain

@@ -1,0 +1,11 @@
+owner=KOL
+controller=BEG
+add_core=BEG
+add_core=GER
+add_core=HLR
+add_core=KOL
+add_core=PAD
+add_core=X16
+trade_goods = cattle
+life_rating = 40
+terrain = plains

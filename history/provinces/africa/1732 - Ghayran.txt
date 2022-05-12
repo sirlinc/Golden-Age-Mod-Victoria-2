@@ -1,0 +1,6 @@
+owner=FZA
+controller=FZA
+add_core=FZA
+trade_goods = fruit
+life_rating = 35
+terrain = desert

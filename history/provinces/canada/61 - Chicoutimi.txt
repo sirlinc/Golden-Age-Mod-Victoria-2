@@ -1,0 +1,5 @@
+owner=INN
+controller=INN
+trade_goods = grain
+life_rating = 35
+terrain = hills

@@ -1,0 +1,9 @@
+owner=MIX
+controller=MIX
+add_core=MIX
+add_core=OAX
+add_core=TEO
+add_core=ZAP
+trade_goods = grain
+life_rating = 35
+terrain = mountain

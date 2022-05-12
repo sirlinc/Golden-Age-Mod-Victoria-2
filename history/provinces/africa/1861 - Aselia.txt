@@ -1,0 +1,7 @@
+owner=HDY
+controller=HDY
+add_core=ETH
+add_core=HDY
+trade_goods = grain
+life_rating = 30
+terrain = mountain

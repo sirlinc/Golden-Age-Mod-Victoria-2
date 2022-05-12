@@ -1,0 +1,7 @@
+owner=ORI
+controller=ORI
+add_core=AND
+add_core=ORI
+trade_goods = tobacco
+life_rating = 32
+terrain = plains

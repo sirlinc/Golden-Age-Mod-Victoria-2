@@ -1,0 +1,6 @@
+owner=CRA
+controller=CRA
+add_core=CRA
+trade_goods = wool
+life_rating = 30
+terrain = mountain

@@ -1,0 +1,6 @@
+owner=CAO
+controller=CAO
+add_core=CAO
+trade_goods = cattle
+life_rating = 35
+terrain = woods

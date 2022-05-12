@@ -1,0 +1,7 @@
+owner=EFR
+controller=EFR
+add_core=EFR
+add_core=NET
+trade_goods = fish
+life_rating = 40
+terrain = plains
