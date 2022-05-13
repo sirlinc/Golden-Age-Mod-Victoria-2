@@ -1248,6 +1248,7 @@ AMA = "countries/AMA.txt"
 NAN = "countries/NAN.txt"
 SHB = "countries/SHB.txt"
 ODA = "countries/ODA.txt"
+KIU = "countries/KIU.txt"
 
 ##HoD Dominions
 dynamic_tags = yes # any tags after this is considered dynamic dominions
