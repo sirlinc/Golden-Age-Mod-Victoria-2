@@ -14,12 +14,12 @@ political_decisions = { #All decisions by German2002
 		effect = {
             prestige = 10
             add_country_flag = secured_electors
-			AUS = {
+			BOH = {
 				all_cores = {
-					add_core = BOH
+					add_core = AUS
 				}
 				add_country_modifier = {
-					name = stability_positive_one
+					name = stability_negative_one
 					duration = 180
 				}
 			}
@@ -35,7 +35,7 @@ political_decisions = { #All decisions by German2002
 		potential = {
 			tag = AUS 
 			NOT = { has_country_flag = crown_of_bohemia }
-                  has_country_flag = secured_electors
+            has_country_flag = secured_electors
 		}
 		
 		allow = {
@@ -58,8 +58,8 @@ political_decisions = { #All decisions by German2002
 			}
 			X22 = {
 				all_cores = {
-				add_core = AUS
-				add_core = BOH
+					add_core = AUS
+					add_core = BOH
 				}
 			}
 			BOH = {
@@ -91,8 +91,13 @@ political_decisions = { #All decisions by German2002
 		}
 		effect = {
 			prestige = 10
-            add_country_flag = the_decline_of_hungary
+            set_country_flag = the_decline_of_hungary
 			HUN = {
+				all_cores = {
+					add_core = AUS
+				}
+			}
+			SIE = {
 				all_cores = {
 					add_core = AUS
 				}
@@ -130,21 +135,19 @@ political_decisions = { #All decisions by German2002
 			diplomatic_influence = { who = HUN value = 300 }
 			SIE = {
 				all_cores = {
-					add_core = AUS
 					add_core = HUN
 				}
 			}
 			CRO = {
 				all_cores = {
-					add_core = AUS
 					add_core = HUN
 				}
 			}
 			HUN = {
-                              primary_culture = south_german
-                              add_accepted_culture = hungarian
-				      inherit = CRO
-				      inherit = SIE
+                primary_culture = south_german
+                add_accepted_culture = hungarian
+				inherit = CRO
+				inherit = SIE
 			}
 			badboy = -10
 		}
@@ -156,17 +159,13 @@ political_decisions = { #All decisions by German2002
 		potential = {
 			tag = AUS 
 			NOT = { has_country_flag = one_empire }
-                  has_country_flag = habsburg_hungary
+            has_country_flag = habsburg_hungary
 		}
 		
 		allow = {
 			war = no
-			HUN = {
-				is_vassal = this
-			}
-			BOH = {
-				is_vassal = this
-			}
+			is_our_vassal = HUN
+			is_our_vassal = BOH
             year = 1550
 		}
 		effect = {

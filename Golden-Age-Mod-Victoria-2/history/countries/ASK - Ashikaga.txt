@@ -1,4 +1,4 @@
-capital = 1657
+capital = 3283
 primary_culture = japanese
 culture = zzz_religion_shinto
 religion = shinto

@@ -2,28 +2,28 @@
 	clergymen=
 	{
 		culture = afro_caribbean
-		religion = protestant
+		religion = animist
 		size= 50
 	}
 
 	artisans=
 	{
 		culture = afro_caribbean
-		religion = protestant
+		religion = animist
 		size= 100
 	}
 
 	soldiers=
 	{
 		culture = afro_caribbean
-		religion = protestant
+		religion = animist
 		size= 50
 	}
 
 	farmers=
 	{
 		culture = afro_caribbean
-		religion = protestant
+		religion = animist
 		size= 4050
 	}
 
@@ -74,28 +74,28 @@
 	clergymen=
 	{
 		culture = afro_caribbean
-		religion = protestant
+		religion = animist
 		size= 50
 	}
 
 	artisans=
 	{
 		culture = afro_caribbean
-		religion = protestant
+		religion = animist
 		size= 100
 	}
 
 	soldiers=
 	{
 		culture = afro_caribbean
-		religion = protestant
+		religion = animist
 		size= 50
 	}
 
 	farmers=
 	{
 		culture = afro_caribbean
-		religion = protestant
+		religion = animist
 		size= 550
 	}
 

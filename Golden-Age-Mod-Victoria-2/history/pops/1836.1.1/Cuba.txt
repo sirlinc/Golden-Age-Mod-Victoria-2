@@ -85,29 +85,29 @@
 
 	artisans=
 	{
-		culture = afro_caribeno
-		religion = catholic
+		culture = carribean
+		religion = animist
 		size= 6000
 	}
 
 	soldiers=
 	{
-		culture = afro_caribeno
-		religion = catholic
+		culture = carribean
+		religion = animist
 		size= 500
 	}
 
 	farmers=
 	{
-		culture = afro_caribeno
-		religion = catholic
+		culture = carribean
+		religion = animist
 		size= 2500
 	}
 
 	slaves=
 	{
-		culture = afro_caribeno
-		religion = catholic
+		culture = carribean
+		religion = animist
 		size= 38000
 	}
 
@@ -150,29 +150,29 @@
 
 	artisans=
 	{
-		culture = afro_caribeno
-		religion = catholic
+		culture = carribean
+		religion = animist
 		size= 2000
 	}
 
 	soldiers=
 	{
-		culture = afro_caribeno
-		religion = catholic
+		culture = carribean
+		religion = animist
 		size= 150
 	}
 
 	farmers=
 	{
-		culture = afro_caribeno
-		religion = catholic
+		culture = carribean
+		religion = animist
 		size= 11850
 	}
 
 	slaves=
 	{
-		culture = afro_caribeno
-		religion = catholic
+		culture = carribean
+		religion = animist
 		size= 25000
 	}
 
@@ -215,29 +215,29 @@
 
 	artisans=
 	{
-		culture = afro_caribeno
-		religion = catholic
+		culture = carribean
+		religion = animist
 		size= 1500
 	}
 
 	soldiers=
 	{
-		culture = afro_caribeno
-		religion = catholic
+		culture = carribean
+		religion = animist
 		size= 300
 	}
 
 	farmers=
 	{
-		culture = afro_caribeno
-		religion = catholic
+		culture = carribean
+		religion = animist
 		size= 2200
 	}
 
 	slaves=
 	{
-		culture = afro_caribeno
-		religion = catholic
+		culture = carribean
+		religion = animist
 		size= 25000
 	}
 
@@ -280,29 +280,29 @@
 
 	artisans=
 	{
-		culture = afro_caribeno
-		religion = catholic
+		culture = carribean
+		religion = animist
 		size= 1500
 	}
 
 	soldiers=
 	{
-		culture = afro_caribeno
-		religion = catholic
+		culture = carribean
+		religion = animist
 		size= 200
 	}
 
 	farmers=
 	{
-		culture = afro_caribeno
-		religion = catholic
+		culture = carribean
+		religion = animist
 		size= 3300
 	}
 
 	slaves=
 	{
-		culture = afro_caribeno
-		religion = catholic
+		culture = carribean
+		religion = animist
 		size= 14000
 	}
 

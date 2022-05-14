@@ -13,7 +13,15 @@ proletarian_dictatorship =
 	flagType = communist
 }
 
-
+revolutionary_republic =
+{
+	#which ideology of parties.
+	communist = yes
+	
+	election = yes
+	appoint_ruling_party = yes
+	flagType = communist
+}
 
 presidential_dictatorship =
 {

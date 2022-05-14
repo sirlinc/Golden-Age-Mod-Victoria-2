@@ -61,5 +61,5 @@ foreign_naval_officers=no_foreign_naval_officers
 naval_schools=no_naval_schools
 foreign_navies=no_foreign_navies
 prestige=0
-oob = "AND_OOB.txt"
+oob = "ANR_OOB.txt"
 set_country_flag = religi

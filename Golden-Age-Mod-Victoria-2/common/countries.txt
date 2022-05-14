@@ -37,7 +37,7 @@ ALW = "countries/Alawite.txt"
 AMD = "countries/Ahmadnagar.txt"
 AMG = "countries/Armagnac.txt"
 ANA = "countries/Anatolia.txt"
-AND = "countries/Andhra.txt"
+ANR = "countries/Andhra.txt"
 ANG = "countries/Angola.txt"
 ANH = "countries/Anhalt.txt"
 ANL = "countries/Anilco.txt"
@@ -1249,6 +1249,10 @@ NAN = "countries/NAN.txt"
 SHB = "countries/SHB.txt"
 ODA = "countries/ODA.txt"
 KIU = "countries/KIU.txt"
+HTK = "countries/HYK.txt" #HATAKEYAMA
+#KTA = "countries/KTA.txt" #Kitabatake
+#
+#
 
 ##HoD Dominions
 dynamic_tags = yes # any tags after this is considered dynamic dominions

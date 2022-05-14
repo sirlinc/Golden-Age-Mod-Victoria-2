@@ -68,4 +68,5 @@ prestige=26
 oob = "AUS_OOB.txt"
 set_country_flag = hre_emperor
 set_country_flag = hre_member
+set_country_flag = elector_hre
 set_country_flag = religi

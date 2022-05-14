@@ -660,6 +660,8 @@ political_decisions = { #All decisions by German2002
 					has_country_flag = hre_member
 					has_country_flag = hre_emperor
 					has_country_flag = elector_hre
+				}
+				tag = AUS
 			}
 		}
 		allow = {
@@ -741,10 +743,6 @@ political_decisions = { #All decisions by German2002
 			NOT = { has_country_flag = elector_hre }
 		}
 		allow = {
-			relation = {
-				who = AUS
-				value = 150
-			}
 			war = no
 			OR = { 
 				NOT = { 

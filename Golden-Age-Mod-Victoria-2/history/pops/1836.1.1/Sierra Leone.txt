@@ -2,21 +2,21 @@
 	artisans=
 	{
 		culture = afro_caribbean
-		religion = protestant
+		religion = animist
 		size= 250
 	}
 
 	soldiers=
 	{
 		culture = afro_caribbean
-		religion = protestant
+		religion = animist
 		size= 50
 	}
 
 	farmers=
 	{
 		culture = afro_caribbean
-		religion = protestant
+		religion = animist
 		size= 4700
 	}
 

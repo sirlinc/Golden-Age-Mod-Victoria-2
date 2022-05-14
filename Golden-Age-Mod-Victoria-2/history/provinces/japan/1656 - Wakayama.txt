@@ -1,6 +1,6 @@
-owner=ASK
-controller=ASK
-add_core=ASK
+owner=HTK
+controller=HTK
+add_core=HTK
 add_core=JAP
 trade_goods = tea
 life_rating = 35

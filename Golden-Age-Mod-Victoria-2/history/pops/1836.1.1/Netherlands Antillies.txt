@@ -76,21 +76,21 @@
 	clergymen=
 	{
 		culture = afro_caribbean
-		religion = protestant
+		religion = catholic
 		size= 25
 	}
 
 	artisans=
 	{
 		culture = afro_caribbean
-		religion = protestant
+		religion = catholic
 		size= 55
 	}
 
 	farmers=
 	{
 		culture = afro_caribbean
-		religion = protestant
+		religion = catholic
 		size= 1120
 	}
 
