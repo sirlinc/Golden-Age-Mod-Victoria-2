@@ -221,6 +221,10 @@ consumer_goods = {
 		available_from_start = no
 		color = { 129 63 6 }
 	}
+	construction_tools = { 
+		cost = 19.5
+		color = { 255 178 102 }
+	}
 	gunpowder = { 
 		cost = 17.00
 		color = { 78 104 127 } 
@@ -233,17 +237,13 @@ consumer_goods = {
 		cost = 18.00
 		color = { 104 73 124 } 
 	}
+	horses = {	
+		cost = 9.00 
+		color = { 61 67 64 }
+	}
 	gunpowder_small_arms = { 
 		cost = 37.00 
 		color = { 189 118 22 }
 		available_from_start = no
-	}
-	construction_tools = { 
-		cost = 30.5
-		color = { 255 178 102 }
-	}
-	horses = {	
-		cost = 9.00 
-		color = { 61 67 64 }
 	}
 }
