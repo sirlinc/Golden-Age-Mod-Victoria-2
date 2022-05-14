@@ -3444,21 +3444,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 25
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 650
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 3325
 	}
@@ -3572,21 +3572,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 15
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 125
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 10
 	}
@@ -3637,21 +3637,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 15
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 75
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 10
 	}
@@ -4032,21 +4032,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 50
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 150
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 100
 	}
@@ -4241,21 +4241,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 50
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 150
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 100
 	}
@@ -4334,21 +4334,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 15
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 50
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 35
 	}
@@ -5301,21 +5301,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 15
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 110
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 875
 	}
@@ -6015,21 +6015,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 50
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 200
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 2750
 	}
@@ -6066,21 +6066,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 15
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 85
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 900
 	}
@@ -6173,21 +6173,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 100
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 700
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 700
 	}
@@ -6382,21 +6382,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 50
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 350
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 100
 	}
@@ -6503,21 +6503,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 125
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 850
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 325
 	}
@@ -6596,21 +6596,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 50
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 350
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 100
 	}
@@ -6893,21 +6893,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 25
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 150
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 25
 	}
@@ -7109,21 +7109,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 25
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 300
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 25
 	}
@@ -7188,21 +7188,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 10
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 80
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 10
 	}
@@ -7253,21 +7253,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 10
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 80
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 10
 	}
@@ -7471,21 +7471,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 25
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 475
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 25
 	}
@@ -7543,21 +7543,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 15
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 675
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 10
 	}
@@ -7666,21 +7666,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 25
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 325
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 50
 	}
@@ -7789,21 +7789,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 25
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 550
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 25
 	}
@@ -7854,21 +7854,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 25
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 500
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 25
 	}
@@ -7977,21 +7977,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 75
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 550
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 625
 	}
@@ -8042,21 +8042,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 75
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 650
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 400
 	}
@@ -8142,21 +8142,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 50
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 500
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 225
 	}
@@ -8207,21 +8207,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 50
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 350
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 250
 	}
@@ -8272,21 +8272,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 25
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 650
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 50
 	}
@@ -8379,21 +8379,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 75
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 500
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 1425
 	}
@@ -8479,21 +8479,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 75
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 500
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 2425
 	}
@@ -8565,21 +8565,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 225
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 1300
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 1875
 	}
@@ -8637,21 +8637,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 200
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 1300
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 1900
 	}
@@ -8702,21 +8702,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 50
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 300
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 2650
 	}
@@ -8781,21 +8781,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 50
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 300
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 5150
 	}
@@ -9071,21 +9071,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 50
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 150
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 2800
 	}
@@ -9201,21 +9201,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 50
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 200
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 3750
 	}
@@ -9424,7 +9424,7 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 75
 	}
@@ -9897,21 +9897,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 25
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 500
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 1475
 	}
@@ -9983,21 +9983,21 @@
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 25
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 500
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = totemism
 		size= 475
 	}

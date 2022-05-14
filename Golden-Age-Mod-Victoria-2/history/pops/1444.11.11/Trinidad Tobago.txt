@@ -1,0 +1,130 @@
+2237 = {
+	aristocrats=
+	{
+		culture = carribean
+		religion = animist
+		size= 25
+	}
+
+	bureaucrats=
+	{
+		culture = carribean
+		religion = animist
+		size= 15
+	}
+
+	clergymen=
+	{
+		culture = carribean
+		religion = animist
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = carribean
+		religion = animist
+		size= 500
+	}
+
+	soldiers=
+	{
+		culture = carribean
+		religion = animist
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = carribean
+		religion = animist
+		size= 410
+	}
+
+	clergymen=
+	{
+		culture = carribean
+		religion = animist
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = carribean
+		religion = animist
+		size= 750
+	}
+
+	soldiers=
+	{
+		culture = carribean
+		religion = animist
+		size= 100
+	}
+
+	farmers=
+	{
+		culture = carribean
+		religion = animist
+		size= 9075
+	}
+
+}
+2238 = {
+	aristocrats=
+	{
+		culture = carribean
+		religion = animist
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = carribean
+		religion = animist
+		size= 5
+	}
+
+	artisans=
+	{
+		culture = carribean
+		religion = animist
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = carribean
+		religion = animist
+		size= 60
+	}
+
+	clergymen=
+	{
+		culture = carribean
+		religion = animist
+		size= 50
+	}
+
+	artisans=
+	{
+		culture = carribean
+		religion = animist
+		size= 150
+	}
+
+	soldiers=
+	{
+		culture = carribean
+		religion = animist
+		size= 50
+	}
+
+	farmers=
+	{
+		culture = carribean
+		religion = animist
+		size= 3400
+	}
+
+}

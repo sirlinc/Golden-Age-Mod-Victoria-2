@@ -1,42 +1,42 @@
 1887 = {
 	bureaucrats=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = animist
 		size= 5
 	}
 
 	officers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = animist
 		size= 10
 	}
 
 	clergymen=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = animist
 		size= 50
 	}
 
 	artisans=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = animist
 		size= 100
 	}
 
 	soldiers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = animist
 		size= 25
 	}
 
 	farmers=
 	{
-		culture = afro_american
+		culture = iroquoian
 		religion = animist
 		size= 810
 	}

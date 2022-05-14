@@ -1,4 +1,4 @@
-2229 = {
+2224 = {
 	aristocrats=
 	{
 		culture = carribean
@@ -10,248 +10,125 @@
 	{
 		culture = carribean
 		religion = animist
-		size= 100
+		size= 30
 	}
 
 	clergymen=
 	{
 		culture = carribean
 		religion = animist
-		size= 50
+		size= 10
 	}
 
 	artisans=
 	{
 		culture = carribean
 		religion = animist
-		size= 1750
+		size= 200
 	}
 
 	soldiers=
 	{
 		culture = carribean
 		religion = animist
-		size= 50
+		size= 10
 	}
 
 	farmers=
 	{
 		culture = carribean
 		religion = animist
-		size= 1100
+		size= 200
 	}
 
 	clergymen=
 	{
-		culture = afro_caribbean
+		culture = carribean
 		religion = catholic
 		size= 75
 	}
 
 	artisans=
 	{
-		culture = afro_caribbean
-		religion = catholic
-		size= 2750
-	}
-
-	soldiers=
-	{
-		culture = afro_caribbean
-		religion = catholic
-		size= 250
-	}
-
-	farmers=
-	{
-		culture = afro_caribbean
-		religion = catholic
-		size= 18925
-	}
-
-}
-2231 = {
-	aristocrats=
-	{
 		culture = carribean
-		religion = animist
-		size= 10
-	}
-
-	clergymen=
-	{
-		culture = carribean
-		religion = animist
-		size= 10
-	}
-
-	artisans=
-	{
-		culture = carribean
-		religion = animist
-		size= 130
-	}
-
-	farmers=
-	{
-		culture = carribean
-		religion = animist
-		size= 100
-	}
-
-	clergymen=
-	{
-		culture = afro_caribbean
-		religion = catholic
-		size= 50
-	}
-
-	artisans=
-	{
-		culture = afro_caribbean
-		religion = catholic
-		size= 100
-	}
-
-	soldiers=
-	{
-		culture = afro_caribbean
-		religion = catholic
-		size= 50
-	}
-
-	farmers=
-	{
-		culture = afro_caribbean
-		religion = catholic
-		size= 4050
-	}
-
-}
-2232 = {
-	aristocrats=
-	{
-		culture = carribean
-		religion = animist
-		size= 10
-	}
-
-	clergymen=
-	{
-		culture = carribean
-		religion = animist
-		size= 10
-	}
-
-	artisans=
-	{
-		culture = carribean
-		religion = animist
-		size= 130
-	}
-
-	farmers=
-	{
-		culture = carribean
-		religion = animist
-		size= 100
-	}
-
-	clergymen=
-	{
-		culture = afro_caribbean
-		religion = catholic
-		size= 50
-	}
-
-	artisans=
-	{
-		culture = afro_caribbean
 		religion = catholic
 		size= 150
 	}
 
 	soldiers=
 	{
-		culture = afro_caribbean
+		culture = carribean
 		religion = catholic
 		size= 50
 	}
 
 	farmers=
 	{
-		culture = afro_caribbean
+		culture = carribean
 		religion = catholic
-		size= 4250
+		size= 5470
 	}
 
 }
-2233 = {
+2225 = {
 	aristocrats=
 	{
 		culture = carribean
 		religion = animist
-		size= 25
+		size= 10
 	}
 
 	clergymen=
-	{
-		culture = carribean
-		religion = animist
-		size= 20
-	}
-
-	artisans=
-	{
-		culture = carribean
-		religion = animist
-		size= 250
-	}
-
-	soldiers=
 	{
 		culture = carribean
 		religion = animist
 		size= 5
 	}
 
+	artisans=
+	{
+		culture = carribean
+		religion = animist
+		size= 30
+	}
+
 	farmers=
 	{
 		culture = carribean
 		religion = animist
-		size= 200
+		size= 30
 	}
 
 	clergymen=
 	{
-		culture = afro_caribbean
+		culture = carribean
 		religion = catholic
-		size= 50
+		size= 15
 	}
 
 	artisans=
 	{
-		culture = afro_caribbean
+		culture = carribean
 		religion = catholic
-		size= 150
+		size= 45
 	}
 
 	soldiers=
 	{
-		culture = afro_caribbean
+		culture = carribean
 		religion = catholic
-		size= 75
+		size= 10
 	}
 
 	farmers=
 	{
-		culture = afro_caribbean
+		culture = carribean
 		religion = catholic
-		size= 6725
+		size= 1380
 	}
 
 }
-2409 = {
+2226 = {
 	aristocrats=
 	{
 		culture = carribean
@@ -270,42 +147,107 @@
 	{
 		culture = carribean
 		religion = animist
-		size= 130
+		size= 40
 	}
 
 	farmers=
 	{
 		culture = carribean
 		religion = animist
-		size= 100
+		size= 40
 	}
 
 	clergymen=
 	{
-		culture = afro_caribbean
+		culture = carribean
 		religion = catholic
-		size= 50
+		size= 15
 	}
 
 	artisans=
 	{
-		culture = afro_caribbean
+		culture = carribean
 		religion = catholic
-		size= 200
+		size= 35
 	}
 
 	soldiers=
 	{
-		culture = afro_caribbean
+		culture = carribean
 		religion = catholic
+		size= 10
+	}
+
+	farmers=
+	{
+		culture = carribean
+		religion = catholic
+		size= 1040
+	}
+
+}
+2227 = {
+	aristocrats=
+	{
+		culture = carribean
+		religion = animist
+		size= 75
+	}
+
+	clergymen=
+	{
+		culture = carribean
+		religion = animist
+		size= 15
+	}
+
+	artisans=
+	{
+		culture = carribean
+		religion = animist
+		size= 225
+	}
+
+	soldiers=
+	{
+		culture = carribean
+		religion = animist
 		size= 50
 	}
 
 	farmers=
 	{
-		culture = afro_caribbean
+		culture = carribean
+		religion = animist
+		size= 260
+	}
+
+	clergymen=
+	{
+		culture = carribean
 		religion = catholic
-		size= 4700
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = carribean
+		religion = catholic
+		size= 150
+	}
+
+	soldiers=
+	{
+		culture = carribean
+		religion = catholic
+		size= 75
+	}
+
+	farmers=
+	{
+		culture = carribean
+		religion = catholic
+		size= 5900
 	}
 
 }

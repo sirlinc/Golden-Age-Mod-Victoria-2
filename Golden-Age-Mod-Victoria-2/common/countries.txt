@@ -1249,7 +1249,7 @@ NAN = "countries/NAN.txt"
 SHB = "countries/SHB.txt"
 ODA = "countries/ODA.txt"
 KIU = "countries/KIU.txt"
-HTK = "countries/HYK.txt" #HATAKEYAMA
+HTK = "countries/HTK.txt"
 #KTA = "countries/KTA.txt" #Kitabatake
 #
 #

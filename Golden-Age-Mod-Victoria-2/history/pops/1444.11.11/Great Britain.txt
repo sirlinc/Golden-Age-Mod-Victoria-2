@@ -2207,49 +2207,49 @@
 419 = {
 	soldiers=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 165
 	}
 
 	artisans=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 659
 	}
 
 	clergymen=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 107
 	}
 
 	bureaucrats=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 17
 	}
 
 	officers=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 13
 	}
 
 	aristocrats=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 139
 	}
 
 	farmers=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 15371
 	}
@@ -2258,49 +2258,49 @@
 3249 = {
 	soldiers=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 165
 	}
 
 	artisans=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 659
 	}
 
 	clergymen=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 107
 	}
 
 	bureaucrats=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 17
 	}
 
 	officers=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 13
 	}
 
 	aristocrats=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 139
 	}
 
 	farmers=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 15371
 	}
@@ -2308,49 +2308,49 @@
 3250 = {
 	soldiers=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 165
 	}
 
 	artisans=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 659
 	}
 
 	clergymen=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 107
 	}
 
 	bureaucrats=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 17
 	}
 
 	officers=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 13
 	}
 
 	aristocrats=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 139
 	}
 
 	farmers=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 15371
 	}
@@ -2358,49 +2358,49 @@
 3251 = {
 	soldiers=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 165
 	}
 
 	artisans=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 659
 	}
 
 	clergymen=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 107
 	}
 
 	bureaucrats=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 17
 	}
 
 	officers=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 13
 	}
 
 	aristocrats=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 139
 	}
 
 	farmers=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 15371
 	}
@@ -2408,49 +2408,49 @@
 3252 = {
 	soldiers=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 165
 	}
 
 	artisans=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 659
 	}
 
 	clergymen=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 107
 	}
 
 	bureaucrats=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 17
 	}
 
 	officers=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 13
 	}
 
 	aristocrats=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 139
 	}
 
 	farmers=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 15371
 	}
@@ -2458,49 +2458,49 @@
 3253 = {
 	soldiers=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 165
 	}
 
 	artisans=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 659
 	}
 
 	clergymen=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 107
 	}
 
 	bureaucrats=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 17
 	}
 
 	officers=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 13
 	}
 
 	aristocrats=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 139
 	}
 
 	farmers=
 	{
-		culture = french
+		culture = scottish
 		religion = catholic
 		size= 15371
 	}

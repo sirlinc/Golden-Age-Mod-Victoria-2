@@ -1,28 +1,28 @@
 2219 = {
 	clergymen=
 	{
-		culture = afro_caribbean
+		culture = carribean
 		religion = animist
 		size= 50
 	}
 
 	artisans=
 	{
-		culture = afro_caribbean
+		culture = carribean
 		religion = animist
 		size= 100
 	}
 
 	soldiers=
 	{
-		culture = afro_caribbean
+		culture = carribean
 		religion = animist
 		size= 50
 	}
 
 	farmers=
 	{
-		culture = afro_caribbean
+		culture = carribean
 		religion = animist
 		size= 4050
 	}
@@ -73,28 +73,28 @@
 2220 = {
 	clergymen=
 	{
-		culture = afro_caribbean
+		culture = carribean
 		religion = animist
 		size= 50
 	}
 
 	artisans=
 	{
-		culture = afro_caribbean
+		culture = carribean
 		religion = animist
 		size= 100
 	}
 
 	soldiers=
 	{
-		culture = afro_caribbean
+		culture = carribean
 		religion = animist
 		size= 50
 	}
 
 	farmers=
 	{
-		culture = afro_caribbean
+		culture = carribean
 		religion = animist
 		size= 550
 	}
