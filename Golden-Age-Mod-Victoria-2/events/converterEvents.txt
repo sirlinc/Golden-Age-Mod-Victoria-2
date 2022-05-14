@@ -2143,7 +2143,7 @@ country_event = {
 
 	trigger = { 
 		NOT = { tag = CHI }
-		NOT = { tag = MNG }
+		#NOT = { tag = MNG }
 		NOT = { tag = YUA }
 		NOT = { exists = BHU }
 		NOT = { number_of_states = 6 }
@@ -2288,7 +2288,7 @@ country_event = {
 
 	trigger = { 
 		NOT = { tag = CHI }
-		NOT = { tag = MNG }
+		#NOT = { tag = MNG }
 		NOT = { tag = YUA }
 		NOT = { exists = TAJ }
 		NOT = { number_of_states = 6 }
@@ -2331,7 +2331,7 @@ country_event = {
 
 	trigger = { 
 		NOT = { tag = CHI }
-		NOT = { tag = MNG }
+		#NOT = { tag = MNG }
 		NOT = { tag = YUA }
 		NOT = { exists = PAN }
 		NOT = { number_of_states = 6 }
@@ -2373,7 +2373,7 @@ country_event = {
 
 	trigger = { 
 		NOT = { tag = CHI }
-		NOT = { tag = MNG }
+		#NOT = { tag = MNG }
 		NOT = { tag = YUA }
 		NOT = { exists = ASM }
 		NOT = { number_of_states = 6 }
@@ -2415,7 +2415,7 @@ country_event = {
 
 	trigger = { 
 		NOT = { tag = CHI }
-		NOT = { tag = MNG }
+		#NOT = { tag = MNG }
 		NOT = { tag = YUA }
 		NOT = { exists = SHA }
 		NOT = { number_of_states = 6 }
@@ -2457,7 +2457,7 @@ country_event = {
 
 	trigger = { 
 		NOT = { tag = CHI }
-		NOT = { tag = MNG }
+		#NOT = { tag = MNG }
 		NOT = { tag = YUA }
 		NOT = { exists = TOK }
 		NOT = { number_of_states = 6 }

@@ -14,14 +14,16 @@ political_decisions = {
 		}
 		allow = {
 			prestige = 5
-			militancy = 1.5
+			average_militancy = 1.5
 		}
 		
 		effect = {
 			badboy = 2
 			prestige = -5
-			consciousness = -0.8
-			militancy = 1.2
+			any_pop = {
+				consciousness = -0.8
+				militancy = 1.2
+			}
 			set_country_flag = dissolved_parliament
 		}
 		ai_will_do = {
@@ -88,7 +90,7 @@ political_decisions = {
 			set_country_flag = aztec
 		}
 		ai_will_do = {
-			factor = 0.3
+			factor = 1
 		}
 	}
 	assassination_of_king = { 
@@ -100,9 +102,8 @@ political_decisions = {
 		}	
 		allow = {
 			money = 2000
-			militancy = 2.0
-			pop_militancy = 1.0
-			consciousness = 2.0
+			average_militancy = 2.0
+			average_consciousness = 2.0
 			NOT = {
 				ruling_party_ideology = nobility
 			}
@@ -110,22 +111,22 @@ political_decisions = {
 		effect = {
 			random = {
 				chance = 50
-				event = 50001
 				set_country_flag = assassination_on
 				country_event = 50001
-				pop_militancy = -2.0
-				consciousness = -1.2
-				militancy = -1.2
+				any_pop = {
+					consciousness = -1.2
+					militancy = -3.2
+				}
 			}
 			random = {
 				chance = 50
-				event = 50002
+				country_event = 50002
 				set_country_flag = assassination_of
 				country_event = 50054
 			}
 		}
 		ai_will_do = {
-			factor = 0.3
+			factor = 1
 		}
 	}
 	become_absolutist = { 
@@ -148,7 +149,7 @@ political_decisions = {
 			prestige = 2
 		}
 		ai_will_do = {
-			factor = 0.75
+			factor = 1
 		}
 	}
 	prevent_declaration_war_constantinople = { 
@@ -173,11 +174,14 @@ political_decisions = {
 			set_country_flag = no_event_constantinople
 		}
 		ai_will_do = {
-			factor = 0.84
+			factor = 1
 		}
 	}
 	manage_relationships_for_neighbours = { 
 		picture = manage
+		potential = {
+			exists = yes
+		}
 		allow = {
 			war = no
 			is_independant = yes
@@ -189,7 +193,7 @@ political_decisions = {
 			country_event = 477877794
 		}
 		ai_will_do = {
-			factor = 0.5
+			factor = 1
 		}
 	}
 }

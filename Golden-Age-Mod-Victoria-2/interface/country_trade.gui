@@ -611,7 +611,7 @@ guiTypes = {
 				position = { x=145 y =323}
 				quadTextureSprite ="GFX_button_standard_200"
 				buttonText = "TRADE_CONFIRM_TRADE"
-				buttonFont = "vic_18_black"
+				buttonFont = "vic_18"
 			}
 			
 			guiButtonType = {
@@ -619,7 +619,7 @@ guiTypes = {
 				position = { x = 275 y = 135}
 				quadTextureSprite ="GFX_button_standard_144"
 				buttonText = "TRADE_FLOW_DETAILS"
-				buttonFont = "vic_18_black"
+				buttonFont = "vic_18"
 			}
 			
 			instantTextBoxType = {

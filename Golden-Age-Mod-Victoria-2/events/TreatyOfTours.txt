@@ -44,7 +44,7 @@ country_event = {
 			modifier = {
                 factor = -0.5
                 war_policy = anti_military
-            
+            }
 			modifier = {
                 factor = -1.5
                 war_policy = pacifism
@@ -94,7 +94,7 @@ country_event = {
 			modifier = {
                 factor = 0.5
                 war_policy = anti_military
-            
+            }
 			modifier = {
                 factor = 1.5
                 war_policy = pacifism

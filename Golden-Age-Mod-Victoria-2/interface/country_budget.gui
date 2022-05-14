@@ -83,7 +83,7 @@ guiTypes = {
 		instantTextBoxType = { 
 			name = "daily_income"
 			position = { x = 115 y = 24 }
-			font = "vic_22"
+			font = "vic_22_black"
 			text = "BUDGET_DAILY_INCOME"	
 			maxWidth = 300
 			maxHeight = 32	
@@ -93,7 +93,7 @@ guiTypes = {
 		instantTextBoxType = { 
 			name = "daily_expenses"
 			position = { x = 610 y = 24 }
-			font = "vic_22"
+			font = "vic_22_black"
 			text = "BUDGET_DAILY_EXPENSES"	
 			maxWidth = 300
 			maxHeight = 32	
@@ -103,7 +103,7 @@ guiTypes = {
 		instantTextBoxType = { 
 			name = "tariffs"
 			position = { x = 610 y = 480 }
-			font = "vic_18"
+			font = "vic_18_black"
 			text = "BUDGET_TARIFFS"	
 			maxWidth = 300
 			maxHeight = 32	
@@ -525,7 +525,7 @@ guiTypes = {
 		instantTextBoxType = { 
 			name = "mil_spend_desc"
 			position = { x = 572 y = 351 }
-			font = "vic_18"
+			font = "vic_22_black"
 			text = "MILITARY_SPENDING"	
 			maxWidth = 170
 			maxHeight = 32	
@@ -1572,7 +1572,7 @@ guiTypes = {
 		instantTextBoxType = {
 			position = {x = 94 y = 48 }
 			name = "money_value"
-			font = "vic_22_black"
+			font = "vic_22"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 300
 			maxHeight = 32
@@ -1671,7 +1671,7 @@ guiTypes = {
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = "OK"
-			buttonFont = "vic_18_black"
+			buttonFont = "vic_18"
 		}
 		
 		guiButtonType = {
@@ -1682,13 +1682,13 @@ guiTypes = {
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = "CANCEL"
-			buttonFont = "vic_18_black"
+			buttonFont = "vic_18"
 		}
 
 		instantTextBoxType = {
 			position = {x = 94 y = 48 }
 			name = "money_value"
-			font = "vic_22_black"
+			font = "vic_22"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 300
 			maxHeight = 32

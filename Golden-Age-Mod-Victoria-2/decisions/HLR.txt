@@ -626,11 +626,15 @@ political_decisions = { #All decisions by German2002
 		effect = {
 			change_tag = HLR
 			set_global_flag = no_elections
-			all_core = {
+			any_country = {
 				limit = {
-					is_core = HLR
+					has_country_flag = hre_member
+					NOT = { tag = THIS }
 				}
-					annex_to = HLR
+				all_core = {
+					add_core = HLR
+				}
+				annex_to = THIS
 			}
 			set_country_flag = hre_formed
 			badboy = 5

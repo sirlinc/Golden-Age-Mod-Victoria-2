@@ -13,9 +13,9 @@ political_decisions = { #All decisions by German2002
 		}
 		effect = {
             prestige = 10
-            add_country_flag = secured_electors
+            set_country_flag = secured_electors
 			BOH = {
-				all_cores = {
+				all_core = {
 					add_core = AUS
 				}
 				add_country_modifier = {
@@ -51,13 +51,13 @@ political_decisions = { #All decisions by German2002
 			create_vassal = BOH
 			diplomatic_influence = { who = BOH value = 300 }
 			X08 = {
-				all_cores = {
+				all_core = {
 					add_core = AUS
 					add_core = BOH
 				}
 			}
 			X22 = {
-				all_cores = {
+				all_core = {
 					add_core = AUS
 					add_core = BOH
 				}
@@ -93,12 +93,12 @@ political_decisions = { #All decisions by German2002
 			prestige = 10
             set_country_flag = the_decline_of_hungary
 			HUN = {
-				all_cores = {
+				all_core = {
 					add_core = AUS
 				}
 			}
 			SIE = {
-				all_cores = {
+				all_core = {
 					add_core = AUS
 				}
 			}
@@ -134,12 +134,12 @@ political_decisions = { #All decisions by German2002
 			create_vassal = HUN
 			diplomatic_influence = { who = HUN value = 300 }
 			SIE = {
-				all_cores = {
+				all_core = {
 					add_core = HUN
 				}
 			}
 			CRO = {
-				all_cores = {
+				all_core = {
 					add_core = HUN
 				}
 			}
