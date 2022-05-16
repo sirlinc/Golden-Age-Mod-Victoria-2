@@ -1,6 +1,5 @@
 owner=SCO
-controller=X14
-add_core=ENG
+controller=SCO
 add_core=HSC
 add_core=SCO
 add_core=X14

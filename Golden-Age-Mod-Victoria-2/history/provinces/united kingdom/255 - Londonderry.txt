@@ -1,6 +1,5 @@
 owner=TYR
 controller=TYR
-add_core=ENG
 add_core=IRE
 add_core=TYR
 trade_goods = cattle

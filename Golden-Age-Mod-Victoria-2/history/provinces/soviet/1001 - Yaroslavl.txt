@@ -1,5 +1,5 @@
 owner=YAR
-controller=MUS
+controller=YAR
 add_core=MUS
 add_core=RUS
 add_core=X26

@@ -45,7 +45,7 @@ nonstate_consciousness= 0.01332
 
 # Technologies
 flintlock_rifles = 1
-post_napoleonic_thought = 1
+
 land_reform=yes_land_reform
 admin_reform=yes_admin_reform
 finance_reform=no_finance_reform

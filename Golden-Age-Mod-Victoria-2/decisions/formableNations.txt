@@ -9,9 +9,12 @@ political_decisions = {
 					is_culture_group = scandinavian
 					is_culture_group = italian
 					is_culture_group = arab
+					is_culture_group = polish_culture_group
+					is_culture_group = east_slavic
 					tag = ECU
 					tag = CLM
 					tag = VNZ
+					tag = WAL
 				}
 			}
 		}
@@ -219,10 +222,11 @@ political_decisions = {
 		news_desc_long = "form_plc_NEWS_LONG"
 		news_desc_medium = "form_plc_NEWS_MEDIUM"
 		news_desc_short = "form_plc_NEWS_SHORT"
+		picture = form_polish_lithuanian
 		potential = {
 			OR = {	
-				is_culture_group = lithuanian
-				is_culture_group = polish
+				primary_culture = lithuanian
+				primary_culture = polish
 			}
 			NOT = {
 				exists = PLC
@@ -233,15 +237,19 @@ political_decisions = {
 			is_greater_power = yes
 			prestige = 45
 			war = no
-			PLC = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							in_sphere = THIS
-						}
-					}
+			OR = {
+				AND = {
+					tag = POL
+					LIT = { in_sphere = THIS }
 				}
+				AND = {
+					tag = LIT
+					POL = { in_sphere = THIS }
+				}
+			}
+			OR = {
+				TEU = { exists = no }
+				TEU = { vassal_of = THIS }
 			}
 		}
 		

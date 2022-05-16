@@ -1,5 +1,5 @@
 owner=NEV
-controller=BOU
+controller=NEV
 add_core=BOU
 add_core=FRA
 add_core=NEV

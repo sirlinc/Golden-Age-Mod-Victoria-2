@@ -1,6 +1,5 @@
 owner=KID
-controller=FLY
-add_core=ENG
+controller=KID
 add_core=FLY
 add_core=IRE
 add_core=KID

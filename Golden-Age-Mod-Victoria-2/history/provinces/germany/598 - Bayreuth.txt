@@ -1,5 +1,5 @@
 owner=BYT
-controller=X00
+controller=BYT
 add_core=BYT
 add_core=GER
 add_core=HLR
