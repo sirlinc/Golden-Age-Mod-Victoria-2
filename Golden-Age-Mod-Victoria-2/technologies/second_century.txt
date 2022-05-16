@@ -1,8 +1,59 @@
-#society
+########################################
+###########ECONOMY & COMMERCE###########
+########################################
+economy_and_commerce_2_i = {
+	area = economy_and_commerce_2
+	year = 1500
+	cost = 3600
+}
+economy_and_commerce_2_ii = {
+	area = economy_and_commerce_2
+	year = 1510
+	cost = 3600
+}
+economy_and_commerce_2_iii = {
+	area = economy_and_commerce_2
+	year = 1520
+	cost = 3600
+}
+economy_and_commerce_2_iv = {
+	area = economy_and_commerce_2
+	year = 1530
+	cost = 3600
+}
+economy_and_commerce_2_v = {
+	area = economy_and_commerce_2
+	year = 1540
+	cost = 3600
+}
+economy_and_commerce_2_vi = {
+	area = economy_and_commerce_2
+	year = 1550
+	cost = 3600
+}
+economy_and_commerce_2_vii = {
+	area = economy_and_commerce_2
+	year = 1560
+	cost = 3600
+}
+economy_and_commerce_2_viii = {
+	area = economy_and_commerce_2
+	year = 1575
+	cost = 3600
+}
+economy_and_commerce_2_ix = {
+	area = economy_and_commerce_2
+	year = 1590
+	cost = 3600
+}
+
+#############################
+###########SOCIETY###########
+#############################
 formation_of_nation_states = {
-	area = society
-	year = 1495
-	cost = 14400
+	area = society_2
+	year = 1500
+	cost = 15400
 	max_national_focus = 1
 	#colonial_life_rating = -10 
 	cb_creation_speed = 0.1
@@ -40,8 +91,8 @@ formation_of_nation_states = {
 	}	
 }
 absolutism = {
-	area = society
-	year = 1500
+	area = society_2
+	year = 1510
 	cost = 18000
 
 	max_national_focus = 1
@@ -63,10 +114,303 @@ absolutism = {
 		
 	}	
 }
-#navy_and_colonisation
+society_2_iii = {
+	area = society_2
+	year = 1520
+	cost = 18000
+}
+society_2_iv = {
+	area = society_2
+	year = 1530
+	cost = 18000
+}
+society_2_v = {
+	area = society_2
+	year = 1540
+	cost = 18000
+}
+society_2_vi = {
+	area = society_2
+	year = 1550
+	cost = 18000
+}
+society_2_vii = {
+	area = society_2
+	year = 1560
+	cost = 18000
+}
+society_2_viii = {
+	area = society_2
+	year = 1575
+	cost = 18000
+}
+society_2_ix = {
+	area = society_2
+	year = 1590
+	cost = 18000
+}
+################################
+###########PRODUCTION###########
+################################
+production_2_i = {
+	area = production_2
+	year = 1500
+	cost = 18000
+}
+production_2_ii = {
+	area = production_2
+	year = 1510
+	cost = 18000
+}
+production_2_iii = {
+	area = production_2
+	year = 1520
+	cost = 18000
+}
+production_2_iv = {
+	area = production_2
+	year = 1530
+	cost = 18000
+}
+production_2_v = {
+	area = production_2
+	year = 1540
+	cost = 18000
+}
+production_2_vi = {
+	area = production_2
+	year = 1550
+	cost = 18000
+}
+production_2_vii = {
+	area = production_2
+	year = 1560
+	cost = 18000
+}
+production_2_viii = {
+	area = production_2
+	year = 1575
+	cost = 18000
+}
+production_2_ix = {
+	area = production_2
+	year = 1590
+	cost = 18000
+}
+##########################
+###########ARMY###########
+##########################
+army_2_i = {
+	area = army_2
+	year = 1500
+	cost = 3600
+}
+army_2_ii = {
+	area = army_2
+	year = 1510
+	cost = 3600
+}
+army_2_iii = {
+	area = army_2
+	year = 1520
+	cost = 3600
+}
+army_2_iv = {
+	area = army_2
+	year = 1530
+	cost = 3600
+}
+army_2_v = {
+	area = army_2
+	year = 1540
+	cost = 3600
+}
+army_2_vi = {
+	area = army_2
+	year = 1550
+	cost = 3600
+}
+army_2_vii = {
+	area = army_2
+	year = 1560
+	cost = 3600
+}
+army_2_viii = {
+	area = army_2
+	year = 1575
+	cost = 3600
+}
+army_2_ix = {
+	area = army_2
+	year = 1590
+	cost = 3600
+}
+#########################################
+###########NAVY & COLONISATION###########
+#########################################
 colonization = {
-	area = navy_and_colonisation
-	year = 1490
+	area = navy_and_colonisation_2
+	year = 1500
+	cost = 18000
+	
+    colonial_migration = 0.05
+    education_efficiency = 0.1
+    ai_chance = {
+    	factor = 1.01
+    	modifier = {
+    		factor = 3 #6
+    		not = { literacy = 0.3 }
+    	}
+    	modifier = {
+    		factor = 1.02
+    		tech_school = culture_tech_school
+    	}
+    }
+}
+
+navy_and_colonisation_2_ii = {
+	area = navy_and_colonisation_2
+	year = 1510
+	cost = 18000
+	
+    colonial_migration = 0.05
+    education_efficiency = 0.1
+    ai_chance = {
+    	factor = 1.01
+    	modifier = {
+    		factor = 3 #6
+    		not = { literacy = 0.3 }
+    	}
+    	modifier = {
+    		factor = 1.02
+    		tech_school = culture_tech_school
+    	}
+    }
+}
+
+navy_and_colonisation_2_iii = {
+	area = navy_and_colonisation_2
+	year = 1520
+	cost = 18000
+	
+    colonial_migration = 0.05
+    education_efficiency = 0.1
+    ai_chance = {
+    	factor = 1.01
+    	modifier = {
+    		factor = 3 #6
+    		not = { literacy = 0.3 }
+    	}
+    	modifier = {
+    		factor = 1.02
+    		tech_school = culture_tech_school
+    	}
+    }
+}
+
+navy_and_colonisation_2_iv = {
+	area = navy_and_colonisation_2
+	year = 1530
+	cost = 18000
+	
+    colonial_migration = 0.05
+    education_efficiency = 0.1
+    ai_chance = {
+    	factor = 1.01
+    	modifier = {
+    		factor = 3 #6
+    		not = { literacy = 0.3 }
+    	}
+    	modifier = {
+    		factor = 1.02
+    		tech_school = culture_tech_school
+    	}
+    }
+}
+
+navy_and_colonisation_2_v = {
+	area = navy_and_colonisation_2
+	year = 1540
+	cost = 18000
+	
+    colonial_migration = 0.05
+    education_efficiency = 0.1
+    ai_chance = {
+    	factor = 1.01
+    	modifier = {
+    		factor = 3 #6
+    		not = { literacy = 0.3 }
+    	}
+    	modifier = {
+    		factor = 1.02
+    		tech_school = culture_tech_school
+    	}
+    }
+}
+
+navy_and_colonisation_2_vi = {
+	area = navy_and_colonisation_2
+	year = 1550
+	cost = 18000
+	
+    colonial_migration = 0.05
+    education_efficiency = 0.1
+    ai_chance = {
+    	factor = 1.01
+    	modifier = {
+    		factor = 3 #6
+    		not = { literacy = 0.3 }
+    	}
+    	modifier = {
+    		factor = 1.02
+    		tech_school = culture_tech_school
+    	}
+    }
+}
+
+navy_and_colonisation_2_vii = {
+	area = navy_and_colonisation_2
+	year = 1560
+	cost = 18000
+	
+    colonial_migration = 0.05
+    education_efficiency = 0.1
+    ai_chance = {
+    	factor = 1.01
+    	modifier = {
+    		factor = 3 #6
+    		not = { literacy = 0.3 }
+    	}
+    	modifier = {
+    		factor = 1.02
+    		tech_school = culture_tech_school
+    	}
+    }
+}
+
+navy_and_colonisation_2_viii = {
+	area = navy_and_colonisation_2
+	year = 1575
+	cost = 18000
+	
+    colonial_migration = 0.05
+    education_efficiency = 0.1
+    ai_chance = {
+    	factor = 1.01
+    	modifier = {
+    		factor = 3 #6
+    		not = { literacy = 0.3 }
+    	}
+    	modifier = {
+    		factor = 1.02
+    		tech_school = culture_tech_school
+    	}
+    }
+}
+
+navy_and_colonisation_2_ix = {
+	area = navy_and_colonisation_2
+	year = 1590
 	cost = 18000
 	
     colonial_migration = 0.05

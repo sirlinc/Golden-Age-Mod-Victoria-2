@@ -1,5 +1,6 @@
 owner=MUS
-controller=GRH
+controller=MUS
+add_core = MUS
 add_core=GRH
 add_core=QAS
 trade_goods = grain

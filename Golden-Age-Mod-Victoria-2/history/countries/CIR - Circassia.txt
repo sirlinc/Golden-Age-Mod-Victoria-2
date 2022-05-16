@@ -53,7 +53,7 @@ freedom_of_trade = 1
 guild_based_production = 1
 late_enlightenment_philosophy = 1
 no_standard = 1
-post_napoleonic_thought = 1
+
 post_nelsonian_thought = 1
 private_banks = 1
 publishing_industry = 1

@@ -1,5 +1,5 @@
 owner=BRN
-controller=BOH
+controller=BRN
 add_core=BRN
 add_core=GER
 add_core=HLR

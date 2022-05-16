@@ -1,5 +1,5 @@
 owner=REG
-controller=PAL
+controller=REG
 add_core=GER
 add_core=HLR
 add_core=REG

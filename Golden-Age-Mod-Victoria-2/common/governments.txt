@@ -65,15 +65,28 @@ absolute_monarchy = {
 	
 	election = no
 	appoint_ruling_party = yes
-	flagType = monarchy
+	flagType = fascist
 }
 
 feudal_monarchy = {
 	fervent_clergy = yes
 	clergy = yes
-	modern_clergy = yes
+	modern_clergy = no
 	petty_bourgeoisie = yes
 	upper_bourgeoisie = yes
+	nobility = yes
+	
+	election = no
+	appoint_ruling_party = yes
+	flagType = monarchy
+}
+
+khaganate = {
+	fervent_clergy = yes
+	clergy = yes
+	modern_clergy = no
+	petty_bourgeoisie = no
+	upper_bourgeoisie = no
 	nobility = yes
 	
 	election = no
@@ -92,7 +105,7 @@ prussian_constitutionalism = {
 	election = yes
 	duration = 48
 	appoint_ruling_party = yes
-	flagType = monarchy
+	flagType = fascist
 }
 
 hms_government = {

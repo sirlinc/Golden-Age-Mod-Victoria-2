@@ -1,6 +1,5 @@
 owner=ORD
-controller=LEI
-add_core=ENG
+controller=ORD
 add_core=IRE
 add_core=LEI
 add_core=ORD

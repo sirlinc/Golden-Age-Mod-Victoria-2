@@ -60,7 +60,7 @@ malthusian_thought = 1
 mechanized_mining = 1
 military_staff_system = 1
 no_standard = 1
-post_napoleonic_thought = 1
+
 post_nelsonian_thought = 1
 practical_steam_engine = 1
 private_banks = 1

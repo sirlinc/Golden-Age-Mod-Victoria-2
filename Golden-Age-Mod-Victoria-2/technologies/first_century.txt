@@ -1,4 +1,6 @@
-#economy_and_commerce
+########################################
+###########ECONOMY & COMMERCE###########
+########################################
 urban_centers = {
 	area = economy_and_commerce
 	year = 1444
@@ -33,7 +35,7 @@ urban_centers = {
 }
 early_trade = {
 	area = economy_and_commerce
-	year = 1454
+	year = 1444
 	cost = 4600
 
 	administrative_efficiency = 0.05
@@ -72,7 +74,7 @@ early_trade = {
 }
 tech_name_wip = {
 	area = economy_and_commerce
-	year = 1444
+	year = 1450
 	cost = 3600
 	administrative_efficiency = 0.05
 	
@@ -104,7 +106,7 @@ tech_name_wip = {
 }
 tech_economy_and_commerce_i = {
 	area = economy_and_commerce
-	year = 1444
+	year = 1460
 	cost = 3600
 	administrative_efficiency = 0.05
 	
@@ -136,7 +138,7 @@ tech_economy_and_commerce_i = {
 }
 tech_economy_and_commerce_ii = {
 	area = economy_and_commerce
-	year = 1444
+	year = 1470
 	cost = 3600
 	administrative_efficiency = 0.05
 	
@@ -168,7 +170,7 @@ tech_economy_and_commerce_ii = {
 }
 tech_economy_and_commerce_iii = {
 	area = economy_and_commerce
-	year = 1444
+	year = 1480
 	cost = 3600
 	administrative_efficiency = 0.05
 	
@@ -200,7 +202,7 @@ tech_economy_and_commerce_iii = {
 }
 tech_economy_and_commerce_iv = {
 	area = economy_and_commerce
-	year = 1444
+	year = 1485
 	cost = 3600
 	administrative_efficiency = 0.05
 	
@@ -232,7 +234,7 @@ tech_economy_and_commerce_iv = {
 }
 tech_economy_and_commerce_v = {
 	area = economy_and_commerce
-	year = 1444
+	year = 1490
 	cost = 3600
 	administrative_efficiency = 0.05
 	
@@ -264,7 +266,7 @@ tech_economy_and_commerce_v = {
 }
 tech_economy_and_commerce_vi = {
 	area = economy_and_commerce
-	year = 1444
+	year = 1495
 	cost = 3600
 	administrative_efficiency = 0.05
 	
@@ -294,7 +296,9 @@ tech_economy_and_commerce_vi = {
 		}
 	}
 }
-#society
+#############################
+###########SOCIETY###########
+#############################
 
 schools = {
 	area = society
@@ -316,10 +320,68 @@ schools = {
 
 national_focus_i = {
 	area = society
-	year = 1454
+	year = 1444
 	cost = 3600
 
 	max_national_focus = 1
+	
+	ai_chance = {
+		factor = 11
+		modifier = {
+			factor = 1.02
+			tech_school = culture_tech_school
+		}
+		modifier = {
+			factor = 6
+			is_greater_power = yes
+		}
+	}
+}
+
+society_tech_iii = {
+	area = society
+	year = 1450
+	cost = 3600
+
+	prestige = 1
+	
+	ai_chance = {
+		factor = 11
+		modifier = {
+			factor = 1.02
+			tech_school = culture_tech_school
+		}
+		modifier = {
+			factor = 6
+			is_greater_power = yes
+		}
+	}
+}
+society_tech_iv= {
+	area = society
+	year = 1460
+	cost = 3600
+
+	prestige = 1
+	
+	ai_chance = {
+		factor = 11
+		modifier = {
+			factor = 1.02
+			tech_school = culture_tech_school
+		}
+		modifier = {
+			factor = 6
+			is_greater_power = yes
+		}
+	}
+}
+society_tech_v = {
+	area = society
+	year = 1470
+	cost = 3600
+
+	prestige = 1
 	
 	ai_chance = {
 		factor = 11
@@ -334,11 +396,92 @@ national_focus_i = {
 		}
 	}
 }
+society_tech_vi = {
+	area = society
+	year = 1480
+	cost = 3600
 
-#production
+	prestige = 1
+	
+	ai_chance = {
+		factor = 11
+		modifier = {
+			factor = 1.02
+			tech_school = culture_tech_school
+		}
+		modifier = {
+			factor = 6
+			is_greater_power = yes
+			year = 1850
+		}
+	}
+}
+society_tech_vii = {
+	area = society
+	year = 1485
+	cost = 3600
+
+	prestige = 1
+	
+	ai_chance = {
+		factor = 11
+		modifier = {
+			factor = 1.02
+			tech_school = culture_tech_school
+		}
+		modifier = {
+			factor = 6
+			is_greater_power = yes
+			year = 1850
+		}
+	}
+}
+society_tech_viii = {
+	area = society
+	year = 1490
+	cost = 3600
+
+	prestige = 1
+	
+	ai_chance = {
+		factor = 11
+		modifier = {
+			factor = 1.02
+			tech_school = culture_tech_school
+		}
+		modifier = {
+			factor = 6
+			is_greater_power = yes
+			year = 1850
+		}
+	}
+}
+absolutism = {
+	area = society
+	year = 1495
+	cost = 3600
+
+	prestige = 1
+	
+	ai_chance = {
+		factor = 11
+		modifier = {
+			factor = 1.02
+			tech_school = culture_tech_school
+		}
+		modifier = {
+			factor = 6
+			is_greater_power = yes
+			year = 1499
+		}
+	}
+}
+################################
+###########PRODUCTION###########
+################################
 horses = {
 	area = production
-	year = 1200
+	year = 1444
 	cost = 1000
 	activate_building = stable_build 
 
@@ -375,6 +518,91 @@ basic_tools = {
 }
 improved_tools = {
 	area = production
+	year = 1450
+	cost = 3600
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.1
+			rank = 16
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = workshop_school
+		}
+	}
+}
+production_iv = {
+	area = production
+	year = 1460
+	cost = 3600
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.1
+			rank = 16
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = workshop_school
+		}
+	}
+}
+production_v = {
+	area = production
+	year = 1470
+	cost = 3600
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.1
+			rank = 16
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = workshop_school
+		}
+	}
+}
+production_vi = {
+	area = production
+	year = 1480
+	cost = 3600
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.1
+			rank = 16
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = workshop_school
+		}
+	}
+}
+production_vii = {
+	area = production
+	year = 1485
+	cost = 3600
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.1
+			rank = 16
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = workshop_school
+		}
+	}
+}
+production_viii = {
+	area = production
 	year = 1490
 	cost = 3600
 
@@ -389,4 +617,117 @@ improved_tools = {
 			tech_school = workshop_school
 		}
 	}
+}
+production_ix = {
+	area = production
+	year = 1495
+	cost = 3600
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.1
+			rank = 16
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = workshop_school
+		}
+	}
+}
+##########################
+###########ARMY###########
+##########################
+army_i = {
+	area = army
+	year = 1444
+	cost = 3600
+}
+army_ii = {
+	area = army
+	year = 1444
+	cost = 3600
+}
+army_iii = {
+	area = army
+	year = 1450
+	cost = 3600
+}
+army_iv = {
+	area = army
+	year = 1460
+	cost = 3600
+}
+army_v = {
+	area = army
+	year = 1470
+	cost = 3600
+}
+army_vi = {
+	area = army
+	year = 1480
+	cost = 3600
+}
+army_vii = {
+	area = army
+	year = 1485
+	cost = 3600
+}
+army_viii = {
+	area = army
+	year = 1490
+	cost = 3600
+}
+army_ix = {
+	area = army
+	year = 1495
+	cost = 3600
+}
+#########################################
+###########NAVY & COLONISATION###########
+#########################################
+navy_and_colonisation_i = {
+	area = navy_and_colonisation
+	year = 1444
+	cost = 3600
+}
+navy_and_colonisation_ii = {
+	area = navy_and_colonisation
+	year = 1444
+	cost = 3600
+}
+navy_and_colonisation_iii = {
+	area = navy_and_colonisation
+	year = 1450
+	cost = 3600
+}
+navy_and_colonisation_iv = {
+	area = navy_and_colonisation
+	year = 1460
+	cost = 3600
+}
+navy_and_colonisation_v = {
+	area = navy_and_colonisation
+	year = 1470
+	cost = 3600
+}
+navy_and_colonisation_vi = {
+	area = navy_and_colonisation
+	year = 1480
+	cost = 3600
+}
+navy_and_colonisation_vii = {
+	area = navy_and_colonisation
+	year = 1485
+	cost = 3600
+}
+navy_and_colonisation_viii = {
+	area = navy_and_colonisation
+	year = 1490
+	cost = 3600
+}
+navy_and_colonisation_ix = {
+	area = navy_and_colonisation
+	year = 1495
+	cost = 3600
 }

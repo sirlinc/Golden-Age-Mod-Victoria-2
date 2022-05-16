@@ -2,7 +2,6 @@ owner=LIT
 controller=LIT
 add_core=LIT
 add_core=UKR
-add_core=PLC
 add_core=VOL
 trade_goods = grain
 life_rating = 35

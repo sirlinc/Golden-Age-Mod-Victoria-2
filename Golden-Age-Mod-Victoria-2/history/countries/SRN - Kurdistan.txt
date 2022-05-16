@@ -46,7 +46,7 @@ nonstate_consciousness= 0
 
 # Technologies
 flintlock_rifles = 1
-post_napoleonic_thought = 1
+
 prestige=0
 oob = "SRN_OOB.txt"
 set_country_flag = religi

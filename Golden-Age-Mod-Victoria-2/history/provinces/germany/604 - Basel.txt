@@ -1,5 +1,5 @@
 owner=SWI
-controller=SVY
+controller=SWI
 add_core=HLR
 add_core=SWI
 trade_goods = fruit

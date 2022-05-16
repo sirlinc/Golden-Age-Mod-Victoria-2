@@ -1,5 +1,5 @@
 owner=NVG
-controller=X03
+controller=NVG
 add_core=NVG
 add_core=RUS
 add_core=X03
