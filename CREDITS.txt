@@ -5,6 +5,9 @@ DEVELOPERS:
 	- hunter00001
 	- Snoww
 	- Sachsen
+	- MaTi5893
+	- Copperhead
+	- Anfi 867
 
 TESTERS:
 	- Artemis33

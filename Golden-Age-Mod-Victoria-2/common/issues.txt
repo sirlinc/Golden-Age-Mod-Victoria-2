@@ -186,28 +186,27 @@ political_reforms = {
 			allow = {
 				year = 1492
 			}
-			badboy = 0.3
-			factory_output = 0.7
-			factory_cost = -0.4
+			badboy = 0.02
+			factory_output = 0.05
+			factory_cost = -0.2
 			prestige = 0.03
-			global_immigrant_attract = -0.02
-			population_growth = -0.04
-			pop_consciousness_modifier = 0.3
+			global_immigrant_attract = -0.01
+			population_growth = -0.01
+			pop_consciousness_modifier = 0.03
 	    }
 	    prisoners_of_war = {
 	       	rules = { 
 	       		slavery_allowed = yes
 	       	}
-	       	badboy = 0.1
-	       	mobilisation_size = 0.06
+	       	badboy = 0.01
+	       	mobilisation_size = 0.04
 	       	factory_output = 0.03
-	       	factory_cost = -0.2
-	       	population_growth = -0.02
+	       	factory_cost = -0.1
 	    }
 	    no_slavery = {
 	    	rules = { slavery_allowed = no }
-	    	global_immigrant_attract = 0.02
-			badboy = -0.2
+	    	global_immigrant_attract = 0.01
+			badboy = -0.02
 			
 	    }
 	}

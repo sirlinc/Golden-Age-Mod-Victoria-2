@@ -98,7 +98,7 @@ agressive_colonization = {
 	population_growth = -0.05
 	global_immigrant_attract = -0.05
 	non_accepted_pop_militancy_modifier = 2
-	prestige = 0.01
+	prestige = 0.02
 	icon = 8
 }
 cautious_colonization = {
@@ -871,7 +871,7 @@ liberian_research_boost = {
 }
 ####Hre reforms###
 hre_mendling = {
-	bad_badboy = 0.02
+	badboy = 0.02
 	icon = 6
 }
 reichsreform = {
@@ -884,7 +884,7 @@ reichsregiment = {
 }
 the_hofgericht = {
 	diplomatic_points_modifier = 0.1
-	bad_badboy = -0.02
+	badboy = -0.02
 	icon = 5
 }
 erbkaisertum = {

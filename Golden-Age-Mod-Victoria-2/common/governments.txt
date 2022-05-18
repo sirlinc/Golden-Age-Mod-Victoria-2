@@ -18,6 +18,7 @@ revolutionary_republic =
 	#which ideology of parties.
 	communist = yes
 	
+	duration = 60
 	election = yes
 	appoint_ruling_party = yes
 	flagType = communist
@@ -89,7 +90,8 @@ khaganate = {
 	upper_bourgeoisie = no
 	nobility = yes
 	
-	election = no
+	election = yes
+	duration = 240
 	appoint_ruling_party = yes
 	flagType = monarchy
 }
