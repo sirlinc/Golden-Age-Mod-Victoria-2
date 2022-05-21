@@ -303,19 +303,52 @@ political_reforms = {
 	}
 	
 	power_distribution = {
+		church_power = {	
+			rules = { 
+				same_as_ruling_party = yes 
+			}
+			allow = { 
+				ruling_party_ideology = fervent_clergy
+			}
+			government = theocracy
+		}
+		feudal_power = {
+			government = feudal_monarchy
+			allow = { 
+				OR = {
+					ruling_party_ideology = nobility
+					ruling_party_ideology = clergy
+					ruling_party_ideology = fervent_clergy
+				}
+			}
+		}
 		absolute_power = {
 			rules = { 
 				same_as_ruling_party = yes 
 			}
-			
+			allow = { 
+				ruling_party_ideology = nobility
+				absolutism = 1
+			}
+			government = absolute_monarchy
 		}
-		feudal_power = {
-			global_immigrant_attract = -0.01
+		bourgeois_power = {
+			government = parliamentary_monarchy
+			allow = { 
+				ruling_party_ideology = upper_bourgeoisie
+			}
 		}
-		bourgeois_power = {		
-			global_immigrant_attract = 0.01
+		parliament_power = {	
+			government = parliamentary_republic
+			allow = { 
+				ruling_party_ideology = petty_bourgeoisie
+			}
 		}
-		parliament_power = {		
+		people_power = {	
+			government = revolutionary_republic
+			allow = { 
+				ruling_party_ideology = people
+			}
 		}
 	}
 	

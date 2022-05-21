@@ -16,7 +16,7 @@ proletarian_dictatorship =
 revolutionary_republic =
 {
 	#which ideology of parties.
-	communist = yes
+	people = yes
 	
 	duration = 60
 	election = yes
@@ -63,6 +63,7 @@ absolute_monarchy = {
 	petty_bourgeoisie = yes
 	upper_bourgeoisie = yes
 	nobility = yes
+	people = yes
 	
 	election = no
 	appoint_ruling_party = yes
@@ -111,6 +112,7 @@ prussian_constitutionalism = {
 }
 
 hms_government = {
+	people = yes
 	fervent_clergy = yes
 	clergy = yes
 	modern_clergy = yes
@@ -125,6 +127,7 @@ hms_government = {
 }
 
 parliamentary_monarchy = {
+	people = yes
 	fervent_clergy = yes
 	clergy = yes
 	modern_clergy = yes
@@ -139,6 +142,7 @@ parliamentary_monarchy = {
 }
 
 democracy = {
+	people = yes
 	fervent_clergy = yes
 	clergy = yes
 	modern_clergy = yes
@@ -153,6 +157,7 @@ democracy = {
 }
 
 parliamentary_republic = {
+	people = yes
 	fervent_clergy = yes
 	clergy = yes
 	modern_clergy = yes
@@ -187,6 +192,7 @@ colonial_government = {
 	petty_bourgeoisie = yes
 	upper_bourgeoisie = yes
 	nobility = yes
+	people = yes
 	
 	election = yes
 	duration = 48

@@ -1,6 +1,8 @@
 owner=CST
 controller=CST
 add_core=CST
+add_core=ADU
+add_core=GRA
 add_core=SPA
 trade_goods = fish
 life_rating = 35

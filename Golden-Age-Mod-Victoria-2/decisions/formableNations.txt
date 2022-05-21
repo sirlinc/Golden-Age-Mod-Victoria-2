@@ -456,61 +456,311 @@ political_decisions = {
 		}
 	}
 	
-	#form_andalusia = {
-	#	news = yes
-	#	news_desc_long = "form_spain_NEWS_LONG"
-	#	news_desc_medium = "form_spain_NEWS_MEDIUM"
-	#	news_desc_short = "form_spain_NEWS_SHORT"
-	#	potential = {
-	#		OR = {
-	#			is_culture_group = spanish
-	#			is_culture_group = catalan
-	#			is_culture_group = basque
-	#		}
-	#		NOT = {
-	#			exists = SPA
-	#		}
-	#	}
-	#	
-	#	allow = {
-	#		is_greater_power = yes
-	#		prestige = 45
-	#		war = no
-	#		SPA = {
-	#			all_core = {
-	#				OR = {
-	#					owned_by = THIS
-	#					owner = {
-	#						in_sphere = THIS
-	#					}
-	#				}
-	#			}
-	#		}
-	#	}
-	#	
-	#	effect = {
-	#		prestige = 20
-	#		change_tag = SPA
-	#		add_accepted_culture = spanish
-	#		add_accepted_culture = catalan
-	#		add_accepted_culture = basque
-	#		any_country = {
-	#			limit = {
-	#				NOT = {
-	#					is_greater_power = yes
-	#				}
-	#				OR = {
-	#					is_culture_group = spanish
-	#					is_culture_group = catalan
-	#					is_culture_group = basque
-	#				}
-	#				in_sphere = THIS
-	#			}
-	#			country_event = { id=11101 days=0 }
-	#		}
-	#	}
-	#	ai_will_do = {
-	#		factor = 1
-	#	}
-	#}
+	form_ireland = {
+		news = yes
+		news_desc_long = "form_ireland_NEWS_LONG"
+		news_desc_medium = "form_ireland_NEWS_MEDIUM"
+		news_desc_short = "form_ireland_NEWS_SHORT"
+		potential = {
+			is_culture_group = irish
+			NOT = {
+				exists = IRE
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			prestige = 45
+			war = no
+			IRE = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = IRE
+			add_accepted_culture = irish
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					is_culture_group = irish
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_andalusia = {
+		news = yes
+		news_desc_long = "form_andalusia_NEWS_LONG"
+		news_desc_medium = "form_andalusia_NEWS_MEDIUM"
+		news_desc_short = "form_andalusia_NEWS_SHORT"
+		potential = {
+			is_culture_group = andalucian
+			NOT = {
+				exists = ADU
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			prestige = 45
+			war = no
+			ADU = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = ADU
+			add_accepted_culture = andalucian
+			add_accepted_culture = spanish
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					OR = { 
+						is_culture_group = andalucian
+						tag = CST
+					}
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_jerusalem = {
+		news = yes
+		news_desc_long = "form_jer_NEWS_LONG"
+		news_desc_medium = "form_jer_NEWS_MEDIUM"
+		news_desc_short = "form_jer_NEWS_SHORT"
+		picture = jerusalem
+		potential = {
+			OR = {	
+				primary_culture = outremer
+				religion = catholic
+			}
+			NOT = {
+				exists = JER
+			}
+			ai = no
+		}
+		
+		allow = {
+			is_greater_power = yes
+			prestige = 45
+			war = no
+			#absolutism = 1
+			JER = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = JER
+			add_accepted_culture = outremer
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					is_culture_group = outremer
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_mongol_empire = {
+		news = yes
+		news_desc_long = "form_jer_NEWS_LONG"
+		news_desc_medium = "form_jer_NEWS_MEDIUM"
+		news_desc_short = "form_jer_NEWS_SHORT"
+		potential = {
+			primary_culture = mongol
+			NOT = {
+				exists = MGL
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			prestige = 45
+			war = no
+			#absolutism = 1
+			MGL = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = JER
+			add_accepted_culture = mongol
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					is_culture_group = mongol
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_romania = {
+		news = yes
+		news_desc_long = "form_jer_NEWS_LONG"
+		news_desc_medium = "form_jer_NEWS_MEDIUM"
+		news_desc_short = "form_jer_NEWS_SHORT"
+		potential = {
+			primary_culture = romanian
+			NOT = {
+				exists = ROM
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			prestige = 45
+			war = no
+			#absolutism = 1
+			ROM = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = JER
+			add_accepted_culture = romanian
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					is_culture_group = romanian
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_inca_empire = {
+		news = yes
+		news_desc_long = "form_jer_NEWS_LONG"
+		news_desc_medium = "form_jer_NEWS_MEDIUM"
+		news_desc_short = "form_jer_NEWS_SHORT"
+		potential = {
+			OR = {
+				primary_culture = quechua
+				primary_culture = aimara
+			}
+			NOT = {
+				exists = INC
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			prestige = 45
+			war = no
+			#absolutism = 1
+			INC = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = INC
+			add_accepted_culture = quechua
+			add_accepted_culture = aimara
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					OR = {
+						is_culture_group = quechua
+						is_culture_group = aimara
+					}
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

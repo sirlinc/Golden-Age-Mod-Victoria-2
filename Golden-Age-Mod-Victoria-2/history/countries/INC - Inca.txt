@@ -1,6 +1,7 @@
 capital = 2302
-primary_culture = dummy
-culture = zzz_religion_shamanist
+primary_culture = quechua
+culture = aimara
+culture = zzz_religion_inti
 religion = shamanist
 government = feudal_monarchy
 plurality = 0
@@ -26,13 +27,13 @@ press_rights=censored_press
 trade_unions=no_trade_unions
 political_parties=underground_parties
 
-ruling_party = CHE_liberal
+ruling_party = POR_fervent_clergy
 upper_house = 
 {
 	fervent_clergy = 0
-	petty_bourgeoisie = 25
-	nobility = 65
-	clergy = 10
+	petty_bourgeoisie = 8
+	nobility = 87
+	clergy = 5
 	upper_bourgeoisie = 0
 	modern_clergy = 0
 	#a

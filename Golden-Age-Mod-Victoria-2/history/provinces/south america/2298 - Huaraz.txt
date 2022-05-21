@@ -1,6 +1,7 @@
 owner=CHM
 controller=CHM
 add_core=CHM
+add_core=INC
 trade_goods = iron
 life_rating = 35
 terrain = hills
