@@ -460,20 +460,25 @@ absolutism = {
 	area = society
 	year = 1495
 	cost = 3600
-
-	prestige = 1
 	
+	prestige = 0.02 #Invention
+	max_national_focus = 1 #Invention
+	diplomatic_points = 0.25 #Invention
 	ai_chance = {
-		factor = 11
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.3
+			total_pops = 4000000
+		}
 		modifier = {
 			factor = 1.02
 			tech_school = culture_tech_school
 		}
-		modifier = {
-			factor = 6
-			is_greater_power = yes
-			year = 1499
-		}
+		
 	}
 }
 ################################
@@ -690,41 +695,65 @@ navy_and_colonisation_i = {
 	area = navy_and_colonisation
 	year = 1444
 	cost = 3600
+	
+	supply_range = -0.20
+	unciv_military = yes
+	activate_building = naval_base
 }
 navy_and_colonisation_ii = {
 	area = navy_and_colonisation
 	year = 1444
 	cost = 3600
+	
+	max_naval_base = 1
 }
 navy_and_colonisation_iii = {
 	area = navy_and_colonisation
 	year = 1450
 	cost = 3600
+	
+	supply_range = 0.5
+	navy_base = { build_time = -10 }
 }
 navy_and_colonisation_iv = {
 	area = navy_and_colonisation
 	year = 1460
 	cost = 3600
+	
+	supply_range = 0.5
 }
 navy_and_colonisation_v = {
 	area = navy_and_colonisation
 	year = 1470
 	cost = 3600
+	
+	supply_range = 0.3
+	supply_range = 0.5
 }
 navy_and_colonisation_vi = {
 	area = navy_and_colonisation
 	year = 1480
 	cost = 3600
+	
+	max_naval_base = 2
+	colonial_points = 100
 }
 navy_and_colonisation_vii = {
 	area = navy_and_colonisation
 	year = 1485
 	cost = 3600
+	
+	supply_range = 0.5
+	navy_base = { build_time = -10 }
 }
 navy_and_colonisation_viii = {
 	area = navy_and_colonisation
 	year = 1490
 	cost = 3600
+	
+	navy_base = {
+		default_organisation = 5
+	}
 }
 navy_and_colonisation_ix = {
 	area = navy_and_colonisation

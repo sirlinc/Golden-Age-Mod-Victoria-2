@@ -740,6 +740,13 @@ YAR = {
 	value = 0
 	level = 2
 }
+POL = {
+    truce_until = 1451.4.10
+}
+LIT = {
+    truce_until = 1451.4.10
+}
+
 
 #Leaders
 

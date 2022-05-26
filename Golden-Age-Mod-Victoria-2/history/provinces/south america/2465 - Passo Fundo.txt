@@ -2,5 +2,5 @@ owner=GRI
 controller=GRI
 add_core=GRI
 trade_goods = tobacco
-life_rating = 35
+life_rating = 20
 terrain = plains

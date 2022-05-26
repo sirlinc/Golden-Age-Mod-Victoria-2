@@ -2,5 +2,5 @@ owner=OEO
 controller=OEO
 add_core=OEO
 trade_goods = coal
-life_rating = 35
+life_rating = 30
 terrain = forest

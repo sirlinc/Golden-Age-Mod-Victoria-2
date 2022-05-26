@@ -2,5 +2,5 @@ owner=CCQ
 controller=CCQ
 add_core=CCQ
 trade_goods = wool
-life_rating = 35
+life_rating = 20
 terrain = mountain

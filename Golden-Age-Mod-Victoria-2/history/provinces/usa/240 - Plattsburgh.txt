@@ -1,5 +1,5 @@
 owner=MOH
 controller=MOH
 trade_goods = timber
-life_rating = 35
+life_rating = 30
 terrain = woods

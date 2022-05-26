@@ -2,5 +2,5 @@ owner=QTO
 controller=QTO
 add_core=QTO
 trade_goods = fruit
-life_rating = 35
+life_rating = 20
 terrain = plains

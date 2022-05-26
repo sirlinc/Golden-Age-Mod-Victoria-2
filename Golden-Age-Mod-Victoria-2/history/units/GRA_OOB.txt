@@ -269,8 +269,7 @@ CRO = {
 	level = 2
 }
 CST = {
-	value = -15
-	level = 2
+	value = -198
 }
 CYP = {
 	value = 0
@@ -1371,6 +1370,9 @@ YEM = {
 YRK = {
 	value = 0
 	level = 2
+}
+CST = {
+    truce_until = 1452.4.14
 }
 
 #Leaders

@@ -27,7 +27,9 @@ TUR = {
 	value = -15
 	level = 2
 }
-
+TEU = {
+    truce_until = 1451.4.10
+}
 #Leaders
 
 #Armies

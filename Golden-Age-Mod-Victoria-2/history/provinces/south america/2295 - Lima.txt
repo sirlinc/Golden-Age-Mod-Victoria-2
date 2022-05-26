@@ -3,5 +3,5 @@ controller=ICM
 add_core=ICM
 add_core=INC
 trade_goods = cattle
-life_rating = 35
+life_rating = 30
 terrain = hills

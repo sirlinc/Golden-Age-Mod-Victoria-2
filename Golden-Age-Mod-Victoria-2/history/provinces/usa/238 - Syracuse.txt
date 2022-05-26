@@ -3,5 +3,5 @@ controller=ONE
 add_core=ONE
 add_core=ONO
 trade_goods = grain
-life_rating = 35
+life_rating = 30
 terrain = plains

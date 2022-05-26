@@ -3,5 +3,5 @@ controller=CHM
 add_core=CHM
 add_core=INC
 trade_goods = iron
-life_rating = 35
+life_rating = 20
 terrain = hills

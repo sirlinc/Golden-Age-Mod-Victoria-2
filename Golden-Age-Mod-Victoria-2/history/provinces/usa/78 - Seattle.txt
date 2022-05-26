@@ -2,5 +2,5 @@ owner=SAL
 controller=CNK
 add_core=CNK
 trade_goods = timber
-life_rating = 35
+life_rating = 30
 terrain = forest

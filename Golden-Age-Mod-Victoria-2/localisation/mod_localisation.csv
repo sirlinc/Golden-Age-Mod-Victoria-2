@@ -2,10 +2,6 @@ SHZ_ADJ;Shimazu's;Shimazu's;Shimazu's;;;;;;;;;;;x;
 SHZ;Shimazu;Shimazu;Shimazu;;;;;;;;;;;x;
 AGRESSION_WAR_PUPPET_NAME;The Hunderd Years War;x;
 death_of_ruler;Death of Ruler;x;
-nv_catholic;Catholic;x;
-nv_orthodox;Orthodox;x;
-nv_protestant;Protestant;x;
-nv_hussite;Hussite;x;
 holy_war;Holy War;x;
 holy_war_desc;Declare a Holy War in $Ystate$W;x;
 holy_war_short;Holy war in $STATE$W;x;
@@ -36,6 +32,14 @@ build_a_palace_title;�YDecision�! - Build a Palace;x;
 build_a_palace_desc;We could build a great palace to demonstrate the glory and power of our country.;x;
 form_polish_lithuanian_title;§YMission§! - Form Polish-Lithuanian Commonwealth;x;
 form_polish_lithuanian_desc;The Polish–Lithuanian Commonwealth, formally known as the Kingdom of Poland and the Grand Duchy of Lithuania, and, after 1791, the Commonwealth of Poland, was a country and bi-federation of Poland and Lithuania ruled by a common monarch in real union, who was both King of Poland and Grand Duke of Lithuania.;x;
+form_mongol_empire_title;The Legacy of Genghis Khan;x;
+form_mongol_empire_desc;"We finally managed to regain our territories and return to our glory! All Mongolian Khans were expelled and subjugated to our mighty empire. It's time to rescue the Empire from Genghis Khan!";x;
+form_ireland_title;Unite Ireland;x;
+form_ireland_desc;"Even with threats in the east and north, we managed to unify our lands. England and Scotland have always had interests in these lands, but together we will be able to defeat them. God save Ireland!"
+form_russia_title;Third Rome;x;
+form_russia_desc;"Our people come from the Slavs, but even so we were conquered by different peoples like the barbarians of the north and east. We are no longer a kingdom, we are an Empire that is capable of defending itself against anyone. God save Russia and the Tsar! We are the Third Rome!"
+form_spain_title;Unite the Two Crows;x;
+form_spain_desc;"After centuries, the crowns are finally one. We managed to reconquer all of Iberia from the Moors. Now that we are the central power of the Peninsula, we have power and influence over all of Western Europe. Plus Ultra!"
 aztec_human_sacrifice_title;§YDecision§! - Aztec Human Sacrifice;x;
 aztec_human_sacrifice_desc;Human sacrifice was common in many parts of Mesoamerica, so the rite was nothing new to the Aztecs when they arrived at the Valley of Mexico, nor was it something unique to pre-Columbian Mexico. Human sacrifice was common in many parts of Mesoamerica, so the rite was nothing new to the Aztecs when they arrived at the Valley of Mexico, nor was it something unique to pre-Columbian Mexico.;x;
 EVTNAME70020;Fix Pop's Ideology;x;
@@ -199,6 +203,8 @@ stability_positive_three;Stability = +3;x;
 70043desc;Our Stability is -3;x;
 70042desc;Our Stability is -2;x;
 70041desc;Our Stability is -3;x;
+buy_indulgences_title;Buy Indulgences -$R Papal Interaction $!;x;
+buy_indulgences_desc;Indulgences consisted of the complete remission of sins committed by an individual through monetary payment, theoretically calculated based on social position and each sin that was to be forgiven. Click here to buy.;x;
 70045a;Ok.;x;
 AMA;Amago;x;
 AMA_ADJ;Amago's;x;

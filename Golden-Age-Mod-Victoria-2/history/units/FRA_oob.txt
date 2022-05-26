@@ -1,5 +1,7 @@
 #Sphere of Influence
-
+BRG = {
+    truce_until = 1455.7.29
+}
 AMG = {
 	value = 75
 	military_access = yes

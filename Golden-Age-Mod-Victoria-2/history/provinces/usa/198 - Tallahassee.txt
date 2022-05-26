@@ -1,4 +1,4 @@
 trade_goods = cotton
-life_rating = 35
+life_rating = 20
 terrain = farmlands
 is_slave = yes

@@ -5,6 +5,9 @@ MUS = {
 POL = {
 	value = 200
 }
+TEU = {
+    truce_until = 1451.4.10
+}
 #Leaders
 
 #Armies

@@ -20,7 +20,7 @@ political_decisions = {
 		}
 		
 		allow = {
-			prestige = 45
+			prestige = 25
 			war = no
 			cultural_union = {
 				all_core = {
@@ -56,14 +56,15 @@ political_decisions = {
 	}	
 	
 	form_scandinavia = {
-		news = yes
-		news_desc_long = "form_scandinavia_NEWS_LONG"
-		news_desc_medium = "form_scandinavia_NEWS_MEDIUM"
-		news_desc_short = "form_scandinavia_NEWS_SHORT"
+		picture = scandinaviaform
 		potential = {
 			OR = {
 				is_culture_group = scandinavian
+				is_culture_group = danish
+				is_culture_group = norwegian
+				is_culture_group = swedish
 				is_culture_group = bears
+				is_culture_group = sami
 			}
 			NOT = {
 				exists = SCA
@@ -72,7 +73,7 @@ political_decisions = {
 		
 		allow = {
 			is_greater_power = yes
-			prestige = 45
+			prestige = 25
 			war = no
 			SCA = {
 				all_core = {
@@ -112,10 +113,7 @@ political_decisions = {
 	}
 	
 	form_spain = {
-		news = yes
-		news_desc_long = "form_spain_NEWS_LONG"
-		news_desc_medium = "form_spain_NEWS_MEDIUM"
-		news_desc_short = "form_spain_NEWS_SHORT"
+		picture = spain
 		potential = {
 			OR = {
 				is_culture_group = spanish
@@ -129,7 +127,7 @@ political_decisions = {
 		
 		allow = {
 			is_greater_power = yes
-			prestige = 45
+			prestige = 25
 			war = no
 			SPA = {
 				all_core = {
@@ -183,7 +181,7 @@ political_decisions = {
 		
 		allow = {
 			is_greater_power = yes
-			prestige = 45
+			prestige = 25
 			war = no
 			JAP = {
 				all_core = {
@@ -235,7 +233,7 @@ political_decisions = {
 		
 		allow = {
 			is_greater_power = yes
-			prestige = 45
+			prestige = 25
 			war = no
 			OR = {
 				AND = {
@@ -278,15 +276,9 @@ political_decisions = {
 	}
 	
 	form_russia = {
-		news = yes
-		news_desc_long = "form_russia_NEWS_LONG"
-		news_desc_medium = "form_russia_NEWS_MEDIUM"
-		news_desc_short = "form_russia_NEWS_SHORT"
+		picture = formrussia
 		potential = {
-			OR = {
-				is_culture_group = russian
-				is_culture_group = ugrian
-			}
+			is_culture_group = russian
 			NOT = {
 				exists = RUS
 			}
@@ -294,7 +286,7 @@ political_decisions = {
 		
 		allow = {
 			is_greater_power = yes
-			prestige = 45
+			prestige = 25
 			war = no
 			RUS = {
 				all_core = {
@@ -318,10 +310,7 @@ political_decisions = {
 					NOT = {
 						is_greater_power = yes
 					}
-					OR = { 
-						is_culture_group = russian
-						is_culture_group = urgian
-					}
+					is_culture_group = russian
 					in_sphere = THIS
 				}
 				country_event = { id=11101 days=0 }
@@ -348,7 +337,7 @@ political_decisions = {
 		
 		allow = {
 			is_greater_power = yes
-			prestige = 45
+			prestige = 25
 			war = no
 			PER = {
 				all_core = {
@@ -408,7 +397,7 @@ political_decisions = {
 		
 		allow = {
 			is_greater_power = yes
-			prestige = 45
+			prestige = 25
 			war = no
 			HND = {
 				all_core = {
@@ -457,10 +446,6 @@ political_decisions = {
 	}
 	
 	form_ireland = {
-		news = yes
-		news_desc_long = "form_ireland_NEWS_LONG"
-		news_desc_medium = "form_ireland_NEWS_MEDIUM"
-		news_desc_short = "form_ireland_NEWS_SHORT"
 		potential = {
 			is_culture_group = irish
 			NOT = {
@@ -470,7 +455,7 @@ political_decisions = {
 		
 		allow = {
 			is_greater_power = yes
-			prestige = 45
+			prestige = 25
 			war = no
 			IRE = {
 				all_core = {
@@ -518,7 +503,7 @@ political_decisions = {
 		
 		allow = {
 			is_greater_power = yes
-			prestige = 45
+			prestige = 25
 			war = no
 			ADU = {
 				all_core = {
@@ -575,7 +560,7 @@ political_decisions = {
 		
 		allow = {
 			is_greater_power = yes
-			prestige = 45
+			prestige = 25
 			war = no
 			#absolutism = 1
 			JER = {
@@ -611,10 +596,7 @@ political_decisions = {
 	}
 	
 	form_mongol_empire = {
-		news = yes
-		news_desc_long = "form_jer_NEWS_LONG"
-		news_desc_medium = "form_jer_NEWS_MEDIUM"
-		news_desc_short = "form_jer_NEWS_SHORT"
+		picture = mongolempire
 		potential = {
 			primary_culture = mongol
 			NOT = {
@@ -624,7 +606,7 @@ political_decisions = {
 		
 		allow = {
 			is_greater_power = yes
-			prestige = 45
+			prestige = 25
 			war = no
 			#absolutism = 1
 			MGL = {
@@ -673,7 +655,7 @@ political_decisions = {
 		
 		allow = {
 			is_greater_power = yes
-			prestige = 45
+			prestige = 25
 			war = no
 			#absolutism = 1
 			ROM = {
@@ -725,7 +707,7 @@ political_decisions = {
 		
 		allow = {
 			is_greater_power = yes
-			prestige = 45
+			prestige = 25
 			war = no
 			#absolutism = 1
 			INC = {
@@ -754,6 +736,104 @@ political_decisions = {
 						is_culture_group = quechua
 						is_culture_group = aimara
 					}
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unify_the_maya_empire = {
+		news = yes
+		news_desc_long = "form_jer_NEWS_LONG"
+		news_desc_medium = "form_jer_NEWS_MEDIUM"
+		news_desc_short = "form_jer_NEWS_SHORT"
+		potential = {
+			primary_culture = mayan
+			NOT = {
+				exists = MAY
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			prestige = 25
+			war = no
+			#absolutism = 1
+			MAY = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = MAY
+			add_accepted_culture = mayan
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					is_culture_group = mayan
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_mossi_empire = {
+		news = yes
+		news_desc_long = "form_jer_NEWS_LONG"
+		news_desc_medium = "form_jer_NEWS_MEDIUM"
+		news_desc_short = "form_jer_NEWS_SHORT"
+		potential = {
+			primary_culture = mossi
+			NOT = {
+				exists = MOS
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			prestige = 25
+			war = no
+			#absolutism = 1
+			MOS = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = MOS
+			add_accepted_culture = mossi
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					is_culture_group = mossi
 					in_sphere = THIS
 				}
 				country_event = { id=11101 days=0 }

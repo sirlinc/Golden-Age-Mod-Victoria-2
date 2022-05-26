@@ -1,0 +1,37 @@
+#Papal Interactions:
+buy_indulgences = {
+    picture = buy_indulgences
+    potential = {
+        pop_majority_religion = catholic
+		NOT = {
+			tag = PAP
+		}
+    }
+    allow = {
+        money = 10000
+        relation = {
+			who = PAP 
+			value = 100
+		}
+    }
+    effect = {
+        infamy = -10
+        money = -10000
+    }
+	ai_will_do = {
+		factor = 1
+	}
+}
+#Decisions for Papacy:
+#
+#
+#the reformation decisions:
+#
+#
+#Islamism:
+#
+#
+#Emperor of China decisions:
+#
+#
+#End

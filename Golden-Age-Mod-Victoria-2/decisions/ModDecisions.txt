@@ -197,4 +197,5 @@ political_decisions = {
 			factor = 1
 		}
 	}
+	#CLAIM LAND
 }
