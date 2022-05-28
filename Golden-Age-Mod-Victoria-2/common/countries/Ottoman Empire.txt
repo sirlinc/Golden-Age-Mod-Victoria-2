@@ -1,5 +1,5 @@
 graphical_culture = OttomanGC
-color = { 174 38 49 }
+color = { 170  206  162 }
 
 party = {
 	name = "POR_fervent_clergy"

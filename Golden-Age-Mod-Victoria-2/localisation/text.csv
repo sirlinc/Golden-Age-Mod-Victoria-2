@@ -437,7 +437,7 @@ engineer;Engineer;Sapeur;Pionier;;Ingenieros;;;;;;;;;x;;;;
 guard;Guard;Garde;Garde;;Guardia;;;;;;;;;x;;;;
 hussar;Hussar;Hussard;Husar;;Húsares;;;;;;;;;x;;;;
 irregular;Irregular;Milicien;Freischärler;;Irregulares;;;;;;;;;x;;;;
-artillery;Artillery;Canons;Artillerie;;Artillería;;;;;;;;;x;;;;
+artillery;Archers;x;
 tank;Armor;Blind?Panzer;;Blindados;;;;;;;;;x;;;;
 plane;Airplane;Avion;Flugzeug;;Aviación;;;;;;;;;x;;;;
 commerce_raider;Commerce Raider;Navire marchand militaris?Handelszerstörer;;Crucero auxiliar;;;;;;;;;x;;;;
