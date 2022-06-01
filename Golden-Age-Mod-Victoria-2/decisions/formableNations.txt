@@ -1,60 +1,4 @@
 political_decisions = {
-	form_union_nation = {
-		potential = {
-			culture_has_union_tag = yes
-			NOT = {
-				OR = {
-					cultural_union = { exists = yes }
-					is_culture_group = germanic
-					is_culture_group = scandinavian
-					is_culture_group = italian
-					is_culture_group = arab
-					is_culture_group = polish_culture_group
-					is_culture_group = east_slavic
-					tag = ECU
-					tag = CLM
-					tag = VNZ
-					tag = WAL
-				}
-			}
-		}
-		
-		allow = {
-			prestige = 25
-			war = no
-			cultural_union = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							in_sphere = THIS
-						}
-					}
-				}
-			}
-		}
-		effect = {
-			prestige = 20
-			change_tag = culture
-			any_country = {
-				limit = {
-					NOT = {
-						is_greater_power = yes
-						tag = AUS
-						tag = KUK
-					}
-					is_culture_group = THIS
-					in_sphere = THIS
-				}
-				country_event = { id=11101 days=0 }
-			}
-			add_accepted_culture = union
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}	
-	
 	form_scandinavia = {
 		picture = scandinaviaform
 		potential = {
@@ -173,7 +117,7 @@ political_decisions = {
 		news_desc_medium = "form_japan_NEWS_MEDIUM"
 		news_desc_short = "form_japan_NEWS_SHORT"
 		potential = {
-			is_culture_group = japanese
+			primary_culture = japanese
 			NOT = {
 				exists = JAP
 			}
@@ -278,7 +222,10 @@ political_decisions = {
 	form_russia = {
 		picture = formrussia
 		potential = {
-			is_culture_group = russian
+			OR = {
+				is_culture_group = russian
+				primary_culture = russian
+			}
 			NOT = {
 				exists = RUS
 			}
@@ -320,6 +267,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+	
 	form_persia = {
 		news = yes
 		news_desc_long = "form_russia_NEWS_LONG"
@@ -490,12 +438,9 @@ political_decisions = {
 	}
 	
 	form_andalusia = {
-		news = yes
-		news_desc_long = "form_andalusia_NEWS_LONG"
-		news_desc_medium = "form_andalusia_NEWS_MEDIUM"
-		news_desc_short = "form_andalusia_NEWS_SHORT"
+		picture = andalusia
 		potential = {
-			is_culture_group = andalucian
+			primary_culture = andalucian
 			NOT = {
 				exists = ADU
 			}
@@ -542,27 +487,22 @@ political_decisions = {
 	}
 	
 	form_jerusalem = {
-		news = yes
-		news_desc_long = "form_jer_NEWS_LONG"
-		news_desc_medium = "form_jer_NEWS_MEDIUM"
-		news_desc_short = "form_jer_NEWS_SHORT"
 		picture = jerusalem
 		potential = {
 			OR = {	
 				primary_culture = outremer
-				religion = catholic
+				tag = KNI
+				tag = CYP
 			}
 			NOT = {
 				exists = JER
 			}
-			ai = no
 		}
 		
 		allow = {
 			is_greater_power = yes
 			prestige = 25
 			war = no
-			#absolutism = 1
 			JER = {
 				all_core = {
 					OR = {
@@ -583,8 +523,12 @@ political_decisions = {
 				limit = {
 					NOT = {
 						is_greater_power = yes
+						tag = THIS
 					}
-					is_culture_group = outremer
+					OR = {
+						tag = KNI
+						tag = CYP
+					}
 					in_sphere = THIS
 				}
 				country_event = { id=11101 days=0 }
@@ -642,10 +586,7 @@ political_decisions = {
 	}
 	
 	form_romania = {
-		news = yes
-		news_desc_long = "form_jer_NEWS_LONG"
-		news_desc_medium = "form_jer_NEWS_MEDIUM"
-		news_desc_short = "form_jer_NEWS_SHORT"
+		picture = romania
 		potential = {
 			primary_culture = romanian
 			NOT = {
@@ -834,6 +775,60 @@ political_decisions = {
 						is_greater_power = yes
 					}
 					is_culture_group = mossi
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_prussia = {
+		picture = prussia
+		potential = {
+			primary_culture = north_german
+			OR = {
+				tag = BRN
+				tag = TEU
+				tag = SAX
+			}
+			NOT = {
+				exists = PRU
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			prestige = 25
+			war = no
+			absolutism = 1
+			PRU = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = INC
+			add_accepted_culture = north_german
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					OR = {
+						is_culture_group = north_german
+						primary_culture = north_german
+					}
 					in_sphere = THIS
 				}
 				country_event = { id=11101 days=0 }

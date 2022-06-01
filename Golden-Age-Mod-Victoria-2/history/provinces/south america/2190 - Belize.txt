@@ -1,6 +1,7 @@
 owner=CCT
 controller=CCT
 add_core=CCT
+add_core=MAY
 trade_goods = fruit
 life_rating = 30
 terrain = jungle

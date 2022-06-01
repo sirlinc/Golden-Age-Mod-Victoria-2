@@ -25,7 +25,7 @@ press_rights=censored_press
 trade_unions=no_trade_unions
 political_parties=underground_parties
 
-ruling_party = CHI_conservative
+ruling_party = POR_nobility
 upper_house = 
 {
 	fervent_clergy = 0

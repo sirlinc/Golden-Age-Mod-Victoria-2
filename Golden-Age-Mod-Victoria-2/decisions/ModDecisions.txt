@@ -197,5 +197,75 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	#CLAIM LAND
+	claim_the_entire_mexican_region = { 
+		picture = claims
+		potential = {
+			OR = {
+				primary_culture = nahua
+				tag = MAY
+			}
+		}
+		allow = {
+			ruling_party_ideology = nobility
+			average_consciousness = 2.1
+			civilized = no
+			war = no
+			is_independant = yes
+			is_mobilised = no
+		}
+		effect = {
+			inherit = MIX
+			inherit = AZT
+			inherit = TLA
+			inherit = OAX
+			inherit = CMA
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				tag = AZT
+			}
+			modifier = {
+				factor = 1
+				tag = MAY
+			}
+			modifier = {
+				factor = 1
+				tag = MIX
+			}
+		}
+	}
+	claim_the_entire_balkans_region = { 
+		picture = claims
+		potential = {
+			tag = TUR
+		}
+		allow = {
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
+			806 = {
+				controlled_by = TUR
+			}
+			860 = {
+				controlled_by = TUR
+			}
+			average_consciousness = 1.5
+			war = no
+			is_independant = yes
+			is_mobilised = no
+		}
+		effect = {
+			inherit = SER
+			inherit = ALB
+			inherit = BOS
+			inherit = HRZ
+		}
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
 }

@@ -90,7 +90,7 @@ formation_of_nation_states = {
 		
 	}	
 }
-absolutism = {
+absolutism_ii = {
 	area = society_2
 	year = 1510
 	cost = 18000

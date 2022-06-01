@@ -1,6 +1,7 @@
 owner=BRN
 controller=BRN
 add_core=BRN
+add_core=PRU
 add_core=GER
 add_core=HLR
 add_core=SRB

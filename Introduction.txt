@@ -1,0 +1,35 @@
+What is Golden Age? =================================================
+
+Golden Age is a mod for Victoria 2 that takes place between the end of the Medieval Age and the beginning of the 7 Years' War (1444-1756). 
+The mod is not out yet and is heavily inspired by EU4 for now, something I intend to change.
+https://github.com/sirlinc/Golden-Age-Mod-Victoria-2
+
+Credits ==============================================
+
+DEVELOPERS:
+	- leorx (Head dev)
+	- German2002
+	- Hellocrafting
+	- hunter00001
+	- Snoww
+	- Sachsen
+	- MaTi5893
+	- Copperhead
+	- Anfi 867
+
+TESTERS:
+	- Artemis33
+	- DominguezRF
+	- FaRaoNelcrack
+	- guy000
+	- joeasrclo7
+	- Kelian
+	- mentav2
+	- MSLT
+	- NATURALEZA 1144
+	- NeoMenzo
+	- Otto Von Marchtaler
+	- Sand_Wolf1
+	- ULTRA_MAGNUS
+	- vaca
+	- vegeta2013

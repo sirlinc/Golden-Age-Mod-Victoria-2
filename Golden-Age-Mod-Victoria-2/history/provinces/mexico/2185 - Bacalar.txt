@@ -1,5 +1,6 @@
 owner=COC
 controller=COC
+add_core=MAY
 add_core=CCT
 add_core=COC
 add_core=ITZ

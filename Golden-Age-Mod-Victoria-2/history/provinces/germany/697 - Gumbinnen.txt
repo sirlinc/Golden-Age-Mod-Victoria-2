@@ -1,5 +1,6 @@
 owner=TEU
 controller=TEU
+add_core=PRU
 add_core=GER
 add_core=TEU
 trade_goods = grain

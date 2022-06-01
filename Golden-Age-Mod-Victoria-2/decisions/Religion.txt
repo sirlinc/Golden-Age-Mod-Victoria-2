@@ -1,4 +1,3 @@
-#Papal Interactions:
 buy_indulgences = {
     picture = buy_indulgences
     potential = {
@@ -23,15 +22,6 @@ buy_indulgences = {
 	}
 }
 #Decisions for Papacy:
-#
-#
 #the reformation decisions:
-#
-#
 #Islamism:
-#
-#
 #Emperor of China decisions:
-#
-#
-#End

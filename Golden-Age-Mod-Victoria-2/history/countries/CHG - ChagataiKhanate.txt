@@ -29,7 +29,7 @@ press_rights=censored_press
 trade_unions=state_controlled
 political_parties=harassment
 
-ruling_party = KOK_reactionary
+ruling_party = POR_fervent_clergy
 upper_house = 
 {
 	fervent_clergy = 0
