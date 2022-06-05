@@ -293,21 +293,21 @@
 	{
 		culture = korean
 		religion = mahayana
-		size= 18602
+		size= 2621
 	}
 
 	soldiers=
 	{
 		culture = korean
 		religion = mahayana
-		size= 2744
+		size= 1530
 	}
 
 	artisans=
 	{
 		culture = korean
 		religion = mahayana
-		size= 10975
+		size= 11975
 	}
 
 	clergymen=
@@ -321,14 +321,14 @@
 	{
 		culture = korean
 		religion = mahayana
-		size= 137
+		size= 236
 	}
-
+	
 	officers=
 	{
 		culture = korean
 		religion = mahayana
-		size= 220
+		size= 205
 	}
 
 	aristocrats=
@@ -342,7 +342,7 @@
 	{
 		culture = korean
 		religion = mahayana
-		size= 237614
+		size= 102614
 	}
 
 }

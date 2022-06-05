@@ -6,6 +6,16 @@ https://github.com/sirlinc/Golden-Age-Mod-Victoria-2
 
 Credits ==============================================
 
+Mods used:
+	Europa Universalis IV to Victoria II Converter by Idhrendur, Zemurin
+	| Thanks so much to Idhrendur and Zemurin. Without this program, the work would be much longer or 
+	| or it wouldn't even have been created! I used it as a basis for improving the mod and fix a lot of things, 
+    | also adapting and creating systems to make a realistic game that matches the period of the game.
+
+	ViconomicNGTR (NoGoldTaxRefund) by SteamFax Code from NGTR-HPMpatch by Bearhobag of Reddit
+	| With this mod, the late game economy liquidity problem is fixed. Thanks!
+	| https://www.moddb.com/mods/viconomicngtr-nogoldtaxrefund
+
 DEVELOPERS:
 	- leorx (Head dev)
 	- German2002

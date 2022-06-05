@@ -3,7 +3,7 @@ COLONIAL_RANGE;Colonial Range: §G+$VAL$§W;Portée coloniale : §G+$VAL$§W;Kolonial
 MODIFIER_LOCAL_SHIP_BUILD;Local Ship Build Time;Délai de construction de navire;Lokale Schiffsbauzeit;;Tiempo de construcción de barco en la zona;;;;;;;;x
 CB_ALLOWED_ANNEX;Allow Annexation;Autoriser l'annexion;Annektierung erlauben;;Permitir anexión;;;;;;;;x
 CB_ALLOWED_ADD_TO_SPHERE;Add to Sphere;Ajouter à la sphère;Zu Sphäre hinzufügen;;Añadir a la esfera;;;;;;;;x
-CB_ALLOWED_RELEASE_PUPPET;Release of Puppet;Libération d'un État fantoche;Entlassung von Marionettenstaat;;Liberación de títere;;;;;;;;x
+CB_ALLOWED_RELEASE_PUPPET;Release of Vassal;Libération d'un État fantoche;Entlassung von Marionettenstaat;;Liberación de títere;;;;;;;;x
 CB_ALLOWED_STATUS_QUO;Return to Status Quo;Retour au statu quo;Rückkehr zum Status Quo;;Volver al 'Statu Quo'.;;;;;;;;x
 CB_ALLOWED_TRANSFER_PROVINCES;Transfer of provinces;Transfert des provinces;Übertragung von Provinzen;;Transferencia de provincias;;;;;;;;x
 CB_ALLOWED_PRESTIGE;Reduction of Prestige;Diminution du prestige;Prestige-Reduzierung;;Reducción de prestigio;;;;;;;;x

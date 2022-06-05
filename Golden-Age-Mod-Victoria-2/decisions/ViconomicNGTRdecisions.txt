@@ -1,0 +1,130 @@
+political_decisions = {
+	slight_tax_refund = {
+		alert = no
+		picture = switch_to_order
+		potential = {
+			money = 1500000
+		}
+		
+		allow = {
+			NOT = { has_country_modifier = slight_refund }
+		}
+
+		ai_will_do = {
+			factor = 1	
+		}
+		effect = {
+			add_country_modifier = {
+				name = slight_refund
+				duration = -1
+			}
+		}
+	}
+
+	medium_tax_refund = {
+		alert = no
+		picture = switch_to_order
+		potential = {
+			money = 2500000
+		}
+		
+		allow = {
+			NOT = { has_country_modifier = medium_refund }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = medium_refund
+				duration = -1
+			}
+		}
+	}
+
+	large_tax_refund = {
+		alert = no
+		picture = switch_to_order
+		potential = {
+			money = 4000000
+		}
+		
+		allow = {
+			NOT = { has_country_modifier = large_refund }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = large_refund
+				duration = -1
+			}
+		}
+	}
+	slight_tax_repeal = {
+		alert = no
+		picture = switch_to_order
+		potential = {
+			has_country_modifier = slight_refund
+		}
+		
+		allow = {
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				money = 1000000
+			}	
+		}
+		effect = {
+			remove_country_modifier = slight_refund
+		}
+	}
+	medium_tax_repeal = {
+		alert = no
+		picture = switch_to_order
+		potential = {
+			has_country_modifier = medium_refund
+		}
+		
+		allow = {
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				money = 2000000
+			}	
+		}
+		effect = {
+			remove_country_modifier = medium_refund
+		}
+	}
+	large_tax_repeal = {
+		alert = no
+		picture = switch_to_order
+		potential = {
+			has_country_modifier = large_refund
+		}
+		
+		allow = {
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				money = 3000000
+			}	
+		}
+		effect = {
+			remove_country_modifier = large_refund
+		}
+	}
+}

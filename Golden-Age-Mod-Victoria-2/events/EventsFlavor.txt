@@ -58,7 +58,7 @@ country_event = { #The King Is Dead
 		name = "EVTOPTA50001"
 		add_country_modifier = {
 			name = death_of_ruler
-			duration = 40
+			duration = 150
 		}
 	}
 }
@@ -85,7 +85,7 @@ country_event = { #Coronation
 		badboy = -6
 		consciousness = 0.5
 		militancy = 0.5
-		FROM = {
+		THIS = {
 			set_country_flag = royal_marriage_flag
 		}
 		ai_chance = { 
@@ -182,44 +182,105 @@ country_event = { #Papacy
 	}
 }
 
-
-country_event = { #Castile Royal Marriage
-	id = 60001
-	title = "EVTNAME60001"
-	desc = "EVTDESC60001"
-	picture = "royal_marriage"
+country_event = { #Death of Vladislaus III
+	id = 9832491
+	news = yes
+    title = "The Death of Wladyslaw III"
+	desc = "9832491desc"
+	
+	picture = "death_vladislau_iii"
 	fire_only_once = yes
-	is_triggered_only = yes
 	
+	mean_time_to_happen = {
+		months = 0.0001
+	}
+
 	trigger = {
-		tag = CST
-		year = 1474
-		has_country_flag = royal_marriage_flag
+		ai = no 
 	}
 	
 	option = {
-		name = "EVTOPTA60001"
-		create_alliance = ARN
-		relation = {
-			who = ARN 
-			value = 100
+		name = "Is Europe falling?"
+		militancy = 0.03
+		HUN = {
+			add_country_modifier = {
+				name = succession_question
+				duration = 90
+			}
+		}
+		POL = {
+			add_country_modifier = {
+				name = succession_question
+				duration = 90
+			}
+		}
+		CRO = {
+			add_country_modifier = {
+				name = succession_question
+				duration = 90
+			}
+		}
+		LIT = {
+			add_country_modifier = {
+				name = succession_question
+				duration = 90
+			}
+		}
+		TRA = {
+			add_country_modifier = {
+				name = succession_question
+				duration = 90
+			}
+		}
+		TUR = {
+			prestige = 1.2
 		}
 		ai_chance = { 
-			factor = 80 
-		} 
-	}
-	option = {
-		name = "EVTOPTB60001"
-		create_alliance = POR
-		relation = {
-			who = POR
-			value = 50
-		}
-		ai_chance = { 
-			factor = 20
+			factor = 100
 		}
 	}
 }
+
+#country_event = { #vladislaus_i_sucessor
+#	id = 9832442
+#	news = yes
+#    title = "The Death of Vladislaus I"
+#	desc = ""
+#	picture = "death_vladislau_i"
+#	fire_only_once = yes
+#	is_triggered_only = yes
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	
+#	option = {
+#		name = "We need a Habsburg King! (Ladislaus the Posthumous) "
+#		militancy = 0.03
+#		HUN = {
+#			remove_country_modifier = succession_question
+#		}
+#		TUR = {
+#			prestige = 1
+#		}
+#		ai_chance = { 
+#			factor = 100
+#		}
+#	}
+#	option = {
+#		name = "We need a Jagiellonian King! ("
+#		militancy = 0.03
+#		HUN = {
+#			remove_country_modifier = hungarian_succession_question
+#		}
+#		TUR = {
+#			prestige = 1
+#		}
+#		ai_chance = { 
+#			factor = 100
+#		}
+#	}
+#}
 country_event = { #The King Is NOT dead
 	id = 50054
 	news = yes

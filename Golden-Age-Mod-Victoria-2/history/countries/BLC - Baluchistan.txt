@@ -44,7 +44,7 @@ consciousness = 2.5
 nonstate_consciousness= 0.709375
 
 # Technologies
-flintlock_rifles = 1
+#flintlock_rifles = 1
 
 land_reform=yes_land_reform
 admin_reform=yes_admin_reform

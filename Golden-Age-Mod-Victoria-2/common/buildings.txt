@@ -72,7 +72,6 @@ stable_build = {
 	time = 365
 	visibility = yes
 	onmap = no
-	default_enabled = yes
 	production_type = stable_build
 	pop_build_factory = yes
 }
@@ -269,7 +268,8 @@ construction_tools_factory = {
 	visibility = yes
 	onmap = no
 	pop_build_factory = yes
-	default_enabled = yes
+	advanced_factory = yes
+	default_enabled = no
 	production_type = construction_tools_factory
 }
 

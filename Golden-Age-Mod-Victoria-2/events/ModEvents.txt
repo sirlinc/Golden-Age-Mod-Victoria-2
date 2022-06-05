@@ -3,22 +3,19 @@ country_event = {
 
 	id = 98007 # Burgundian Inheritance
 
-	title = "EVTNAME98007"
+	title = "Burgundian Inheritance"
 	desc = "EVTDESC98007"
 	picture = burgundy
 
 	trigger = {
-		OR = {
-			tag = AUS
-		}
-		OR = {
-			exists = BRG
-		}
-		OR = {
-			BRG = {
-                        is_greater_power = no
-                        }
-		}
+		tag = AUS
+		exists = BRG
+		BRG = {
+			OR = {
+				is_greater_power = no
+				is_secondary_power = no
+			}
+        }
 		year = 1477
 	}
 

@@ -643,7 +643,7 @@ political_decisions = { #All decisions by German2002
 			factor = 1
 		}
 	}
-	
+	#HRE GENERAL
 	be_a_member_of_hre = {
 		picture = member_holy_roman_empire
 		potential = {
@@ -666,8 +666,8 @@ political_decisions = { #All decisions by German2002
 					has_country_flag = hre_member
 					has_country_flag = hre_emperor
 					has_country_flag = elector_hre
+					tag = AUS
 				}
-				tag = AUS
 			}
 		}
 		allow = {
@@ -746,7 +746,12 @@ political_decisions = { #All decisions by German2002
 		picture = be_a_elector
 		potential = {
 			has_country_flag = hre_member
-			NOT = { has_country_flag = elector_hre }
+			NOT = {
+				OR = {
+					has_country_flag = elector_hre
+					has_country_flag = hre_emperor
+				}
+			}
 		}
 		allow = {
 			war = no
@@ -799,6 +804,63 @@ political_decisions = { #All decisions by German2002
 		effect = {
 			set_country_flag = hre_emperor
 			prestige = 3
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_germany = {
+		picture = germany
+		potential = {
+            NOT = {
+				has_country_flag = hre_emperor
+				OR = {
+					exists = GER
+					exists = HLR
+				}
+			}
+			has_country_flag = hre_member
+			OR = {
+				primary_culture = north_german
+				primary_culture = south_german
+			}
+		}
+		allow = {
+			is_greater_power = yes
+			prestige = 25
+			war = no
+			GER = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+            prestige = 20
+			change_tag = GER
+			add_accepted_culture = north_german
+			add_accepted_culture = south_german
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					OR = { 
+						primary_culture = north_german
+						primary_culture = south_german
+						is_culture_group = north_german
+						is_culture_group = south_german
+					}
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
 		}
 		ai_will_do = {
 			factor = 1

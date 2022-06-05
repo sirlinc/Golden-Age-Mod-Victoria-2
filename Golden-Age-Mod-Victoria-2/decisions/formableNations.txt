@@ -60,9 +60,9 @@ political_decisions = {
 		picture = spain
 		potential = {
 			OR = {
-				is_culture_group = spanish
-				is_culture_group = catalan
-				is_culture_group = basque
+				primary_culture = spanish
+				primary_culture = catalan
+				primary_culture = basque
 			}
 			NOT = {
 				exists = SPA
@@ -330,6 +330,13 @@ political_decisions = {
 		news_desc_short = "form_india_NEWS_SHORT"
 		potential = {
 			OR = {
+				primary_culture = rajput
+				primary_culture = kannada
+				primary_culture = tamil
+				primary_culture = telegu
+				primary_culture = avadhi
+				primary_culture = kanauji
+				primary_culture = bihari
 				is_culture_group = rajput
 				is_culture_group = kannada
 				is_culture_group = tamil
@@ -395,7 +402,7 @@ political_decisions = {
 	
 	form_ireland = {
 		potential = {
-			is_culture_group = irish
+			primary_culture = irish
 			NOT = {
 				exists = IRE
 			}
@@ -427,6 +434,50 @@ political_decisions = {
 						is_greater_power = yes
 					}
 					is_culture_group = irish
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_netherlands = {
+		potential = {
+			primary_culture = dutch
+			NOT = {
+				exists = NET
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			prestige = 25
+			war = no
+			NET = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = IRE
+			add_accepted_culture = dutch
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					primary_culture = dutch
 					in_sphere = THIS
 				}
 				country_event = { id=11101 days=0 }
@@ -818,7 +869,7 @@ political_decisions = {
 		
 		effect = {
 			prestige = 20
-			change_tag = INC
+			change_tag = PRU
 			add_accepted_culture = north_german
 			any_country = {
 				limit = {

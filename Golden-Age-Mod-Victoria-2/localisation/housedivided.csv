@@ -34,7 +34,7 @@ UNIT_REBEL_HUNT_NO_VALID;§REnemy rebels has been detected, but our army will not
 NOT_RELEASE_AT_WAR;§R(It is not possible to release nations when at war.)§W;§R(Il n'est pas possible de libérer des nations en temps de guerre.)§W;§R(Es ist nicht möglich, während eines Krieges Nationen zu entlassen.)§W;;;;;;;;x;;;
 COLONY_SUCCESS_5;§Y$PRESTIGE$§! prestige gained.;§Y$PRESTIGE$§! de prestige gagné.;§Y$PRESTIGE$§! Prestige gewonnen.;;;;;;;;;;;x
 COLONY_SUCCESS_6;(Base value §Y$BASE$§! x §Y$PROV$§! provinces.);(Valeur de base §Y$BASE$§! x §Y$PROV$§! provinces.);(Grundwert §Y$BASE$§! x §Y$PROV$§! Provinzen.);;;;;;;;;;;x
-COUNTRY_PUPPETS_LIST;Puppets: ;Satellites : ;Marionetten:;;;;;;;;;;;x
+COUNTRY_PUPPETS_LIST;Vassals: ;Satellites : ;Marionetten:;;;;;;;;;;;x
 POLL_ESTIMATED_ELECTION;In an election we estimate the following result.;En cas d'élection, nous nous attendons au résultat suivant.;In einer Wahl erwarten wir die folgenden Ergebnisse.;;;;;;;;x;;;
 MODIFIER_MOVEMENT_COST;Troop Movement Cost;Coût du mouvement de troupe;Kosten der Truppenbewegung;;;;;;;;x;;;
 SPEED_IMPACT_ON_CB;Speed of generation is changed by §Y$VAL$§W.;La vitesse de génération change de §Y$VAL$§W.;Die Geschwindigkeit der Generationen hat sich um §Y$VAL$§W geändert.;;;;;;;;x;;;
@@ -60,7 +60,7 @@ HAS_LESS_STATE_THAN;Has number of States < ;Nombre d'États <;besitzt eine Staats
 HAS_STATES_GREATER_EQ;Has number of States >= ;Nombre d'États >= ;besitzt eine Staatsanzahl von >=;;;;;;;;;;;x
 HAVE_MORE_SUBSTATES_THEN;Have more substates than ;Nombre de sous-états supérieur à ;Besitze mehr Unterstaaten als;;;;;;;;;;;x
 HAVE_LESS_SUBSTATES_THEN;Have less substates than ;Nombre de sous-états inférieur à ;Besitze weniger Unterstaaten als;;;;;;;;;;;x
-HAVE_MORE_VASSALS_THAN;Have more puppets than ;Nous avons plus de satellites que ;Besitze mehr Marionetten als;;;;;;;;;;;x
+HAVE_MORE_VASSALS_THAN;Have more vassals than ;Nous avons plus de satellites que ;Besitze mehr Marionetten als;;;;;;;;;;;x
 HAS_UNION_TAG;has culture union;a la culture syndicale;besitzt kulturelle Unionen;;;;;;;;;;;x
 HAS_NO_UNION_TAG;has NO culture union;n'a pas de culture syndicale;besitzt KEINE kulturellen Unionen;;;;;;;;;;;x
 HAS_CULTURE_UNION;Has culture union;A la culture syndicale;Besitzt kulturelle Unionen;;;;;;;;;;;x
@@ -281,16 +281,16 @@ become_independent;Become Independent;Devenir indépendant;Werdet unabhängig;;;;;
 become_independent_short;$ACTOR$ is released from $RECIPIENT$;$ACTOR$ est libéré de $RECIPIENT$;$ACTOR$ wird von $RECIPIENT$ befreit;;;;;;;;;;;x
 become_independent_setup;$ACTOR$ is released from $RECIPIENT$ and becomes independent.;$ACTOR$ est libéré de $RECIPIENT$ et devient indépendant.;$ACTOR$ wird von $RECIPIENT$ befreit und wird unabhängig. ;;;;;;;;;;;x
 #become_independent_desc;Become independent.;Devenir indépendant.;Werdet unabhängig.;;;;;;;;;;;x
-make_puppet;Make puppet;Créer un pays satellite;Erschafft eine Marionette;;;;;;;;;;;x
-make_puppet_short;$RECIPIENT$ becomes a puppet of $ACTOR$;$RECIPIENT$ devient satellite de $ACTOR$;$RECIPIENT$ wird eine Marionette von $ACTOR$;;;;;;;;;;;x
-make_puppet_setup;$RECIPIENT$ becomes a puppet of $ACTOR$;$RECIPIENT$ devient satellite de $ACTOR$;$RECIPIENT$ wird eine Marionette von $ACTOR$;;;;;;;;;;;x
-make_puppet_desc;Become a puppet;Devenir un satellite;Werdet eine Marionette;;;;;;;;;;;x
+make_puppet;Make vassal;Créer un pays satellite;Erschafft eine Marionette;;;;;;;;;;;x
+make_puppet_short;$RECIPIENT$ becomes a vassal of $ACTOR$;$RECIPIENT$ devient satellite de $ACTOR$;$RECIPIENT$ wird eine Marionette von $ACTOR$;;;;;;;;;;;x
+make_puppet_setup;$RECIPIENT$ becomes a vassal of $ACTOR$;$RECIPIENT$ devient satellite de $ACTOR$;$RECIPIENT$ wird eine Marionette von $ACTOR$;;;;;;;;;;;x
+make_puppet_desc;Become a vassal;Devenir un satellite;Werdet eine Marionette;;;;;;;;;;;x
 RALLY_POINT_INFO;If you enable the §Yrally point§! in this province, then all nearest units will head this way when recruiting is done.\n(See recruitment map mode for more details.);Si vous activez le §Ypoint de ralliement§! dans cette province, toutes les unités proches s'y rendront dès qu'elles seront recrutées.\n(Voir la carte de recrutement pour plus de détails);Falls Ihr den §Sammelpunkt§! In dieser Provinz aktiviert, werden sich alle Einheiten aus der Umgebung hierher bewegen, sobald die Rekrutierung abgeschlossen ist.\n(Weitere Details findest du im Rekrutierungs-Kartenmodus.);;;;;;;;;;;x
 RALLY_POINT_ENABLE_INFO;Enable or Disable this province as a rally point.;Activer ou désactiver le point de ralliement de cette province.;Aktiviert oder Deaktiviert diese Provinz als Versammlungspunkt.;;;;;;;;;;;x
 RALLY_POINT_MERGE_INFO;Enable or Disable units merging at destination.\n(Armies will merge up to the local supply limit.);Activer ou désactiver la fusion des unités à destination.\n(Les armées fusionneront jusqu'à la limite de ravitaillement locale);Aktiviert oder Deaktiviert Einheiten, die an dieser Stelle zusammengeführt werden.\n(Armeen kommen bis zum lokalen Vorratslimit zusammen.);;;;;;;;;;;x
 RALLY_POINT_PROVINCE_INFO;$PROV$ is a §Yrally point§!;$PROV$ est un §Ypoint de ralliement§!;$PROV$ ist ein §YSammelpunkt§!;;;;;;;;;;;x
 RALLY_POINT_PROVINCE_MERGE_INFO;All recruited units will merge up to §Y$LIMIT$§! when arrive here.;Toutes les unités recrutées fusionneront jusqu'à §Y$LIMIT$§! quand elles arriveront ici.;Alle rekrutierten Einheiten werden bis zu einer Menge von §Y$LIMIT$§! zusammengeführt, sobald sie ankommen.;;;;;;;;;;;x
-CB_ALLOWED_MAKE_PUPPET;Make a Puppet;Créer un pays satellite;Erschafft eine Marionette;;;;;;;;;;x;
+CB_ALLOWED_MAKE_PUPPET;Make a Vassal;Créer un pays satellite;Erschafft eine Marionette;;;;;;;;;;x;
 DIPLOMACY_NEGOTIATE_SUBSTATE;We are not allowed to negotiate with §YSubstates§W;Nous ne sommes pas autorisés à négocier avec les §Ysous-états§W;Uns ist es nicht gestattet, mit §YUnterstaaten§W zu verhandeln;;;;;;;;;;;x
 DIPLOMACY_NEGOTIATE_WE_SUBSTATE;We are not allowed to negotiate with countries if we are a §YSubstate§W;Nous ne sommes pas autorisés à négocier avec les autres pays si nous sommes un §Ysous-état§W;Falls wir ein §YUnterstaat§W sind, ist es uns nicht gestattet, mit Ländern zu verhandeln.;;;;;;;;;;;x
 DECL_WAR_NO_SUBSTATE;We are not allowed to declare war against §Ysubstates§W;Nous ne sommes pas autorisés à déclarer à la guerre aux §Ysous-états§W;Wir dürfen §YUnterstaaten§W nicht den Krieg erklären.;;;;;;;;;;;x
@@ -302,7 +302,7 @@ CB_MANUFACTURE_TECH;War justification efficiency;Efficacité de la justification 
 CB_CREATE_TECH;War justification efficiency: $VAL$;Efficacité de la justification de guerre : $VAL$;Effizienz der Kriegsrechtfertigung: $VAL$;;;;;;;;;;;x
 SUPPRESSION_TECH_DESC;Suppression efficiency: $VAL$;Efficacité de la répression : $VAL$;Unterdrückungseffizienz: $VAL$;;;;;;;;;;;x
 CB_CREATION_TIME_DAYS;It will take roughly §Y$DAYS$§! days to justify this war;Cela prendra environ §Y$DAYS$§! jours pour justifier cette guerre;Es wird ungefähr §Y$DAYS$§! brauchen, den Krieg zu rechtfertigen;;;;;;;;;;;x
-CB_NOT_ON_PUPPETS;We can't justify war against §Ypuppets§W and §Ysubstates§W.;Nous ne pouvons pas justifier une guerre contre des §Ysatellites§W ou des §Ysous-états§W.;Wir können keinen Krieg gegen §YMarionetten§W and §YUnterstaaten§W führen.;;;;;;;;;;;x
+CB_NOT_ON_PUPPETS;We can't justify war against §Yvassals§W and §Ysubstates§W.;Nous ne pouvons pas justifier une guerre contre des §Ysatellites§W ou des §Ysous-états§W.;Wir können keinen Krieg gegen §YMarionetten§W and §YUnterstaaten§W führen.;;;;;;;;;;;x
 CB_NOT_ON_SPHERES;We can't justify war against a country that is in our sphere.;Nous ne pouvons justifier une guerre contre un pays appartenant à notre sphère.;Wir können keinen Krieg gegen ein Land rechtfertigen, das sich in unserem Wirkungsbereich befindet.;;;;;;;;;;;x
 NO_WAR_JUSTIFICATION;We are missing a valid justification for declaring war on them.;Il nous manque une justification valide pour leur déclarer la guerre.;Wir besitzen keine gültige Kriegsrechtfertigung, um einen Krieg erklären zu können.;;;;;;;;;;;x
 NOT_HOSTILE_BUILD;Not Hostile;Pas hostile;Nicht feindselig;;;;;;;;;;;x

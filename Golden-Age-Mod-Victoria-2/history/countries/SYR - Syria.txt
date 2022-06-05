@@ -45,7 +45,7 @@ consciousness = 2
 nonstate_consciousness= 0
 
 # Technologies
-flintlock_rifles = 1
+#flintlock_rifles = 1
 
 prestige=0
 oob = "SYR_OOB.txt"

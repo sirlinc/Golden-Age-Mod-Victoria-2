@@ -896,62 +896,7 @@ country_event = {
 	}
 	
 }
-country_event = {
-	id = 601016
-	title = EVTNAME601xxx
-	desc = EVTDESC601xxx
-	major = yes
-	allow_multiple_instances = no
-	
-	option = {
-		name = STRING_OK
-	}
-	
-	immediate = {
-		change_tag = CAT
-		prestige = 5
-		any_country = {
-			limit = {
-				in_sphere = FROM
-				accepted_culture = catalan
-			}
-			inherit = FROM
-		}
-	}
-	
-	trigger = {
-		civilized = yes
-		is_independant = yes
-		war = no
-		number_of_states = 2
-		has_recently_lost_war = no
-		nationalism_n_imperialism = 1	
-		primary_culture = catalan
-		NOT = { exists = SPA } #Cultural union
-		NOT = { exists = CAT } #Cultural country
-		CAT = {
-			all_core = {
-				OR = {
-					owned_by = THIS
-					owner = {
-						NOT = { primary_culture = catalan }
-						accepted_culture = catalan
-						in_sphere = THIS
-					}
-					owner = {
-						NOT = { primary_culture = catalan }
-						NOT = { accepted_culture = catalan }
-					}
-				}
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 1
-	}
-	
-}
+
 country_event = {
 	id = 601017
 	title = EVTNAME601xxx

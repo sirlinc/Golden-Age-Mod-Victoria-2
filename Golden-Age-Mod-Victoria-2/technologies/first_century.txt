@@ -646,12 +646,86 @@ production_ix = {
 army_i = {
 	area = army
 	year = 1444
+	unciv_military = yes
+	activate_unit = infantry
+	combat_width = -1	
 	cost = 3600
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+		modifier = {
+			factor = 1.02
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+	}
 }
 army_ii = {
 	area = army
 	year = 1444
+	activate_building = fort
+	activate_unit = artillery
+	army_base = {
+		default_organisation = 5
+		supply_consumption = 0.10
+	}
+	dig_in_cap = 1
 	cost = 3600
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.1
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+	}
 }
 army_iii = {
 	area = army
@@ -661,6 +735,11 @@ army_iii = {
 army_iv = {
 	area = army
 	year = 1460
+	artillery = {
+		attack = 0.25
+		support = 0.5
+		supply_consumption = 0.15
+	}
 	cost = 3600
 }
 army_v = {
@@ -681,11 +760,15 @@ army_vii = {
 army_viii = {
 	area = army
 	year = 1490
+	activate_unit = guard
+
 	cost = 3600
 }
 army_ix = {
 	area = army
 	year = 1495
+	
+	activate_unit = engineer
 	cost = 3600
 }
 #########################################

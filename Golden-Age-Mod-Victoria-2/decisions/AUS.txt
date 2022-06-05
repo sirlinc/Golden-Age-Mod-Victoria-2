@@ -1,5 +1,226 @@
 political_decisions = { #All decisions by German2002
-
+	reconquer_tirol = {
+		picture = tirol
+		potential = {
+            tag = AUS
+			NOT = {
+				has_country_flag = tirol_cb
+			}
+		}
+		allow = {
+			relation = { who = TIR value = -150 }
+			war = no
+			year = 1465
+			TIR = {
+				part_of_sphere = no
+			}
+			OR = {
+				is_secondary_power = yes
+				is_greater_power = yes
+			}
+		}
+		effect = {
+            prestige = 5
+            set_country_flag = secured_electors
+			inherit = TIR
+			TIR = {
+				add_country_modifier = {
+					name = stability_negative_one
+					duration = 120
+				}
+			}
+			set_country_flag = tirol_cb
+			badboy = 7
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	reconquer_south_tirol = {
+		picture = south_tirol
+		potential = {
+            tag = AUS
+			has_country_flag = tirol_cb
+			NOT = {
+				has_country_flag = stirol_cb
+			}
+		}
+		allow = {
+			war = no
+			relation = { who = TST value = -150 }
+			absolutism = 1
+			TST = {
+				part_of_sphere = no
+			}
+			OR = {
+				is_secondary_power = yes
+				is_greater_power = yes
+			}
+		}
+		effect = {
+            prestige = 5
+            set_country_flag = secured_electors
+			inherit = TST
+			TST = {
+				add_country_modifier = {
+					name = stability_negative_one
+					duration = 120
+				}
+			}
+			set_country_flag = stirol_cb
+			badboy = 7
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	subjulgate_venice = {
+		picture = venice
+		potential = {
+            tag = AUS
+			NOT = { has_country_flag = vencie_flag }
+		}
+		allow = {
+			war = no
+			relation = { who = VEN value = 150 }
+			is_greater_power = yes
+			absolutism_ii = 1
+			VEN = {
+				war = no
+				part_of_sphere = no
+				OR = {
+					is_secondary_power = no
+					is_greater_power = no
+				}
+				is_our_vassal = no
+				NOT = { alliance_with = AUS }
+			}
+		}
+		effect = {
+            prestige = 10
+            set_country_flag = vencie_flag
+			create_alliance = VEN
+			create_vassal = VEN
+			diplomatic_influence = { who = VEN value = 300 }
+			badboy = 10
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	subjulgate_switzerland = {
+		picture = austrian_switzerland
+		potential = {
+			tag = AUS
+            NOT = { 
+				has_global_flag = historical_play 
+				has_country_flag = aus_swi
+			}
+		}
+		allow = {
+			war = no
+			relation = { who = SWI value = -150 }
+			is_greater_power = yes
+			absolutism_ii = 1
+			SWI = {
+				war = no
+				part_of_sphere = no
+				OR = {
+					is_secondary_power = no
+					is_greater_power = no
+				}
+				is_our_vassal = no
+				NOT = { alliance_with = AUS }
+			}
+		}
+		effect = {
+			prestige = 6
+            set_country_flag = aus_swi
+			create_alliance = SWI
+			create_vassal = SWI
+			diplomatic_influence = { who = SWI value = 300 }
+			badboy = 10
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	annex_switzerland = {
+		picture = austrian_switzerland
+		potential = {
+			tag = AUS
+            NOT = { 
+				has_global_flag = historical_play 
+				has_country_flag = aus_swi
+			}
+		}
+		allow = {
+			has_recently_lost_war = no
+			war = no
+			relation = { who = SWI value = 200 }
+			is_greater_power = yes
+			absolutism_ii = 1
+			SWI = {
+				OR = {
+					is_secondary_power = no
+					is_greater_power = no
+				}
+				is_our_vassal = yes
+				alliance_with = AUS
+				war = no
+			}
+		}
+		effect = {
+			badboy = 12 
+			prestige = 7
+			SWI = {
+				annex_to = AUS
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	annex_venice = {
+		picture = annexvenice
+		potential = {
+			tag = AUS
+            has_country_flag = vencie_flag
+		}
+		allow = {
+			has_recently_lost_war = no
+			war = no
+			relation = { who = VEN value = 200 }
+			is_greater_power = yes
+			absolutism_ii = 1
+			VEN = {
+				OR = {
+					is_secondary_power = no
+					is_greater_power = no
+				}
+				is_our_vassal = yes
+				alliance_with = AUS
+				war = no
+			}
+		}
+		effect = {
+			badboy = 12 
+			prestige = 7
+			VEN = {
+				annex_to = AUS
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
 	secure_electors = {
 		picture = flag_hre
 		potential = {

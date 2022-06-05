@@ -45,6 +45,7 @@ aztec_human_sacrifice_desc;Human sacrifice was common in many parts of Mesoameri
 EVTNAME70020;Fix Pop's Ideology;x;
 EVTDESC70020;Event to fix ideology of all pops.;x;
 EVTOPTA70020;Fix all pops.;x;
+9832491desc;Wladyslaw III, also known as Ladislaus of Varna, was King of Poland and the Supreme Duke of Grand Duchy of Lithuania from 1434 as well as King of Hungary and Croatia. Yesterday, in the Battle of Varsa, at the War of Crusade of Varna, the young king was killed while personally leading his own 500-strong royal Polish heavy cavalry company, his charge losing impetus and coming to a standstill amongst the unyielding Janissaries protecting the sultan. The Janissaries killed the king's bodyguard and beheaded Wladyslaw, displaying his head on a pole. Disheartened by the death of their king, the Hungarian army fled the battlefield. Neither the king's body nor his armor were ever found.;X;
 EVTNAME50054;§YMission§! - Assassination Attempt on the King;x;
 EVTDESC50054;Tonight, there is a §RAttempt at poisoning§! against Your Majesty of $COUNTRY$. The cause of the crime is unknown, but the populace and many nobles believe it stems from the downfall of $IDEOLOGY$, the group Your Majesty sternly supports.;x;
 EVTOPTA50054;What a pity... Wait;x;

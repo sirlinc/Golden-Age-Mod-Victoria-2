@@ -1,9 +1,11 @@
 buy_indulgences = {
     picture = buy_indulgences
     potential = {
-        religion = catholic
 		NOT = {
 			government = theocracy
+		}
+		THIS = {
+			pop_majority_religion = catholic
 		}
     }
     allow = {

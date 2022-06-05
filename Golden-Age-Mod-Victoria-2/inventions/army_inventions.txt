@@ -465,7 +465,7 @@ stormtrooper_training = {
 	}
 }
 tank_experiments = {
-	limit = { infiltration = 1 }
+	limit = { army_3_ix = 1 }
 	chance = {
 		base = 1
 		modifier = {
@@ -484,11 +484,11 @@ tank_experiments = {
 	}
 	effect = {
 		activate_unit = tank
-		activate_building = barrel_factory 
+		activate_building = barrel_factory
 	}
 }
 tank_exploits = {
-	limit = { infiltration = 1 }
+	limit = { army_3_ix = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -1047,7 +1047,7 @@ armoured_cars = {
 	}
 }
 anti_aircraft_artillery = {
-	limit = { heavy_armament_dunno = 1 }
+	limit = { army_3_ix = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -1069,7 +1069,7 @@ anti_aircraft_artillery = {
 	}
 }
 improved_anti_aircraft_artillery = {
-	limit = { heavy_armament_dunno = 1 }
+	limit = { army_3_ix = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -1443,7 +1443,7 @@ army_local_military_government = {
 
 #aeronautics
 military_aviation = {
-	limit = { aeronautics = 1 }
+	limit = { army_3_ix = 1 }
 	chance = {
 		base = 3
 		modifier = {
@@ -1461,7 +1461,7 @@ military_aviation = {
 	}
 }
 early_interwar_bombers = {
-	limit = { aeronautics = 1 }
+	limit = { army_3_ix = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -1477,7 +1477,7 @@ early_interwar_bombers = {
 	}
 }
 late_interwar_bombers = {
-	limit = { aeronautics = 1 }
+	limit = { army_3_ix = 1 }
 	chance = {
 		base = 0
 		modifier = {
@@ -1497,7 +1497,7 @@ late_interwar_bombers = {
 	}
 }
 early_interwar_fighters = {
-	limit = { aeronautics = 1 }
+	limit = { army_3_ix = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -1513,7 +1513,7 @@ early_interwar_fighters = {
 	}
 }
 late_interwar_fighters = {
-	limit = { aeronautics = 1 }
+	limit = { army_3_ix = 1 }
 	chance = {
 		base = 0
 		modifier = {
@@ -1533,7 +1533,7 @@ late_interwar_fighters = {
 	}
 }
 t_air_superiority = {
-	limit = { aeronautics = 1 }
+	limit = { army_3_ix = 1 }
 	chance = {
 		base = 2
 		modifier = {

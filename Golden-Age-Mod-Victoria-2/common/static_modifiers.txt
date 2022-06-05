@@ -9,6 +9,8 @@
 # Difficulty Modifiers
 ##########################################################################
 
+
+
 very_easy_player = {
 	supply_consumption = -0.5
 	research_points_modifier = 0.5
@@ -90,11 +92,12 @@ land_province = {
 
 
 
-blockaded = 
-{
+blockaded = {
+	war_exhaustion = 0.05
 }
 
 no_adjacent_controlled = {
+	supply_limit = -3
 }
 
 
@@ -137,6 +140,7 @@ war = {
 	supply_consumption = -0.5
 	#war_exhaustion = 0.1
 	badboy = -0.033
+	import_cost = 0.01
 }
 
 peace = {
@@ -151,7 +155,11 @@ disarming = {
 }
 
 war_exhaustion = {
+	org_regain = -0.01
 	factory_throughput = -0.01
+	tax_efficiency = -0.002
+	administrative_efficiency_modifier = -0.002
+	cb_generation_speed_modifier = -0.01
 	RGO_throughput = -0.01
 	cb_generation_speed_modifier = -0.02
 }
@@ -163,7 +171,7 @@ badboy = {
 
 
 debt_default_to = {
-	import_cost = 0.01
+	import_cost = 0.05
 	loan_interest = 0.01
 }
 
@@ -210,7 +218,7 @@ plurality = {
 }
 
 generalised_debt_default = {
-	
+	max_loan_modifier = -1.0 
 }
 
 total_occupation = {
@@ -222,4 +230,25 @@ total_blockaded = {
 }
 
 in_bankrupcy = {
+	max_loan_modifier = -1.0
+	min_tariff = 0.75
+	min_tax = 0.45
+	max_military_spending = -0.2
+	#max_social_spending = 0.5
+	ruling_party_support = -0.75
+}
+
+slight_refund = {
+	tax_efficiency = -0.15
+	tariff_efficiency_modifier = -0.30
+}
+
+medium_refund = {
+	tax_efficiency = -0.25
+	tariff_efficiency_modifier = -0.40
+}
+
+large_refund = {
+	tax_efficiency = -0.40
+	tariff_efficiency_modifier = -0.60
 }

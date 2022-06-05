@@ -45,7 +45,8 @@ consciousness = 2
 nonstate_consciousness= 0.01928
 
 # Technologies
-prestige=16
+prestige=15
 oob = "BOH_OOB.txt"
-set_country_flag = member_hre
+set_country_flag = hre_member
+set_country_flag = elector_hre
 set_country_flag = religi

@@ -1,10 +1,7 @@
 #Sphere of Influence
 GRA = {
 	value = -198
-}
-
-GRA = {
-    truce_until = 1452.4.14
+	truce_until = 1452.4.14
 }
 
 #Leaders

@@ -1362,7 +1362,7 @@
 	{
 		culture = french
 		religion = catholic
-		size= 3465
+		size= 3063
 	}
 
 	craftsmen=
@@ -1376,14 +1376,14 @@
 	{
 		culture = french
 		religion = catholic
-		size= 11810
+		size= 68106
 	}
 
 	clergymen=
 	{
 		culture = french
 		religion = catholic
-		size= 2235
+		size= 2457
 	}
 
 	bureaucrats=
@@ -1404,58 +1404,50 @@
 	{
 		culture = french
 		religion = catholic
-		size= 2953
+		size= 2955
 	}
 
 	farmers=
 	{
 		culture = french
 		religion = catholic
-		size= 319253
+		size= 146052
 	}
 
 	clergymen=
 	{
 		culture = french
 		religion = jewish
-		size= 50
+		size= 15
 	}
 
 	capitalists=
 	{
 		culture = french
-		religion = jewish
-		size= 250
+		religion = catholic
+		size= 350
 	}
 
 	clerks=
 	{
 		culture = french
-		religion = jewish
-		size= 1400
+		religion = catholic
+		size= 257
 	}
 
 	craftsmen=
 	{
 		culture = french
 		religion = jewish
-		size= 2500
+		size= 38
 	}
 
 	artisans=
 	{
 		culture = french
 		religion = jewish
-		size= 2250
+		size= 66
 	}
-
-	soldiers=
-	{
-		culture = french
-		religion = jewish
-		size= 50
-	}
-
 }
 426 = {
 	soldiers=

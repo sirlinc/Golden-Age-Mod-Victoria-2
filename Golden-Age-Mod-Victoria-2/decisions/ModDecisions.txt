@@ -1,5 +1,67 @@
 political_decisions = {
-
+	historical_play = {
+		picture = configuration
+		potential = {
+			ai = no
+		}
+		effect = {
+			set_global_flag = historical_play
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	create_a_parliament = {
+		picture = parliament
+		potential = {
+			government = absolute_monarchy
+			civilized = yes
+			NOT = {
+				has_country_flag = created_parliament_one
+			}
+		}
+		allow = {
+			prestige = 5
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
+			average_militancy = 1.5
+		}
+		
+		effect = {
+			government = parliamentary_monarchy
+			badboy = -2
+			prestige = -2
+			consciousness = 0.2
+			militancy = -1.2
+			set_country_flag = created_parliament_one
+			set_country_flag = created_parliament_two
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 15
+				government = absolute_monarch
+				is_greater_power = yes
+				tag = ENL
+				war = no
+			}
+			modifier = {
+				factor = 15
+				government = absolute_monarch
+				is_greater_power = yes
+				tag = NET
+				war = no
+			}
+			modifier = {
+				factor = 15
+				government = absolute_monarch
+				has_country_flag = eventparliamentcountryflag
+				war = no
+			}
+		}
+	}
 	dissolve_parliament = {
 		picture = parliament
 		potential = {
@@ -15,6 +77,7 @@ political_decisions = {
 		allow = {
 			prestige = 5
 			average_militancy = 1.5
+			absolutism = 1
 		}
 		
 		effect = {
@@ -24,7 +87,9 @@ political_decisions = {
 				consciousness = -0.8
 				militancy = 1.2
 			}
+			government = absolute_monarchy
 			set_country_flag = dissolved_parliament
+			clr_country_flag = created_parliament_two
 		}
 		ai_will_do = {
 			factor = 0
@@ -34,7 +99,7 @@ political_decisions = {
 			}
 			modifier = {
 				factor = 20
-				militancy = 2.5
+				
 			}
 		}
 	}
@@ -47,7 +112,10 @@ political_decisions = {
 					government = parliamentary_monarchy
 				}
 				civilized = yes
-				has_country_flag = dissolved_parliament
+				OR = { 
+					has_country_flag = dissolved_parliament
+					has_country_flag = created_parliament_two
+				}
 			}
 		}
 		allow = {
@@ -61,11 +129,17 @@ political_decisions = {
 			consciousness = 0.8
 			militancy = -1.2
 			clr_country_flag = dissolved_parliament
+			clr_country_flag = created_parliament_two
 		}
 		ai_will_do = {
 			factor = 0
 			modifier = {
+				factor = 15
 				war = no
+			}
+			modifier = {
+				factor = 100
+				has_country_flag = created_parliament_two
 			}
 		}
 	}
