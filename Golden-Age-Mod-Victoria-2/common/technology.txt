@@ -25,7 +25,7 @@ folders = {
 		army_3
 		navy_and_colonisation_3
 	}
-	
+
 	#army_tech = 
 	#{
 	#	army_doctrine

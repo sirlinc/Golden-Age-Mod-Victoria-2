@@ -187,10 +187,9 @@ political_reforms = {
 				year = 1492
 			}
 			badboy = 0.02
-			factory_output = 0.05
+			factory_output = 0.03
 			factory_cost = -0.2
-			prestige = 0.03
-			global_immigrant_attract = -0.01
+			prestige = 0.01
 			population_growth = -0.01
 			pop_consciousness_modifier = 0.03
 	    }
@@ -205,7 +204,6 @@ political_reforms = {
 	    }
 	    no_slavery = {
 	    	rules = { slavery_allowed = no }
-	    	global_immigrant_attract = 0.01
 			badboy = -0.02
 			
 	    }
@@ -302,6 +300,58 @@ political_reforms = {
 		}
 	}
 	
+	public_meetings = {
+		no_meeting = {
+			#no immediate effect
+		}
+		yes_meeting = {
+			issue_change_speed = 1
+			global_immigrant_attract = 0.01
+			suppression_points_modifier = -0.25
+		}
+
+	}
+	press_rights = {
+		next_step_only = yes
+		state_press = {
+			literacy_con_impact = -0.25
+			suppression_points_modifier = 0.25
+		}
+		censored_press = {
+			issue_change_speed = 0.25
+			global_immigrant_attract = 0.01
+		}
+		free_press = {
+			literacy_con_impact = 0.25
+			issue_change_speed = 0.5
+			global_immigrant_attract = 0.02
+			suppression_points_modifier = -0.25
+		}
+	}
+	
+	political_parties = {
+		next_step_only = yes
+		underground_parties = {
+			ruling_party_support = 0.2
+			global_immigrant_attract = 0.01
+		}
+		harassment = {
+			ruling_party_support = 0.15
+			global_immigrant_attract = 0.02
+		}
+		gerrymandering = {
+			ruling_party_support = 0.10
+			global_immigrant_attract = 0.03
+		}
+		non_secret_ballots = {
+			ruling_party_support = 0.05
+			global_immigrant_attract = 0.04
+		}
+		secret_ballots = {
+			global_immigrant_attract = 0.05
+		}
+	}
+	
 	power_distribution = {
 		church_power = {	
 			rules = { 
@@ -349,76 +399,6 @@ political_reforms = {
 			allow = { 
 				ruling_party_ideology = people
 			}
-		}
-	}
-	
-	public_meetings = {
-		no_meeting = {
-			#no immediate effect
-		}
-		yes_meeting = {
-			issue_change_speed = 1
-			global_immigrant_attract = 0.01
-			suppression_points_modifier = -0.25
-		}
-
-	}
-	press_rights = {
-		next_step_only = yes
-		state_press = {
-			literacy_con_impact = -0.25
-			suppression_points_modifier = 0.25
-		}
-		censored_press = {
-			issue_change_speed = 0.25
-			global_immigrant_attract = 0.01
-		}
-		free_press = {
-			literacy_con_impact = 0.25
-			issue_change_speed = 0.5
-			global_immigrant_attract = 0.02
-			suppression_points_modifier = -0.25
-		}
-	}
-	trade_unions = {
-		next_step_only = yes
-		no_trade_unions = {
-			#no immediate effect
-		}
-		state_controlled = {
-			social_reform_desire = 0.1
-			global_immigrant_attract = 0.01
-		}
-		non_socialist = {
-			social_reform_desire = 0.2
-			global_immigrant_attract = 0.02
-		}
-		all_trade_unions = {
-			social_reform_desire = 0.3
-			global_immigrant_attract = 0.03
-		}
-	}
-	
-	political_parties = {
-		next_step_only = yes
-		underground_parties = {
-			ruling_party_support = 0.2
-			global_immigrant_attract = 0.01
-		}
-		harassment = {
-			ruling_party_support = 0.15
-			global_immigrant_attract = 0.02
-		}
-		gerrymandering = {
-			ruling_party_support = 0.10
-			global_immigrant_attract = 0.03
-		}
-		non_secret_ballots = {
-			ruling_party_support = 0.05
-			global_immigrant_attract = 0.04
-		}
-		secret_ballots = {
-			global_immigrant_attract = 0.05
 		}
 	}
 }

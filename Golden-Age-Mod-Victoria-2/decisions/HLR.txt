@@ -755,18 +755,11 @@ political_decisions = { #All decisions by German2002
 		}
 		allow = {
 			war = no
-			OR = { 
-				NOT = { 
-					has_country_modifier = small_nation 
-				}			
-				AND = {
-					prestige = 10
-					has_recently_lost_war = no
-				}
-				is_greater_power = yes
-				is_secondary_power = yes
-			}
+			has_recently_lost_war = no
+			is_greater_power = yes
+			is_secondary_power = yes
 			is_independant = yes
+			
 		}
 		effect = {
 			set_country_flag = elector_hre
@@ -803,6 +796,9 @@ political_decisions = { #All decisions by German2002
 		}
 		effect = {
 			set_country_flag = hre_emperor
+			AUS = {
+				clr_country_flag = hre_emperor
+			}
 			prestige = 3
 		}
 		ai_will_do = {

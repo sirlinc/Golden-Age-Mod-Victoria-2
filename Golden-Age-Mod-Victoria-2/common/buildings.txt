@@ -262,7 +262,6 @@ construction_tools_factory = {
 	goods_cost =
 	{
 		timber = 200
-		cement = 200
 	}
 	time = 730
 	visibility = yes

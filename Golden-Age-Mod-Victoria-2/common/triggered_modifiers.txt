@@ -2,6 +2,37 @@
 # these are checked for each countries once/month and then applied.
 #
 # Effects are fully scriptable here.
+immigration_fix_egy = {
+    trigger = {
+		tag = EGY
+    }
+    global_immigrant_attract = -1.1
+    icon = 6
+}
+
+immigration_fix_wal = {
+    trigger = {
+		tag = WAL
+    }
+    global_immigrant_attract = -1.1
+    icon = 6
+}
+
+immigration_fix_mol = {
+    trigger = {
+		tag = MOL
+    }
+    global_immigrant_attract = -1.1
+    icon = 6
+}
+
+fix_one_thing = {
+    trigger = {
+        total_pops = 1
+    }
+    global_pop_militancy_modifier  = -0.7
+    icon = 6
+}
 
 small_nation = {
     trigger = {

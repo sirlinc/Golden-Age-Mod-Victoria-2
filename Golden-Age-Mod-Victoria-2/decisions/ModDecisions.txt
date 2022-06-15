@@ -3,16 +3,30 @@ political_decisions = {
 		picture = configuration
 		potential = {
 			ai = no
+			NOT = { has_country_flag = historical_play_flag }
 		}
 		effect = {
-			set_global_flag = historical_play
+			set_global_flag = historical_play_flag
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	disablehistorical_play = {
+		picture = configuration_disable
+		potential = {
+			ai = no
+			has_global_flag = historical_play_flag
+		}
+		effect = {
+			clr_global_Flag = historical_play_flag
 		}
 		ai_will_do = {
 			factor = 0
 		}
 	}
 	create_a_parliament = {
-		picture = parliament
+		picture = open_parliament
 		potential = {
 			government = absolute_monarchy
 			civilized = yes
@@ -143,6 +157,49 @@ political_decisions = {
 			}
 		}
 	}
+	choose_political_focus = {
+		picture = parliament
+		potential = {
+			OR = {
+				government = parliamentary_republic
+				government = parliamentary_monarchy
+			}
+			civilized = yes
+			NOT = {
+				has_country_flag = dissolved_parliament
+			}
+		}
+		allow = {
+			prestige = 5
+			average_militancy = 1.5
+			absolutism = 1
+		}
+		
+		effect = {
+			event = 
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	#choose_economical_focus_wip = {
+	#	picture = economi
+	#	potential = {
+	#		NOT = {
+	#			has_country_flag = one_year_stop
+	#		}
+	#	}
+	#	allow = {
+	#		early_trade = 1
+	#	}
+	#
+	#	effect = {
+	#		set_country_flag = one_year_stop
+	#	}
+	#	ai_will_do = {
+	#		factor = 0
+	#	}
+	#}
 	aztec_human_sacrifice = { #Aztec Human Sacrifice
 		picture = aztec_human_sacrifice
 		potential = {
@@ -212,7 +269,7 @@ political_decisions = {
 			war = no
 			ruling_party_ideology = nobility
 			civilized = yes
-			absolutism = 1
+			absolutism_i = 1
 		}
 		effect = {
 			government = absolute_monarchy

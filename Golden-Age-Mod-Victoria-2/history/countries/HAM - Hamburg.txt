@@ -24,8 +24,8 @@ vote_franschise=wealth_weighted_voting
 upper_house_composition=state_equal_weight
 voting_system=jefferson_method
 public_meetings=yes_meeting
-press_rights=censored_press
-trade_unions=non_socialist
+press_rights=state_press
+#trade_unions=non_socialist
 political_parties=gerrymandering
 
 ruling_party = HAM_liberal
@@ -47,7 +47,7 @@ nonstate_consciousness= 0
 # Technologies
 #basic_chemistry = 1
 #bronze_muzzle_loaded_artillery = 1
-#classicism_n_early_romanticism = 1
+army_i = 1
 #clean_coal = 1
 #early_classical_theory_and_critique = 1
 #enlightenment_thought = 1

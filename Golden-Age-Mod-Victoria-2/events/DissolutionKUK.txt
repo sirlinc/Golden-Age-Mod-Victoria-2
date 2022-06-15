@@ -124,8 +124,8 @@ country_event = { #Question of Gypsies
 			#modifier = {
 			#	factor = 2
 			#	OR = {
-			#		ruling_party_ideology = liberal
-			#		ruling_party_ideology = socialist
+			#		ruling_party_ideology = petty_bourgeoisie
+			#		ruling_party_ideology = people
 			#	}
 			#}
 			#modifier = {

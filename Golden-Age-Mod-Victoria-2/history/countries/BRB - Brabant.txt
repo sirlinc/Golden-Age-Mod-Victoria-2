@@ -25,8 +25,8 @@ vote_franschise=landed_voting
 upper_house_composition=appointed
 voting_system=jefferson_method
 public_meetings=no_meeting
-press_rights=censored_press
-trade_unions=state_controlled
+press_rights=state_press
+#trade_unions=state_controlled
 political_parties=harassment
 
 ruling_party = FLA_reactionary
@@ -48,7 +48,7 @@ nonstate_consciousness= 0.1
 # Technologies
 #basic_chemistry = 1
 #bronze_muzzle_loaded_artillery = 1
-#classicism_n_early_romanticism = 1
+army_i = 1
 #early_classical_theory_and_critique = 1
 #enlightenment_thought = 1
 #flintlock_rifles = 1

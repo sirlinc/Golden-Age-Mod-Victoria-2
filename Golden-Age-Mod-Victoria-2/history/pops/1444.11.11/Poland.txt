@@ -261,7 +261,7 @@
 	{
 		culture = north_german
 		religion = catholic
-		size= 26187
+		size= 19187
 	}
 
 }

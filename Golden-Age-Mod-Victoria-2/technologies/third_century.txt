@@ -132,6 +132,7 @@ society_3_v = {
 society_3_vi = {
 	area = society_3
 	year = 1650
+	enable_ideology = people
 	cost = 18000
 }
 society_3_vii = {

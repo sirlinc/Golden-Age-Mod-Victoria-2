@@ -15,6 +15,46 @@ leader = {
 
 
 #Armies
+army = {
+	name = "Ejército Real"
+	location = 491
+	regiment = {
+		name = "Infantería I."
+		type = infantry
+		home = 491
+	}
+	regiment = {
+		name = "Infantería II."
+		type = infantry
+		home = 491
+	}
+	regiment = {
+		name = "Infantería III."
+		type = artillery
+		home = 491
+	}
+}
+army = {
+	name = "Ejército Real"
+	location = 509
+	regiment = {
+		name = "Infantería IV."
+		type = infantry
+		home = 509
+	}
+}
+navy = {
+	name="Marina Real"
+	location=511
+	ship = {
+		name="1st Lisbon Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="4th Lisbon Clipper Transport"
+		type=merchant_ship
+	}
+}
 #navy = {
 #	name="Armada Real"
 #	location=478

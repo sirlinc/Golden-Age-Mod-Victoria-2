@@ -1,6 +1,4 @@
-# Id 6016825 conflicts HPM Serf Cleanup
-# title desc 17620 conflicts with Vanilla/mods Fascist Soup-Kitchens (17621)
-country_event = {
+country_event = { #EVENT MOD VICONOMICNGTREVENTS
 	id = 6016826
 	title = "EVTNAME17621"
 	desc = "EVTDESC17621"
@@ -11,7 +9,7 @@ country_event = {
 		money = 3000000
 	}
 	mean_time_to_happen = {
-		months = 1
+		months = 6
 	}
 	option = {
 		name = "EVTOPTA17621"

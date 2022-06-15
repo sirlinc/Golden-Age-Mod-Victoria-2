@@ -3,13 +3,22 @@
 ##################################################################################################
 
 ##### MOD EVENTS ######
+pap_decision_reform = {
+	global_assimilation_rate = -0.2
+	core_pop_militancy_modifier = 0.05
+	core_pop_consciousness_modifier = 0.05
+	max_loan_modifier = -0.3
+	mobilization_impact = -0.3
+	prestige = -0.02
+	icon = 18
+}
 succession_question = {
 	global_assimilation_rate = -0.2
 	import_cost = 0.08
 	core_pop_militancy_modifier = 0.15
 	max_loan_modifier = -0.3
 	mobilization_impact = -0.3
-	prestige = -0.3
+	prestige = -0.05
 	icon = 18
 }
 stability_negative_three = {

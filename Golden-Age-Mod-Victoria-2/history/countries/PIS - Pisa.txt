@@ -24,8 +24,8 @@ vote_franschise=wealth_weighted_voting
 upper_house_composition=state_equal_weight
 voting_system=jefferson_method
 public_meetings=yes_meeting
-press_rights=censored_press
-trade_unions=non_socialist
+press_rights=state_press
+#trade_unions=non_socialist
 political_parties=gerrymandering
 
 ruling_party = POR_nobility

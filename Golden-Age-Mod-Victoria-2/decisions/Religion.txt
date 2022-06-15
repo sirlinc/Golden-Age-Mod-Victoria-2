@@ -1,29 +1,87 @@
-buy_indulgences = {
-    picture = buy_indulgences
-    potential = {
-		NOT = {
-			government = theocracy
+political_decisions = {
+	buy_indulgences = {
+		picture = buy_indulgences
+		potential = {
+			OR = {
+				is_culture_group = zzz_religion_catholic
+				accepted_culture = zzz_religion_catholic
+				primary_culture = zzz_religion_catholic
+			}
+			NOT = { government = theocracy }
+			
 		}
-		THIS = {
-			pop_majority_religion = catholic
+		allow = {
+			money = 10000
+			NOT = { has_country_flag = paid_indulgence } 
+			relation = {
+				who = PAP 
+				value = 100
+			}
 		}
-    }
-    allow = {
-        money = 10000
-        relation = {
-			who = PAP 
-			value = 100
+		effect = {
+			prestige = 2
+			badboy = -10
+			money = -10000
+			set_country_flag = payed_indulgence
 		}
-    }
-    effect = {
-        infamy = -10
-        money = -10000
-    }
-	ai_will_do = {
-		factor = 1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Decisions for Papacy:
+	#the reformation decisions:
+	accept_reform = {
+		picture = reform_accept
+		potential = {
+			tag = PAP
+		}
+		allow = {
+			protestant_reform = 1
+			
+		}
+		effect = {
+			badboy = -5
+			prestige = -0.4
+			any_pop = { consciousness = -1.0 }
+			money = -6000
+			remove_country_modifier = pap_decision_reform
+			clergymen = { 
+				militancy = 0.6
+			}
+			poor_strata = { 
+				militancy = -0.2
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = { has_global_flag = historical_play }
+			}
+		}
+	}
+	refuse_reform = {
+		picture = reform_refuse
+		potential = {
+			tag = PAP
+		}
+		allow = {
+			protestant_reform = 1
+		}
+		effect = {
+			badboy = 5
+			any_pop = { consciousness = 1.0 }
+			remove_country_modifier = pap_decision_reform
+			money = -10000
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				has_global_flag = historical_play
+			}
+		}
 	}
 }
-#Decisions for Papacy:
-#the reformation decisions:
 #Islamism:
 #Emperor of China decisions:

@@ -48,7 +48,7 @@ country_event = {
 		political_parties = underground_parties
 		vote_franschise = none_voting
 		upper_house_composition = party_appointed
-		ruling_party_ideology = reactionary
+		ruling_party_ideology = clergy
 	}
 	
 	mean_time_to_happen = {
@@ -197,8 +197,8 @@ country_event = {
 		government = democracy
 		vote_franschise = none_voting		
 		OR = {
-			ruling_party_ideology = conservative
-			ruling_party_ideology = reactionary
+			ruling_party_ideology = nobility
+			ruling_party_ideology = clergy
 		}
 		civilized = yes
 	}
@@ -223,7 +223,7 @@ country_event = {
 		government = democracy
 		vote_franschise = none_voting
 		OR = {
-			ruling_party_ideology = liberal
+			ruling_party_ideology = petty_bourgeoisie
 			ruling_party_ideology = anarcho_liberal
 		}
 		civilized = yes
@@ -249,7 +249,7 @@ country_event = {
 		government = democracy
 		vote_franschise = none_voting
 		OR = {
-			ruling_party_ideology = socialist
+			ruling_party_ideology = people
 			ruling_party_ideology = communist
 		}
 		civilized = yes
@@ -374,7 +374,7 @@ country_event = {
 	
 	trigger = {
 		upper_house_composition = party_appointed
-		ruling_party_ideology = liberal 
+		ruling_party_ideology = petty_bourgeoisie 
 	}
 	
 	mean_time_to_happen = {

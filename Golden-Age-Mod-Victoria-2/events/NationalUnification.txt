@@ -77,12 +77,12 @@ country_event = {
 			}
 			modifier = {
 				factor = 2
-				ruling_party_ideology = liberal
+				ruling_party_ideology = petty_bourgeoisie
 			}
 			modifier = {
 				factor = 3
 				upper_house = {
-					ideology = liberal
+					ideology = petty_bourgeoisie
 					value = 0.5
 				}
 			}

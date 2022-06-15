@@ -23,8 +23,8 @@ vote_franschise=landed_voting
 upper_house_composition=appointed
 voting_system=jefferson_method
 public_meetings=no_meeting
-press_rights=censored_press
-trade_unions=state_controlled
+press_rights=state_press
+#trade_unions=state_controlled
 political_parties=harassment
 
 ruling_party = KLD_reactionary

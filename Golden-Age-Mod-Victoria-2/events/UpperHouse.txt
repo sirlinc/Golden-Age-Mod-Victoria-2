@@ -5,9 +5,9 @@ country_event = {
 	picture = "Upperhouse"
 	
 	trigger = {
-		is_ideology_enabled = socialist
+		is_ideology_enabled = people
 		upper_house = {
-			ideology = liberal
+			ideology = petty_bourgeoisie
 			value = 0.5
 		}
 		social_reform_want = 0.25
@@ -20,7 +20,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA18000"
 		upper_house = {
-			ideology = socialist
+			ideology = people
 			value = 0.10
 		}
 	}
@@ -29,7 +29,7 @@ country_event = {
 		name = "EVTOPTB18000"
 		any_pop = {
 			scaled_militancy = {
-				ideology = liberal
+				ideology = petty_bourgeoisie
 				factor = 3
 			}
 		}
@@ -44,7 +44,7 @@ country_event = {
 	
 	trigger = {
 		upper_house = {
-			ideology = socialist
+			ideology = people
 			value = 0.5
 		}
 		political_reform_want = 0.25
@@ -57,11 +57,11 @@ country_event = {
 	option = {
 		name = "EVTOPTA18010"
 		upper_house = {
-			ideology = liberal
+			ideology = petty_bourgeoisie
 			value = 0.05
 		}
 		upper_house = {
-			ideology = conservative
+			ideology = nobility
 			value = 0.02
 		}
 	}
@@ -69,11 +69,11 @@ country_event = {
 	option = {
 		name = "EVTOPTB18010"
 		upper_house = {
-			ideology = conservative
+			ideology = nobility
 			value = 0.05
 		}
 		upper_house = {
-			ideology = liberal
+			ideology = petty_bourgeoisie
 			value = 0.02
 		}
 	}
@@ -99,7 +99,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA18020"
 		upper_house = {
-			ideology = liberal
+			ideology = petty_bourgeoisie
 			value = 0.1
 		}
 	}
@@ -107,12 +107,12 @@ country_event = {
 	option = {
 		name = "EVTOPTB18020"
 		upper_house = {
-			ideology = liberal
+			ideology = petty_bourgeoisie
 			value = 0.2
 		}
 		any_pop = {
 			scaled_militancy = {
-				ideology = liberal
+				ideology = petty_bourgeoisie
 				factor = 0.5
 			}
 		}
@@ -130,7 +130,7 @@ country_event = {
 		NOT = {
 			public_meetings = yes_meeting
 			upper_house = {
-				ideology = liberal
+				ideology = petty_bourgeoisie
 				value = 0.1
 			}
 		}
@@ -143,7 +143,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA18030"
 		upper_house = {
-			ideology = liberal
+			ideology = petty_bourgeoisie
 			value = 0.1
 		}
 	}
@@ -151,7 +151,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB18030"
 		upper_house = {
-			ideology = liberal
+			ideology = petty_bourgeoisie
 			value = 0.05
 		}
 	}
@@ -164,12 +164,12 @@ country_event = {
 	picture = "Upperhouse"
 	
 	trigger = {
-		is_ideology_enabled = socialist
+		is_ideology_enabled = people
 		political_reform_want = 0.1
 		average_militancy = 4
 		NOT = {
 			upper_house = {
-				ideology = socialist
+				ideology = people
 				value = 0.1
 			}
 			trade_unions = all_trade_unions
@@ -183,7 +183,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA18040"
 		upper_house = {
-			ideology = socialist
+			ideology = people
 			value = 0.2
 		}
 	}
@@ -191,7 +191,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB18040"
 		upper_house = {
-			ideology = socialist
+			ideology = people
 			value = 0.1
 		}
 		scaled_militancy = {
@@ -220,7 +220,7 @@ country_event = {
 		NOT = {
 			press_rights = free_press
 			upper_house = {
-				ideology = liberal
+				ideology = petty_bourgeoisie
 				value = 0.5
 			}
 		}
@@ -233,7 +233,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA18050"
 		upper_house = {
-			ideology = liberal
+			ideology = petty_bourgeoisie
 			value = 0.2
 		}
 	}
@@ -241,7 +241,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB18050"
 		upper_house = {
-			ideology = liberal
+			ideology = petty_bourgeoisie
 			value = 0.1
 		}
 	}
@@ -256,16 +256,16 @@ country_event = {
 	trigger = {
 		NOT = {
 			upper_house = {
-				ideology = reactionary
+				ideology = clergy
 				value = 0.1
 			}
 		}
 		upper_house = {
-			ideology = liberal
+			ideology = petty_bourgeoisie
 			value = 0.3
 		}
 		upper_house = {
-			ideology = socialist
+			ideology = people
 			value = 0.1
 		}
 	}
@@ -277,7 +277,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA18050"
 		upper_house = {
-			ideology = reactionary
+			ideology = clergy
 			value = 0.05
 		}
 	}
@@ -285,7 +285,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB18050"
 		upper_house = {
-			ideology = reactionary
+			ideology = clergy
 			value = 0.1
 		}
 	}
@@ -301,9 +301,9 @@ country_event = {
 		NOT = {
 			upper_house_composition = party_appointed
 		}
-		ruling_party_ideology = reactionary
+		ruling_party_ideology = clergy
 		upper_house = {
-			ideology = reactionary
+			ideology = clergy
 			value = 0.3
 		}
 	}
@@ -323,7 +323,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB18070"
 		upper_house = {
-			ideology = liberal
+			ideology = petty_bourgeoisie
 			value = 0.3
 		}
 	}
@@ -341,7 +341,7 @@ country_event = {
 			wage_reform = good_minimum_wage
 		}
 		upper_house = {
-			ideology = socialist
+			ideology = people
 			value = 0.2
 		}
 	}
@@ -353,7 +353,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA18080"
 		upper_house = {
-			ideology = socialist
+			ideology = people
 			value = 0.3
 		}
 	}
@@ -376,7 +376,7 @@ country_event = {
 		political_reform_want = 0.15
 		average_militancy = 4
 		upper_house = {
-			ideology = liberal
+			ideology = petty_bourgeoisie
 			value = 0.3
 		}
 	}
@@ -388,7 +388,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA18090"
 		upper_house = {
-			ideology = liberal
+			ideology = petty_bourgeoisie
 			value = 0.45
 		}
 	}
@@ -412,7 +412,7 @@ country_event = {
 		social_reform_want = 0.15
 		health_care = no_health_care
 		upper_house = {
-			ideology = liberal
+			ideology = petty_bourgeoisie
 			value = 0.3
 		}
 	}
@@ -435,11 +435,11 @@ country_event = {
 		name = "EVTOPTB18100"
 		social_reform = trinket_health_care
 		scaled_militancy = {
-			ideology = conservative
+			ideology = nobility
 			factor = 4
 		}
 		scaled_militancy = {
-			ideology = liberal
+			ideology = petty_bourgeoisie
 			factor = 3
 		}
 			
@@ -457,7 +457,7 @@ country_event = {
 		social_reform_want = 0.1
 		average_militancy = 4
 		upper_house = {
-			ideology = conservative
+			ideology = nobility
 			value = 0.1
 		}
 	}
@@ -473,7 +473,7 @@ country_event = {
 			militancy = -1
 		}
 		scaled_militancy = {
-			ideology = liberal
+			ideology = petty_bourgeoisie
 			factor = 2
 		}
 	}
@@ -496,11 +496,11 @@ country_event = {
 	trigger = {
 		average_militancy = 5
 		upper_house = {
-			ideology = conservative
+			ideology = nobility
 			value = 0.4
 		}
 		NOT = {
-			ruling_party_ideology = conservative
+			ruling_party_ideology = nobility
 		}
 	}
 	
@@ -511,7 +511,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA18120"
 		upper_house = {
-			ideology = conservative
+			ideology = nobility
 			value = 0.5
 		}
 	}
@@ -534,10 +534,10 @@ country_event = {
 	
 	trigger = {
 		average_militancy = 2
-		ruling_party_ideology = socialist
+		ruling_party_ideology = people
 		NOT = {
 			upper_house = {
-				ideology = socialist
+				ideology = people
 				value = 0.5
 			}
 		}
@@ -550,7 +550,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA18130"
 		upper_house = {
-			ideology = socialist
+			ideology = people
 			value = 0.5
 		}
 		any_pop = {
@@ -561,7 +561,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB18130"
 		scaled_militancy = {
-			ideology = socialist
+			ideology = people
 			factor = 4
 		}
 	}
@@ -618,14 +618,14 @@ country_event = {
 		vote_franschise = none_voting
 		average_militancy = 5
 		NOT = {
-			ruling_party_ideology = liberal
+			ruling_party_ideology = petty_bourgeoisie
 			upper_house = {
-				ideology = liberal
+				ideology = petty_bourgeoisie
 				value = 0.2
 			}
 		}
 		upper_house = {
-			ideology = liberal
+			ideology = petty_bourgeoisie
 			value = 0.01
 		}
 	}
@@ -644,7 +644,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB18150"
 		upper_house = {
-			ideology = liberal
+			ideology = petty_bourgeoisie
 			value = 0.1
 		}
 	}
@@ -659,11 +659,11 @@ country_event = {
 	trigger = {
 		average_militancy = 2
 		upper_house = {
-			ideology = liberal
+			ideology = petty_bourgeoisie
 			value = 0.3
 		}
 		NOT = {
-			ruling_party_ideology = liberal
+			ruling_party_ideology = petty_bourgeoisie
 		}
 		OR = {
 			social_reform_want = 0.1
@@ -699,11 +699,11 @@ country_event = {
 	trigger = {
 		average_militancy = 3
 		upper_house = {
-			ideology = socialist
+			ideology = people
 			value = 0.2
 		}
 		not = {
-			ruling_party_ideology = socialist
+			ruling_party_ideology = people
 		}
 	}
 	
@@ -717,7 +717,7 @@ country_event = {
 			militancy = -1
 		}
 		upper_house = {
-			ideology = socialist
+			ideology = people
 			value = 0.3
 		}
 	}
@@ -725,7 +725,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB18170"
 		scaled_militancy = {
-			ideology = socialist
+			ideology = people
 			factor = 3
 		}
 	}
@@ -740,10 +740,10 @@ country_event = {
 	trigger = {
 		average_consciousness = 3
 		upper_house = {
-			ideology = conservative
+			ideology = nobility
 			value = 0.1
 		}
-		ruling_party_ideology = conservative
+		ruling_party_ideology = nobility
 	}
 	
 	mean_time_to_happen = {
@@ -773,7 +773,7 @@ country_event = {
 	
 	trigger = {
 		upper_house = {
-			ideology = reactionary
+			ideology = clergy
 			value = 0.1
 		}
 		OR = {

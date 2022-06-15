@@ -2665,3 +2665,40 @@
 	}
 
 }
+3272 = {
+	artisans=
+	{
+		culture = north_italian
+		religion = catholic
+		size= 3922
+	}
+
+	clergymen=
+	{
+		culture = north_italian
+		religion = catholic
+		size= 637
+	}
+
+	bureaucrats=
+	{
+		culture = north_italian
+		religion = catholic
+		size= 98
+	}
+
+	aristocrats=
+	{
+		culture = north_italian
+		religion = catholic
+		size= 94
+	}
+
+	farmers=
+	{
+		culture = north_italian
+		religion = catholic
+		size= 4515
+	}
+
+}

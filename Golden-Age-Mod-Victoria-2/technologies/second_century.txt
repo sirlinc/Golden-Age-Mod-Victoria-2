@@ -114,9 +114,9 @@ absolutism_ii = {
 		
 	}	
 }
-society_2_iii = {
+protestant_reform = {
 	area = society_2
-	year = 1520
+	year = 1517
 	cost = 18000
 }
 society_2_iv = {

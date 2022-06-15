@@ -5,9 +5,10 @@ urban_centers = {
 	area = economy_and_commerce
 	year = 1444
 	cost = 3600
-	administrative_efficiency = 0.05
-	
-	tax_eff = 3
+	activate_building = luxury_clothes_factory  
+
+	administrative_efficiency = 0.03
+	activate_building = cement_factory 
 	
 	ai_chance = {
 		factor = 1.1
@@ -38,7 +39,7 @@ early_trade = {
 	year = 1444
 	cost = 4600
 
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.03
 	tax_eff = 3
 	influence = 0.2
 	farm_rgo_eff = 0.1
@@ -76,8 +77,11 @@ tech_name_wip = {
 	area = economy_and_commerce
 	year = 1450
 	cost = 3600
-	administrative_efficiency = 0.05
-	
+	administrative_efficiency = 0.03
+	activate_building = canned_food_factory 
+	influence = 0.1
+	farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.1
 	tax_eff = 3
 	
 	ai_chance = {
@@ -108,8 +112,8 @@ tech_economy_and_commerce_i = {
 	area = economy_and_commerce
 	year = 1460
 	cost = 3600
-	administrative_efficiency = 0.05
-	
+	administrative_efficiency = 0.03
+	activate_building = lumber_mill
 	tax_eff = 3
 	
 	ai_chance = {
@@ -140,8 +144,8 @@ tech_economy_and_commerce_ii = {
 	area = economy_and_commerce
 	year = 1470
 	cost = 3600
-	administrative_efficiency = 0.05
-	
+	administrative_efficiency = 0.03
+	factory_input = -0.01
 	tax_eff = 3
 	
 	ai_chance = {
@@ -172,10 +176,12 @@ tech_economy_and_commerce_iii = {
 	area = economy_and_commerce
 	year = 1480
 	cost = 3600
-	administrative_efficiency = 0.05
-	
+	administrative_efficiency = 0.03
+	factory_input = -0.01
 	tax_eff = 3
-	
+	influence = 0.1
+	farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.1
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -204,10 +210,12 @@ tech_economy_and_commerce_iv = {
 	area = economy_and_commerce
 	year = 1485
 	cost = 3600
-	administrative_efficiency = 0.05
-	
+	administrative_efficiency = 0.03
+	influence = 0.1
+	farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.1
 	tax_eff = 3
-	
+	factory_input = -0.01
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -236,10 +244,11 @@ tech_economy_and_commerce_v = {
 	area = economy_and_commerce
 	year = 1490
 	cost = 3600
-	administrative_efficiency = 0.05
-	
+	administrative_efficiency = 0.03
 	tax_eff = 3
-	
+	influence = 0.1
+	farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.1
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -264,14 +273,14 @@ tech_economy_and_commerce_v = {
 		}
 	}
 }
-tech_economy_and_commerce_vi = {
+mercantilism_i = {
 	area = economy_and_commerce
 	year = 1495
 	cost = 3600
-	administrative_efficiency = 0.05
-	
+	influence = 0.1
+	factory_output = 0.01
 	tax_eff = 3
-	
+	factory_input = -0.01
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -304,7 +313,7 @@ schools = {
 	area = society
 	year = 1444
 	cost = 3600
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.03
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -357,7 +366,7 @@ society_tech_iii = {
 		}
 	}
 }
-society_tech_iv= {
+printing_press = {
 	area = society
 	year = 1460
 	cost = 3600
@@ -456,7 +465,7 @@ society_tech_viii = {
 		}
 	}
 }
-absolutism = {
+absolutism_i = {
 	area = society
 	year = 1495
 	cost = 3600
@@ -648,6 +657,7 @@ army_i = {
 	year = 1444
 	unciv_military = yes
 	activate_unit = infantry
+	activate_unit = artillery
 	combat_width = -1	
 	cost = 3600
 	ai_chance = {
@@ -687,7 +697,6 @@ army_ii = {
 	area = army
 	year = 1444
 	activate_building = fort
-	activate_unit = artillery
 	army_base = {
 		default_organisation = 5
 		supply_consumption = 0.10
@@ -774,12 +783,12 @@ army_ix = {
 #########################################
 ###########NAVY & COLONISATION###########
 #########################################
-navy_and_colonisation_i = {
+the_fear_of_the_unknown = {
 	area = navy_and_colonisation
 	year = 1444
 	cost = 3600
 	
-	supply_range = -0.20
+	supply_range = -0.35
 	unciv_military = yes
 	activate_building = naval_base
 }

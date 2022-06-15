@@ -8,6 +8,14 @@ alliance=
 
 alliance=
 {
+	first="ENL"
+	second="WHA"
+	start_date="1373.1.1"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
 	first="SCO"
 	second="TIS"
 	start_date="1300.1.1"

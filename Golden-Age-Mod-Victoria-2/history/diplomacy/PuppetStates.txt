@@ -8,6 +8,14 @@ vassal=
 
 vassal=
 {
+	first="ENL"
+	second="WHA"
+	start_date="1444.1.1"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
 	first="ASK"
 	second="SHZ"
 	start_date="1444.1.1"

@@ -1,5 +1,64 @@
 # prompts you to declare interest for a starting crisis
 country_event = {
+	id = 75432101
+	title = "title101"
+	desc = "desc101"
+	picture = protestantism
+	trigger = {
+		protestant_reform = 1
+	}
+
+	option = {
+		name = "The Reform Needs to Happen"
+		PAP = {
+			event = 75432102
+		}
+		religion = protestant
+		remove_accepted_culture = zzz_religion_catholic
+		add_accepted_culture = zzz_religion_protestant
+		badboy = 1
+		relation = {
+			who = PAP
+			value = -170
+		}
+		
+		ai_chance = {
+			factor = 40
+		}
+	}
+	option = {
+		name = "Heresy, call the pope!"
+		PAP = {
+			event = 75432102
+		}
+		ai_chance = {
+			factor = 60
+		}
+	}
+}
+country_event = {
+	id = 75432102
+	title = "title102"
+	desc = "desc102"
+	is_triggered_only = yes
+	picture = protestantism
+	trigger = {
+		tag = PAP
+	}
+	
+	option = {
+		name = "We need to make an important decision!"
+		set_country_flag = reformation_decision
+		add_country_modifier = {
+			name = pap_decision_reform
+			duration = 100000
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+country_event = {
 	id = 20000
 	title = "EVTNAME20000"
 	desc = "EVTDESC20000"

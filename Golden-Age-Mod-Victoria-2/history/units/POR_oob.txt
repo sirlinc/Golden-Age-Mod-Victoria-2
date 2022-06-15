@@ -28,26 +28,45 @@ leader = {
 
 
 #Armies
-#navy = {
-#	name="Armada Real"
-#	location=521
-#	ship = {
-#		name="1st Lisbon Clipper Transport"
-#		type=clipper_transport
-#	}
-#	ship = {
-#		name="2nd Lisbon Clipper Transport"
-#		type=clipper_transport
-#	}
-#	ship = {
-#		name="3rd Lisbon Clipper Transport"
-#		type=clipper_transport
-#	}
-#	ship = {
-#		name="4th Lisbon Clipper Transport"
-#		type=clipper_transport
-#	}
-#}
+army = {
+	name = "Exército Real"
+	location = 521
+	regiment = {
+		name = "Infantaria I."
+		type = infantry
+		home = 521
+	}
+	regiment = {
+		name = "Artilharia II."
+		type = artillery
+		home = 521
+	}
+}
+army = {
+	name = "Exército Marroquino"
+	location = 1687
+	regiment = {
+		name = "Infantaria III."
+		type = infantry
+		home = 1687
+	}
+}
+navy = {
+	name="Armada Real"
+	location=521
+	ship = {
+		name="1st Lisbon Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Lisbon Clipper Transport"
+		type=frigate
+	}
+	ship = {
+		name="4th Lisbon Clipper Transport"
+		type=merchant_ship
+	}
+}
 #army = {
 #	name = "I. Armee"
 #	location = 521

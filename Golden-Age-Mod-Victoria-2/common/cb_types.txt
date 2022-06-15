@@ -73,7 +73,6 @@ install_communist_gov_cb
 uninstall_communist_gov_cb
 great_war_penalty_cb 
 }
-
 # Take a capital province
 acquire_capital = { #Thanks: "https://www.reddit.com/r/victoria2/comments/81dpjt/take_a_capital_state_cb/"
 	sprite_index = 2
@@ -291,44 +290,93 @@ acquire_capital = { #Thanks: "https://www.reddit.com/r/victoria2/comments/81dpjt
 
 holy_war = {
 	sprite_index = 12
-	months = 6
+	months = 12
 	constructing_cb = yes
 	crisis = yes
-	is_triggered_only = yes
 	construction_speed = 1.0
-	great_war_obligatory = yes
 	
-	
-	can_use = { 
-		THIS = {
-			religion = catholic
+	can_use = {
+        THIS = {
+		    is_vassal = no
+            is_greater_power = yes
+            is_culture_group = zzz_religion_catholic
+        }
+        OR = {
+            THIS = {
+                OR = {
+                    war_policy = pro_military
+                    war_policy = jingoism
+                }
+            }
+            war_with = THIS
+        }
+        FROM = {
+			is_vassal = no
+			NOT = { 
+				is_greater_power = yes 
+			}
+			is_culture_group = zzz_religion_sunni
 		}
-		NOT = {
-			religion = catholic
-		}
-		is_vassal = no
-	}
+        any_owned_province = {
+            OR = {
+                is_core = JER
+                is_core = IRQ
+                is_core = LBN
+                is_core = SYR
+				is_core = GRE
+            }
+        }
+        #NOT = { in_sphere = THIS }
+    }
+
+    allowed_states = {
+        any_owned_province = {
+            OR = {
+                is_core = JER
+                is_core = IRQ
+                is_core = LBN
+                is_core = SYR
+				is_core = GRE
+            }
+        }
+        OR = {
+            THIS = { ai = no }
+            any_owned_province = { any_neighbor_province = { owned_by = THIS } }
+            AND = {
+                any_owned_province = { port = yes }
+                THIS = {
+                    OR = {
+                        is_greater_power = yes
+                        is_secondary_power = yes
+                    }
+                    any_owned_province = { port = yes }
+                }
+            }
+        }
+    }
 
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
-	break_truce_militancy_factor = 0
-	truce_months = 12
+	break_truce_militancy_factor = 1
+	truce_months = 48
 	
-	po_add_to_sphere = yes
+	po_demand_state = yes
 	po_reparations = yes
+	po_disarmament = yes
+    po_remove_cores = yes
+	
 	badboy_factor = 1.2
 	prestige_factor = 5
 	peace_cost_factor = 1
 	penalty_factor = 1
 	
 	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-		
-	}
+        move_issue_percentage = {
+            from = jingoism
+            to = pro_military
+            value = 0.25
+        }
+    }
 	
 	war_name = WAR_HOLY_WAR_NAME
 }

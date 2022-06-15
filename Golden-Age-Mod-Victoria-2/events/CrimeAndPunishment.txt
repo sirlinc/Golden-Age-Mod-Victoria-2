@@ -209,7 +209,7 @@ country_event = {
 	option = {
 		name = "EVTOPTC22020"
 		upper_house = {
-			ideology = liberal
+			ideology = petty_bourgeoisie
 			value = 0.05
 		}
 	}
@@ -227,7 +227,7 @@ country_event = {
 			poor_strata_life_needs = 0.9
 		}
 		upper_house = {
-			ideology = liberal
+			ideology = petty_bourgeoisie
 			value = 0.1
 		}
 	}
@@ -347,7 +347,7 @@ country_event = {
 		NOT = {
 			poor_strata_everyday_needs = 0.8
 		}
-		liberal = 0.2
+		petty_bourgeoisie = 0.2
 	}
 	
 	mean_time_to_happen = {
@@ -402,7 +402,7 @@ country_event = {
 		NOT = {
 			rich_strata_life_needs = 0.9
 		}
-		liberal = 0.1
+		petty_bourgeoisie = 0.1
 	}
 	
 	mean_time_to_happen = {
@@ -502,7 +502,7 @@ country_event = {
 	
 	trigger = {
 		social_science = 1
-		liberal = 0.1
+		petty_bourgeoisie = 0.1
 		capital_scope = {
 			average_militancy = 3
 		}
@@ -540,7 +540,7 @@ country_event = {
 		capital_scope = {
 			any_pop = {
 				scaled_consciousness = {
-					ideology = liberal
+					ideology = petty_bourgeoisie
 					factor = 3
 				}
 			}
@@ -553,7 +553,7 @@ country_event = {
 		capital_scope = {
 			any_pop = {
 				scaled_consciousness = {
-					ideology = conservative
+					ideology = nobility
 					factor = 3
 				}
 			}

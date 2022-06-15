@@ -80,6 +80,14 @@ guarantee=
 
 guarantee=
 {
+	first="ENL"
+	second="WHA"
+	start_date="1444.11.11"
+	end_date="1936.1.1"
+}
+
+guarantee=
+{
 	first="LXA"
 	second="MPH"
 	start_date="1444.11.11"
