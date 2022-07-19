@@ -27,7 +27,7 @@ luxury_needs = {
 }
 
 ideologies = {
-	liberal = {
+	petty_bourgeoisie = {
 		factor = 4
 	}
 	conservative = {

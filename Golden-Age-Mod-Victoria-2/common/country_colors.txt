@@ -3590,7 +3590,7 @@ MOR = { # Moravia
     color1= { 49 13 229  }
     color2= { 49 13 229  }
     color3= { 49 13 229  }
-
+}
 # Osel
 OSL = {
     color1= { 151 105 62 }

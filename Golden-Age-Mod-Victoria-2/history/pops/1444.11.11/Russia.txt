@@ -4706,8 +4706,8 @@
 	farmers=
 	{
 		culture = gypsy
-		religion = 
-		size= 300
+		religion = animist
+		size = 300
 	}
 
 	bureaucrats=
@@ -5255,7 +5255,7 @@
 	farmers=
 	{
 		culture = gypsy
-		religion = 
+		religion = animist
 		size= 150
 	}
 
@@ -6567,7 +6567,7 @@
 	farmers=
 	{
 		culture = aromanian
-		religion = 
+		religion = animist
 		size= 775
 	}
 

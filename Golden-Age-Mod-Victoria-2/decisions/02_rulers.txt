@@ -1,0 +1,147 @@
+political_decisions = {
+	assassination_of_king = { 
+		alert = no
+		picture = assassination_of_king
+		potential = {
+			NOT = {
+				has_country_modifier = cooldown_to_change_ruler
+			}
+		}	
+		allow = {
+			money = 2000
+			OR = { 
+				average_militancy = 2.0
+				average_consciousness = 2.0
+			}
+		}
+		effect = {
+			random = {
+				chance = 50
+				set_country_flag = assassination_on
+				country_event = 50001
+				any_pop = {
+					consciousness = -1.2
+					militancy = -3.2
+				}
+			}
+			random = {
+				chance = 50
+				set_country_flag = assassination_of
+				country_event = 50054
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 2
+				OR = {
+					average_militancy = 3.0
+					average_consciousness = 3.0
+				}
+			}
+			modifier = {
+				factor = 2
+				average_militancy = 2.0
+				average_consciousness = 2.0
+			}
+			modifier = {
+				factor = 2
+				war = yes
+				OR = {
+					average_militancy = 3.0
+					average_consciousness = 3.0
+				}
+			}
+		}
+	}
+	force_abdication = { 
+		alert = no
+		picture = force_abdication
+		potential = {
+			NOT = {
+				has_country_modifier = cooldown_to_change_ruler
+			}
+		}	
+		allow = {
+			money = 2000
+			OR = { 
+				average_militancy = 2.0
+				average_consciousness = 2.0
+			}
+			NOT = {
+				ruling_party_ideology = nobility
+			}
+		}
+		effect = {
+			random_list = {
+				45 = { nationalvalue = nv_young }
+				30 = { nationalvalue = nv_regency }
+				2 = { nationalvalue = nv_humble }
+				2 = { nationalvalue = nv_deceiver }
+				2 = { nationalvalue = nv_honest }
+				2 = { nationalvalue = nv_arrogant }
+				2 = { nationalvalue = nv_trusting }
+				2 = { nationalvalue = nv_paranoid }
+				2 = { nationalvalue = nv_calm }
+				1 = { nationalvalue = nv_nervous }
+				1 = { nationalvalue = nv_brave }
+				1 = { nationalvalue = nv_greedy }
+				1 = { nationalvalue = nv_generous }
+				1 = { nationalvalue = nv_stupid }
+				1 = { nationalvalue = nv_genius }
+				1 = { nationalvalue = nv_lazy }
+				1 = { nationalvalue = nv_diligent }
+				1 = { nationalvalue = nv_pious }
+				1 = { nationalvalue = nv_coward }
+				1 = { nationalvalue = nv_mad }
+			}
+			add_country_modifier = {
+				name = cooldown_to_change_ruler
+				duration = 450
+			}
+			add_country_modifier = {
+				name = abdicated_ruler
+				duration = 150
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	proclaim_end_of_regency = { 
+		picture = regency
+		potential = {
+			nationalvalue = nv_regency
+			NOT = { has_country_modifier = ruler_cannot_command }
+		}	
+		allow = {
+			has_country_flag = regency_keep
+		}
+		effect = {
+			random_list = {
+				7 = { nationalvalue = nv_young }
+				6 = { nationalvalue = nv_humble }
+				6 = { nationalvalue = nv_deceiver }
+				6 = { nationalvalue = nv_honest }
+				5 = { nationalvalue = nv_arrogant }
+				5 = { nationalvalue = nv_trusting }
+				5 = { nationalvalue = nv_paranoid }
+				5 = { nationalvalue = nv_calm }
+				5 = { nationalvalue = nv_nervous }
+				5 = { nationalvalue = nv_brave }
+				5 = { nationalvalue = nv_greedy }
+				5 = { nationalvalue = nv_generous }
+				5 = { nationalvalue = nv_stupid }
+				5 = { nationalvalue = nv_genius }
+				5 = { nationalvalue = nv_lazy }
+				5 = { nationalvalue = nv_diligent }
+				5 = { nationalvalue = nv_pious }
+				5 = { nationalvalue = nv_coward }
+				5 = { nationalvalue = nv_mad }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

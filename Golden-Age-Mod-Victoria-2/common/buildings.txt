@@ -262,13 +262,14 @@ construction_tools_factory = {
 	goods_cost =
 	{
 		timber = 200
+		steel = 60
+		cement = 20
 	}
-	time = 730
+	time = 630
 	visibility = yes
 	onmap = no
 	pop_build_factory = yes
-	advanced_factory = yes
-	default_enabled = no
+	default_enabled = yes
 	production_type = construction_tools_factory
 }
 
@@ -322,7 +323,6 @@ steel_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		construction_tools = 200
 		iron = 200
 		coal = 200
 	}
@@ -656,7 +656,6 @@ cement_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		construction_tools = 20
 		iron = 200
 		timber = 200
 	}

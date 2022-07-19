@@ -56,9 +56,35 @@ country_event = { #The King Is Dead
 	
 	option = {
 		name = "EVTOPTA50001"
+		random_list = {
+			45 = { nationalvalue = nv_young }
+			30 = { nationalvalue = nv_regency }
+			2 = { nationalvalue = nv_humble }
+			2 = { nationalvalue = nv_deceiver }
+			2 = { nationalvalue = nv_honest }
+			2 = { nationalvalue = nv_arrogant }
+			2 = { nationalvalue = nv_trusting }
+			2 = { nationalvalue = nv_paranoid }
+			2 = { nationalvalue = nv_calm }
+			1 = { nationalvalue = nv_nervous }
+			1 = { nationalvalue = nv_brave }
+			1 = { nationalvalue = nv_greedy }
+			1 = { nationalvalue = nv_generous }
+			1 = { nationalvalue = nv_stupid }
+			1 = { nationalvalue = nv_genius }
+			1 = { nationalvalue = nv_lazy }
+			1 = { nationalvalue = nv_diligent }
+			1 = { nationalvalue = nv_pious }
+			1 = { nationalvalue = nv_coward }
+			1 = { nationalvalue = nv_mad }
+		}
 		add_country_modifier = {
 			name = death_of_ruler
 			duration = 150
+		}
+		add_country_modifier = {
+			name = cooldown_to_change_ruler
+			duration = 450
 		}
 	}
 }
@@ -103,6 +129,64 @@ country_event = { #Coronation
 			factor = 50
 		}
 	}
+}
+
+country_event = { #Regency
+	id = 700001
+	news = no
+    title = "titleregency"
+	desc = "descregency"
+	picture = "regency"
+	is_triggered_only = yes
+	
+	trigger = { 
+		nationalvalue = nv_regency
+	}
+	
+	option = {
+		name = "The Regency will keep us safe."
+		set_country_flag = regency_keep
+		add_country_modifier = {
+			name = ruler_cannot_command
+			duration = 1800
+		}
+		ai_chance = { 
+			factor = 100
+		}
+	}	
+}
+
+country_event = { #Royal Marriage Habsburg
+	id = 6789123
+	news = yes
+    title = "The Habsburg Union"
+	desc = "descrmhabs"
+	picture = "habsburgunion"
+	is_triggered_only = yes
+
+	option = {
+		name = "OP2HABSPA"
+		add_country_modifier = {
+			name = union_with_austria
+			duration = 94170
+		}
+		AUS = { 
+			add_country_modifier = {
+				name = union_with_spain
+				duration = 94170
+			}
+		}
+		ai_chance = { 
+			factor = 100
+		}
+	}	
+	option = {
+		name = "OP1HABSPA"
+		set_country_flag = refuse_royal_marriage
+		ai_chance = { 
+			factor = 0
+		}
+	}	
 }
 
 country_event = { #Papacy
@@ -182,105 +266,6 @@ country_event = { #Papacy
 	}
 }
 
-country_event = { #Death of Vladislaus III
-	id = 9832491
-	news = yes
-    title = "The Death of Wladyslaw III"
-	desc = "9832491desc"
-	
-	picture = "death_vladislau_iii"
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		months = 0.0001
-	}
-
-	trigger = {
-		ai = no 
-	}
-	
-	option = {
-		name = "Is Europe falling?"
-		militancy = 0.03
-		HUN = {
-			add_country_modifier = {
-				name = succession_question
-				duration = 90
-			}
-		}
-		POL = {
-			add_country_modifier = {
-				name = succession_question
-				duration = 90
-			}
-		}
-		CRO = {
-			add_country_modifier = {
-				name = succession_question
-				duration = 90
-			}
-		}
-		LIT = {
-			add_country_modifier = {
-				name = succession_question
-				duration = 90
-			}
-		}
-		TRA = {
-			add_country_modifier = {
-				name = succession_question
-				duration = 90
-			}
-		}
-		TUR = {
-			prestige = 1.2
-		}
-		ai_chance = { 
-			factor = 100
-		}
-	}
-}
-
-#country_event = { #vladislaus_i_sucessor
-#	id = 9832442
-#	news = yes
-#    title = "The Death of Vladislaus I"
-#	desc = ""
-#	picture = "death_vladislau_i"
-#	fire_only_once = yes
-#	is_triggered_only = yes
-#	
-#	mean_time_to_happen = {
-#		days = 1
-#	}
-#	
-#	option = {
-#		name = "We need a Habsburg King! (Ladislaus the Posthumous) "
-#		militancy = 0.03
-#		HUN = {
-#			remove_country_modifier = succession_question
-#		}
-#		TUR = {
-#			prestige = 1
-#		}
-#		ai_chance = { 
-#			factor = 100
-#		}
-#	}
-#	option = {
-#		name = "We need a Jagiellonian King! ("
-#		militancy = 0.03
-#		HUN = {
-#			remove_country_modifier = hungarian_succession_question
-#		}
-#		TUR = {
-#			prestige = 1
-#		}
-#		ai_chance = { 
-#			factor = 100
-#		}
-#	}
-#}
 country_event = { #The King Is NOT dead
 	id = 50054
 	news = yes
@@ -298,96 +283,7 @@ country_event = { #The King Is NOT dead
 		clr_country_flag = asssassination_on
 	}
 }
-country_event = { #fix pops event
-	id = 70020
-	title = "EVTNAME70020"
-	desc = "EVTDESC70020"
-	picture = "fixallpops"
-	
-	trigger = {
-		ai = no 
-	}
-	mean_time_to_happen = {
-		months = 0.0001
-	}
 
-	fire_only_once = yes
-	
-	option = {
-		name = "EVTOPTA70020" 
-		any_pop = {
-			ideology = {
-				factor = 0.2
-				value = fervent_clergy
-			}
-			ideology = {
-				factor = 0.1
-				value = clergy
-			}
-			ideology = {
-				factor = 0.1
-				value = petty_bourgeoisie
-			}
-			ideology = {
-				factor = 0.1
-				value = upper_bourgeoisie
-			}
-			ideology = {
-				factor = 0.5
-				value = nobility
-			}
-		}
-		add_country_modifier = {
-			name = stability_normal
-			duration = 113880
-		}
-	}
-}
-country_event = { #fix pops event
-	id = 70040
-	title = "EVTNAME70040"
-	desc = "EVTDESC70040"
-	picture = "fixallpops"
-	
-	trigger = {
-		ai = yes 
-	}
-	mean_time_to_happen = {
-		months = 0.0001
-	}
-
-	fire_only_once = yes
-	
-	option = {
-		name = "EVTOPTA70040" 
-		any_pop = {
-			ideology = {
-				factor = 0.2
-				value = fervent_clergy
-			}
-			ideology = {
-				factor = 0.1
-				value = clergy
-			}
-			ideology = {
-				factor = 0.1
-				value = petty_bourgeoisie
-			}
-			ideology = {
-				factor = 0.1
-				value = upper_bourgeoisie
-			}
-			ideology = {
-				factor = 0.5
-				value = nobility
-			}
-		}
-		add_country_modifier = {
-			name = stability_normal
-			duration = 113880
-		}
-	}
-}
 country_event = { #The player can choose whether or not to invade Constantinople 
 	id = 51421
 	news = yes
@@ -400,6 +296,7 @@ country_event = { #The player can choose whether or not to invade Constantinople
 	trigger = {
 		year = 1453
 		month = 4
+		NOT = { year = 1454 }
 		tag = TUR
 		NOT = {
 			war_with = BYZ
@@ -705,211 +602,486 @@ country_event = { #stability 3
 		remove_country_modifier = stability_positive_two
 	}
 }
+country_event = { #Death of Vladislaus III
+	id = 9832491
+	news = yes
+    title = "The Death of Wladyslaw III"
+	desc = "9832491desc"
+	
+	picture = "death_vladislau_iii"
+	fire_only_once = yes
+	
+	trigger = {
+		ai = no 
+	}
+	
+	mean_time_to_happen = {
+		months = 0.0001
+	}
+	
+	option = {
+		name = "Is Europe falling?"
+		militancy = 0.03
+		HUN = {
+			add_country_modifier = {
+				name = succession_question
+				duration = 90
+			}
+		}
+		POL = {
+			add_country_modifier = {
+				name = succession_question
+				duration = 90
+			}
+		}
+		CRO = {
+			add_country_modifier = {
+				name = succession_question
+				duration = 90
+			}
+		}
+		LIT = {
+			add_country_modifier = {
+				name = succession_question
+				duration = 90
+			}
+		}
+		TRA = {
+			add_country_modifier = {
+				name = succession_question
+				duration = 90
+			}
+		}
+		TUR = {
+			prestige = 1.2
+		}
+		ai_chance = { 
+			factor = 100
+		}
+	}
+}
+country_event = { #fix pops event
+	id = 70020
+	title = "EVTNAME70020"
+	desc = "EVTDESC70020"
+	picture = "fixallpops"
+	
+	trigger = {
+		ai = no
+	}
+	mean_time_to_happen = {
+		months = 0.0001
+	}
 
-country_event = {
-	id = 477877794
-	title = "Manage Relationship"
-	desc = "Who do you want to interact?. DON'T WORK NOW, VERY WIP"
-	picture = "manage"
-	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
-		name = "Neighbours"
-		
-		any_country = {
-			limit = {
-				exists = yes
-				neighbour = THIS
-				NOT = {
-					tag = THIS
-				}
+		name = "EVTOPTA70020" 
+		clergymen = {
+			ideology = {
+				factor = 0.3
+				value = fervent_clergy
 			}
-			set_country_flag = interacted_with
-			country_event = 477877793
+			ideology = {
+				factor = 0.2
+				value = clergy
+			}
+			ideology = {
+				factor = 0.1
+				value = petty_bourgeoisie
+			}
+			ideology = {
+				factor = 0.1
+				value = upper_bourgeoisie
+			}
+			ideology = {
+				factor = 0.3
+				value = nobility
+			}
 		}
-		ai_chance = { 
-			factor = 70
+		aristocrats = {
+			ideology = {
+				factor = 0.1
+				value = fervent_clergy
+			}
+			ideology = {
+				factor = 0.1
+				value = clergy
+			}
+			ideology = {
+				factor = 0.1
+				value = petty_bourgeoisie
+			}
+			ideology = {
+				factor = 0.1
+				value = upper_bourgeoisie
+			}
+			ideology = {
+				factor = 0.6
+				value = nobility
+			}
 		}
-	}
-	option = {
-		name = "Exit"
-		ai_chance = { 
-			factor = 0
+		capitalists = {
+			ideology = {
+				factor = 0.1
+				value = fervent_clergy
+			}
+			ideology = {
+				factor = 0.1
+				value = clergy
+			}
+			ideology = {
+				factor = 0.3
+				value = upper_bourgeoisie
+			}
+			ideology = {
+				factor = 0.4
+				value = nobility
+			}
+		}
+		poor_strata = {
+			ideology = {
+				factor = 0.2
+				value = fervent_clergy
+			}
+			ideology = {
+				factor = 0.1
+				value = clergy
+			}
+			ideology = {
+				factor = 0.1
+				value = petty_bourgeoisie
+			}
+			ideology = {
+				factor = 0.1
+				value = upper_bourgeoisie
+			}
+			ideology = {
+				factor = 0.5
+				value = nobility
+			}
+		}
+		middle_strata = {
+			ideology = {
+				factor = 0.1
+				value = fervent_clergy
+			}
+			ideology = {
+				factor = 0.1
+				value = clergy
+			}
+			ideology = {
+				factor = 0.2
+				value = petty_bourgeoisie
+			}
+			ideology = {
+				factor = 0.5
+				value = nobility
+			}
+		}
+		add_country_modifier = {
+			name = stability_normal
+			duration = 113880
 		}
 	}
 }
-country_event = {
-	id = 477877792
-	title = "$FROMCOUNTRY$"
-	desc = "If $FROMCOUNTRY$ is the country you want to interact with, select an option. Otherwise, select 'Next country' to cycle through, or select 'Exit options' to return to the game."
-	picture = "manage"
-	is_triggered_only = yes
+country_event = { #fix pops event
+	id = 70040
+	title = "EVTNAME70040"
+	desc = "EVTDESC70040"
+	picture = "fixallpops"
 	
-	option = {
-		name = "Offer Royal Marriage"
-		any_country = {
-			limit = {
-				exists = yes
-				neighbour = THIS
-				NOT = { has_country_flag = f_royal_marriage }
-			}
-			clr_country_flag = interacted_with
-			country_event = 477877755
-		}
-		ai_chance = { 
-			factor = 20
-		}
+	trigger = {
+		ai = yes 
+		NOT = { year = 1445 }
 	}
-	
-	option = {
-		name = "Break Royal Marriage"
-		any_country = {
-			limit = {
-				exists = yes
-				neighbour = THIS
-				has_country_flag = f_royal_marriage
-			}
-			clr_country_flag = interacted_with
-		}
-		ai_chance = { 
-			factor = 5
-		}
+	mean_time_to_happen = {
+		months = 0.0001
 	}
+
+	fire_only_once = yes
 	
 	option = {
-		name = "Offer Vassalage"
-		any_owned = {
-			limit = {
-				is_core = FROM
-				NOT = { is_core = THIS }
+		name = "EVTOPTA70040" 
+		clergymen = {
+			ideology = {
+				factor = 0.3
+				value = fervent_clergy
 			}
-			secede_province = FROM
+			ideology = {
+				factor = 0.2
+				value = clergy
+			}
+			ideology = {
+				factor = 0.1
+				value = petty_bourgeoisie
+			}
+			ideology = {
+				factor = 0.1
+				value = upper_bourgeoisie
+			}
+			ideology = {
+				factor = 0.3
+				value = nobility
+			}
 		}
-		any_country = {
-			limit = {
-				exists = yes
-				vassal_of = THIS
+		aristocrats = {
+			ideology = {
+				factor = 0.1
+				value = fervent_clergy
 			}
-			clr_country_flag = interacted_with
+			ideology = {
+				factor = 0.1
+				value = clergy
+			}
+			ideology = {
+				factor = 0.1
+				value = petty_bourgeoisie
+			}
+			ideology = {
+				factor = 0.1
+				value = upper_bourgeoisie
+			}
+			ideology = {
+				factor = 0.6
+				value = nobility
+			}
 		}
-	}
-	
-	option = {
-		name = "Demand Tribute"
-		any_owned = {
-			limit = {
-				is_core = FROM
-				NOT = { is_core = THIS }
+		capitalists = {
+			ideology = {
+				factor = 0.1
+				value = fervent_clergy
 			}
-			secede_province = FROM
+			ideology = {
+				factor = 0.1
+				value = clergy
+			}
+			ideology = {
+				factor = 0.3
+				value = upper_bourgeoisie
+			}
+			ideology = {
+				factor = 0.4
+				value = nobility
+			}
 		}
-		any_country = {
-			limit = {
-				exists = yes
-				neighbour = THIS
+		poor_strata = {
+			ideology = {
+				factor = 0.2
+				value = fervent_clergy
 			}
-			clr_country_flag = interacted_with
+			ideology = {
+				factor = 0.1
+				value = clergy
+			}
+			ideology = {
+				factor = 0.1
+				value = petty_bourgeoisie
+			}
+			ideology = {
+				factor = 0.1
+				value = upper_bourgeoisie
+			}
+			ideology = {
+				factor = 0.5
+				value = nobility
+			}
 		}
-	}
-	
-	option = {
-		name = "Next country"
-		random_country = {
-			limit = {
-				neighbour = THIS
-				exists = yes
-				NOT = { 
-					has_country_flag = interacted_with_two 
-					tag = THIS
-				}
+		middle_strata = {
+			ideology = {
+				factor = 0.1
+				value = fervent_clergy
 			}
-			country_event = 477877793
-			THIS = { set_country_flag = possible_interactions }
+			ideology = {
+				factor = 0.1
+				value = clergy
+			}
+			ideology = {
+				factor = 0.2
+				value = petty_bourgeoisie
+			}
+			ideology = {
+				factor = 0.5
+				value = nobility
+			}
 		}
-		
-		any_country = {
-			limit = {
-				neighbour = THIS
-				exists = yes
-				THIS = { NOT = { has_country_flag = possible_interactions } }
-			}
-			clr_country_flag = interacted_with
-		}
-	}
-	
-	option = {
-		name = "Exit options"
-		any_country = {
-			limit = {
-				exists = yes
-				neighbour = THIS
-			}
-			clr_country_flag = interacted_with
+		add_country_modifier = {
+			name = stability_normal
+			duration = 113880
 		}
 	}
 }
-country_event = {
-	id = 477877755
-	title = "Proposal - Royal Marriage"
-	desc = "$FROMCOUNTRY$ offered us a marriage between our two kingdoms."
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "Accept"
-		set_country_flag = interacted_with
-		set_country_flag = f_royal_marriage
-		FROM = { clr_country_flag = possible_interactions }
-		create_alliance = FROM
-		diplomatic_influence = {
-			who = FROM
-			value = 80
-		}
-		ai_chance = { 
-			factor = 40
-		}
-	}
-	option = {
-		name = "Decline"
-		set_country_flag = interacted_with
-		FROM = { clr_country_flag = possible_interactions }
-		ai_chance = { 
-			factor = 60
-		}
-	}
-}
-country_event = {
-	id = 477877755
-	title = "Break - Royal Marriage"
-	desc = "$FROMCOUNTRY$ is breaking us a marriage between our two kingdoms."
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "Ok."
-		set_country_flag = interacted_with
-		clr_country_flag = f_royal_marriage
-		FROM = { clr_country_flag = possible_interactions }
-		leave_alliance = FROM
-		diplomatic_influence = {
-			who = FROM
-			value = 5
-		}
-	}
-}
-country_event = {
-	id = 477877793
-	title = "AI: Interactions"
-	desc = "This event lets your neighbour interact with you. If you are a player, just close this."
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "OK"
-		set_country_flag = interacted_with_two
-		FROM = { clr_country_flag = possible_interactions }
-		FROM = { country_event = 477877792 }
-	}
-}
+#ountry_event = {
+#	id = 477877792
+#	title = "$FROMCOUNTRY$"
+#	desc = "If $FROMCOUNTRY$ is the country you want to interact with, select an option. Otherwise, select 'Next country' to cycle through, or select 'Exit options' to return to the game."
+#	picture = "manage"
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "Offer Royal Marriage"
+#		any_country = {
+#			limit = {
+#				exists = yes
+#				neighbour = THIS
+#				NOT = { has_country_flag = f_royal_marriage }
+#			}
+#			clr_country_flag = interacted_with
+#			country_event = 477877755
+#		}
+#		ai_chance = { 
+#			factor = 20
+#		}
+#	}
+#	
+#	option = {
+#		name = "Break Royal Marriage"
+#		any_country = {
+#			limit = {
+#				exists = yes
+#				neighbour = THIS
+#				has_country_flag = f_royal_marriage
+#			}
+#			clr_country_flag = interacted_with
+#		}
+#		ai_chance = { 
+#			factor = 5
+#		}
+#	}
+#	
+#	option = {
+#		name = "Offer Vassalage"
+#		any_owned = {
+#			limit = {
+#				is_core = FROM
+#				NOT = { is_core = THIS }
+#			}
+#			secede_province = FROM
+#		}
+#		any_country = {
+#			limit = {
+#				exists = yes
+#				vassal_of = THIS
+#			}
+#			clr_country_flag = interacted_with
+#		}
+#	}
+#	
+#	option = {
+#		name = "Demand Tribute"
+#		any_owned = {
+#			limit = {
+#				is_core = FROM
+#				NOT = { is_core = THIS }
+#			}
+#			secede_province = FROM
+#		}
+#		any_country = {
+#			limit = {
+#				exists = yes
+#				neighbour = THIS
+#			}
+#			clr_country_flag = interacted_with
+#		}
+#	}
+#	
+#	option = {
+#		name = "Next country"
+#		random_country = {
+#			limit = {
+#				neighbour = THIS
+#				exists = yes
+#				NOT = { 
+#					has_country_flag = interacted_with_two 
+#					tag = THIS
+#				}
+#			}
+#			country_event = 477877793
+#			THIS = { set_country_flag = possible_interactions }
+#		}
+#		
+#		any_country = {
+#			limit = {
+#				neighbour = THIS
+#				exists = yes
+#				THIS = { NOT = { has_country_flag = possible_interactions } }
+#			}
+#			clr_country_flag = interacted_with
+#		}
+#	}
+#	
+#	option = {
+#		name = "Exit options"
+#		any_country = {
+#			limit = {
+#				exists = yes
+#				neighbour = THIS
+#			}
+#			clr_country_flag = interacted_with
+#		}
+#	}
+#
+#ountry_event = {
+#	id = 477877755
+#	title = "Proposal - Royal Marriage"
+#	desc = "$FROMCOUNTRY$ offered us a marriage between our two kingdoms."
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "Accept"
+#		set_country_flag = interacted_with
+#		set_country_flag = f_royal_marriage
+#		FROM = { clr_country_flag = possible_interactions }
+#		create_alliance = FROM
+#		diplomatic_influence = {
+#			who = FROM
+#			value = 80
+#		}
+#		ai_chance = { 
+#			factor = 40
+#		}
+#	}
+#	option = {
+#		name = "Decline"
+#		set_country_flag = interacted_with
+#		FROM = { clr_country_flag = possible_interactions }
+#		ai_chance = { 
+#			factor = 60
+#		}
+#	}
+#
+#ountry_event = {
+#	id = 477877755
+#	title = "Break - Royal Marriage"
+#	desc = "$FROMCOUNTRY$ is breaking us a marriage between our two kingdoms."
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "Ok."
+#		set_country_flag = interacted_with
+#		clr_country_flag = f_royal_marriage
+#		FROM = { clr_country_flag = possible_interactions }
+#		leave_alliance = FROM
+#		diplomatic_influence = {
+#			who = FROM
+#			value = 5
+#		}
+#	}
+#
+#ountry_event = {
+#	id = 477877793
+#	title = "AI: Interactions"
+#	desc = "This event lets your neighbour interact with you. If you are a player, just close this."
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "OK"
+#		set_country_flag = interacted_with_two
+#		FROM = { clr_country_flag = possible_interactions }
+#		FROM = { country_event = 477877792 }
+#	}
+#
 #AiMinorSelfSelect_title
-#Aachen, Ravensburg, Bremen, East Frisia, constitutional Republic, Pskov, Bologna, Luberk

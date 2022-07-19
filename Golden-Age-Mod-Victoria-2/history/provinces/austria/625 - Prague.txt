@@ -7,3 +7,13 @@ add_core=HLR
 trade_goods = iron
 life_rating = 35
 terrain = farmlands
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = construction_tools_factory
+	upgrade = yes
+}

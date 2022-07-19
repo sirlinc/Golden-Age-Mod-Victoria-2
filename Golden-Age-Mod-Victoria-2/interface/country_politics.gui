@@ -79,7 +79,7 @@ guiTypes = {
 		
 		instantTextBoxType = { 
 			name = "government_name"
-			position = { x = 34 y = 25 }
+			position = { x = 351 y = 110 }
 			font = "vic_22"
 			text = "GOVERNMENT_NAME"	
 			maxWidth = 330
@@ -90,11 +90,20 @@ guiTypes = {
 		iconType = {
 			name = "national_value"
 			spriteType = "GFX_politics_nationalvalue"
-			position = { x = 30 y = 47 }
+			position = { x = 406 y = 74 }
 			Orientation = "UPPER_LEFT"
 		}
+		
+		instantTextBoxType = { 
+			name = "ruler_trait"
+			position = { x = 650 y = 110 }
+			font = "Arial12_black"
+			text = "RULER_TRAIT"	
+			maxWidth = 330
+			maxHeight = 30
+			format = centre
+		}
 
-			
 		
 		instantTextBoxType = { 
 			name = "government_desc"
@@ -555,7 +564,7 @@ guiTypes = {
 			### LABELS RIGHT
 			instantTextBoxType = { 
 				name = "social_reforms"
-				position = { x = 390 y = 62 }
+				position = { x = 390 y = 170 }
 				font = "vic_18"
 				text = "POLITICS_SOCIAL_REFORMS"	
 				maxWidth = 290
@@ -565,7 +574,7 @@ guiTypes = {
 			
 			instantTextBoxType = { 
 				name = "political_reforms"
-				position = { x = 698 y = 62 }
+				position = { x = 698 y = 170 }
 				font = "vic_18"
 				text = "POLITICS_POLITICAL_REFORMS"	
 				maxWidth = 290
@@ -579,7 +588,7 @@ guiTypes = {
 			windowType = {
 				name = "slavery"
 				backGround =""
-				position = { x = 686 y = 81 }
+				position = { x = 686 y = 150 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""
@@ -607,7 +616,7 @@ guiTypes = {
 			windowType = {
 				name = "upper_house_composition"
 				backGround =""
-				position = { x = 686 y = 122 }
+				position = { x = 686 y = 160 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""
@@ -808,7 +817,7 @@ guiTypes = {
 			windowType = {
 				name = "wage_reform"
 				backGround =""
-				position = { x = 382 y = 81 }
+				position = { x = 382 y = 150 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""
@@ -836,7 +845,7 @@ guiTypes = {
 			windowType = {
 				name = "work_hours"
 				backGround =""
-				position = { x = 382 y = 156 }
+				position = { x = 382 y = 200 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""

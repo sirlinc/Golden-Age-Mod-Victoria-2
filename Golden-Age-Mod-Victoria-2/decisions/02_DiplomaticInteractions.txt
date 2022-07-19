@@ -1,0 +1,240 @@
+political_decisions = {
+	diplomaticinteractions_show = {
+		alert = no
+		picture = interactions
+		potential = {
+			ai = no
+			NOT = { has_country_flag = interactions_allowed }
+		}
+		allow = {
+		}
+		effect = {
+			set_country_flag = interactions_allowed
+		}
+	}
+	
+	diplomaticinteractions_hide = {
+		alert = no
+		picture = interactions
+		potential = {
+			ai = no
+			has_country_flag = interactions_allowed
+		}
+		allow = {
+		}
+		effect = {
+			clr_country_flag = interactions_allowed
+		}
+	}
+	
+	vassal_interactions = { 
+		picture = manage
+        potential = {
+			ai = no
+            num_of_vassals_no_substates = 1
+            is_vassal = no
+			has_country_flag = interactions_allowed
+        }
+        allow = { 
+			civilized = yes 
+		}
+        effect = {
+			random_country = {
+				limit = {
+					exists = yes
+					vassal_of = THIS
+				}
+				country_event = 477877793
+			}
+		}
+	}
+	
+	ally_interactions = { 
+		picture = manage
+		potential = {
+			ai = no
+            num_of_allies = 1
+            is_vassal = no
+			has_country_flag = interactions_allowed
+        }
+        allow = { 
+			civilized = yes 
+		}
+        effect = {
+			random_country = {
+				limit = {
+					exists = yes
+					alliance_with = THIS
+				}
+				country_event = 477877795
+			}
+		}
+	}
+	
+	#great_power_interactions = { 
+	#	picture = manage
+	#	potential = {
+	#		ai = no
+    #        is_greater_power = yes
+    #        is_vassal = no
+	#		has_country_flag = interactions_allowed
+    #    }
+    #    allow = { 
+	#		civilized = yes
+	#	}
+    #    effect = {
+	#		random_country = {
+	#			limit = {
+	#				exists = yes
+	#				is_greater_power = THIS
+	#				NOT = { tag = THIS }
+	#			}
+	#			country_event = 477877793
+	#		}
+	#	}
+	#}
+	
+	#WORKneighbour_interactions = { 
+	#WORK	picture = manage
+	#WORK	potential = {
+	#WORK		ai = no
+    #WORK        is_greater_power = yes
+    #WORK        is_vassal = no
+	#WORK		has_country_flag = interactions_allowed
+    #WORK    }
+    #WORK    allow = { 
+	#WORK		civilized = yes
+	#WORK	}
+    #WORK    effect = {
+	#WORK		random_country = {
+	#WORK			limit = {
+	#WORK				exists = yes
+	#WORK				is_greater_power = THIS
+	#WORK				NOT = { tag = THIS }
+	#WORK			}
+	#WORK			country_event = 477877793
+	#WORK		}
+	#WORK	}
+	#WORK}
+	#WORK
+	#WORKenemies_interactions = { 
+	#WORK	picture = manage
+	#WORK	potential = {
+	#WORK		ai = no
+	#WORK		war = no
+    #WORK        is_greater_power = yes
+    #WORK        is_vassal = no
+	#WORK		has_country_flag = interactions_allowed
+    #WORK    }
+    #WORK    allow = { 
+	#WORK		civilized = yes
+	#WORK	}
+    #WORK    effect = {
+	#WORK		random_country = {
+	#WORK			limit = {
+	#WORK				exists = yes
+	#WORK				is_greater_power = THIS
+	#WORK				NOT = { tag = THIS }
+	#WORK			}
+	#WORK			country_event = 477877793
+	#WORK		}
+	#WORK	}
+	#WORK}
+
+	#WIP dismantle_spain = { 
+	#WIP 	picture = dismantle
+	#WIP 	potential = {
+	#WIP 		ai = no
+	#WIP 		civilized = yes
+    #WIP         is_greater_power = yes
+    #WIP         is_vassal = no
+	#WIP 		has_country_flag = interactions_allowed
+    #WIP     }
+    #WIP     allow = {
+	#WIP 		
+	#WIP 	}
+    #WIP     effect = {
+	#WIP 		
+	#WIP 	}
+	#WIP }
+	#WIP dismantle_france = { 
+	#WIP 	picture = dismantle
+	#WIP 	potential = {
+	#WIP 		ai = no
+	#WIP 		civilized = yes
+    #WIP         is_greater_power = yes
+    #WIP         is_vassal = no
+	#WIP 		has_country_flag = interactions_allowed
+    #WIP     }
+    #WIP     allow = {
+	#WIP 		
+	#WIP 	}
+    #WIP     effect = {
+	#WIP 		
+	#WIP 	}
+	#WIP }
+	#WIP dismantle_england = { 
+	#WIP 	picture = dismantle
+	#WIP 	potential = {
+	#WIP 		ai = no
+	#WIP 		civilized = yes
+    #WIP         is_greater_power = yes
+    #WIP         is_vassal = no
+	#WIP 		has_country_flag = interactions_allowed
+    #WIP     }
+    #WIP     allow = {
+	#WIP 		
+	#WIP 	}
+    #WIP     effect = {
+	#WIP 		
+	#WIP 	}
+	#WIP }
+	#WIP dismantle_china = { 
+	#WIP 	picture = dismantle
+	#WIP 	potential = {
+	#WIP 		ai = no
+	#WIP 		civilized = yes
+    #WIP         is_greater_power = yes
+    #WIP         is_vassal = no
+	#WIP 		has_country_flag = interactions_allowed
+    #WIP     }
+    #WIP     allow = {
+	#WIP 		
+	#WIP 	}
+    #WIP     effect = {
+	#WIP 		
+	#WIP 	}
+	#WIP }
+	#WIP dismantle_japan = { 
+	#WIP 	picture = dismantle
+	#WIP 	potential = {
+	#WIP 		ai = no
+	#WIP 		civilized = yes
+    #WIP         is_greater_power = yes
+    #WIP         is_vassal = no
+	#WIP 		has_country_flag = interactions_allowed
+    #WIP     }
+    #WIP     allow = {
+	#WIP 		
+	#WIP 	}
+    #WIP     effect = {
+	#WIP 		
+	#WIP 	}
+	#WIP }
+	#WIP dismantle_ottomans = { 
+	#WIP 	picture = dismantle
+	#WIP 	potential = {
+	#WIP 		ai = no
+	#WIP 		civilized = yes
+    #WIP         is_greater_power = yes
+    #WIP         is_vassal = no
+	#WIP 		has_country_flag = interactions_allowed
+    #WIP     }
+    #WIP     allow = {
+	#WIP 		
+	#WIP 	}
+    #WIP     effect = {
+	#WIP 		
+	#WIP 	}
+	#WIP }
+}

@@ -1,0 +1,52 @@
+3265 = {
+    farmers = {
+        culture = 	occitan
+        religion = catholic
+        size = 3274
+    }
+    farmers = {
+        culture = 	catalan
+        religion = catholic
+        size = 224
+    }
+    aristocrats = {
+        culture = 	french
+        religion = catholic
+        size = 135
+    }
+    aristocrats = {
+        culture = 	occitan
+        religion = catholic
+        size = 135
+    }
+    soldiers = {
+        culture = 	occitan
+        religion = catholic
+        size = 236
+    }
+    artisans = {
+        culture = 	occitan
+        religion = catholic
+        size = 3041
+    }
+    artisans = {
+        culture = 	occitan
+        religion = catholic
+        size = 3041
+    }
+    artisans = {
+        culture = 	occitan
+        religion = catholic
+        size = 3041
+    }
+    artisans = {
+        culture = 	occitan
+        religion = catholic
+        size = 3041
+    }
+    farmers = {
+        culture = 	occitan
+        religion = catholic
+        size = 3041
+    }
+}

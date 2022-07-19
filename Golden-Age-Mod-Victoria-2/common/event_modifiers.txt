@@ -1,8 +1,66 @@
 ##################################################################################################
-# scriptable and usable for event-system below.
+# scriptable and usable for event-system below. ##################################################
 ##################################################################################################
 
 ##### MOD EVENTS ######
+austrian_hegenomy = {
+	prestige = 0.01
+	diplomatic_points_modifier = 0.02
+	influence_modifier = 0.03
+	icon = 13
+}
+union_with_austria = {
+	local_ruling_party_support  = 0.05
+	education_efficiency_modifier = 0.05
+	tax_efficiency = 0.05
+	icon = 13
+}
+union_with_spain = {
+	diplomatic_points_modifier = 0.02
+	influence_modifier = 0.03
+	prestige = 0.02
+	icon = 13
+}
+military_aid_from_ally = {
+	leadership_modifier = 0.06
+	land_organisation = 0.04
+	land_unit_start_experience = 0.4
+	mobilisation_size = 0.02
+	naval_organisation = 0.04
+	supply_consumption = -0.02
+	prestige = -0.01
+	icon = 15
+}
+economic_aid_from_ally = {
+	research_points = 0.1
+	max_loan_modifier = 0.03
+	rgo_output = 0.03
+	rgo_throughput = 0.3
+	mobilization_economy_impact = 0.03
+	war_exhaustion = -0.02
+	prestige = -0.01
+	icon = 9
+}
+trade_league = {
+	factory_cost - 0.02
+	rgo_output = 0.05
+	rgo_throughput = 0.5
+	prestige = 0.01
+	administrative_efficiency_modifier = 0.1
+	tax_efficiency = 0.07
+	education_efficiency_modifier = 0.1
+	icon = 9
+}
+hanseatic_league = {
+	factory_cost - 0.02
+	rgo_output = 0.05
+	rgo_throughput = 0.5
+	prestige = 0.01
+	administrative_efficiency_modifier = 0.1
+	tax_efficiency = 0.07
+	education_efficiency_modifier = 0.1
+	icon = 9
+}
 pap_decision_reform = {
 	global_assimilation_rate = -0.2
 	core_pop_militancy_modifier = 0.05
@@ -107,6 +165,21 @@ death_of_ruler = {
 	core_pop_militancy_modifier = 0.3
 	ruling_party_support = -0.1
 	war_exhaustion = 1
+	icon = 18
+}
+abdicated_ruler = {
+	non_accepted_pop_militancy_modifier = -0.2
+	core_pop_militancy_modifier = 0.2
+	ruling_party_support = -0.1
+	icon = 18
+}
+ruler_cannot_command = {
+	non_accepted_pop_militancy_modifier = 0.1
+	core_pop_militancy_modifier = 0.1
+	war_exhaustion = 0.1
+	icon = 18
+}
+cooldown_to_change_ruler = {
 	icon = 18
 }
 agressive_colonization = {

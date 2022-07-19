@@ -5,3 +5,8 @@ add_core=PAP
 trade_goods = fruit
 life_rating = 35
 terrain = farmlands
+state_building = {
+	level = 1
+	building = construction_tools_factory
+	upgrade = yes
+}

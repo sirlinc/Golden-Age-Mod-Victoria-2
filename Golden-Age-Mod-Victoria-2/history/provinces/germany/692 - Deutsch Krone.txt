@@ -4,7 +4,7 @@ add_core=PRU
 add_core=GER
 add_core=HLR
 add_core=TEU
-add_CorePOL
+add_Core = POL
 trade_goods = grain
 life_rating = 40
 terrain = woods

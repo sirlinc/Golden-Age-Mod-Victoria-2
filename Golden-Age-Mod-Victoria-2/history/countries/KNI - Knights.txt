@@ -26,7 +26,7 @@ upper_house_composition=appointed
 voting_system=jefferson_method
 public_meetings=no_meeting
 press_rights=state_press
-#trade_unions=state_controlled
+power_distribution=feudal_power
 political_parties=harassment
 
 ruling_party = GRE_reactionary
@@ -38,7 +38,7 @@ upper_house =
 	clergy = 4
 	upper_bourgeoisie = 0
 	modern_clergy = 0
-	#a
+	people = 0
 }
 
 # Starting Consciousness

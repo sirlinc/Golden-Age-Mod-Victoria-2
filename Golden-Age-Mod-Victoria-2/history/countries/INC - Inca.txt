@@ -8,7 +8,7 @@ plurality = 0
 nationalvalue = nv_order
 literacy = 0
 
-
+is_releasable_vassal = no
 # Social Reforms
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
@@ -36,7 +36,7 @@ upper_house =
 	clergy = 5
 	upper_bourgeoisie = 0
 	modern_clergy = 0
-	#a
+	people = 0
 }
 
 # Starting Consciousness

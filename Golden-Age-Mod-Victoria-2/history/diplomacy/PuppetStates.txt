@@ -565,6 +565,14 @@ vassal=
 	start_date="1444.1.1"
 	end_date="1936.1.1"
 }
+
+vassal=
+{
+	first="TEU"
+	second="DRP"
+	start_date="1444.1.1"
+	end_date="1936.1.1"
+}
 vassal=
 {
 	first="SCO"

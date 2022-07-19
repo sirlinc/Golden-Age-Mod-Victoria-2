@@ -1,3 +1,69 @@
+irregular_to_infantry = {
+	limit = { army_i = 1 }
+	chance = {
+		base = 1
+		modifier = {
+			factor = 2
+			invention = invention_cavalry
+		}
+		modifier = {
+			factor = 2
+			invention = archers_artillery
+		}
+		modifier = {
+			factor = 2
+			war = yes
+			war_countries = { invention = irregular_to_infantry }
+		}
+	}
+	effect = {
+		activate_unit = infantry
+	}
+}
+archers_artillery = {
+	limit = { army_i = 1 }
+	chance = {
+		base = 1
+		modifier = {
+			factor = 2
+			invention = irregular_to_infantry
+		}
+		modifier = {
+			factor = 2
+			invention = invention_cavalry
+		}
+		modifier = {
+			factor = 2
+			war = yes
+			war_countries = { invention = irregular_to_infantry }
+		}
+	}
+	effect = {
+		activate_unit = artillery
+	}
+}
+invention_cavalry = {
+	limit = { army_i = 1 }
+	chance = {
+		base = 1
+		modifier = {
+			factor = 2
+			invention = irregular_to_infantry
+		}
+		modifier = {
+			factor = 2
+			invention = archers_artillery
+		}
+		modifier = {
+			factor = 2
+			war = yes
+			war_countries = { invention = irregular_to_infantry }
+		}
+	}
+	effect = {
+		activate_unit = cavalry
+	}
+}
 tank_experiments = {
 	limit = { army_3_ix = 1 }
 	chance = {

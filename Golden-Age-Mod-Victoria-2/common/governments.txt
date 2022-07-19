@@ -21,7 +21,7 @@ revolutionary_republic =
 	duration = 60
 	election = yes
 	appoint_ruling_party = yes
-	flagType = communist
+	flagType = republic #communist
 }
 
 presidential_dictatorship =
@@ -197,5 +197,5 @@ colonial_government = {
 	election = yes
 	duration = 48
 	appoint_ruling_party = no
-	flagType = republic
+	flagType = communist
 }

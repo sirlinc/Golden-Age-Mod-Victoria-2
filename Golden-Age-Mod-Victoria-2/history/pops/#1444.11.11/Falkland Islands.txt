@@ -1,0 +1,18 @@
+2131 = {
+	farmers=
+	{
+		culture = patagonian
+		religion = animist
+		size= 75
+	}
+
+}
+2133 = {
+	farmers=
+	{
+		culture = patagonian
+		religion = animist
+		size= 15
+	}
+
+}

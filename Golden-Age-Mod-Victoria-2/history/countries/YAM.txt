@@ -25,7 +25,7 @@ upper_house =
 	clergy = 4
 	upper_bourgeoisie = 0
 	modern_clergy = 0
-	#a
+	people = 0
 }
 slavery = yes_slavery
 vote_franschise = none_voting

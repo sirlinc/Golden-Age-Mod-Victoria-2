@@ -3435,13 +3435,6 @@
 		size= 4550
 	}
 
-	artisans=
-	{
-		culture = 
-		religion = jewish
-		size= 50
-	}
-
 	clergymen=
 	{
 		culture = iroquoian
@@ -7534,13 +7527,6 @@
 		size= 21725
 	}
 
-	artisans=
-	{
-		culture = 
-		religion = jewish
-		size= 250
-	}
-
 	clergymen=
 	{
 		culture = iroquoian
@@ -9434,20 +9420,6 @@
 		culture = eastern_algonquian
 		religion = totemism
 		size= 50
-	}
-
-	clergymen=
-	{
-		culture = 
-		religion = jewish
-		size= 10
-	}
-
-	artisans=
-	{
-		culture = 
-		religion = jewish
-		size= 490
 	}
 
 }

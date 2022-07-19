@@ -2,6 +2,49 @@
 # If adding new technology, make sure they are uniquely named.
 
 folders = {
+	
+	army_techs = { 
+		army_doctrine
+		light_armament
+		heavy_armament
+		military_science
+		army_leadership
+	}
+	naval_techs = { 
+		naval_doctrine
+		ship_construction
+		colonization
+		naval_science
+		naval_leadership
+	}
+	economic_techs = { 
+		financial_institutions
+		monetary_system
+		economic_thought_and_critique
+		commerce
+		tech_organization
+	}
+	society_techs = { 
+		aesthetics
+		philosophy
+		social_thought
+		political_thought
+		adminstration
+	}
+	production_techs = { 
+		tech_power
+		mechanization
+		metallurgy
+		tech_infrastructure
+		chemistry_and_electricity
+	}
+	institutions = { 
+		economy_and_commerce_1
+		society_1
+		production_1
+		army_1
+		navy_and_colonisation_1
+	}
 	first_century = { #1400-1500
 		economy_and_commerce
 		society

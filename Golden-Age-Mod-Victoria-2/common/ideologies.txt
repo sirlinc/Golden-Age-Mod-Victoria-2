@@ -1,8 +1,8 @@
 # If you add types, and use those tags, do not change them without changing everywhere they are used.
 #MOD's IDEOLOGIES
 clergy_group = {
-	fervent_clergy = {
-		color = { 188 66 0 }
+	fervent_clergy = { #reactionary
+		color = { 234 140 0 }
 		
 		add_political_reform = {
 			base = -1
@@ -27,7 +27,7 @@ clergy_group = {
 	
 	}
 	clergy = {
-		color = { 255 182 0 }
+		color = { 255 168 38 }
 		
 		add_political_reform = {
 			base = 0
@@ -53,7 +53,7 @@ clergy_group = {
 	}
 	
 	modern_clergy = {
-		color = { 255 255 97 }
+		color = { 255 199 117 }
 		date = 1517.10.31
 		uncivilized = no
 		
@@ -84,8 +84,8 @@ clergy_group = {
 }
 
 burghers_group = {
-	petty_bourgeoisie = {
-		color = { 142 44 44 }
+	petty_bourgeoisie = { #liberal
+		color = { 153 29 91 }
 		
 		uncivilized = no
 		can_reduce_militancy = yes
@@ -177,8 +177,8 @@ burghers_group = {
 		}
 	
 	}
-	upper_bourgeoisie = {
-		color = { 150 150 10 }
+	upper_bourgeoisie = { #anarcho_liberal
+		color = { 107 20 63 }
 		date = 1500.1.1
 		uncivilized = no
 		
@@ -207,7 +207,7 @@ burghers_group = {
 
 nobility = {
 	nobility = {
-		color = { 150 144 124 }
+		color = { 31 66 135 }
 		
 		add_political_reform = {
 			base = -1
@@ -257,8 +257,8 @@ nobility = {
 }
 
 revolutionary_group = {
-	people = {
-		color = { 112 0 11 }
+	people = { #communist
+		color = { 183 39 36 }
 		year = 1642.1.1
 		
 		uncivilized = no

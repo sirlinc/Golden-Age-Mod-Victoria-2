@@ -1,0 +1,42 @@
+3266 = {
+    farmers = {
+        culture = 	albanian
+        religion = orthodox
+        size = 1562
+    }
+    farmers = {
+        culture = 	turkish
+        religion = sunni
+        size = 953
+    }
+    farmers = {
+        culture = 	turkish
+        religion = orthodox
+        size = 345
+    }
+    farmers = {
+        culture = 	albanian
+        religion = catholic
+        size = 1215
+    }
+    artisans = {
+        culture = 	albanian
+        religion = orthodox
+        size = 1215
+    }
+    artisans = {
+        culture = 	albanian
+        religion = orthodox
+        size = 1215
+    }
+    aristocrats = {
+        culture = 	albanian
+        religion = orthodox
+        size = 111
+    }
+    clergymen = {
+        culture = 	albanian
+        religion = orthodox
+        size = 374
+    }
+}

@@ -1,0 +1,97 @@
+2234 = {
+	bureaucrats=
+	{
+		culture = carribean
+		religion = animist
+		size= 5
+	}
+
+	soldiers=
+	{
+		culture = carribean
+		religion = animist
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = carribean
+		religion = animist
+		size= 70
+	}
+
+	clergymen=
+	{
+		culture = carribean
+		religion = catholic
+		size= 20
+	}
+
+	artisans=
+	{
+		culture = carribean
+		religion = catholic
+		size= 150
+	}
+
+	soldiers=
+	{
+		culture = carribean
+		religion = catholic
+		size= 30
+	}
+
+	farmers=
+	{
+		culture = carribean
+		religion = catholic
+		size= 2800
+	}
+
+}
+2235 = {
+	clergymen=
+	{
+		culture = carribean
+		religion = catholic
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = carribean
+		religion = catholic
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = carribean
+		religion = catholic
+		size= 550
+	}
+
+}
+2236 = {
+	clergymen=
+	{
+		culture = carribean
+		religion = catholic
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = carribean
+		religion = catholic
+		size= 55
+	}
+
+	farmers=
+	{
+		culture = carribean
+		religion = catholic
+		size= 1120
+	}
+
+}

@@ -1250,6 +1250,7 @@ SHB = "countries/SHB.txt"
 ODA = "countries/ODA.txt"
 KIU = "countries/KIU.txt"
 HTK = "countries/HTK.txt"
+DRP = "countries/DRP.txt"
 #KTA = "countries/KTA.txt" #Kitabatake
 #
 #

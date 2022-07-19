@@ -899,7 +899,7 @@ ideologies = {
 		}
 	}
 	
-	reactionary = {
+	fervent_clergy = {
 		factor = 1
 		modifier = {
 			factor = 0.5
@@ -907,7 +907,7 @@ ideologies = {
 		}
 		modifier = {
 			factor = 1.2
-			ruling_party_ideology = reactionary
+			ruling_party_ideology = fervent_clergy
 		}
 		modifier = {
 			factor = 1.2
@@ -1062,7 +1062,7 @@ ideologies = {
 		modifier = {
 			factor = 1.1
 			nationalvalue = nv_equality
-			NOT = { ruling_party_ideology = communist }
+			NOT = { ruling_party_ideology = people }
 		}
 		modifier = {
 			factor = 0.5
@@ -1162,7 +1162,7 @@ ideologies = {
 		}
 	}
 
-	communist = {
+	people = {
 		factor = 1
 		modifier = {
 			factor = 0.1
@@ -1170,7 +1170,7 @@ ideologies = {
 		}
 		modifier = {
 			factor = 2
-			ruling_party_ideology = communist 
+			ruling_party_ideology = people 
 		}
 		modifier = {
 			factor = 1.1
@@ -1213,7 +1213,7 @@ ideologies = {
 			social_reform_want = 1
 		}
 	}
-	liberal = {
+	petty_bourgeoisie = {
 		factor = 1.1
 		modifier = {
 			factor = 1.2
@@ -1245,11 +1245,11 @@ ideologies = {
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { is_ideology_enabled = communist }
+			NOT = { is_ideology_enabled = people }
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { is_ideology_enabled = anarcho_liberal }
+			NOT = { is_ideology_enabled = upper_bourgeoisie }
 		}
 		modifier = {
 			factor = 1.1
@@ -1324,11 +1324,11 @@ ideologies = {
 			}
 		}
 	}
-	anarcho_liberal = {
+	upper_bourgeoisie = {
 		factor = 1
 		modifier = {
 			factor = 2
-			ruling_party_ideology = anarcho_liberal
+			ruling_party_ideology = upper_bourgeoisie
 		}
 		modifier = {
 			factor = 0.1

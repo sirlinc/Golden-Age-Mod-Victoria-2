@@ -17,6 +17,7 @@ country_event = {
 	trigger = {
 		tag = ENL
 		year = 1445
+		NOT = { year = 1450 }
 	}
 	option = {
 		name = "EVTOPTA50000" 

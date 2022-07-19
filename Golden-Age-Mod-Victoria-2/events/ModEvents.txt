@@ -17,6 +17,7 @@ country_event = {
 			}
         }
 		year = 1477
+		NOT = { year = 1478 }
 	}
 
 	fire_only_once = yes
@@ -153,6 +154,309 @@ country_event = {
 	diplomatic_influence = { who = BRG value = 200 }
 		ai_chance = {
 			factor = 10
+		}
+	}
+}
+# ======================================================================== DIPLOMATIC INTERACTIONS EVENTS - VASSALS (AoE Remake Version) =========================================================================== #
+
+country_event = {
+	id = 477877792
+	title = "$FROMCOUNTRY$ - Vassal"
+	desc = "If $FROMCOUNTRY$ is the country you want to interact with, select an option. Otherwise, select 'Next country' to cycle through, or select 'Exit options' to return to the game."
+	picture = vassals
+	is_triggered_only = yes
+	
+	option = {
+		name = "Release this country"
+		random_owned = {
+			limit = { owner = { FROM = { civilized = yes } } }
+			owner = { prestige = -3 }
+		}
+		random_owned = {
+			limit = { owner = { FROM = { civilized = no } } }
+			owner = { prestige = -3 }
+		}
+		FROM = {
+			country_event = 477877788
+		}
+		any_country = {
+			limit = {
+				exists = yes
+				vassal_of = THIS
+			}
+			clr_country_flag = interacted_with
+		}
+	}
+	
+	option = {
+		name = "Return cores to this country"
+		any_owned = {
+			limit = {
+				is_core = FROM
+				NOT = { is_core = THIS }
+			}
+			secede_province = FROM
+		}
+		any_country = {
+			limit = {
+				exists = yes
+				vassal_of = THIS
+			}
+			clr_country_flag = interacted_with
+		}
+	}
+	
+	option = {
+		name = "Start Annexation"
+		random_owned = {
+			limit = { owner = { FROM = { civilized = yes } } }
+			owner = { badboy = 9 }
+		}
+		random_owned = {
+			limit = { owner = { FROM = { civilized = no } } }
+			owner = { badboy = 6 }
+		}
+		FROM = {
+			country_event = 477877789
+		}
+		any_country = {
+			limit = {
+				exists = yes
+				vassal_of = THIS
+			}
+			clr_country_flag = interacted_with
+		}
+	}
+	
+	option = {
+		name = "Next country"
+		random_country = {
+			limit = {
+				vassal_of = THIS
+				exists = yes
+				NOT = { has_country_flag = interacted_with }
+			}
+			country_event = 477877793
+			THIS = { set_country_flag = possible_interactions }
+		}
+		any_country = {
+			limit = {
+				vassal_of = THIS
+				exists = yes
+				THIS = { NOT = { has_country_flag = possible_interactions } }
+			}
+			clr_country_flag = interacted_with
+		}
+	}
+	
+	option = {
+		name = "Exit options"
+		any_country = {
+			limit = {
+				exists = yes
+				vassal_of = THIS
+			}
+			clr_country_flag = interacted_with
+		}
+	}
+}
+
+country_event = {
+	id = 477877788
+	title = "Freedom!"
+	desc = "We have acquired independence!"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Nice."
+		overlord = { release_vassal = THIS }
+	}
+}
+
+country_event = {
+	id = 477877789
+	title = "We've been attached!"
+	desc = "We don't exist anymore. Our overlord conquered our lands."
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Good for him!"
+		THIS = { 
+			annex_to = FROM
+		}
+	}
+}
+
+country_event = {
+	id = 477877793
+	title = "AI: Vassal Interactions"
+	desc = "This event lets your overlord interact with you. Ignore."
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		set_country_flag = interacted_with
+		FROM = { clr_country_flag = possible_interactions }
+		overlord = { country_event = 477877792 }
+	}
+}
+
+country_event = {
+	id = 477877794
+	title = "$FROMCOUNTRY$ - Ally"
+	desc = "If $FROMCOUNTRY$ is the country you want to interact with, select an option. Otherwise, select 'Next country' to cycle through, or select 'Exit options' to return to the game."
+	picture = ally
+	is_triggered_only = yes
+	
+	option = {
+		name = "Send Economic Aid"
+		FROM = { 
+			add_country_modifier = {
+				name = economic_aid_from_ally
+				duration = 180
+			}
+		}
+		any_country = {
+			limit = {
+				exists = yes
+				vassal_of = THIS
+			}
+			clr_country_flag = interacted_with
+		}
+	}
+	
+	option = {
+		name = "Remove Economic Aid"
+		FROM = { 
+			remove_country_modifier = economic_aid_from_ally
+		}
+		any_country = {
+			limit = {
+				exists = yes
+				vassal_of = THIS
+			}
+			clr_country_flag = interacted_with
+		}
+	}
+	
+	option = {
+		name = "Send Military Aid"
+		FROM = { 
+			add_country_modifier = {
+				name = military_aid_from_ally
+				duration = 180
+			}
+		}
+		any_country = {
+			limit = {
+				exists = yes
+				vassal_of = THIS
+			}
+			clr_country_flag = interacted_with
+		}
+	}
+	
+	option = {
+		name = "Remove Military Aid"
+		FROM = { 
+			remove_country_modifier = military_aid_from_ally
+		}
+		any_country = {
+			limit = {
+				exists = yes
+				vassal_of = THIS
+			}
+			clr_country_flag = interacted_with
+		}
+	}
+	
+	option = {
+		name = "Create Trade League"
+		FROM = { 
+			add_country_modifier = {
+				name = trade_league
+				duration = 100000
+			}
+		}
+		add_country_modifier = {
+			name = trade_league
+			duration = 100000
+		}
+		any_country = {
+			limit = {
+				exists = yes
+				vassal_of = THIS
+			}
+			clr_country_flag = interacted_with
+		}
+	}
+	
+	option = {
+		name = "Dismantle Trade League"
+		FROM = { 
+			remove_country_modifier = trade_league
+		}
+		remove_country_modifier = trade_league
+		any_country = {
+			limit = {
+				exists = yes
+				vassal_of = THIS
+			}
+			clr_country_flag = interacted_with
+		}
+	}
+	
+	option = {
+		name = "Next country"
+		random_country = {
+			limit = {
+				alliance_with = THIS
+				exists = yes
+				is_vassal = no
+				NOT = { has_country_flag = interacted_with }
+			}
+			country_event = 477877795
+			THIS = { set_country_flag = possible_interactions }
+		}
+		any_country = {
+			limit = {
+				alliance_with = THIS
+				exists = yes
+				is_vassal = no
+				THIS = { NOT = { has_country_flag = possible_interactions } }
+			}
+			clr_country_flag = interacted_with
+		}
+	}
+	
+	option = {
+		name = "Exit options"
+		any_country = {
+			limit = {
+				exists = yes
+				vassal_of = THIS
+			}
+			clr_country_flag = interacted_with
+		}
+	}
+}
+
+country_event = {
+	id = 477877795
+	title = "AI: Allies Interactions"
+	desc = "This event lets your ally interact with you. Ignore."
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		set_country_flag = interacted_with
+		FROM = { 
+			clr_country_flag = possible_interactions
+			country_event = 477877794
 		}
 	}
 }

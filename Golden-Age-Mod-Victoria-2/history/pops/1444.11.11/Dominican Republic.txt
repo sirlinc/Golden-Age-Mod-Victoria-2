@@ -1,130 +1,116 @@
+#Santo Domingo
 2214 = {
-	aristocrats=
-	{
-		culture = carribean
-		religion = animist
-		size= 300
-	}
+    aristocrats = {
+        culture = carribean
+        religion = animist
+        size = 300
+    }
 
-	clergymen=
-	{
-		culture = carribean
-		religion = animist
-		size= 125
-	}
+    clergymen = {
+        culture = carribean
+        religion = animist
+        size = 125
+    }
 
-	artisans=
-	{
-		culture = carribean
-		religion = animist
-		size= 350
-	}
+    artisans = {
+        culture = carribean
+        religion = animist
+        size = 350
+    }
 
-	soldiers=
-	{
-		culture = carribean
-		religion = animist
-		size= 75
-	}
+    soldiers = {
+        culture = carribean
+        religion = animist
+        size = 75
+    }
 
-	farmers=
-	{
-		culture = carribean
-		religion = animist
-		size= 6150
-	}
+    farmers = {
+        culture = carribean
+        religion = animist
+        size = 6150
+    }
 
-	clergymen=
-	{
-		culture = carribean
-		religion = catholic
-		size= 50
-	}
+    clergymen = {
+        culture = carribean
+        religion = animist
+        size = 50
+    }
 
-	artisans=
-	{
-		culture = carribean
-		religion = catholic
-		size= 500
-	}
+    artisans = {
+        culture = carribean
+        religion = animist
+        size = 500
+    }
 
-	soldiers=
-	{
-		culture = carribean
-		religion = catholic
-		size= 100
-	}
+    soldiers = {
+        culture = carribean
+        religion = animist
+        size = 100
+    }
 
-	farmers=
-	{
-		culture = carribean
-		religion = catholic
-		size= 9350
-	}
+    farmers = {
+        culture = carribean
+        religion = animist
+        size = 9350
+    }
 
 }
+
+#La Vega
 2216 = {
-	aristocrats=
-	{
-		culture = carribean
-		religion = animist
-		size= 250
-	}
+    aristocrats = {
+        culture = carribean
+        religion = animist
+        size = 250
+    }
 
-	clergymen=
-	{
-		culture = carribean
-		religion = animist
-		size= 100
-	}
+    clergymen = {
+        culture = carribean
+        religion = animist
+        size = 100
+    }
 
-	artisans=
-	{
-		culture = carribean
-		religion = animist
-		size= 400
-	}
+    artisans = {
+        culture = carribean
+        religion = animist
+        size = 400
+    }
 
-	soldiers=
-	{
-		culture = carribean
-		religion = animist
-		size= 75
-	}
+    soldiers = {
+        culture = carribean
+        religion = animist
+        size = 75
+    }
 
-	farmers=
-	{
-		culture = carribean
-		religion = animist
-		size= 7175
-	}
+    farmers = {
+        culture = carribean
+        religion = animist
+        size = 2175
+    }
 
-	clergymen=
-	{
-		culture = carribean
-		religion = catholic
-		size= 50
-	}
+    clergymen = {
+        culture = carribean
+        religion = animist
+        size = 50
+    }
 
-	artisans=
-	{
-		culture = carribean
-		religion = catholic
-		size= 300
-	}
+    artisans = {
+        culture = carribean
+        religion = animist
+        size = 300
+    }
 
-	soldiers=
-	{
-		culture = carribean
-		religion = catholic
-		size= 75
-	}
+    soldiers = {
+        culture = carribean
+        religion = animist
+        size = 75
+    }
 
-	farmers=
-	{
-		culture = carribean
-		religion = catholic
-		size= 5575
-	}
+    farmers = {
+        culture = carribean
+        religion = animist
+        size = 5575
+    }
 
 }
+

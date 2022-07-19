@@ -5,3 +5,8 @@ add_core=SPA
 trade_goods = cattle
 life_rating = 40
 terrain = farmlands
+state_building = {
+	level = 1
+	building = construction_tools_factory
+	upgrade = yes
+}
