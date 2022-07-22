@@ -1,5 +1,6 @@
-owner=THU
-controller=THU
+owner=WBG
+controller=WBG
+add_core=WBG
 add_core=COB
 add_core=GER
 add_core=HLR

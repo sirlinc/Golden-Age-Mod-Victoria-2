@@ -1,5 +1,6 @@
-owner=AUS
-controller=AUS
+owner=STY
+controller=STY
+add_core=STY
 add_core=AUS
 add_core=HLR
 add_core=SLO

@@ -156,6 +156,84 @@ country_event = { #Regency
 	}	
 }
 
+country_event = { #Force Abdication
+	id = 20222021
+	news = no
+    title = "evforceabd"
+	desc = "edescforceabd"
+	picture = "abdforce"
+	is_triggered_only = yes
+	
+	trigger = {
+		is_independant = yes
+		OR = {
+			war = yes
+			has_recently_lost_war = yes
+		}	
+		OR = { 
+			average_militancy = 8.6
+			average_consciousness = 8.6
+		}
+		NOT = {
+			has_country_modifier = cooldown_to_change_ruler
+			nationalvalue = nv_young
+			government = theocracy
+		}
+	}
+	
+	option = {
+		name = "OP1ABD"
+		any_pop = {
+			militancy = -2.8
+			consciousness = -1.7
+		}
+		random_list = {
+			45 = { nationalvalue = nv_young }
+			30 = { nationalvalue = nv_regency }
+			2 = { nationalvalue = nv_humble }
+			2 = { nationalvalue = nv_deceiver }
+			2 = { nationalvalue = nv_honest }
+			2 = { nationalvalue = nv_arrogant }
+			2 = { nationalvalue = nv_trusting }
+			2 = { nationalvalue = nv_paranoid }
+			2 = { nationalvalue = nv_calm }
+			1 = { nationalvalue = nv_nervous }
+			1 = { nationalvalue = nv_brave }
+			1 = { nationalvalue = nv_greedy }
+			1 = { nationalvalue = nv_generous }
+			1 = { nationalvalue = nv_stupid }
+			1 = { nationalvalue = nv_genius }
+			1 = { nationalvalue = nv_lazy }
+			1 = { nationalvalue = nv_diligent }
+			1 = { nationalvalue = nv_pious }
+			1 = { nationalvalue = nv_coward }
+			1 = { nationalvalue = nv_mad }
+		}
+		prestige = -8
+		add_country_modifier = {
+			name = cooldown_to_change_ruler
+			duration = 450
+		}
+		add_country_modifier = {
+			name = abdicated_ruler
+			duration = 150
+		}
+		ai_chance = { 
+			factor = 60
+		}
+	}
+	option = {
+		name = "OP2ABD"
+		any_pop = {
+			militancy = 1.0
+			consciousness = 1.0
+		}
+		ai_chance = { 
+			factor = 40
+		}
+	}	
+}
+
 country_event = { #Royal Marriage Habsburg
 	id = 6789123
 	news = yes
@@ -910,6 +988,62 @@ country_event = { #fix pops event
 			duration = 113880
 		}
 	}
+}
+country_event = {
+    id = 999999
+    title = "Out of North and South America"
+    desc = "Holy shit what are you doing here?"
+
+    trigger = {
+        capital_scope = {
+            OR = {
+				continent = north_america
+				continent = south_america
+			}
+        }
+		any_greater_power = {
+			NOT = {
+				has_country_flag = discovery_n_america
+				OR = {
+					diplomatic_influence = {
+						who = THIS
+						value = 100
+					}
+					is_sphere_leader_of = THIS
+					alliance_with = THIS
+				}
+				OR = {
+					continent = north_america
+					continent = south_america
+				}
+			}
+		}
+    }
+
+    mean_time_to_happen = {
+        days = 2
+    }
+
+    option = {
+        name = "Get out of America!"
+		any_country = {
+			limit = {
+		        NOT = { has_country_flag = discovery_n_america }
+		        NOT = { capital_scope = { OR = { continent = north_america continent = south_america } }
+			}
+			diplomatic_influence = {
+				who = THIS
+				value = -200
+			}
+			relation = {
+				who = THIS
+				value = -100
+			}
+			leave_alliance = THIS
+			end_military_access = THIS
+		}
+	}
+
 }
 #ountry_event = {
 #	id = 477877792

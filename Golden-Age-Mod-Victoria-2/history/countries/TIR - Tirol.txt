@@ -49,3 +49,4 @@ prestige=0
 oob = "TIR_OOB.txt"
 set_country_flag = hre_member
 set_country_flag = religi
+set_country_flag = can_aus

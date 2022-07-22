@@ -1,4 +1,33 @@
 political_decisions = { #All decisions by German2002 and Leorx
+	form_austria = {
+		picture = austria
+		potential = {
+			has_country_flag = can_aus
+			NOT = {
+				exists = AUS
+			}
+		}
+		allow = {
+			STY = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			UPA = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		effect = {
+			clr_country_flag = can_aus
+			change_tag = AUS
+			set_country_flag = militar_power_on
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	increase_militar_power = {
 		picture = militar
 		potential = {
@@ -34,13 +63,9 @@ political_decisions = { #All decisions by German2002 and Leorx
 			has_country_flag = militar_power_on
 			alliance_with = X34
 			alliance_with = AUG
-			alliance_with = X25
 			alliance_with = SLZ
-			alliance_with = TST
 			relation = { who = SLZ value = 105 }
-			relation = { who = X25 value = 105 }
 			relation = { who = AUG value = 105 }
-			relation = { who = TST value = 105 }
 			relation = { who = X34 value = 105 }
 		}
 		effect = {
@@ -63,22 +88,10 @@ political_decisions = { #All decisions by German2002 and Leorx
 					add_core = AUS
 				}
 			}
-			X25 = {
+			AUG = {
 				diplomatic_influence = {
 					who = AUS
 					value = 300
-				}
-				all_core = {
-					add_core = AUS
-				}
-			}
-			TST = {
-				diplomatic_influence = {
-					who = AUS
-					value = 300
-				}
-				all_core = {
-					add_core = AUS
 				}
 			}
 		}
@@ -97,11 +110,12 @@ political_decisions = { #All decisions by German2002 and Leorx
 		allow = {
 			has_country_flag = militar_power_on
 			has_country_flag = deal_aus
-			relation = { who = SLZ value = 185 }
-			relation = { who = X25 value = 185 }
-			relation = { who = AUG value = 185 }
-			relation = { who = TST value = 185 }
-			relation = { who = X34 value = 185 }
+			alliance_with = X34
+			alliance_with = AUG
+			alliance_with = SLZ
+			relation = { who = SLZ value = 190 }
+			relation = { who = AUG value = 190 }
+			relation = { who = X34 value = 190 }
 		}
 		effect = {
 			set_country_flag = attbisch_flag
@@ -110,12 +124,6 @@ political_decisions = { #All decisions by German2002 and Leorx
 				annex_to = AUS
 			}
 			X34 = {
-				annex_to = AUS
-			}
-			X25 = {
-				annex_to = AUS
-			}
-			TST = {
 				annex_to = AUS
 			}
 		}
@@ -602,7 +610,7 @@ political_decisions = { #All decisions by German2002 and Leorx
 		}
 		allow = {
 			has_country_flag = militar_power_on
-			vassal_of = SPA
+			NAP = { vassal_of = SPA }
 		}
 		effect = {
 			set_country_flag = king_of_naples_f

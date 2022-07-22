@@ -1,5 +1,6 @@
-owner=AUS
-controller=AUS
+owner=UPA
+controller=UPA
+add_core=UPA
 add_core=AUS
 add_core=GER
 add_core=HLR

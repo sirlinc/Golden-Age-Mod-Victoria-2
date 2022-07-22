@@ -4,7 +4,7 @@ culture = zzz_religion_catholic
 religion = catholic
 government = feudal_monarchy
 plurality = 0
-nationalvalue = nv_order
+nationalvalue = nv_coward
 literacy = 0.066917
 
 civilized = yes
@@ -45,7 +45,10 @@ consciousness = 2
 nonstate_consciousness= 0
 
 # Technologies
-prestige=0
+prestige=26
 oob = "STY_OOB.txt"
+set_country_flag = hre_emperor
 set_country_flag = hre_member
+set_country_flag = elector_hre
 set_country_flag = religi
+set_country_flag = can_aus

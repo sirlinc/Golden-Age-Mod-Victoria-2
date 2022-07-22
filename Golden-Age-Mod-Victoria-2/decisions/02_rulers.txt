@@ -8,10 +8,10 @@ political_decisions = {
 			}
 		}	
 		allow = {
-			money = 2000
+			money = 10000
 			OR = { 
-				average_militancy = 2.0
-				average_consciousness = 2.0
+				average_militancy = 6.0
+				average_consciousness = 6.0
 			}
 		}
 		effect = {
@@ -20,8 +20,8 @@ political_decisions = {
 				set_country_flag = assassination_on
 				country_event = 50001
 				any_pop = {
-					consciousness = -1.2
-					militancy = -3.2
+					consciousness = -2.5
+					militancy = -2.5
 				}
 			}
 			random = {
@@ -35,79 +35,79 @@ political_decisions = {
 			modifier = {
 				factor = 2
 				OR = {
-					average_militancy = 3.0
-					average_consciousness = 3.0
+					average_militancy = 6.5
+					average_consciousness = 6.5
 				}
 			}
 			modifier = {
 				factor = 2
-				average_militancy = 2.0
-				average_consciousness = 2.0
+				average_militancy = 7.9
+				average_consciousness = 7.9
 			}
 			modifier = {
 				factor = 2
 				war = yes
 				OR = {
-					average_militancy = 3.0
-					average_consciousness = 3.0
+					average_militancy = 6.5
+					average_consciousness = 6.5
 				}
 			}
 		}
 	}
-	force_abdication = { 
-		alert = no
-		picture = force_abdication
-		potential = {
-			NOT = {
-				has_country_modifier = cooldown_to_change_ruler
-			}
-		}	
-		allow = {
-			money = 2000
-			OR = { 
-				average_militancy = 2.0
-				average_consciousness = 2.0
-			}
-			NOT = {
-				ruling_party_ideology = nobility
-			}
-		}
-		effect = {
-			random_list = {
-				45 = { nationalvalue = nv_young }
-				30 = { nationalvalue = nv_regency }
-				2 = { nationalvalue = nv_humble }
-				2 = { nationalvalue = nv_deceiver }
-				2 = { nationalvalue = nv_honest }
-				2 = { nationalvalue = nv_arrogant }
-				2 = { nationalvalue = nv_trusting }
-				2 = { nationalvalue = nv_paranoid }
-				2 = { nationalvalue = nv_calm }
-				1 = { nationalvalue = nv_nervous }
-				1 = { nationalvalue = nv_brave }
-				1 = { nationalvalue = nv_greedy }
-				1 = { nationalvalue = nv_generous }
-				1 = { nationalvalue = nv_stupid }
-				1 = { nationalvalue = nv_genius }
-				1 = { nationalvalue = nv_lazy }
-				1 = { nationalvalue = nv_diligent }
-				1 = { nationalvalue = nv_pious }
-				1 = { nationalvalue = nv_coward }
-				1 = { nationalvalue = nv_mad }
-			}
-			add_country_modifier = {
-				name = cooldown_to_change_ruler
-				duration = 450
-			}
-			add_country_modifier = {
-				name = abdicated_ruler
-				duration = 150
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+	#force_abdication = { 
+	#	alert = no
+	#	picture = force_abdication
+	#	potential = {
+	#		NOT = {
+	#			has_country_modifier = cooldown_to_change_ruler
+	#		}
+	#	}	
+	#	allow = {
+	#		money = 20000
+	#		OR = { 
+	#			average_militancy = 6.0
+	#			average_consciousness = 6.0
+	#		}
+	#		NOT = {
+	#			ruling_party_ideology = nobility
+	#		}
+	#	}
+	#	effect = {
+	#		random_list = {
+	#			45 = { nationalvalue = nv_young }
+	#			30 = { nationalvalue = nv_regency }
+	#			2 = { nationalvalue = nv_humble }
+	#			2 = { nationalvalue = nv_deceiver }
+	#			2 = { nationalvalue = nv_honest }
+	#			2 = { nationalvalue = nv_arrogant }
+	#			2 = { nationalvalue = nv_trusting }
+	#			2 = { nationalvalue = nv_paranoid }
+	#			2 = { nationalvalue = nv_calm }
+	#			1 = { nationalvalue = nv_nervous }
+	#			1 = { nationalvalue = nv_brave }
+	#			1 = { nationalvalue = nv_greedy }
+	#			1 = { nationalvalue = nv_generous }
+	#			1 = { nationalvalue = nv_stupid }
+	#			1 = { nationalvalue = nv_genius }
+	#			1 = { nationalvalue = nv_lazy }
+	#			1 = { nationalvalue = nv_diligent }
+	#			1 = { nationalvalue = nv_pious }
+	#			1 = { nationalvalue = nv_coward }
+	#			1 = { nationalvalue = nv_mad }
+	#		}
+	#		add_country_modifier = {
+	#			name = cooldown_to_change_ruler
+	#			duration = 450
+	#		}
+	#		add_country_modifier = {
+	#			name = abdicated_ruler
+	#			duration = 150
+	#		}
+	#	}
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
 	proclaim_end_of_regency = { 
 		picture = regency
 		potential = {

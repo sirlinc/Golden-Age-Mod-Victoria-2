@@ -1,0 +1,119 @@
+graphical_culture = Generic
+color = { 112  150  105 }
+
+party = {
+	name = "POR_fervent_clergy"
+	start_date = 1000.1.1
+	end_date = 1935.1.1
+
+	ideology = fervent_clergy
+
+	citizenship_policy = residency
+	economic_policy = state_capitalism
+	religious_policy = moralism
+	trade_policy = protectionism
+	war_policy = jingoism
+}
+
+party = {
+	name = "POR_clergy"
+	start_date = 1000.1.1
+	end_date = 1935.1.1
+
+	ideology = clergy
+
+	citizenship_policy = residency
+	economic_policy = state_capitalism
+	religious_policy = moralism
+	trade_policy = protectionism
+	war_policy = pro_military
+}
+
+party = {
+	name = "POR_modern_clergy"
+	start_date = 1000.1.1
+	end_date = 1935.1.1
+
+	ideology = modern_clergy
+
+	citizenship_policy = limited_citizenship
+	economic_policy = state_capitalism
+	religious_policy = moralism
+	trade_policy = protectionism
+	war_policy = pro_military
+}
+
+party = {
+	name = "POR_petty_bourgeoisie"
+	start_date = 1000.1.1
+	end_date = 1900.1.1
+
+	ideology = petty_bourgeoisie
+
+	citizenship_policy = full_citizenship
+	economic_policy = laissez_faire
+	religious_policy = pro_atheism
+	trade_policy = free_trade
+	war_policy = pacifism
+}
+
+party = {
+	name = "POR_upper_bourgeoisie"
+	start_date = 1000.1.1
+	end_date = 2000.1.1
+
+	ideology = upper_bourgeoisie
+
+	citizenship_policy = limited_citizenship
+	economic_policy = laissez_faire
+	religious_policy = pro_atheism
+	trade_policy = free_trade
+	war_policy = anti_military
+}
+
+party = {
+	name = "POR_nobility"
+	start_date = 1000.1.1
+	end_date = 2000.1.1
+
+	ideology = nobility
+
+	citizenship_policy = limited_citizenship
+	economic_policy = planned_economy
+	religious_policy = secularized
+	trade_policy = protectionism
+	war_policy = jingoism
+}
+
+unit_names = {
+	dreadnought = {
+		O’Faolain Caomhánach Mannion Corcaigh Gaillimh
+	}
+	battleship = {
+		
+	}
+	ironclad = {
+		"Baile Átha Cliath" "Cúige Laighean" Ulaidh "An Mhumhain" Connachta
+	}
+	manowar = {
+		"Port Láirge" "Dún na nGall" Loingsech Ó’Conghaile "An Cóbh"
+	}
+	cruiser = {
+		Michelle Peigi Máire Róisín Esther
+	}
+	frigate = {
+		"Fort Rannoch" Cliona Maev Macha "an Cóbh"
+	}
+	monitor = {
+		Muirchú Réabhlóid "Dónal Ó Conaill" Emmet
+	}
+	clipper_transport = {
+		Parnell "Oileáin Árann" "an Chláir" "Mhaigh Eo" Mairead
+	}
+	steam_transport = {
+		"Lady Wicklow" Robin Adele Aontroim "Fionn Radharc"
+	}
+	commerce_raider = {
+		"Dún Droma" Marino "Baile Bocht" "Béal Feirste" Frongoch
+	}
+}

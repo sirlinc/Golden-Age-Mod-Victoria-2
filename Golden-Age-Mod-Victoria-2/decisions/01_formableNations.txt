@@ -851,10 +851,12 @@ political_decisions = {
 		}
 		
 		allow = {
-			is_greater_power = yes
 			prestige = 25
 			war = no
-			absolutism = 1
+			OR = {
+				absolutism = 1
+				is_greater_power = yes
+			}
 			PRU = {
 				all_core = {
 					owned_by = THIS
