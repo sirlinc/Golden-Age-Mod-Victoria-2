@@ -27,6 +27,26 @@ political_decisions = {
 			factor = 0
 		}
 	}
+	increase_militar_power = {
+		picture = militar
+		potential = {
+			NOT = { has_country_flag = militar_power_on }
+		}
+		allow = {
+			money = 70000
+			is_mobilised = no
+			war = no
+			any_owned_province = {
+				units_in_province = 4
+			}
+		}
+		effect = {
+			set_country_flag = militar_power_on
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	create_a_parliament = {
 		picture = open_parliament
 		potential = {
