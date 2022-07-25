@@ -28,30 +28,10 @@ political_decisions = { #All decisions by German2002 and Leorx
 			factor = 1
 		}
 	}
-	increase_militar_power = {
-		picture = militar
-		potential = {
-			NOT = { has_country_flag = militar_power_on }
-		}
-		allow = {
-			money = 70000
-			is_mobilised = no
-			war = no
-			any_owned_province = {
-				units_in_province = 4
-			}
-		}
-		effect = {
-			set_country_flag = militar_power_on
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	
-	########################################
-	############ HRE AMBITIONS #############
-	########################################
+	#######################################
+	########### HRE AMBITIONS #############
+	#######################################
 	
 	deal_with_the_bishoprics = { 
 		picture = bisphopricsdeal
@@ -451,18 +431,18 @@ political_decisions = { #All decisions by German2002 and Leorx
 			set_country_flag = balkan_ambitions
 			BOS = {
 				all_core = {
-                        add_core = AUS
+					add_core = AUS
                 }
 			}
 			SER = {
 				all_core = {
-                        add_core = AUS
-                        }
+					add_core = AUS
+                }
 			}
 			CRO = {
 				all_core = {
-                        add_core = AUS
-                        }
+					add_core = AUS
+                }
 			}
 			badboy = 10
 		}
@@ -605,20 +585,18 @@ political_decisions = { #All decisions by German2002 and Leorx
 	king_of_naples = {
 		picture = naples_habsburg
 		potential = {
+			NOT = { has_country_flag = k_naples_f }
 			tag = AUS
-            NOT = { has_country_flag = king_of_naples_f }
-		}
-		allow = {
-			has_country_flag = militar_power_on
-			NAP = { vassal_of = SPA }
 		}
 		effect = {
-			set_country_flag = king_of_naples_f
-			SIC = { 
-				all_core = { 
-					add_core = AUS
-				}
-				annex_to = AUS 
+			#inherit = NAP
+			set_country_flag = k_naples_f
+		}
+		allow = {
+			has_country_flag = royal_marriage_done
+			has_country_flag = militar_power_on
+			NAP = {
+				vassal_of = SPA
 			}
 		}
 		ai_will_do = {
