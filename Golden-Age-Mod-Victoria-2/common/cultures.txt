@@ -121,6 +121,24 @@ american_cultures = {
 	
 }
 
+texan_cultures = {
+	leader = european
+	is_overseas = no
+	unit = UsGC
+	texan = {
+		color = { 153 0 0 }
+		radicalism = 10
+		
+		first_names = { "Hamilton" "Matthew" "Richard" "Hiram" "Thomas" "Elkanah" "John" "William" "James" "Albert" "Wilburn" "Walter" "Hinchie" "Samuel" "Benjamin" "Henry" "Allison" "Horace" "Felix" "Jerome" "Lawrence" "Alexander" "Louis" }
+		
+		last_names = { "Bee" "Ector" "Gano" "Granbury" "Green" "Greer" "Gregg" "Hardeman" "Harrison" "Hood" "Johnston" "King" "Lane" "Mabry" "Maxey" "McCulloch" "Moore" "Nelson" "Randal" "Robertson" "Ross" "Rosser" "Scurry" "Steele" "Terrell" "Waterhouse" "Waul" "Wharton" "Whitfield" "Wigfall" "Young" "Bowie" "Travis" "Houston" }
+		
+	}
+
+	union = USA
+	
+}
+
 arab = {
 	leader = arab
 	is_overseas = no
@@ -220,120 +238,16 @@ arab = {
 balkan = {
 	leader = european
 	unit = EuropeanGC
-	
-	dacian = {
-		color = { 246 252 142 }
-		
-		first_names = { "Bastiza" "Bikilis" "Blegissa" "Blaesus" "Blaikisa" "Brasus" "Burebista" "Comosicus" "Cothelas" "Cotiso" "Dablosa" "Dadas" "Dadazai" "Daizus" "Dapyx" "Dardiolai" "Danillo" "Decibalus" "Dida" "Denzibalus" "Diernais" "Dotouzi" "Duras" "Kaigiza" "Komozoi" "Moskon" "Mucapor" "Mucatra" "Natoporus" "Orola" "Petipor" "Pierporus" "Rhemaxos" "Rholes" "Rubobostes" "Rolouzis" "Rigozus" "Scoris" "Tiati" "Tarbus" "Tsiru" "Zinna" "Vezina" "Zoutoula" }
-		
-		last_names = { "Gudilanian" "Cotisian" "Durasian" "Dromichaetid" "Komozian" "Moskosian" "Mucatralian" "Natoporian" "Orolosian" "Pieporian" "Rhemaxilid" "Rholicid" "Rubobosticid" "Scorian" "Tiatian" "Tarbian" "Tsiricid" "Zinnicid" }
-		
-	}
-	dacian_african = {
-		color = { 79 8 145 }
-		
-		first_names = { "Bastiza" "Bikilis" "Blegissa" "Blaesus" "Blaikisa" "Brasus" "Burebista" "Comosicus" "Cothelas" "Cotiso" "Dablosa" "Dadas" "Dadazai" "Daizus" "Dapyx" "Dardiolai" "Danillo" "Decibalus" "Dida" "Denzibalus" "Diernais" "Dotouzi" "Duras" "Kaigiza" "Komozoi" "Moskon" "Mucapor" "Mucatra" "Natoporus" "Orola" "Petipor" "Pierporus" "Rhemaxos" "Rholes" "Rubobostes" "Rolouzis" "Rigozus" "Scoris" "Tiati" "Tarbus" "Tsiru" "Zinna" "Vezina" "Zoutoula" }
-		
-		last_names = { "Gudilanian" "Cotisian" "Durasian" "Dromichaetid" "Komozian" "Moskosian" "Mucatralian" "Natoporian" "Orolosian" "Pieporian" "Rhemaxilid" "Rholicid" "Rubobosticid" "Scorian" "Tiatian" "Tarbian" "Tsiricid" "Zinnicid" }
-		
-	}
-	dacian_american = {
-		color = { 160 130 226 }
-		
-		first_names = { "Bastiza" "Bikilis" "Blegissa" "Blaesus" "Blaikisa" "Brasus" "Burebista" "Comosicus" "Cothelas" "Cotiso" "Dablosa" "Dadas" "Dadazai" "Daizus" "Dapyx" "Dardiolai" "Danillo" "Decibalus" "Dida" "Denzibalus" "Diernais" "Dotouzi" "Duras" "Kaigiza" "Komozoi" "Moskon" "Mucapor" "Mucatra" "Natoporus" "Orola" "Petipor" "Pierporus" "Rhemaxos" "Rholes" "Rubobostes" "Rolouzis" "Rigozus" "Scoris" "Tiati" "Tarbus" "Tsiru" "Zinna" "Vezina" "Zoutoula" }
-		
-		last_names = { "Gudilanian" "Cotisian" "Durasian" "Dromichaetid" "Komozian" "Moskosian" "Mucatralian" "Natoporian" "Orolosian" "Pieporian" "Rhemaxilid" "Rholicid" "Rubobosticid" "Scorian" "Tiatian" "Tarbian" "Tsiricid" "Zinnicid" }
-		
-	}
-	dacian_australian = {
-		color = { 228 170 64 }
-		
-		first_names = { "Bastiza" "Bikilis" "Blegissa" "Blaesus" "Blaikisa" "Brasus" "Burebista" "Comosicus" "Cothelas" "Cotiso" "Dablosa" "Dadas" "Dadazai" "Daizus" "Dapyx" "Dardiolai" "Danillo" "Decibalus" "Dida" "Denzibalus" "Diernais" "Dotouzi" "Duras" "Kaigiza" "Komozoi" "Moskon" "Mucapor" "Mucatra" "Natoporus" "Orola" "Petipor" "Pierporus" "Rhemaxos" "Rholes" "Rubobostes" "Rolouzis" "Rigozus" "Scoris" "Tiati" "Tarbus" "Tsiru" "Zinna" "Vezina" "Zoutoula" }
-		
-		last_names = { "Gudilanian" "Cotisian" "Durasian" "Dromichaetid" "Komozian" "Moskosian" "Mucatralian" "Natoporian" "Orolosian" "Pieporian" "Rhemaxilid" "Rholicid" "Rubobosticid" "Scorian" "Tiatian" "Tarbian" "Tsiricid" "Zinnicid" }
-		
-	}
-	illyrian = {
-		color = { 25 224 74 }
-		
-		first_names = { "Andinos" "Andios" "Anneses" "Annos" "Aplis" "Aploudos" "Aplos" "Apouros" "Baidaros" "Baizo" "Baizos" "Baolios" "Bardourios" "Bato" "Byoukos" "Byousas" "Bizo" "Bryoukos" "Karrios" "Daiekos" "Daitor" "Dasantos" "Dasios" "Dazomenos" "Dazos" "Epikaris" "Iettos" "Implaios" "Laidikalios" "Laidietis" "Laidos" "Labios" "Ledros" "Massurios" "Messios" "Messor" "Paio" "Panentios" "Panes" "Panto" "Pantos" "Plannios" "Plares" "Prorados" "Sarnos" "Skenobarbos" "Sestos" "Statanios" "Statikos" "Statos" "Souttis" "Temaios" "Tizios" "Tritonos" "Tritos" "Turelios" "Ulkidios" "Baranos" "Baridios" "Bendo" "Bepos" "Berzoulos" "Karbanios" "Germanos" "Labianos" "Pinsos" "Pladomenos" "Verzaieos" }
-		
-		last_names = { "Andinid" "Andid" "Annesid" "Annid" "Aplid" "Apludid" "Apurid" "Baizid" "Bardurid" "Batid" "Beukid" "Beusid" "Bizid" "Karrid" "Daitorid" "Dasid" "Dazomenid" "Dazid" "Epicarid" "Iettid" "Laidicalid" "Laidietid" "Laidid" "Ledrid" "Messid" "Messorid" "Panentid" "Panid" "Pantid" "Plannid" "Plarid" "Proradid" "Samekkid" "Sarnid" "Skenobarbid" "Statanid" "Statikid" "Statid" "Suttid" "Tizid" "Tritonid" "Tritid" "Turelid" "Varanid" "Varidid" "Vepid" "Verzulid" "Carvanid" "Germanid" "Lavianid" "Pinsid" "Pladomenid" "Platid" "Verzaiid" "Anadrid" "Buzetid" "Ditid" "Loantid" "Pantadienid" "Platorid" "Platourid" "Portid" "Rufantid" "Sestenid" "Stennid" "Vendid" "Tourranid" "Tourrinid" "Tourid" "Iaritid" "Montanid" "Parmanikid" "Sarid" "Senekid" "Silid" "Sinid" "Blaidarid" "Dasmenid" "Lensid" "Sassaid" "Skilid" "Surkid" "Kralid" "Lirid" "Passalid" "Likkaid" "Skenid" }
-		
-	}
-	thracian = {
-		color = { 232 86 109 }
-		
-		first_names = { "Adaios" "Amatokos" "Aulouporis" "Aulouzon" "Bendidoros" "Berisades" "Bessos" "Bithos" "Brinkainos" "Brinkazenis" "Brinkazeris" "Brinkazis" "Bryzos" "Byzas" "Delos" "Dentoubrisa" "Dentoupes" "Deopos" "Deosporis" "Desakenthos" "Diaskenthos" "Diazenis" "Dizapes" "Dizapor" "Dizas" "Dizazelpis" "Dolens" "Drenis" "Eptaikenthos" "Eptapis" "Eptaporis" "Eptenis" "Eptezenis" "Ezbenis" "Gaidres" "Hebryzelmis" "Kelsinos" "Kelsos" "Kenthos" "Kerses" "Kerzoula" "Kersibaulos" "Kersobleptes" "Ketriporis" "Ketrizeis" "Kokaios" "Kotys" "Maisades" "Markipor" "Moukakenthos" "Moukapaibes" "Moukapius" "Moukaporis" "Moukatralis" "Moukazenis" "Naipor" "Olipor" "Poris" "Pytros" "Raizdos" "Raskos" "Rekiper" "Rhaskos" "Rhaskuporis" "Rheboulas" "Rhesos" "Rhoemetalces" "Sadalas" "Satres" "Sautes" "Seikiper" "Seuthes" "Skaris" "Skilas" "Skostodokos" "Sparadokos" "Taruthinas" "Teres" "Tzitzis" "Zieisis" "Ziepyros" "Ziles" "Zipaibes" "Zipyron" }
-		
-		last_names = { "Adaid" "Amatokid" "Aulouporid" "Aulouzonid" "Bendidorid" "Berisadid" "Bessid" "Bithid" "Brinkainid" "Brinkazenid" "Brinkazerid" "Brinkazid" "Bryzid" "Byzid" "Kelsinid" "Kelsid" "Kersobleptid" "Kerzulid" "Kocaid" "Delid" "Dentubrisid" "Dentupid" "Deopid" "Deospurid" "Desakenthid" "Diaskenthid" "Diazenid" "Dizapid" "Dizaporid" "Dizid" "Dizazelpid" "Dolenid" "Drenid" "Eptaikenthid" "Eptapid" "Eptaporid" "Eptenid" "Eptezenid" "Ezbenid" "Gaidrid" "Hebryzelmid" "Kenthid" "Kersid" "Kersibaulid" "Kersobleptid" "Ketriporid" "Ketrizeid" "Kotid" "Maisadid" "Markiporid" "Mukakenthid" "Mukapaibid" "Mukapid" "Mukaporid" "Mukatralid" "Mukazenid" "Naiporid" "Oliporid" "Porid" "Pytrid" "Raizdid" "Raskid" "Rekiperid" "Rhaskid" "Rhaskuporid" "Rheboulid" "Rhesid" "Rhoemetalkid" "Sadalid" "Satrid" "Sortid" "Seikiperid" "Seuthid" "Skarid" "Skilid" "Skostodokid" "Sparatokid" "Taruthinid" "Terid" "Tzitzid" "Zieisid" "Ziepyrid" "Zilid" "Zipaibid" "Zipyrid" }
-		
-	}
-	thracian_african = {
-		color = { 242 210 111 }
-		
-		first_names = { "Adaios" "Amatokos" "Aulouporis" "Aulouzon" "Bendidoros" "Berisades" "Bessos" "Bithos" "Brinkainos" "Brinkazenis" "Brinkazeris" "Brinkazis" "Bryzos" "Byzas" "Delos" "Dentoubrisa" "Dentoupes" "Deopos" "Deosporis" "Desakenthos" "Diaskenthos" "Diazenis" "Dizapes" "Dizapor" "Dizas" "Dizazelpis" "Dolens" "Drenis" "Eptaikenthos" "Eptapis" "Eptaporis" "Eptenis" "Eptezenis" "Ezbenis" "Gaidres" "Hebryzelmis" "Kelsinos" "Kelsos" "Kenthos" "Kerses" "Kerzoula" "Kersibaulos" "Kersobleptes" "Ketriporis" "Ketrizeis" "Kokaios" "Kotys" "Maisades" "Markipor" "Moukakenthos" "Moukapaibes" "Moukapius" "Moukaporis" "Moukatralis" "Moukazenis" "Naipor" "Olipor" "Poris" "Pytros" "Raizdos" "Raskos" "Rekiper" "Rhaskos" "Rhaskuporis" "Rheboulas" "Rhesos" "Rhoemetalces" "Sadalas" "Satres" "Sautes" "Seikiper" "Seuthes" "Skaris" "Skilas" "Skostodokos" "Sparadokos" "Taruthinas" "Teres" "Tzitzis" "Zieisis" "Ziepyros" "Ziles" "Zipaibes" "Zipyron" }
-		
-		last_names = { "Adaid" "Amatokid" "Aulouporid" "Aulouzonid" "Bendidorid" "Berisadid" "Bessid" "Bithid" "Brinkainid" "Brinkazenid" "Brinkazerid" "Brinkazid" "Bryzid" "Byzid" "Kelsinid" "Kelsid" "Kersobleptid" "Kerzulid" "Ketriporid" "Kocaid" "Delid" "Dentubrisid" "Dentupid" "Deopid" "Deospurid" "Desakenthid" "Diaskenthid" "Diazenid" "Dizapid" "Dizaporid" "Dizid" "Dizazelpid" "Dolenid" "Drenid" "Eptaikenthid" "Eptapid" "Eptaporid" "Eptenid" "Eptezenid" "Ezbenid" "Gaidrid" "Hebryzelmid" "Kenthid" "Kersid" "Kersibaulid" "Kersobleptid" "Ketriporid" "Ketrizeid" "Kotid" "Maisadid" "Markiporid" "Mukakenthid" "Mukapaibid" "Mukapid" "Mukaporid" "Mukatralid" "Mukazenid" "Naiporid" "Oliporid" "Porid" "Pytrid" "Raizdid" "Raskid" "Rekiperid" "Rhaskid" "Rhaskuporid" "Rheboulid" "Rhesid" "Rhoemetalkid" "Sadalid" "Satrid" "Sortid" "Seikiperid" "Seuthid" "Skarid" "Skilid" "Skostodokid" "Sparatokid" "Taruthinid" "Terid" "Tzitzid" "Zieisid" "Ziepyrid" "Zilid" "Zipaibid" "Zipyrid" }
-		
-	}
-	thracian_american = {
-		color = { 48 182 73 }
-		
-		first_names = { "Adaios" "Amatokos" "Aulouporis" "Aulouzon" "Bendidoros" "Berisades" "Bessos" "Bithos" "Brinkainos" "Brinkazenis" "Brinkazeris" "Brinkazis" "Bryzos" "Byzas" "Delos" "Dentoubrisa" "Dentoupes" "Deopos" "Deosporis" "Desakenthos" "Diaskenthos" "Diazenis" "Dizapes" "Dizapor" "Dizas" "Dizazelpis" "Dolens" "Drenis" "Eptaikenthos" "Eptapis" "Eptaporis" "Eptenis" "Eptezenis" "Ezbenis" "Gaidres" "Hebryzelmis" "Kelsinos" "Kelsos" "Kenthos" "Kerses" "Kerzoula" "Kersibaulos" "Kersobleptes" "Ketriporis" "Ketrizeis" "Kokaios" "Kotys" "Maisades" "Markipor" "Moukakenthos" "Moukapaibes" "Moukapius" "Moukaporis" "Moukatralis" "Moukazenis" "Naipor" "Olipor" "Poris" "Pytros" "Raizdos" "Raskos" "Rekiper" "Rhaskos" "Rhaskuporis" "Rheboulas" "Rhesos" "Rhoemetalces" "Sadalas" "Satres" "Sautes" "Seikiper" "Seuthes" "Skaris" "Skilas" "Skostodokos" "Sparadokos" "Taruthinas" "Teres" "Tzitzis" "Zieisis" "Ziepyros" "Ziles" "Zipaibes" "Zipyron" }
-		
-		last_names = { "Adaid" "Amatokid" "Aulouporid" "Aulouzonid" "Bendidorid" "Berisadid" "Bessid" "Bithid" "Brinkainid" "Brinkazenid" "Brinkazerid" "Brinkazid" "Bryzid" "Byzid" "Kelsinid" "Kelsid" "Kersobleptid" "Kerzulid" "Ketriporid" "Kocaid" "Delid" "Dentubrisid" "Dentupid" "Deopid" "Deospurid" "Desakenthid" "Diaskenthid" "Diazenid" "Dizapid" "Dizaporid" "Dizid" "Dizazelpid" "Dolenid" "Drenid" "Eptaikenthid" "Eptapid" "Eptaporid" "Eptenid" "Eptezenid" "Ezbenid" "Gaidrid" "Hebryzelmid" "Kenthid" "Kersid" "Kersibaulid" "Kersobleptid" "Ketriporid" "Ketrizeid" "Kotid" "Maisadid" "Markiporid" "Mukakenthid" "Mukapaibid" "Mukapid" "Mukaporid" "Mukatralid" "Mukazenid" "Naiporid" "Oliporid" "Porid" "Pytrid" "Raizdid" "Raskid" "Rekiperid" "Rhaskid" "Rhaskuporid" "Rheboulid" "Rhesid" "Rhoemetalkid" "Sadalid" "Satrid" "Sortid" "Seikiperid" "Seuthid" "Skarid" "Skilid" "Skostodokid" "Sparatokid" "Taruthinid" "Terid" "Tzitzid" "Zieisid" "Ziepyrid" "Zilid" "Zipaibid" "Zipyrid" }
-		
-	}
-	thracian_australian = {
-		color = { 121 197 55 }
-		
-		first_names = { "Adaios" "Amatokos" "Aulouporis" "Aulouzon" "Bendidoros" "Berisades" "Bessos" "Bithos" "Brinkainos" "Brinkazenis" "Brinkazeris" "Brinkazis" "Bryzos" "Byzas" "Delos" "Dentoubrisa" "Dentoupes" "Deopos" "Deosporis" "Desakenthos" "Diaskenthos" "Diazenis" "Dizapes" "Dizapor" "Dizas" "Dizazelpis" "Dolens" "Drenis" "Eptaikenthos" "Eptapis" "Eptaporis" "Eptenis" "Eptezenis" "Ezbenis" "Gaidres" "Hebryzelmis" "Kelsinos" "Kelsos" "Kenthos" "Kerses" "Kerzoula" "Kersibaulos" "Kersobleptes" "Ketriporis" "Ketrizeis" "Kokaios" "Kotys" "Maisades" "Markipor" "Moukakenthos" "Moukapaibes" "Moukapius" "Moukaporis" "Moukatralis" "Moukazenis" "Naipor" "Olipor" "Poris" "Pytros" "Raizdos" "Raskos" "Rekiper" "Rhaskos" "Rhaskuporis" "Rheboulas" "Rhesos" "Rhoemetalces" "Sadalas" "Satres" "Sautes" "Seikiper" "Seuthes" "Skaris" "Skilas" "Skostodokos" "Sparadokos" "Taruthinas" "Teres" "Tzitzis" "Zieisis" "Ziepyros" "Ziles" "Zipaibes" "Zipyron" }
-		
-		last_names = { "Adaid" "Amatokid" "Aulouporid" "Aulouzonid" "Bendidorid" "Berisadid" "Bessid" "Bithid" "Brinkainid" "Brinkazenid" "Brinkazerid" "Brinkazid" "Bryzid" "Byzid" "Kelsinid" "Kelsid" "Kersobleptid" "Kerzulid" "Ketriporid" "Kocaid" "Delid" "Dentubrisid" "Dentupid" "Deopid" "Deospurid" "Desakenthid" "Diaskenthid" "Diazenid" "Dizapid" "Dizaporid" "Dizid" "Dizazelpid" "Dolenid" "Drenid" "Eptaikenthid" "Eptapid" "Eptaporid" "Eptenid" "Eptezenid" "Ezbenid" "Gaidrid" "Hebryzelmid" "Kenthid" "Kersid" "Kersibaulid" "Ketriporid" "Ketrizeid" "Kotid" "Maisadid" "Markiporid" "Mukakenthid" "Mukapaibid" "Mukapid" "Mukaporid" "Mukatralid" "Mukazenid" "Naiporid" "Oliporid" "Porid" "Pytrid" "Raizdid" "Raskid" "Rekiperid" "Rhaskid" "Rhaskuporid" "Rheboulid" "Rhesid" "Rhoemetalkid" "Sadalid" "Satrid" "Sortid" "Seikiperid" "Seuthid" "Skarid" "Skilid" "Skostodokid" "Sparatokid" "Taruthinid" "Terid" "Tzitzid" "Zieisid" "Ziepyrid" "Zilid" "Zipaibid" "Zipyrid" }
-		
-	}
-	
+
+
 }
 
 baltic = {
 	leader = european
 	unit = RussianGC
-	
-	antivuorean = {
-		color = { 38 131 136 }
-		
-		first_names = { "Aadu" "Alar" "Aleksander" "Andrus" "Artur" "August" "Bernard" "Dmitri" "Eduard" "Eerik" "Elmar" "Ernst" "Georg" "Gustav" "Haman" "Harri" "Heino" "Hendrik" "Hjalmar" "Ivari" "Jaan" "Jakob" "Johannes" "Joosep" "Juhan" "Julius" "J�ri" "Kaarel" "Kalev" "Konstantin" "Lennart" "Ludvig" "Madis" "Mart" "Mikhel" "Nigul" "Olev" "Paavo" "Peeter" "Pent" "Ragnar" "Siiri" "Sven" "Tarmo" "T�nis" "Toomas" "Uno" "Valmar" "Villwm" "Voldemar" }
-		
-		last_names = { "Aamisepp" "Aavik" "Adams" "Anvel" "Barbarus" "Bornh�he" "Eenpalu" "Hint" "Hurt" "Jaakson" "Kangro" "Kint" "Klaasen" "Koern" "K�iv" "Kotli" "Kumari" "Kupine" "Kuusik" "Leppik" "Lipping" "Lohk" "M�e" "M�nnil" "Moora" "Natus" "Nurkse" "Nurmekund" "�kva" "�pik" "Orkivu" "P�ts" "Perna" "Piiper" "Poska" "Puusepp" "R�nk" "Rei" "Reinman" "Siinmaa" "Sikkar" "Sirk" "T�nisson" "Uluots" "Vaga" "Veske" "Vilbaste" "Vilms" "von Uexk�ll" "Warma" }
-		
-	}
-	estonian = {
-		color = { 40 30 60 }
-		
-		first_names = { "Aadu" "Alar" "Aleksander" "Andrus" "Artur" "August" "Bernard" "Dmitri" "Eduard" "Eerik" "Elmar" "Ernst" "Georg" "Gustav" "Haman" "Harri" "Heino" "Hendrik" "Hjalmar" "Ivari" "Jaan" "Jakob" "Johannes" "Joosep" "Juhan" "Julius" "J�ri" "Kaarel" "Kalev" "Konstantin" "Lennart" "Ludvig" "Madis" "Mart" "Mikhel" "Nigul" "Olev" "Paavo" "Peeter" "Pent" "Ragnar" "Siiri" "Sven" "Tarmo" "T�nis" "Toomas" "Uno" "Valmar" "Villwm" "Voldemar" }
-		
-		last_names = { "Aamisepp" "Aavik" "Adams" "Anvel" "Barbarus" "Bornh�he" "Eenpalu" "Hint" "Hurt" "Jaakson" "Kangro" "Kint" "Klaasen" "Koern" "K�iv" "Kotli" "Kumari" "Kupine" "Kuusik" "Leppik" "Lipping" "Lohk" "M�e" "M�nnil" "Moora" "Natus" "Nurkse" "Nurmekund" "�kva" "�pik" "Orkivu" "P�ts" "Perna" "Piiper" "Poska" "Puusepp" "R�nk" "Rei" "Reinman" "Siinmaa" "Sikkar" "Sirk" "T�nisson" "Uluots" "Vaga" "Veske" "Vilbaste" "Vilms" "von Uexk�ll" "Warma" }
-		
-	}
-	hopeajokan = {
-		color = { 226 205 13 }
-		
-		first_names = { "Aadu" "Alar" "Aleksander" "Andrus" "Artur" "August" "Bernard" "Dmitri" "Eduard" "Eerik" "Elmar" "Ernst" "Georg" "Gustav" "Haman" "Harri" "Heino" "Hendrik" "Hjalmar" "Ivari" "Jaan" "Jakob" "Johannes" "Joosep" "Juhan" "Julius" "J�ri" "Kaarel" "Kalev" "Konstantin" "Lennart" "Ludvig" "Madis" "Mart" "Mikhel" "Nigul" "Olev" "Paavo" "Peeter" "Pent" "Ragnar" "Siiri" "Sven" "Tarmo" "T�nis" "Toomas" "Uno" "Valmar" "Villwm" "Voldemar" }
-		
-		last_names = { "Aamisepp" "Aavik" "Adams" "Anvel" "Barbarus" "Bornh�he" "Eenpalu" "Hint" "Hurt" "Jaakson" "Kangro" "Kint" "Klaasen" "Koern" "K�iv" "Kotli" "Kumari" "Kupine" "Kuusik" "Leppik" "Lipping" "Lohk" "M�e" "M�nnil" "Moora" "Natus" "Nurkse" "Nurmekund" "�kva" "�pik" "Orkivu" "P�ts" "Perna" "Piiper" "Poska" "Puusepp" "R�nk" "Rei" "Reinman" "Siinmaa" "Sikkar" "Sirk" "T�nisson" "Uluots" "Vaga" "Veske" "Vilbaste" "Vilms" "von Uexk�ll" "Warma" }
-		
-	}
-	kepejokian = {
-		color = { 127 79 249 }
-		
-		first_names = { "Aadu" "Alar" "Aleksander" "Andrus" "Artur" "August" "Bernard" "Dmitri" "Eduard" "Eerik" "Elmar" "Ernst" "Georg" "Gustav" "Haman" "Harri" "Heino" "Hendrik" "Hjalmar" "Ivari" "Jaan" "Jakob" "Johannes" "Joosep" "Juhan" "Julius" "J�ri" "Kaarel" "Kalev" "Konstantin" "Lennart" "Ludvig" "Madis" "Mart" "Mikhel" "Nigul" "Olev" "Paavo" "Peeter" "Pent" "Ragnar" "Siiri" "Sven" "Tarmo" "T�nis" "Toomas" "Uno" "Valmar" "Villwm" "Voldemar" }
-		
-		last_names = { "Aamisepp" "Aavik" "Adams" "Anvel" "Barbarus" "Bornh�he" "Eenpalu" "Hint" "Hurt" "Jaakson" "Kangro" "Kint" "Klaasen" "Koern" "K�iv" "Kotli" "Kumari" "Kupine" "Kuusik" "Leppik" "Lipping" "Lohk" "M�e" "M�nnil" "Moora" "Natus" "Nurkse" "Nurmekund" "�kva" "�pik" "Orkivu" "P�ts" "Perna" "Piiper" "Poska" "Puusepp" "R�nk" "Rei" "Reinman" "Siinmaa" "Sikkar" "Sirk" "T�nisson" "Uluots" "Vaga" "Veske" "Vilbaste" "Vilms" "von Uexk�ll" "Warma" }
-		
-	}
-	kujaanan = {
-		color = { 202 148 42 }
+
+	pruthenian = {
+		color = { 187 147 206 }
 		
 		first_names = { "Aadu" "Alar" "Aleksander" "Andrus" "Artur" "August" "Bernard" "Dmitri" "Eduard" "Eerik" "Elmar" "Ernst" "Georg" "Gustav" "Haman" "Harri" "Heino" "Hendrik" "Hjalmar" "Ivari" "Jaan" "Jakob" "Johannes" "Joosep" "Juhan" "Julius" "J�ri" "Kaarel" "Kalev" "Konstantin" "Lennart" "Ludvig" "Madis" "Mart" "Mikhel" "Nigul" "Olev" "Paavo" "Peeter" "Pent" "Ragnar" "Siiri" "Sven" "Tarmo" "T�nis" "Toomas" "Uno" "Valmar" "Villwm" "Voldemar" }
 		
@@ -348,71 +262,6 @@ baltic = {
 		last_names = { "Abakovskis" "Ap�enieks" "Balodis" "Baumanis" "Berkis" "Berzin�" "Betin�" "Braons" "Caks" "Cakste" "Caps" "Celmin�" "Dalin�" "Dambitis" "Darzin�" "de Kolongs" "Desslers" "Eizenteins" "Goppers" "Halsmans" "Irbitis" "Kalnin�" "Kalpaks" "Kucys" "Kovalevskis" "Krogzemis" "Kronvalds" "Kuks" "Kviesis" "Lacis" "Leiko" "Loskis" "Maters" "Matisons" "Meierovics" "Mihelssons" "Milenbahs" "Millers" "Needra" "Ozolin�" "Petrovs" "Pliek�ans" "Pumpurs" "Rothko" "Simanis" "Stucka" "Tumins" "Ulmanis" "Veidenbaums" }
 		
 	}
-	lounast = {
-		color = { 60 27 50 }
-		
-		first_names = { "Aadu" "Alar" "Aleksander" "Andrus" "Artur" "August" "Bernard" "Dmitri" "Eduard" "Eerik" "Elmar" "Ernst" "Georg" "Gustav" "Haman" "Harri" "Heino" "Hendrik" "Hjalmar" "Ivari" "Jaan" "Jakob" "Johannes" "Joosep" "Juhan" "Julius" "J�ri" "Kaarel" "Kalev" "Konstantin" "Lennart" "Ludvig" "Madis" "Mart" "Mikhel" "Nigul" "Olev" "Paavo" "Peeter" "Pent" "Ragnar" "Siiri" "Sven" "Tarmo" "T�nis" "Toomas" "Uno" "Valmar" "Villwm" "Voldemar" }
-		
-		last_names = { "Aamisepp" "Aavik" "Adams" "Anvel" "Barbarus" "Bornh�he" "Eenpalu" "Hint" "Hurt" "Jaakson" "Kangro" "Kint" "Klaasen" "Koern" "K�iv" "Kotli" "Kumari" "Kupine" "Kuusik" "Leppik" "Lipping" "Lohk" "M�e" "M�nnil" "Moora" "Natus" "Nurkse" "Nurmekund" "�kva" "�pik" "Orkivu" "P�ts" "Perna" "Piiper" "Poska" "Puusepp" "R�nk" "Rei" "Reinman" "Siinmaa" "Sikkar" "Sirk" "T�nisson" "Uluots" "Vaga" "Veske" "Vilbaste" "Vilms" "von Uexk�ll" "Warma" }
-		
-	}
-	maraivoan = {
-		color = { 114 83 120 }
-		
-		first_names = { "Aadu" "Alar" "Aleksander" "Andrus" "Artur" "August" "Bernard" "Dmitri" "Eduard" "Eerik" "Elmar" "Ernst" "Georg" "Gustav" "Haman" "Harri" "Heino" "Hendrik" "Hjalmar" "Ivari" "Jaan" "Jakob" "Johannes" "Joosep" "Juhan" "Julius" "J�ri" "Kaarel" "Kalev" "Konstantin" "Lennart" "Ludvig" "Madis" "Mart" "Mikhel" "Nigul" "Olev" "Paavo" "Peeter" "Pent" "Ragnar" "Siiri" "Sven" "Tarmo" "T�nis" "Toomas" "Uno" "Valmar" "Villwm" "Voldemar" }
-		
-		last_names = { "Aamisepp" "Aavik" "Adams" "Anvel" "Barbarus" "Bornh�he" "Eenpalu" "Hint" "Hurt" "Jaakson" "Kangro" "Kint" "Klaasen" "Koern" "K�iv" "Kotli" "Kumari" "Kupine" "Kuusik" "Leppik" "Lipping" "Lohk" "M�e" "M�nnil" "Moora" "Natus" "Nurkse" "Nurmekund" "�kva" "�pik" "Orkivu" "P�ts" "Perna" "Piiper" "Poska" "Puusepp" "R�nk" "Rei" "Reinman" "Siinmaa" "Sikkar" "Sirk" "T�nisson" "Uluots" "Vaga" "Veske" "Vilbaste" "Vilms" "von Uexk�ll" "Warma" }
-		
-	}
-	meksikan = {
-		color = { 168 248 138 }
-		
-		first_names = { "Aadu" "Alar" "Aleksander" "Andrus" "Artur" "August" "Bernard" "Dmitri" "Eduard" "Eerik" "Elmar" "Ernst" "Georg" "Gustav" "Haman" "Harri" "Heino" "Hendrik" "Hjalmar" "Ivari" "Jaan" "Jakob" "Johannes" "Joosep" "Juhan" "Julius" "J�ri" "Kaarel" "Kalev" "Konstantin" "Lennart" "Ludvig" "Madis" "Mart" "Mikhel" "Nigul" "Olev" "Paavo" "Peeter" "Pent" "Ragnar" "Siiri" "Sven" "Tarmo" "T�nis" "Toomas" "Uno" "Valmar" "Villwm" "Voldemar" }
-		
-		last_names = { "Aamisepp" "Aavik" "Adams" "Anvel" "Barbarus" "Bornh�he" "Eenpalu" "Hint" "Hurt" "Jaakson" "Kangro" "Kint" "Klaasen" "Koern" "K�iv" "Kotli" "Kumari" "Kupine" "Kuusik" "Leppik" "Lipping" "Lohk" "M�e" "M�nnil" "Moora" "Natus" "Nurkse" "Nurmekund" "�kva" "�pik" "Orkivu" "P�ts" "Perna" "Piiper" "Poska" "Puusepp" "R�nk" "Rei" "Reinman" "Siinmaa" "Sikkar" "Sirk" "T�nisson" "Uluots" "Vaga" "Veske" "Vilbaste" "Vilms" "von Uexk�ll" "Warma" }
-		
-	}
-	mustvalge = {
-		color = { 30 22 45 }
-		
-		first_names = { "Aadu" "Alar" "Aleksander" "Andrus" "Artur" "August" "Bernard" "Dmitri" "Eduard" "Eerik" "Elmar" "Ernst" "Georg" "Gustav" "Haman" "Harri" "Heino" "Hendrik" "Hjalmar" "Ivari" "Jaan" "Jakob" "Johannes" "Joosep" "Juhan" "Julius" "J�ri" "Kaarel" "Kalev" "Konstantin" "Lennart" "Ludvig" "Madis" "Mart" "Mikhel" "Nigul" "Olev" "Paavo" "Peeter" "Pent" "Ragnar" "Siiri" "Sven" "Tarmo" "T�nis" "Toomas" "Uno" "Valmar" "Villwm" "Voldemar" }
-		
-		last_names = { "Aamisepp" "Aavik" "Adams" "Anvel" "Barbarus" "Bornh�he" "Eenpalu" "Hint" "Hurt" "Jaakson" "Kangro" "Kint" "Klaasen" "Koern" "K�iv" "Kotli" "Kumari" "Kupine" "Kuusik" "Leppik" "Lipping" "Lohk" "M�e" "M�nnil" "Moora" "Natus" "Nurkse" "Nurmekund" "�kva" "�pik" "Orkivu" "P�ts" "Perna" "Piiper" "Poska" "Puusepp" "R�nk" "Rei" "Reinman" "Siinmaa" "Sikkar" "Sirk" "T�nisson" "Uluots" "Vaga" "Veske" "Vilbaste" "Vilms" "von Uexk�ll" "Warma" }
-		
-	}
-	pruthenian = {
-		color = { 187 147 206 }
-		
-		first_names = { "Aadu" "Alar" "Aleksander" "Andrus" "Artur" "August" "Bernard" "Dmitri" "Eduard" "Eerik" "Elmar" "Ernst" "Georg" "Gustav" "Haman" "Harri" "Heino" "Hendrik" "Hjalmar" "Ivari" "Jaan" "Jakob" "Johannes" "Joosep" "Juhan" "Julius" "J�ri" "Kaarel" "Kalev" "Konstantin" "Lennart" "Ludvig" "Madis" "Mart" "Mikhel" "Nigul" "Olev" "Paavo" "Peeter" "Pent" "Ragnar" "Siiri" "Sven" "Tarmo" "T�nis" "Toomas" "Uno" "Valmar" "Villwm" "Voldemar" }
-		
-		last_names = { "Aamisepp" "Aavik" "Adams" "Anvel" "Barbarus" "Bornh�he" "Eenpalu" "Hint" "Hurt" "Jaakson" "Kangro" "Kint" "Klaasen" "Koern" "K�iv" "Kotli" "Kumari" "Kupine" "Kuusik" "Leppik" "Lipping" "Lohk" "M�e" "M�nnil" "Moora" "Natus" "Nurkse" "Nurmekund" "�kva" "�pik" "Orkivu" "P�ts" "Perna" "Piiper" "Poska" "Puusepp" "R�nk" "Rei" "Reinman" "Siinmaa" "Sikkar" "Sirk" "T�nisson" "Uluots" "Vaga" "Veske" "Vilbaste" "Vilms" "von Uexk�ll" "Warma" }
-		
-	}
-	salislahtian = {
-		color = { 249 88 93 }
-		
-		first_names = { "Aadu" "Alar" "Aleksander" "Andrus" "Artur" "August" "Bernard" "Dmitri" "Eduard" "Eerik" "Elmar" "Ernst" "Georg" "Gustav" "Haman" "Harri" "Heino" "Hendrik" "Hjalmar" "Ivari" "Jaan" "Jakob" "Johannes" "Joosep" "Juhan" "Julius" "J�ri" "Kaarel" "Kalev" "Konstantin" "Lennart" "Ludvig" "Madis" "Mart" "Mikhel" "Nigul" "Olev" "Paavo" "Peeter" "Pent" "Ragnar" "Siiri" "Sven" "Tarmo" "T�nis" "Toomas" "Uno" "Valmar" "Villwm" "Voldemar" }
-		
-		last_names = { "Aamisepp" "Aavik" "Adams" "Anvel" "Barbarus" "Bornh�he" "Eenpalu" "Hint" "Hurt" "Jaakson" "Kangro" "Kint" "Klaasen" "Koern" "K�iv" "Kotli" "Kumari" "Kupine" "Kuusik" "Leppik" "Lipping" "Lohk" "M�e" "M�nnil" "Moora" "Natus" "Nurkse" "Nurmekund" "�kva" "�pik" "Orkivu" "P�ts" "Perna" "Piiper" "Poska" "Puusepp" "R�nk" "Rei" "Reinman" "Siinmaa" "Sikkar" "Sirk" "T�nisson" "Uluots" "Vaga" "Veske" "Vilbaste" "Vilms" "von Uexk�ll" "Warma" }
-		
-	}
-	suurjokian = {
-		color = { 157 187 226 }
-		
-		first_names = { "Aadu" "Alar" "Aleksander" "Andrus" "Artur" "August" "Bernard" "Dmitri" "Eduard" "Eerik" "Elmar" "Ernst" "Georg" "Gustav" "Haman" "Harri" "Heino" "Hendrik" "Hjalmar" "Ivari" "Jaan" "Jakob" "Johannes" "Joosep" "Juhan" "Julius" "J�ri" "Kaarel" "Kalev" "Konstantin" "Lennart" "Ludvig" "Madis" "Mart" "Mikhel" "Nigul" "Olev" "Paavo" "Peeter" "Pent" "Ragnar" "Siiri" "Sven" "Tarmo" "T�nis" "Toomas" "Uno" "Valmar" "Villwm" "Voldemar" }
-		
-		last_names = { "Aamisepp" "Aavik" "Adams" "Anvel" "Barbarus" "Bornh�he" "Eenpalu" "Hint" "Hurt" "Jaakson" "Kangro" "Kint" "Klaasen" "Koern" "K�iv" "Kotli" "Kumari" "Kupine" "Kuusik" "Leppik" "Lipping" "Lohk" "M�e" "M�nnil" "Moora" "Natus" "Nurkse" "Nurmekund" "�kva" "�pik" "Orkivu" "P�ts" "Perna" "Piiper" "Poska" "Puusepp" "R�nk" "Rei" "Reinman" "Siinmaa" "Sikkar" "Sirk" "T�nisson" "Uluots" "Vaga" "Veske" "Vilbaste" "Vilms" "von Uexk�ll" "Warma" }
-		
-	}
-	usmailmian = {
-		color = { 46 59 94 }
-		
-		first_names = { "Aadu" "Alar" "Aleksander" "Andrus" "Artur" "August" "Bernard" "Dmitri" "Eduard" "Eerik" "Elmar" "Ernst" "Georg" "Gustav" "Haman" "Harri" "Heino" "Hendrik" "Hjalmar" "Ivari" "Jaan" "Jakob" "Johannes" "Joosep" "Juhan" "Julius" "J�ri" "Kaarel" "Kalev" "Konstantin" "Lennart" "Ludvig" "Madis" "Mart" "Mikhel" "Nigul" "Olev" "Paavo" "Peeter" "Pent" "Ragnar" "Siiri" "Sven" "Tarmo" "T�nis" "Toomas" "Uno" "Valmar" "Villwm" "Voldemar" }
-		
-		last_names = { "Aamisepp" "Aavik" "Adams" "Anvel" "Barbarus" "Bornh�he" "Eenpalu" "Hint" "Hurt" "Jaakson" "Kangro" "Kint" "Klaasen" "Koern" "K�iv" "Kotli" "Kumari" "Kupine" "Kuusik" "Leppik" "Lipping" "Lohk" "M�e" "M�nnil" "Moora" "Natus" "Nurkse" "Nurmekund" "�kva" "�pik" "Orkivu" "P�ts" "Perna" "Piiper" "Poska" "Puusepp" "R�nk" "Rei" "Reinman" "Siinmaa" "Sikkar" "Sirk" "T�nisson" "Uluots" "Vaga" "Veske" "Vilbaste" "Vilms" "von Uexk�ll" "Warma" }
-		
-	}
-	
 	union = UBD
 	
 }
