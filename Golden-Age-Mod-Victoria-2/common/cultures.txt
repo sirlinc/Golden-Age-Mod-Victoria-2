@@ -250,15 +250,6 @@ beneluxian = {
 		last_names = { "Cilliers" "Botha" "Joubert" "Kruger" "Duquesne" "Potgieter" "van Rensburg" "de la Rey" "Theron" "de Wet" "Pretorius" "Retief" "de Beer" "Uys" }
 		
 	}
-	nieuwereld = {
-		color = { 192 136 87 }
-		radicalism = 10
-		
-		first_names = { "Sarel" "Rudolf" "Andries" "Hendrik" "Piet" "Racheltjie" "Dirkie" "Siener" "Koos" "Danie" "Christiaan" "Louis" "Petrus" "Paul" "Eugene" "Joubert" }
-		
-		last_names = { "Bascom" "Bok" "de Kooning" "DeVries" "Fles" "Fort" "Franck" "Jansen" "Melville" "Nieuwsma" "Timmers" "van Buren" "Stratemeyer" "van de Wetering" "Van Doren Stern" "Van Loon" "Vanderbilt" "Whitman" "Brie" "Aykroyd" "Aylesworth" "Paul" "Bachar" "Bex" "Bloodgood" "Bogart" "Bosworth" "Branch" "Brando" "Brown" "Buscemi" "Beefheart" "Carradine" "Clift" "Cooper" "de Bont" "De Niro" "DeHaan" "Dekker" "DeMille" "Deschanel" "DeWitt" "Douglas" "Eastwood" "Farmer" "Ferlaak" "Foch" "Fonda" "Frehley" "Garity" "Gavankar" "Gaynes" "German" "Giamatti" "Gosselaar" "Grabeel" "Grable" "Hadid" "Hall" "Hoffman" "Houston" "Howard" "Huisman" "Jane" "Jansen" "Janssen" "Jolie" "Jenner" "Judels" "Kardashian" "Kristofferson" "LaRue" "Lautner" "Lutz" "McGraw" "Markle" "Meester" "Miller" "Parker" "Pfeiffer" "Pullman" "Ritter" "Romijn" "Schoonmaker" "Seymour" "Sinterniklaas" "Smits" "Smulders" "Spanjers" "Springsteen" "Struycken" "Swift" "Tellegen" "Temple" "Theron" "Van Alstyne" "van Amstel" "Van Beuren" "Van Cleef" "van der Pol" "VanderWaal" "Van Dien" "Van Dyke" "Van Halen" "Van Patten" "Van Sant" "Van Sloan" "Van Wyngarden" "Van Zandt" "Van Zant" "Verhoeven" "Voorhees" "Warwick" "Wilson" "Schaal" }
-		
-	}
 	surinamian = {
 		color = { 98 111 229 }
 		radicalism = 10
