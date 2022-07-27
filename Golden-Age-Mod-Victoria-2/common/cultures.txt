@@ -247,11 +247,19 @@ baltic = {
 	unit = RussianGC
 
 	pruthenian = {
-		color = { 187 147 206 }
+		color = { 100 140 145 }
 		
-		first_names = { "Aadu" "Alar" "Aleksander" "Andrus" "Artur" "August" "Bernard" "Dmitri" "Eduard" "Eerik" "Elmar" "Ernst" "Georg" "Gustav" "Haman" "Harri" "Heino" "Hendrik" "Hjalmar" "Ivari" "Jaan" "Jakob" "Johannes" "Joosep" "Juhan" "Julius" "J�ri" "Kaarel" "Kalev" "Konstantin" "Lennart" "Ludvig" "Madis" "Mart" "Mikhel" "Nigul" "Olev" "Paavo" "Peeter" "Pent" "Ragnar" "Siiri" "Sven" "Tarmo" "T�nis" "Toomas" "Uno" "Valmar" "Villwm" "Voldemar" }
+		first_names = { "Algirdas" "Antanas" "Antavas" "Aras" "Arunas" "Azuolas" "Budrys" "Bukantas" "Butavas" "Butigeidis" "Butvydas" "Daugvilas" "Daumantas" "Dausprungas" "Dravenis" "Erdenis" "Erdvilas" "Gedigaudas" "Gediminas" "Gedivilas" "Gintaras" "Gintautas" "Girdenis" "Irmantas" "Jaunutis" "Jogaila" "Jovirdas" "Kantibutas" "Karijotas" "Kesgaila" "Kestutis" "Korigaila" "Korybutas" "Lasukas" "Lingvenis" "Liudas" "Lubartas" "Lutuveras" "Merkelis" "Mindaugas" "Minigaila" "Mantvydas" "Movkoldas" "Narimantas" "Povilas" "Pukuveras" "Rimantas" "Rimgaila" "Rimvydas" "Ringaudas" "Sarunas" "Skirgaila" "Songaila" "Svarnas" "Sven" "Svitrigaila" "Tarvydas" "Tovtivilas" "Traidenis" "Treniotas" "Vainius" "Vaisvilkas" "Valimantas" "Valmar" "Zygimantas" "Vidmantas" "Vingoldas" "Virmantas" "Visvaldis" "Vizgirdas" "Vykintas" "Vytautas" "Vytenis" "Waldemar" "Zivinbudas" }
 		
-		last_names = { "Aamisepp" "Aavik" "Adams" "Anvel" "Barbarus" "Bornh�he" "Eenpalu" "Hint" "Hurt" "Jaakson" "Kangro" "Kint" "Klaasen" "Koern" "K�iv" "Kotli" "Kumari" "Kupine" "Kuusik" "Leppik" "Lipping" "Lohk" "M�e" "M�nnil" "Moora" "Natus" "Nurkse" "Nurmekund" "�kva" "�pik" "Orkivu" "P�ts" "Perna" "Piiper" "Poska" "Puusepp" "R�nk" "Rei" "Reinman" "Siinmaa" "Sikkar" "Sirk" "T�nisson" "Uluots" "Vaga" "Veske" "Vilbaste" "Vilms" "von Uexk�ll" "Warma" }
+		last_names = { "Butkereit" "Buttgereit" "Daschke" "Ugandi" "Gediminai" "Radziwill" "Gostautas" "Astikas" "Kesgaila" "Kujat" "Kurbjuweit" "Legat" "Chodkiewicz" "Olshanski" "Chartoryski" "Giedraiciai" "Pac" "Plater" "Prusseit" "Tyzenhaus" "Sapieha" "Ostrogski" "Oginski" "Dobeleit" "kraujaleidys" "Krauczun" "Krauledat" "Lenkeit" "Nabrotzky" "Puschat" "Wowereit" "Zipplies" }
+		
+	}
+	lithuanian = {
+		color = { 17 162 48 }
+		
+		first_names = { "Adolfas" "Aleksandras" "Algirdas" "Andrius" "Antanas" "Arturas" "Arunas" "Augustinas" "Balys" "Boris" "Bronislovas" "Danielius" "Darius" "Gediminas" "Henrikas" "Jonas" "Jonusas" "Juozas" "Juras" "Jurgis" "Justas" "Kazimieras" "Kazys" "Kipras" "Konstantinas" "Lukas" "Marijus" "Markas" "Mikalojus" "Mindaugas" "Motejus" "Mykolas" "Paulius" "Petras" "Povilas" "Ramunas" "Ringaudas" "Rolandas" "Simonas" "Stasys" "Steponas" "Valdas" "Valdemaras" "Viktoras" "Vilhelmas" "Visvaldas" "Vladimiras" "Vygantas" "Vytautas" "�ydrunas" }
+		
+		last_names = { "Adamkus" "Almenas" "Avizienis" "Baltru�aitis" "Brazauskas" "Basanavicius" "Birutis" "Brazd�iunas" "Buga" "Ciurlionis" "Danauskas" "Daukantas" "Dobkevicius" "Dubeneckis" "Dvarionas" "Galdikas" "Grinius" "Gri�kevicius" "Ivanauskas" "Jablonskis" "Jucys" "Krupavicius" "Landsbergis" "Lozoraitis" "Merkys" "Paksas" "Paleckis" "Paulauskas" "Petrauskas" "Piskarkas" "Po�ela" "Radvila" "�abaniauskas" "Schatz" "Simonavicius" "�irvydas" "�le�evicius" "Semtona" "Snieckus" "Stauaitis" "Strai�ys" "Stulginkis" "�vedas" "Terleckas" "Urb�ys" "Vagnorius" "Vale�ka" "Voldemaras" "�emaitis" "Zuokas" }
 		
 	}
 	latvian = {
@@ -2678,14 +2686,7 @@ polish_culture_group = {
 		last_names = { "Ugandi" "Gediminai" "Radziwill" "Gostautas" "Astikas" "Kesgaila" "Chodkiewicz" "Olshanski" "Chartoryski" "Giedraiciai" "Pac" "Plater" "Tyzenhaus" "Sapieha" "Ostrogski" "Oginski" }
 		
 	}
-	lithuanian = {
-		color = { 17 162 48 }
-		
-		first_names = { "Adolfas" "Aleksandras" "Algirdas" "Andrius" "Antanas" "Arturas" "Arunas" "Augustinas" "Balys" "Boris" "Bronislovas" "Danielius" "Darius" "Gediminas" "Henrikas" "Jonas" "Jonusas" "Juozas" "Juras" "Jurgis" "Justas" "Kazimieras" "Kazys" "Kipras" "Konstantinas" "Lukas" "Marijus" "Markas" "Mikalojus" "Mindaugas" "Motejus" "Mykolas" "Paulius" "Petras" "Povilas" "Ramunas" "Ringaudas" "Rolandas" "Simonas" "Stasys" "Steponas" "Valdas" "Valdemaras" "Viktoras" "Vilhelmas" "Visvaldas" "Vladimiras" "Vygantas" "Vytautas" "�ydrunas" }
-		
-		last_names = { "Adamkus" "Almenas" "Avizienis" "Baltru�aitis" "Brazauskas" "Basanavicius" "Birutis" "Brazd�iunas" "Buga" "Ciurlionis" "Danauskas" "Daukantas" "Dobkevicius" "Dubeneckis" "Dvarionas" "Galdikas" "Grinius" "Gri�kevicius" "Ivanauskas" "Jablonskis" "Jucys" "Krupavicius" "Landsbergis" "Lozoraitis" "Merkys" "Paksas" "Paleckis" "Paulauskas" "Petrauskas" "Piskarkas" "Po�ela" "Radvila" "�abaniauskas" "Schatz" "Simonavicius" "�irvydas" "�le�evicius" "Semtona" "Snieckus" "Stauaitis" "Strai�ys" "Stulginkis" "�vedas" "Terleckas" "Urb�ys" "Vagnorius" "Vale�ka" "Voldemaras" "�emaitis" "Zuokas" }
-		
-	}
+
 	nowyswiat = {
 		color = { 182 134 154 }
 		radicalism = 10
@@ -2722,14 +2723,7 @@ polish_culture_group = {
 		last_names = { "Bem" "B�r-Komorowski" "Brz�ska" "Chalasinski" "Chlapowski" "Chlopicki" "Chrzanowski" "Dabrowski" "Dembinski" "Fabryvy" "Hauke-Boask" "Iszikowski" "Jasinski" "Klicki" "Konopczynski" "Krukowiecki" "Kruszewski" "Langiewicz" "Madalinski" "Mieroslawski" "Mikolajczyk" "Mokronowski" "Niepok�lczycki" "Ostrowski" "Pac" "Pilsudski" "Poniatowski" "Potocki" "Pradzynski" "Radziwill" "Rokossowski" "Rola-Zymierski" "R�mmel" "R�zicky" "Rybinski" "Rydz-Smigly" "Sanguszko" "Skrzynecki" "Soltyk" "Sowinski" "Taczanowski" "Traugutt" "Wawrzecki" "Wieniawa-Dlugoszowski" "Wybicki" "Wysocki" "Zajaczek" "Zaluski" "Zamoyski" "Zeligowski" }
 		
 	}
-	pruthenian = {
-		color = { 126 214 143 }
-		
-		first_names = { "Algirdas" "Antanas" "Antavas" "Aras" "Arunas" "Azuolas" "Budrys" "Bukantas" "Butavas" "Butigeidis" "Butvydas" "Daugvilas" "Daumantas" "Dausprungas" "Dravenis" "Erdenis" "Erdvilas" "Gedigaudas" "Gediminas" "Gedivilas" "Gintaras" "Gintautas" "Girdenis" "Irmantas" "Jaunutis" "Jogaila" "Jovirdas" "Kantibutas" "Karijotas" "Kesgaila" "Kestutis" "Korigaila" "Korybutas" "Lasukas" "Lingvenis" "Liudas" "Lubartas" "Lutuveras" "Merkelis" "Mindaugas" "Minigaila" "Mantvydas" "Movkoldas" "Narimantas" "Povilas" "Pukuveras" "Rimantas" "Rimgaila" "Rimvydas" "Ringaudas" "Sarunas" "Skirgaila" "Songaila" "Svarnas" "Svitrigaila" "Tarvydas" "Tovtivilas" "Traidenis" "Treniotas" "Vainius" "Vaisvilkas" "Valimantas" "Zygimantas" "Vidmantas" "Vingoldas" "Virmantas" "Visvaldis" "Vizgirdas" "Vykintas" "Vytautas" "Vytenis" "Zivinbudas" }
-		
-		last_names = { "Ugandi" "Gediminai" "Radziwill" "Gostautas" "Astikas" "Kesgaila" "Chodkiewicz" "Olshanski" "Chartoryski" "Giedraiciai" "Pac" "Plater" "Tyzenhaus" "Sapieha" "Ostrogski" "Oginski" }
-		
-	}
+
 	smelis = {
 		color = { 214 126 143 }
 		
