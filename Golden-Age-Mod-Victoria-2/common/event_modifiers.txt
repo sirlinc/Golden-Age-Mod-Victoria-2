@@ -79,6 +79,9 @@ succession_question = {
 	prestige = -0.05
 	icon = 18
 }
+settling_in_crimea = {
+    icon = 9
+}
 stability_negative_three = {
 	global_immigrant_attract = -0.3
 	global_assimilation_rate = -0.2
