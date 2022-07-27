@@ -235,7 +235,7 @@ balkan = {
 
 baltic = {
 	leader = european
-	unit = RussianGC
+	unit = PrussianGC
 
 	pruthenian = {
 		color = { 100 140 145 }
