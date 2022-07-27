@@ -109,6 +109,14 @@ country_migration_target =
 	}
 	modifier = {
 		factor = 4.0
+                NOT = {
+                    OR = {
+                        is_culture_group = native_central_american
+                        is_culture_group = native_carribean
+                        is_culture_group = native_north_american
+                        is_culture_group = native_south_american
+                    }
+                 }
 		OR = { 
 			continent = north_america
 			continent = south_america
@@ -193,6 +201,20 @@ migration_target =
 		factor = 1.2
 		has_pop_religion = THIS
 	}
+    modifier = {
+        factor = 27.5
+        OR = {
+            any_core = {
+                OR = {
+                    is_primary_culture = THIS
+                    is_accepted_culture = THIS
+                }
+            }
+            is_core = CRI
+        }
+        THIS = { has_pop_culture = ukrainian }
+        country = { has_country_modifier = settling_in_crimea }
+    }
 	modifier = {
 		factor = 1.5
 		any_core = { is_primary_culture = THIS }
