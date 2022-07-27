@@ -2406,6 +2406,15 @@ neo_european_cultures = {
 		last_names = { "Belleau" "Caron" "de St.-Just" "Robitaille" "Masson" "Angers" "Chapleau" "Jotte" "Pantal�on" "Langelier" "Damasne" "LeBlanc" "Brodeur" "Perodeau" }
 		
 	}
+	grootdesseyn = {
+		color = { 132 24 183 }
+		radicalism = 10
+		
+		first_names = { "Sarel" "Rudolf" "Andries" "Hendrik" "Piet" "Racheltjie" "Dirkie" "Siener" "Koos" "Danie" "Christiaan" "Louis" "Petrus" "Paul" "Eugene" "Joubert" }
+		
+		last_names = { "Cilliers" "Botha" "Joubert" "Kruger" "Duquesne" "Potgieter" "van Rensburg" "de la Rey" "Theron" "de Wet" "Pretorius" "Retief" "de Beer" "Uys" }
+		
+	}
 	guyanese = {
 		color = { 108 112 249 }
 		
