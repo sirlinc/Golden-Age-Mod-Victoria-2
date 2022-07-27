@@ -121,33 +121,6 @@ american_cultures = {
 	
 }
 
-anti_human = {
-	leader = no_leader
-	unit = ConfederateGC
-	
-	alien = {
-		color = { 0 150 0 }
-		radicalism = 100
-		primary = ALI
-		
-		first_names = { "Xirgliss" "Cathiox" "Zir" "Zarax" "Rekaxir" "Cax" "Zidlaxi" "Cabroxi" "Xidlor" "Zeraxim" "Moz" "Zoz" "Xaz" "Zax" "Zacadliss" "Cothaxir" "Xoblagiss" "Rezicax" "Morezac" "Midloxec" }
-		
-		last_names = { "Flatwood" "Grey" "Gray" "Green" "Reptilian" "Martian" "Venusian" "Stargazer" "Ford Prefect" "the AI" "Blorg" "Demogorgon" }
-		
-	}
-	undead = {
-		color = { 30 30 30 }
-		radicalism = 100
-		primary = UND
-		
-		first_names = { "General" "Doctor" "Leader" "Beknown" "Bespectacled" "Buried" "Befeared" "Human-eater" }
-		
-		last_names = { "Banshee" "Ghost" "Poltergeist" "Draugr" "Ghoul" "Jiangshi" "Lich" "Mummy" "Revenant" "Spirit" "Skeleton" "Vampire" "Wight" "Zombie" "the Undead" }
-		
-	}
-	
-}
-
 arab = {
 	leader = arab
 	is_overseas = no
@@ -441,45 +414,6 @@ baltic = {
 	}
 	
 	union = UBD
-	
-}
-
-barbarian = {
-	leader = european
-	unit = PrussianGC
-	
-	anglo_saxon = {
-		color = { 230 110 60 }
-		
-		first_names = { "Adelfrid" "Adelmar" "Adelstan" "Aethelstan" "Alfric" "Alfwine" "Ceadda" "Cenric" "Cola" "Cynebald" "Cynefrith" "Cyneric" "Cyneweard" "Ealhstan" "Ecgberht" "Eoforwine" "Gladwine" "Hildrad" "Hrodulf" "Hrothgar" "Leofric" "Leofsige" "Leofwine" "Oswine" "Sawine" "Wigberht" "Wigmund" "Wigstan" "Wilfrid" "Wine" }
-		
-		last_names = { "Aelfwig" "Alfstan" "Athelred" "Auchenceter" "Auchterworthy" "Bloccsham" "Brownlowe" "Burgwine" "Cerdic" "Coldren" "Cuthberht" "Cwmcott" "Ecgred" "Estmund" "Gardyner" "Glover" "Godwinsson" "Gorbold" "Hrothsige" "Hwitmann" "Lea" "Leofwine" "Purcell" "Unred" "Wolfsige" "Wulfstan" "Wyndham" "Wynstan" "Wyther" }
-		
-	}
-	frankish = {
-		color = { 200 100 100 }
-		
-		first_names = { "Abbo" "Aega" "Agobard" "Allowin" "Arnulf" "Asselin" "Berno" "Berthaire" "Bruno" "Cassyon" "Cheldric" "Childebrand" "Clodomir" "Clotaire" "Corbinian" "Dodo" "Ebroin" "Ebrulf" "Emme" "Evroult" "Faro" "Gerold" "Grifo" "Grimbald" "Hartmut" "Helinand" "Hildebold" "Hildeprand" "Humbert" "Imbert" "Jocelin" "Lambert" "Lanfranc" "Lebuin" "Letard" "Liudhard" "Liudolf" "Lul" "Mansuet" "Omer" "Reginar" "Reol" "Richomer" "Rothad" "Sergi" "Sicho" "Vedast" "Werinbert" "Willibrord" "Zwentibold" }
-		
-		last_names = { "Aega" "Agilbert" "Artaud" "Bandeson" "Berchar" "Bernard" "Birin" "Blank" "Brun" "Bruno" "Burkhart" "Charibert" "Charivi" "Childebert" "Childeric" "Chlodobert" "Chlodowig" "Emme" "Grimald" "Landric" "Lothar" "Lul" "Radeburg" "Razo" "Rodbert" "Sergi" "Theudebald" "Theudebert" "Theuderic" "Werinbert" "Wighard" }
-		
-	}
-	suebi = {
-		color = { 60 220 200 }
-		
-		first_names = { "Adoric" "Agriulfum" "Anila" "Argiovit" "Ariamir" "Audeca" "Becilla" "Chararici" "Commund" "Eboric" "Ermaric" "Framta" "Frumari" "Garding" "Gomedei" "Heremigari" "Hermeric" "Hildemir" "Ilderic" "Malaric" "Maldras" "Massila" "Miro" "Neufila" "Nitigisi" "Pantard" "Rechiari" "Rechila" "Rechimund" "Remismund" "Remisol" "Rodomiro" "Sunila" "Theudomir" "Uittimer" "Veremund" }
-		
-		last_names = { "Adler" "Adrabaecampi" "Baemoi" "Batin" "Daimler" "Dengler" "Eberle" "Elser" "Ensselin" "Groner" "Hegelin" "Heinkelin" "Holderelin" "Idanha" "Kepler" "Kiesinger" "Laemmle" "Lugo" "Marcomanni" "Naristi" "Ourense" "Racatria" "Rommelin" "Sudini" "Suiones" "Tui" "Viseu" "Wekerle" }
-		
-	}
-	vandal = {
-		color = { 100 150 100 }
-		
-		first_names = { "Abbo" "Aega" "Agobard" "Allowin" "Arnulf" "Asselin" "Berno" "Berthaire" "Bruno" "Cassyon" "Cheldric" "Childebrand" "Clodomir" "Clotaire" "Corbinian" "Dodo" "Ebroin" "Ebrulf" "Emme" "Evroult" "Faro" "Gerold" "Grifo" "Grimbald" "Hartmut" "Helinand" "Hildebold" "Hildeprand" "Humbert" "Imbert" "Jocelin" "Lambert" "Lanfranc" "Lebuin" "Letard" "Liudhard" "Liudolf" "Lul" "Mansuet" "Omer" "Reginar" "Reol" "Richomer" "Rothad" "Sergi" "Sicho" "Vedast" "Werinbert" "Willibrord" "Zwentibold" }
-		
-		last_names = { "Aega" "Agilbert" "Artaud" "Bandeson" "Berchar" "Bernard" "Birin" "Blank" "Brun" "Bruno" "Burkhart" "Charibert" "Charivi" "Childebert" "Childeric" "Chlodobert" "Chlodowig" "Emme" "Grimald" "Landric" "Lothar" "Lul" "Radeburg" "Razo" "Rodbert" "Sergi" "Theudebald" "Theudebert" "Theuderic" "Werinbert" "Wighard" }
-		
-	}
 	
 }
 
@@ -1511,6 +1445,14 @@ germanic = {
 		last_names = { "Adler" "Cluss" "Gottlieb" "Gropius" "Kahn" "Kiehnel" "Koch" "Molitor" "Roebling" "Sauer" "Scheibler" "Schoenborn" "Schuler" "Strauch" "Trumbauer" "Mies van der Rohe" "Albers" "Bascom" "Beneck" "Bierstadt" "Bock" "Dellschau" "Dirks" "Eisenstaedt" "Ernst" "Eytel" "Falkenstein" "Feininger" "Fischer" "Giers" "Grosz" "Heck" "Herzner" "Hofmann" "Ert Iwwerks" "Janson" "Kampelmann" "Robinson" "Kleibacker" "Kline" "Knerr" "Krimmel" "Keutze" "Krieghoff" "Trump" "Garfield" "Harding" "Nixon" "Aldrin" "Brentano" "Walker" "Bush" "Eisenhower" "Issa" "Kissinger" "Roosevelt" "Schurz" }
 		
 	}
+	anglo_saxon = {
+		color = { 230 110 60 }
+		
+		first_names = { "Adelfrid" "Adelmar" "Adelstan" "Aethelstan" "Alfric" "Alfwine" "Ceadda" "Cenric" "Cola" "Cynebald" "Cynefrith" "Cyneric" "Cyneweard" "Ealhstan" "Ecgberht" "Eoforwine" "Gladwine" "Hildrad" "Hrodulf" "Hrothgar" "Leofric" "Leofsige" "Leofwine" "Oswine" "Sawine" "Wigberht" "Wigmund" "Wigstan" "Wilfrid" "Wine" }
+		
+		last_names = { "Aelfwig" "Alfstan" "Athelred" "Auchenceter" "Auchterworthy" "Bloccsham" "Brownlowe" "Burgwine" "Cerdic" "Coldren" "Cuthberht" "Cwmcott" "Ecgred" "Estmund" "Gardyner" "Glover" "Godwinsson" "Gorbold" "Hrothsige" "Hwitmann" "Lea" "Leofwine" "Purcell" "Unred" "Wolfsige" "Wulfstan" "Wyndham" "Wynstan" "Wyther" }
+		
+	}
 	boehmisch = {
 		color = { 35 212 184 }
 		
@@ -1541,6 +1483,14 @@ germanic = {
 		first_names = { "Adelbert" "Adolf" "Albrecht" "Alexander" "Alfons" "Alfred" "August" "Alois" "Anton" "Arthur" "Bernhard" "Burkhard" "Christian" "Dieter" "Edmund" "Eduard" "Edwin" "Engelbert" "Erwin" "Erich" "Ernst" "Ferdinand" "Florian" "Franz" "Friedrich" "Fritz" "Georg" "Gebhard" "Gerhard" "Gottfried" "G�nther" "Gustav" "Hasso" "Heinrich" "Helmuth" "Hermann" "Horst" "Hugo" "Jakob" "Joachim" "Johann" "Joseph" "Julius" "J�rgen" "Karl" "Konrad" "Kurt" "Leonhard" "Leopold" "Lorenz" "Lothar" "Ludwig" "Lukas" "Manfred" "Maximilian" "Michael" "Nikolaus" "Otto" "Pascal" "Paul" "Peter" "Reinhard" "Rudolf" "Ruprecht" "Stefan" "Theodor" "Viktor" "Walter" "Werner" "Wilhelm" "Wolfgang" }
 		
 		last_names = { "Beck-Rzikowsky" "Behncke" "Blos" "Brommy" "Cordemann" "Dankl" "Dreyer" "Droste" "Eisner" "Geiss" "Goering" "Groener" "Hainisch" "Haus" "Held" "Hellpach" "Herwarth von Bittenfeld" "Heppendorf" "Hoffmann" "Hummel" "K�hler" "Krohn" "Ludendorff" "Mergenthaler" "Miklas" "Remmele" "Schmitt" "Schobber" "Schree" "Seitz" "Steeb" "Stolzer" "Trunk" "Vogel von Falkenstein" "von Alten" "von Anhalt" "von Arentschildt" "von B�low" "von Baden" "von Benedek" "von Bismarck-Bohlen" "von Blumenthal" "von Blomberg" "von B�hm-Ermolli" "von Boyen" "von Braunschweig" "von Brudermann" "von Clam-Gallas" "von dem Knesebeck" "von der Tann" "von Dietrich" "von Gablenz" "von Gebser" "von Gr�nne" "von Habsburg" "von Fritsch" "von Halkett" "von Hannover" "von Hartmann" "von Haynau" "von Hess" "von Hessen-Darmstadt" "von Hessen-Kassel" "von Hindenburg" "von Hohenzollern" "von Holstein-Gottorp" "von Knorr" "von Kleefeld" "von Manteuffel" "von Mecklenburg-Schwerin" "von Mecklenburg-Strelitz" "von Moltke" "von Oldenburg" "von Rauch" "von Ravensberg" "von Reuter" "von Richthofen" "von Sachsen-Altenburg" "von Sachsen-Coburg-Gotha" "von Sachsen-Meiningen" "von Sachsen-Weimar-Eisenach" "von Schlieffen" "von Schwarzburg" "von Spee" "von Tirpitz" "von Waldeck und Pyrmont" "von Wettin" "von Wrangel" "von Zieten" "zur Lippe" "von Roon" "von Hohenhausen" "d'Aspre von Hoobreuk" "von Hortstein" "von H�tzendorf" "von Kirbach" "von Kobratin" "von Sch�nburg" "von Tegetthoff" "von Uchatius" "von Wittelsbach" "von W�rttemberg" "von Zahringen" "Wagner" "Wittmann" "zu Hohenlohe" }
+		
+	}
+	gothic = {
+		color = { 110 71 33 }
+		
+		first_names = { "Agriwulfa" "Aspar" "Ataulfo" "Bigeli" "Braga" "Brandila" "Cannabao" "Colias" "Fastida" "Feletheo" "Galindo" "Gerung" "Heldebaldo" "Hermenigildo" "Hrodrigo" "Hunigild" "Ibba" "Inna" "Modare" "Naulabato" "Rausimodo" "Recaredo" "Rodolfo" "Sigisvulto" "Theodemer" "Theudi" "Valaravans" "Veduco" "Viliaro" "Visimar" }
+		
+		last_names = { "Aniano" "Ariari" "Arius" "Ataulph" "Atharid" "Baduila" "Cyrila" "Farnobio" "Feva" "Fretela" "Friderico" "Gaiseri" "Gundeharo" "Heldefred" "Hermangild" "Hernegliscu" "Hildebado" "Huml" "Hunimund" "Leuvibild" "Nidada" "Retemeri" "Rhima" "Saphrax" "Sueridu" "Sunnia" "Theoderi" "Tribigild" "Videric" "Vidimiro" }
 		
 	}
 	hilterian = {
@@ -1625,45 +1575,6 @@ germanic = {
 	}
 	
 	union = GER
-	
-}
-
-gothic_g = {
-	leader = european
-	unit = EuropeanGC
-	
-	getian = {
-		color = { 24 153 204 }
-		
-		first_names = { "Agriwulfa" "Aspar" "Ataulfo" "Bigeli" "Braga" "Brandila" "Cannabao" "Colias" "Fastida" "Feletheo" "Galindo" "Gerung" "Heldebaldo" "Hermenigildo" "Hrodrigo" "Hunigild" "Ibba" "Inna" "Modare" "Naulabato" "Rausimodo" "Recaredo" "Rodolfo" "Sigisvulto" "Theodemer" "Theudi" "Valaravans" "Veduco" "Viliaro" "Visimar" }
-		
-		last_names = { "Aniano" "Ariari" "Arius" "Ataulph" "Atharid" "Baduila" "Cyrila" "Farnobio" "Feva" "Fretela" "Friderico" "Gaiseri" "Gundeharo" "Heldefred" "Hermangild" "Hernegliscu" "Hildebado" "Huml" "Hunimund" "Leuvibild" "Nidada" "Retemeri" "Rhima" "Saphrax" "Sueridu" "Sunnia" "Theoderi" "Tribigild" "Videric" "Vidimiro" }
-		
-	}
-	gothic = {
-		color = { 110 71 33 }
-		
-		first_names = { "Agriwulfa" "Aspar" "Ataulfo" "Bigeli" "Braga" "Brandila" "Cannabao" "Colias" "Fastida" "Feletheo" "Galindo" "Gerung" "Heldebaldo" "Hermenigildo" "Hrodrigo" "Hunigild" "Ibba" "Inna" "Modare" "Naulabato" "Rausimodo" "Recaredo" "Rodolfo" "Sigisvulto" "Theodemer" "Theudi" "Valaravans" "Veduco" "Viliaro" "Visimar" }
-		
-		last_names = { "Aniano" "Ariari" "Arius" "Ataulph" "Atharid" "Baduila" "Cyrila" "Farnobio" "Feva" "Fretela" "Friderico" "Gaiseri" "Gundeharo" "Heldefred" "Hermangild" "Hernegliscu" "Hildebado" "Huml" "Hunimund" "Leuvibild" "Nidada" "Retemeri" "Rhima" "Saphrax" "Sueridu" "Sunnia" "Theoderi" "Tribigild" "Videric" "Vidimiro" }
-		
-	}
-	ostrogothic = {
-		color = { 166 140 140 }
-		
-		first_names = { "Adalfuns" "Adalrik" "Agila" "Alarich" "Amalaric" "Andagis" "Ansila" "Ardaric" "Ariaric" "Aspar" "Athalaric" "Athanagild" "Athanaric" "Atta" "Audo" "Audoacer" "Ausvinth" "Avavagis" "Badwila" "Beremund" "Botheric" "Childefonse" "Chindaswinth" "Dag" "Eboric" "Ebrimuth" "Ediulf" "Egica" "Elemund" "Ermanaric" "Euric" "Eutharic" "Evermud" "Ferhonanth" "Fridegar" "Frithigern" "Geberic" "Gisalric" "Gunderit" "Haduswinth" "Hairuwulf" "Hathus" "Hermanaric" "Hermenigild" "Heraric" "Hidelfons" "Hildibad" "Hunuil" "Kunimund" "Leovigild" "Liuva" "Liuverich" "Oliba" "Rekimer" "Richila" "Roderik" "Suniefred" "Swinthila" "Tautila" "Teia" "Theodahad" "Theodemer" "Theodoric" "Thorismund" "Theudis" "Thrasaric" "Thraustila" "Ulfilas" "Unwen" "Valamir" "Veremund" "Vulfila" "Wallia" "Wifred" "Wittigeis" "Witiza" "Adosinda" "Amalasuntha" "Amalfrida" "Amalina" "Amalwara" "Avagisa" "Avina" "Brunhilda" "Chlodoswintha" "Fredegonda" "Gailavira" "Gaileswintha" "Garsendis" "Gelvira" "Goswintha" "Heva" "Hilduara" "Mataswintha" "Radegonda" "Riciberga" }
-		
-		last_names = { "Goten" "Terwingen" "Visigothen" "Greutungen" "Ostgoten" }
-		
-	}
-	visigothic = {
-		color = { 180 180 0 }
-		
-		first_names = { "Agriwulfa" "Aspar" "Ataulfo" "Bigeli" "Braga" "Brandila" "Cannabao" "Colias" "Fastida" "Feletheo" "Galindo" "Gerung" "Heldebaldo" "Hermenigildo" "Hrodrigo" "Hunigild" "Ibba" "Inna" "Modare" "Naulabato" "Rausimodo" "Recaredo" "Rodolfo" "Sigisvulto" "Theodemer" "Theudi" "Valaravans" "Veduco" "Viliaro" "Visimar" }
-		
-		last_names = { "Aniano" "Ariari" "Arius" "Ataulph" "Atharid" "Baduila" "Cyrila" "Farnobio" "Feva" "Fretela" "Friderico" "Gaiseri" "Gundeharo" "Heldefred" "Hermangild" "Hernegliscu" "Hildebado" "Huml" "Hunimund" "Leuvibild" "Nidada" "Retemeri" "Rhima" "Saphrax" "Sueridu" "Sunnia" "Theoderi" "Tribigild" "Videric" "Vidimiro" }
-		
-	}
 	
 }
 
@@ -2853,77 +2764,6 @@ neo_european_cultures = {
 non_human = {
 	leader = no_leader
 	unit = SwedishGC
-	
-	cat = {
-		color = { 25 75 25 }
-		radicalism = 100
-		primary = MIA
-		
-		first_names = { "Mittens" "Fluffy" "Tom" "Smudge" "Shadow" }
-		
-		last_names = { "Vermin" "Tabby" "Tabby" "Bramblepelt" "Kitten" "Katturan" "Purr" "Bahari" "Cat" "Stalker" "O'Malley" "Tiger" "Scottish Folds" "Jellicle" "Sphynxes" "Cat" "Katturan" "Jellicle" "Critterkiller" "Manx" "Heavyside" "Purr" "von Furrington" "Felis Catus" "Meow" "Tiger" "Vermin" "Vermin" "Kitten" "Night" "Hairball" "Bramblepelt" "Meow" "Hiss" "Hiss" "Felis Catus" "Vermin" "Feline" "Feline" "Heavyside" "Purr" "Tom" "Tabby" "Katturan" "Meow" "Tom" "Wildcat" "Bramblepelt" "Felidae" "Feral" "Felidae" "Tabby" "-in-Boots" "Kitten" "Wildcat" "Bramblepelt" "Furry" "Ratcatcher" "Meow" "Feral" "Night" "Cat" "Bahari" "Freyja" "Scottish Folds" "Naberezhnye" "Lampron" }
-		
-	}
-	dog_culture = {
-		color = { 25 75 25 }
-		radicalism = 100
-		primary = DOG
-		
-		first_names = { "Fido" "Alfonso" "Basil" "Albert" "Alistair" "Elmer" "Gilbert" "Alwin" "Brantley" "Kendrik" "Psyche" "Pluck" "Buckler" "Spigot" "Lance" "Lurcher" "Watch" "Keeper" "Brigade" "Fencer" "Butcher" "Blazer" "Prowess" "Craftsman" "Forester" "Counsellor" "Spoiler" "Hurry" "Fury" "Growler" "Riot" "Bloomer" "Rome" "Blossom" "Hebe" "Hilary" "Jolity" "Gazer" "Eyebright" "Much" "Force" "Trooper" "Bustle" "Bubbler" "Rockdove" "Stubborn" "Yelp" "Pele-mele" "Strongboy" "Sky" "Sunbeam" "Bodkin" "Wistful" "Gnome" "Tracks" "Dash" "Blake" "Buddy" "Goofy" "Pluto" "Killer" "Max" "Bonzo" "Zico" "Santi" "Cotte" "Ruff" "Trigger" "Mini" "Toby" "Doglas" "Good" "Bad" "Cujo" "Louis" "Mr Wuffles" "Inky" "Saurr" "Bubbles" "Dog" "Doggo" "Shadow" "Spot" "Babe" "Spotington" "Wesley" "Rex" "Pluto" "Timmi" "Ed" "Benjamin" "Sapphire" "Homer" "Grif" "Ghost" "Greywind" "Summer" "Shaggydog" "Scooby" "Droopy" "Dogge" "Henry" "Casey" "Sam" "Maxx" "Kelvin" "Rozz" "Ajax" "Zorro" "Clifford" "Dali" "Milton" "Watson" "Laddie" "Amundsen" "Hercules" "Hackenschmidt" "Samson" "Sammy" "Skipper" "Caruso" "Sub" "Ulysses" "Spotty" "Bosun" "Slobbers" "Splitlip" "Swanker" "Chirgwin" "Steamer" "Wuffler" }
-		
-		last_names = { "Labrador" "Maltipoo" "Coonhound" "Pawser" "Woofington" "Setter" "Setter" "Maltipoo" "Goldenboi" "Pinscher" "Setter" "Puppy" "Boxer" "Maltipoo" "Canaan" "Houndyr" "Woofer" "Yeller" "Barbet" "Barbet" "Setter" "Pollicle" "Blepper" "Corso" "McDogface" "Girl" "Boxer" "Labradoodle" "Puppy" "Pawser" "Woofington" "von Sploot" "McDogface" "Sheperd" "Bork" "Houndyr" "Pawser" "Terrier" "Goodboye" "Eekimo" "Girl" "Dog" "Labradoodle" "Affenpinecher" "Goodboye" "Boxer" "Bracco" "Dane" "Bluetick" "Woofer" "Corso" "Labrador" "Puppy" "Zittau" "Bithor" }
-		
-	}
-	dragon_culture = {
-		color = { 25 75 25 }
-		radicalism = 100
-		primary = DRK
-		
-		first_names = { "Fafnir" "Midgard" "Apopis" "Ladon" "Colchidei" "Piton" "Vouivre" "Drac" "Gorynych" "Bantu" "Mannu" "Khozen" "Morzas" "Xemcel" "Medeus" "Morva" "Nils" "Bahamut" "Leviathan" "Ryujin" "Zilant" "Typhos" "Puff" "Nyx" "Teethless" "Smokey" "Deathwing" "Quicksilver" "Grey Ghost" "Seasmoke" "Pyre" "Scorch" "Dragon" "Wyrm" "Lindwurm" "Dovah" "Vlad" "Rattleskin" "Ash" "Benedict" "Rakshasha" "Draco" "Dracul" "Drago" "Fafner" "Errol" "Glaedr" "Glaurung" "Icefyre" "Falkor" "Nagini" "Rathalos" "Piff" "Fred" "Voidaltarah" "Ddraig" "Drdrake" "Morttalis" "Barney" }
-		
-		last_names = { "Kytrapan" "Vorcasymath" "Kytrapan" "Carrafyrt" "Noighyd" "of the Fires" "Grautarrein" "Grautarrein" "of the Sun" "of the Skies" "of the Moon" "Grautarrein" "of the Skies" "Rainbowscale" "Carrafyrt" "of the Moon" "of the Waters" "Noighyd" "Mc�scale" "Colichir" "Eorikamat" "Colichir" "Grautarrein" "Vorcasymath" "Rackart" "of the Skies" "Vorcasymath" "Vilisynther" "of the Moon" "Kosorrat" "of the Waters" "of the Waters" "Seserriff" "Noighyd" "of the Moon" "of the Fires" "Vilisynther" "Gemhide" "of the Waters" "Vilisynther" "Goldscale" "Mc�scale" "Colichir" "Kerokarvar" "Kerokarvar" "Dragaret" "Kerokarvar" "Kytrapan" "Rainbowscale" "Grautarrein" "of the Moon" "Vorcasymath" "of the Skies" "Grautarrein" "of the Moon" "Colichir" "Kerokarvar" "Eorikamat" "of the Earths" "Colichir" "Noighyd" "of the Earths" "of the Fires" "Mc�scale" "Dragaret" "Draokoran" "Vilisynther" "of the Stars" "Vorcasymath" "of the Fires" "Mc�scale" "Eorikamat" "Lipari" "Cefal�" "Mazara" "Caltabellotta" "Catania" "Latakiah" "Rabat" }
-		
-	}
-	duck_culture = {
-		color = { 25 75 25 }
-		radicalism = 100
-		primary = DUK
-		
-		first_names = { "Daffy" "Quacker" "Huck" "Waddles" "Donald" "Dominic" "Whitewing" "Duckus" "Quackmire" "Eggbert" "Howard" "Scrooge" "Winghelm" "Ludwing" "Gladstone" "Cake" "Blunder" "Duck" "Quackers" "Pippi" "Face" "Grape" "Anaheim" "Quackel" "Beaky" "Nottington" "Drake" "Mallard" "Hans" "Scrooge" "Darkwing" "Huey" "Dewey" "Louie" "Bolivar" "M�rten" "Maarten" "Cornelius" "Havbard" "Knase" "Kalle" "Arne" "Dylan" "Emelio" "Greg" "Paul" }
-		
-		last_names = { "Callduck" "Tachyeres" "Dununge" "Netta" "Chenonetta" "Anka" "Asarcornis" "Runner" "Quackel" "Lophonetta" "Amazonetta" "Mallard" "Netta" "Dununge" "Mallard" "Biziura" "Cakeduck" "Runner" "Dununge" "McDuck" "Pteronetta" "Duckling" "Anka" "Callduck" "Biziura" "Dunstanetta" "Flapper" "Duckling" "Duckling" "Neochen" "Callduck" "Dunstanetta" "Asarcornis" "Chenonetta" "Alopochen" "Malta" "Biziura" "Anka" "Duckling" "Biziura" "Callduck" "Malta" "Cakeduck" "Biziura" "Asarcornis" "Mallard" "Malta" "Neochen" "Neochen" "Asarcornis" "Flapper" "Runner" "Duckling" "Flapper" "Mallard" "Aix" "Tachyeres" }
-		
-	}
-	elephant_culture = {
-		color = { 25 75 25 }
-		radicalism = 100
-		primary = ELE
-		
-		first_names = { "Doot" "Trumpo" "Snoot" "Pyyrhus" "Kandula" "Jumbo" "Elephant" "Setu" "Dhriti" "Bhaanu" "Bhadra" "Zain" "Barbar" "Pompadour" "Booper" "Dombo" "Abul" "Abbas" "Hanno" "Zaeem" "Hannibal" "Baal" "Hasdrubal" "Babur" "Batyr" "Pollux" "Castor" "Mr-Tusk" "Gaj" "Brant" "Kamboj" "Hastin" "Gajendra" "Airawat" "Tej" "Toti" "Yathra" "Ghaazi" "Chotu" "Baahi" "Bakhsh" "Behru" "Zaki" "Cornelius" "Surus" }
-		
-		last_names = { "Rumbler" "Rashtrakuta" "Shahi" "Habbari" "Ivory" "Mlechchha" "Rumbler" "Doot" "Tusk" "Pala" "Doot" "Pallava" "Rumbler" "Pallava" "Habbari" "Ivory" "Habbari" "Haathee" "Pala" "Tusk" "Lambakanna" "Shahi" "Shahi" "Ivory" "Habbari" "Ivory" "Doot" "Mlechchha" "Doot" "Mlechchha" "Pala" "Pala" "Shahi" "Shahi" "Rashtrakuta" "Doot" "Rumbler" "Doot" "Lambakanna" "Habbari" "Mlechchha" "Pallava" "Tusk" "Shahi" "Ivory" "Ivory" "Rashtrakuta" "Lambakanna" "Tusk" "Mlechchha" "Rumbler" "Pala" "Pallava" "Tusk" "Lambakanna" "Doot" "Habbari" "Mlechchha" "Lambakanna" "Rashtrakuta" "Lambakanna" "Doot" "Rumbler" "Ivory" "Shahi" "Shahi" "Tusk" "Pallava" "Tusk" "Tusk" "Ivory" "Lambakanna" "Mlechchha" "Haathee" "Tusk" "Pallava" "Tusk" "Lambakanna" "Rumbler" "Tumshuk" "Yezheguan" }
-		
-	}
-	hedgehog_culture = {
-		color = { 25 75 25 }
-		radicalism = 100
-		primary = HEG
-		
-		first_names = { "Hughues" "Echinus" "Erinus" "Kidnae" "Micro" "Mesyo" "Aurion" "Sclaterion" "Rix" "Spike" "Pokey" "Quillem" "Quilliam" "Quillington" "Sanic" "Knucklys" "Silver" "Lancelot" "Galahad" "Cyrus" "Pincushion" "Hedgehog" "Grumpy" "Crisp" "Pinecone" "Sam" "Wiggles" "Stig" "Xerxes" "Mr. Tiggy-Winkle" "Nails" "Thorn" "Ringo" "Groogy" "Punk" "Hedgepig" "August" "Blaine" "Saul" "Sonic" }
-		
-		last_names = { "Solisorex" "Eulipotyphla" "Talpidae" "Teja" "Scutisorex" "Crocidura" "Solisorex" "Surdisorex" "Teja" "Neohylomys" "Sylvisorex" "Atelerix" "Congosorex" "Neohylomys" "Hylomys" "Teja" "Paraechinus" "Mesechinus" "Surdisorex" "Scutisorex" "Teja" "Neohylomys" "Paraechinus" "Ruwenzorisorex" "Neohylomys" "Deinogalerix" "Chimarrogale" "Eulipotyphla" "Pholidocercus" "Crocidura" "Quill" "Neotetracus" "Echinosorex" "Solisorex" "Silvacola" "Podogymnura" "Erinaceus" "Diplomesodon" "Echinosorex" "Hylomys" "Hylomys" "Neotetracus" "Erinaceinae" "Surdisorex" "Scutisorex" "Prickles" "Hylomys" "Echinosorex" "Hylomys" "Crocidura" "Mesechinus" "Floof" "Floof" "Echinosorex" "Crocidura" "Silvacola" "Soricidae" "Myosorex" "Echinosorex" "Thorn" "Pholidocercus" "Prickles" "Teja" "Flesberg" "K�nigsberg" "Ragnit" "K�nigsberg" "Bahaduran" }
-		
-	}
-	horse = {
-		color = { 255 111 94 }
-		radicalism = 100
-		primary = TRL
-		
-		first_names = { "Spot" "Star" "Spirit" "Blaze" "Lucky" "Chief" "Rain" "Stormy" "Duke" "Traveler" "Clever Hans" "Dreamer" "Midnight" "Twilight" "Arion" "Carlos" "Triumph" }
-		
-		last_names = { "Glitterhoof" "Sparklemane" "Moontail" "Opaleye" "Silvercoat" "Goldmuzzle" }
-		
-	}
 	polar_bears = {
 		color = { 200 200 200 }
 		radicalism = 100
