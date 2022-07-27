@@ -2905,6 +2905,25 @@ romantic = {
 	
 }
 
+finnougric = {
+    leader = european
+    unit = SwedishGC
+	finnish = {
+		color = { 220 220 220 }
+		radicalism = 5
+		first_names = { "Aatto" "Akseli" "Aleksanteri" "Anders" "Aukusti" "Edvard" "Eemil" "Erkki" "Erno" "Fabian" "Fredrik" "Fridolf" "Georg" "G�sta" "Harald" "Hjalmar" "Hugo" "Johannes" "Juho" "Kaarlo" "Kurt" "Lars" "Martti" "Mikko" "Paavo" "Petteri" "Rudolf" "V�in�" "Viktor" "Vilho" }
+		last_names = { "Airo" "Alopaeus" "Aspara" "Cajander" "Ehrnrooth" "Heinrichs" "Heiskanen" "Holsti" "Ignatius" "J�rnef�lt" "Linder" "Mannerheim" "Multam�ki" "Nenonen" "Oesch" "�quist" "�sterman" "Paasikivi" "Raappana" "Ramsay" "Sihvo" "Siilasvuo" "Talvela" "Thesleff" "Tujulin" "Tuompo" "von Hesse-Kassel" "Walden" "Wallenius" "Wetzer" }
+		
+	}
+	estonian = {
+		color = { 40 30 60 }
+		radicalism = 5
+		first_names = { "Aadu" "Alar" "Aleksander" "Andrus" "Artur" "August" "Bernard" "Dmitri" "Eduard" "Eerik" "Elmar" "Ernst" "Georg" "Gustav" "Haman" "Harri" "Heino" "Hendrik" "Hjalmar" "Ivari" "Jaan" "Jakob" "Johannes" "Joosep" "Juhan" "Julius" "J�ri" "Kaarel" "Kalev" "Konstantin" "Lennart" "Ludvig" "Madis" "Mart" "Mikhel" "Nigul" "Olev" "Paavo" "Peeter" "Pent" "Ragnar" "Siiri" "Sven" "Tarmo" "T�nis" "Toomas" "Uno" "Valmar" "Villwm" "Voldemar" }
+		last_names = { "Aamisepp" "Aavik" "Adams" "Anvel" "Barbarus" "Bornh�he" "Eenpalu" "Hint" "Hurt" "Jaakson" "Kangro" "Kint" "Klaasen" "Koern" "K�iv" "Kotli" "Kumari" "Kupine" "Kuusik" "Leppik" "Lipping" "Lohk" "M�e" "M�nnil" "Moora" "Natus" "Nurkse" "Nurmekund" "�kva" "�pik" "Orkivu" "P�ts" "Perna" "Piiper" "Poska" "Puusepp" "R�nk" "Rei" "Reinman" "Siinmaa" "Sikkar" "Sirk" "T�nisson" "Uluots" "Vaga" "Veske" "Vilbaste" "Vilms" "von Uexk�ll" "Warma" }	
+	}
+	union = SUS
+}
+
 scandinavian = {
 	leader = european
 	unit = SwedishGC
@@ -2939,15 +2958,6 @@ scandinavian = {
 		first_names = { "Anundr" "Arnfast" "�li" "�lfr" "�lfgeir" "Andr�s" "Arnbj�rn" "Arngr�mr" "�rni" "�sbj�rn" "�ke" "�skell" "Baldr" "Bersi" "Bj�rn" "Bragi" "Bu�li" "B�r�r" "Birgir" "B�i" "B��var" "B�t�lfr" "Brynj�lfr" "Berg��r" "Dan" "Dagr" "D�ri" "Egill" "Einarr" "Eil�fr" "Emundr" "Eir�kr" "Eysteinn" "Einar" "Freyr" "Fasti" "Fri�r�kr" "Fr�rekr" "Fr��i" "F�lki" "Flosi" "Geirr" "Gu�mundr" "Gu�r��r" "Gunnarr" "Gand�lfr" "Gn�pa" "Gormr" "Gr�mr" "Gu�fr��r" "Grettir" "Haraldr" "Haukr" "Helgi" "Hrafn" "H�kon" "Hallsteinn" "Hemingr" "H�lmgeirr" "Hr�lfr" "Hrani" "H�steinn" "Hj�lmar" "Hr��geirr" "Hr���lfr" "Hr�rekr" "H�singr" "Halfd�n" "Herj�lfr" "H�r�r" "H�gni" "H�n�j�fr" "Hordaknutr" "Ing�lfr" "Ingimar" "Ingjaldr" "�var" "J�tvar�r" "J�rundr" "Karl" "Kjartan" "Kolbj�rn" "Ketill" "Ketilmundr" "Kn�tr" "Kollr" "K�ri" "Kolbeinn" "Lj�tr" "Magn�s" "Nj�ll" "Oddr" "Ormr" "�rvar" "�nundr" "�feigr" "�lafr" "�ttar" "�lvir" "�gmundr" "Refr" "Ragnarr" "R�gnvaldr" "Refill" "R�k�lfr" "Snorri" "Sigur�r" "Starka�r" "Steinn" "Sturla" "Styrbj�rn" "Sumarli�i" "Suni" "Sveinn" "Sverker" "S�mundr" "S�lvi" "Sk�li" "Sigrbj�rn" "Sigtryggr" "Styrk�r" "S�rkvir" "Skarph��inn" "Skj�ldr" "Tolir" "�orbj�rn" "�orbrandr" "�orsteinn" "Tyke" "�i��mundr" "T�ki" "�orfinnr" "�or�r" "�orgils" "��r�lfr" "T�sti" "�j�st�lfr" "Tryggvi" "�lfr" "�lfh��inn" "�lfkell" "Vagn" "V�mundr" "Valdemar" "Vigf�s" "Val�j�fr" "Yngvar" }
 		
 		last_names = { "St�rr" "Borg" "Kr�ka" "Mikli" "Smi�r" "M�ring" "G�rdske" "Trolli" "Kven" "Toki" "H�rde" "Eyjing" "Orming" "Go�i" "Austma�r" "H�vi" "Rakki" "Skrauti" "Snarfari" "Strangi" "Snjalli" "S�rr" "Sk�ld" "Viss" "�rymr" "�vari" "�lf�ss" "�rn" "Hv�ti" "Sterki" "Au�gi" "Rau�i" "Spaki" "Svarti" "Rammi" "Mj�vi" "R�ki" "Lambi" "Skarfr" "Sk�l" "Sleggja" "Smj�r" "Stjarna" "Str�gr" "S�lendingr" "S�rr" "S�lingr" "Trausti" "Ve�r" "V�m�li" "V�ni" "�istill" "�j�fi" "�ynning" "af Bebbanburg" "Byrrnesson" "af Raumariki" "af Bedford" "af Berks" "af Buckingham" "af Cambridge" "af Chester" "af Cornwall" "af Cumberland" "af Derby" "af Devon" "af Dorset" "af Durham" "af Essex" "af Gloucester" "af Southampton" "af Hereford" "af Hertford" "af Huntingdon" "af Kent" "af Lancaster" "af Leicester" "af Lincoln" "af Middlesex" "af Norfolk" "af Northampton" "af Northumberland" "af Oxford" "af Rutland" "af Shrop" "af Somerset" "af Stafford" "af Suffolk" "af Surrey" "af Sussex" "af Warwick" "af Westmorland" "af Wilts" "af Worcester" "af York" }
-		
-	}
-	finnish = {
-		color = { 220 220 220 }
-		radicalism = 5
-		
-		first_names = { "Aatto" "Akseli" "Aleksanteri" "Anders" "Aukusti" "Edvard" "Eemil" "Erkki" "Erno" "Fabian" "Fredrik" "Fridolf" "Georg" "G�sta" "Harald" "Hjalmar" "Hugo" "Johannes" "Juho" "Kaarlo" "Kurt" "Lars" "Martti" "Mikko" "Paavo" "Petteri" "Rudolf" "V�in�" "Viktor" "Vilho" }
-		
-		last_names = { "Airo" "Alopaeus" "Aspara" "Cajander" "Ehrnrooth" "Heinrichs" "Heiskanen" "Holsti" "Ignatius" "J�rnef�lt" "Linder" "Mannerheim" "Multam�ki" "Nenonen" "Oesch" "�quist" "�sterman" "Paasikivi" "Raappana" "Ramsay" "Sihvo" "Siilasvuo" "Talvela" "Thesleff" "Tujulin" "Tuompo" "von Hesse-Kassel" "Walden" "Wallenius" "Wetzer" }
 		
 	}
 	guldfjallling = {
