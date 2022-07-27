@@ -2913,6 +2913,14 @@ finnougric = {
 		first_names = { "Aadu" "Alar" "Aleksander" "Andrus" "Artur" "August" "Bernard" "Dmitri" "Eduard" "Eerik" "Elmar" "Ernst" "Georg" "Gustav" "Haman" "Harri" "Heino" "Hendrik" "Hjalmar" "Ivari" "Jaan" "Jakob" "Johannes" "Joosep" "Juhan" "Julius" "J�ri" "Kaarel" "Kalev" "Konstantin" "Lennart" "Ludvig" "Madis" "Mart" "Mikhel" "Nigul" "Olev" "Paavo" "Peeter" "Pent" "Ragnar" "Siiri" "Sven" "Tarmo" "T�nis" "Toomas" "Uno" "Valmar" "Villwm" "Voldemar" }
 		last_names = { "Aamisepp" "Aavik" "Adams" "Anvel" "Barbarus" "Bornh�he" "Eenpalu" "Hint" "Hurt" "Jaakson" "Kangro" "Kint" "Klaasen" "Koern" "K�iv" "Kotli" "Kumari" "Kupine" "Kuusik" "Leppik" "Lipping" "Lohk" "M�e" "M�nnil" "Moora" "Natus" "Nurkse" "Nurmekund" "�kva" "�pik" "Orkivu" "P�ts" "Perna" "Piiper" "Poska" "Puusepp" "R�nk" "Rei" "Reinman" "Siinmaa" "Sikkar" "Sirk" "T�nisson" "Uluots" "Vaga" "Veske" "Vilbaste" "Vilms" "von Uexk�ll" "Warma" }	
 	}
+	ugrian = {
+		color = { 60 160 160 }
+		
+		first_names = { "Aleksandr" "Dmitri" "Ivan" "Jukka" "Santeri" "Vladimir" "Chukhpelek" "Epkuv" "Evtin" "Kushchta" "Lyutya" "Makshchim" "Mikipur" "Mikit" "Mikul" "Mikuv" "Payal" "Pilya" "Sanka" "Shcherki" "Tepan" "Tyomkigi" "Untary" "Vashchka" "Vashchkigi" "V�lakshchi" "Yoshchka" "Yoshchkigi" "Yukhur" "Yuvan" }
+		
+		last_names = { "Kokko" "Likhachev" "Mamin" "Minin" "Sibiriak" "Tikhanov" "Zubov" }
+		
+	}
 	union = SUS
 }
 
