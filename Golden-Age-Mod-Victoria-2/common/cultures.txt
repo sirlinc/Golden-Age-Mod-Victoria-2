@@ -1083,14 +1083,6 @@ east_slavic = {
 		last_names = { "Aleksseyev" "Antonov" "Azarov" "Badanov" "Brusilov" "Budonnyy" "Chibisov" "Denikin" "Dragomirov" "Frolov" "Golivin" "Grishin" "Gurko" "Ivanov" "Konev" "Konstantinov" "Kornilov" "Kolchak" "Kuropatkin" "Lazarev" "Makarov" "Men'shikov" "Nakhimov" "Nebogatov" "Nikolayevich" "Ostrovskiy" "Pavlov" "Putyatin" "Romanov" "Rozhestvenskiy" "Skobelev" "Shuvalov" "Surkov" "Tukhachevskiy" "Yegorov" "Yudenich" "Vorontsov" "Voroshilov" "Zavoyko" }
 		
 	}
-	ugrian = {
-		color = { 60 160 160 }
-		
-		first_names = { "Aleksandr" "Dmitri" "Ivan" "Jukka" "Santeri" "Vladimir" "Chukhpelek" "Epkuv" "Evtin" "Kushchta" "Lyutya" "Makshchim" "Mikipur" "Mikit" "Mikul" "Mikuv" "Payal" "Pilya" "Sanka" "Shcherki" "Tepan" "Tyomkigi" "Untary" "Vashchka" "Vashchkigi" "V�lakshchi" "Yoshchka" "Yoshchkigi" "Yukhur" "Yuvan" }
-		
-		last_names = { "Kokko" "Likhachev" "Mamin" "Minin" "Sibiriak" "Tikhanov" "Zubov" }
-		
-	}
 	ukrainian = {
 		color = { 160 160 60 }
 		radicalism = 10
