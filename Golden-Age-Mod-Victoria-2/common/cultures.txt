@@ -93,7 +93,7 @@ american_cultures = {
 	
 	dixie = {
 		color = { 129 129 129 }
-		
+		radicalism = 15	
 		first_names = { "Robert" "Jesse" "James" "Nathan" "George" "Joseph" "John" "Patrick" "Albert" "Braxton" "William" "Ambrose" "Jubal" "Richard" "Lewis" "Edmund" "Leonida" "Benjamin" "Wade" "Daniel" "Thomas" "Jonathan" "Stonewall" "Lemual" "Sterling" "Raphael" "Kirby" "Pierre" "Jonas" "Frank" "Charles" "Peter" "Rand" "Leslie" "Howard" "Malvin" "Oscar" "Henry" "Simon" "Edward" "Gideon" "Isaac" "Evander" "Jerome" "Alfred" "Cadmus" "Fitz Hugh" "Carnot" "Ezra" "Wilton" }
 		
 		last_names = { "Lee" "Jackson" "Johnson" "Beauregard" "Stuart" "Longstreet" "Forrest" "Pickett" "Mosby" "Cleburne" "Hood" "Breckenridge" "Bragg" "Barksdale" "Early" "Hill" "Ewell" "Morgan" "Armistead" "Semmes" "Smith" "Hampton" "Polk" "Cheatham" "Wheeler" "Pemberton" "Gordon" "Hardee" "Floyd" "Price" "Wise" "Van Dorn" "Loring" "Buckner" "Taylor" "Williams" "French" "Gibbs" "Hindman" "Anderson" "Sibley" "Garnett" "Magruder" "Pillow" "McLaws" "Rodes" "Heth" "Pender" "Trimble" "Kershaw" "Wofford" "Kemper" "Law" "Robertson" "Benning" "Hays" "Walker" "Iverson" "Wilcox" "Mahone" "Wright" "Pettigrew" "Archer" "Davis" "Lane" "Posey" "Scales" "Warner" "Imboden" "Jenkins" }
@@ -107,15 +107,6 @@ american_cultures = {
 		last_names = { "Smith" "Washington" "Grant" "Sherman" "Chamberlain" "Powell" "Clemens" "Abbott" "Abercrombie" "Allen" "Ames" "Anderson" "Barkhauer" "Andrews" "Appleton" "Armstrong" "Arthur" "Atkins" "Asboth" "Babcock" "Baker" "Pope" "Banks" "Barnard" "Barnes" "Barnum" "Barry" "Barstow" "Bartlett" "Bates" "Baxter" "Beatty" "Belknap" "Benton" "Blair" "Blunt" "Bradley" "Brown" "Buell" "Buford" "Burnside" "Butler" "Caldwell" "Campbell" "Carr" "Chapman" "Chipman" "Clayton" "Coburn" "Connor" "Conrad" "Cook" "Cooper" "Crittenden" "Custer" "Davies" "Davis" "Doubleday" "Ewing" "Farnsworth" "Ford" "Forsyth" "Foster" "Franklin" "Fry" "Gilbert" "Gregg" "Griffin" "Halleck" "Hamlin" "Hancock" "Harrison" "Hatch" "Hayes" "Heintzelman" "Hooker" "Howard" "Hunter" "Jackson" "Johnson" "Jones" "Keyes" "Kimball" "Lyon" "McArthur" "McClellan" "McCook" "McDowell" "Meade" "Mitchell" "Morgan" "Paine" "Phelps" "Porter" "Potter" "Reynolds" "Rice" "Rhodes" "Robinson" "Rosencrans" "Saloman" "Schenck" "Schofield" "Scott" "Sedgwick" "Seward" "Sheridan" "Sickles" "Sprague" "Stevens" "Stevenson" "Stone" "Sullivan" "Taylor" "Tyler" "Wade" "Wadsworth" "Wallace" "Ward" "Warner" "Wilson" "Wright" "Young" }
 		
 	}
-	
-	union = USA
-	
-}
-
-texan_cultures = {
-	leader = european
-	is_overseas = no
-	unit = UsGC
 	texan = {
 		color = { 153 0 0 }
 		radicalism = 10
@@ -125,7 +116,6 @@ texan_cultures = {
 		last_names = { "Bee" "Ector" "Gano" "Granbury" "Green" "Greer" "Gregg" "Hardeman" "Harrison" "Hood" "Johnston" "King" "Lane" "Mabry" "Maxey" "McCulloch" "Moore" "Nelson" "Randal" "Robertson" "Ross" "Rosser" "Scurry" "Steele" "Terrell" "Waterhouse" "Waul" "Wharton" "Whitfield" "Wigfall" "Young" "Bowie" "Travis" "Houston" }
 		
 	}
-
 	union = USA
 	
 }
@@ -161,42 +151,7 @@ arab = {
 		last_names = { "al-Jazuli" "Belkadi" "Mukrani" "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi" }
 		
 	}
-	ealimi = {
-		color = { 114 168 187 }
-		radicalism = 10
-		
-		first_names = { "Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Ja'far" "Jamal" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" "Sa'd al-Din" "Salim" "Sa'ud" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" }
-		
-		last_names = { "ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali" "ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" "ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" }
-		
-	}
-	frencharab = {
-		color = { 0 172 181 }
-		radicalism = 10
-		
-		first_names = { "Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Ja'far" "Jamal" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" "Sa'd al-Din" "Salim" "Sa'ud" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" }
-		
-		last_names = { "ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali" "ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" "ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" "al-Ilidufransi" "al-Biri" "al-Uwrilyanisi" "al-Nwrmandi" "al-Langhuduki" "al-Luynihi" "al-Dawfini" "al-Shambani" "al-Eunisi" "al-Sayntwnji" "al-Bawatui" "al-Jawin al-Wajasikuni" "al-Buarjundi" "al-Bikardi" "al-Anjui" "al-Brwfansi" "al-Anjumuui" "al-Burbunaysi" "al-Mariki" "al-Baritani" "al-Mayni" "al-Turini" "al-Liamuzini" "al-Fuui" "al-Awfirni" "al-Biarini" "al-Alzasi" "al-Artawazi" "al-Rusiuni" "al-Falandarazi" "al-Faranshi" "al-Kumiti" "al-Lurini" "al-Wabaruisi" "al-Kursiki" "al-Nayfrini" }
-		
-	}
-	ifriqi = {
-		color = { 97 131 138 }
-		radicalism = 10
-		
-		first_names = { "Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Ja'far" "Jamal" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" "Sa'd al-Din" "Salim" "Sa'ud" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" }
-		
-		last_names = { "ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali" "ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" "ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" }
-		
-	}
-	janubii = {
-		color = { 127 136 143 }
-		radicalism = 10
-		
-		first_names = { "Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Ja'far" "Jamal" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" "Sa'd al-Din" "Salim" "Sa'ud" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" }
-		
-		last_names = { "ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali" "ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" "ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" }
-		
-	}
+
 	maghrebi = {
 		color = { 24 103 22 }
 		
@@ -285,15 +240,7 @@ beneluxian = {
 		last_names = { "Andries" "Annez de Zillebroeck" "Barbanson" "Barth�l�my" "Beaucarne" "Beernaert" "Berthels" "Bethune" "Beyts" "Bischoff" "Blomme" "Bosmans" "Boucqueau de Villeraye" "Buylaert" "Buyse" "Claes" "Claus" "Cogels" "Cols" "Coppens" "Coppieters" "Corten" "Cruts" "d'Arschot Schoonhoven" "d'Ansembourg" "d'Hanens" "de Brouck�re" "de Celles" "de Coninck" "de Decker" "de Foere" "de Gaesebeke" "de Ghellink" "de Grez" "de Haerne" "de Jonghe" "de Jonghe d'Ardoye" "de Langhe" "de Leeuw" "de Leuze" "de Man" "de Meer de Moorsel" "de Meester" "de M�rode" "de Muelenaere" "de Pelichy" "de Renesse" "de Robiano" "de Rodes" "de Roo" "de Ryckere" "de Smet" "de Theux de Meylandt" "de Tiecken" "de Viron" "de Woelmont" "Dayeneux" "Delberke" "Delehaye" "Delwarde" "Desmanet de Biesme" "Destouvelles" "Deswert" "Devaux" "Dhanis" "Domis" "du Bois" "Fransman" "Gelders" "Geudens" "Goethals" "Hennequin" "Huysman d'Annecroix" "Jacobs" "Janssens" "Joos" "Jottrand" "Kockaert" "Ledeganck" "Lefebvre" "Liedts" "Marcq" "Meeus" "Morel" "Moyersoen" "Mulle" "Nypels" "Ooms" "Osy" "Peemans" "Peeters" "Petens" "Rodenbach" "Roels" "Rosseuw" "Rouppe" "Rutten" "Serruys" "Schollaert" "Speelman" "Simons" "Struye" "Surlet de Chokier" "Surmont de Volsberghe" "Terlinden" "Teuwens" "Tilkens" "Thienpont" "van Caloen" "van Casteel" "van Crombrugghe" "van de Kerchove" "van de Werve de Vorselaar" "van de Weyer" "van den Broucke" "van den Hove" "van der Belen" "van der Bruggen" "van der Burch" "van der Eecken" "van der Linden" "van der Linden d'Hooghvorst" "van der Looy" "van Dievoet" "van Dorpe" "van Havre" "van Hoobrouck" "van Innis" "van Meenen" "van Neste" "van Snick" "van Tongerloo" "van Volden de Lombeke" "van Zeeland" "Vandive" "Verbeke" "Vercruysse" "Verduyn" "Vergauwen" "Verseyden de Varick" "Verwilghen" "Vilain XIIII" "Wallaert" "Wannaar" "Werbrouck" "Wyvekens" }
 		
 	}
-	grootdesseyn = {
-		color = { 132 24 183 }
-		radicalism = 10
-		
-		first_names = { "Sarel" "Rudolf" "Andries" "Hendrik" "Piet" "Racheltjie" "Dirkie" "Siener" "Koos" "Danie" "Christiaan" "Louis" "Petrus" "Paul" "Eugene" "Joubert" }
-		
-		last_names = { "Cilliers" "Botha" "Joubert" "Kruger" "Duquesne" "Potgieter" "van Rensburg" "de la Rey" "Theron" "de Wet" "Pretorius" "Retief" "de Beer" "Uys" }
-		
-	}
+
 	mauritsstadtian = {
 		color = { 149 119 184 }
 		radicalism = 10
