@@ -240,13 +240,7 @@ beneluxian = {
 		last_names = { "Andries" "Annez de Zillebroeck" "Barbanson" "Barth�l�my" "Beaucarne" "Beernaert" "Berthels" "Bethune" "Beyts" "Bischoff" "Blomme" "Bosmans" "Boucqueau de Villeraye" "Buylaert" "Buyse" "Claes" "Claus" "Cogels" "Cols" "Coppens" "Coppieters" "Corten" "Cruts" "d'Arschot Schoonhoven" "d'Ansembourg" "d'Hanens" "de Brouck�re" "de Celles" "de Coninck" "de Decker" "de Foere" "de Gaesebeke" "de Ghellink" "de Grez" "de Haerne" "de Jonghe" "de Jonghe d'Ardoye" "de Langhe" "de Leeuw" "de Leuze" "de Man" "de Meer de Moorsel" "de Meester" "de M�rode" "de Muelenaere" "de Pelichy" "de Renesse" "de Robiano" "de Rodes" "de Roo" "de Ryckere" "de Smet" "de Theux de Meylandt" "de Tiecken" "de Viron" "de Woelmont" "Dayeneux" "Delberke" "Delehaye" "Delwarde" "Desmanet de Biesme" "Destouvelles" "Deswert" "Devaux" "Dhanis" "Domis" "du Bois" "Fransman" "Gelders" "Geudens" "Goethals" "Hennequin" "Huysman d'Annecroix" "Jacobs" "Janssens" "Joos" "Jottrand" "Kockaert" "Ledeganck" "Lefebvre" "Liedts" "Marcq" "Meeus" "Morel" "Moyersoen" "Mulle" "Nypels" "Ooms" "Osy" "Peemans" "Peeters" "Petens" "Rodenbach" "Roels" "Rosseuw" "Rouppe" "Rutten" "Serruys" "Schollaert" "Speelman" "Simons" "Struye" "Surlet de Chokier" "Surmont de Volsberghe" "Terlinden" "Teuwens" "Tilkens" "Thienpont" "van Caloen" "van Casteel" "van Crombrugghe" "van de Kerchove" "van de Werve de Vorselaar" "van de Weyer" "van den Broucke" "van den Hove" "van der Belen" "van der Bruggen" "van der Burch" "van der Eecken" "van der Linden" "van der Linden d'Hooghvorst" "van der Looy" "van Dievoet" "van Dorpe" "van Havre" "van Hoobrouck" "van Innis" "van Meenen" "van Neste" "van Snick" "van Tongerloo" "van Volden de Lombeke" "van Zeeland" "Vandive" "Verbeke" "Vercruysse" "Verduyn" "Vergauwen" "Verseyden de Varick" "Verwilghen" "Vilain XIIII" "Wallaert" "Wannaar" "Werbrouck" "Wyvekens" }
 		
 	}
-	wallonian = {
-		color = { 190 90 20 }
-		
-		first_names = { "Albert" "Alexandre" "Alexis" "Alphonse" "Andr�" "Antoine" "Auguste" "Barth�l�my" "Baudouin" "Blaise" "Camille" "Cl�ment" "Charles" "Constant" "Damien" "David" "D�sir�" "Didier" "Edmond" "�douard" "Emmanuel" "�mile" "Etienne" "Eug�ne" "F�lix" "Fernand" "Feullien" "Florent" "Fran�ois" "Fr�d�ric" "Georges" "G�rard" "Gilles" "Guillaume" "Gustave" "Henri" "Hercule" "Hubert" "Ignace" "Isidore" "Jacques" "Jean" "Jean-Baptiste" "Jean-Fran�ois" "Jean-Louis" "Jean-Jacques" "Joseph" "Jules" "Lambert" "Laurent" "L�on" "L�onard" "L�opold" "Louis" "Lucien" "Mathieu" "Maxime" "Maximilien" "Nicolas" "Olivier" "Pascal" "Patrice" "Paul" "Philippe" "Philippe-Joseph" "Pierre" "Pierre-Guillaume" "S�bastien" "Sylvain" "Th�ophile" "Victor" "Vincent" "Werner" }
-		
-		last_names = { "Allard" "Barbanson" "Barth�l�my" "Baugniet" "Beaucarne" "Berger" "Berthels" "Beyts" "Biver" "Blargnies" "Brialmont" "Bredart" "Cauvin" "Collet" "Cols" "Claus" "Clerix" "Coquilhat" "d'Arenberg" "d'Huart" "d'Omalius" "d'Oreye" "d'Oultremont" "David" "Davignon" "de Baillet" "de Beaufort" "de Behr" "de Bocarm�" "de Bousies" "de Brouck�re" "de Broqueville" "de Burlet" "de Celles" "de Chasteler" "de Coppin de Falaen" "de Cro�" "de Decker" "de Dixmude" "de Gerlache" "de Grez" "de Hemptinne" "de Labbeville" "de Lannoy" "de Ligne" "de Leuze" "de Melin" "de M�rode" "de Pelichy" "de Quarre" "de Riquet" "de Robaulx" "de Rouille" "de Sauvage" "de S�cus" "de Selys Longchamps" "de Stassart" "de Stockem" "de Theux de Meylandt" "de Trazegnies" "de Trooz" "de Viron" "de Waha" "Defacqz" "Deguise" "Delacroix" "Desmanet de Biesme" "Destriveaux" "Dethier" "Devaux" "Deville" "Dewandre" "Dhanis" "Dreze" "du Bois" "du Bus" "du Pont" "du Val de Beaulieu" "Dumont" "Fallon" "Fendius" "Figeys" "Fleury-Dubay" "Fleussu" "Forgeur" "Frison" "Fuchs" "Gendebien" "Goffint" "Henry" "Huysman d'Annecroix" "Jacques" "Joos" "Jottrand" "Lahure" "Lardinois" "le Cocq" "le Hon" "Lebeau" "Leclercq" "Lefebvre" "Leman" "Malou" "Marcq" "Marlet" "Masbourg" "Nagelmackers" "Nalinne" "Nothomb" "Orban" "P�tillon" "Picquet" "Pirmez" "Pirson" "Raikem" "Roeser" "Rogier" "Rouen" "Rouppe" "Seron" "Thonus" "Thorn" "van Snick" "Wahis" "Wangerm�e" "Wyvekens" "Zoude" }
-}
+
 
 british = {
 	leader = european
@@ -1039,27 +1033,12 @@ french = {
 	unit = FrenchGC
 	
 	french = {
-		color = { 20 20 100 }
+		color = { 20 20 120 }
 		
 		first_names = { "Achille" "Adolphe" "Adrien" "Aimable" "Alphonse" "Am�d�e" "Antoine" "Armand" "August" "Augustin" "Charles" "Daniel" "Denis" "�douard" "Elie" "�ttiene" "Eug�ne" "F�licien" "F�lix" "Fernand" "Fran�ois" "Fr�d�ric" "Georges" "Guillaume" "Gustave" "Henri" "Hubert" "Hugo" "Jacques" "Jean" "Joseph" "Jules" "Julien" "Lazare" "L�opold" "Leroy" "Louis" "Lucien" "Matthieu" "Michel" "Napol�on" "Nicolas" "Patrice" "Paul" "Philippe" "Pierre" "Robert" "Thibaut" "Thierry" "Thomas" }
 		
 		last_names = { "Anthoine" "Baraguey d'Hilliers" "Bazaine" "Billot" "Bonaparte" "Bosquet" "Bou� de Lapeyr�re" "Bou�t-Willaumez" "Boulanger" "Bourbaki" "Bugeaud" "Caillard" "Canrobert" "Courbet" "Cousin-Mountauban" "Davout" "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle" "de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" "d'Orleans" "Dubail" "Dubois" "Duch�ne" "Dupetit-Thouars" "Exelmans" "Foch" "Forey" "Franchet d'Esp�rey" "Gallieni" "Gouraud" "Guillaumat" "Hamelin" "Harispe" "Hoche" "Humbert" "Jaur�s" "Joffre" "Lebouef" "Lyautey" "Murat" "Ney d'Elchingen" "Nivelle" "P�llissier" "Petain" "Vaillant" }
-		
 	}
-	guillaumois = {
-		color = { 138 181 186 }
-		
-		first_names = { "Achille" "Adolphe" "Adrien" "Aimable" "Alphonse" "Am�d�e" "Antoine" "Armand" "August" "Augustin" "Charles" "Daniel" "Denis" "�douard" "Elie" "�ttiene" "Eug�ne" "F�licien" "F�lix" "Fernand" "Fran�ois" "Fr�d�ric" "Georges" "Guillaume" "Gustave" "Henri" "Hubert" "Hugo" "Jacques" "Jean" "Joseph" "Jules" "Julien" "Lazare" "L�opold" "Leroy" "Louis" "Lucien" "Matthieu" "Michel" "Napol�on" "Nicolas" "Patrice" "Paul" "Philippe" "Pierre" "Robert" "Thibaut" "Thierry" "Thomas" }
-		
-		last_names = { "Amond" "Archer" "Argent" "Aucourte" "Avery" "Bailey" "Bacca" "Banister" "Baskerville" "Basset" "Beauchamp" "Beaumont" "Bellamy" "Belford" "Blampied" "Blanchard" "Blodgett" "Bonner" "Bragg" "Brazier" "Brocket" "Bryan" "Bullen" "Bunker" "Burce" "Burcy" "Burgoyne" "Burke" "de Burgh" "Buttle" "Butcher" "Boucher" "Carpenter" "Carter" "Chamberlain" "Chambers" "Champernon" "Champernowne" "Cambernon" "Champernoun" "Champnon" "Chamborne" "Chancellor" "Condon" "Corbett" "Cornely" "Courtenay" "Cruise" "Curtis" "Dalton" "Darrell" "Daubney" "Daugherty" "Delaney" "Devere" "de Vere" "Devereux" "Disney" "Dorsey" "Draper" "Drury" "D'Arcy" "D'Onston" "De Gascur" "de Lacy" "De Quincey" "De Marisco" "de Voil" "Enfield" "Farmer" "Fay" "de Fae" "FitzJoly" "FitzWilliam" "Florence" "Fortescue" "Francis" "French" "Gascoignes" "Geary" "Godfrey" "Grant" "Granville" "Hall" "Halsall" "Harcourt" "Henry" "Hirons" "Hamblin" "Ilbert" "Ingram" "Ingrams" "Irons" "Jolly" "Jordan" "Lamar" "Lamarr" "Large" "l'Argent" "Latimer" "Leavitt" "Lever" "Levett" "Longe" "Lovell" "Lowell" "Luci" "Lyon" "Lyons" "Lear" "Major" "Malet" "Mallory" "Mandeville" "Marion" "Mayeux" "Mayoh" "Mayor" "Montgomery" "Mottershead" "Mundy" "Montagu" "Morris" "Mortimer" "Neville" "Osment" "Osmond" "Pane" "Percy" "Pomeroy" "Pople" "Purefoy" "Quincy" "Roy" "Royall" "Russell" "Rockett" "Sarell" "Sayre" "Sidney" "Sinclair" "Spencer" "St Clair" "St Leger" "Saint Claire" "Seymour" "Taillefer" "Talbot" "Taney" "Terrell" "Tracey" "Travis" "Varley" "Verley" "Vavasour" "Vere" "Vernon" "Vincent" "Vipond" "Wallace" "Warren" "Wharmby" "Wilburn" "Worley" "Wyvill" "Zouch" }
-		
-	}
-	guiscard = {
-		color = { 166 229 58 }
-		
-		first_names = { "Achille" "Adolphe" "Adrien" "Aimable" "Alphonse" "Am�d�e" "Antoine" "Armand" "August" "Augustin" "Charles" "Daniel" "Denis" "�douard" "Elie" "�ttiene" "Eug�ne" "F�licien" "F�lix" "Fernand" "Fran�ois" "Fr�d�ric" "Georges" "Guillaume" "Gustave" "Henri" "Hubert" "Hugo" "Jacques" "Jean" "Joseph" "Jules" "Julien" "Lazare" "L�opold" "Leroy" "Louis" "Lucien" "Matthieu" "Michel" "Napol�on" "Nicolas" "Patrice" "Paul" "Philippe" "Pierre" "Robert" "Thibaut" "Thierry" "Thomas" }
-		
-		last_names = { "Anthoine" "Baraguey d'Hilliers" "Bazaine" "Billot" "Bonaparte" "Bosquet" "Bou� de Lapeyr�re" "Bou�t-Willaumez" "Boulanger" "Bourbaki" "Bugeaud" "Caillard" "Canrobert" "Courbet" "Cousin-Mountauban" "Davout" "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle" "de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" "d'Orleans" "Dubail" "Dubois" "Duch�ne" "Dupetit-Thouars" "Exelmans" "Foch" "Forey" "Franchet d'Esp�rey" "Gallieni" "Gouraud" "Guillaumat" "Hamelin" "Harispe" "Hoche" "Humbert" "Jaur�s" "Joffre" "Lebouef" "Lyautey" "Murat" "Ney d'Elchingen" "Nivelle" "P�llissier" "Petain" "Vaillant" }
 		
 	}
 	occitan = {
@@ -1070,7 +1049,14 @@ french = {
 		last_names = { "d'Alfar" "de Carro" "de Caus" "de Cumenge" "de Gordo" "de la Mota" "de Montagut" "de Recaut" "de Vezis" "Alamant" "Azalbertz" "Caldairo" "Cardenals" "Catz" "Caudaro" "Claris" "Espaza" "Jordas" "Lomanhes" "Martis" "Palomer" "Pan" "Peire" "Rabastens" "Romeus" "Rossilhon" "Soler" "Tezis" "Topina" "Unaut" }
 		
 	}
-	outremer = {
+    arpitan = {
+        color = { 160 140 245 }
+        first_names = { "Achille" "Adolphe" "Adrien" "Aimable" "Alphonse" "Amédée" "Antoine" "Armand" "August" "Augustin" "Charles" "Daniel" "Denis" "Édouard" "Elie" "Éttiene" "Eugène" "Félicien" "Félix" "Fernand" "François" "Frédéric" "Georges" "Guillaume" "Gustave" "Henri" "Hubert" "Hugo" "Jacques" "Jean" "Joseph" "Jules" "Julien" "Lazare" "Léopold" "Leroy" "Louis" "Lucien" "Matthieu" "Michel" "Napoléon" "Nicolas" "Patrice" "Paul" "Philippe" "Pierre" "Robert" "Thibaut" "Thierry" "Thomas" }
+
+        last_names = { "Anthoine" "Baraguey d'Hilliers" "Bazaine" "Billot" "Bonaparte" "Bosquet" "Boué de Lapeyrère" "Bouët-Willaumez" "Boulanger" "Bourbaki" "Bugeaud" "Caillard" "Canrobert" "Courbet" "Cousin-Mountauban" "Davout" "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle" "de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" "d'Orleans" "Dubail" "Dubois" "Duchêne" "Dupetit-Thouars" "Exelmans" "Foch" "Forey" "Franchet d'Espèrey" "Gallieni" "Gouraud" "Guillaumat" "Hamelin" "Harispe" "Hoche" "Humbert" "Jaurès" "Joffre" "Lebouef" "Lyautey" "Murat" "Ney d'Elchingen" "Nivelle" "Péllissier" "Petain" "Vaillant" }
+}
+	outremer = { #french_crusaders
+
 		color = { 211 230 211 }
 		
 		first_names = { "Achille" "Adolphe" "Adrien" "Aimable" "Alphonse" "Am�d�e" "Antoine" "Armand" "August" "Augustin" "Charles" "Daniel" "Denis" "�douard" "Elie" "�ttiene" "Eug�ne" "F�licien" "F�lix" "Fernand" "Fran�ois" "Fr�d�ric" "Georges" "Guillaume" "Gustave" "Henri" "Hubert" "Hugo" "Jacques" "Jean" "Joseph" "Jules" "Julien" "Lazare" "L�opold" "Leroy" "Louis" "Lucien" "Matthieu" "Michel" "Napol�on" "Nicolas" "Patrice" "Paul" "Philippe" "Pierre" "Robert" "Thibaut" "Thierry" "Thomas" }
@@ -1078,23 +1064,28 @@ french = {
 		last_names = { "Emicho" "Sans-Avoir" "Gautier" "de Taranto" "Bohemond" "Tancred" "Herman" "de Hauteville" "de Salerno" "de Bouillon" "Godfrey" "Eustace" "de Boulogne" "Baldwin" "de Fauquembergues" "Galilee" "Nazareth" "de Bazoches" "Gervaise" "Fulcher" "de Chartres" "de le Bourg" "de Saint-Pol" "Grenier" "de Hainaut" "Grez" "Raymond" "de Saint-Gilles" "de Monteil" "Cerdagne" "Le Puy" "B�arn" "Bigorre" "Guinard" "de Roussillon" "Aicard" "d'Arles" "de Lusignan" "Berenguer" "Aguilers" "Raimbaut" "Roman" "d'Orange" "Odo" "Bayeux" "Chocques" "Curthose" "de Guader" "H�ribrand" "Hierges" "Vermandois" "Coucy" "Embriaco" "Montlh�ry" "Alan" "Lastours" "d'Auvergne" "de Bourgogne" "de Blois" "de Toulouse" "de Boulogne" "de Provence" "Lemarquis" "de Flandre" "de Bretagne" "de Normandie" "de La Tr�moille" "G�nes" "Lotharingie" "Tarente" "Arm�nie" "Crois�" "Fatimide" "Danichmendide" "de Roum" "Arslan" }
 		
 	}
-	picard = {
-		color = { 100 110 136 }
+	burgundian = {
+		color = { 240 70 120 }
 		
-		first_names = { "Achille" "Adolphe" "Adrien" "Aimable" "Alphonse" "Am�d�e" "Antoine" "Armand" "August" "Augustin" "Charles" "Daniel" "Denis" "�douard" "Elie" "�ttiene" "Eug�ne" "F�licien" "F�lix" "Fernand" "Fran�ois" "Fr�d�ric" "Georges" "Guillaume" "Gustave" "Henri" "Hubert" "Hugo" "Jacques" "Jean" "Joseph" "Jules" "Julien" "Lazare" "L�opold" "Leroy" "Louis" "Lucien" "Matthieu" "Michel" "Napol�on" "Nicolas" "Patrice" "Paul" "Philippe" "Pierre" "Robert" "Thibaut" "Thierry" "Thomas" }
-		
-		last_names = { "Anthoine" "Baraguey d'Hilliers" "Bazaine" "Billot" "Bonaparte" "Bosquet" "Bou� de Lapeyr�re" "Bou�t-Willaumez" "Boulanger" "Bourbaki" "Bugeaud" "Caillard" "Canrobert" "Courbet" "Cousin-Mountauban" "Davout" "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle" "de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" "d'Orleans" "Dubail" "Dubois" "Duch�ne" "Dupetit-Thouars" "Exelmans" "Foch" "Forey" "Franchet d'Esp�rey" "Gallieni" "Gouraud" "Guillaumat" "Hamelin" "Harispe" "Hoche" "Humbert" "Jaur�s" "Joffre" "Lebouef" "Lyautey" "Murat" "Ney d'Elchingen" "Nivelle" "P�llissier" "Petain" "Vaillant" }
-		
+        first_names = { "Achille" "Adolphe" "Adrien" "Aimable" "Alphonse" "Amédée" "Antoine" "Armand" "August" "Augustin" "Charles" "Daniel" "Denis" "Édouard" "Elie" "Éttiene" "Eugène" "Félicien" "Félix" "Fernand" "François" "Frédéric" "Georges" "Guillaume" "Gustave" "Henri" "Hubert" "Hugo" "Jacques" "Jean" "Joseph" "Jules" "Julien" "Lazare" "Léopold" "Leroy" "Louis" "Lucien" "Matthieu" "Michel" "Napoléon" "Nicolas" "Patrice" "Paul" "Philippe" "Pierre" "Robert" "Thibaut" "Thierry" "Thomas" }
+
+        last_names = { "Anthoine" "Baraguey d'Hilliers" "Bazaine" "Billot" "Bonaparte" "Bosquet" "Boué de Lapeyrère" "Bouët-Willaumez" "Boulanger" "Bourbaki" "Bugeaud" "Caillard" "Canrobert" "Courbet" "Cousin-Mountauban" "Davout" "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle" "de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" "d'Orleans" "Dubail" "Dubois" "Duchêne" "Dupetit-Thouars" "Exelmans" "Foch" "Forey" "Franchet d'Espèrey" "Gallieni" "Gouraud" "Guillaumat" "Hamelin" "Harispe" "Hoche" "Humbert" "Jaurès" "Joffre" "Lebouef" "Lyautey" "Murat" "Ney d'Elchingen" "Nivelle" "Péllissier" "Petain" "Vaillant" }		
 	}
-	rollonian = {
-		color = { 91 214 47 }
+	norman = {
+		color = { 20 30 80 }
 		
-		first_names = { "Agnar" "�sgeir" "Bj�rn" "Eidur" "Einar" "Emil" "Geir" "Gudmund" "Gunnar" "Hannes" "Hermann" "J�n" "Kristj�n" "Magn�s" "�lafur" "P�tur" "Sigurdur" "Stef�n" "Sveinn" "Tryggvi" }
+		first_names = { "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" }
 		
 		last_names = { "Anger" "Angot" "Anquetil" "Auber" "Aumont" "Azouf" "Aze" "Brument" "Burnouf" "Ernouf" "Estur" "Frigard" "Gaument" "Godefroy" "Gonnor" "Gounouf" "Guillhouf" "Harang" "Harou" "Hastain" "Havard" "H�ron" "Houlegate" "Ingouf" "Youf" "N�el" "Onfroy" "Osmond" "Osouf" "Qu�til" "Rabec" "Renouf" "Th�roulde" "Troude" "Tostain" "Toutain" "Turqu�til" "Tougard" "Turgot" "Turgis" "Varanger" "Varangot" "Yver" }
 		
 	}
-	
+	wallonian = {
+		color = { 190 90 20 }
+		
+		first_names = { "Albert" "Alexandre" "Alexis" "Alphonse" "Andr�" "Antoine" "Auguste" "Barth�l�my" "Baudouin" "Blaise" "Camille" "Cl�ment" "Charles" "Constant" "Damien" "David" "D�sir�" "Didier" "Edmond" "�douard" "Emmanuel" "�mile" "Etienne" "Eug�ne" "F�lix" "Fernand" "Feullien" "Florent" "Fran�ois" "Fr�d�ric" "Georges" "G�rard" "Gilles" "Guillaume" "Gustave" "Henri" "Hercule" "Hubert" "Ignace" "Isidore" "Jacques" "Jean" "Jean-Baptiste" "Jean-Fran�ois" "Jean-Louis" "Jean-Jacques" "Joseph" "Jules" "Lambert" "Laurent" "L�on" "L�onard" "L�opold" "Louis" "Lucien" "Mathieu" "Maxime" "Maximilien" "Nicolas" "Olivier" "Pascal" "Patrice" "Paul" "Philippe" "Philippe-Joseph" "Pierre" "Pierre-Guillaume" "S�bastien" "Sylvain" "Th�ophile" "Victor" "Vincent" "Werner" }
+		
+		last_names = { "Allard" "Barbanson" "Barth�l�my" "Baugniet" "Beaucarne" "Berger" "Berthels" "Beyts" "Biver" "Blargnies" "Brialmont" "Bredart" "Cauvin" "Collet" "Cols" "Claus" "Clerix" "Coquilhat" "d'Arenberg" "d'Huart" "d'Omalius" "d'Oreye" "d'Oultremont" "David" "Davignon" "de Baillet" "de Beaufort" "de Behr" "de Bocarm�" "de Bousies" "de Brouck�re" "de Broqueville" "de Burlet" "de Celles" "de Chasteler" "de Coppin de Falaen" "de Cro�" "de Decker" "de Dixmude" "de Gerlache" "de Grez" "de Hemptinne" "de Labbeville" "de Lannoy" "de Ligne" "de Leuze" "de Melin" "de M�rode" "de Pelichy" "de Quarre" "de Riquet" "de Robaulx" "de Rouille" "de Sauvage" "de S�cus" "de Selys Longchamps" "de Stassart" "de Stockem" "de Theux de Meylandt" "de Trazegnies" "de Trooz" "de Viron" "de Waha" "Defacqz" "Deguise" "Delacroix" "Desmanet de Biesme" "Destriveaux" "Dethier" "Devaux" "Deville" "Dewandre" "Dhanis" "Dreze" "du Bois" "du Bus" "du Pont" "du Val de Beaulieu" "Dumont" "Fallon" "Fendius" "Figeys" "Fleury-Dubay" "Fleussu" "Forgeur" "Frison" "Fuchs" "Gendebien" "Goffint" "Henry" "Huysman d'Annecroix" "Jacques" "Joos" "Jottrand" "Lahure" "Lardinois" "le Cocq" "le Hon" "Lebeau" "Leclercq" "Lefebvre" "Leman" "Malou" "Marcq" "Marlet" "Masbourg" "Nagelmackers" "Nalinne" "Nothomb" "Orban" "P�tillon" "Picquet" "Pirmez" "Pirson" "Raikem" "Roeser" "Rogier" "Rouen" "Rouppe" "Seron" "Thonus" "Thorn" "van Snick" "Wahis" "Wangerm�e" "Wyvekens" "Zoude" }
+}
 	union = FRA
 	
 }
