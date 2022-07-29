@@ -108,6 +108,10 @@ country_migration_target =
 		vote_franschise = universal_voting
 	}
 	modifier = {
+        	factor = 0.9
+        	is_culture_group = THIS
+	}
+	modifier = {
 		factor = 4.0
                 NOT = {
                     OR = {
