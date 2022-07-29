@@ -2299,6 +2299,14 @@ pan_romanian = {
 		last_names = { "Batzaria" "Carafoli" "Caragiu" "Caramitru" "Djuvara" "Ha�otti" "Papahagi" "Angelescu" "Antonescu" "Argetoianu" "Averescu" "Baldescu" "Barozzi" "Berindei" "Cernat" "Christecu" "Cihoski" "Ciuperca" "Coanda" "Crainiceanu" "Critescu" "Culcer" "Cuza" "de Hohenzollern" "Dona" "Dragalina" "Dumitrescu" "Falcoianu" "Florescu" "Gardescu" "Grigorescu" "Froza" "Harjeu" "Holban" "Iancovescu" "Iliasevici" "Iliescu" "Ionascu" "Ionescu" "Ionitiu" "Koslinski" "Lahovary" "Lupescu" "Mardarescu" "Murgescu" "Poenaru" "Prezan" "Salajan" "Samsonovici" "Schitiu" "Scodrea" "Slaniceanu" "Steflea" "Tatarascu" "Tenescu" "Vaitoianu" "Zottu" }
 		
 	}
+	morlach = {
+		color = { 55 144 66 }
+		
+		first_names = { "Alfonso" "Ambrogio" "Amedeo" "Andrea" "Angelo" "Antonio" "Armando" "Augusto" "Benito" "Camillo" "Carlo" "Cesare" "Corrado" "Costanzo" "Domenico" "Enrico" "Fabio" "Fabrizio" "Faustino" "Felice" "Ferdinando" "Fiorenzo" "Francesco" "Gaetano" "Gennaro" "Giacomo" "Giovanni" "Giulio" "Giuseppe" "Guglielmo" "Lorenzo" "Luigi" "Marino" "Matteo" "Nicola" "Paolo" "Pasquale" "Prospero" "Raffaele" "Roberto" "Ruggiero" "Sigismondo" "Silvio" "Simone" "Tancredi" "Tommasso" "Ugo" "Umberto" "Vincenzo" "Vittorio" }
+		
+		last_names = { "Paravia" "Tommaseo" "Bajamonti" "Monti" "Colautti" "Ferruzzi" "Tacconi" "Dudan" "Rismondo" "Luxardo" "Pattiera" "Sch�n" "Gabric" "Missoni" "Bettiza" "de' Vidovich" "Garko" "Marenzzi" "Rosso" "Grepo" "Marinelli" "Santorio" "Grossich" "Parentino" "Trevisani" "Antico" "Smareglia" "Tartini" "Surian" "Endrigo" "Vergerio" "Tomizza" "Arpino" "Bastianich" "Endrigo" "Vidali" "Juri" "Polani" "Rossanda" "Antonelli" "Valli" "Benussi" "Dobrovic" "Benvenuti" "Cernogoraz" "Andretti" "Corneo" "Scoria" "Budicin" "Gasparini" "Mori" "Fabris" "Sauro" "Filzi" "Schergat" "Marcceglia" "Bonifacio" }
+		
+	}
 	romanian = {
 		color = { 240 240 140 }
 		
