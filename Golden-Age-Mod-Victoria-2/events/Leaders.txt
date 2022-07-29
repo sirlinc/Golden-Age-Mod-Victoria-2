@@ -1,0 +1,150 @@
+# 12121210-12121215: LAZY
+# 
+#
+#
+#
+#
+
+#Consequences
+country_event = { #Lazy
+	id = 12121210
+	title = "Problems in Court"
+	desc = "LAZTDESC1"
+	picture = "lazy"
+	
+	trigger = {
+		nationalvalue = nv_lazy
+		NOT = { has_country_modifier = lazy_ruler }
+	}
+	
+	mean_time_to_happen = {
+		month = 8
+	}
+	
+	option = {
+		name = "12121210A" 
+		add_country_modifier = {
+			name = lazy_ruler
+			duration = 90
+		}
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = { #Lazy
+	id = 12121211
+	title = "Your Ruler sleeps in meeting with generals"
+	desc = "LAZTDESC2"
+	picture = "generalsruler"
+	
+	trigger = {
+		nationalvalue = nv_lazy
+		war = yes
+		NOT = { has_country_modifier = lazy_ruler }
+	}
+	
+	mean_time_to_happen = {
+		month = 9
+	}
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "12121211A"
+		war_exhaustion = 4.1
+		add_country_modifier = {
+			name = lazy_ruler
+			duration = 90
+		}
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = { #Lazy
+	id = 12121212
+	title = "Failed Diplomacy"
+	desc = "LAZTDESC3"
+	picture = "greatpowers"
+	
+	trigger = {
+		nationalvalue = nv_lazy
+		NOT = { has_country_modifier = lazy_ruler }
+		war = no
+		is_vassal = no
+		NOT = { rank = 21 }
+	}
+	
+	mean_time_to_happen = {
+		month = 14
+	}
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "12121212A"
+		prestige = -0.6
+		random_country = {
+			limit = {
+				neighbour = THIS
+				NOT = {
+					tag = THIS
+					relation = {
+						who = THIS
+						value = 9
+					}
+				}
+			}
+			relation = {
+				who = THIS
+				value = -10
+			}
+		}
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = { #Paranoid
+	id = 12121216
+	title = "Insanity of the Ruler"
+	desc = "PARANOIDDESC1"
+	picture = "paranoid"
+	
+	trigger = {
+		nationalvalue = nv_paranoid
+		NOT = { 
+			OR = {
+				has_country_modifier = militaty_guidance
+				has_country_modifier = administrative_guidance
+				has_country_modifier = political_guidance
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		month = 16
+	}
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "12121216A"
+		add_country_modifier = {
+			name = militaty_guidance
+			duration = 90
+		}
+		ai_chance = { factor = 40 }
+	}
+	option = {
+		name = "12121216B"
+		add_country_modifier = {
+			name = administrative_guidance
+			duration = 90
+		}
+		ai_chance = { factor = 40 }
+	}
+	option = {
+		name = "12121216C"
+		add_country_modifier = {
+			name = political_guidance
+			duration = 90
+		}
+		ai_chance = { factor = 30 }
+	}
+}

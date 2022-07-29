@@ -401,6 +401,59 @@ political_reforms = {
 			}
 		}
 	}
+	
+	army_focus = {
+		mercenary = {
+			supply_consumption = 0.04
+			mobilisation_size = -0.02
+			unit_start_experience = -5
+			land_organisation = 0.06
+		}
+		conscripted_army = {
+			mobilisation_size = 0.08
+			land_organisation = -0.06
+			unit_start_experience = -5
+		}
+		quantity_army = {
+			supply_consumption = -0.05
+			mobilisation_size = 0.05
+		}
+		professional_army = {
+			supply_consumption = 0.07
+			land_organisation = 0.07
+			unit_start_experience = 10
+		}
+	}
+	state_religion = {
+		only_one_religion = {
+			rules = { 
+				same_as_ruling_party = yes 
+			}
+			allow = {
+				ruling_party_ideology = fervent_clergy
+			}
+			research_points = -0.01
+			assimilation_rate = 0.025
+			non_accepted_pop_militancy_modifier = 0.015
+			non_accepted_pop_consciousness_modifier = 0.015
+			ruling_party_support = 0.25
+		}
+		official_state_religion = {
+			non_accepted_pop_militancy_modifier = 0.01
+			non_accepted_pop_consciousness_modifier = 0.01
+			assimilation_rate = 0.01 
+			tax_efficiency = 0.04
+		}
+		specific_state_religion = {
+			assimilation_rate = 0.02
+			tax_efficiency = 0.04
+		}
+		secular_state = {
+			core_pop_consciousness_modifier = 0.015
+			non_accepted_pop_militancy_modifier = -0.01
+			diplomatic_points_modifier = 0.01
+		}
+	}
 }
 
 ##########################################

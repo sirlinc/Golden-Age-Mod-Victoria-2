@@ -1,8 +1,8 @@
-#owner=WBG
-#controller=WBG
-#add_core=GER
-#add_core=HLR
-#add_core=WBG
+owner=FDA
+controller=FDA
+add_core=GER
+add_core=HLR
+add_core=FDA
 trade_goods = grain
 life_rating = 40
 terrain = plains

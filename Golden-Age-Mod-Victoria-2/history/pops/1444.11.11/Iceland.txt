@@ -152,24 +152,6 @@
 	}
 
 }
-3280 = {
-	farmers=
-	{
-		culture = icelandic
-		religion = catholic
-		size= 1
-	}
-
-}
-3281 = {
-	farmers=
-	{
-		culture = icelandic
-		religion = catholic
-		size= 1
-	}
-
-}
 3282 = {
 	farmers=
 	{

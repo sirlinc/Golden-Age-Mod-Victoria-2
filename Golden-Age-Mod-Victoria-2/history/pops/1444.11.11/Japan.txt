@@ -2189,3 +2189,103 @@
 	}
 
 }
+3280 = {
+	farmers=
+	{
+		culture = japanese
+		religion = shinto
+		size= 10210
+	}
+	
+	soldiers=
+	{
+		culture = japanese
+		religion = shinto
+		size= 623
+	}
+
+	artisans=
+	{
+		culture = japanese
+		religion = shinto
+		size= 2493
+	}
+
+	clergymen=
+	{
+		culture = japanese
+		religion = shinto
+		size= 405
+	}
+
+	bureaucrats=
+	{
+		culture = japanese
+		religion = shinto
+		size= 31
+	}
+
+	officers=
+	{
+		culture = japanese
+		religion = shinto
+		size= 50
+	}
+
+	aristocrats=
+	{
+		culture = japanese
+		religion = shinto
+		size= 1047
+	}
+}
+3281 = {
+	farmers=
+	{
+		culture = japanese
+		religion = shinto
+		size= 10426
+	}
+	
+	soldiers=
+	{
+		culture = japanese
+		religion = shinto
+		size= 623
+	}
+
+	artisans=
+	{
+		culture = japanese
+		religion = shinto
+		size= 3163
+	}
+
+	clergymen=
+	{
+		culture = japanese
+		religion = shinto
+		size= 405
+	}
+
+	bureaucrats=
+	{
+		culture = japanese
+		religion = shinto
+		size= 70
+	}
+
+	officers=
+	{
+		culture = japanese
+		religion = shinto
+		size= 50
+	}
+
+	aristocrats=
+	{
+		culture = japanese
+		religion = shinto
+		size= 1047
+	}
+}

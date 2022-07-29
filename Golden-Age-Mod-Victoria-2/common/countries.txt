@@ -1246,14 +1246,16 @@ ITO = "countries/ITO.txt"
 SHN = "countries/SHN.txt" 
 AMA = "countries/AMA.txt"
 NAN = "countries/NAN.txt"
-SHB = "countries/SHB.txt"
+SHB = "countries/SHB.txt" #Shiba =/= Chiba
 ODA = "countries/ODA.txt"
 KIU = "countries/KIU.txt"
 HTK = "countries/HTK.txt"
 DRP = "countries/DRP.txt"
 STY = "countries/STY.txt"
 UPA = "countries/UPA.txt"
-#KTA = "countries/KTA.txt" #Kitabatake
+FDA = "countries/FDA.txt"
+KTA = "countries/KTA.txt" #Kitabatake
+CHB = "countries/CHB.txt" #Chiba
 #
 #
 

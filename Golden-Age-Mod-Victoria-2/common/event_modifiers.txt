@@ -3,6 +3,38 @@
 ##################################################################################################
 
 ##### MOD EVENTS ######
+administrative_guidance = {
+	land_organisation = -0.03
+	mobilisation_size = -0.03
+	administrative_efficiency_modifier = 0.1
+	tax_efficiency = 0.02
+	education_efficiency_modifier = 0.05
+	icon = 7
+}
+political_guidance = {
+	badboy = -0.075
+	mobilisation_size = -0.03
+	tax_efficiency = -0.02
+	influence_modifier = 0.04
+	diplomatic_points_modifier = 0.04
+	ruling_party_support = 0.075
+	icon = 1
+}
+militaty_guidance = {
+	badboy = 0.075
+	land_organisation = 0.07
+	mobilisation_size = 0.03
+	tax_efficiency = -0.02
+	global_pop_militancy_modifier = -0.01
+	administrative_efficiency_modifier = -0.1
+	icon = 15
+}
+lazy_ruler = {
+	tax_efficiency = -0.04
+	global_pop_militancy_modifier = 0.04
+	administrative_efficiency_modifier = -0.1
+	icon = 6
+}
 austrian_hegenomy = {
 	prestige = 0.01
 	diplomatic_points_modifier = 0.02
@@ -78,6 +110,9 @@ succession_question = {
 	mobilization_impact = -0.3
 	prestige = -0.05
 	icon = 18
+}
+settling_in_crimea = {
+    icon = 9
 }
 stability_negative_three = {
 	global_immigrant_attract = -0.3
