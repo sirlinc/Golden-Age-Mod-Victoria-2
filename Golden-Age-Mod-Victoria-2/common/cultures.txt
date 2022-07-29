@@ -1041,7 +1041,6 @@ french = {
 		last_names = { "Anthoine" "Baraguey d'Hilliers" "Bazaine" "Billot" "Bonaparte" "Bosquet" "Bou� de Lapeyr�re" "Bou�t-Willaumez" "Boulanger" "Bourbaki" "Bugeaud" "Caillard" "Canrobert" "Courbet" "Cousin-Mountauban" "Davout" "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle" "de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" "d'Orleans" "Dubail" "Dubois" "Duch�ne" "Dupetit-Thouars" "Exelmans" "Foch" "Forey" "Franchet d'Esp�rey" "Gallieni" "Gouraud" "Guillaumat" "Hamelin" "Harispe" "Hoche" "Humbert" "Jaur�s" "Joffre" "Lebouef" "Lyautey" "Murat" "Ney d'Elchingen" "Nivelle" "P�llissier" "Petain" "Vaillant" }
 	}
 		
-	}
 	occitan = {
 		color = { 120 120 200 }
 		
