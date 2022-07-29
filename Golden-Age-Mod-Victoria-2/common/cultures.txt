@@ -2797,14 +2797,6 @@ south_slavic = {
 		last_names = { "Agura" "Balabanov" "Balkanski" "Battemberg" "Blaskov" "Boyad�iev" "Bradistilov" "Carakciev" "Daskalov" "Dikov" "Dimitriev" "Draganov" "Ficev" "Georgiev" "Hesapchiev" "Ilyev" "Ivanov" "Kirkov" "Kovacev" "Krayonski" "Kutincev" "Lazarov" "Lukov" "Marinkov" "Marinov" "Mutkorov" "Naydenov" "Nazlamov" "Nikiforov" "Nikolaev" "Pakoski" "Petroski" "Radev" "Saksokoburggotski" "Savoski" "Sirakoski" "Solaroski" "Stoyanoski" "Tenev" "Todoroski" "Tsaklev" "Valkoski" "Valnaroski" "Vasilev" "Vazoski" "Velchev" "Veselinov" "Zafiroski" "Zhekoski" "Zlatarev" "Zlatev" "Ad�ic" "Arandelovic" "Belimarkovic" "Blaznacac" "Bojovic" "Bo�anovic" "Bo�inovic" "Brankovic" "Damjanic" "Dapcevic" "Dragutinovic" "Grujic" "Had�ilic" "Horvatovic" "Isakovic" "Jankovic" "Jokic" "Jovanovic" "Kadijevic" "Karadordevic" "Le�janin" "Ljubicic" "Maric" "Mihailovic" "Milutinovic" "Miloradovic" "Mi�ic" "Nad" "Nedic" "Novak" "Obrenovic" "Ojdanic" "Panic" "Paska�" "Pavkovic" "Pe�ic" "Petrovic" "Popovic" "Putnik" "Radulovic" "Ra�ic" "�ijan" "Simovic" "Sokolovic" "Stepanovic" "Vasiljevic" "Veric" "Vojvodic" "Vukotic" "�ivkovic" }
 		
 	}
-	morlach = {
-		color = { 55 144 66 }
-		
-		first_names = { "Alfonso" "Ambrogio" "Amedeo" "Andrea" "Angelo" "Antonio" "Armando" "Augusto" "Benito" "Camillo" "Carlo" "Cesare" "Corrado" "Costanzo" "Domenico" "Enrico" "Fabio" "Fabrizio" "Faustino" "Felice" "Ferdinando" "Fiorenzo" "Francesco" "Gaetano" "Gennaro" "Giacomo" "Giovanni" "Giulio" "Giuseppe" "Guglielmo" "Lorenzo" "Luigi" "Marino" "Matteo" "Nicola" "Paolo" "Pasquale" "Prospero" "Raffaele" "Roberto" "Ruggiero" "Sigismondo" "Silvio" "Simone" "Tancredi" "Tommasso" "Ugo" "Umberto" "Vincenzo" "Vittorio" }
-		
-		last_names = { "Paravia" "Tommaseo" "Bajamonti" "Monti" "Colautti" "Ferruzzi" "Tacconi" "Dudan" "Rismondo" "Luxardo" "Pattiera" "Sch�n" "Gabric" "Missoni" "Bettiza" "de' Vidovich" "Garko" "Marenzzi" "Rosso" "Grepo" "Marinelli" "Santorio" "Grossich" "Parentino" "Trevisani" "Antico" "Smareglia" "Tartini" "Surian" "Endrigo" "Vergerio" "Tomizza" "Arpino" "Bastianich" "Endrigo" "Vidali" "Juri" "Polani" "Rossanda" "Antonelli" "Valli" "Benussi" "Dobrovic" "Benvenuti" "Cernogoraz" "Andretti" "Corneo" "Scoria" "Budicin" "Gasparini" "Mori" "Fabris" "Sauro" "Filzi" "Schergat" "Marcceglia" "Bonifacio" }
-		
-	}
 	serb = {
 		color = { 150 65 80 }
 		radicalism = 15
