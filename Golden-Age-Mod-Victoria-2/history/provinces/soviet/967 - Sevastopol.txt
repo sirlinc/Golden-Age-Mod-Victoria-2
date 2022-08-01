@@ -1,7 +1,6 @@
 owner=FEO
 controller=FEO
 add_core=FEO
-add_core=GRE
 trade_goods = fish
 life_rating = 30
 terrain = mountain
