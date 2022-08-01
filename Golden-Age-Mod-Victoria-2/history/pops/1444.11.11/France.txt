@@ -1089,49 +1089,91 @@
 	{
 		culture = french
 		religion = catholic
-		size= 978
+		size= 28
+	}
+	soldiers=
+	{
+		culture = norman
+		religion = catholic
+		size= 950
 	}
 
 	artisans=
 	{
 		culture = french
 		religion = catholic
-		size= 3912
+		size= 12
+	}
+	artisans=
+	{
+		culture = norman
+		religion = catholic
+		size= 3900
 	}
 
 	clergymen=
 	{
 		culture = french
 		religion = catholic
-		size= 636
+		size= 6
+	}
+	clergymen=
+	{
+		culture = norman
+		religion = catholic
+		size= 630
 	}
 
 	bureaucrats=
 	{
 		culture = french
 		religion = catholic
-		size= 98
+		size= 8
+	}
+	bureaucrats=
+	{
+		culture = norman
+		religion = catholic
+		size= 92
 	}
 
 	officers=
 	{
 		culture = french
 		religion = catholic
-		size= 78
+		size= 8
+	}
+	officers=
+	{
+		culture = norman
+		religion = catholic
+		size= 70
 	}
 
 	aristocrats=
 	{
 		culture = french
 		religion = catholic
-		size= 821
+		size= 21
+	}
+	aristocrats=
+	{
+		culture = norman
+		religion = catholic
+		size= 800
 	}
 
 	farmers=
 	{
 		culture = french
 		religion = catholic
-		size= 91269
+		size= 269
+	}
+	farmers=
+	{
+		culture = norman
+		religion = catholic
+		size= 91000
 	}
 
 }
