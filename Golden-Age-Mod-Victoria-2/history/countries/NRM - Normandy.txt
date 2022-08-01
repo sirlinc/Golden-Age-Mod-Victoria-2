@@ -1,5 +1,5 @@
 capital = 415
-primary_culture = french
+primary_culture = norman
 culture = zzz_religion_catholic
 religion = catholic
 government = feudal_monarchy
