@@ -3,5 +3,5 @@ controller=TOT
 add_core=TLX
 add_core=TOT
 trade_goods = grain
-life_rating = 35
+life_rating = 30
 terrain = plains

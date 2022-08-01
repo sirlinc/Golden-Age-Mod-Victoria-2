@@ -4,5 +4,5 @@ add_core=FLY
 add_core=IRE
 add_core=KID
 trade_goods = cattle
-life_rating = 35
+life_rating = 30
 terrain = hills

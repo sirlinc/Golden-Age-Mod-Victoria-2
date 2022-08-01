@@ -992,7 +992,7 @@ country_event = { #fix pops event
 country_event = {
     id = 999999
     title = "Out of North and South America"
-    desc = "Holy shit what are you doing here?"
+    desc = "What are you doing here?"
 
     trigger = {
         capital_scope = {
@@ -1004,24 +1004,22 @@ country_event = {
 		any_greater_power = {
 			NOT = {
 				has_country_flag = discovery_n_america
-				OR = {
-					diplomatic_influence = {
-						who = THIS
-						value = 100
-					}
-					is_sphere_leader_of = THIS
-					alliance_with = THIS
+				diplomatic_influence = {
+					who = THIS
+					value = 15
 				}
 				OR = {
 					continent = north_america
 					continent = south_america
 				}
 			}
+			is_sphere_leader_of = THIS
+			alliance_with = THIS
 		}
     }
 
     mean_time_to_happen = {
-        days = 2
+        days = 1
     }
 
     option = {
@@ -1029,7 +1027,14 @@ country_event = {
 		any_country = {
 			limit = {
 		        NOT = { has_country_flag = discovery_n_america }
-		        NOT = { capital_scope = { OR = { continent = north_america continent = south_america } }
+		        NOT = { 
+					capital_scope = { 
+						OR = { 
+							continent = north_america
+							continent = south_america 
+						} 
+					} 
+				}
 			}
 			diplomatic_influence = {
 				who = THIS
@@ -1037,7 +1042,7 @@ country_event = {
 			}
 			relation = {
 				who = THIS
-				value = -100
+				value = -15
 			}
 			leave_alliance = THIS
 			end_military_access = THIS

@@ -5,6 +5,6 @@ add_core=GRA
 add_core=CST
 add_core=SPA
 trade_goods = iron
-life_rating = 35
+life_rating = 30
 terrain = mountain
 fort = 2

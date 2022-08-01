@@ -3,5 +3,5 @@ controller=RAM
 add_core=RAM
 add_core=TUR
 trade_goods = wool
-life_rating = 35
+life_rating = 30
 terrain = plains

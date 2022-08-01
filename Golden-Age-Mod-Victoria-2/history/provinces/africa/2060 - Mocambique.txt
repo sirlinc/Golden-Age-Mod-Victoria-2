@@ -1,5 +1,5 @@
 owner=SWA
 controller=SWA
 trade_goods = cotton
-life_rating = 35
+life_rating = 30
 terrain = plains

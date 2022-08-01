@@ -4,5 +4,5 @@ add_core=IRQ
 add_core=QAR
 add_core=SRN
 trade_goods = sulphur
-life_rating = 35
+life_rating = 30
 terrain = hills

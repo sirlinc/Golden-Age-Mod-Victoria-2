@@ -5,5 +5,5 @@ add_core = STY
 add_core=HLR
 add_core=AUS
 trade_goods = iron
-life_rating = 35
+life_rating = 30
 terrain = woods

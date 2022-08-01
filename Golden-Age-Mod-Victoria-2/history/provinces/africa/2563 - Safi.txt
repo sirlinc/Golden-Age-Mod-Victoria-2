@@ -3,5 +3,5 @@ controller=MRK
 add_core=MOR
 add_core=MRK
 trade_goods = grain
-life_rating = 35
+life_rating = 30
 terrain = plains

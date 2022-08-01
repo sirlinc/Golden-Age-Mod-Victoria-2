@@ -5,5 +5,5 @@ add_core=PRU
 add_core=HRL
 add_core=GER
 trade_goods = grain
-life_rating = 35
+life_rating = 30
 terrain = farmlands

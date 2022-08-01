@@ -4,5 +4,5 @@ add_core=ATR
 add_core=BSQ
 add_core=SPA
 trade_goods = iron
-life_rating = 35
+life_rating = 30
 terrain = hills

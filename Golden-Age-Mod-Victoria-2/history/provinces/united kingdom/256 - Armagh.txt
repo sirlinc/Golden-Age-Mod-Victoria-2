@@ -4,5 +4,5 @@ add_core=ENG
 add_core=IRE
 add_core=X35
 trade_goods = cattle
-life_rating = 35
+life_rating = 30
 terrain = farmlands

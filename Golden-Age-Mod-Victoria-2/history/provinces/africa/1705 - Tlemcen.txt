@@ -2,6 +2,6 @@ owner=TLC
 controller=TLC
 add_core=TLC
 trade_goods = iron
-life_rating = 35
+life_rating = 30
 terrain = plains
 fort = 2

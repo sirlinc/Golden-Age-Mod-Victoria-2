@@ -3,5 +3,5 @@ controller=MNS
 add_core=IRE
 add_core=MNS
 trade_goods = fish
-life_rating = 35
+life_rating = 30
 terrain = hills

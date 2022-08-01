@@ -3,6 +3,6 @@ controller=ANZ
 add_core=ANZ
 add_core=ARA
 trade_goods = wool
-life_rating = 35
+life_rating = 30
 terrain = desert
 fort = 2

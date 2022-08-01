@@ -3,5 +3,5 @@ controller=DAT
 add_core=DAT
 add_core=JAP
 trade_goods = grain
-life_rating = 35
+life_rating = 30
 terrain = plains

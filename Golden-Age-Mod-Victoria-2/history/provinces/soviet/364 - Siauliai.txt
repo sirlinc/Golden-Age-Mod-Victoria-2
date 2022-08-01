@@ -3,5 +3,5 @@ controller=SMG
 add_core=SMG
 add_core = LIT
 trade_goods = cattle
-life_rating = 35
+life_rating = 30
 terrain = plains

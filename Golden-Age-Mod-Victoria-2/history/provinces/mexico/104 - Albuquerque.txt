@@ -3,5 +3,5 @@ controller=ACO
 add_core=ACO
 add_core=ZNI
 trade_goods = cattle
-life_rating = 35
+life_rating = 30
 terrain = steppe

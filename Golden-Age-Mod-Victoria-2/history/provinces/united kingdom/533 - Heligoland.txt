@@ -4,5 +4,5 @@ add_core=DTT
 add_core=GER
 add_core=HLR
 trade_goods = fish
-life_rating = 35
+life_rating = 30
 terrain = plains

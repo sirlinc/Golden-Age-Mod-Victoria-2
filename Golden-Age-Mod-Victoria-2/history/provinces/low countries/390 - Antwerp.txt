@@ -5,5 +5,5 @@ add_core=BRB
 add_core=FLA
 add_core=HLR
 trade_goods = cattle
-life_rating = 35
+life_rating = 30
 terrain = farmlands

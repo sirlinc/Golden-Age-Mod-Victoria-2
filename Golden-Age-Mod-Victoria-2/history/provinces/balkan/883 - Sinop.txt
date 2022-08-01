@@ -3,5 +3,5 @@ controller=CND
 add_core=CND
 add_core=TUR
 trade_goods = fish
-life_rating = 35
+life_rating = 30
 terrain = mountain

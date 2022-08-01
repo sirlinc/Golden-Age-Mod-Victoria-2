@@ -3,6 +3,6 @@ controller=MZB
 add_core=MZB
 add_core=TGT
 trade_goods = wool
-life_rating = 35
+life_rating = 30
 terrain = desert
 fort = 2

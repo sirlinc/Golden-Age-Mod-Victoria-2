@@ -5,5 +5,5 @@ add_core=HLR
 add_core=LIG
 add_core=WLL
 trade_goods = coal
-life_rating = 35
+life_rating = 30
 terrain = farmlands

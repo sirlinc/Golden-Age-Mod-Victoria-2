@@ -4,5 +4,5 @@ add_core=AKH
 add_core=DKU
 add_core=GZK
 trade_goods = wool
-life_rating = 35
+life_rating = 30
 terrain = hills

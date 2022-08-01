@@ -3283,6 +3283,9 @@ province;red;green;blue;x;x
 3282;0;153;12;ProvThirteen;x
 3283;153;115;12;Kyoto;x
 3284;153;78;40;ProvFifteen;x
+3285;109;95;71;ProvCrimeaOne;x;
+3286;255;199;132;ProvCrimeaTwo;x;
+3287;167;119;255;ProvCrimeaThree;x;
 ;54;14;244;x;
 ;55;14;248;x;
 ;56;14;232;x;

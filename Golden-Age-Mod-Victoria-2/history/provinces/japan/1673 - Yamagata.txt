@@ -3,5 +3,5 @@ controller=SHB
 add_core=SHB
 add_core=JAP
 trade_goods = silk
-life_rating = 35
+life_rating = 30
 terrain = hills

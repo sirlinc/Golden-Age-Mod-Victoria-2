@@ -6,5 +6,5 @@ add_core=KIE
 add_core=RUS
 add_core=UKR
 trade_goods = grain
-life_rating = 35
+life_rating = 30
 terrain = plains

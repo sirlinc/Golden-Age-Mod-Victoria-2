@@ -2,5 +2,5 @@ owner=GHD
 controller=GHD
 add_core=GHD
 trade_goods = fruit
-life_rating = 35
+life_rating = 30
 terrain = desert

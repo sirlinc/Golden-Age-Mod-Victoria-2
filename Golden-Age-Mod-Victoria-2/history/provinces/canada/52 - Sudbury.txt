@@ -2,5 +2,5 @@ owner=ATT
 controller=ATT
 add_core=ATT
 trade_goods = iron
-life_rating = 35
+life_rating = 30
 terrain = forest

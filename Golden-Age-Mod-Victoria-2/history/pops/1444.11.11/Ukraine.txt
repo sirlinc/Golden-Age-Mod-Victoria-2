@@ -2673,3 +2673,219 @@
 	}
 
 }
+3285 = {
+	soldiers=
+	{
+		culture = greek
+		religion = orthodox
+		size= 135
+	}
+
+	artisans=
+	{
+		culture = greek
+		religion = orthodox
+		size= 390
+	}
+
+	clergymen=
+	{
+		culture = greek
+		religion = orthodox
+		size= 78
+	}
+
+	bureaucrats=
+	{
+		culture = greek
+		religion = orthodox
+		size= 14
+	}
+
+	officers=
+	{
+		culture = greek
+		religion = orthodox
+		size= 11
+	}
+
+	aristocrats=
+	{
+		culture = greek
+		religion = orthodox
+		size= 113
+	}
+
+	farmers=
+	{
+		culture = greek
+		religion = orthodox
+		size= 12009
+	}
+
+	clergymen=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 10
+	}
+
+	artisans=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 150
+	}
+
+	farmers=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 590
+	}
+
+}
+3286 = {
+	soldiers=
+	{
+		culture = greek
+		religion = orthodox
+		size= 135
+	}
+
+	artisans=
+	{
+		culture = greek
+		religion = orthodox
+		size= 390
+	}
+
+	clergymen=
+	{
+		culture = greek
+		religion = orthodox
+		size= 78
+	}
+
+	bureaucrats=
+	{
+		culture = greek
+		religion = orthodox
+		size= 14
+	}
+
+	officers=
+	{
+		culture = greek
+		religion = orthodox
+		size= 11
+	}
+
+	aristocrats=
+	{
+		culture = greek
+		religion = orthodox
+		size= 113
+	}
+
+	farmers=
+	{
+		culture = greek
+		religion = orthodox
+		size= 12009
+	}
+
+	clergymen=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 10
+	}
+
+	artisans=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 150
+	}
+
+	farmers=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 590
+	}
+
+}
+3287 = {
+	soldiers=
+	{
+		culture = greek
+		religion = orthodox
+		size= 135
+	}
+
+	artisans=
+	{
+		culture = greek
+		religion = orthodox
+		size= 390
+	}
+
+	clergymen=
+	{
+		culture = greek
+		religion = orthodox
+		size= 78
+	}
+
+	bureaucrats=
+	{
+		culture = greek
+		religion = orthodox
+		size= 14
+	}
+
+	officers=
+	{
+		culture = greek
+		religion = orthodox
+		size= 11
+	}
+
+	aristocrats=
+	{
+		culture = greek
+		religion = orthodox
+		size= 113
+	}
+
+	farmers=
+	{
+		culture = greek
+		religion = orthodox
+		size= 12009
+	}
+
+	clergymen=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 10
+	}
+
+	artisans=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 150
+	}
+
+	farmers=
+	{
+		culture = ashkenazi
+		religion = jewish
+		size= 590
+	}
+
+}

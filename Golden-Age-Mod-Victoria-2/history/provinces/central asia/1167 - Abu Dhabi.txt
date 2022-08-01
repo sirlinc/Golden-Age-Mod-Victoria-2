@@ -5,6 +5,6 @@ add_core=ARA
 add_core=ORM
 add_core=YAS
 trade_goods = grain
-life_rating = 35
+life_rating = 30
 terrain = desert
 fort = 2

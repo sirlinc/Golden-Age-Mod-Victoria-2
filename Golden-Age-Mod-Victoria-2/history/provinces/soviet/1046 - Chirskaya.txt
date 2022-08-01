@@ -3,5 +3,5 @@ controller=GRH
 add_core=AKH
 add_core=GRH
 trade_goods = coal
-life_rating = 35
+life_rating = 30
 terrain = woods

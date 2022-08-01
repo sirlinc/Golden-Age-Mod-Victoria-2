@@ -6,5 +6,5 @@ add_core=CZH
 add_core=HLR
 add_core=MRV
 trade_goods = coal
-life_rating = 35
+life_rating = 30
 terrain = farmlands

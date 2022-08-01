@@ -2,5 +2,5 @@ owner=BLC
 controller=BLC
 add_core=BLC
 trade_goods = fish
-life_rating = 35
+life_rating = 30
 terrain = mountain

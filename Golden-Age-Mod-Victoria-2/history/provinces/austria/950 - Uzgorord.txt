@@ -3,5 +3,5 @@ controller=HUN
 add_core=SIE
 add_core=UKR
 trade_goods = coal
-life_rating = 35
+life_rating = 30
 terrain = mountain

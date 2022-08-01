@@ -3,5 +3,5 @@ controller=RIG
 add_core=GER
 add_core=RIG
 trade_goods = fish
-life_rating = 35
+life_rating = 30
 terrain = farmlands

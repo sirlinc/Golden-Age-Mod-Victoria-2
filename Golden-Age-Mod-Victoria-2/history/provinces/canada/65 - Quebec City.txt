@@ -2,5 +2,5 @@ owner=STA
 controller=STA
 add_core=STA
 trade_goods = grain
-life_rating = 35
+life_rating = 30
 terrain = forest

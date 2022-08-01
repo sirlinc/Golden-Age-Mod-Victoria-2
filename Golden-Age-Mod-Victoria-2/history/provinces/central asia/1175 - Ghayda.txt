@@ -3,6 +3,6 @@ controller=MHR
 add_core=ARA
 add_core=MHR
 trade_goods = opium
-life_rating = 35
+life_rating = 30
 terrain = desert
 fort = 2

@@ -5,5 +5,5 @@ add_core=PAP
 add_core=PGA
 add_core=X30
 trade_goods = fruit
-life_rating = 35
+life_rating = 30
 terrain = hills
