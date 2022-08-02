@@ -948,7 +948,7 @@ french = {
 	unit = FrenchGC
 	
 	french = {
-		color = { 20 20 120 }
+		color = { 30 30 180 }
 		
 		first_names = { "Achille" "Adolphe" "Adrien" "Aimable" "Alphonse" "Am�d�e" "Antoine" "Armand" "August" "Augustin" "Charles" "Daniel" "Denis" "�douard" "Elie" "�ttiene" "Eug�ne" "F�licien" "F�lix" "Fernand" "Fran�ois" "Fr�d�ric" "Georges" "Guillaume" "Gustave" "Henri" "Hubert" "Hugo" "Jacques" "Jean" "Joseph" "Jules" "Julien" "Lazare" "L�opold" "Leroy" "Louis" "Lucien" "Matthieu" "Michel" "Napol�on" "Nicolas" "Patrice" "Paul" "Philippe" "Pierre" "Robert" "Thibaut" "Thierry" "Thomas" }
 		
@@ -1294,7 +1294,7 @@ iranian_turanian = {
 		
 	}
 	kurdish = {
-		color = { 176 201 238 }
+		color = { 230 170 40 }
 		radicalism = 10
 		
 		first_names = { "Abdal" "Abdulkarim" "Bedr" "Hafid" "Ihsan" "Mahmud" "Mohammed" "Qazi" "Reshid" "Said" "Ubaydallah" }
@@ -1727,7 +1727,7 @@ levantine = {
 		
 	}
 	greek = {
-		color = { 200 50 100 }
+		color = { 130 170 215 }
 		radicalism = 10
 		
 		first_names = { "Adamantios" "Al�xandros" "Anast�sios" "Andr�as" "Ant�nios" "Arist�dis" "Athan�sios" "Avg�stinos" "Veniz�los" "Char�lampos" "Char�laos" "Dim�trios" "Diom�dis" "Elefth�rios" "Emmanou�l" "Epame�nontas" "Evrip�dis" "Genna�os" "Ge�rgios" "Il�as" "Ionnis" "K�tsos" "Konstant�nos" "Kyri�kos" "Kyriako�lis" "Leon�das" "Mak�rios" "M�rkos" "M�chael" "Militiadis" "Nik�laos" "Odyss�as" "�thon" "Panagi�tis" "Pavlos" "P�tros" "Sofokl�s" "Sot�ris" "Spyrid�on" "Sp�ros" "St��kos" "St�fanos" "Stylian�s" "Themistokl�s" "The�doros" "Thar�voulos" "Tzann�s" "V�sos" "V�ktor" "Zin�vios" }
@@ -2357,7 +2357,7 @@ polish_culture_group = {
 		
 	}
 	sorbian = {
-		color = { 0 48 239 }
+		color = { 180 110 165 }
 		radicalism = 10
 		
 		first_names = { "Albert" "Alfons" "Arno�t" "Artur" "Awgust" "Bart" "Bjarnat" "Erich" "Erwin" "Fryco" "Gerald" "Hajno" "Handrij" "Hanzo" "Helmut" "Hendrich" "Hync" "Jakub" "Jan" "Jurij" "Korla" "Mato" "Macij" "Michal" "Miklaw�" "Mercin" "Pawol" "Rudolf" "Timo" "Uwe" "Werner" "Wjaclaw" }
@@ -2366,7 +2366,7 @@ polish_culture_group = {
 		
 	}
 	western_slavic = {
-		color = { 147 63 109 }
+		color = { 145 60 110 }
 		
 		first_names = { "Adam" "Aleksander" "Antoni" "Boleslaw" "Bonawentura" "Bronislaw" "Dezydery" "Edmund" "Edward" "Emil" "Eustachy" "Felicjan" "Franciszek" "Gustaw" "Henryk" "Ignacy" "Jakub" "Jan" "Jedrzej" "J�zef" "Juliusz" "Karol" "Kazimierz" "Klemens" "Konstanty" "Lech" "Leon" "Leopold" "Lucjan" "Ludwik" "Maciej" "Marceli" "Marian" "Mariusz" "Melchior" "Michal" "Mieczyslaw" "Roman" "Romuald" "Samuel" "Stanislaw" "Stefan" "Tadeusz" "Tomasz" "Waclaw" "Wilhelm" "Witold" "Wladyslaw" "Wojciech" "Zygmunt" }
 		
@@ -2544,7 +2544,7 @@ scandinavian = {
 		
 	}
 	swedish = {
-		color = { 20 40 160 }
+		color = { 0 50 240 }
 		
 		first_names = { "Albrecht" "Alexander" "Arnold" "August" "Axel" "Baltzar" "Carl" "Christofer" "Didrik" "Edvard" "Elias" "Emil" "Erik" "Esaias" "Fabian" "Frans" "Fredrik" "Gunnar" "Gustav" "Henrik" "Jakob" "Jesper" "Johan" "Julius" "Knut" "Lars" "Ludvig" "Magnus" "Michael" "Nikolaus" "Nils" "Olof" "Oscar" "Per" "Rudolf" "Sten" "Theodor" "Verner" "Viktor" "Vilhelm" }
 		
