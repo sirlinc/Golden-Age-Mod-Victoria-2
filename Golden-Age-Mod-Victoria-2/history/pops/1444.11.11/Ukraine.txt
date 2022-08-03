@@ -1616,16 +1616,46 @@
 967 = {
 	soldiers=
 	{
+		culture = gothic
+		religion = orthodox
+		size= 1838
+	}
+	soldiers=
+	{
 		culture = greek
 		religion = orthodox
-		size= 135
+		size= 1304
 	}
 
 	artisans=
 	{
+		culture = gothic
+		religion = orthodox
+		size= 3601
+	}
+	artisans=
+	{
 		culture = greek
 		religion = orthodox
-		size= 390
+		size= 2555
+	}
+	artisans=
+	{
+		culture = armenian
+		religion = coptic
+		size= 561
+	}
+	artisans=
+	{
+		culture = north_caucasian
+		religion = orthodox
+		size= 341
+	}
+	artisans=
+	{
+		culture = tatar
+		religion = sunni
+		size= 265
 	}
 
 	clergymen=
