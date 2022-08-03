@@ -1776,21 +1776,21 @@
 	{
 		culture = ashkenazi
 		religion = jewish
-		size= 10
+		size= 564
 	}
 
 	artisans=
 	{
 		culture = ashkenazi
 		religion = jewish
-		size= 150
+		size= 2176
 	}
 
 	farmers=
 	{
 		culture = ashkenazi
 		religion = jewish
-		size= 590
+		size= 4090
 	}
 
 }
