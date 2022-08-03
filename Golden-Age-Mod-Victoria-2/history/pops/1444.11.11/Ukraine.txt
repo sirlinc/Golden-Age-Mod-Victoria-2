@@ -1691,23 +1691,54 @@
 
 	bureaucrats=
 	{
+		culture = gothic
+		religion = orthodox
+		size= 316
+	}
+	bureaucrats=
+	{
 		culture = greek
 		religion = orthodox
-		size= 14
+		size= 224
+	}
+	bureaucrats=
+	{
+		culture = armenian
+		religion = coptic
+		size= 49
+	}
+	bureaucrats=
+	{
+		culture = north_caucasian
+		religion = orthodox
+		size= 30
 	}
 
+
+	officers=
+	{
+		culture = gothic
+		religion = orthodox
+		size= 75
+	}
 	officers=
 	{
 		culture = greek
 		religion = orthodox
-		size= 11
+		size= 52
 	}
 
 	aristocrats=
 	{
 		culture = greek
 		religion = orthodox
-		size= 113
+		size= 79
+	}
+	aristocrats=
+	{
+		culture = greek
+		religion = orthodox
+		size= 110
 	}
 
 	farmers=
