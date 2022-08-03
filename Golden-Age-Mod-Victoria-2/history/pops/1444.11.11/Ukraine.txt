@@ -1743,9 +1743,33 @@
 
 	farmers=
 	{
+		culture = gothic
+		religion = orthodox
+		size= 88267
+	}
+	farmers=
+	{
 		culture = greek
 		religion = orthodox
-		size= 12009
+		size= 62623
+	}
+	farmers=
+	{
+		culture = armenian
+		religion = coptic
+		size= 14066
+	}
+	farmers=
+	{
+		culture = north_caucasian
+		religion = orthodox
+		size= 8553
+	}
+	farmers=
+	{
+		culture = tatar
+		religion = sunni
+		size= 6676
 	}
 
 	clergymen=
