@@ -1660,9 +1660,33 @@
 
 	clergymen=
 	{
+		culture = gothic
+		religion = orthodox
+		size= 794
+	}
+	clergymen=
+	{
 		culture = greek
 		religion = orthodox
-		size= 78
+		size= 563
+	}
+	clergymen=
+	{
+		culture = armenian
+		religion = coptic
+		size= 124
+	}
+	clergymen=
+	{
+		culture = north_caucasian
+		religion = orthodox
+		size= 75
+	}
+	clergymen=
+	{
+		culture = tatar
+		religion = sunni
+		size= 59
 	}
 
 	bureaucrats=
