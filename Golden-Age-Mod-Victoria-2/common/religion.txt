@@ -1,19 +1,7 @@
 christian = {
-	adamites = {
-		icon = 39
-		color = { 0.6 0.8 0.6 }
-	}
 	arian = {
 		icon = 51
 		color = {0.4 0.4 0}
-	}
-	bogomilist = {
-		icon = 34
-		color = {0.8 0.4 0.8}
-	}
-	cathar = {
-		icon = 29
-		color = {0.7 0.7 0.7}
 	}
 	catholic = {
 		icon = 1
@@ -27,10 +15,6 @@ christian = {
 		icon = 4
 		color = { 0 0.5 0.7 }
 	}
-	fraticelli = {
-		icon = 30
-		color = {0.8 0.5 0.35}
-	}
 	hussite = {
 		icon = 59
 		color = { 161  139  40 }
@@ -42,18 +26,6 @@ christian = {
 	lollard = {
 		icon = 32
 		color = {0.6 0.3 0.3}
-	}
-	messalian = {
-		icon = 39
-		color = { 0.9 0.4 0.4 }
-	}
-	monophysite = {
-		icon = 33
-		color = { 0.6 0.4 0 }
-	}
-	monothelite = {
-		icon = 35
-		color = {0.7 0.1 0.1}
 	}
 	mormon = {
 		icon = 32
@@ -152,10 +124,6 @@ euro_pagan = {
 		icon = 69
 		color = { 0.33 0.42 0.18 }
 	}
-	iberian_pagan = {
-		icon = 70
-		color = { 0.91 0.71 0.82 }
-	}
 	norse_pagan_reformed = {
 		icon = 15
 		color = { 0.75 0.75 0.75 }
@@ -163,10 +131,6 @@ euro_pagan = {
 	slavic_pagan_reformed = {
 		icon = 20
 		color = { 0.85 0.73 0.4 }
-	}
-	zamolxism = {
-		icon = 67
-		color = { 0.45 0.29 0.15 }
 	}
 }
 
@@ -254,10 +218,6 @@ muslim = {
 	ibadi = {
 		icon = 27
 		color = { 0 0.4 0 }
-	}
-	kharijite = {
-		icon = 44
-		color = { 1.0 0.6 0.1}
 	}
 	shiite = {
 		icon = 6
