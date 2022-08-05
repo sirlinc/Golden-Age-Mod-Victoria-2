@@ -261,7 +261,8 @@ PROVINCE_CONTROL_DAYS;Province control changed in the last §Y$DAYS$§W days.\n;Le
 ENFORCE_DEMANDS_TRIGGER;These rebels will win if the following is true:;Si ce qui suit est vrai, ces rebelles l'emporteront :;Diese Rebellen werden gewinnen, wenn Folgendes zutrifft:;;Estos rebeldes ganarán si se cumple lo siguiente:;;;;;;;;;x;
 tut_1a_40;After you see the movement arrow, unpause the game to get going.;Après l'apparition de la flèche de déplacement, quittez le mode Pause pour reprendre le jeu.;Wie Sie am Bewegungspfeil sehen können, läuft das Spiel nach Beendigung der Pause weiter.;;\nUna vez que veas la flecha de movimiento, quita la pausa del juego para ponerte en marcha.;;;;;;;;;x;
 EVTNAME15060;First Farmer's Bank;Première banque agricole;Erste Bauernbank;;First Farmer's Bank;;;;;;;;;x;
-POLITICS_REFORMS;Reforms;Réformes;Reformen;;Reformas;;;;;;;;;x;
+POLITICS_REFORMS;Government;x;
+OVERVIEW_NAME;Overview;x;
 POLITICS_RELEASE_NATIONS;Release Nations;Nations libérables;Nationen entlassen;;Liberar naciones;;;;;;;;;x;
 MILITARY_LEADER_NAME_TOOLTIP;§Y$NAME$§W is in command of §Y$ARMY$§W in §Y$LOCATION$§W;§Y$NAME$§W est aux commandes de §Y$ARMY$§W à §Y$LOCATION$§W.;§Y$NAME$§W befehligt §Y$ARMY$§W in §Y$LOCATION$§W;;§Y$NAME$§W está al mando de: §Y$ARMY$§W en §Y$LOCATION$§W;;;;;;;;;x;
 hms_government;HM's Government;Gouvernement de Sa Majesté;Ihrer Majestät Regierung;;Gobierno de Su Majestad;;;;;;;;;x;

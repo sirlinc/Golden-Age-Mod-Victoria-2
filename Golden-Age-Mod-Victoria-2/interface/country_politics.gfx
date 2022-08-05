@@ -1,6 +1,5 @@
 spriteTypes = {	
 
-	
 	spriteType = {
 		name = "GFX_politics_decision_bg"
 		texturefile = "gfx\\interface\\politics_decision_bg.dds"
