@@ -3336,15 +3336,7 @@ west_african = {
 zzz_religions = {
 	leader = european
 	unit = PrussianGC
-	
-	zzz_religion_adamites = {
-		color = { 0 0 0 }
-		
-		first_names = { "FNU" }
-		
-		last_names = { "LNU" }
-		
-	}
+
 	zzz_religion_animist = {
 		color = { 0 0 0 }
 		
@@ -3385,23 +3377,7 @@ zzz_religions = {
 		last_names = { "LNU" }
 		
 	}
-	zzz_religion_bogomilist = {
-		color = { 0 0 0 }
-		
-		first_names = { "FNU" }
-		
-		last_names = { "LNU" }
-		
-	}
 	zzz_religion_canaanite = {
-		color = { 0 0 0 }
-		
-		first_names = { "FNU" }
-		
-		last_names = { "LNU" }
-		
-	}
-	zzz_religion_cathar = {
 		color = { 0 0 0 }
 		
 		first_names = { "FNU" }
@@ -3466,14 +3442,6 @@ zzz_religions = {
 		
 	}
 	zzz_religion_finnish_pagan_reformed = {
-		color = { 0 0 0 }
-		
-		first_names = { "FNU" }
-		
-		last_names = { "LNU" }
-		
-	}
-	zzz_religion_fraticelli = {
 		color = { 0 0 0 }
 		
 		first_names = { "FNU" }
@@ -3553,14 +3521,6 @@ zzz_religions = {
 		last_names = { "LNU" }
 		
 	}
-	zzz_religion_iberian_pagan = {
-		color = { 0 0 0 }
-		
-		first_names = { "FNU" }
-		
-		last_names = { "LNU" }
-		
-	}
 	zzz_religion_iconoclast = {
 		color = { 0 0 0 }
 		
@@ -3625,14 +3585,6 @@ zzz_religions = {
 		last_names = { "LNU" }
 		
 	}
-	zzz_religion_kharijite = {
-		color = { 0 0 0 }
-		
-		first_names = { "FNU" }
-		
-		last_names = { "LNU" }
-		
-	}
 	zzz_religion_lollard = {
 		color = { 0 0 0 }
 		
@@ -3681,31 +3633,7 @@ zzz_religions = {
 		last_names = { "LNU" }
 		
 	}
-	zzz_religion_messalian = {
-		color = { 0 0 0 }
-		
-		first_names = { "FNU" }
-		
-		last_names = { "LNU" }
-		
-	}
 	zzz_religion_mithraism = {
-		color = { 0 0 0 }
-		
-		first_names = { "FNU" }
-		
-		last_names = { "LNU" }
-		
-	}
-	zzz_religion_monophysite = {
-		color = { 0 0 0 }
-		
-		first_names = { "FNU" }
-		
-		last_names = { "LNU" }
-		
-	}
-	zzz_religion_monothelite = {
 		color = { 0 0 0 }
 		
 		first_names = { "FNU" }
@@ -3938,14 +3866,6 @@ zzz_religions = {
 		
 	}
 	zzz_religion_yazidi = {
-		color = { 0 0 0 }
-		
-		first_names = { "FNU" }
-		
-		last_names = { "LNU" }
-		
-	}
-	zzz_religion_zamolxism = {
 		color = { 0 0 0 }
 		
 		first_names = { "FNU" }
