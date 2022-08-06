@@ -595,7 +595,7 @@ guiTypes = {
 			windowType = {
 				name = "slavery"
 				backGround =""
-				position = { x = 686 y = 150 }
+				position = { x = 531 y = 302 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""
@@ -623,7 +623,7 @@ guiTypes = {
 			windowType = {
 				name = "upper_house_composition"
 				backGround =""
-				position = { x = 686 y = 160 }
+				position = { x = 531 y = 188 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""
@@ -651,7 +651,7 @@ guiTypes = {
 			windowType = {
 				name = "vote_franschise"
 				backGround =""
-				position = { x = 686 y = 192 }
+				position = { x = 679 y = 188 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""
@@ -679,7 +679,7 @@ guiTypes = {
 			windowType = {
 				name = "voting_system"
 				backGround =""
-				position = { x = 686 y = 289 }
+				position = { x = 679 y = 302 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""
@@ -707,7 +707,7 @@ guiTypes = {
 			windowType = {
 				name = "public_meetings"
 				backGround =""
-				position = { x = 686 y = 346 }
+				position = { x = 679 y = 415 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""
@@ -735,7 +735,7 @@ guiTypes = {
 			windowType = {
 				name = "press_rights"
 				backGround =""
-				position = { x = 686 y = 700 }
+				position = { x = 531 y = 415 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""
@@ -763,7 +763,7 @@ guiTypes = {
 			windowType = {
 				name = "power_distribution"
 				backGround =""
-				position = { x = 686 y = 389 }
+				position = { x = 531 y = 523 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""
@@ -792,7 +792,7 @@ guiTypes = {
 			windowType = {
 				name = "political_parties"
 				backGround =""
-				position = { x = 686 y = 517 }
+				position = { x = 679 y = 523 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""
@@ -824,7 +824,7 @@ guiTypes = {
 			windowType = {
 				name = "wage_reform"
 				backGround =""
-				position = { x = 888 y = 888 }
+				position = { x = 228 y = 188 }
 				size = { x=300 y=100 }
 				moveable = 0
 				dontRender = ""
@@ -852,7 +852,7 @@ guiTypes = {
 			windowType = {
 				name = "work_hours"
 				backGround =""
-				position = { x = 378 y = 159 }
+				position = { x = 228 y = 302 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""
@@ -880,7 +880,7 @@ guiTypes = {
 			windowType = {
 				name = "safety_regulations"
 				backGround =""
-				position = { x = 382 y = 350 }
+				position = { x = 377 y = 188 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""
@@ -908,7 +908,7 @@ guiTypes = {
 			windowType = {
 				name = "unemployment_subsidies"
 				backGround =""
-				position = { x = 382 y = 306 }
+				position = { x = 377 y = 302 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""
@@ -936,7 +936,7 @@ guiTypes = {
 			windowType = {
 				name = "pensions"
 				backGround =""
-				position = { x = 382 y = 381 }
+				position = { x = 228 y = 415 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""
@@ -964,7 +964,7 @@ guiTypes = {
 			windowType = {
 				name = "health_care"
 				backGround =""
-				position = { x = 382 y = 456 }
+				position = { x = 228 y = 523 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""
@@ -992,7 +992,7 @@ guiTypes = {
 			windowType = {
 				name = "school_reforms"
 				backGround =""
-				position = { x = 382 y = 531 }
+				position = { x = 377 y = 523 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""
