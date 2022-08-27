@@ -1,6 +1,6 @@
 name = "Golden Age Mod"
-path = "mod/Golden-Age-Mod-Victoria-2"
-user_dir = "Golden-Age-Mod-Victoria-2"
+path = "mod/Golden-Age-Mod-Victoria-2 (GITHUB)"
+user_dir = "Golden-Age-Mod-Victoria-2 (GITHUB)"
 replace_path = "history/provinces"
 replace_path = "history/countries"
 replace_path = "history/diplomacy"
