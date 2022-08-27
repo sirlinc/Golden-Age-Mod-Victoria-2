@@ -1,5 +1,6 @@
 capital = 967
 primary_culture = greek
+culture = gothic
 culture = zzz_religion_orthodox
 religion = orthodox
 government = feudal_monarchy

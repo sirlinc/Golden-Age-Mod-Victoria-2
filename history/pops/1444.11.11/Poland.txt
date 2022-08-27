@@ -1217,49 +1217,91 @@
 	{
 		culture = ukrainian
 		religion = orthodox
-		size= 1363
+		size= 136
+	}
+	soldiers=
+	{
+		culture = polish
+		religion = catholic
+		size= 1227
 	}
 
 	artisans=
 	{
 		culture = ukrainian
 		religion = orthodox
-		size= 1301
+		size= 130
+	}
+	artisans=
+	{
+		culture = polish
+		religion = catholic
+		size= 1171
 	}
 
 	clergymen=
 	{
 		culture = ukrainian
 		religion = orthodox
-		size= 826
+		size= 83
+	}
+	clergymen=
+	{
+		culture = polish
+		religion = catholic
+		size= 743
 	}
 
 	bureaucrats=
 	{
 		culture = ukrainian
 		religion = orthodox
-		size= 146
+		size= 131
+	}
+	bureaucrats=
+	{
+		culture = polish
+		religion = catholic
+		size= 15
 	}
 
 	officers=
 	{
 		culture = ukrainian
 		religion = orthodox
-		size= 117
+		size= 12
+	}
+	officers=
+	{
+		culture = polish
+		religion = catholic
+		size= 105
 	}
 
 	aristocrats=
 	{
 		culture = ukrainian
 		religion = orthodox
-		size= 1229
+		size= 1106
+	}
+	aristocrats=
+	{
+		culture = polish
+		religion = catholic
+		size= 123
 	}
 
 	farmers=
 	{
 		culture = ukrainian
 		religion = orthodox
-		size= 124978
+		size= 12498
+	}
+	farmers=
+	{
+		culture = polish
+		religion = catholic
+		size= 112480
 	}
 
 	farmers=

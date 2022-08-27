@@ -1616,72 +1616,181 @@
 967 = {
 	soldiers=
 	{
+		culture = gothic
+		religion = orthodox
+		size= 1838
+	}
+	soldiers=
+	{
 		culture = greek
 		religion = orthodox
-		size= 135
+		size= 1304
 	}
 
 	artisans=
 	{
+		culture = gothic
+		religion = orthodox
+		size= 3601
+	}
+	artisans=
+	{
 		culture = greek
 		religion = orthodox
-		size= 390
+		size= 2555
+	}
+	artisans=
+	{
+		culture = armenian
+		religion = coptic
+		size= 561
+	}
+	artisans=
+	{
+		culture = north_caucasian
+		religion = orthodox
+		size= 341
+	}
+	artisans=
+	{
+		culture = tatar
+		religion = sunni
+		size= 265
 	}
 
 	clergymen=
 	{
+		culture = gothic
+		religion = orthodox
+		size= 794
+	}
+	clergymen=
+	{
 		culture = greek
 		religion = orthodox
-		size= 78
+		size= 563
+	}
+	clergymen=
+	{
+		culture = armenian
+		religion = coptic
+		size= 124
+	}
+	clergymen=
+	{
+		culture = north_caucasian
+		religion = orthodox
+		size= 75
+	}
+	clergymen=
+	{
+		culture = tatar
+		religion = sunni
+		size= 59
 	}
 
 	bureaucrats=
 	{
+		culture = gothic
+		religion = orthodox
+		size= 316
+	}
+	bureaucrats=
+	{
 		culture = greek
 		religion = orthodox
-		size= 14
+		size= 224
+	}
+	bureaucrats=
+	{
+		culture = armenian
+		religion = coptic
+		size= 49
+	}
+	bureaucrats=
+	{
+		culture = north_caucasian
+		religion = orthodox
+		size= 30
 	}
 
+
+	officers=
+	{
+		culture = gothic
+		religion = orthodox
+		size= 75
+	}
 	officers=
 	{
 		culture = greek
 		religion = orthodox
-		size= 11
+		size= 52
 	}
 
 	aristocrats=
 	{
 		culture = greek
 		religion = orthodox
-		size= 113
+		size= 79
+	}
+	aristocrats=
+	{
+		culture = greek
+		religion = orthodox
+		size= 110
 	}
 
 	farmers=
 	{
+		culture = gothic
+		religion = orthodox
+		size= 88267
+	}
+	farmers=
+	{
 		culture = greek
 		religion = orthodox
-		size= 12009
+		size= 62623
+	}
+	farmers=
+	{
+		culture = armenian
+		religion = coptic
+		size= 14066
+	}
+	farmers=
+	{
+		culture = north_caucasian
+		religion = orthodox
+		size= 8553
+	}
+	farmers=
+	{
+		culture = tatar
+		religion = sunni
+		size= 6676
 	}
 
 	clergymen=
 	{
 		culture = ashkenazi
 		religion = jewish
-		size= 10
+		size= 564
 	}
 
 	artisans=
 	{
 		culture = ashkenazi
 		religion = jewish
-		size= 150
+		size= 2176
 	}
 
 	farmers=
 	{
 		culture = ashkenazi
 		religion = jewish
-		size= 590
+		size= 4090
 	}
 
 }

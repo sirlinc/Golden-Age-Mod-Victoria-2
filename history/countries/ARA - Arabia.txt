@@ -1,5 +1,5 @@
 capital = 354
-primary_culture = bedouin
+primary_culture = mashriqi
 culture = zzz_religion_sunni
 religion = sunni
 government = feudal_monarchy
