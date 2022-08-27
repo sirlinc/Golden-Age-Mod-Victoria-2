@@ -346,7 +346,8 @@ construction_tools_factory = {
 			tropical_wood = 6
 			timber = 6
 		}
-		steel = 5		#11.5  total input+maint = 66
+		iron = 3
+		#11.5  total input+maint = 66
 	}
 	output_goods = construction_tools 
 	value = 2			#73

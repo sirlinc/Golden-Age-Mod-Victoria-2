@@ -14,7 +14,7 @@ IW_SUPPLY_COST;You need §Y$VAL$§W¤ every day to pay for supplies of this unit.;V
 HAS_NOT_CULTURE_CORE;$CUL$ is NOT a core-culture of $WHERE$.\n;$CUL$ n'est PAS une culture de base de $WHERE$.\n;$CUL$ ist KEINE Kernkultur von $WHERE$.\n;;;;;;;;;;;x
 HAS_CULTURE_CORE;$CUL$ is a core-culture of $WHERE$.\n;$CUL$ est une culture de base de $WHERE$.\n;$CUL$ ist eine Kernkultur von $WHERE$.\n;;;;;;;;;;;x
 PROMOTION_EFFECT_FROM_ADMIN;Admin. efficiency effect on promotion speed: §Y$PERCENTAGE$§!;Influence de l'efficacité administrative sur la vitesse de promotion : §Y$PERCENTAGE$§!;Einfluss der Verwaltungseffizienz auf die Beförderungsgeschwindigkeit: §Y$PERCENTAGE$§!;;;;;;;;;;;x
-OUTLINER_TOOLTIP_FACTORY_OCCUPANCY;Local factories employment: $PERC$;Niveau de l'emploi dans les usines locales : $PERC$;Beschäftigungsgrad in den lokalen Fabriken: $PERC$;;;;;;;;;;;x
+OUTLINER_TOOLTIP_FACTORY_OCCUPANCY;Local Workshops employment: $PERC$;Niveau de l'emploi dans les usines locales : $PERC$;Beschäftigungsgrad in den lokalen Fabriken: $PERC$;;;;;;;;;;;x
 REVOLTALLIANCE_LOG;A revolution! Our alliance is broken!;Une révolution ! Notre alliance est rompue!;Eine Revolution! Unser Bündnis ist gekündigt!;;;;;;;;;;;x
 tut_5b_12b;Click on the decisions tab to continue.;Cliquez sur l'onglet Décisions pour continuer;Drücken Sie auf den Entscheidungs Reiter um fortzufahren.;;;;;;;;;;;x
 tut_5b_14b;Click on the movements tab to continue.;Cliquez sur l'onglet Mouvements pour continuer;Drücken Sie auf den Bewegungs Reiter um fortzufahren.;;;;;;;;;;;x

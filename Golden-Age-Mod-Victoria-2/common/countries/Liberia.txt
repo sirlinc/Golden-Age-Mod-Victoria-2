@@ -76,7 +76,7 @@ party = {
 	start_date = 1790.1.1
 	end_date = 2000.1.1
 
-	ideology = reactionary
+	ideology = landowners 
 
 	citizenship_policy = residency
 	economic_policy = state_capitalism

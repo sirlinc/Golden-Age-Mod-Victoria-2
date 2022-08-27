@@ -276,6 +276,20 @@ spriteTypes = {
 		loadType = "FRONTEND"
 	}
 	
+	SpriteType = {
+		name = "GFX_frontend_background"
+		texturefile = "gfx\\interface\\background.dds"
+		noOfFrames = 1
+		loadType = "FRONTEND"
+	}
+	
+	SpriteType = {
+		name = "GFX_frontend_links"
+		texturefile = "gfx\\interface\\links.dds"
+		noOfFrames = 1
+		loadType = "FRONTEND"
+	}
+	
 	textSpriteType = {
 		name = "GFX_frontend_button3"
 		texturefile = "gfx\\interface\\frontend_button3.dds"

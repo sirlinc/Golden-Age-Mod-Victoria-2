@@ -3,7 +3,7 @@ MIL_FROM_CAP_SHIPS;Capital Ships;Navires;Großkampfschiff;;;;;;;;x;;;
 MIL_FROM_LEADERS;Leaders;Dirigeants;Anführer;;;;;;;;x;;;
 OCCUPATION_SCORE;Occupation: ;Occupation : ;Besetzung:;;;;;;;;x;;;
 BLOCKADE_SCORE;Blockade: ;Blocus : ;Blockade:;;;;;;;;x;;;
-OUTLINER_TOOLTIP_EMPLOYED;§Y$COUNT$§! Employed in factories (§Y$PERC$§!%);§Y$COUNT$§ Employés en usines (§Y$PERC$§! %);§Y$COUNT$§! in (§Y$PERC$§!%) Fabriken eingestellt;;;;;;;;x;;;
+OUTLINER_TOOLTIP_EMPLOYED;§Y$COUNT$§! Employed in Workshops (§Y$PERC$§!%);§Y$COUNT$§ Employés en usines (§Y$PERC$§! %);§Y$COUNT$§! in (§Y$PERC$§!%) Fabriken eingestellt;;;;;;;;x;;;
 TRADE_SUPPLY_NEED_A;$VAL$ to supply army each day.\n;$VAL$ à fournir à l'armée chaque jour.\n;$VAL$ zur täglichen Versorgung der Armee.\n;;;;;;;;x;;;
 TRADE_SUPPLY_NEED_N;$VAL$ to supply navy each day.\n;$VAL$ à fournir à la marine chaque jour.\n;$VAL$ zur täglichen Versorgung der Marine.\n;;;;;;;;x;;;
 DIPLOMACY_CANNOT_SET_PRIO_WAR;We cannot influence this nation while we have a war with them.;Nous ne pouvons pas influencer cette nation tant que nous sommes en guerre contre elle.;Wir können diese Nation nicht beeinflussen, während wir einen Krieg gegen sie führen.;;;;;;;;x;;;
@@ -39,7 +39,7 @@ POLL_ESTIMATED_ELECTION;In an election we estimate the following result.;En cas 
 MODIFIER_MOVEMENT_COST;Troop Movement Cost;Coût du mouvement de troupe;Kosten der Truppenbewegung;;;;;;;;x;;;
 SPEED_IMPACT_ON_CB;Speed of generation is changed by §Y$VAL$§W.;La vitesse de génération change de §Y$VAL$§W.;Die Geschwindigkeit der Generationen hat sich um §Y$VAL$§W geändert.;;;;;;;;x;;;
 TERR_COMB_WIDTH_DEC;Combat width is reduced by §Y$VAL$§W% in this terrain.;L'ampleur du combat est réduite de §Y$VAL$§W % sur ce terrain.;Die Angriffsweite für dieses Terrain ist um §Y$VAL$§W% reduziert.;;;;;;;;x;;;
-MODIFIER_BOOST_STRONGEST_PARTY;Strength of Strongest Party;Force du plus fort parti;Stärke der stärksten Partei;;;;;;;;x;;;
+MODIFIER_BOOST_STRONGEST_PARTY;Strength of Strongest Estate;Force du plus fort parti;Stärke der stärksten Partei;;;;;;;;x;;;
 PEACEDEMANDDESC;$COUNTRY$ is demanding a peace on the following terms:;$COUNTRY$ demande la paix selon les termes suivants :;$COUNTRY$ verlangt Frieden unter den folgenden Bedingungen:;;;;;;;;;;;x
 CB_JUSTIFY_NO_LONGER_VALID_SETUP;When our war justification process is no longer valid.;Quand notre justification de guerre n'est plus valide.;Sobald unser Prozess der Kriegsrechtfertigung nicht länger gültig ist.;;;;;;;;;;;x
 CB_JUSTIFY_NO_LONGER_VALID_HEADER;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;$MONARCHTITLE$;;;;;;x
@@ -67,10 +67,10 @@ HAS_CULTURE_UNION;Has culture union;A la culture syndicale;Besitzt kulturelle Un
 HAS_NOT_CULTURE_UNION;Has NO culture union;N'a pas de culture syndicale;Besitzt KEINE kulturellen Unionen;;;;;;;;;;;x
 IS_STATE_CAPITAL;is state capital;est la capitale de l'État;ist Landeshauptstadt;;;;;;;;;;;x
 IS_NOT_STATE_CAPITAL;is NOT state capital;n'est pas la capitale de l'État;ist KEINE Landeshauptstadt;;;;;;;;;;;x
-SUBSIDIZE_ALL_TOOLTIP;Subsidize all factories on the list.;Subventionner toutes les usines de la liste.;Alle Fabrikanlagen von dieser Liste werden bezuschusst.;;;;;;;;;;;x
-UNSUBSIDIZE_ALL_TOOLTIP;Cancel subsidies for all factories on the list.;Annuler les subventions pour toutes les usines de la liste.;Bezuschussung aller Fabrikanlagen von dieser Liste abbrechen.;;;;;;;;;;;x
-OPEN_ALL_TOOLTIP;Open all factories on the list.;Ouvrir toutes les usines de la liste.;Alle Fabrikanlagen von dieser Liste öffnen.;;;;;;;;;;;x
-CLOSE_ALL_TOOLTIP;Close all factories on the list.;Fermer toutes les usines de la liste.;Alle Fabrikanlagen von dieser Liste schließen.;;;;;;;;;;;x
+SUBSIDIZE_ALL_TOOLTIP;Subsidize all Workshops on the list.;Subventionner toutes les usines de la liste.;Alle Fabrikanlagen von dieser Liste werden bezuschusst.;;;;;;;;;;;x
+UNSUBSIDIZE_ALL_TOOLTIP;Cancel subsidies for all Workshops on the list.;Annuler les subventions pour toutes les usines de la liste.;Bezuschussung aller Fabrikanlagen von dieser Liste abbrechen.;;;;;;;;;;;x
+OPEN_ALL_TOOLTIP;Open all Workshops on the list.;Ouvrir toutes les usines de la liste.;Alle Fabrikanlagen von dieser Liste öffnen.;;;;;;;;;;;x
+CLOSE_ALL_TOOLTIP;Close all Workshops on the list.;Fermer toutes les usines de la liste.;Alle Fabrikanlagen von dieser Liste schließen.;;;;;;;;;;;x
 ON_ENACT_UNCIV_REFORM;When enacted:;Lorsqu'elle a été promulguée :;Sobald beschlossen:;;;;;;;;;;;x
 EFFECT_BUILD_IN_CAPITAL_DESC;§Y$BLD$§! construction will take place in: §Y$PROVS$§!;§Y$BLD$§! constructions sont prévues en §Y$PROVS$§!;§Y$BLD$§! Bau wird in: §Y$PROVS$§! beginnen;;;;;;;;;;;x
 TRIGGER_BUILD_IN_CAPITAL_DESC;§RConstruction is not allowed for now.§!;§RLa construction n'est pas autorisée pour le moment.§!;§RBau ist derzeit nicht gestattet.§!;;;;;;;;;;;x
@@ -175,7 +175,7 @@ PRODUCTION_FACTORY_POP_PAYCHECKS;Workers and capitalists paychecks: $VALUE$;Rému
 PRODUCTION_FACTORY_TOTAL_BALANCE;Last day's balance: $VALUE$;Solde du jour dernier : $VALUE$;Kontostand des Vortags: $VALUE$;;;;;;;;;;;x
 PRODUCTION_FACTORY_TODAY_PROFIT;Last day's profitability: $VALUE$;Profit du jour dernier: $VALUE$;Rentabilität des Vortags: $VALUE$;;;;;;;;;;;x
 PRODUCTION_FACTORY_PROFITABILITY;Avg. profitability (last $DAYS$ days): $VALUE$;Profit moyen (derniers $DAYS$ jours) : $VALUE$;Durschnittl. Rentabilität (der letzten $DAYS$ Tage): $VALUE$;;;;;;;;;;;x
-PRODUCTION_FACTORY_CURRENT_BUDGET;Current factory budget: $VALUE$;Budget actuel des usines : $VALUE$;Derzeitiges Fabrikanlagen-Budget: $VALUE$;;;;;;;;;;;x
+PRODUCTION_FACTORY_CURRENT_BUDGET;Current Manufactory budget: $VALUE$;Budget actuel des usines : $VALUE$;Derzeitiges Fabrikanlagen-Budget: $VALUE$;;;;;;;;;;;x
 PRODUCTION_FACTORY_INVESTMENT;From investments: $VALUE$;Des investissements : $VALUE$;Aus Investitionen: $VALUE$;;;;;;;;;;;x
 PRODUCTION_FACTORY_SUBSIDIES;From investments: $VALUE$;Des investissements : $VALUE$;Aus Investitionen: $VALUE$;;;;;;;;;;;x
 INFLUENCE_OVERFLOW_TOOLTIP;We are spending §Y$VALUE$§! of influence points each day, to reduce the influence of other countries.;Nous utilisons chaque jour §Y$VALUE$§! points d'influence pour réduire l'influence des pays étrangers.;Wir verbrauchen jeden Tag §Y$VALUE$§! Einfluss-Punkte, um den Einfluss anderer Länder zu reduzieren. ;;;;;;;;;;;x
@@ -189,10 +189,10 @@ TRADE_FLOW_DESC_RGO;Our $POP$ are $ACTION$ $AMOUNT$ $RESOURCE$ each day.;Nos $PO
 TRADE_FLOW_DESC_RGO_ACTION_MINING;mining;extraient;Bergbau;;;;;;;;;;;x
 TRADE_FLOW_DESC_RGO_ACTION_FARMING;farming;produisent;Landwirtschaft;;;;;;;;;;;x
 TRADE_FLOW_DESC_ARTISAN;Our Artisans are producing $AMOUNT$ $RESOURCE$ each day.;Nos artisans produisent $AMOUNT$ de $RESOURCE$ chaque jour.;Unsere Handwerker produzieren $AMOUNT$ $RESOURCE$ pro Tag.;;;;;;;;;;;x
-TRADE_FLOW_DESC_FACTORY;Our $FACTORY$ in $STATE$ is producing $AMOUNT$ $RESOURCE$ each day.;Notre $FACTORY$ en $STATE$ produit $AMOUNT$ de $RESOURCE$ par jour.;Unsere $FACTORY$ in $STATE$ produziert $AMOUNT$ $RESOURCE$ pro Tag.;;;;;;;;;;;x
+TRADE_FLOW_DESC_FACTORY;Our $Manufactory$ in $STATE$ is producing $AMOUNT$ $RESOURCE$ each day.;Notre $Manufactory$ en $STATE$ produit $AMOUNT$ de $RESOURCE$ par jour.;Unsere $Manufactory$ in $STATE$ produziert $AMOUNT$ $RESOURCE$ pro Tag.;;;;;;;;;;;x
 TRADE_FLOW_CONSUME_DESC_ARTISAN;Artisans are using $AMOUNT$ $RESOURCE$, to produce $OUTPUT$.;Les artisans utilisent $AMOUNT$ de $RESOURCE$ pour une producion de $OUTPUT$.;Handwerker verwenden $AMOUNT$ $RESOURCE$, um $OUTPUT$ zu produzieren.;;;;;;;;;;;x
 TRADE_FLOW_CONSUME_DESC_RGO;$POP$ are using $AMOUNT$ $RESOURCE$ to produce $OUTPUT$.;Les $POP$ utilisent $AMOUNT$ de $RESOURCE$ pour une producion de $OUTPUT$.;$POP$ verwenden $AMOUNT$ $RESOURCE$, um $OUTPUT$ zu produzieren.;;;;;;;;;;;x
-TRADE_FLOW_CONSUME_DESC_FACTORY;Our $FACTORY$ in $STATE$ is using $AMOUNT$ $RESOURCE$ for an input and/or maintenance requirements.;Notre $FACTORY$ en $STATE$ utilise $AMOUNT$ de $RESOURCE$ comme matière première et/ou pour son entretien.;Unsere $FACTORY$ in $STATE$ verwendet $AMOUNT$ $RESOURCE$ als Eingangs- und/ oder Instandhaltungsvoraussetzungen.;;;;;;;;;;;x
+TRADE_FLOW_CONSUME_DESC_FACTORY;Our $Manufactory$ in $STATE$ is using $AMOUNT$ $RESOURCE$ for an input and/or maintenance requirements.;Notre $Manufactory$ en $STATE$ utilise $AMOUNT$ de $RESOURCE$ comme matière première et/ou pour son entretien.;Unsere $Manufactory$ in $STATE$ verwendet $AMOUNT$ $RESOURCE$ als Eingangs- und/ oder Instandhaltungsvoraussetzungen.;;;;;;;;;;;x
 TRADE_FLOW_CONSUME_DESC_POPS;Our $POP$ are using $AMOUNT$ $RESOURCE$ as part of their daily needs.;Nos $POP$ utilisent $AMOUNT$ de $RESOURCE$ au titre de leurs besoins quotidiens.;Unsere $POP$ verwenden $AMOUNT$ $RESOURCE$ als Teil ihres täglichen Bedarfs.;;;;;;;;;;;x
 TRADE_FLOW_CONSUME_DESC_MILITARY;Our armies are using $AMOUNT$ $RESOURCE$ as a daily supply consumption.;Nos armées utilisent $AMOUNT$ de $RESOURCE$ pour leur ravitaillement quotidien.;Unsere Armee benötigt $AMOUNT$ $RESOURCE$ für ihren täglichen Vorratsverbrauch.;;;;;;;;;;;x
 TRADE_FLOW_MAY_USE_MILITARY_DESC;$INPUT$ may be used by our armies as a daily supply consumption.;$INPUT$ peuvent être utilisés quotidiennement par nos armées pour leur ravitaillement.;$INPUT$ kann von unseren Armeen für ihren täglichen Vorratsverbrauch verwendet werden.;;;;;;;;;;;x
@@ -234,7 +234,7 @@ MAPMODE_12;Population density;Densité de population;Bevölkerungsdichte;;;;;;;;;;
 MAPMODE_13;Nationality;Nationalité;Nationalität;;;;;;;;;;;x
 MAPMODE_14;Sphere of influence;Sphère d'influence;Einflussbereich;;;;;;;;;;;x
 MAPMODE_15;Supply limit;Limite de ravitaillement;Vorratslimit;;;;;;;;;;;x
-MAPMODE_16;Party loyalty;Loyauté partisane;Parteiloyalität;;;;;;;;;;;x
+MAPMODE_16;Estate loyalty;Loyauté partisane;Parteiloyalität;;;;;;;;;;;x
 MAPMODE_17;Ranking;Rang;Rangliste;;;;;;;;;;;x
 MAPMODE_18;Migrations;Migrations;Abwanderung;;;;;;;;;;;x
 MAPMODE_20;Relations;Relations;Beziehungen;;;;;;;;;;;x
@@ -250,20 +250,20 @@ PARTY_LOYALTY_EFFECT_OPERATOR_ADD;increased by;augmenté de;erhöht um;;;;;;;;;;;x
 PARTY_LOYALTY_EFFECT_OPERATOR_REM;decreased by;diminué de;gesunken um;;;;;;;;;;;x
 PARTY_LOYALTY_EFFECT_OPERATOR_MUL;multiplied by;multiplié par;multipliziert um;;;;;;;;;;;x
 PARTY_LOYALTY_EFFECT_OPERATOR_SET;set to;fixé à;gesetzt auf;;;;;;;;;;;x
-PARTY_LOYALTY_DESC_HEADER;Party loyalty in §Y$PROV$§W:;Loyauté du parti en §Y$PROV$§W :;Parteiloyalität in §Y$PROV$§W:;;;;;;;;;;;x
+PARTY_LOYALTY_DESC_HEADER;Estate loyalty in §Y$PROV$§W:;Loyauté du parti en §Y$PROV$§W :;Parteiloyalität in §Y$PROV$§W:;;;;;;;;;;;x
 PARTY_LOYALTY_DESC_NEUTRAL;Neutral;Neutre;Neutral;;;;;;;;;;;x
-PARTY_POPULARITY;Party Popularity;Popularité du parti;Partei-Beliebtheit;;;;;;;;;;;x
+PARTY_POPULARITY;Estate Popularity;Popularité du parti;Partei-Beliebtheit;;;;;;;;;;;x
 PRICE_HISTORY_TIME_RANGE;Last $MONTHS$ months;Derniers $MONTHS$ mois;Letzte $MONTHS$ Monate;;;;;;;;;;;x
-party_loyalty_focus;Party Loyalty;Loyauté du parti;Parteiloyalität;;;;;;;;;;;x
-fascist_focus;Party loyalty towards §Yfascist§! ;Loyauté envers le parti §Yfasciste§! ;Parteiloyalität gegenüber §Yfascist§! ;;;;;;;;;;;x
-reactionary_focus;Party loyalty towards §Yreactionary§! ;Loyauté envers le parti §Yréactionnaire§! ;Parteiloyalität gegenüber §Yreactionary§! ;;;;;;;;;;;x
-conservative_focus;Party loyalty towards §Yconservative§! ;Loyauté envers le parti §Yconservateur§! ;Parteiloyalität gegenüber §Yconservative§! ;;;;;;;;;;;x
-socialist_focus;Party loyalty towards §Ysocialist§! ;Loyauté envers le parti §Ysocialiste§! ;Parteiloyalität gegenüber §Ysocialist§! ;;;;;;;;;;;x
-communist_focus;Party loyalty towards §Ycommunist§! ;Loyauté envers le parti §Ycommuniste§! ;Parteiloyalität gegenüber §Ycommunist§! ;;;;;;;;;;;x
-liberal_focus;Party loyalty towards §Yliberal§! ;Loyauté envers le parti §Ylibéral§! ;Parteiloyalität gegenüber §Yliberal§! ;;;;;;;;;;;x
-anarcho_liberal_focus;Party loyalty towards §Yanarcho-liberal§! ;Loyauté envers le parti §Ylibertaire§! ;Parteiloyalität gegenüber §Yanarcho-liberal§! ;;;;;;;;;;;x
+party_loyalty_focus;Estate Loyalty;Loyauté du parti;Parteiloyalität;;;;;;;;;;;x
+fascist_focus;Estate loyalty towards §Yfascist§! ;Loyauté envers le parti §Yfasciste§! ;Parteiloyalität gegenüber §Yfascist§! ;;;;;;;;;;;x
+reactionary_focus;Estate loyalty towards §Yreactionary§! ;Loyauté envers le parti §Yréactionnaire§! ;Parteiloyalität gegenüber §Yreactionary§! ;;;;;;;;;;;x
+conservative_focus;Estate loyalty towards §Yconservative§! ;Loyauté envers le parti §Yconservateur§! ;Parteiloyalität gegenüber §Yconservative§! ;;;;;;;;;;;x
+socialist_focus;Estate loyalty towards §Ysocialist§! ;Loyauté envers le parti §Ysocialiste§! ;Parteiloyalität gegenüber §Ysocialist§! ;;;;;;;;;;;x
+communist_focus;Estate loyalty towards §Ycommunist§! ;Loyauté envers le parti §Ycommuniste§! ;Parteiloyalität gegenüber §Ycommunist§! ;;;;;;;;;;;x
+liberal_focus;Estate loyalty towards §Yliberal§! ;Loyauté envers le parti §Ylibéral§! ;Parteiloyalität gegenüber §Yliberal§! ;;;;;;;;;;;x
+anarcho_liberal_focus;Estate loyalty towards §Yanarcho-liberal§! ;Loyauté envers le parti §Ylibertaire§! ;Parteiloyalität gegenüber §Yanarcho-liberal§! ;;;;;;;;;;;x
 NATIONAL_FOCUS_PARTY_LOYALTY_DESC;Daily loyalty change by: §Y$VAL$§W.;Loyauté évoluant de §Y$VAL$§W par jour.;Tägliche Änderung der Loyalität um: §Y$VAL$§W.;;;;;;;;;;;x
-PARTY_WITH_IDEOLOGY_NOT_EXIST;There is no active party with §Y$IDEOLOGY$§W ideology.;Il n'y a pas de parti actif avec l'idéologie §Y$IDEOLOGY$§W;Es gibt keine aktive Partei mit einer §Y$IDEOLOGY$§W Weltanschauung.;;;;;;;;;;;x
+PARTY_WITH_IDEOLOGY_NOT_EXIST;There is no active Estate with §Y$IDEOLOGY$§W ideology.;Il n'y a pas de parti actif avec l'idéologie §Y$IDEOLOGY$§W;Es gibt keine aktive Partei mit einer §Y$IDEOLOGY$§W Weltanschauung.;;;;;;;;;;;x
 NATIONAL_FOCUS_PARTY_LOYALTY_EFFECT;From national focus, daily change $VAL$ towards $PARTY$.;Par l'effet de la cause nationale, évolution quotidienne de $VAL$ envers $PARTY$.;Seitens des nationalen Fokus, tägliche Änderung $VAL$ in Richtung $PARTY$.;;;;;;;;;;;x
 SUBSTATE_OF_NOCOLOR;Substate of;Sous-État de;Unterstaat von;;;;;;;;;;;x
 SUBSTATE;Substate;Sous-État;Unterstaat ;;;;;;;;;;;x
@@ -403,14 +403,14 @@ MESSAGE_BUTTON_SEARCH;Search;Chercher;Suche ;;;;;;;;;;;x
 MESSAGE_BUTTON_CLEAR;Clear;Effacer;Löschen;;;;;;;;;;;x
 MESSAGE_SEARCH_TOOLTIP;Enter key words separated by §Yspace§! to filter the list.;Entrez les mot-clefs séparés par §YEspace§! pour filtrer la liste.;Trennt Schlüsselwörter mithilfe der §YLeertaste§!, um die Liste zu filtern. ;;;;;;;;;;;x
 SIDEMENU_menubar_msg_settings;Click to open message filter settings.;Clic gauche pour sélectionner les filtres de messages;Klicken, um die Einstellungen des Nachrichtenfilters zu öffnen.;;;;;;;;;;;x
-RULE_BUILD_FACTORY_INVEST;Build foreign factory;Construire une usine à l'étranger;Eine ausländische Fabrikanlage bauen;;;;;;;;;;;x
-RULE_EXPAND_FACTORY_INVEST;Expand foreign factory;Agrandir une usine à l'étranger;Eine ausländische Fabrikanlage ausbauen;;;;;;;;;;;x
-RULE_OPEN_FACTORY_INVEST;Open foreign factory;Ouvrir une usine à l'étranger;Eine ausländische Fabrikanlage eröffnen;;;;;;;;;;;x
+RULE_BUILD_FACTORY_INVEST;Build foreign Manufactory;Construire une usine à l'étranger;Eine ausländische Fabrikanlage bauen;;;;;;;;;;;x
+RULE_EXPAND_FACTORY_INVEST;Expand foreign Manufactory;Agrandir une usine à l'étranger;Eine ausländische Fabrikanlage ausbauen;;;;;;;;;;;x
+RULE_OPEN_FACTORY_INVEST;Open foreign Manufactory;Ouvrir une usine à l'étranger;Eine ausländische Fabrikanlage eröffnen;;;;;;;;;;;x
 RULE_BUILD_RAILWAY_INVEST;Investors can build foreign railways;Les investisseurs peuvent construire des chemins de fer à l'étranger;Investoren können eine ausländische Eisenbahnlinie bauen;;;;;;;;;;;x
 RULE_CAN_INVEST_IN_POP_PROJECTS;Invest in pop projects;Investir dans des projets;In Pop-Projekte investieren;;;;;;;;;;;x
-RULE_POP_BUILD_FACTORY_INVEST;Investors can build foreign factory;Des investisseurs peuvent construire une usine à l'étranger;Investoren können eine ausländische Fabrikanlage bauen;;;;;;;;;;;x
-RULE_POP_EXPAND_FACTORY_INVEST;Investors can expand foreign factory;Des investisseurs peuvent agrandir une usine à l'étranger;Investoren können eine ausländische Fabrikanlage erweitern;;;;;;;;;;;x
-RULE_POP_OPEN_FACTORY_INVEST;Investors can open foreign factory;Des investisseurs peuvent ouvrir une usine à l'étranger;Investoren können eine ausländische Fabrikanlage eröffnen;;;;;;;;;;;x
+RULE_POP_BUILD_FACTORY_INVEST;Investors can build foreign Manufactory;Des investisseurs peuvent construire une usine à l'étranger;Investoren können eine ausländische Fabrikanlage bauen;;;;;;;;;;;x
+RULE_POP_EXPAND_FACTORY_INVEST;Investors can expand foreign Manufactory;Des investisseurs peuvent agrandir une usine à l'étranger;Investoren können eine ausländische Fabrikanlage erweitern;;;;;;;;;;;x
+RULE_POP_OPEN_FACTORY_INVEST;Investors can open foreign Manufactory;Des investisseurs peuvent ouvrir une usine à l'étranger;Investoren können eine ausländische Fabrikanlage eröffnen;;;;;;;;;;;x
 PRODUCTION_OUR_INVEST;Our investment: $AMOUNT$¤ ($PERCENTAGE$%);Notre investissement : $AMOUNT$ ¤ ($PERCENTAGE$ %);Unsere Investition: $AMOUNT$¤ ($PERCENTAGE$%);;;;;;;;;;;x
 MSG_FILTER_HEADER;Messages filter settings;Filtres de messages;Nachrichtenfilter-Einstellungen;;;;;;;;;;;x
 MSG_FILTER_TITLE;We are interested in:;Sommes intéressés par;Wir interessieren uns für:;;;;;;;;;;;x
@@ -623,13 +623,13 @@ pre_indust_l;Early Industrialisation;Préindustrialisation;Frühe Industrialisieru
 no_pre_indust;Stick to the old ways;S'en tenir aux vieilles méthodes;Bleib bei Altbewährtem;;;;;;;;;;;x
 yes_pre_indust;Industrial progress;Progrès industriel;Industrieller Fortschritt;;;;;;;;;;;x
 no_pre_indust_desc;We have no need of workshop;Nous n'avons pas besoin d'industrie;Wir haben keinen Bedarf an Industrie;;;;;;;;;;;x
-yes_pre_indust_desc;Construct some basic factories with the help of foreign advisors. Could this be the beginning of an industrial revolution?;Construire quelques usines de base avec l'aide de conseillers étrangers : serait-ce le début d'une révolution industrielle ?;Baue einige einfache Fabrikanlagen mit der Hilfe ausländischer Berater. Könnte dies der Beginn einer industriellen Revolution sein?;;;;;;;;;;;x
+yes_pre_indust_desc;Construct some basic Workshops with the help of foreign advisors. Could this be the beginning of an industrial revolution?;Construire quelques usines de base avec l'aide de conseillers étrangers : serait-ce le début d'une révolution industrielle ?;Baue einige einfache Fabrikanlagen mit der Hilfe ausländischer Berater. Könnte dies der Beginn einer industriellen Revolution sein?;;;;;;;;;;;x
 industrial_construction;Industrial Construction;Construction industrielle;Industrielle Konstruktion;;;;;;;;;;;x
 industrial_construction_l;Industrial Construction;Construction industrielle;Industrielle Konstruktion;;;;;;;;;;;x
 no_industrial_construction;No Industrial Construction;Pas de construction industrielle;Keine Industrielle Konstruktion ;;;;;;;;;;;x
 yes_industrial_construction;Industrial Construction;Construction industrielle;Industrielle Konstruktion;;;;;;;;;;;x
-no_industrial_construction_desc;No advanced factories;Pas d'usines modernes;Keine fortschrittlichen Fabrikanlagen;;;;;;;;;;;x
-yes_industrial_construction_desc;Foreign advisors assist us in building more advanced factories;Des conseillers étrangers nous assistent dans la construction d'usines plus modernes;Ausländische Berater unterstützen uns beim Bau von fortschrittlichen Fabrikanlagen;;;;;;;;;;;x
+no_industrial_construction_desc;No advanced Workshops;Pas d'usines modernes;Keine fortschrittlichen Fabrikanlagen;;;;;;;;;;;x
+yes_industrial_construction_desc;Foreign advisors assist us in building more advanced Workshops;Des conseillers étrangers nous assistent dans la construction d'usines plus modernes;Ausländische Berater unterstützen uns beim Bau von fortschrittlichen Fabrikanlagen;;;;;;;;;;;x
 foreign_training;Training methods;Méthodes d’entraînement;Ausbildungsmethoden;;;;;;;;;;;x
 foreign_training_l;Training methods;Méthodes d’entraînement;Ausbildungsmethoden;;;;;;;;;;;x
 no_foreign_training;Local training methods;Méthodes d’entraînement locales;Örtliche Ausbildungsmethoden;;;;;;;;;;;x
@@ -809,7 +809,7 @@ MOVEMENT_RADICALISM;Movement Radicalism;Mouvement radical;Radikalismus der Beweg
 MOVEMENT_RADICALISM_DESC;This describes how much the people of the movement trust the political process in your country to get them what they want. A movement with a high value (§Y100§!) will convert to a rebel uprising if not suppressed;Ceci décrit dans quelle mesure les gens de ce mouvement font confiance au processus politique pour obtenir ce qu'ils veulent dans votre pays. Un mouvement avec une valeur élevée (§Y100§!) se transformera en rébellion s'il n'est pas réprimé.;Dies beschreibt wie viel Vertrauen die Anhänger einer Bewegung und der Erfüllung ihrer Forderungen dem politischen Prozess in eurem Land entgegen bringen. Eine Bewegung mit einem hohen Wert (§Y100§!) wird in einen Rebellenaufstand enden, sofern sie nicht unterdrückt werden.;;;;;;;;;;;x
 NUMBER_MOVEMENT_SUPPORTERS;Number of supporters;Nombre de partisans;Anzahl der Anhänger;;;;;;;;;;;x
 NUMBER_MOVEMENT_SUPPORTERS_DESC;The larger the movement the harder it is to suppress. If you enact a reform with less support all movements with more support will become more radical;Plus le mouvement est grand, plus il est difficile à réprimer. Si vous adoptez une réforme avec moins de soutien, tous les mouvements en ayant plus deviendront plus radicaux;Je größer die Bewegung, desto schwieriger ist es, sie zu unterdrücken. Wenn Ihr Reformen mit weniger Unterstützung verabschiedet, werden alle Bewegungen mit mehr Unterstützung radikaler;;;;;;;;;;;x
-PRODUCTION_CLOSE_FACTORY_BECAUSE_FOREIGN_TOOLTIP;Can not close foreign factory\n;Vous ne pouvez pas fermer une usine étrangère\n;Eine ausländische Fabrikanlage kann nicht geschlossen werden\n;;;;;;;;;;;x
+PRODUCTION_CLOSE_FACTORY_BECAUSE_FOREIGN_TOOLTIP;Can not close foreign Manufactory\n;Vous ne pouvez pas fermer une usine étrangère\n;Eine ausländische Fabrikanlage kann nicht geschlossen werden\n;;;;;;;;;;;x
 CAN_NATIONALIZE;Have foreign investors;Avoir des investisseurs étrangers;Besitzt Investoren aus dem Ausland;;;;;;;;;;;x
 IS_NOT_IN_A_SPHERE;Not in a sphere of influence;Pas dans une sphère d'influence;Nicht in einem Einflussbereich;;;;;;;;;;;x
 ACTIVATE_TECH_EFFECT;Activate technology: §Y$NAME$§!;Activer la technologie §Y$NAME$§!;Technologie aktivieren: §Y$NAME$§!;;;;;;;;;;;x

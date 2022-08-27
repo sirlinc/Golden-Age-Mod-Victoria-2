@@ -609,6 +609,16 @@ guiTypes = {
 			position = { x= 338 y =31}
 			quadTextureSprite ="GFX_unit_folder_army_10_plane"
 		}
+		guiButtonType = {
+			name = "unit_folder_23"
+			position = { x= 371 y =31}
+			quadTextureSprite ="GFX_unit_folder_army_11_art_siege"
+		}
+		guiButtonType = {
+			name = "unit_folder_22"
+			position = { x= 404 y =31}
+			quadTextureSprite ="GFX_unit_folder_army_12_art_war"
+		}
 		
 		# navy.
 		

@@ -1256,6 +1256,8 @@ UPA = "countries/UPA.txt"
 FDA = "countries/FDA.txt"
 KTA = "countries/KTA.txt" #Kitabatake
 CHB = "countries/CHB.txt" #Chiba
+GTG = "countries/GTG.txt" #Gottingen
+STO = "countries/STO.txt" #Stolberg
 #
 #
 

@@ -1,6 +1,6 @@
-owner=BRA
-controller=BRA
-add_core=BRA
+owner=GTG
+controller=GTG
+add_core=GTG
 add_core=GER
 add_core=HLR
 trade_goods = grain

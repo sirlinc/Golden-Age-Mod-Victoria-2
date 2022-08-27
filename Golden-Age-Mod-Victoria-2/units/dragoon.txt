@@ -3,7 +3,7 @@ dragoon = {
 	
 	type = land
 	sprite = Dragoon
-	active = no
+	active = yes #no
 	unit_type = cavalry
 	
 	#Avatar
