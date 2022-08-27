@@ -1,5 +1,5 @@
 capital = 354
-primary_culture = mashriqi
+primary_culture = bedouin
 culture = zzz_religion_sunni
 religion = sunni
 government = feudal_monarchy
@@ -36,7 +36,7 @@ upper_house =
 	nobility = 65
 	clergy = 10
 	upper_bourgeoisie = 0
-	modern_clergy = 0
+	landowners = 54
 	people = 0
 }
 

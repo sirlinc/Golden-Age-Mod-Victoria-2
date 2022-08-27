@@ -273,23 +273,19 @@ political_decisions = {
 	}
 	build_a_palace = { 
 		picture = palace
+		alert = no
 		potential = {
 			government = feudal_monarchy
 		}	
 		allow = {
 			war = no
 			ruling_party_ideology = nobility
-			civilized = yes
 			absolutism_i = 1
+			is_greater_power = yes
+			money = 100000
 		}
 		effect = {
-			government = absolute_monarchy
-			militancy = 1.4
-			upper_house = {
-				ideology = nobility
-				value = 0.6
-			}
-			prestige = 2
+			event = 6705
 		}
 		ai_will_do = {
 			factor = 1

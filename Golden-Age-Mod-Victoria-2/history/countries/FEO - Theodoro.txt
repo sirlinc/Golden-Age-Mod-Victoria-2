@@ -1,6 +1,5 @@
 capital = 967
 primary_culture = greek
-culture = gothic
 culture = zzz_religion_orthodox
 religion = orthodox
 government = feudal_monarchy
@@ -37,7 +36,7 @@ upper_house =
 	nobility = 87
 	clergy = 5
 	upper_bourgeoisie = 0
-	modern_clergy = 0
+	landowners = 54
 	people = 0
 }
 

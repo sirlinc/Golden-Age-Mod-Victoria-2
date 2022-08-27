@@ -1,5 +1,6 @@
 owner=FER
 controller=FER
+add_core=ITP
 add_core=FER
 add_core=HLR
 add_core=ITA

@@ -783,7 +783,7 @@ guiTypes = {
 					position = { x = 40 y = 15 }
 					font = "vic_18"
 					text = "REFORM_NAME"	
-					maxWidth = 100
+					maxWidth = 160
 					maxHeight = 20	
 				}
 			}
@@ -891,6 +891,34 @@ guiTypes = {
 				iconType = {
 				 name = "politics_safetyreg"
 				 spriteType = "GFX_politics_safetyreg"
+				 position = { x= 7 y = 10 }
+				 Orientation = "UPPER_LEFT"
+			 }
+				
+				instantTextBoxType = { 
+					name = "reform_name"
+					position = { x = 40 y = 15 }
+					font = "vic_18"
+					text = "REFORM_NAME"	
+					maxWidth = 100
+					maxHeight = 20	
+				}
+			}
+			
+			windowType = {
+				name = "state_religion"
+				backGround =""
+				position = { x = 527 y = 384 }
+				size = { x=310 y=100 }
+				moveable = 0
+				dontRender = ""
+				horizontalBorder = "0"
+				verticalBorder = ""
+				fullScreen = no
+				
+				iconType = {
+				 name = "politics_statereligion"
+				 spriteType = "GFX_politics_statereligion"
 				 position = { x= 7 y = 10 }
 				 Orientation = "UPPER_LEFT"
 			 }

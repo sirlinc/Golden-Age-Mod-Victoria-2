@@ -35,7 +35,7 @@ upper_house =
 	nobility = 84
 	clergy = 6
 	upper_bourgeoisie = 0
-	modern_clergy = 0
+	landowners = 54
 	people = 0
 }
 

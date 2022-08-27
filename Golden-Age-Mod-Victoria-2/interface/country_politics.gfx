@@ -161,6 +161,10 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\politics_maxwork.dds"
 	}
 	spriteType = {
+		name = "GFX_politics_statereligion"
+		texturefile = "gfx\\interface\\politics_statereligion.dds"
+	}
+	spriteType = {
 		name = "GFX_politics_minwage"
 		texturefile = "gfx\\interface\\politics_minwage.dds"
 	}
@@ -296,7 +300,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_politics_nationalvalue"
 		texturefile = "gfx\\interface\\politics_nationalvalue.tga"
-		noOfFrames = 24
+		noOfFrames = 26
 	}
 	spriteType = {
 		name = "GFX_politics_pluralism"

@@ -330,11 +330,11 @@ MAD_2121;North Madagascar;Du Nord de Madagascar;Nord-Madagaskar;;North Madagasca
 sioux_nation_title;Sioux Nation;Nation Sioux;Sioux-Nation;;Nación Sioux;;;;;;;;;x;
 sioux_nation_name;Sioux Nation;Nation Sioux;Sioux-Nation;;Nación Sioux;;;;;;;;;x;
 sioux_nation_desc;The Sioux Nation rises to defend their ancestral lands from the encroachment of American settlers and soldiers. They are angered by broken promises from Washington, and will fight fiercely to halt the colonization of the West.;;Die Sioux-Nation erhebt sich und verteidigt das Land ihrer Vorfahren gegen das Vordringen der amerikanischen Siedler und Soldaten. Die gebrochenen Versprechen Washingtons befeuern ihren Zorn und sie werden entschlossen kämpfen, um die Kolonisation des Westens aufzuhalten.;;;;;;;;;;;x;
-sioux_nation_army;Sioux War Party;Groupe de guerriers Sioux;Sioux-Kriegspartei;;Parte de guerra Sioux;;;;;;;;;x;
+sioux_nation_army;Sioux War Estate;Groupe de guerriers Sioux;Sioux-Kriegspartei;;Parte de guerra Sioux;;;;;;;;;x;
 apache_title;Apache;Apache;Apache;;Apache;;;;;;;;;x;
 apache_name;Apache;Apache;Apache;;Apache;;;;;;;;;x;
 apache_desc;The Apache rise to defend their ancestral lands from the encroachment of American settlers and soldiers. They are angered by broken promises from Washington, and will fight fiercely to halt the colonization of the West.;;Die Apachen erheben sich und verteidigen das Land ihrer Vorfahren gegen das Vordringen der amerikanischen Siedler und Soldaten. Die gebrochenen Versprechen Washingtons befeuern ihren Zorn und sie werden entschlossen kämpfen, um die Kolonisation des Westens aufzuhalten.;;;;;;;;;;;x;
-apache_army;Apache War Party;Expédition guerrière Apache;Apache-Kriegspartei;;Parte de guerra Apache;;;;;;;;;x;
+apache_army;Apache War Estate;Expédition guerrière Apache;Apache-Kriegspartei;;Parte de guerra Apache;;;;;;;;;x;
 EVTNAME160001;The Taiping Rebellion;;Die Taiping-Rebellion;;;;;;;;;;;x;
 EVTDESC160001;A great rebellion has sundered all under Heaven!;;Eine große Rebellion hat alle unter den Weiten des Himmels aufgespalten.;;;;;;;;;;;x;
 EVTOPTA160001;Crush them!;;Vernichtet sie!;;;;;;;;;;;x;

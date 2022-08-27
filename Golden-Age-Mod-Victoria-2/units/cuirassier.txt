@@ -3,7 +3,7 @@ cuirassier = {
 	
 	type = land
 	sprite = Cuirassier
-	active = no
+	active = yes #no
 	unit_type = cavalry
 	
 	#Avatar

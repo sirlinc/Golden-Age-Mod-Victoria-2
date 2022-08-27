@@ -4,6 +4,7 @@ add_core=HLR
 add_core=ITA
 add_core=SVY
 add_core=X32
+add_core=ITP
 trade_goods = fruit
 life_rating = 30
 terrain = farmlands

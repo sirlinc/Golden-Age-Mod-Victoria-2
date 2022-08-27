@@ -2,10 +2,8 @@ capital = 425
 primary_culture = french
 culture = breton
 culture = occitan
-culture = norman
 culture = picard
-culture = arpitan
-culture = wallonian
+culture = rollonian
 culture = zzz_religion_catholic
 religion = catholic
 government = feudal_monarchy
@@ -42,7 +40,7 @@ upper_house =
 	nobility = 86
 	clergy = 6
 	upper_bourgeoisie = 0
-	modern_clergy = 0
+	landowners = 54
 	people = 0
 }
 
