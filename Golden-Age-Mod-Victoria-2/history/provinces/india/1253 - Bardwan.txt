@@ -1,0 +1,8 @@
+owner=BNG
+controller=BNG
+add_core=BNG
+add_core=HND
+add_core=MBL
+trade_goods = silk
+life_rating = 32
+terrain = jungle

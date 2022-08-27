@@ -1,0 +1,9 @@
+owner=HMI
+controller=HMI
+add_core=HMI
+add_core=KHA
+add_core=MGL
+add_core=OIR
+trade_goods = grain
+life_rating = 32
+terrain = woods

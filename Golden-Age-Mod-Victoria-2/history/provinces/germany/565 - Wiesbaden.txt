@@ -1,0 +1,8 @@
+owner=NAS
+controller=NAS
+add_core=GER
+add_core=HLR
+add_core=NAS
+trade_goods = fruit
+life_rating = 40
+terrain = farmlands

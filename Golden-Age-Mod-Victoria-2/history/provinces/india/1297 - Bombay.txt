@@ -1,0 +1,10 @@
+owner=GUJ
+controller=GUJ
+add_core=AMD
+add_core=BIJ
+add_core=BMN
+add_core=GUJ
+add_core=HND
+trade_goods = grain
+life_rating = 32
+terrain = farmlands

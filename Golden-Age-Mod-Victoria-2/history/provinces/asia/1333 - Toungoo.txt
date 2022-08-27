@@ -1,0 +1,8 @@
+owner=AVA
+controller=AVA
+add_core=AVA
+add_core=BUR
+add_core=IDO
+trade_goods = opium
+life_rating = 30
+terrain = hills

@@ -1,0 +1,8 @@
+owner=BMN
+controller=BMN
+add_core=BMN
+add_core=BRR
+add_core=HND
+trade_goods = tea
+life_rating = 32
+terrain = plains

@@ -1,0 +1,106 @@
+#Sphere of Influence
+GRA = {
+	value = -198
+	truce_until = 1452.4.14
+}
+
+#Leaders
+leader = {
+	name="Álvaro de Luna"
+	date="1422.1.1"
+	type=land
+	personality="stalwart"
+	background="bootlicker"
+}
+
+
+#Armies
+army = {
+	name = "Ejército Real"
+	location = 491
+	regiment = {
+		name = "Infantería I."
+		type = infantry
+		home = 491
+	}
+	regiment = {
+		name = "Infantería II."
+		type = infantry
+		home = 491
+	}
+	regiment = {
+		name = "Infantería III."
+		type = artillery
+		home = 491
+	}
+}
+army = {
+	name = "Ejército Real"
+	location = 509
+	regiment = {
+		name = "Infantería IV."
+		type = infantry
+		home = 509
+	}
+}
+navy = {
+	name="Marina Real"
+	location=511
+	ship = {
+		name="1st Lisbon Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="4th Lisbon Clipper Transport"
+		type=merchant_ship
+	}
+}
+#navy = {
+#	name="Armada Real"
+#	location=478
+#	ship = {
+#		name="Águila"
+#		type=clipper_transport
+#	}
+#	ship = {
+#		name="Águila de Nantes"
+#		type=clipper_transport
+#	}
+#	ship = {
+#		name="Águila Volante"
+#		type=clipper_transport
+#	}
+#	ship = {
+#		name="Astrolabio"
+#		type=clipper_transport
+#	}
+#}
+#army = {
+#	name = "I. Armee"
+#	location = 485
+#	regiment = {
+#		name= "1.1. Infanteriedivision"
+#		type = infantry
+#		home = 485
+#	}
+#	regiment = {
+#		name= "1.2. Infanteriedivision"
+#		type = infantry
+#		home = 485
+#	}
+#	regiment = {
+#		name= "1.3. Infanteriedivision"
+#		type = infantry
+#		home = 485
+#	}
+#	regiment = {
+#		name= "1.4. Infanteriedivision"
+#		type = infantry
+#		home = 485
+#	}
+#	regiment = {
+#		name= "2.1. Kavalleriedivision"
+#		type = cavalry
+#		home = 485
+#	}
+#}

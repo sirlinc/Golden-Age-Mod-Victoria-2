@@ -1,0 +1,202 @@
+1201 = {
+	soldiers=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 450
+	}
+
+	artisans=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 1800
+	}
+
+	clergymen=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 293
+	}
+
+	bureaucrats=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 23
+	}
+
+	officers=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 36
+	}
+
+	aristocrats=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 378
+	}
+
+	farmers=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 42020
+	}
+
+}
+1207 = {
+	soldiers=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 270
+	}
+
+	artisans=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 1080
+	}
+
+	clergymen=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 176
+	}
+
+	bureaucrats=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 14
+	}
+
+	officers=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 22
+	}
+
+	aristocrats=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 227
+	}
+
+	farmers=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 25211
+	}
+
+}
+1208 = {
+	soldiers=
+	{
+		culture = uzbek
+		religion = shiite
+		size= 92
+	}
+
+	artisans=
+	{
+		culture = uzbek
+		religion = shiite
+		size= 368
+	}
+
+	clergymen=
+	{
+		culture = uzbek
+		religion = shiite
+		size= 60
+	}
+
+	bureaucrats=
+	{
+		culture = uzbek
+		religion = shiite
+		size= 5
+	}
+
+	officers=
+	{
+		culture = uzbek
+		religion = shiite
+		size= 7
+	}
+
+	aristocrats=
+	{
+		culture = uzbek
+		religion = shiite
+		size= 77
+	}
+
+	farmers=
+	{
+		culture = uzbek
+		religion = shiite
+		size= 8591
+	}
+
+	soldiers=
+	{
+		culture = uighur
+		religion = sunni
+		size= 115
+	}
+
+	artisans=
+	{
+		culture = uighur
+		religion = sunni
+		size= 460
+	}
+
+	clergymen=
+	{
+		culture = uighur
+		religion = sunni
+		size= 75
+	}
+
+	bureaucrats=
+	{
+		culture = uighur
+		religion = sunni
+		size= 6
+	}
+
+	officers=
+	{
+		culture = uighur
+		religion = sunni
+		size= 9
+	}
+
+	aristocrats=
+	{
+		culture = uighur
+		religion = sunni
+		size= 97
+	}
+
+	farmers=
+	{
+		culture = uighur
+		religion = sunni
+		size= 10738
+	}
+
+}

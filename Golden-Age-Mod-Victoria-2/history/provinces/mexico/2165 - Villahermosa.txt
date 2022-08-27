@@ -1,0 +1,6 @@
+owner=YOK
+controller=YOK
+add_core=YOK
+trade_goods = coffee
+life_rating = 30
+terrain = plains

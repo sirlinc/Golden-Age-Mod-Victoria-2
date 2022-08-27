@@ -1,0 +1,11 @@
+owner=FOI
+controller=FOI
+add_core=BSQ
+add_core=FOI
+add_core=FRA
+add_core=GYN
+add_core=OCC
+add_core=SPA
+trade_goods = grain
+life_rating = 32
+terrain = mountain

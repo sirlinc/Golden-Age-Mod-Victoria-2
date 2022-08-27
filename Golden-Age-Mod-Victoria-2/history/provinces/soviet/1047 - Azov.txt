@@ -1,0 +1,7 @@
+owner=GEN
+controller=GEN
+add_core=CRI
+trade_goods = cattle
+life_rating = 30
+terrain = steppe
+colonial=2

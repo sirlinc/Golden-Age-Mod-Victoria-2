@@ -1,0 +1,11 @@
+owner=FRA
+controller=FRA
+add_core=FRA
+trade_goods = grain
+life_rating = 40
+terrain = farmlands
+state_building = {
+	level = 1
+	building = construction_tools_factory
+	upgrade = yes
+}

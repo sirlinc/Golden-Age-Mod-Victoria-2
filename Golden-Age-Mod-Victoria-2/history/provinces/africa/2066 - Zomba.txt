@@ -1,0 +1,6 @@
+owner=MLW
+controller=MLW
+add_core=MLW
+trade_goods = tobacco
+life_rating = 15
+terrain = farmlands

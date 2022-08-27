@@ -1,0 +1,102 @@
+1955 = {
+	aristocrats=
+	{
+		culture = spanish
+		religion = catholic
+		size= 3
+	}
+
+	bureaucrats=
+	{
+		culture = spanish
+		religion = catholic
+		size= 2
+	}
+
+	clergymen=
+	{
+		culture = spanish
+		religion = catholic
+		size= 5
+	}
+
+	artisans=
+	{
+		culture = spanish
+		religion = catholic
+		size= 5
+	}
+
+	soldiers=
+	{
+		culture = spanish
+		religion = catholic
+		size= 5
+	}
+
+	artisans=
+	{
+		culture = fang
+		religion = catholic
+		size= 120
+	}
+
+	soldiers=
+	{
+		culture = fang
+		religion = catholic
+		size= 50
+	}
+
+	farmers=
+	{
+		culture = fang
+		religion = catholic
+		size= 1530
+	}
+
+	slaves=
+	{
+		culture = fang
+		religion = animist
+		size= 1100
+	}
+
+}
+1973 = {
+	aristocrats=
+	{
+		culture = fang
+		religion = animist
+		size= 350
+	}
+
+	clergymen=
+	{
+		culture = fang
+		religion = animist
+		size= 300
+	}
+
+	artisans=
+	{
+		culture = fang
+		religion = animist
+		size= 1500
+	}
+
+	soldiers=
+	{
+		culture = fang
+		religion = animist
+		size= 350
+	}
+
+	farmers=
+	{
+		culture = fang
+		religion = animist
+		size= 31500
+	}
+
+}

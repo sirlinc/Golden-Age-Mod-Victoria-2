@@ -1,0 +1,9 @@
+owner=MNX
+controller=KRC
+add_core=CHH
+add_core=CHI
+add_core=MNX
+add_core=YAN
+trade_goods = iron
+life_rating = 32
+terrain = plains

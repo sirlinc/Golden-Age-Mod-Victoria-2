@@ -1,0 +1,275 @@
+irregular_to_infantry = {
+	limit = { army_i = 1 }
+	chance = {
+		base = 1
+		modifier = {
+			factor = 2
+			invention = invention_cavalry
+		}
+		modifier = {
+			factor = 2
+			invention = archers_artillery
+		}
+		modifier = {
+			factor = 2
+			war = yes
+			war_countries = { invention = irregular_to_infantry }
+		}
+	}
+	effect = {
+		activate_unit = infantry
+	}
+}
+archers_artillery = {
+	limit = { army_i = 1 }
+	chance = {
+		base = 1
+		modifier = {
+			factor = 2
+			invention = irregular_to_infantry
+		}
+		modifier = {
+			factor = 2
+			invention = invention_cavalry
+		}
+		modifier = {
+			factor = 2
+			war = yes
+			war_countries = { invention = irregular_to_infantry }
+		}
+	}
+	effect = {
+		activate_unit = artillery
+	}
+}
+invention_cavalry = {
+	limit = { army_i = 1 }
+	chance = {
+		base = 1
+		modifier = {
+			factor = 2
+			invention = irregular_to_infantry
+		}
+		modifier = {
+			factor = 2
+			invention = archers_artillery
+		}
+		modifier = {
+			factor = 2
+			war = yes
+			war_countries = { invention = irregular_to_infantry }
+		}
+	}
+	effect = {
+		activate_unit = cavalry
+	}
+}
+tank_experiments = {
+	limit = { army_3_ix = 1 }
+	chance = {
+		base = 1
+		modifier = {
+			factor = 2
+			invention = elastic_defense_system
+		}
+		modifier = {
+			factor = 2
+			war = yes
+			war_countries = { invention = tank_experiments }
+		}
+		modifier = {
+			factor = -5
+			not = { combustion_engine = 1 }
+		}
+	}
+	effect = {
+		activate_unit = tank
+		activate_building = barrel_factory
+	}
+}
+tank_exploits = {
+	limit = { army_3_ix = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 1
+			invention = synchronized_heavy_support
+		}
+		modifier = {
+			factor = 2
+			war = yes
+			war_countries = { invention = tank_exploits }
+		}
+		modifier = {
+			factor = -5
+			not = { invention = tank_experiments }
+		}
+	}
+	effect = {
+		tank = {
+			attack = 2
+			defence = 4
+			supply_consumption = 1
+			siege = 1				
+		}	
+	}
+}
+anti_aircraft_artillery = {
+	limit = { army_3_ix = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = wright_n_langleys_aeroplanes
+		}
+		modifier = {
+			factor = 2
+			aeronautics = 1
+		}
+	}
+	effect = {
+		artillery = {
+			attack = 0.1
+			defence = 1
+			support = 0.1
+			supply_consumption = 0.25
+		}
+	}
+}
+improved_anti_aircraft_artillery = {
+	limit = { army_3_ix = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 1
+			aeronautics = 1
+		}
+		modifier = {
+			factor = -3
+			not = { invention = anti_aircraft_artillery }
+		}
+	}
+	effect = {
+		artillery = {
+			attack = 0.1
+			defence = 1
+			support = 0.1
+			supply_consumption = 0.25
+		}
+	}
+}
+#aeronautics
+military_aviation = {
+	limit = { army_3_ix = 1 }
+	chance = {
+		base = 3
+		modifier = {
+			factor = 2
+			war = yes
+			war_countries = { invention = military_aviation }
+		}
+		modifier = {
+			factor = -5
+			not = { invention = wright_n_langleys_aeroplanes }
+		}
+	}
+	effect = {
+		activate_unit = plane
+	}
+}
+early_interwar_bombers = {
+	limit = { army_3_ix = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = -2
+			not = { invention = military_aviation }
+		}
+	}
+	effect = {
+		plane = {
+			attack = 0.5
+			support = 1
+		}
+	}
+}
+late_interwar_bombers = {
+	limit = { army_3_ix = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			indirect_artillery_fire = 1
+		}
+		modifier = {
+			factor = -2
+			not = { invention = early_interwar_bombers }
+		}
+	}
+	effect = {
+		plane = {
+			attack = 0.5
+			support = 1
+		}
+	}
+}
+early_interwar_fighters = {
+	limit = { army_3_ix = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = -2
+			not = { invention = military_aviation }
+		}
+	}
+	effect = {
+		plane = {
+			attack = 0.25
+			defence = 3
+		}
+	}
+}
+late_interwar_fighters = {
+	limit = { army_3_ix = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			modern_army_doctrine = 1
+		}
+		modifier = {
+			factor = -2
+			not = { invention = early_interwar_fighters }
+		}
+	}
+	effect = {
+		plane = {
+			attack = 0.25
+			defence = 3
+		}
+	}
+}
+t_air_superiority = {
+	limit = { army_3_ix = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 1
+			shift_work = 1
+		}
+		modifier = {
+			factor = 2
+			modern_divisional_structure = 1
+		}
+		modifier = {
+			factor = -4
+			not = { invention = military_aviation }
+		}
+	}
+	effect = {
+		plane = {
+			defence = 3
+			default_organisation = 5
+		}
+	}
+}

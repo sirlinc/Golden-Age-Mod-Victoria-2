@@ -1,0 +1,9 @@
+owner=BYT
+controller=BYT
+add_core=BYT
+add_core=GER
+add_core=HLR
+add_core=X00
+trade_goods = timber
+life_rating = 40
+terrain = plains

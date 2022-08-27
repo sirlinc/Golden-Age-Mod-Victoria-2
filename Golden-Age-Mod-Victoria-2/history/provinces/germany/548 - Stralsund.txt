@@ -1,0 +1,9 @@
+owner=X38
+controller=X38
+add_core=GER
+add_core=HLR
+add_core=X27
+add_core=X38
+trade_goods = fish
+life_rating = 40
+terrain = plains

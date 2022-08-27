@@ -1,0 +1,9 @@
+owner=DAU
+controller=DAU
+add_core=DAU
+add_core=FRA
+add_core=OCC
+add_core=PRO
+trade_goods = tobacco
+life_rating = 32
+terrain = woods

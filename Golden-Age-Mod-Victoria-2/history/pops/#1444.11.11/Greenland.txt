@@ -1,0 +1,99 @@
+251 = {
+	bureaucrats=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 15
+	}
+
+	artisans=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 1100
+	}
+
+}
+2591 = {
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 4
+	}
+
+	artisans=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 4
+	}
+
+	farmers=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 300
+	}
+
+}
+2632 = {
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 4
+	}
+
+	artisans=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 4
+	}
+
+	farmers=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 300
+	}
+
+}
+2636 = {
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 2
+	}
+
+	artisans=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 2
+	}
+
+	farmers=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 200
+	}
+
+}

@@ -1,0 +1,8 @@
+owner=JFN
+controller=SRI
+add_core=HND
+add_core=JFN
+add_core=SRI
+trade_goods = tea
+life_rating = 32
+terrain = plains

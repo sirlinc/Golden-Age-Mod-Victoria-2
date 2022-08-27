@@ -1,0 +1,9 @@
+owner=TIR
+controller=TIR
+add_core=AUS
+add_core=GER
+add_core=HLR
+add_core=TIR
+trade_goods = sulphur
+life_rating = 30
+terrain = woods

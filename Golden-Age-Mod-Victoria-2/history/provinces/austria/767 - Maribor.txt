@@ -1,0 +1,10 @@
+owner=STY
+controller=STY
+add_core=HLR
+add_core=STY
+add_core=AUS
+add_core=SLO
+add_core=YUG
+trade_goods = timber
+life_rating = 30
+terrain = hills

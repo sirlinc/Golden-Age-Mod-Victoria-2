@@ -1,0 +1,6 @@
+owner=KAQ
+controller=KAQ
+add_core=KAQ
+trade_goods = fruit
+life_rating = 30
+terrain = mountain

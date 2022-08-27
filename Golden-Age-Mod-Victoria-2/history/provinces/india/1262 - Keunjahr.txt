@@ -1,0 +1,9 @@
+owner=GRJ
+controller=GRJ
+add_core=GRJ
+add_core=HND
+add_core=KJH
+add_core=PRD
+trade_goods = grain
+life_rating = 32
+terrain = plains

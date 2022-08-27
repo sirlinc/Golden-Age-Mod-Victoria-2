@@ -1,0 +1,7 @@
+owner=ENL
+controller=ENL
+add_core=ENL
+add_core=NOL
+trade_goods = coal
+life_rating = 30
+terrain = farmlands

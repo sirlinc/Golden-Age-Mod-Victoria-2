@@ -1,0 +1,6 @@
+owner=SGH
+controller=SGH
+add_core=SGH
+trade_goods = wool
+life_rating = 10
+terrain = plains

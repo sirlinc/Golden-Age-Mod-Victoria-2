@@ -1,0 +1,9 @@
+owner=MNX
+controller=MNX
+add_core=CDL
+add_core=CHI
+add_core=CXI
+add_core=CYI
+trade_goods = tea
+life_rating = 32
+terrain = hills

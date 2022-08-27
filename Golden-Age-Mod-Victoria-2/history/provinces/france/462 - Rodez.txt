@@ -1,0 +1,10 @@
+owner=AMG
+controller=AMG
+add_core=AMG
+add_core=FRA
+add_core=GYN
+add_core=OCC
+add_core=TUL
+trade_goods = cattle
+life_rating = 31
+terrain = plains

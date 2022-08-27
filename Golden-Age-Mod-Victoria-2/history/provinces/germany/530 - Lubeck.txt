@@ -1,0 +1,13 @@
+owner=LUB
+controller=LUB
+add_core=GER
+add_core=HLR
+add_core=LUB
+trade_goods = fish
+life_rating = 40
+terrain = farmlands
+state_building = {
+	level = 1
+	building = construction_tools_factory
+	upgrade = yes
+}

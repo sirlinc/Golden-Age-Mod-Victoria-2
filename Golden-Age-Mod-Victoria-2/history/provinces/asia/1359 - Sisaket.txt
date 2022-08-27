@@ -1,0 +1,9 @@
+owner=LXA
+controller=LXA
+add_core=CAM
+add_core=CHK
+add_core=IDO
+add_core=LXA
+trade_goods = tea
+life_rating = 30
+terrain = jungle

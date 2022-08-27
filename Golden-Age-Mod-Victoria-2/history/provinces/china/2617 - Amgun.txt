@@ -1,0 +1,8 @@
+owner=MYR
+controller=MYR
+add_core=CHI
+add_core=MCK
+add_core=MYR
+trade_goods = coal
+life_rating = 32
+terrain = hills

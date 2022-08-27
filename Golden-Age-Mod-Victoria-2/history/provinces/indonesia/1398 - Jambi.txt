@@ -1,0 +1,7 @@
+owner=DJA
+controller=DJA
+add_core=DJA
+add_core=MLY
+trade_goods = grain
+life_rating = 30
+terrain = jungle

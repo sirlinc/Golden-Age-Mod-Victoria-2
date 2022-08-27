@@ -1,0 +1,7 @@
+owner=SHY
+controller=SHY
+add_core=KAZ
+add_core=SHY
+trade_goods = coal
+life_rating = 25
+terrain = hills

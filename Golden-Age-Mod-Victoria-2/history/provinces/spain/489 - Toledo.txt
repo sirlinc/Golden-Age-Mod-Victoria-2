@@ -1,0 +1,12 @@
+owner=CST
+controller=CST
+add_core=CST
+add_core=SPA
+trade_goods = iron
+life_rating = 30
+terrain = hills
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}

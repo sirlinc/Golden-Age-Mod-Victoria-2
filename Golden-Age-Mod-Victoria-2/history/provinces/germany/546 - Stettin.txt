@@ -1,0 +1,8 @@
+owner=X31
+controller=X31
+add_core=GER
+add_core=HLR
+add_core=X31
+trade_goods = fish
+life_rating = 40
+terrain = farmlands

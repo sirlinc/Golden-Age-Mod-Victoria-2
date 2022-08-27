@@ -1,0 +1,18 @@
+2244 = {
+	farmers=
+	{
+		culture = malay
+		religion = sunni
+		size= 15
+	}
+
+}
+2406 = {
+	farmers=
+	{
+		culture = malay
+		religion = sunni
+		size= 125
+	}
+
+}

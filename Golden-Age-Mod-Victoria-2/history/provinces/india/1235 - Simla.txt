@@ -1,0 +1,9 @@
+owner=KGR
+controller=GHR
+add_core=GHR
+add_core=HND
+add_core=KGR
+add_core=SRM
+trade_goods = tea
+life_rating = 32
+terrain = mountain

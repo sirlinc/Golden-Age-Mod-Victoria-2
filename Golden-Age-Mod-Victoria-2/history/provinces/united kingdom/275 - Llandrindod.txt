@@ -1,0 +1,7 @@
+owner=WHA
+controller=WHA
+add_core=WHA
+add_core=ENL
+trade_goods = sulphur
+life_rating = 30
+terrain = woods

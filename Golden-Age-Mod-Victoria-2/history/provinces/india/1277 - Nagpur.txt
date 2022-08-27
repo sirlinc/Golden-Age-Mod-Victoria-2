@@ -1,0 +1,8 @@
+owner=BMN
+controller=BMN
+add_core=BRR
+add_core=CDR
+add_core=HND
+trade_goods = dye
+life_rating = 32
+terrain = plains

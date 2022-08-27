@@ -1,0 +1,8 @@
+owner=GNV
+controller=GNV
+add_core=GNV
+add_core=HLR
+add_core=SWI
+trade_goods = grain
+life_rating = 40
+terrain = mountain

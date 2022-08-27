@@ -1,0 +1,7 @@
+owner=TRT
+controller=BNG
+add_core=MKP
+add_core=TRT
+trade_goods = opium
+life_rating = 32
+terrain = plains

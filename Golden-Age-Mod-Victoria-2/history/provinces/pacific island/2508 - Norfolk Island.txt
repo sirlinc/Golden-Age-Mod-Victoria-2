@@ -1,0 +1,7 @@
+owner=NZT
+controller=NZT
+add_core=AOT
+add_core=NZT
+trade_goods = fish
+life_rating = 30
+terrain = hills

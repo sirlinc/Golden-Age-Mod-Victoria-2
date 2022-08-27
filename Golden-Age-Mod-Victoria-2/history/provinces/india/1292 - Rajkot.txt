@@ -1,0 +1,13 @@
+owner=JGD
+controller=JGD
+add_core=HND
+add_core=JGD
+add_core=JLV
+add_core=KAT
+add_core=NVR
+add_core=PRB
+add_core=PTL
+add_core=RJK
+trade_goods = cotton
+life_rating = 32
+terrain = plains

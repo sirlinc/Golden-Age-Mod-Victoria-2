@@ -1,0 +1,8 @@
+owner=BLM
+controller=BLM
+add_core=BLM
+add_core=JAV
+add_core=MJP
+trade_goods = sulphur
+life_rating = 30
+terrain = plains

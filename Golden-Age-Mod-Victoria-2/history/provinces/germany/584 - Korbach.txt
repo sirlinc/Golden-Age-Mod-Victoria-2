@@ -1,0 +1,8 @@
+owner=HES
+controller=HES
+add_core=GER
+add_core=HES
+add_core=HLR
+trade_goods = timber
+life_rating = 40
+terrain = plains

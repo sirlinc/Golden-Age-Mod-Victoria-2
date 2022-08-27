@@ -1,0 +1,9 @@
+owner=ORL
+controller=ORL
+add_core=CPG
+add_core=FRA
+add_core=ORL
+add_core=PIC
+trade_goods = grain
+life_rating = 32
+terrain = farmlands

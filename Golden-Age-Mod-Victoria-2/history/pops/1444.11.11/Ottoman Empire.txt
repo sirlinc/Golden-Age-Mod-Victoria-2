@@ -1,0 +1,52 @@
+#Vlora
+3266 = {
+    farmers = {
+        culture = albanian
+        religion = orthodox
+        size = 8215
+    }
+
+    farmers = {
+        culture = turkish
+        religion = sunni
+        size = 953
+    }
+
+    farmers = {
+        culture = turkish
+        religion = orthodox
+        size = 345
+    }
+
+    artisans = {
+        culture = albanian
+        religion = orthodox
+        size = 2215
+    }
+
+    artisans = {
+        culture = albanian
+        religion = orthodox
+        size = 2215
+    }
+
+    aristocrats = {
+        culture = albanian
+        religion = orthodox
+        size = 152
+    }
+
+    clergymen = {
+        culture = albanian
+        religion = orthodox
+        size = 374
+    }
+
+    bureaucrats = {
+        culture = albanian
+        religion = orthodox
+        size = 427
+    }
+
+}
+

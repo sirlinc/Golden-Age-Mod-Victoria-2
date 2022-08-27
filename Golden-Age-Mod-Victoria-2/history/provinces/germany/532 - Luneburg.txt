@@ -1,0 +1,8 @@
+owner=LNB
+controller=LNB
+add_core=GER
+add_core=HLR
+add_core=LNB
+trade_goods = cattle
+life_rating = 40
+terrain = plains

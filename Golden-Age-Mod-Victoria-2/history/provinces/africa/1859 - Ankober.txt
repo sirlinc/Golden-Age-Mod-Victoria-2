@@ -1,0 +1,7 @@
+owner=ETH
+controller=ETH
+add_core=ETH
+add_core=X29
+trade_goods = coffee
+life_rating = 30
+terrain = mountain

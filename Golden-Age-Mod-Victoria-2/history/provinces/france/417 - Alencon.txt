@@ -1,0 +1,7 @@
+owner=ENL
+controller=ENL
+add_core=ALE
+add_core=FRA
+trade_goods = cotton
+life_rating = 32
+terrain = plains

@@ -1,0 +1,7 @@
+owner=CNP
+controller=CNP
+add_core=CNP
+add_core=MAY
+trade_goods = timber
+life_rating = 30
+terrain = jungle

@@ -1,0 +1,6 @@
+owner=CCQ
+controller=CCQ
+add_core=CCQ
+trade_goods = timber
+life_rating = 30
+terrain = jungle

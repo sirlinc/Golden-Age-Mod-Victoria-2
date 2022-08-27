@@ -1,0 +1,7 @@
+owner=MNX
+controller=MNX
+add_core=CGS
+add_core=CHI
+trade_goods = cotton
+life_rating = 32
+terrain = hills

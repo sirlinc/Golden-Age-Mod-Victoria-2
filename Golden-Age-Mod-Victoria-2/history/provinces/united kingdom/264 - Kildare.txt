@@ -1,0 +1,8 @@
+owner=KID
+controller=KID
+add_core=FLY
+add_core=IRE
+add_core=KID
+trade_goods = cattle
+life_rating = 30
+terrain = hills

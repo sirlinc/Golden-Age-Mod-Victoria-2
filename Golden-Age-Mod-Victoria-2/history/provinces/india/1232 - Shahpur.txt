@@ -1,0 +1,8 @@
+owner=MUL
+controller=MUL
+add_core=HND
+add_core=MUL
+add_core=PAN
+trade_goods = tea
+life_rating = 32
+terrain = mountain

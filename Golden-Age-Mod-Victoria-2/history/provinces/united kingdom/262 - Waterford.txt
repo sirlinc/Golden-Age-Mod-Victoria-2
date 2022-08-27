@@ -1,0 +1,7 @@
+owner=DMS
+controller=DMS
+add_core=DMS
+add_core=IRE
+trade_goods = fish
+life_rating = 30
+terrain = plains

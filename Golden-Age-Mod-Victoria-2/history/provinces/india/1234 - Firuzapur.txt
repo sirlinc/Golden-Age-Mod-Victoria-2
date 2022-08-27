@@ -1,0 +1,9 @@
+owner=SRH
+controller=SRH
+add_core=MUL
+add_core=PAN
+add_core=PTA
+add_core=SRH
+trade_goods = wool
+life_rating = 32
+terrain = plains

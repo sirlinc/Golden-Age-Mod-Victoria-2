@@ -1,0 +1,7 @@
+owner=NVG
+controller=NVG
+add_core=NVG
+add_core=RUS
+trade_goods = grain
+life_rating = 30
+terrain = forest

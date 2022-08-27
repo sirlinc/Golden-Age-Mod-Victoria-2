@@ -1,0 +1,7 @@
+owner=DLH
+controller=DLH
+add_core=DLH
+add_core=HND
+trade_goods = tea
+life_rating = 32
+terrain = woods

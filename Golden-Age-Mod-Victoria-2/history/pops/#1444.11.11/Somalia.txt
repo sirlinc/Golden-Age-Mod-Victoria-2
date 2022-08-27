@@ -1,0 +1,443 @@
+1868 = {
+	slaves=
+	{
+		culture = somali
+		religion = sunni
+		size= 5399
+	}
+
+	soldiers=
+	{
+		culture = somali
+		religion = sunni
+		size= 485
+	}
+
+	artisans=
+	{
+		culture = somali
+		religion = sunni
+		size= 1945
+	}
+
+	clergymen=
+	{
+		culture = somali
+		religion = sunni
+		size= 315
+	}
+
+	bureaucrats=
+	{
+		culture = somali
+		religion = sunni
+		size= 24
+	}
+
+	officers=
+	{
+		culture = somali
+		religion = sunni
+		size= 40
+	}
+
+	aristocrats=
+	{
+		culture = somali
+		religion = sunni
+		size= 407
+	}
+
+	farmers=
+	{
+		culture = somali
+		religion = sunni
+		size= 39985
+	}
+
+}
+1869 = {
+	soldiers=
+	{
+		culture = somali
+		religion = sunni
+		size= 184
+	}
+
+	artisans=
+	{
+		culture = somali
+		religion = sunni
+		size= 735
+	}
+
+	clergymen=
+	{
+		culture = somali
+		religion = sunni
+		size= 119
+	}
+
+	bureaucrats=
+	{
+		culture = somali
+		religion = sunni
+		size= 8
+	}
+
+	officers=
+	{
+		culture = somali
+		religion = sunni
+		size= 15
+	}
+
+	aristocrats=
+	{
+		culture = somali
+		religion = sunni
+		size= 155
+	}
+
+	farmers=
+	{
+		culture = somali
+		religion = sunni
+		size= 17185
+	}
+
+}
+1870 = {
+	slaves=
+	{
+		culture = somali
+		religion = sunni
+		size= 880
+	}
+
+	soldiers=
+	{
+		culture = somali
+		religion = sunni
+		size= 170
+	}
+
+	artisans=
+	{
+		culture = somali
+		religion = sunni
+		size= 675
+	}
+
+	clergymen=
+	{
+		culture = somali
+		religion = sunni
+		size= 109
+	}
+
+	bureaucrats=
+	{
+		culture = somali
+		religion = sunni
+		size= 7
+	}
+
+	officers=
+	{
+		culture = somali
+		religion = sunni
+		size= 13
+	}
+
+	aristocrats=
+	{
+		culture = somali
+		religion = sunni
+		size= 142
+	}
+
+	farmers=
+	{
+		culture = somali
+		religion = sunni
+		size= 14885
+	}
+
+}
+1871 = {
+	slaves=
+	{
+		culture = somali
+		religion = sunni
+		size= 1601
+	}
+
+	soldiers=
+	{
+		culture = somali
+		religion = sunni
+		size= 152
+	}
+
+	artisans=
+	{
+		culture = somali
+		religion = sunni
+		size= 608
+	}
+
+	clergymen=
+	{
+		culture = somali
+		religion = sunni
+		size= 100
+	}
+
+	bureaucrats=
+	{
+		culture = somali
+		religion = sunni
+		size= 7
+	}
+
+	officers=
+	{
+		culture = somali
+		religion = sunni
+		size= 12
+	}
+
+	aristocrats=
+	{
+		culture = somali
+		religion = sunni
+		size= 128
+	}
+
+	farmers=
+	{
+		culture = somali
+		religion = sunni
+		size= 12592
+	}
+
+}
+1872 = {
+	slaves=
+	{
+		culture = somali
+		religion = sunni
+		size= 4001
+	}
+
+	soldiers=
+	{
+		culture = somali
+		religion = sunni
+		size= 233
+	}
+
+	artisans=
+	{
+		culture = somali
+		religion = sunni
+		size= 929
+	}
+
+	clergymen=
+	{
+		culture = somali
+		religion = sunni
+		size= 151
+	}
+
+	bureaucrats=
+	{
+		culture = somali
+		religion = sunni
+		size= 12
+	}
+
+	officers=
+	{
+		culture = somali
+		religion = sunni
+		size= 19
+	}
+
+	aristocrats=
+	{
+		culture = somali
+		religion = sunni
+		size= 195
+	}
+
+	farmers=
+	{
+		culture = somali
+		religion = sunni
+		size= 17659
+	}
+
+}
+1873 = {
+	slaves=
+	{
+		culture = somali
+		religion = sunni
+		size= 8000
+	}
+
+	soldiers=
+	{
+		culture = somali
+		religion = sunni
+		size= 376
+	}
+
+	artisans=
+	{
+		culture = somali
+		religion = sunni
+		size= 1504
+	}
+
+	clergymen=
+	{
+		culture = somali
+		religion = sunni
+		size= 244
+	}
+
+	bureaucrats=
+	{
+		culture = somali
+		religion = sunni
+		size= 19
+	}
+
+	officers=
+	{
+		culture = somali
+		religion = sunni
+		size= 29
+	}
+
+	aristocrats=
+	{
+		culture = somali
+		religion = sunni
+		size= 316
+	}
+
+	farmers=
+	{
+		culture = somali
+		religion = sunni
+		size= 27112
+	}
+
+}
+1874 = {
+	soldiers=
+	{
+		culture = somali
+		religion = sunni
+		size= 66
+	}
+
+	artisans=
+	{
+		culture = somali
+		religion = sunni
+		size= 266
+	}
+
+	clergymen=
+	{
+		culture = somali
+		religion = sunni
+		size= 43
+	}
+
+	bureaucrats=
+	{
+		culture = somali
+		religion = sunni
+		size= 3
+	}
+
+	officers=
+	{
+		culture = somali
+		religion = sunni
+		size= 5
+	}
+
+	aristocrats=
+	{
+		culture = somali
+		religion = sunni
+		size= 56
+	}
+
+	farmers=
+	{
+		culture = somali
+		religion = sunni
+		size= 6201
+	}
+
+}
+1875 = {
+	soldiers=
+	{
+		culture = afar
+		religion = sunni
+		size= 56
+	}
+
+	artisans=
+	{
+		culture = afar
+		religion = sunni
+		size= 224
+	}
+
+	clergymen=
+	{
+		culture = afar
+		religion = sunni
+		size= 36
+	}
+
+	bureaucrats=
+	{
+		culture = afar
+		religion = sunni
+		size= 3
+	}
+
+	officers=
+	{
+		culture = afar
+		religion = sunni
+		size= 4
+	}
+
+	aristocrats=
+	{
+		culture = afar
+		religion = sunni
+		size= 47
+	}
+
+	farmers=
+	{
+		culture = afar
+		religion = sunni
+		size= 5230
+	}
+
+}

@@ -1,0 +1,9 @@
+owner=DAU
+controller=DAU
+add_core=DAU
+add_core=FRA
+add_core=OCC
+add_core=TUL
+trade_goods = fruit
+life_rating = 32
+terrain = farmlands

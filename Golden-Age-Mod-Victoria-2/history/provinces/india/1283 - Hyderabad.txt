@@ -1,0 +1,9 @@
+owner=BMN
+controller=BMN
+add_core=BMN
+add_core=GOC
+add_core=HND
+add_core=TLG
+trade_goods = cotton
+life_rating = 32
+terrain = hills

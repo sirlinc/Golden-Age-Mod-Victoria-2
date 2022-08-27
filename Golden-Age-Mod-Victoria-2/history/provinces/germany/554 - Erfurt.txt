@@ -1,0 +1,10 @@
+owner=GOS
+controller=GOS
+add_core=BRA
+add_core=GER
+add_core=GOS
+add_core=HLR
+#add_core=MAI
+trade_goods = iron
+life_rating = 40
+terrain = farmlands

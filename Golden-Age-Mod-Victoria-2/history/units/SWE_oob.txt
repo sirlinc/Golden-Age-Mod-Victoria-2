@@ -1,0 +1,38 @@
+#Sphere of Influence
+DEN = {
+	value = -5
+	military_access = yes
+	level = 1
+}
+NOR = {
+	value = 15
+	level = 2
+}
+
+#Leaders
+
+#Armies
+#army = {
+#	name = "I. Armee"
+#	location = 325
+#	regiment = {
+#		name= "1.1. Infanteriedivision"
+#		type = infantry
+#		home = 325
+#	}
+#	regiment = {
+#		name= "1.3. Infanteriedivision"
+#		type = infantry
+#		home = 325
+#	}
+#	regiment = {
+#		name= "1.4. Infanteriedivision"
+#		type = infantry
+#		home = 325
+#	}
+#	regiment = {
+#		name= "2.1. Kavalleriedivision"
+#		type = cavalry
+#		home = 325
+#	}
+#}

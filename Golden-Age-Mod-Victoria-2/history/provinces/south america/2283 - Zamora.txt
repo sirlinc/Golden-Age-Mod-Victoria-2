@@ -1,0 +1,6 @@
+owner=QTO
+controller=QTO
+add_core=QTO
+trade_goods = grain
+life_rating = 30
+terrain = mountain

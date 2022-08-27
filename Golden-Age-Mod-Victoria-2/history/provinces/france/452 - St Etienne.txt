@@ -1,0 +1,8 @@
+owner=BOU
+controller=BOU
+add_core=BOU
+add_core=FRA
+add_core=OCC
+trade_goods = sulphur
+life_rating = 31
+terrain = hills

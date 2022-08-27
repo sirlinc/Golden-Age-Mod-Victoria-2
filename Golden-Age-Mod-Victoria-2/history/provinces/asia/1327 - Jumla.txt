@@ -1,0 +1,9 @@
+owner=GRK
+controller=GRK
+add_core=DTI
+add_core=GRK
+add_core=HND
+add_core=JML
+trade_goods = tea
+life_rating = 25
+terrain = mountain

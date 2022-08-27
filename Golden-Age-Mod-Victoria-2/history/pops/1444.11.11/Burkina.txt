@@ -1,0 +1,348 @@
+1901 = {
+	slaves=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 25600
+	}
+
+	soldiers=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 880
+	}
+
+	artisans=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 3523
+	}
+
+	clergymen=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 572
+	}
+
+	bureaucrats=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 44
+	}
+
+	officers=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 71
+	}
+
+	aristocrats=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 740
+	}
+
+	farmers=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 56650
+	}
+
+}
+1902 = {
+	slaves=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 14400
+	}
+
+	soldiers=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 664
+	}
+
+	artisans=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 2656
+	}
+
+	clergymen=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 432
+	}
+
+	bureaucrats=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 33
+	}
+
+	officers=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 53
+	}
+
+	aristocrats=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 558
+	}
+
+	farmers=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 47604
+	}
+
+}
+1903 = {
+	slaves=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 12000
+	}
+
+	soldiers=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 544
+	}
+
+	artisans=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 2176
+	}
+
+	clergymen=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 354
+	}
+
+	bureaucrats=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 27
+	}
+
+	officers=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 44
+	}
+
+	aristocrats=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 457
+	}
+
+	farmers=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 38798
+	}
+
+}
+1904 = {
+	slaves=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 5600
+	}
+
+	soldiers=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 344
+	}
+
+	artisans=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 1376
+	}
+
+	clergymen=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 224
+	}
+
+	bureaucrats=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 18
+	}
+
+	officers=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 28
+	}
+
+	aristocrats=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 288
+	}
+
+	farmers=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 26522
+	}
+
+}
+1905 = {
+	slaves=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 4000
+	}
+
+	soldiers=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 285
+	}
+
+	artisans=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 1139
+	}
+
+	clergymen=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 185
+	}
+
+	bureaucrats=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 14
+	}
+
+	officers=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 23
+	}
+
+	aristocrats=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 239
+	}
+
+	farmers=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 22595
+	}
+
+}
+1906 = {
+	slaves=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 4800
+	}
+
+	soldiers=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 361
+	}
+
+	artisans=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 1443
+	}
+
+	clergymen=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 235
+	}
+
+	bureaucrats=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 18
+	}
+
+	officers=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 29
+	}
+
+	aristocrats=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 303
+	}
+
+	farmers=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 28891
+	}
+
+}

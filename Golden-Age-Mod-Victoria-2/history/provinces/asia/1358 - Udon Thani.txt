@@ -1,0 +1,9 @@
+owner=LXA
+controller=LXA
+add_core=IDO
+add_core=LUA
+add_core=LXA
+add_core=WIA
+trade_goods = fruit
+life_rating = 30
+terrain = hills

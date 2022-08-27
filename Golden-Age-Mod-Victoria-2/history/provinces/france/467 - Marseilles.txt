@@ -1,0 +1,8 @@
+owner=PRO
+controller=PRO
+add_core=FRA
+add_core=OCC
+add_core=PRO
+trade_goods = fruit
+life_rating = 31
+terrain = farmlands

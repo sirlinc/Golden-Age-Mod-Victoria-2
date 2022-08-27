@@ -1,0 +1,7 @@
+owner=HDY
+controller=HDY
+add_core=HDY
+add_core=JJI
+trade_goods = cattle
+life_rating = 30
+terrain = mountain

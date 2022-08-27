@@ -1,0 +1,162 @@
+1979 = {
+	aristocrats=
+	{
+		culture = amazonian
+		religion = animist
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = amazonian
+		religion = animist
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = amazonian
+		religion = animist
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = amazonian
+		religion = animist
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = amazonian
+		religion = animist
+		size= 900
+	}
+
+}
+2239 = {
+	aristocrats=
+	{
+		culture = carribean
+		religion = animist
+		size= 100
+	}
+
+	clergymen=
+	{
+		culture = carribean
+		religion = animist
+		size= 100
+	}
+
+	artisans=
+	{
+		culture = carribean
+		religion = animist
+		size= 1050
+	}
+
+	soldiers=
+	{
+		culture = carribean
+		religion = animist
+		size= 175
+	}
+
+	farmers=
+	{
+		culture = carribean
+		religion = animist
+		size= 13225
+	}
+
+}
+2242 = {
+	aristocrats=
+	{
+		culture = amazonian
+		religion = animist
+		size= 10
+	}
+
+	clergymen=
+	{
+		culture = amazonian
+		religion = animist
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = amazonian
+		religion = animist
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = amazonian
+		religion = animist
+		size= 15
+	}
+
+	farmers=
+	{
+		culture = amazonian
+		religion = animist
+		size= 900
+	}
+
+}
+2243 = {
+	soldiers=
+	{
+		culture = guajiro
+		religion = animist
+		size= 84
+	}
+
+	artisans=
+	{
+		culture = guajiro
+		religion = animist
+		size= 336
+	}
+
+	clergymen=
+	{
+		culture = guajiro
+		religion = animist
+		size= 55
+	}
+
+	bureaucrats=
+	{
+		culture = guajiro
+		religion = animist
+		size= 4
+	}
+
+	officers=
+	{
+		culture = guajiro
+		religion = animist
+		size= 7
+	}
+
+	aristocrats=
+	{
+		culture = guajiro
+		religion = animist
+		size= 71
+	}
+
+	farmers=
+	{
+		culture = guajiro
+		religion = animist
+		size= 7854
+	}
+
+}

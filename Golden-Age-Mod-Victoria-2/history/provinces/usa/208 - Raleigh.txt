@@ -1,0 +1,5 @@
+owner=TSC
+controller=TSC
+trade_goods = tobacco
+life_rating = 30
+terrain = farmlands

@@ -1,0 +1,8 @@
+owner=HAL
+controller=HAL
+add_core=ARA
+add_core=HAL
+trade_goods = wool
+life_rating = 10
+terrain = desert
+fort = 2

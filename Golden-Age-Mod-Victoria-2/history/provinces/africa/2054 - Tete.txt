@@ -1,0 +1,6 @@
+owner=LDU
+controller=LDU
+add_core=LDU
+trade_goods = grain
+life_rating = 15
+terrain = mountain
