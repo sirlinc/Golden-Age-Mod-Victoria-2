@@ -1,7 +1,0 @@
-owner=ENL
-controller=ENL
-add_core=IRE
-add_core=X21
-trade_goods = grain
-life_rating = 30
-terrain = farmlands

@@ -1,7 +1,0 @@
-owner=WNR
-controller=SNC
-add_core=SNC
-add_core=WNR
-trade_goods = timber
-life_rating = 30
-terrain = forest

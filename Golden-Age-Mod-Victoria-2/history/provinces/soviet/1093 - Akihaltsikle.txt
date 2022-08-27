@@ -1,8 +1,0 @@
-owner=SME
-controller=SME
-add_core=ARM
-add_core=GEO
-add_core=SME
-trade_goods = wool
-life_rating = 30
-terrain = hills

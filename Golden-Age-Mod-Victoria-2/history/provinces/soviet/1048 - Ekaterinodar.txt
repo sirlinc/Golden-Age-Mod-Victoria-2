@@ -1,7 +1,0 @@
-owner=GRH
-controller=GRH
-add_core=GRH
-add_core=CRI
-trade_goods = cattle
-life_rating = 30
-terrain = steppe

@@ -30,11 +30,11 @@ party = {
 }
 
 party = {
-	name = "POR_landowners"
+	name = "POR_modern_clergy"
 	start_date = 1000.1.1
 	end_date = 1935.1.1
 
-	ideology = landowners 
+	ideology = modern_clergy
 
 	citizenship_policy = limited_citizenship
 	economic_policy = state_capitalism
@@ -76,7 +76,7 @@ party = {
 	start_date = 1000.1.1
 	end_date = 2000.1.1
 
-	ideology = landowners 
+	ideology = nobility
 
 	citizenship_policy = limited_citizenship
 	economic_policy = planned_economy

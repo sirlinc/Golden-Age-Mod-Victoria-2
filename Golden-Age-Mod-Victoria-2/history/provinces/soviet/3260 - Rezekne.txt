@@ -1,9 +1,0 @@
-owner=RIG
-controller=RIG
-add_core=RIG
-add_core=EST
-add_core=LIV
-add_core=X18
-trade_goods = grain
-life_rating = 30
-terrain = plains

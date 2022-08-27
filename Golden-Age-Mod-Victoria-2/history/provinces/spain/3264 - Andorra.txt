@@ -1,7 +1,0 @@
-owner=ADO
-controller=ADO
-add_core=ADO
-add_core=SPA
-trade_goods = coal
-life_rating = 30
-terrain = mountain

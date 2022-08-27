@@ -1,5 +1,0 @@
-owner=SUS
-controller=SUS
-trade_goods = coal
-life_rating = 30
-terrain = hills

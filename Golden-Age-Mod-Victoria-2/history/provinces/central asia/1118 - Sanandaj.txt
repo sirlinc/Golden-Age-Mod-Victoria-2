@@ -1,8 +1,0 @@
-owner=RDL
-controller=RDL
-add_core=RDL
-add_core=SRN
-trade_goods = wool
-life_rating = 30
-terrain = mountain
-fort = 2

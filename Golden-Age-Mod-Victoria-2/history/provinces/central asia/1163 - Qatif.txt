@@ -1,9 +1,0 @@
-owner=ALH
-controller=ALH
-add_core=ALH
-add_core=ARA
-add_core=X04
-trade_goods = grain
-life_rating = 30
-terrain = desert
-fort = 2

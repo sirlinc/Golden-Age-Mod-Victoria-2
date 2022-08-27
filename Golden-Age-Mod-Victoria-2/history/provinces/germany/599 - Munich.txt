@@ -1,9 +1,0 @@
-owner=UBV
-controller=UBV
-add_core=GER
-add_core=HLR
-add_core=ING
-add_core=UBV
-trade_goods = coal
-life_rating = 40
-terrain = hills

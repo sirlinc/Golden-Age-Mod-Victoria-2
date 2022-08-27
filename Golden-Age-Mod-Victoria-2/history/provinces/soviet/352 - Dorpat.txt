@@ -1,8 +1,0 @@
-owner=DRP
-controller=DRP
-add_core=EST
-add_core=DRP
-add_core=UBD
-trade_goods = cattle
-life_rating = 30
-terrain = plains

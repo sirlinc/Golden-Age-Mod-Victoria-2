@@ -1,7 +1,0 @@
-owner=KIU
-controller=KIU
-add_core=KIU
-add_core=JAP
-trade_goods = fish
-life_rating = 6
-terrain = arctic

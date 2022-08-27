@@ -1,7 +1,0 @@
-owner=CNN
-controller=CNN
-add_core=CNN
-add_core=IRE
-trade_goods = cattle
-life_rating = 30
-terrain = plains

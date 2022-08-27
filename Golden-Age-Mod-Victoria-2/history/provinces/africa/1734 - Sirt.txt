@@ -1,7 +1,0 @@
-owner=FZA
-controller=FZA
-add_core=FZA
-add_core=TRI
-trade_goods = wool
-life_rating = 30
-terrain = plains

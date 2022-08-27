@@ -1,7 +1,0 @@
-owner=MDO
-controller=MDO
-add_core=MDO
-add_core=TIB
-trade_goods = timber
-life_rating = 32
-terrain = mountain

@@ -6,7 +6,7 @@ party = {
 	start_date = 1680.1.1
 	end_date = 2000.1.1
 
-	ideology = landowners 
+	ideology = reactionary
 
 	citizenship_policy = residency
 	economic_policy = state_capitalism
@@ -76,7 +76,7 @@ party = {
 	start_date = 1874.1.1
 	end_date = 2000.1.1
 
-	ideology = landowners 
+	ideology = reactionary
 
 	citizenship_policy = full_citizenship
 	economic_policy = state_capitalism

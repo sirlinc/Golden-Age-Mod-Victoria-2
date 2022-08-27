@@ -1,8 +1,0 @@
-owner=PLT
-controller=PLT
-add_core=BYE
-add_core=LIT
-add_core=PLT
-trade_goods = grain
-life_rating = 30
-terrain = woods

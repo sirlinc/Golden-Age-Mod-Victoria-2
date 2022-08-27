@@ -1,8 +1,0 @@
-owner=ALH
-controller=ALH
-add_core=ALH
-add_core=ARA
-add_core=ORM
-trade_goods = grain
-life_rating = 30
-terrain = plains

@@ -1,7 +1,0 @@
-owner=EPI
-controller=EPI
-add_core=EPI
-add_core=GRE
-trade_goods = fish
-life_rating = 30
-terrain = plains

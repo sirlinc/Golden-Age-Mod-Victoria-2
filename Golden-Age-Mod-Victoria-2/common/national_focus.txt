@@ -250,7 +250,7 @@ party_loyalty_focus =
 	
 	modern_clergy_focus =
 	{
-		ideology = landowners 
+		ideology = modern_clergy
 		loyalty_value = 0.001 # By that much pops will be more loyal
 		icon = 27
 	}

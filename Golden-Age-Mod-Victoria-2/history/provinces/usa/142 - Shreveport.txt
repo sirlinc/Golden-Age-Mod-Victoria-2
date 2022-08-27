@@ -1,5 +1,0 @@
-owner=NTC
-controller=NTC
-trade_goods = sulphur
-life_rating = 30
-terrain = plains

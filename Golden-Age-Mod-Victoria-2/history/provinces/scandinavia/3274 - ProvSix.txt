@@ -1,8 +1,0 @@
-owner=CLB
-controller=CLB
-add_core=CLB
-add_core=GER
-add_core=HLR
-trade_goods = fruit
-life_rating = 6
-terrain = farmlands

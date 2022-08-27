@@ -1,7 +1,0 @@
-owner=KNO
-controller=KNO
-add_core=KNO
-add_core=JAP
-trade_goods = timber
-life_rating = 30
-terrain = hills

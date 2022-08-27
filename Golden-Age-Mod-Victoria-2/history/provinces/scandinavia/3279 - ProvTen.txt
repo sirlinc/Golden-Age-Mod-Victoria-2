@@ -1,7 +1,0 @@
-owner=IGW
-controller=IGW
-add_core=IGW
-add_core=JAP
-trade_goods = fish
-life_rating = 6
-terrain = plains

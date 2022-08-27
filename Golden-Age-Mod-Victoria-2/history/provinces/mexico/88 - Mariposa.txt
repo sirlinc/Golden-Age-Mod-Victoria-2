@@ -1,5 +1,0 @@
-owner=YKT
-controller=YKT
-trade_goods = fruit
-life_rating = 30
-terrain = mountain

@@ -1,7 +1,0 @@
-owner=ITO
-controller=ITO
-add_core=ITO
-add_core=JAP
-trade_goods = tobacco
-life_rating = 30
-terrain = hills

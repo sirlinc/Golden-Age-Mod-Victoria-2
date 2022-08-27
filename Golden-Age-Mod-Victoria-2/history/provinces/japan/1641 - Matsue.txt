@@ -1,7 +1,0 @@
-owner=AMA
-controller=AMA
-add_core=AMA
-add_core=JAP
-trade_goods = fish
-life_rating = 30
-terrain = plains

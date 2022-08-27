@@ -1,9 +1,0 @@
-203 = {
-	farmers=
-	{
-		culture = native_american_minor
-		religion = totemism
-		size= 2260
-	}
-
-}

@@ -6,7 +6,7 @@ party = {
 	start_date = 1680.1.1
 	end_date = 1868.1.1
 
-	ideology = landowners 
+	ideology = reactionary
 
 	citizenship_policy = residency
 	economic_policy = planned_economy
@@ -48,7 +48,7 @@ party = {
 	start_date = 1867.1.1
 	end_date = 2000.1.1
 
-	ideology = landowners 
+	ideology = reactionary
 
 	citizenship_policy = residency
 	economic_policy = interventionism

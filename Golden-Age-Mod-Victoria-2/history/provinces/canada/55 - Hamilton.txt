@@ -1,6 +1,0 @@
-owner=ATW
-controller=ATW
-add_core=ATW
-trade_goods = fish
-life_rating = 30
-terrain = forest

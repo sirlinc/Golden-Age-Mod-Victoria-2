@@ -1,6 +1,0 @@
-owner=BSG
-controller=BSG
-add_core=BSG
-trade_goods = cotton
-life_rating = 15
-terrain = plains

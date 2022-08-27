@@ -1,7 +1,0 @@
-owner=DUL
-controller=DUL
-add_core=DUL
-add_core=TUR
-trade_goods = grain
-life_rating = 30
-terrain = hills

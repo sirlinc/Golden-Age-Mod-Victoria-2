@@ -99,9 +99,3 @@ nv_excommunicated = {
 	mobilisation_economy_impact = 0.60
 }
 #2
-nv_distracted = {
-	mobilisation_economy_impact = 0.60
-}
-nv_parliament = {
-	mobilisation_economy_impact = 0.60
-}

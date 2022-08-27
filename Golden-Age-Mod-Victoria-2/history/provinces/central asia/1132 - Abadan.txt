@@ -1,7 +1,0 @@
-owner=MSY
-controller=MSY
-add_core=IRQ
-add_core=MSY
-trade_goods = fish
-life_rating = 30
-terrain = plains

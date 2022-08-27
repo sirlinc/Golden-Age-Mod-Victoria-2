@@ -1,7 +1,0 @@
-owner=SKA
-controller=SKA
-add_core=MAD
-add_core=SKA
-trade_goods = timber
-life_rating = 30
-terrain = plains

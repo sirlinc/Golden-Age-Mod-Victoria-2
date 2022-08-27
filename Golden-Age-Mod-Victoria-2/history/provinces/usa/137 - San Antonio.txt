@@ -1,5 +1,0 @@
-owner=LPN
-controller=LPN
-trade_goods = cattle
-life_rating = 30
-terrain = plains

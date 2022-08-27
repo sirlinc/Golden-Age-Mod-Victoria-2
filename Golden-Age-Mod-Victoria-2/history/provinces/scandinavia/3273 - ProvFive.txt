@@ -1,7 +1,0 @@
-owner=STO
-controller=STO
-add_core=STO
-trade_goods = grain
-life_rating = 30
-terrain = woods
-

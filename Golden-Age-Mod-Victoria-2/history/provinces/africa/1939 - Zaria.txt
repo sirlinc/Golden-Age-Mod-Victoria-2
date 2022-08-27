@@ -1,6 +1,0 @@
-owner=ZZZ
-controller=ZZZ
-add_core=ZZZ
-trade_goods = cattle
-life_rating = 30
-terrain = plains

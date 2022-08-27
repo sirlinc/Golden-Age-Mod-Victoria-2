@@ -1,9 +1,0 @@
-owner=QAR
-controller=QAR
-add_core=IRQ
-add_core=QAR
-add_core=RDL
-add_core=SRN
-trade_goods = grain
-life_rating = 30
-terrain = plains

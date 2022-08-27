@@ -1,7 +1,0 @@
-owner=YRK
-controller=YRK
-add_core=XIN
-add_core=YRK
-trade_goods = sulphur
-life_rating = 32
-terrain = mountain

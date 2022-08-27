@@ -1,5 +1,0 @@
-owner=TPQ
-controller=TPQ
-trade_goods = tobacco
-life_rating = 20
-terrain = plains

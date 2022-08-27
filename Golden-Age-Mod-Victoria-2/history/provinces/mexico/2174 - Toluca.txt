@@ -1,6 +1,0 @@
-owner=MTL
-controller=MTL
-add_core=MTL
-trade_goods = grain
-life_rating = 30
-terrain = mountain

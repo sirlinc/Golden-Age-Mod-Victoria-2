@@ -1,7 +1,0 @@
-owner=TUR
-controller=TUR
-add_core=AYD
-add_core=TUR
-trade_goods = fish
-life_rating = 30
-terrain = hills

@@ -1,7 +1,0 @@
-owner=BTS
-controller=BTS
-add_core=BTS
-add_core=MAD
-trade_goods = fruit
-life_rating = 30
-terrain = plains

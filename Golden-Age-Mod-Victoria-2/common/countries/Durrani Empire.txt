@@ -48,7 +48,7 @@ party = {
 	start_date = 1680.1.1
 	end_date = 2000.1.1
 
-	ideology = landowners 
+	ideology = reactionary
 
 	economic_policy = state_capitalism
 	trade_policy = protectionism

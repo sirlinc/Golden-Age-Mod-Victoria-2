@@ -1,6 +1,0 @@
-owner=MOR
-controller=MOR
-add_core=FEZ
-trade_goods = fish
-life_rating = 30
-terrain = plains

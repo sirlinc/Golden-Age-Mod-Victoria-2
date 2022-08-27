@@ -1,6 +1,0 @@
-owner=STP
-controller=STP
-add_core=STP
-trade_goods = coal
-life_rating = 30
-terrain = woods

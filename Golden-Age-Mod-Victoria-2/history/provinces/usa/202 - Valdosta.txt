@@ -1,6 +1,0 @@
-owner=ICH
-controller=ALM
-add_core=ALM
-trade_goods = cotton
-life_rating = 30
-terrain = plains

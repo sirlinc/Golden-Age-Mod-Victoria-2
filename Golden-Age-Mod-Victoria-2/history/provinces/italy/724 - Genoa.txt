@@ -1,9 +1,0 @@
-owner=GEN
-controller=GEN
-add_core=GEN
-add_core=HLR
-add_core=ITP
-add_core=ITA
-trade_goods = fruit
-life_rating = 30
-terrain = hills

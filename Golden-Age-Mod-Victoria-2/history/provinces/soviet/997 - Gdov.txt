@@ -1,7 +1,0 @@
-owner=PSK
-controller=PSK
-add_core=PSK
-add_core=RUS
-trade_goods = grain
-life_rating = 30
-terrain = forest

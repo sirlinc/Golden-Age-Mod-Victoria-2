@@ -1,9 +1,0 @@
-owner=NAP
-controller=NAP
-add_core=ITA
-add_core=NAP
-add_core=ITP
-add_core=SIC
-trade_goods = wool
-life_rating = 30
-terrain = plains

@@ -1,6 +1,0 @@
-owner=CHV
-controller=CHV
-add_core=CHV
-trade_goods = grain
-life_rating = 20
-terrain = arctic

@@ -1,7 +1,0 @@
-owner=KOR
-controller=KOR
-add_core=CHI
-add_core=MCK
-trade_goods = coal
-life_rating = 30
-terrain = plains

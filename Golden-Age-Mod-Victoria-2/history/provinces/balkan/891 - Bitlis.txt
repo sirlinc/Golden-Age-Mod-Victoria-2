@@ -1,7 +1,0 @@
-owner=AKK
-controller=AKK
-add_core=AKK
-add_core=ARM
-trade_goods = grain
-life_rating = 30
-terrain = mountain

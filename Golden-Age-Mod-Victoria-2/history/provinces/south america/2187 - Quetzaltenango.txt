@@ -1,6 +1,0 @@
-owner=KIC
-controller=KIC
-add_core=KIC
-trade_goods = iron
-life_rating = 30
-terrain = jungle

@@ -1,8 +1,0 @@
-owner=ARL
-controller=ARL
-add_core=ARL
-add_core=AZB
-trade_goods = timber
-life_rating = 30
-terrain = hills
-fort = 2

@@ -1,8 +1,0 @@
-owner=QAR
-controller=QAR
-add_core=AZB
-add_core=MGR
-add_core=QAR
-trade_goods = wool
-life_rating = 30
-terrain = plains

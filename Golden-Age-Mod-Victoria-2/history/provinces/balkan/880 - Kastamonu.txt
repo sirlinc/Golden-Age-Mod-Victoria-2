@@ -1,8 +1,0 @@
-owner=CND
-controller=CND
-add_core=CND
-add_core=ERE
-add_core=TUR
-trade_goods = coal
-life_rating = 30
-terrain = hills

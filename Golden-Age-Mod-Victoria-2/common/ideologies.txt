@@ -52,35 +52,35 @@ clergy_group = {
 	
 	}
 	
-	#modern_clergy = {
-	#	color = { 255 199 117 }
-	#	date = 1517.10.31
-	#	uncivilized = no
-	#	
-	#	can_reduce_militancy = yes
-	#	
-	#	add_political_reform = {
-	#		base = 0
-	#	}
-	#	remove_political_reform = {
-	#		base = 1
-	#	}
-	#	add_social_reform = {
-	#		base = -1
-	#	}
-	#	remove_social_reform = {
-	#		base = 1
-	#	}
-	#	
-	#	add_military_reform = {
-	#		base = 0
-	#	}
-	#	
-	#	add_economic_reform = {
-	#		base = 0
-	#	}
-	#
-	#}
+	modern_clergy = {
+		color = { 255 199 117 }
+		date = 1517.10.31
+		uncivilized = no
+		
+		can_reduce_militancy = yes
+		
+		add_political_reform = {
+			base = 0
+		}
+		remove_political_reform = {
+			base = 1
+		}
+		add_social_reform = {
+			base = -1
+		}
+		remove_social_reform = {
+			base = 1
+		}
+		
+		add_military_reform = {
+			base = 0
+		}
+		
+		add_economic_reform = {
+			base = 0
+		}
+	
+	}
 }
 
 burghers_group = {
@@ -205,9 +205,9 @@ burghers_group = {
 	}
 }
 
-noble_group = {
+nobility = {
 	nobility = {
-		color = { 71 158 201 }
+		color = { 31 66 135 }
 		
 		add_political_reform = {
 			base = -1
@@ -236,50 +236,6 @@ noble_group = {
 				factor = -1
 				NOT = { ruling_party_ideology = nobility }
 			}
-		}
-		
-		add_military_reform = {
-			base = 1
-			modifier = {
-				factor = -1
-				NOT = { ruling_party_ideology = nobility }
-			}
-		}
-		
-		add_economic_reform = {
-			base = 0
-			modifier = {
-				factor = -1
-				NOT = { ruling_party_ideology = nobility }
-			}
-		}
-	}
-	landowners = {
-		color = { 4 33 89 }
-		
-		add_political_reform = {
-			base = -1
-			modifier = {
-				factor = 0.3
-				NOT = { ruling_party_ideology = nobility }
-			}
-		}
-		remove_political_reform = {
-			base = -1
-			modifier = {
-				factor = -1
-				NOT = { ruling_party_ideology = nobility }
-			}
-		}
-		add_social_reform = {
-			base = -1
-			modifier = {
-				factor = 0.3
-				NOT = { ruling_party_ideology = nobility }
-			}
-		}
-		remove_social_reform = {
-			base = 1
 		}
 		
 		add_military_reform = {
@@ -303,7 +259,7 @@ noble_group = {
 revolutionary_group = {
 	people = { #communist
 		color = { 183 39 36 }
-		year = 1632.1.1
+		year = 1642.1.1
 		
 		uncivilized = no
 		can_reduce_militancy = yes
@@ -317,10 +273,6 @@ revolutionary_group = {
 		}
 		remove_political_reform = {
 			base = -1
-			modifier = {
-				factor = 0.5
-				ruling_party_ideology = people
-			}
 		}
 		add_social_reform = {
 			base = 1
@@ -346,49 +298,6 @@ revolutionary_group = {
 			modifier = {
 				factor = 1
 				NOT = { ruling_party_ideology = people }
-			}
-		}
-	}
-	peasants = { #communist
-		color = { 166 112 111 }
-		year = 1444.1.1
-		
-		can_reduce_militancy = yes
-		
-		add_political_reform = {
-			base = 1
-			modifier = {
-				factor = 0.3
-				NOT = { ruling_party_ideology = peasants }
-			}
-		}
-		remove_political_reform = {
-			base = -1
-		}
-		add_social_reform = {
-			base = 1
-			modifier = {
-				factor = 0.3
-				NOT = { ruling_party_ideology = peasants }
-			}
-		}
-		remove_social_reform = {
-			base = -1
-		}
-		
-		add_military_reform = {
-			base = 1
-			modifier = {
-				factor = -1
-				NOT = { ruling_party_ideology = peasants }
-			}
-		}
-		
-		add_economic_reform = {
-			base = 0
-			modifier = {
-				factor = 1
-				NOT = { ruling_party_ideology = peasants }
 			}
 		}
 	}

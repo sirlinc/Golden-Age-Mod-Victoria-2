@@ -1,8 +1,0 @@
-owner=RAG
-controller=RAG
-add_core=DLM
-add_core=MRL
-add_core=RAG
-trade_goods = fish
-life_rating = 30
-terrain = plains

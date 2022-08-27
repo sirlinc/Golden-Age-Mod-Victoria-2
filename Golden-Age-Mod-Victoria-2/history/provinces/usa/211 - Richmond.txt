@@ -1,5 +1,0 @@
-owner=POW
-controller=POW
-trade_goods = tobacco
-life_rating = 30
-terrain = farmlands

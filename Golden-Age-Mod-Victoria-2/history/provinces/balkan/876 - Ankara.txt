@@ -1,9 +1,0 @@
-owner=TUR
-controller=TUR
-add_core=ERE
-add_core=GRM
-add_core=KRM
-add_core=TUR
-trade_goods = fruit
-life_rating = 30
-terrain = hills

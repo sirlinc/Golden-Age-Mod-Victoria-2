@@ -1,7 +1,0 @@
-owner=SHY
-controller=SHY
-add_core=KAZ
-add_core=SHY
-trade_goods = wool
-life_rating = 30
-terrain = steppe

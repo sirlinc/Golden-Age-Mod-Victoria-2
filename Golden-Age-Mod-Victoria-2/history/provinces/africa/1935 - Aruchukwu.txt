@@ -1,6 +1,0 @@
-owner=NUP
-controller=NUP
-add_core=NUP
-trade_goods = fish
-life_rating = 15
-terrain = plains

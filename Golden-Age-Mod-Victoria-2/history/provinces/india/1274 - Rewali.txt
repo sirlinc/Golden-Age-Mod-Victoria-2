@@ -1,7 +1,0 @@
-owner=BGL
-controller=BGL
-add_core=BGL
-add_core=HND
-trade_goods = tea
-life_rating = 32
-terrain = hills

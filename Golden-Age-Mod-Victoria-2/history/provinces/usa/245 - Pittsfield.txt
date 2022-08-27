@@ -1,6 +1,0 @@
-owner=PEQ
-controller=PEQ
-add_core=WAM
-trade_goods = iron
-life_rating = 30
-terrain = woods

@@ -1,9 +1,0 @@
-owner=JNP
-controller=JNP
-add_core=DLH
-add_core=HND
-add_core=JNP
-add_core=RMP
-trade_goods = grain
-life_rating = 32
-terrain = plains

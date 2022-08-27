@@ -1,7 +1,0 @@
-owner=MAB
-controller=MAB
-add_core=HND
-add_core=MAB
-trade_goods = tea
-life_rating = 32
-terrain = hills

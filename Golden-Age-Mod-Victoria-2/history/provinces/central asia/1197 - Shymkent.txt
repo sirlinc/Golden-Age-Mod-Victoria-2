@@ -1,8 +1,0 @@
-owner=TRX
-controller=SHY
-add_core=KAZ
-add_core=SHY
-add_core=TKS
-trade_goods = grain
-life_rating = 30
-terrain = hills

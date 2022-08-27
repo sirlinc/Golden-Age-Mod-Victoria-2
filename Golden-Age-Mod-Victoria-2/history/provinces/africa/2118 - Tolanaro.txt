@@ -1,7 +1,0 @@
-owner=ATM
-controller=ATM
-add_core=ATM
-add_core=MAD
-trade_goods = grain
-life_rating = 30
-terrain = plains

@@ -1,8 +1,0 @@
-owner=X35
-controller=X35
-add_core=ENG
-add_core=IRE
-add_core=X35
-trade_goods = cattle
-life_rating = 30
-terrain = farmlands

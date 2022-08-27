@@ -1,7 +1,0 @@
-owner=GHD
-controller=GHD
-add_core=GHD
-trade_goods = wool
-life_rating = 30
-terrain = desert
-fort = 2

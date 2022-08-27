@@ -1,7 +1,0 @@
-owner=ARN
-controller=ARN
-add_core=MLT
-add_core=SYC
-trade_goods = fish
-life_rating = 30
-terrain = hills

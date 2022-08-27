@@ -1,8 +1,0 @@
-owner=CST
-controller=CST
-add_core=CST
-add_core=SPA
-add_core=X15
-trade_goods = grain
-life_rating = 30
-terrain = plains

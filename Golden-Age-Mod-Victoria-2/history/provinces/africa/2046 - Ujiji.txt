@@ -1,5 +1,0 @@
-owner=UBH
-controller=UBH
-trade_goods = coffee
-life_rating = 15
-terrain = hills

@@ -1,6 +1,0 @@
-owner=KSJ
-controller=KSJ
-add_core=KSJ
-trade_goods = cattle
-life_rating = 15
-terrain = plains

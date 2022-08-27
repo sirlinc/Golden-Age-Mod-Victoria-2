@@ -1,8 +1,0 @@
-owner=TRX
-controller=TRX
-add_core=KHI
-add_core=TKS
-add_core=TRX
-trade_goods = grain
-life_rating = 30
-terrain = steppe

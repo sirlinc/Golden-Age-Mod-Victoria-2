@@ -1,8 +1,0 @@
-owner=VER
-controller=VER
-add_core=GER
-add_core=HLR
-add_core=VER
-trade_goods = cattle
-life_rating = 40
-terrain = plains

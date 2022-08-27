@@ -1,8 +1,0 @@
-owner=SCO
-controller=SCO
-add_core=HSC
-add_core=SCO
-add_core=X14
-trade_goods = sulphur
-life_rating = 30
-terrain = mountain

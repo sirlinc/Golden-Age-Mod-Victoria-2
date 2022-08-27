@@ -1,7 +1,0 @@
-owner=KTA
-controller=KTA
-add_core=KTA
-add_core=JAP
-trade_goods = grain
-life_rating = 30
-terrain = plains
