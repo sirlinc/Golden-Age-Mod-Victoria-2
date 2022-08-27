@@ -1,0 +1,48 @@
+political_decisions = {
+	debug_ruler = {
+		picture = youngruler
+		potential = {
+			ai = no
+		}
+		effect = {
+			nationalvalue = nv_young
+		}
+	}
+	ruler_actions_young = {
+		picture = youngruler
+		potential = {
+			nationalvalue = nv_young
+		}
+		allow = {
+			NOT = { has_country_modifier = cooldown_actions }
+		}
+		effect = {
+			country_event = {
+				id = 810120
+				days = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ruler_actions_generic = {
+		picture = genericruler
+		allow = {
+			NOT = { has_country_modifier = cooldown_actions }
+		}
+		effect = {
+			country_event = {
+				id = 810121
+				days = 0
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				average_consciousness = 1.0
+			}
+		}
+	}
+}
