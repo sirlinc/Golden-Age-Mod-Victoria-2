@@ -3,7 +3,7 @@ hussar = {
 	
 	type = land
 	sprite = Hussar
-	active = yes #no
+	active = no #yes
 	unit_type = cavalry
 	floating_flag = yes
 	

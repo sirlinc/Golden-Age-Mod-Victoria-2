@@ -34,45 +34,6 @@ urban_centers = {
 		}
 	}
 }
-early_trade = {
-	area = economy_and_commerce
-	year = 1444
-	cost = 4600
-
-	administrative_efficiency = 0.03
-	tax_eff = 3
-	influence = 0.2
-	farm_rgo_eff = 0.1
-	factory_input = -0.01
-	
-	ai_chance = {
-		factor = 1.1
-		modifier = {
-			factor = 3.5
-			rank = 16
-		}
-		modifier = {
-			factor = 1.5
-			economic_policy = laissez_faire
-		}
-		modifier = {
-			factor = 1.02
-			tech_school = commerce_tech_school
-		}
-		modifier = {
-			factor = 1.02
-			tech_school = industrial_tech_school
-		}
-		modifier = {
-			factor = 1.1
-			literacy = 0.3 
-		}
-		modifier = {
-			factor = 1.1
-			literacy = 0.6
-		}
-	}
-}
 tech_name_wip = {
 	area = economy_and_commerce
 	year = 1450
@@ -249,38 +210,6 @@ tech_economy_and_commerce_v = {
 	influence = 0.1
 	farm_rgo_eff = 0.1
 	mine_rgo_eff = 0.1
-	ai_chance = {
-		factor = 1.1
-		modifier = {
-			factor = 3.5
-			rank = 16
-		}
-		modifier = {
-			factor = 1.5
-			economic_policy = laissez_faire
-		}
-		modifier = {
-			factor = 1.02
-			tech_school = commerce_tech_school
-		}
-		modifier = {
-			factor = 1.1
-			literacy = 0.3 
-		}
-		modifier = {
-			factor = 1.1
-			literacy = 0.6
-		}
-	}
-}
-mercantilism_i = {
-	area = economy_and_commerce
-	year = 1495
-	cost = 3600
-	influence = 0.1
-	factory_output = 0.01
-	tax_eff = 3
-	factory_input = -0.01
 	ai_chance = {
 		factor = 1.1
 		modifier = {

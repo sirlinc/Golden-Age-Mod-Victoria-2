@@ -3,7 +3,7 @@ plane = {
 	
 	type = land
 	sprite = Plane
-	active = yes #no
+	active = no #yes
 	unit_type = cavalry
 	floating_flag = no
 	
