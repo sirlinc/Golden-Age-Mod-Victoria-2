@@ -46,7 +46,6 @@ military_goods = {
 	}
 	horses = {	#NEW
 		cost = 9.00 
-		available_from_start = no
 		color = { 61 67 64 }
 	}
 	gunpowder_small_arms = { #NEW
@@ -112,7 +111,6 @@ raw_material_goods = {
 industrial_goods = {
 	construction_tools = { #NEW
 		cost = 6.5
-		available_from_start = yes
 		color = { 255 178 102 }
 	}
 	steel = { 

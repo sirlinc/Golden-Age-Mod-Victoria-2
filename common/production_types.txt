@@ -341,11 +341,8 @@ luxury_furniture_factory = {
 ############# MEDIUM FACTORIES
 construction_tools_factory = {       
 	template = factory_template
-	input_goods = {    
-		OR = {
-			tropical_wood = 6
-			timber = 6
-		}
+	input_goods = {
+		timber = 6
 		iron = 3
 		#11.5  total input+maint = 66
 	}

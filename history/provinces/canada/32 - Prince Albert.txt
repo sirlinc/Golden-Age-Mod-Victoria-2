@@ -1,5 +1,3 @@
-owner=NHY
-controller=NHY
 add_core=NHY
 trade_goods = grain
 life_rating = 30

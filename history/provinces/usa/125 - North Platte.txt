@@ -1,5 +1,4 @@
-owner=PAW
-controller=PAW
+add_core=PAW
 trade_goods = grain
 life_rating = 30
 terrain = steppe
