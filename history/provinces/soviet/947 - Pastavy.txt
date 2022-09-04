@@ -1,5 +1,5 @@
-owner=PLT
-controller=PLT
+owner=LIT
+controller=LIT
 add_core=BYE
 add_core=LIT
 add_core=PLT

@@ -1,6 +1,6 @@
-owner=LIT
-controller=LIT
-add_core=LIT
+owner=VLU
+controller=VLU
+add_core=VLU
 add_core=UKR
 add_core=VOL
 trade_goods = grain

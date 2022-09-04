@@ -1,5 +1,6 @@
-owner=POL
-controller=POL
+owner=PDO
+controller=PDO
+add_core=PDO
 add_core=POL
 add_core=UKR
 add_core=VOL

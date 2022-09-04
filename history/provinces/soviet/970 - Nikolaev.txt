@@ -1,6 +1,7 @@
-owner=LIT
-controller=LIT
+owner=WIL
+controller=WIL
 add_core=CRI
+add_core=WIL
 add_core=ZAZ
 trade_goods = fish
 life_rating = 30

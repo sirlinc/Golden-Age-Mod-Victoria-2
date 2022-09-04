@@ -1,5 +1,6 @@
-owner=LIT
-controller=LIT
+owner=WIL
+controller=WIL
+add_core=WIL
 add_core=LIT
 add_core=RUS
 trade_goods = coal
