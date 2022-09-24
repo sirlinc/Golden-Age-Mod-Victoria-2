@@ -1,0 +1,115 @@
+#EVENT 1 - Dangers of the West
+#ountry_event = { #Lazy
+#	id = 10111015
+#	title = "Dangers of the West"
+#	desc = "DOTWDESC"
+#	picture = "navigation"
+#	
+#	trigger = {
+#		NOT = {
+#			THIS = {
+#				navy_and_colonisation_viii = 1
+#			}
+#		}
+#		OR = {
+#			3060 = {
+#				total_amount_of_ships = 1
+#			}
+#			3059 = {
+#				total_amount_of_ships = 1
+#			}
+#			3058 = {
+#				total_amount_of_ships = 1
+#			}
+#			3204 = {
+#				total_amount_of_ships = 1
+#			}
+#			3053 = {
+#				total_amount_of_ships = 1
+#			}
+#			3051 = {
+#				total_amount_of_ships = 1
+#			}
+#			3037 = {
+#				total_amount_of_ships = 1
+#			}
+#			3030 = {
+#				total_amount_of_ships = 1
+#			}
+#			3207 = {
+#				total_amount_of_ships = 1
+#			}
+#			3034 = {
+#				total_amount_of_ships = 1
+#			}
+#			3035 = {
+#				total_amount_of_ships = 1
+#			}
+#			3237 = {
+#				total_amount_of_ships = 1
+#			}
+#			3017 = {
+#				total_amount_of_ships = 1
+#			}
+#			2951 = {
+#				total_amount_of_ships = 1
+#			}
+#			2950 = {
+#				total_amount_of_ships = 1
+#			}
+#			2949 = {
+#				total_amount_of_ships = 1
+#			}
+#			2935 = {
+#				total_amount_of_ships = 1
+#			}
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 0
+#	}
+#	
+#	option = {
+#		name = "A disaster is imminent!" 
+#		random_list = {
+#			34 = { 
+#				country_event = {
+#					id = 10111016
+#					days = 0
+#				}
+#			}
+#			33 = { 
+#				country_event = {
+#					id = 10111017
+#					days = 0
+#				}
+#			}
+#			33 = { 
+#				country_event = {
+#					id = 10111018
+#					days = 0
+#				}
+#			}
+#		}
+#		ai_chance = { factor = 100 }
+#	}
+#
+#ountry_event = {
+#	id = 10111016
+#	title = "Tragedy with our Expedition"
+#	desc = "10111016desc"
+#	picture = "navigationfail"
+#	
+#	mean_time_to_happen = {
+#		days = 0
+#	}
+#
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "12121211A"
+#		
+#		ai_chance = { factor = 100 }
+#	}
+#

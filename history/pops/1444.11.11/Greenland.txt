@@ -97,3 +97,184 @@
 	}
 
 }
+
+3305 = {
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 1
+	}
+
+}
+
+3306 = {
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 1
+	}
+
+}
+
+3307 = {
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 1
+	}
+
+}
+
+3308 = {
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 1
+	}
+
+}
+
+3309 = {
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 1
+	}
+
+}
+
+3310 = {
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 1
+	}
+
+}
+
+3311 = {
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 1
+	}
+
+}
+
+3312 = {
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 1
+	}
+
+}
+
+
+3313 = {
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 1
+	}
+
+}
+
+3314 = {
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 1
+	}
+
+}
+
+3315 = {
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 1
+	}
+
+}
+
+3316 = {
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 1
+	}
+
+}
+
+3317 = {
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 1
+	}
+
+}
+
+3318 = {
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 1
+	}
+
+}
+
+3319 = {
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 1
+	}
+
+}
+
+3320 = {
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 1
+	}
+
+}
+
+3321 = {
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 1
+	}
+
+}
+
+3322 = {
+	clergymen=
+	{
+		culture = eskaleut
+		religion = shamanism
+		size= 1
+	}
+
+}

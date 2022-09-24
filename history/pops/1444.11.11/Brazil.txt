@@ -119,7 +119,7 @@
 	{
 		culture = amazonian
 		religion = animist
-		size= 8980
+		size= 5980
 	}
 
 }
@@ -362,7 +362,7 @@
 	{
 		culture = tupi
 		religion = animist
-		size= 9673
+		size= 6823
 	}
 
 }
