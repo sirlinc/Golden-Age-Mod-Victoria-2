@@ -629,30 +629,3 @@ vassal=
 	start_date="1444.1.1"
 	end_date="1936.1.1"
 }
-substate = {
-	first = LIT
-	second = WIL
-	start_date = 1444.1.1
-	end_date = 1937.1.1
-}
-vassal=
-{
-	first="LIT"
-	second="VLU"
-	start_date="1444.1.1"
-	end_date="1936.1.1"
-}
-vassal=
-{
-	first="LIT"
-	second="PDO"
-	start_date="1444.1.1"
-	end_date="1936.1.1"
-}
-vassal=
-{
-	first="LIT"
-	second="MNK"
-	start_date="1444.1.1"
-	end_date="1936.1.1"
-}

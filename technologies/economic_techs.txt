@@ -31,7 +31,7 @@ banks = {
 		}
 	}
 }
-financial_institutions_ii = {
+wip_tech_name_i = {
 	area = financial_institutions
 	year = 1467
 	cost = 7200
