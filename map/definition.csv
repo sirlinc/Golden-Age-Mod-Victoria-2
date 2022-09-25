@@ -1,15 +1,15 @@
 province;red;green;blue;x;x
 1;204;229;152;Sitka;x
-2;205;179;153;Yakutat;x
-3;154;230;153;Kenai;x
+2;204;179;153;Yakutat;x
+3;153;230;153;Kenai;x
 4;192;0;0;Dutch Harbor;x
 5;192;0;128;Unalakleet;x
-6;154;179;153;Whitehorse;x
-7;192;129;128;Dawson;x
+6;153;179;153;Whitehorse;x
+7;192;128;128;Dawson;x
 8;179;204;153;Ross River;x
 9;128;64;128;Fort Simpson;x
-10;64;129;128;Inuvik;x
-11;119;211;74;Echo Bay;x
+10;64;128;128;Inuvik;x
+11;119;210;74;Echo Bay;x
 12;119;128;199;Reliance;x
 13;96;64;192;Vancouver;x
 14;201;169;171;Vancouver Island;x
@@ -23,7 +23,7 @@ province;red;green;blue;x;x
 22;192;160;128;Edmonton;x
 23;192;64;0;Athabaska Landing;x
 24;63;85;151;Jasper;x
-25;128;160;129;Banff;x
+25;128;160;128;Banff;x
 26;0;224;0;Calgary;x
 27;81;141;79;Denwood;x
 28;122;120;79;Fort MacLeod;x
@@ -40,7 +40,7 @@ province;red;green;blue;x;x
 39;192;224;0;Norway House;x
 40;122;143;170;Dauphin;x
 41;0;160;64;Brandon;x
-42;128;160;65;Pembina;x
+42;128;160;64;Pembina;x
 43;192;64;128;Arviat;x
 44;70;70;122;Echo Bay;x
 45;0;0;192;Baffin Island;x
@@ -1716,13 +1716,13 @@ province;red;green;blue;x;x
 1715;160;112;64;Naama;x
 1716;96;112;1;Tindouf;x
 1717;176;240;192;Chenachene;x
-1718;144;208;161;In Salah;x
+1718;144;208;160;In Salah;x
 1719;128;144;96;Ilizi;x
 1720;160;112;192;Timimoun;x
 1721;144;208;32;In Guezzam;x
 1722;49;240;192;Tin Zawatene;x
 1723;208;239;64;Panama Canal;x
-1724;1;18;224;Tamanrasset;x
+1724;1;17;224;Tamanrasset;x
 1725;128;208;160;Tunis;x
 1726;152;140;8;Bizerte;x
 1727;123;152;66;Gafsa;x
@@ -1737,7 +1737,7 @@ province;red;green;blue;x;x
 1736;160;16;32;Darna;x
 1737;32;144;32;Tobruk;x
 1738;160;144;32;Jaghbub;x
-1739;145;208;96;Kufra;x
+1739;144;208;96;Kufra;x
 1740;230;232;76;Waddan;x
 1741;1;144;224;Murzuk;x
 1742;128;16;96;Sabha;x
@@ -1824,7 +1824,7 @@ province;red;green;blue;x;x
 1823;192;160;80;Mongo;x
 1824;208;144;33;Mao;x
 1825;208;17;223.;Zouar;x
-1826;80;144;225;Faya;x
+1826;80;144;224;Faya;x
 1827;126;6;0;Khartoum;x
 1828;223;222;155;Wad Madani;x
 1829;6;0;126;Kassala;x
@@ -2583,7 +2583,7 @@ province;red;green;blue;x;x
 2582;144;160;224;Kotor;x
 2583;140;98;146;Cetinje;x
 2584;144;97;224;Bielsko;x
-2585;177;3;23;Matan as Sarah;x
+2585;177;3;22;Matan as Sarah;x
 2586;9;6;150;Al-Ahsa;x
 2587;51;9;23;Kola;x
 2588;93;12;151;Onega;x
@@ -2627,14 +2627,14 @@ province;red;green;blue;x;x
 2626;126;54;9;Port Harrison;x
 2627;64;96;64;Fort Chimo;x
 2628;168;57;137;Attawapiskat;x
-2629;0;61;10;Beatton River;x
-2630;42;64;138;Fairbanks;x
+2629;0;60;10;Beatton River;x
+2630;42;63;138;Fairbanks;x
 2631;84;66;11;Yukon;x
 2632;126;69;139;Isortoq;x
 2633;168;72;12;Palana;x
 2634;0;75;140;Khatyrka;x
 2635;42;78;13;Kariba;x
-2636;84;82;141;Aasiaat;x
+2636;84;81;141;Aasiaat;x
 2637;126;84;14;Navarin;x
 2638;168;87;142;Sugoj;x
 2639;0;90;15;Susuman;x
@@ -3283,44 +3283,9 @@ province;red;green;blue;x;x
 3282;0;153;12;ProvThirteen;x
 3283;153;115;12;Kyoto;x
 3284;153;78;40;ProvFifteen;x
-3285;109;95;71;ProvCrimeaOne;x
-3286;255;199;132;ProvCrimeaTwo;x
-3287;167;119;255;ProvCrimeaThree;x
-3288;74;203;249;AmazonRiverOne;x
-3289;54;181;249;AmazonRiverTwo;x
-3290;106;136;247;DanubeRiverOne;x
-3291;61;128;244;DanubeRiverTwo;x
-3292;53;183;204;DanubeRiverThree;x
-3293;67;84;119;DanubeRiverFour;x
-3294;57;127;93;RhineRiverOne;x
-3295;89;198;146;RhineRiverTwo;x
-3296;65;127;122;RhineRiverThree;x
-3297;100;182;193;MississipiOne;x
-3298;129;235;249;MississipiTwo;x
-3299;23;134;168;LaPlataOne;x
-3300;43;138;145;LaPlataTwo;x
-3301;56;153;244;NiloDelta;x
-3302;21;23;150;NiloOne;x
-3303;70;117;150;NiloTwo;x
-3304;35;96;142;NioThree;x
-3305;255;0;128;IcognitaFive;x
-3306;0;60;10;IcognitaSix;x
-3307;153;179;153;IcognitaSeven;x
-3308;204;179;153;IcognitaEigth;x
-3309;144;208;96;IcognitaNine;x
-3310;153;230;153;IcognitaTen;x
-3311;68;125;137;IcognitaEleven;x
-3312;119;210;74;IcognitaTwelve;x
-3313;1;17;224;IcognitaThirteen;x
-3314;128;160;64;IcognitaFourteen;x
-3315;144;208;160;IcognitaFifteen;x
-3316;177;3;22;IcognitaSixteen;x
-3317;80;144;224;IcognitaSeventeen;x
-3318;128;160;128;IcognitaEighteen;x
-3319;64;128;128;IcognitaNineteen;x
-3320;192;128;128;IcognitaTwenty;x;
-3321;42;63;138;IcognitaTwentyOne;x
-3322;84;81;141;IcognitaTwentyTwo;x
+3285;109;95;71;ProvCrimeaOne;x;
+3286;255;199;132;ProvCrimeaTwo;x;
+3287;167;119;255;ProvCrimeaThree;x;
 ;54;14;244;x;
 ;55;14;248;x;
 ;56;14;232;x;

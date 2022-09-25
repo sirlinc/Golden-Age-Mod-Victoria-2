@@ -6,9 +6,6 @@ cooldown_actions = {
 	icon = 19
 }
 ##### MOD EVENTS ######
-cooldown_changed_religion = {
-	icon = 19
-}
 administrative_guidance = {
 	land_organisation = -0.03
 	mobilisation_size = -0.03

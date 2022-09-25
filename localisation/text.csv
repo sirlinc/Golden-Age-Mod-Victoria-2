@@ -6396,7 +6396,7 @@ FOCUS_PROMOTE_VAL;National focus: §G$VAL$§W%;Cause nationale : §G$VAL$%§W;Nation
 FOCUS_NO_POINTS;Not enough free national focus points.;Points de cause nationale insuffisants.;Nicht genügend freie nationale Fokuspunkte.;;No dispones de suficientes puntos de prioridad nacional.;;;;;;;;;x;;;;
 rail_focus;Railroads;Chemins de fer;Eisenbahnen;;Ferrocarriles;;;;;;;;;x;;;;
 encourage_rail;Build Railroads ;Construire des chemins de fer ;Eisenbahn bauen;;Construir ferrocarriles ;;;;;;;;;x;;;;
-immigration_focus;Pop Interactions;x;
+immigration_focus;Immigration;Immigration;Immigration;;Inmigración;;;;;;;;;x;;;;
 immigration;Attract Immigrants ;Attirer des immigrants ;Einwanderer anlocken;;Atraer inmigrantes ;;;;;;;;;x;;;;
 colonial_focus;Colonisation;Colonisation;Kolonisation;;Colonización;;;;;;;;;x;;;;
 colonize;Colonize ;Envoyer des colons ;Kolonisten entsenden;;Colonizar ;;;;;;;;;x;;;;

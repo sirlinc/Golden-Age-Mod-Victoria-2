@@ -21,10 +21,6 @@ immigration_focus =
 			#}  
 		}
 	}
-	conversion_culture = { #Convert to Primary Culture
-		assimilation_rate = 0.2
-		icon = 31
-	}
 }
 
 diplomatic_focus =
