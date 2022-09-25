@@ -95,13 +95,53 @@ nv_pious = {
 	mobilisation_economy_impact = 0.60
 }
 #2
-nv_excommunicated = {
-	mobilisation_economy_impact = 0.60
-}
+#nv_excommunicated = {
+#	mobilisation_economy_impact = 0.60
+#}
 #2
 nv_distracted = {
 	mobilisation_economy_impact = 0.60
 }
 nv_parliament = {
+	mobilisation_economy_impact = 0.60
+}
+#End of Generic Rulers
+
+### FRANCE ###
+
+nv_charles_vii = {
+	mobilisation_economy_impact = 0.60
+}
+nv_louis_xi = {
+	mobilisation_economy_impact = 0.60
+}
+nv_louis_viii = {
+	mobilisation_economy_impact = 0.60
+}
+nv_louis_xii = {
+	mobilisation_economy_impact = 0.60
+}
+nv_francis_i = {
+	mobilisation_economy_impact = 0.60
+}
+nv_henry_ii = {
+	mobilisation_economy_impact = 0.60
+}
+nv_francis_ii = {
+	mobilisation_economy_impact = 0.60
+}
+nv_charles_ix = {
+	mobilisation_economy_impact = 0.60
+}
+nv_henry_iii = {
+	mobilisation_economy_impact = 0.60
+}
+nv_henry_iv = {
+	mobilisation_economy_impact = 0.60
+}
+nv_louis_xiii = {
+	mobilisation_economy_impact = 0.60
+}
+mv_louis_xiv = {
 	mobilisation_economy_impact = 0.60
 }

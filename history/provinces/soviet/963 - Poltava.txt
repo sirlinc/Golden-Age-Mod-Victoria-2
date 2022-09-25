@@ -1,8 +1,9 @@
-owner=LIT
-controller=LIT
+owner=WIL
+controller=WIL
 add_core=CHR
 add_core=LIT
 add_core=UKR
+add_core=WIL
 trade_goods = coal
 life_rating = 30
 terrain = plains

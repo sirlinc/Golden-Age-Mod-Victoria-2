@@ -1,6 +1,7 @@
-owner=LIT
-controller=LIT
+owner=MNK
+controller=MNK
 add_core=BYE
+add_core=MNK
 add_core=LIT
 trade_goods = timber
 life_rating = 30
