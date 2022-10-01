@@ -1,5 +1,5 @@
 owner=DEN
-controller=REB
+controller=GOT
 add_core=GOT
 add_core=SCA
 add_core=SWE

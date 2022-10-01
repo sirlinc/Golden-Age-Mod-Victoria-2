@@ -1,4 +1,4 @@
-capital = 2410
+capital = 2436
 primary_culture = tupi
 culture = zzz_religion_animist
 religion = animist

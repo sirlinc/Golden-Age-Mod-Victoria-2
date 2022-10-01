@@ -14,6 +14,29 @@ administrative_guidance = {
 	education_efficiency_modifier = 0.05
 	icon = 7
 }
+converting_province = {
+	any_pop = {
+		limit = {
+			is_state_religion = no
+		}
+		population_growth = -0.2
+	}
+	any_pop = {
+		limit = {
+			is_state_religion = yes
+		}
+		population_growth = 0.2
+	}
+	icon = 3
+}
+administrative_guidance = {
+	land_organisation = -0.03
+	mobilisation_size = -0.03
+	administrative_efficiency_modifier = 0.1
+	tax_efficiency = 0.02
+	education_efficiency_modifier = 0.05
+	icon = 7
+}
 political_guidance = {
 	badboy = -0.075
 	mobilisation_size = -0.03

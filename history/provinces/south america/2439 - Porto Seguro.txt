@@ -1,3 +1,5 @@
+owner=TPQ
+controller=TPQ
 trade_goods = coffee
 life_rating = 20
 terrain = plains

@@ -1,4 +1,30 @@
 political_decisions = {
+	#change_statereligion = {
+	#	picture = changereligion
+	#	potential = {
+	#		NOT = {
+	#			has_country_modifier = cooldown_changed_religion
+	#		}
+	#	}
+	#	allow = {
+	#		war = no
+	#		any_core = {
+	#			is_state_religion = no
+	#		}
+	#	}
+	#	effect = {
+	#		country_event = 16150614
+	#	}
+	#	ai_will_do = {
+	#		factor = 0
+	#		modifier = {
+	#			factor = 1
+	#			NOT = {
+	#				has_global_flag = historical_play
+	#			}
+	#		}
+	#	}
+	#}
 	buy_indulgences = {
 		picture = buy_indulgences
 		potential = {

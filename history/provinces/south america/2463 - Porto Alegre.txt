@@ -1,3 +1,5 @@
+owner=GRI
+controller=GRI
 trade_goods = cattle
 life_rating = 20
 terrain = hills

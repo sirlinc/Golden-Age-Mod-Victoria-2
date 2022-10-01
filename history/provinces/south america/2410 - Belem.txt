@@ -1,5 +1,3 @@
-owner=TPA
-controller=TPA
 trade_goods = grain
 life_rating = 20
 terrain = jungle

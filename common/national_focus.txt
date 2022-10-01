@@ -1,9 +1,72 @@
 rail_focus =
 {
-	encourage_rail = 
-	{
-		railroads = 0.5 #Capitalists 50% more likeley to choose railroads
+	colonial_immigration = {
+		immigrant_attract = 2.0
+		pop_militancy_modifier = 0.02
 		icon = 2
+		limit = {
+			is_colonial = yes
+		}
+	}
+	
+	encourage_agriculture = {
+		farm_rgo_eff = 0.5
+		pop_militancy_modifier = 0.01
+		icon = 3
+		limit = {
+			is_colonial = yes
+			is_overseas = yes
+			NOT = {
+				trade_goods = iron
+				trade_goods = coal
+			}
+		}
+	}
+	
+	encourage_mining = {
+		mine_rgo_eff = 0.5
+		pop_militancy_modifier = 0.01
+		icon = 4
+		limit = {
+			is_colonial = yes
+			is_overseas = yes
+			OR = {
+				trade_goods = iron
+				trade_goods = coal
+			}
+		}
+	}
+	
+	encourage_business = {
+		local_RGO_throughput = 0.5
+		immigrant_attract = 0.25
+		icon = 5
+		limit = {
+			is_colonial = yes
+			is_overseas = yes
+			
+	NOT = { any_neighbor_province = { owned_by = THIS } }
+	
+		}
+	}
+	
+	militancy_appeasement = {
+		pop_militancy_modifier = -0.5
+		local_RGO_throughput = -0.1
+		icon = 6
+		limit = {
+			is_colonial = yes
+			is_overseas = yes
+		}
+	}
+	
+	consciousness_appeasement = {
+		pop_consciousness_modifier = -0.5
+		icon = 7
+		limit = {
+			is_colonial = yes
+			is_overseas = yes
+		}
 	}
 }
 
@@ -13,13 +76,13 @@ immigration_focus =
 	{
 		immigrant_attract = 0.2 #increases attactiveness to immigrants by 20 %
 		icon = 3
-		limit = { 
-			#OR = { 
-				#continent = north_america
-				#continent = south_america
-				#is_overseas = yes
-			#}  
-		}
+	}
+	conversion_culture = { #Convert to Primary Culture + Assimilation
+		pop_consciousness_modifier = 0.2
+		pop_militancy_modifier = 0.2
+		assimilation_rate = 0.5
+		immigrant_push = 0.1
+		icon = 31
 	}
 }
 
@@ -38,6 +101,23 @@ diplomatic_focus =
 			THIS = {
 				is_greater_power = no
 			}
+		}
+	}
+	
+	decrease_tension = {
+		icon = 45
+		has_flashpoint = yes
+		own_provinces = no
+		
+		flashpoint_tension = -0.9
+
+		limit = {
+			owner = {
+				is_vassal = no
+				war_policy = pacifism
+			}
+			is_core = THIS
+			THIS = { is_greater_power = no }
 		}
 	}
 }
