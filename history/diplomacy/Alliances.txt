@@ -8,6 +8,22 @@ alliance=
 
 alliance=
 {
+	first="BYZ"
+	second="ATH"
+	start_date="1373.1.1"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="BYZ"
+	second="MOE"
+	start_date="1373.1.1"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
 	first="ENL"
 	second="WHA"
 	start_date="1373.1.1"
