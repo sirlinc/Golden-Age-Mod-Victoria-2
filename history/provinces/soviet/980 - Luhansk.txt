@@ -1,8 +1,6 @@
-owner=WIL
-controller=WIL
-add_core=WIL
-add_core=LIT
-add_core=RUS
+owner=GRH
+controller=GRH
+add_core=GRH
 trade_goods = cattle
 life_rating = 30
 terrain = steppe
