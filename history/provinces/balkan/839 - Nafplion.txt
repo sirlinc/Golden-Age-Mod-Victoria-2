@@ -1,5 +1,5 @@
-owner=BYZ
-controller=BYZ
+owner=MOE
+controller=MOE
 add_core=BYZ
 add_core=GRE
 add_core=MOE
