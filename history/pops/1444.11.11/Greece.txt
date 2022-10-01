@@ -1219,49 +1219,49 @@
 	{
 		culture = greek
 		religion = orthodox
-		size= 864
+		size= 735
 	}
 
 	artisans=
 	{
 		culture = greek
 		religion = orthodox
-		size= 3464
+		size= 2944
 	}
 
 	clergymen=
 	{
 		culture = greek
 		religion = orthodox
-		size= 564
+		size= 480
 	}
 
 	bureaucrats=
 	{
 		culture = greek
 		religion = orthodox
-		size= 88
+		size= 75
 	}
 
 	officers=
 	{
 		culture = greek
 		religion = orthodox
-		size= 68
+		size= 58
 	}
 
 	aristocrats=
 	{
 		culture = greek
 		religion = orthodox
-		size= 728
+		size= 655
 	}
 
 	farmers=
 	{
 		culture = greek
 		religion = orthodox
-		size= 80776
+		size= 69776
 	}
 
 }
@@ -1321,21 +1321,21 @@
 	{
 		culture = greek
 		religion = orthodox
-		size= 736
+		size= 699
 	}
 
 	artisans=
 	{
 		culture = greek
 		religion = orthodox
-		size= 2948
+		size= 2800
 	}
 
 	clergymen=
 	{
 		culture = greek
 		religion = orthodox
-		size= 480
+		size= 456
 	}
 
 	bureaucrats=
@@ -1363,7 +1363,7 @@
 	{
 		culture = greek
 		religion = orthodox
-		size= 68792
+		size= 63792
 	}
 
 }
