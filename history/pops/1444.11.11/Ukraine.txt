@@ -2692,50 +2692,50 @@
 980 = {
 	soldiers=
 	{
-		culture = russian
-		religion = orthodox
+		culture = tatar
+		religion = sunni
 		size= 1464
 	}
 
 	artisans=
 	{
-		culture = russian
-		religion = orthodox
+		culture = tatar
+		religion = sunni
 		size= 2928
 	}
 
 	clergymen=
 	{
-		culture = russian
-		religion = orthodox
+		culture = tatar
+		religion = sunni
 		size= 476
 	}
 
 	bureaucrats=
 	{
-		culture = russian
-		religion = orthodox
+		culture = tatar
+		religion = sunni
 		size= 73
 	}
 
 	officers=
 	{
-		culture = russian
-		religion = orthodox
+		culture = tatar
+		religion = sunni
 		size= 59
 	}
 
 	aristocrats=
 	{
-		culture = russian
-		religion = orthodox
+		culture = tatar
+		religion = sunni
 		size= 615
 	}
 
 	farmers=
 	{
-		culture = russian
-		religion = orthodox
+		culture = tatar
+		religion = sunni
 		size= 140769
 	}
 
