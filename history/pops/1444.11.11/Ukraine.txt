@@ -2599,50 +2599,50 @@
 978 = {
 	soldiers=
 	{
-		culture = russian
-		religion = orthodox
+		culture = tatar
+		religion = sunni
 		size= 1338
 	}
 
 	artisans=
 	{
-		culture = russian
-		religion = orthodox
+		culture = tatar
+		religion = sunni
 		size= 2307
 	}
 
 	clergymen=
 	{
-		culture = russian
-		religion = orthodox
+		culture = tatar
+		religion = sunni
 		size= 431
 	}
 
 	bureaucrats=
 	{
-		culture = russian
-		religion = orthodox
+		culture = tatar
+		religion = sunni
 		size= 67
 	}
 
 	officers=
 	{
-		culture = russian
-		religion = orthodox
+		culture = tatar
+		religion = sunni
 		size= 54
 	}
 
 	aristocrats=
 	{
-		culture = russian
-		religion = orthodox
+		culture = tatar
+		religion = sunni
 		size= 562
 	}
 
 	farmers=
 	{
-		culture = russian
-		religion = orthodox
+		culture = tatar
+		religion = sunni
 		size= 128680
 	}
 
