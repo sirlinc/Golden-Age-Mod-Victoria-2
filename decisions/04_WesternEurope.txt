@@ -1,4 +1,37 @@
 political_decisions = {
+	#######################################
+	########### France Flavor #############
+	#######################################
+	
+	#reconquer_normandy = {
+    #    picture = reconquer_normandy
+    #    potential = {
+	#		NOT = {
+	#			has_country_flag = reconquer_normandy_on 
+	#			has_country_flag = onehundredend
+	#		}
+	#		OR = {
+	#			is_greater_power = yes
+	#			is_secondary_power = yes
+	#		}
+	#		has_country_flag = militar_power_on
+	#		tag = FRA
+    #    }
+    #    allow = {
+    #        society_tech_v = 1
+    #        war = no
+    #        ai = no
+    #        owns = 487
+    #    }
+	#
+    #    effect = {
+    #        capital = 487
+    #        set_country_flag = moved_capital_to_madrid
+    #    }
+	#
+    #    ai_will_do = { factor = 1 }
+    #}
+	
 	move_capital_to_madrid = {
         picture = madrid
         potential = {
