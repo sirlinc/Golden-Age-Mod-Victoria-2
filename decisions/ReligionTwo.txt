@@ -1,0 +1,872 @@
+political_decisions = {
+	change_religion_baltic_pagan_reformed = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = baltic_pagan_reformed
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = baltic_pagan_reformed
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_druidist = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = druidist
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = druidist
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_german_pagan = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = german_pagan
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = german_pagan
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_hellenic_pagan = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = hellenic_pagan
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = hellenic_pagan
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_norse_pagan_reformed = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = norse_pagan_reformed
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = norse_pagan_reformed
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_finnish_pagan_reformed = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = finnish_pagan_reformed
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = finnish_pagan_reformed
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_slavic_pagan_reformed = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = slavic_pagan_reformed
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = slavic_pagan_reformed
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_gnostic = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = gnostic
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = gnostic
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_yazidi = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = yazidi
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = yazidi
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_hindu = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = hindu
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = hindu
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_jain = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = jain
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = jain
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_sikh = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = sikh
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = sikh
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_jewish = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = jewish
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = jewish
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_karaite = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = karaite
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = karaite
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_samaritan = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = samaritan
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = samaritan
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_iconoclast = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = iconoclast
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = iconoclast
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_arab_pagan = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = arab_pagan
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = arab_pagan
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_canaanite = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = canaanite
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = canaanite
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_kemetic = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = kemetic
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = kemetic
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_shiite = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = shiite
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = shiite
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_sunni = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = sunni
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = sunni
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_ibadi = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = ibadi
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = ibadi
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_animist = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = animist
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = animist
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_shamanism = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = shamanism
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = shamanism
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_totemism = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = totemism
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = totemism
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_nahuatl = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = nahuatl
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = nahuatl
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_mayan = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = mayan
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = mayan
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_inti = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = inti
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = inti
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+	change_religion_zoroastrian = {
+		picture = changereligion
+		potential = {
+			pop_majority_religion = zoroastrian
+			any_core = {
+				is_state_religion = no
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			religion = zoroastrian
+			country_event = 16150600
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					has_global_flag = historical_play
+				}
+			}
+		}
+	}
+}

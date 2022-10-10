@@ -460,3 +460,18 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = 16150600
+	title = "Ruler joined to other religion!"
+	desc = "16150600DESC"
+	picture = ReligionChange
+	is_triggered_only = yes
+	
+	option = {
+		name = "Unexpected..."
+		add_country_modifier = {
+			name = cooldown_changed_religion
+			duration = 1800
+		}
+	}
+}

@@ -1,4 +1,138 @@
-political_decisions = { #All decisions by German2002
+political_decisions = { #All decisions by German2002 (and some little changes by Leorx)
+	convert_country = {
+		picture = convert
+		potential = {
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+			money = 10000
+		}
+		effect = {
+			add_country_modifier = {
+				name = cooldown_changed_religion
+				duration = 1800
+			}
+			any_pop = { 
+				limit = {
+					is_state_religion = no
+				}
+				reduce_pop = 0.75 
+				militancy = 2.5
+			}
+			any_pop = { 
+				limit = {
+					is_state_religion = yes
+				}
+				reduce_pop = 1.22
+				consciousness = -0.3
+			}
+			treasury = -10000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	convert_country_catholic_one = {
+		picture = holyinquisition
+		potential = {
+			pop_majority_religion = catholic
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+			money = 13000
+		}
+		effect = {
+			relation = {
+				who = PAP
+				value = 60
+			}
+			add_country_modifier = {
+				name = cooldown_changed_religion
+				duration = 1800
+			}
+			any_pop = { 
+				limit = {
+					is_state_religion = no
+				}
+				reduce_pop = 0.50 
+				militancy = 2.5
+			}
+			any_pop = { 
+				limit = {
+					is_state_religion = yes
+				}
+				reduce_pop = 1.25
+				consciousness = -0.3
+			}
+			prestige = 5
+			badboy = 6.5
+			treasury = -13000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	convert_country_catholic_two = {
+		picture = holyorders
+		potential = {
+			pop_majority_religion = catholic
+			OR = {
+				pop_majority_religion = catholic
+				accepted_culture = catholic
+			}
+			NOT = {
+				state_religion = secular_state
+				has_country_modifier = cooldown_changed_religion
+			}
+		}
+		allow = {
+			war = no
+			is_vassal = no
+			money = 25000
+			year = 1540
+		}
+		effect = {
+			relation = {
+				who = PAP
+				value = 60
+			}
+			add_country_modifier = {
+				name = cooldown_changed_religion
+				duration = 1900
+			}
+			any_pop = { 
+				limit = {
+					is_state_religion = no
+				}
+				reduce_pop = 0.75 
+				militancy = 1.5
+			}
+			any_pop = { 
+				limit = {
+					is_state_religion = yes
+				}
+				reduce_pop = 1.25
+				literacy = 0.075
+				consciousness = -0.3
+			}
+			prestige = 2
+			treasury = -25000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	hre_decisions = {
 		picture = hre
 		potential = {
