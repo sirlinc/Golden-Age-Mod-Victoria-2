@@ -554,49 +554,49 @@
 954 = {
 	soldiers=
 	{
-		culture = ukrainian
+		culture = ruthenian
 		religion = orthodox
 		size= 998
 	}
 
 	artisans=
 	{
-		culture = ukrainian
+		culture = ruthenian
 		religion = orthodox
 		size= 1590
 	}
 
 	clergymen=
 	{
-		culture = ukrainian
+		culture = ruthenian
 		religion = orthodox
 		size= 621
 	}
 
 	bureaucrats=
 	{
-		culture = ukrainian
+		culture = ruthenian
 		religion = orthodox
 		size= 115
 	}
 
 	officers=
 	{
-		culture = ukrainian
+		culture = ruthenian
 		religion = orthodox
 		size= 92
 	}
 
 	aristocrats=
 	{
-		culture = ukrainian
+		culture = ruthenian
 		religion = orthodox
 		size= 964
 	}
 
 	farmers=
 	{
-		culture = ukrainian
+		culture = ruthenian
 		religion = orthodox
 		size= 95371
 	}
