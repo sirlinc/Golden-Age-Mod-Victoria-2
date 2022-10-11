@@ -256,7 +256,7 @@ british = {
 		
 	}
 	english = {
-		color = { 220 100 100 }
+		color = { 250 55 55 }
 		
 		first_names = { "Albert" "Alexander" "Alfred" "Archibald" "Arthur" "Augustus" "Benjamin" "Bernard" "Charles" "Colbert" "Colin" "Cyril" "David" "Donald" "Douglas" "Edmund" "Edwar" "Fairfax" "Ferdinand" "Francis" "Frederick" "Geoffrey" "George" "Graham" "Henrey" "Herbert" "Horatio" "Hubert" "Hugh" "Ian" "James" "Jeremy" "John" "Joseph" "Leopold" "Lester" "Louis" "Martin" "Nigel" "Oswald" "Percy" "Reginald" "Richard" "Robert" "Russell" "Stanley" "Thomas" "Wallace" "William" "Winston" "Zachary" }
 		
