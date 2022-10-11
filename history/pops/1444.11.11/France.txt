@@ -4276,49 +4276,49 @@
 473 = {
 	soldiers=
 	{
-		culture = south_italian
+		culture = north_italian
 		religion = catholic
 		size= 473
 	}
 
 	artisans=
 	{
-		culture = south_italian
+		culture = north_italian
 		religion = catholic
 		size= 1894
 	}
 
 	clergymen=
 	{
-		culture = south_italian
+		culture = north_italian
 		religion = catholic
 		size= 308
 	}
 
 	bureaucrats=
 	{
-		culture = south_italian
+		culture = north_italian
 		religion = catholic
 		size= 47
 	}
 
 	officers=
 	{
-		culture = south_italian
+		culture = north_italian
 		religion = catholic
 		size= 38
 	}
 
 	aristocrats=
 	{
-		culture = south_italian
+		culture = north_italian
 		religion = catholic
 		size= 398
 	}
 
 	farmers=
 	{
-		culture = south_italian
+		culture = north_italian
 		religion = catholic
 		size= 44182
 	}
