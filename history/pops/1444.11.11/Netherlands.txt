@@ -328,49 +328,49 @@
 381 = {
 	soldiers=
 	{
-		culture = flemish
+		culture = dutch
 		religion = catholic
 		size= 371
 	}
 
 	artisans=
 	{
-		culture = flemish
+		culture = dutch
 		religion = catholic
 		size= 1485
 	}
 
 	clergymen=
 	{
-		culture = flemish
+		culture = dutch
 		religion = catholic
 		size= 241
 	}
 
 	bureaucrats=
 	{
-		culture = flemish
+		culture = dutch
 		religion = catholic
 		size= 37
 	}
 
 	officers=
 	{
-		culture = flemish
+		culture = dutch
 		religion = catholic
 		size= 30
 	}
 
 	aristocrats=
 	{
-		culture = flemish
+		culture = dutch
 		religion = catholic
 		size= 312
 	}
 
 	farmers=
 	{
-		culture = flemish
+		culture = dutch
 		religion = catholic
 		size= 34649
 	}
