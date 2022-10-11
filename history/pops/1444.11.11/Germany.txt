@@ -2337,14 +2337,14 @@
 
 	clergymen=
 	{
-		culture = south_german
+		culture = ashkenazi
 		religion = jewish
 		size= 5
 	}
 
 	artisans=
 	{
-		culture = south_german
+		culture = ashkenazi
 		religion = jewish
 		size= 245
 	}
@@ -2402,14 +2402,14 @@
 
 	clergymen=
 	{
-		culture = south_german
+		culture = ashkenazi
 		religion = jewish
 		size= 5
 	}
 
 	artisans=
 	{
-		culture = south_german
+		culture = ashkenazi
 		religion = jewish
 		size= 545
 	}
@@ -2467,14 +2467,14 @@
 
 	clergymen=
 	{
-		culture = south_german
+		culture = ashkenazi
 		religion = jewish
 		size= 5
 	}
 
 	artisans=
 	{
-		culture = south_german
+		culture = ashkenazi
 		religion = jewish
 		size= 495
 	}
@@ -2685,14 +2685,14 @@
 
 	clergymen=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 10
 	}
 
 	artisans=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 565
 	}
@@ -2954,14 +2954,14 @@
 
 	clergymen=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 5
 	}
 
 	artisans=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 245
 	}
@@ -3274,14 +3274,14 @@
 
 	clergymen=
 	{
-		culture = south_german
+		culture = ashkenazi
 		religion = jewish
 		size= 5
 	}
 
 	artisans=
 	{
-		culture = south_german
+		culture = ashkenazi
 		religion = jewish
 		size= 245
 	}
@@ -3747,14 +3747,14 @@
 
 	clergymen=
 	{
-		culture = south_german
+		culture = ashkenazi
 		religion = jewish
 		size= 20
 	}
 
 	artisans=
 	{
-		culture = south_german
+		culture = ashkenazi
 		religion = jewish
 		size= 980
 	}
@@ -3965,14 +3965,14 @@
 
 	clergymen=
 	{
-		culture = south_german
+		culture = ashkenazi
 		religion = jewish
 		size= 25
 	}
 
 	artisans=
 	{
-		culture = south_german
+		culture = ashkenazi
 		religion = jewish
 		size= 1225
 	}
@@ -4234,14 +4234,14 @@
 
 	clergymen=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 5
 	}
 
 	artisans=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 495
 	}
