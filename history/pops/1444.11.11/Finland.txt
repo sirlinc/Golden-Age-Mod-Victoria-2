@@ -52,6 +52,106 @@
 337 = {
 	soldiers=
 	{
+		culture = finnish
+		religion = catholic
+		size= 45
+	}
+
+	artisans=
+	{
+		culture = finnish
+		religion = catholic
+		size= 180
+	}
+
+	clergymen=
+	{
+		culture = finnish
+		religion = catholic
+		size= 29
+	}
+
+	bureaucrats=
+	{
+		culture = finnish
+		religion = catholic
+		size= 4
+	}
+
+	officers=
+	{
+		culture = finnish
+		religion = catholic
+		size= 4
+	}
+
+	aristocrats=
+	{
+		culture = finnish
+		religion = catholic
+		size= 38
+	}
+
+	farmers=
+	{
+		culture = finnish
+		religion = catholic
+		size= 4189
+	}
+
+	soldiers=
+	{
+		culture = sami
+		religion = catholic
+		size= 45
+	}
+
+	artisans=
+	{
+		culture = sami
+		religion = catholic
+		size= 180
+	}
+
+	clergymen=
+	{
+		culture = sami
+		religion = catholic
+		size= 29
+	}
+
+	bureaucrats=
+	{
+		culture = sami
+		religion = catholic
+		size= 4
+	}
+
+	officers=
+	{
+		culture = sami
+		religion = catholic
+		size= 4
+	}
+
+	aristocrats=
+	{
+		culture = sami
+		religion = catholic
+		size= 38
+	}
+
+	farmers=
+	{
+		culture = sami
+		religion = catholic
+		size= 4189
+	}
+
+}
+338 = {
+	soldiers=
+	{
 		culture = sami
 		religion = catholic
 		size= 36
@@ -97,106 +197,6 @@
 		culture = sami
 		religion = catholic
 		size= 3360
-	}
-
-}
-338 = {
-	soldiers=
-	{
-		culture = finnish
-		religion = catholic
-		size= 45
-	}
-
-	artisans=
-	{
-		culture = finnish
-		religion = catholic
-		size= 180
-	}
-
-	clergymen=
-	{
-		culture = finnish
-		religion = catholic
-		size= 29
-	}
-
-	bureaucrats=
-	{
-		culture = finnish
-		religion = catholic
-		size= 4
-	}
-
-	officers=
-	{
-		culture = finnish
-		religion = catholic
-		size= 4
-	}
-
-	aristocrats=
-	{
-		culture = finnish
-		religion = catholic
-		size= 38
-	}
-
-	farmers=
-	{
-		culture = finnish
-		religion = catholic
-		size= 4189
-	}
-
-	soldiers=
-	{
-		culture = sami
-		religion = catholic
-		size= 45
-	}
-
-	artisans=
-	{
-		culture = sami
-		religion = catholic
-		size= 180
-	}
-
-	clergymen=
-	{
-		culture = sami
-		religion = catholic
-		size= 29
-	}
-
-	bureaucrats=
-	{
-		culture = sami
-		religion = catholic
-		size= 4
-	}
-
-	officers=
-	{
-		culture = sami
-		religion = catholic
-		size= 4
-	}
-
-	aristocrats=
-	{
-		culture = sami
-		religion = catholic
-		size= 38
-	}
-
-	farmers=
-	{
-		culture = sami
-		religion = catholic
-		size= 4189
 	}
 
 }
