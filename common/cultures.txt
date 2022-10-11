@@ -1003,7 +1003,7 @@ french = {
 		
 	}
 	wallonian = {
-		color = { 165 25 230 }
+		color = { 75 25 150 }
 		
 		first_names = { "Albert" "Alexandre" "Alexis" "Alphonse" "Andr�" "Antoine" "Auguste" "Barth�l�my" "Baudouin" "Blaise" "Camille" "Cl�ment" "Charles" "Constant" "Damien" "David" "D�sir�" "Didier" "Edmond" "�douard" "Emmanuel" "�mile" "Etienne" "Eug�ne" "F�lix" "Fernand" "Feullien" "Florent" "Fran�ois" "Fr�d�ric" "Georges" "G�rard" "Gilles" "Guillaume" "Gustave" "Henri" "Hercule" "Hubert" "Ignace" "Isidore" "Jacques" "Jean" "Jean-Baptiste" "Jean-Fran�ois" "Jean-Louis" "Jean-Jacques" "Joseph" "Jules" "Lambert" "Laurent" "L�on" "L�onard" "L�opold" "Louis" "Lucien" "Mathieu" "Maxime" "Maximilien" "Nicolas" "Olivier" "Pascal" "Patrice" "Paul" "Philippe" "Philippe-Joseph" "Pierre" "Pierre-Guillaume" "S�bastien" "Sylvain" "Th�ophile" "Victor" "Vincent" "Werner" }
 		
