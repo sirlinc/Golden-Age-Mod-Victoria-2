@@ -201,7 +201,7 @@ baltic = {
 		
 	}
 	lithuanian = {
-		color = { 17 162 48 }
+		color = { 0 135 55 }
 		
 		first_names = { "Adolfas" "Aleksandras" "Algirdas" "Andrius" "Antanas" "Arturas" "Arunas" "Augustinas" "Balys" "Boris" "Bronislovas" "Danielius" "Darius" "Gediminas" "Henrikas" "Jonas" "Jonusas" "Juozas" "Juras" "Jurgis" "Justas" "Kazimieras" "Kazys" "Kipras" "Konstantinas" "Lukas" "Marijus" "Markas" "Mikalojus" "Mindaugas" "Motejus" "Mykolas" "Paulius" "Petras" "Povilas" "Ramunas" "Ringaudas" "Rolandas" "Simonas" "Stasys" "Steponas" "Valdas" "Valdemaras" "Viktoras" "Vilhelmas" "Visvaldas" "Vladimiras" "Vygantas" "Vytautas" "�ydrunas" }
 		
@@ -209,7 +209,7 @@ baltic = {
 		
 	}
 	latvian = {
-		color = { 162 17 48 }
+		color = { 195 50 60 }
 		
 		first_names = { "Aaron" "Abrams" "Alberts" "Aleksandrs" "Aloizs" "Andrejs" "Arkadij" "Armands" "Arnolds" "Atis" "Brunis" "Bruno" "Eduards" "Eliass" "Elmars" "Emils" "Evgenijs" "Filips" "Fricis" "Gustavs" "Heinrihs" "Hermanis" "Izaks" "Janis" "Jazeps" "Jekabs" "Johans" "Juris" "Karlis" "Kri�janis" "Leo" "Mark" "Martin�" "Mihails" "Mikelis" "Nikolajs" "Oskars" "Pauls" "Peteris" "Rihards" "Roberts" "Romans" "Sandis" "Sergejs" "Valdemars" "Valerians" "Valter" "Vilis" "Vladimirs" "Zigfrids" }
 		
@@ -2412,7 +2412,7 @@ finnougric = {
 		
 	}
 	estonian = {
-		color = { 40 30 60 }
+		color = { 0 115 235 }
 		radicalism = 5
 		first_names = { "Aadu" "Alar" "Aleksander" "Andrus" "Artur" "August" "Bernard" "Dmitri" "Eduard" "Eerik" "Elmar" "Ernst" "Georg" "Gustav" "Haman" "Harri" "Heino" "Hendrik" "Hjalmar" "Ivari" "Jaan" "Jakob" "Johannes" "Joosep" "Juhan" "Julius" "J�ri" "Kaarel" "Kalev" "Konstantin" "Lennart" "Ludvig" "Madis" "Mart" "Mikhel" "Nigul" "Olev" "Paavo" "Peeter" "Pent" "Ragnar" "Siiri" "Sven" "Tarmo" "T�nis" "Toomas" "Uno" "Valmar" "Villwm" "Voldemar" }
 		last_names = { "Aamisepp" "Aavik" "Adams" "Anvel" "Barbarus" "Bornh�he" "Eenpalu" "Hint" "Hurt" "Jaakson" "Kangro" "Kint" "Klaasen" "Koern" "K�iv" "Kotli" "Kumari" "Kupine" "Kuusik" "Leppik" "Lipping" "Lohk" "M�e" "M�nnil" "Moora" "Natus" "Nurkse" "Nurmekund" "�kva" "�pik" "Orkivu" "P�ts" "Perna" "Piiper" "Poska" "Puusepp" "R�nk" "Rei" "Reinman" "Siinmaa" "Sikkar" "Sirk" "T�nisson" "Uluots" "Vaga" "Veske" "Vilbaste" "Vilms" "von Uexk�ll" "Warma" }	
