@@ -259,49 +259,49 @@
 938 = {
 	soldiers=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 357
 	}
 
 	artisans=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 978
 	}
 
 	clergymen=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 231
 	}
 
 	bureaucrats=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 43
 	}
 
 	officers=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 35
 	}
 
 	aristocrats=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 363
 	}
 
 	farmers=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 34193
 	}
@@ -338,49 +338,49 @@
 939 = {
 	soldiers=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 391
 	}
 
 	artisans=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 1164
 	}
 
 	clergymen=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 212
 	}
 
 	bureaucrats=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 44
 	}
 
 	officers=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 35
 	}
 
 	aristocrats=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 370
 	}
 
 	farmers=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 36884
 	}
@@ -417,49 +417,49 @@
 940 = {
 	soldiers=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 570
 	}
 
 	artisans=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 1829
 	}
 
 	clergymen=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 369
 	}
 
 	bureaucrats=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 64
 	}
 
 	officers=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 52
 	}
 
 	aristocrats=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 542
 	}
 
 	farmers=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 54059
 	}
@@ -496,49 +496,49 @@
 941 = {
 	soldiers=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 384
 	}
 
 	artisans=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 1086
 	}
 
 	clergymen=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 248
 	}
 
 	bureaucrats=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 46
 	}
 
 	officers=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 36
 	}
 
 	aristocrats=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 386
 	}
 
 	farmers=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 36714
 	}
@@ -575,149 +575,100 @@
 942 = {
 	soldiers=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
-		size= 386
+		size= 643
 	}
 
 	artisans=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
-		size= 1001
+		size= 1669
 	}
 
 	clergymen=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
-		size= 225
+		size= 375
 	}
 
 	bureaucrats=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
-		size= 42
+		size= 70
 	}
 
 	officers=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
-		size= 33
+		size= 55
 	}
 
 	aristocrats=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
-		size= 349
+		size= 582
 	}
 
 	farmers=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
-		size= 36431
-	}
-
-	soldiers=
-	{
-		culture = ukrainian
-		religion = orthodox
-		size= 257
-	}
-
-	artisans=
-	{
-		culture = ukrainian
-		religion = orthodox
-		size= 668
-	}
-
-	clergymen=
-	{
-		culture = ukrainian
-		religion = orthodox
-		size= 150
-	}
-
-	bureaucrats=
-	{
-		culture = ukrainian
-		religion = orthodox
-		size= 28
-	}
-
-	officers=
-	{
-		culture = ukrainian
-		religion = orthodox
-		size= 22
-	}
-
-	aristocrats=
-	{
-		culture = ukrainian
-		religion = orthodox
-		size= 233
-	}
-
-	farmers=
-	{
-		culture = ukrainian
-		religion = orthodox
-		size= 24288
+		size= 60719
 	}
 
 }
 944 = {
 	soldiers=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 808
 	}
 
 	artisans=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 2283
 	}
 
 	clergymen=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 524
 	}
 
 	bureaucrats=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 88
 	}
 
 	officers=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 71
 	}
 
 	aristocrats=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 742
 	}
 
 	farmers=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 76819
 	}
@@ -754,49 +705,49 @@
 945 = {
 	soldiers=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 538
 	}
 
 	artisans=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 952
 	}
 
 	clergymen=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 323
 	}
 
 	bureaucrats=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 61
 	}
 
 	officers=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 49
 	}
 
 	aristocrats=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 515
 	}
 
 	farmers=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 50852
 	}
@@ -833,49 +784,49 @@
 946 = {
 	soldiers=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 1260
 	}
 
 	artisans=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 3341
 	}
 
 	clergymen=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 774
 	}
 
 	bureaucrats=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 146
 	}
 
 	officers=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 117
 	}
 
 	aristocrats=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 1227
 	}
 
 	farmers=
 	{
-		culture = byelorussian
+		culture = ruthenian
 		religion = orthodox
 		size= 120161
 	}
