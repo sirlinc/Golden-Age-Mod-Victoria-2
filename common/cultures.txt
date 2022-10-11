@@ -134,7 +134,7 @@ arab = {
 		
 	}
 	bedouin = {
-		color = { 128 172 181 }
+		color = { 40 165 70 }
 		radicalism = 10
 		
 		first_names = { "Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Ja'far" "Jamal" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" "Sa'd al-Din" "Salim" "Sa'ud" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" }
@@ -161,7 +161,7 @@ arab = {
 		
 	}
 	mashriqi = {
-		color = { 40 183 54 }
+		color = { 70 210 70 }
 		
 		first_names = { "Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Jamal" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" "Sa'd al-Din" "Salim" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" }
 		
@@ -169,7 +169,7 @@ arab = {
 		
 	}
 	misri = {
-		color = { 34 145 86 }
+		color = { 30 125 75 }
 		
 		first_names = { "Abdullah" "Abdulhamid" "Abdulkerim" "Ahmet" "Ali" "Bekir" "Cemal" "Enver" "Fevzi" "Fuat" "Halil" "Hasan" "Ibrahim" "Iskender" "Ismet" "Izzet" "Kamil" "Kazim" "Kemal" "Mehmet" "Murat" "Musa" "Mustafa" "Nazim" "Nurettin" "Omar" "Osman" "Nuri" "Rauf" "Rifat" "Selim" "Shukru" "Suleyman" "Urabi" "Yusuf" "Yunus" "Ziya" }
 		
