@@ -952,14 +952,14 @@
 
 	clergymen=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 25
 	}
 
 	artisans=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 975
 	}
@@ -1119,14 +1119,14 @@
 
 	clergymen=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 5
 	}
 
 	artisans=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 245
 	}
@@ -1184,14 +1184,14 @@
 
 	clergymen=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 30
 	}
 
 	artisans=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 1420
 	}
@@ -1402,14 +1402,14 @@
 
 	clergymen=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 5
 	}
 
 	artisans=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 295
 	}
@@ -1467,14 +1467,14 @@
 
 	clergymen=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 5
 	}
 
 	artisans=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 195
 	}
@@ -1583,14 +1583,14 @@
 
 	clergymen=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 5
 	}
 
 	artisans=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 245
 	}
@@ -1699,14 +1699,14 @@
 
 	clergymen=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 5
 	}
 
 	artisans=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 580
 	}
@@ -1764,14 +1764,14 @@
 
 	clergymen=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 10
 	}
 
 	artisans=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 900
 	}
@@ -1880,14 +1880,14 @@
 
 	clergymen=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 5
 	}
 
 	artisans=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 245
 	}
@@ -2040,14 +2040,14 @@
 
 	clergymen=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 10
 	}
 
 	artisans=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 990
 	}
@@ -2105,14 +2105,14 @@
 
 	clergymen=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 10
 	}
 
 	artisans=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 590
 	}
@@ -2170,14 +2170,14 @@
 
 	clergymen=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 5
 	}
 
 	artisans=
 	{
-		culture = north_german
+		culture = ashkenazi
 		religion = jewish
 		size= 295
 	}
