@@ -1896,49 +1896,49 @@
 562 = {
 	soldiers=
 	{
-		culture = south_german
+		culture = north_german
 		religion = catholic
 		size= 675
 	}
 
 	artisans=
 	{
-		culture = south_german
+		culture = north_german
 		religion = catholic
 		size= 2701
 	}
 
 	clergymen=
 	{
-		culture = south_german
+		culture = north_german
 		religion = catholic
 		size= 439
 	}
 
 	bureaucrats=
 	{
-		culture = south_german
+		culture = north_german
 		religion = catholic
 		size= 68
 	}
 
 	officers=
 	{
-		culture = south_german
+		culture = north_german
 		religion = catholic
 		size= 54
 	}
 
 	aristocrats=
 	{
-		culture = south_german
+		culture = north_german
 		religion = catholic
 		size= 567
 	}
 
 	farmers=
 	{
-		culture = south_german
+		culture = north_german
 		religion = catholic
 		size= 63021
 	}
@@ -1947,49 +1947,49 @@
 563 = {
 	soldiers=
 	{
-		culture = south_german
+		culture = north_german
 		religion = catholic
 		size= 482
 	}
 
 	artisans=
 	{
-		culture = south_german
+		culture = north_german
 		religion = catholic
 		size= 1928
 	}
 
 	clergymen=
 	{
-		culture = south_german
+		culture = north_german
 		religion = catholic
 		size= 313
 	}
 
 	bureaucrats=
 	{
-		culture = south_german
+		culture = north_german
 		religion = catholic
 		size= 48
 	}
 
 	officers=
 	{
-		culture = south_german
+		culture = north_german
 		religion = catholic
 		size= 39
 	}
 
 	aristocrats=
 	{
-		culture = south_german
+		culture = north_german
 		religion = catholic
 		size= 405
 	}
 
 	farmers=
 	{
-		culture = south_german
+		culture = north_german
 		religion = catholic
 		size= 44977
 	}
