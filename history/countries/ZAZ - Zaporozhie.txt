@@ -1,5 +1,5 @@
 capital = 976
-primary_culture = ukrainian
+primary_culture = ruthenian
 culture = zzz_religion_orthodox
 religion = orthodox
 government = presidential_dictatorship
