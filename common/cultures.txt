@@ -1170,7 +1170,7 @@ hungarian_culture_group = {
 	unit = AustriaHungaryGC
 	
 	hungarian = {
-		color = { 180 255 120 }
+		color = { 230 255 225 }
 		
 		first_names = { "Alajos" "Albert" "�lmos" "Anaszt�z" "Andr�s" "Arisztid" "Aur�l" "B�la" "Benedek" "B�ni" "Bertalan" "D�niel" "D�vid" "Edv�rd" "�li�s" "Erno" "Ferencz" "G�bor" "G�briel" "G�sp�r" "Gy�rgy" "Gyula" "Ign�c" "Imre" "Istv�n" "Izidor" "J�nos" "J�zsef" "J�zsef Manes" "K�lm�n" "K�roly" "Katalin" "Kelemen" "Krisztian" "Lajos" "L�szl�" "Man�" "Mih�ly" "M�r" "Mykl�s" "�d�n" "Ott�" "P�ter" "Rafael" "S�ndor" "Simon" "Tivadar" "Vilmos" "Vir�g" "Zsigmond" }
 		
