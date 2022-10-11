@@ -3148,7 +3148,7 @@ turko_semitic = {
 		
 	}
 	turkish = {
-		color = { 250 55 55 }
+		color = { 220 100 100 }
 		
 		first_names = { "Abdullah" "Abd�lhamid" "Abd�lkerim" "Abdulrahim" "Ahmet" "Akif" "Ali" "Arif" "Bahaeddin" "Bekir" "Cemal" "Cevad" "Celaleddin" "Cevdet" "Davud" "Edhem" "Emin" "Enver" "Fahri" "Fevzi" "Ferid" "Fuat" "Hafiz" "Hamza" "Halil" "Halim" "Hasan" "Hayrullah" "Husrev" "Ibrahim" "Iskender" "Ismet" "Izzet" "Kamil" "Kaz�m" "Kemal" "L�tfi" "Mahmut" "Mehmet" "Mithat" "Muhtar" "Murat" "Musa" "Mustafa" "Nam�k" "Nazim" "Nurettin" "Nuri" "Numan" "Omar" "Osman" "Pertev" "Rauf" "Receb" "Re�ad" "Refet" "R�fat" "R�za" "Sabahaddin" "Said" "Selim" "�evket" "��kr�" "S�leyman" "Talat" "Tevfik" "Vefik" "Yusuf" "Yunus" "Ziya" "Ziyaeddin" }
 		
