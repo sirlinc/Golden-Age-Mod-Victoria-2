@@ -159,49 +159,49 @@
 702 = {
 	soldiers=
 	{
-		culture = ukrainian
+		culture = ruthenian
 		religion = orthodox
 		size= 1371
 	}
 
 	artisans=
 	{
-		culture = ukrainian
+		culture = ruthenian
 		religion = orthodox
 		size= 3187
 	}
 
 	clergymen=
 	{
-		culture = ukrainian
+		culture = ruthenian
 		religion = orthodox
 		size= 848
 	}
 
 	bureaucrats=
 	{
-		culture = ukrainian
+		culture = ruthenian
 		religion = orthodox
 		size= 150
 	}
 
 	officers=
 	{
-		culture = ukrainian
+		culture = ruthenian
 		religion = orthodox
 		size= 119
 	}
 
 	aristocrats=
 	{
-		culture = ukrainian
+		culture = ruthenian
 		religion = orthodox
 		size= 1257
 	}
 
 	farmers=
 	{
-		culture = ukrainian
+		culture = ruthenian
 		religion = orthodox
 		size= 127817
 	}
@@ -238,49 +238,49 @@
 950 = {
 	soldiers=
 	{
-		culture = ukrainian
+		culture = ruthenian
 		religion = orthodox
 		size= 1876
 	}
 
 	artisans=
 	{
-		culture = ukrainian
+		culture = ruthenian
 		religion = orthodox
 		size= 6904
 	}
 
 	clergymen=
 	{
-		culture = ukrainian
+		culture = ruthenian
 		religion = orthodox
 		size= 1177
 	}
 
 	bureaucrats=
 	{
-		culture = ukrainian
+		culture = ruthenian
 		religion = orthodox
 		size= 193
 	}
 
 	officers=
 	{
-		culture = ukrainian
+		culture = ruthenian
 		religion = orthodox
 		size= 154
 	}
 
 	aristocrats=
 	{
-		culture = ukrainian
+		culture = ruthenian
 		religion = orthodox
 		size= 1618
 	}
 
 	farmers=
 	{
-		culture = ukrainian
+		culture = ruthenian
 		religion = orthodox
 		size= 176678
 	}

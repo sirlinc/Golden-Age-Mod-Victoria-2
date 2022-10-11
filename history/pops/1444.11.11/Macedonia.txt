@@ -1,49 +1,49 @@
 806 = {
 	soldiers=
 	{
-		culture = macedonian
+		culture = bulgarian
 		religion = orthodox
 		size= 987
 	}
 
 	artisans=
 	{
-		culture = macedonian
+		culture = bulgarian
 		religion = orthodox
 		size= 3249
 	}
 
 	clergymen=
 	{
-		culture = macedonian
+		culture = bulgarian
 		religion = orthodox
 		size= 617
 	}
 
 	bureaucrats=
 	{
-		culture = macedonian
+		culture = bulgarian
 		religion = orthodox
 		size= 99
 	}
 
 	officers=
 	{
-		culture = macedonian
+		culture = bulgarian
 		religion = orthodox
 		size= 79
 	}
 
 	aristocrats=
 	{
-		culture = macedonian
+		culture = bulgarian
 		religion = orthodox
 		size= 829
 	}
 
 	farmers=
 	{
-		culture = macedonian
+		culture = bulgarian
 		religion = orthodox
 		size= 88217
 	}
@@ -73,49 +73,49 @@
 807 = {
 	soldiers=
 	{
-		culture = macedonian
+		culture = bulgarian
 		religion = orthodox
 		size= 630
 	}
 
 	artisans=
 	{
-		culture = macedonian
+		culture = bulgarian
 		religion = orthodox
 		size= 1545
 	}
 
 	clergymen=
 	{
-		culture = macedonian
+		culture = bulgarian
 		religion = orthodox
 		size= 385
 	}
 
 	bureaucrats=
 	{
-		culture = macedonian
+		culture = bulgarian
 		religion = orthodox
 		size= 63
 	}
 
 	officers=
 	{
-		culture = macedonian
+		culture = bulgarian
 		religion = orthodox
 		size= 50
 	}
 
 	aristocrats=
 	{
-		culture = macedonian
+		culture = bulgarian
 		religion = orthodox
 		size= 529
 	}
 
 	farmers=
 	{
-		culture = macedonian
+		culture = bulgarian
 		religion = orthodox
 		size= 57023
 	}
