@@ -2317,7 +2317,7 @@ pan_romanian = {
 		
 	}
 	romanian = {
-		color = { 240 240 140 }
+		color = { 230 230 70 }
 		
 		first_names = { "Adrian" "Alexandru" "Andrei" "Anton" "Artur" "Bogdan" "Carol" "Cezar" "Constantin" "Constin" "Cosmin" "Daniel" "Dumitru" "Emanuel" "Eremia" "Eugen" "Ferdinand" "Flaviu" "Florea" "Gheorghe" "Grigore" "Henric" "Horatiu" "Iacob" "Ilie" "Ioan" "Ion" "Ion Emanuel" "Iosif" "Iulian" "Iuliu" "Laurentiu" "Leontin" "Luca" "Lucian" "Mihai" "Mircea" "Nicolae" "Ovidiu" "Petru" "Radu" "Sergiu" "Silviu" "Simion" "Stefan" "Valeriu" "Vasile" "Victor" "Vintila" "Vlad" }
 		
