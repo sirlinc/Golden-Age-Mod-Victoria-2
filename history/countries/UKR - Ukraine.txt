@@ -1,5 +1,5 @@
 capital = 958
-primary_culture = ukrainian
+primary_culture = ruthenian
 culture = zzz_religion_orthodox
 religion = orthodox
 government = feudal_monarchy
