@@ -858,6 +858,15 @@ east_slavic = {
 		last_names = { "Alieksiejev" "Bulak-Balachowicz" "Cybisov" "Dienykin" "Drahomyrov" "Holivin" "Hurko" "Ivanov" "Kalinouski" "Kornjlov" "Kolcak" "Kuropatkin" "Luka�enka" "Mien�ikov" "Nachimov" "Niebohatov" "Nikolajevic" "Pavlov" "Putiatin" "Ro�jestvienski" "Skobieliev" "Suchoj" "Tuchacjeuski" "Jehorov" "Voroncov" "�auryd" }
 		
 	}
+	ruthenian = {
+		color = { 200 200 100 }
+		radicalism = 15
+		
+		first_names = { "Alekhey" "Andrey" "Anton" "Arkadyy" "Aliaksandr" "Alieksiej" "Andrej" "Borys" "Cyryl" "Dania" "Dmytro" "Dimitry" "Hieorhij" "Fiodor" "Hryhoryy" "Ivan" "Lavr" "Leonid" "Lev" "Mykhayil" "Mykola" "Nikita" "Oleksandr" "Pavel" "Petro" "Roman" "Semion" "Serhyy" "Valeryy" "Viktor" "Volodymyr" "Vladyslav" "Yuryy" "Janka" "Jury" "Lieonid" "Lieu" "Mikalaj" "Paval" "Piotr" "Ryhor" "Stanislau" "Sierhiej" "Valiery" "Vasilij" "Viktar" "Uladzimir" "Vladyslau" }
+		
+		last_names = { "Alieksiejev" "Kalinouski" "Kornjlov" "Kolcak" "Kuropatkin" "Luka�enka" "Mien�ikov" "Nachimov" "Niebohatov" "Nikolajevic" "Pavlov" "Putiatin" "Ro�jestvienski" "Skobieliev" "Suchoj" "Tuchacjeuski" "Jehorov" "Voroncov" "�auryd" "Bulak-Balachowicz" "Cybisov" "Dienykin" "Drahomyrov" "Holivin" "Hurko" "Bezruchko" "Chernyakhovs'kyy" "Dyachenko" "Hamula" "Hrihoriyev" "Hrekov" "Ivanenko" "Ivanov" "Krapustians'kyy" "Kondratenko" "Leshchenko" "Lesh�chinskyy" "Omelyanovych-Pavlenko" "Paskevych" "Petlyura" "Radchenko" "Shevchenko" "Skoropads'kyy" "Stefaniv" "Tymoshenko" "Vitovs'kyy" }
+		
+	}
 	kholodnovoynsky = {
 		color = { 105 164 125 }
 		
