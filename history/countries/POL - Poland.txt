@@ -1,6 +1,6 @@
 capital = 703
 primary_culture = polish
-culture = ukrainian
+culture = ruthenian
 culture = zzz_religion_catholic
 religion = catholic
 government = feudal_monarchy
