@@ -1203,7 +1203,7 @@ iberian = {
 		
 	}
 	galician = {
-		color = { 220 195 140 }
+		color = { 125 205 230 }
 		
 		first_names = { "Afonso" "Alberte" "Aleixo" "Alexandre" "Ant�n" "Anxo" "Artur" "Bartolomeu" "Bieito" "Brais" "Breixo" "Cibr�n" "Estevo" "Iago" "Lino" "Lois" "Nicolau" "Paulo" "Rodrigo" "Roi" "Ux�o" "Vitor" "Xabier" "Xes�s" "Xo�n" "Xos�" "Xurxo" }
 		
@@ -1211,7 +1211,7 @@ iberian = {
 		
 	}
 	portuguese = {
-		color = { 160 220 30 }
+		color = { 130 200 30 }
 		
 		first_names = { "Abel" "Adriano" "Afonso" "Alberto" "Alexandre" "Alfredo" "�lvaro" "Andr�" "Ant�nio" "Aquilino" "Artur" "Augusto" "Bartolomeu" "Bernardo" "Bruno" "Caetano" "C�ndido" "Carlos" "Christov�o" "Cl�udio" "Dami�o" "Daniel" "David" "Dinis" "Diogo" "Duarte" "Ernesto" "Est�v�o" "Eug�nio" "Fernando" "Filipe" "Francisco" "Francisco Xavier" "Gast�o" "Hermenegildo" "Ign�cio" "JEr�nimo" "Jo�o" "Joaquim" "Jorge" "Jos�" "J�lio" "Leopoldo" "Lu�s" "Manuel" "M�rio" "Miguel" "Nicolau" "Nuno" "Orlando" "�scar" "Pascoal" "Paulo" "Pedro" "Rafael" "Raul" "Roberto" "Rodrigo" "Rui" "Santiago" "Sebasti�o" "Teodoro" "Te�filo" "Tiago" "Tom�" "Urbano" "Vasco" "Vicente" "Vitorino" "Vit�rio" }
 		
@@ -1219,7 +1219,7 @@ iberian = {
 		
 	}
 	spanish = {
-		color = { 220 220 30 }
+		color = { 240 240 10 }
 		
 		first_names = { "Agust�n" "Alberto" "Alejandro" "Alfonso" "�lvaro" "Antonio" "Antonio Mar�a" "Arsenio" "Augusto" "Baldomero" "Baltasar" "Benito" "Bernardino" "Bernardo" "Calixto" "Carlos" "Celestino" "Claudio" "Cristobal" "D�maso" "Diego" "Dionisio" "Eduardo" "Emilio" "Estanislao" "Federico" "Felipe" "F�lix" "Fernando" "Francisco" "Francisco Javier" "Gabino" "Gabriel" "Gaspar" "Genaro" "Gonzalo" "Ignacio" "Isidro" "Jacobo" "Jaime" "Joaqu�n" "Jos�" "Jos� Antonio" "Jos� Manuel" "Jos� Mar�a" "Juan" "Juan Bautista" "Julio" "Leopoldo" "Lorenzo" "Luis" "Manuel" "Marcelo" "Mariano" "Mateo" "Melchor" "Miguel" "Nicol�s" "Pablo" "Pascual" "Pedro" "Rafael" "Raimundo" "Ram�n" "Ricardo" "Santiago" "Sebasti�n" "Segismundo" "Valeriano" "Vicente" }
 		
