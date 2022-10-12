@@ -8,49 +8,49 @@
 
 	soldiers=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 561
 	}
 
 	artisans=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 1324
 	}
 
 	clergymen=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 350
 	}
 
 	bureaucrats=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 28
 	}
 
 	officers=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 45
 	}
 
 	aristocrats=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 472
 	}
 
 	farmers=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 48765
 	}
@@ -180,49 +180,49 @@
 
 	soldiers=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 201
 	}
 
 	artisans=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 313
 	}
 
 	clergymen=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 120
 	}
 
 	bureaucrats=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 10
 	}
 
 	officers=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 16
 	}
 
 	aristocrats=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 169
 	}
 
 	farmers=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 14241
 	}
@@ -252,49 +252,49 @@
 
 	soldiers=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 226
 	}
 
 	artisans=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 904
 	}
 
 	clergymen=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 147
 	}
 
 	bureaucrats=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 11
 	}
 
 	officers=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 18
 	}
 
 	aristocrats=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 190
 	}
 
 	farmers=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 17494
 	}
