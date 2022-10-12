@@ -3,49 +3,98 @@
 	{
 		culture = berber
 		religion = sunni
-		size= 630
+		size= 430
 	}
 
+	soldiers=
+	{
+		culture = maghrebi
+		religion = sunni
+		size= 200
+	}
+	
 	artisans=
 	{
 		culture = berber
 		religion = sunni
-		size= 1045
+		size= 745
+	}
+	
+	artisans=
+	{
+		culture = maghrebi
+		religion = sunni
+		size= 300
 	}
 
 	clergymen=
 	{
 		culture = berber
 		religion = sunni
-		size= 385
+		size= 285
+	}
+
+	clergymen=
+	{
+		culture = maghrebi
+		religion = sunni
+		size= 100
 	}
 
 	bureaucrats=
 	{
 		culture = berber
 		religion = sunni
-		size= 32
+		size= 22
+	}
+
+	bureaucrats=
+	{
+		culture = maghrebi
+		religion = sunni
+		size= 10
 	}
 
 	officers=
 	{
 		culture = berber
 		religion = sunni
-		size= 50
+		size= 35
+	}
+
+	officers=
+	{
+		culture = maghrebi
+		religion = sunni
+		size= 15
 	}
 
 	aristocrats=
 	{
 		culture = berber
 		religion = sunni
-		size= 529
+		size= 370
+	}
+
+	aristocrats=
+	{
+		culture = maghrebi
+		religion = sunni
+		size= 160
 	}
 
 	farmers=
 	{
 		culture = berber
 		religion = sunni
-		size= 58829
+		size= 41181
+	}
+
+	farmers=
+	{
+		culture = maghrebi
+		religion = sunni
+		size= 17650
 	}
 
 	clergymen=
@@ -68,49 +117,98 @@
 	{
 		culture = berber
 		religion = sunni
-		size= 1010
+		size= 303
 	}
-
+	
+	soldiers=
+	{
+		culture = maghrebi
+		religion = sunni
+		size= 707
+	}
+	
 	artisans=
 	{
 		culture = berber
 		religion = sunni
-		size= 4039
+		size= 1212
+	}
+
+	artisans=
+	{
+		culture = maghrebi
+		religion = sunni
+		size= 2828
 	}
 
 	clergymen=
 	{
 		culture = berber
 		religion = sunni
-		size= 656
+		size= 200
+	}
+
+	clergymen=
+	{
+		culture = maghrebi
+		religion = sunni
+		size= 460
 	}
 
 	bureaucrats=
 	{
 		culture = berber
 		religion = sunni
-		size= 50
+		size= 10
+	}
+
+	bureaucrats=
+	{
+		culture = maghrebi
+		religion = sunni
+		size= 40
 	}
 
 	officers=
 	{
 		culture = berber
 		religion = sunni
-		size= 81
+		size= 30
+	}
+
+	officers=
+	{
+		culture = maghrebi
+		religion = sunni
+		size= 50
 	}
 
 	aristocrats=
 	{
 		culture = berber
 		religion = sunni
-		size= 848
+		size= 250
+	}
+
+	aristocrats=
+	{
+		culture = maghrebi
+		religion = sunni
+		size= 600
 	}
 
 	farmers=
 	{
 		culture = berber
 		religion = sunni
-		size= 94296
+		size= 28290
+	}
+
+	farmers=
+	{
+		culture = maghrebi
+		religion = sunni
+		size= 66010
 	}
 
 }
@@ -502,49 +600,49 @@
 1709 = {
 	soldiers=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 135
 	}
 
 	artisans=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 540
 	}
 
 	clergymen=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 88
 	}
 
 	bureaucrats=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 7
 	}
 
 	officers=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 11
 	}
 
 	aristocrats=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 113
 	}
 
 	farmers=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 12606
 	}
