@@ -126,7 +126,7 @@ arab = {
 	unit = MiddleEasternGC
 	
 	andalucian = {
-		color = { 60 120 0 }
+		color = { 80 200 35 }
 		
 		first_names = { "Abd al-Aziz" "Abd al-Haqq" "Abd al-Rahman" "Abd Allah" "Abu l-Qasim" "Ahmad" "Ali" "Asbag" "Faris" "Garsiyya" "Hajjaj" "Hakam" "Harith" "Hasan" "Ibrahim" "Isa" "Makki" "Marzuq" "Muhammad" "Musa" "Qasim" "Sayyid" "Shakir" "Sulayman" "Tamim" "Ubada" "Umar" "Uthman" "Yahya" "Yusuf" }
 		
@@ -143,7 +143,7 @@ arab = {
 		
 	}
 	berber = {
-		color = { 51 75 70 }
+		color = { 90 130 115 }
 		radicalism = 10
 		
 		first_names = { "Ahmed" "Abd al-Karim" "Khalid" "Muhammad" "Mustafa" }
@@ -153,7 +153,7 @@ arab = {
 	}
 
 	maghrebi = {
-		color = { 24 103 22 }
+		color = { 30 120 25 }
 		
 		first_names = { "Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Jamal" "Kamil" "Khalid" "Mahmud" "Muhammad" "Mustafa" "Nur al-Din" "Sa'd al-Din" "Salim" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" }
 		
