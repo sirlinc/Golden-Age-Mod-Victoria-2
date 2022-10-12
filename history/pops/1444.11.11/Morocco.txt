@@ -720,49 +720,49 @@
 1693 = {
 	soldiers=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 81
 	}
 
 	artisans=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 324
 	}
 
 	clergymen=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 53
 	}
 
 	bureaucrats=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 4
 	}
 
 	officers=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 6
 	}
 
 	aristocrats=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 68
 	}
 
 	farmers=
 	{
-		culture = berber
+		culture = maghrebi
 		religion = sunni
 		size= 7564
 	}
