@@ -1346,7 +1346,14 @@
 	{
 		culture = north_german
 		religion = catholic
-		size= 73381
+		size= 22014
+	}
+
+	farmers=
+	{
+		culture = sorbian
+		religion = catholic
+		size= 51370
 	}
 
 }
