@@ -256,7 +256,7 @@ british = {
 		
 	}
 	english = {
-		color = { 250 55 55 }
+		color = { 255 45 45 }
 		
 		first_names = { "Albert" "Alexander" "Alfred" "Archibald" "Arthur" "Augustus" "Benjamin" "Bernard" "Charles" "Colbert" "Colin" "Cyril" "David" "Donald" "Douglas" "Edmund" "Edwar" "Fairfax" "Ferdinand" "Francis" "Frederick" "Geoffrey" "George" "Graham" "Henrey" "Herbert" "Horatio" "Hubert" "Hugh" "Ian" "James" "Jeremy" "John" "Joseph" "Leopold" "Lester" "Louis" "Martin" "Nigel" "Oswald" "Percy" "Reginald" "Richard" "Robert" "Russell" "Stanley" "Thomas" "Wallace" "William" "Winston" "Zachary" }
 		
@@ -272,7 +272,7 @@ british = {
 		
 	}
 	scottish = {
-		color = { 70 180 180 }
+		color = { 0 100 190 }
 		
 		first_names = { "Alistair" "Amhlaidh" "Bhaltair" "Boyd" "Cairbre" "Callum" "Cormag" "Dand" "David" "Davidh" "Deorsa" "Diarmad" "Domnall" "Duff" "Eanraig" "Edan" "Fife" "Fingall" "Fraser" "Grahame" "Irvine" "Jamie" "Jock" "Lockie" "Neil" "Rabbie" "Rorie" "Ruairi" "Seoc" "Stewart" }
 		
@@ -289,7 +289,7 @@ celtic = {
 	unit = BritishGC
 	
 	welsh = {
-		color = { 70 180 120 }
+		color = { 50 100 0 }
 
 		first_names = { "Aeron" "Arwel" "Awstin" "Brin" "Cadfan" "Cadoc" "Celyn" "Culhwch" "Cystennin" "Delwin" "Eifion" "Ercwlff" "Geraint" "Glynn" "Gwynfor" "Harri" "Ifan" "Ilar" "Leolin" "Llew" "Madog" "Merfyn" "Meurig" "Owen" "Pedr" "Rees" "Siorus" "Steffan" "Taliesin" "Tudor" "Urien" }
 
@@ -297,7 +297,7 @@ celtic = {
 
 	}
 	irish = {
-		color = { 35 140 50 }
+		color = { 35 200 50 }
 		radicalism = 15
 		primary = IRE
 		
