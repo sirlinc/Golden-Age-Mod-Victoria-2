@@ -197,9 +197,9 @@ consumer_goods = {
 		cost = 2.2
 		color = { 219 157 36 }
 	}
-	tobacco = {	#salt
-		cost = 6.4
-		color = { 104 104 103 }
+	tobacco = {	
+		cost = 1.1
+		color = { 100 69 30 }
 	}
 	tea = {	
 		cost = 2.6
@@ -209,18 +209,19 @@ consumer_goods = {
 		cost = 2.1
 		color = { 27 19 7 }
 	}
-	opium = { #spice
-		cost = 69.8
-		color = { 153 55 125 }
+	opium = { 
+		cost = 3.2
+		color = { 114 162 47 }
 	}
 	automobiles = {	
 		cost = 70.00 
 		available_from_start = no
 		color = { 61 67 64 }
 	}
-	telephones = { #Rice
-		cost = 3.4
-		color = { 147 153 104 }
+	telephones = { 
+		cost = 16.00
+		available_from_start = no
+		color = { 123 112 54 }
 	}
 	wine = { 
 		cost = 8.6
@@ -230,13 +231,29 @@ consumer_goods = {
 		cost = 6.4
 		color = { 76 5 0 }
 	}
+	rice = { 
+		cost = 3.4
+		color = { 147 153 104 }
+	}
 	cheese = { 
 		cost = 4.6
 		color = { 255 221 127 }
 	}
+	salt = { 
+		cost = 6.4
+		color = { 104 104 103 }
+	}
 	cocoa = { 
 		cost = 17.6
 		color = { 193 59 1 }
+	}
+	spice = { 
+		cost = 69.8
+		color = { 153 55 125 }
+	}
+	sugar = { 
+		cost = 72.8
+		color = { 188 242 173 }
 	}
 	luxury_clothes = { 
 		cost = 65.00
@@ -250,8 +267,9 @@ consumer_goods = {
 		cost = 59.00
 		color = { 255 140 184 }
 	}
-	radio = { #sugar
-		cost = 72.8
-		color = { 188 242 173 }
+	radio = { 
+		cost = 16.00 
+		available_from_start = no
+		color = { 129 63 6 }
 	}
 }
