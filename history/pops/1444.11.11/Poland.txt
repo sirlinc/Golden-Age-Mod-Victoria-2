@@ -595,28 +595,56 @@
 	{
 		culture = north_german
 		religion = catholic
-		size= 433
+		size= 403
+	}
+
+	soldiers=
+	{
+		culture = oldpommeranian
+		religion = catholic
+		size= 33
+	}
+
+	artisans=
+	{
+		culture = oldpommeranian
+		religion = catholic
+		size= 1471
 	}
 
 	artisans=
 	{
 		culture = north_german
 		religion = catholic
-		size= 1731
+		size= 260
+	}
+
+	clergymen=
+	{
+		culture = oldpommeranian
+		religion = catholic
+		size= 201
 	}
 
 	clergymen=
 	{
 		culture = north_german
 		religion = catholic
-		size= 281
+		size= 81
 	}
 
 	bureaucrats=
 	{
 		culture = north_german
 		religion = catholic
-		size= 43
+		size= 30
+	}
+
+	bureaucrats=
+	{
+		culture = oldpommeranian
+		religion = catholic
+		size= 13
 	}
 
 	officers=
@@ -630,18 +658,32 @@
 	{
 		culture = north_german
 		religion = catholic
-		size= 363
+		size= 303
+	}
+	
+	farmers=
+	{
+		culture = oldpommeranian
+		religion = catholic
+		size= 32304
 	}
 
 	farmers=
 	{
 		culture = north_german
 		religion = catholic
-		size= 40380
+		size= 8076
 	}
 
 }
 692 = {
+	soldiers=
+	{
+		culture = oldpommeranian
+		religion = catholic
+		size= 97
+	}
+
 	soldiers=
 	{
 		culture = north_german
@@ -651,23 +693,44 @@
 
 	artisans=
 	{
+		culture = oldpommeranian
+		religion = catholic
+		size= 508
+	}
+
+	artisans=
+	{
 		culture = north_german
 		religion = catholic
-		size= 1188
+		size= 688
 	}
 
 	clergymen=
 	{
 		culture = north_german
 		religion = catholic
-		size= 193
+		size= 103
+	}
+
+	clergymen=
+	{
+		culture = oldpommeranian
+		religion = catholic
+		size= 113
+	}
+
+	bureaucrats=
+	{
+		culture = oldpommeranian
+		religion = catholic
+		size= 14
 	}
 
 	bureaucrats=
 	{
 		culture = north_german
 		religion = catholic
-		size= 29
+		size= 39
 	}
 
 	officers=
@@ -675,6 +738,13 @@
 		culture = north_german
 		religion = catholic
 		size= 24
+	}
+
+	officers=
+	{
+		culture = oldpommeranian
+		religion = catholic
+		size= 1
 	}
 
 	aristocrats=
@@ -688,7 +758,14 @@
 	{
 		culture = north_german
 		religion = catholic
-		size= 27712
+		size= 7714
+	}
+
+	farmers=
+	{
+		culture = oldpommeranian
+		religion = catholic
+		size= 20012
 	}
 
 }
