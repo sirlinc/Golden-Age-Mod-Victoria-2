@@ -437,7 +437,7 @@ province;red;green;blue;x;x
 436;176;224;128;Le Mans;x
 437;63;116;175;La Roche;x
 438;16;223;0;Orleans;x
-439;144;224;0;Bourges;x
+439;144;224;0;Bourges;x #NEVERS
 440;136;98;119;Blois;x
 441;208;32;64;Tours;x
 442;208;160;64;La Rochelle;x
@@ -3283,9 +3283,17 @@ province;red;green;blue;x;x
 3282;0;153;12;ProvThirteen;x
 3283;153;115;12;Kyoto;x
 3284;153;78;40;ProvFifteen;x
-3285;109;95;71;ProvCrimeaOne;x;
-3286;255;199;132;ProvCrimeaTwo;x;
-3287;167;119;255;ProvCrimeaThree;x;
+3285;109;95;71;ProvCrimeaOne;x
+3286;255;199;132;ProvCrimeaTwo;x
+3287;167;119;255;ProvCrimeaThree;x
+3288;72;127;130;Dumfries;x
+3289;48;221;51;Laval;x
+3290;176;183;49;Vendome;x
+3291;192;159;221;Le Crotoy;x
+3292;181;108;48;Bourges-Nevers;x;
+3293;153;132;56;Gorzow Wielkopolski;x;
+3294;158;166;255;RhineRiverOne;x;
+3295;170;218;255;RhineRiverTwo;x;
 ;54;14;244;x;
 ;55;14;248;x;
 ;56;14;232;x;

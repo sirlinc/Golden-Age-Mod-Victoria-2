@@ -62,7 +62,45 @@ leader = {
 	background="uncommonly_young"
 }
 
+army = {
+	name = "Armée Royale de Saint Louis"
+	location = 425
+	regiment = {
+		name = "Infanterie d'Anjou"
+		type = infantry
+		home = 425
+	}
+	regiment = {
+		name = "Infanterie d'Orléans"
+		type = infantry
+		home = 425
+	}
+	regiment = {
+		name = "Cavalerie de Compiègne"
+		type = cavalry
+		home = 425
+	}
+}
 
+army = {
+	name = "Armée d'Aquitaine"
+	location = 444
+	regiment = {
+		name = "Infanterie de Limoges"
+		type = infantry
+		home = 444
+	}
+	regiment = {
+		name = "Archers du Château de Poitiers"
+		type = artillery
+		home = 444
+	}
+	regiment = {
+		name = "Cavalerie de Blois"
+		type = cavalry
+		home = 444
+	}
+}
 #Armies
 #army = {
 #	name = "I. Armee"

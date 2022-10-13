@@ -759,6 +759,26 @@ leader = {
 }
 
 
+army = {
+	name = "Armée du Duché de Bourgogne"
+	location = 428
+	regiment = {
+		name = "Infanterie Royale du Duc de Bourgogne"
+		type = infantry
+		home = 428
+	}
+	regiment = {
+		name = "Infanterie du Comte de Chaumont"
+		type = infantry
+		home = 428
+	}
+	regiment = {
+		name = "Cavalerie du Comte de Neufchâteau"
+		type = cavalry
+		home = 428
+	}
+}
+
 #Armies
 navy = {
 	name="1st Fleet"

@@ -18,6 +18,69 @@ leader = {
 	background="natural_born_leader"
 }
 
+navy = {
+	name = "Royal Navy"
+	location = 418
+	ship = {
+		name= "Frigate I."
+		type = frigate
+	}
+
+	ship = {
+		name= "Transport Navy I."
+		type = clipper_transport
+	}
+	ship = {
+		name= "Transport Navy II."
+		type = clipper_transport
+	}
+
+}
+
+army = {
+	name = "Royal Garrison"
+	location = 416
+	regiment = {
+		name = "Cornwall Infantry"
+		type = infantry
+		home = 416
+	}
+	regiment = {
+		name = "Sussex Infantry"
+		type = infantry
+		home = 416
+	}
+	regiment = {
+		name = "Normandy Archers"
+		type = artillery
+		home = 416
+	}
+	regiment = {
+		name = "Royal Archers"
+		type = artillery
+		home = 416
+	}
+	regiment = {
+		name = "Brittany Cavalry"
+		type = cavalry
+		home = 416
+	}
+}
+
+army = {
+	name = "Royal Garrison"
+	location = 300
+	regiment = {
+		name = "Royal Infantry I."
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name = "Royal Cavalry III."
+		type = cavalry
+		home = 300
+	}
+}
 
 #Armies
 #army = {
