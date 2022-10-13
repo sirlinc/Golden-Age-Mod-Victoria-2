@@ -228,6 +228,7 @@ consumer_goods = {
 		color = { 76 5 0 }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	rice = { 
 		cost = 3.4
 		color = { 147 153 104 }
@@ -256,6 +257,11 @@ consumer_goods = {
 	sugar = { 
 		cost = 72.8
 		color = { 188 242 173 }
+=======
+	regular_clothes = { 
+		cost = 5.8
+		color = { 217 17 19 }
+>>>>>>> parent of f2d8253f (e)
 	}
 	luxury_clothes = { 
 		cost = 65.00
