@@ -4375,3 +4375,71 @@
 	}
 
 }
+3289 = {
+
+	soldiers=
+	{
+		culture = north_german
+		religion = catholic
+		size= 281
+	}
+
+	farmers=
+	{
+		culture = north_german
+		religion = catholic
+		size= 28187
+	}
+
+}
+3290 = {
+
+	soldiers=
+	{
+		culture = north_german
+		religion = catholic
+		size= 281
+	}
+
+	farmers=
+	{
+		culture = north_german
+		religion = catholic
+		size= 28187
+	}
+
+}
+3291 = {
+
+	soldiers=
+	{
+		culture = north_german
+		religion = catholic
+		size= 281
+	}
+
+	farmers=
+	{
+		culture = north_german
+		religion = catholic
+		size= 28187
+	}
+
+}
+3292 = {
+
+	soldiers=
+	{
+		culture = north_german
+		religion = catholic
+		size= 281
+	}
+
+	farmers=
+	{
+		culture = north_german
+		religion = catholic
+		size= 28187
+	}
+
+}

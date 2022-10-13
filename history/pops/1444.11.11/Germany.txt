@@ -4459,3 +4459,20 @@
 	}
 
 }
+3293 = {
+
+	soldiers=
+	{
+		culture = north_german
+		religion = catholic
+		size= 281
+	}
+
+	farmers=
+	{
+		culture = north_german
+		religion = catholic
+		size= 28187
+	}
+
+}
