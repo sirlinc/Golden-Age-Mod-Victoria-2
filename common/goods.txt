@@ -64,6 +64,10 @@ raw_material_goods = {
 		cost = 12.00
 		color = { 69 0 182 }
 	}
+	sugarcane = { 
+		cost = 47.8
+		color = { 163 193 46 }
+	}
 	wool = { 
 		cost = 0.7
 		color = { 234 195 158 }
@@ -193,9 +197,9 @@ consumer_goods = {
 		cost = 2.2
 		color = { 219 157 36 }
 	}
-	tobacco = {	
-		cost = 1.1
-		color = { 100 69 30 }
+	tobacco = {	#salt
+		cost = 6.4
+		color = { 104 104 103 }
 	}
 	tea = {	
 		cost = 2.6
@@ -205,31 +209,34 @@ consumer_goods = {
 		cost = 2.1
 		color = { 27 19 7 }
 	}
-	opium = { 
-		cost = 3.2
-		color = { 114 162 47 }
+	opium = { #spice
+		cost = 69.8
+		color = { 153 55 125 }
 	}
 	automobiles = {	
 		cost = 70.00 
 		available_from_start = no
 		color = { 61 67 64 }
 	}
-	telephones = { 
-		cost = 16.00
-		available_from_start = no
-		color = { 123 112 54 }
+	telephones = { #Rice
+		cost = 3.4
+		color = { 147 153 104 }
 	}
 	wine = { 
-		cost = 9.7
+		cost = 8.6
 		color = { 123 0 54 }
 	}
 	liquor = { 
 		cost = 6.4
 		color = { 76 5 0 }
 	}
-	regular_clothes = { 
-		cost = 5.8
-		color = { 217 17 19 }
+	cheese = { 
+		cost = 4.6
+		color = { 255 221 127 }
+	}
+	cocoa = { 
+		cost = 17.6
+		color = { 193 59 1 }
 	}
 	luxury_clothes = { 
 		cost = 65.00
@@ -243,9 +250,8 @@ consumer_goods = {
 		cost = 59.00
 		color = { 255 140 184 }
 	}
-	radio = { 
-		cost = 16.00 
-		available_from_start = no
-		color = { 129 63 6 }
+	radio = { #sugar
+		cost = 72.8
+		color = { 188 242 173 }
 	}
 }

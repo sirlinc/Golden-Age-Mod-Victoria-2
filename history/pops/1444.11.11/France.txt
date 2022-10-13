@@ -4443,3 +4443,37 @@
 	}
 
 }
+3296 = {
+
+	soldiers=
+	{
+		culture = north_german
+		religion = catholic
+		size= 281
+	}
+
+	farmers=
+	{
+		culture = north_german
+		religion = catholic
+		size= 28187
+	}
+
+}
+3297 = {
+
+	soldiers=
+	{
+		culture = north_german
+		religion = catholic
+		size= 281
+	}
+
+	farmers=
+	{
+		culture = north_german
+		religion = catholic
+		size= 28187
+	}
+
+}
