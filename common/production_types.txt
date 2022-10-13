@@ -833,12 +833,12 @@ coal_mine = {
 	mine = yes
 }
 
-salt_mine = {
-	template = RGO_template_labourers
-	output_goods = salt
-	value = 1.1
-	mine = yes
-}
+#salt_mine = {
+#	template = RGO_template_labourers
+#	output_goods = salt
+#	value = 1.1
+#	mine = yes
+#}
 
 coffee_plantation = {
 	template = RGO_template_farmers
@@ -875,26 +875,26 @@ grain_farm = {
 	farm = yes
 }
 
-spice_plantation = {
-	template = RGO_template_farmers
-	output_goods = spice
-	value = 0.8
-	farm = yes
-}
-
-cheese_production = {
-	template = RGO_template_farmers
-	output_goods = cheese
-	value = 0.8
-	farm = yes
-}
-
-cocoa_farm = {
-	template = RGO_template_farmers
-	output_goods = cocoa 
-	value = 1.12
-	farm = yes
-}
+#spice_plantation = {
+#	template = RGO_template_farmers
+#	output_goods = spice
+#	value = 0.8
+#	farm = yes
+#}
+#
+#cheese_production = {
+#	template = RGO_template_farmers
+#	output_goods = cheese
+#	value = 0.8
+#	farm = yes
+#}
+#
+#cocoa_farm = {
+#	template = RGO_template_farmers
+#	output_goods = cocoa 
+#	value = 1.12
+#	farm = yes
+#}
 
 iron_mine = {
 	template = RGO_template_labourers

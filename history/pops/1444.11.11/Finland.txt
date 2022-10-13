@@ -759,3 +759,105 @@
 	}
 
 }
+3296 = {
+	soldiers=
+	{
+		culture = swedish
+		religion = catholic
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = swedish
+		religion = catholic
+		size= 99
+	}
+
+	clergymen=
+	{
+		culture = swedish
+		religion = catholic
+		size= 16
+	}
+
+	bureaucrats=
+	{
+		culture = swedish
+		religion = catholic
+		size= 2
+	}
+
+	officers=
+	{
+		culture = swedish
+		religion = catholic
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = swedish
+		religion = catholic
+		size= 21
+	}
+
+	farmers=
+	{
+		culture = swedish
+		religion = catholic
+		size= 2310
+	}
+
+}
+3297 = {
+	soldiers=
+	{
+		culture = swedish
+		religion = catholic
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = swedish
+		religion = catholic
+		size= 99
+	}
+
+	clergymen=
+	{
+		culture = swedish
+		religion = catholic
+		size= 16
+	}
+
+	bureaucrats=
+	{
+		culture = swedish
+		religion = catholic
+		size= 2
+	}
+
+	officers=
+	{
+		culture = swedish
+		religion = catholic
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = swedish
+		religion = catholic
+		size= 21
+	}
+
+	farmers=
+	{
+		culture = swedish
+		religion = catholic
+		size= 2310
+	}
+
+}
