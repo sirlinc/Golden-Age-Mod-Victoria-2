@@ -882,6 +882,13 @@ spice_plantation = {
 	farm = yes
 }
 
+cheese_production = {
+	template = RGO_template_farmers
+	output_goods = cheese
+	value = 0.8
+	farm = yes
+}
+
 cocoa_farm = {
 	template = RGO_template_farmers
 	output_goods = cocoa 
