@@ -64,10 +64,6 @@ raw_material_goods = {
 		cost = 12.00
 		color = { 69 0 182 }
 	}
-	sugarcane = { 
-		cost = 47.8
-		color = { 163 193 46 }
-	}
 	wool = { 
 		cost = 0.7
 		color = { 234 195 158 }
@@ -224,13 +220,14 @@ consumer_goods = {
 		color = { 123 112 54 }
 	}
 	wine = { 
-		cost = 8.6
+		cost = 9.7
 		color = { 123 0 54 }
 	}
 	liquor = { 
 		cost = 6.4
 		color = { 76 5 0 }
 	}
+<<<<<<< HEAD
 	rice = { 
 		cost = 3.4
 		color = { 147 153 104 }
@@ -246,6 +243,11 @@ consumer_goods = {
 	cocoa = { 
 		cost = 17.6
 		color = { 193 59 1 }
+=======
+	regular_clothes = { 
+		cost = 5.8
+		color = { 217 17 19 }
+>>>>>>> parent of f2d8253f (e)
 	}
 	spice = { 
 		cost = 69.8

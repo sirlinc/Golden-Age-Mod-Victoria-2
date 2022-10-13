@@ -508,26 +508,6 @@ explosives_factory = {
 
 ############# CHEAP FACTORIES
 
-sugarcane_mill = {
-	type = factory
-
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost =
-	{
-		construction_tools = 80
-		iron = 200
-		cement = 200
-	}
-	time = 730
-	visibility = yes
-	onmap = no
-
-	production_type = sugarcane_mill
-	pop_build_factory = yes
-}
-
 ammunition_factory = {
 	type = factory
 

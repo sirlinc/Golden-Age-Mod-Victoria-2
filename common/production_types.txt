@@ -347,7 +347,7 @@ construction_tools_factory = {
 		#11.5  total input+maint = 66
 	}
 	output_goods = construction_tools 
-	value = 18			#73
+	value = 2			#73
 	bonus = {
 		trigger = { has_building = steel_factory }
 		value = 0.125
@@ -624,20 +624,6 @@ canned_food_factory = {
 		value = 0.05
 	}
 }
-
-sugarcane_mill = {       
-	template = cheap_factory_template
-	input_goods = { 
-		sugarcane =  2.5
-		cattle = 2.7
-	}
-	output_goods = sugar
-	value = 2.2			#32
-	bonus = {
-		trigger = { trade_goods_in_state = sugarcane }
-		value = 0.25
-	}
-}
        
 dye_factory = {       
 	template = cheap_factory_template
@@ -833,6 +819,7 @@ coal_mine = {
 	mine = yes
 }
 
+<<<<<<< HEAD
 #salt_mine = {
 #	template = RGO_template_labourers
 #	output_goods = salt
@@ -840,6 +827,8 @@ coal_mine = {
 #	mine = yes
 #}
 
+=======
+>>>>>>> parent of f2d8253f (e)
 coffee_plantation = {
 	template = RGO_template_farmers
 	output_goods = coffee 
@@ -875,6 +864,7 @@ grain_farm = {
 	farm = yes
 }
 
+<<<<<<< HEAD
 #spice_plantation = {
 #	template = RGO_template_farmers
 #	output_goods = spice
@@ -896,6 +886,8 @@ grain_farm = {
 #	farm = yes
 #}
 
+=======
+>>>>>>> parent of f2d8253f (e)
 iron_mine = {
 	template = RGO_template_labourers
 	output_goods = iron
@@ -1113,7 +1105,7 @@ artisan_construction_tools = {
 		coal = 5		#11.5  total input+maint = 66
 	}
 	output_goods = construction_tools 
-	value = 6.5			#73
+	value = 2			#73
 	
 	owner = {
 		poptype = artisan 
