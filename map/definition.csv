@@ -3290,10 +3290,12 @@ province;red;green;blue;x;x
 3289;48;221;51;Laval;x
 3290;176;183;49;Vendome;x
 3291;192;159;221;Le Crotoy;x
-3292;181;108;48;Bourges-Nevers;x;
-3293;153;132;56;Gorzow Wielkopolski;x;
-3294;158;166;255;RhineRiverOne;x;
-3295;170;218;255;RhineRiverTwo;x;
+3292;181;108;48;Bourges-Nevers;x
+3293;153;132;56;Gorzow Wielkopolski;x
+3294;158;166;255;RhineRiverOne;x
+3295;170;218;255;RhineRiverTwo;x
+3296;240;183;255;Eu;x
+3297;175;154;112;Senonches;x
 ;54;14;244;x;
 ;55;14;248;x;
 ;56;14;232;x;

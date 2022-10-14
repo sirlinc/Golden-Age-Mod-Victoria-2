@@ -819,22 +819,6 @@ coal_mine = {
 	mine = yes
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-#salt_mine = {
-#	template = RGO_template_labourers
-#	output_goods = salt
-#	value = 1.1
-#	mine = yes
-#}
-
-=======
->>>>>>> parent of f2d8253f (e)
-=======
->>>>>>> parent of f2d8253f (e)
-=======
->>>>>>> parent of f2d8253f (e)
 coffee_plantation = {
 	template = RGO_template_farmers
 	output_goods = coffee 
@@ -870,36 +854,6 @@ grain_farm = {
 	farm = yes
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-#spice_plantation = {
-#	template = RGO_template_farmers
-#	output_goods = spice
-#	value = 0.8
-#	farm = yes
-#}
-#
-#cheese_production = {
-#	template = RGO_template_farmers
-#	output_goods = cheese
-#	value = 0.8
-#	farm = yes
-#}
-#
-#cocoa_farm = {
-#	template = RGO_template_farmers
-#	output_goods = cocoa 
-#	value = 1.12
-#	farm = yes
-#}
-
-=======
->>>>>>> parent of f2d8253f (e)
-=======
->>>>>>> parent of f2d8253f (e)
-=======
->>>>>>> parent of f2d8253f (e)
 iron_mine = {
 	template = RGO_template_labourers
 	output_goods = iron

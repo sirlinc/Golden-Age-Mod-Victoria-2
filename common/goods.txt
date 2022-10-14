@@ -227,47 +227,9 @@ consumer_goods = {
 		cost = 6.4
 		color = { 76 5 0 }
 	}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-	rice = { 
-		cost = 3.4
-		color = { 147 153 104 }
-	}
-	cheese = { 
-		cost = 4.6
-		color = { 255 221 127 }
-	}
-	salt = { 
-		cost = 6.4
-		color = { 104 104 103 }
-	}
-	cocoa = { 
-		cost = 17.6
-		color = { 193 59 1 }
-=======
 	regular_clothes = { 
 		cost = 5.8
 		color = { 217 17 19 }
->>>>>>> parent of f2d8253f (e)
-	}
-	spice = { 
-		cost = 69.8
-		color = { 153 55 125 }
-	}
-	sugar = { 
-		cost = 72.8
-		color = { 188 242 173 }
-=======
-	regular_clothes = { 
-		cost = 5.8
-		color = { 217 17 19 }
->>>>>>> parent of f2d8253f (e)
-=======
-	regular_clothes = { 
-		cost = 5.8
-		color = { 217 17 19 }
->>>>>>> parent of f2d8253f (e)
 	}
 	luxury_clothes = { 
 		cost = 65.00
