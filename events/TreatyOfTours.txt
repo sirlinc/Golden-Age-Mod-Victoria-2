@@ -17,10 +17,11 @@ country_event = {
 	trigger = {
 		tag = ENL
 		year = 1445
-		NOT = { year = 1450 }
+		NOT = { has_country_flag = evnttours }
 	}
 	option = {
 		name = "EVTOPTA50000" 
+		set_country_flag = evnttours
 		prestige = 15
 		war = {
 			target = FRA
@@ -55,8 +56,9 @@ country_event = {
 	option = {
 		name = "EVTOPTB50000" 
 		prestige = -35
-		end_war = ENG
-		ENG = {
+		end_war = ENL
+		set_country_flag = evnttours
+		ENL = {
 			418 = {
 				secede_province = FRA
 			}
@@ -120,10 +122,11 @@ country_event = {
 	trigger = {
 		tag = FRA
 		year = 1444
-		NOT = { year = 1445 }
+		NOT = { has_country_flag = intro }
 	}
 	option = {
 		name = "OPT50510" 
+		set_country_flag = intro
 		ai_chance = {
 			factor = 100
 		}

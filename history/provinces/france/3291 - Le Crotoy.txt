@@ -1,3 +1,8 @@
+owner=BRG
+controller=BRG
+add_core=BEL
+add_core=BRG
+add_core=WLL
 trade_goods = coal
 life_rating = 30
 terrain = plains

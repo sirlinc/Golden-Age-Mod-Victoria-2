@@ -1,13 +1,4 @@
 political_decisions = {
-	debug_ruler = {
-		picture = youngruler
-		potential = {
-			ai = no
-		}
-		effect = {
-			nationalvalue = nv_young
-		}
-	}
 	ruler_actions_young = {
 		picture = youngruler
 		potential = {
