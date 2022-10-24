@@ -498,19 +498,19 @@ guiTypes = {
 		guiButtonType = {
 			name = "topbarbutton_pops"
 			quadTextureSprite ="GFX_topbar_button_pops"
-			position = { x = 862 y = 5 }
+			position = { x = 858 y = 5 }
 			shortcut = "F5"
 			clicksound = click
 		}
 		iconType = {
 			name ="icon_pops"
 			spriteType = "GFX_topbar_pops"
-			position = { x= 861 y = 1 }
+			position = { x= 857 y = 1 }
 			Orientation = "UPPER_LEFT"
 		}
 		textBoxType = { 
 			name = "text_pops_shadow"
-			position = { x = 883 y = 5 }
+			position = { x = 879 y = 5 }
 			font = "vic_18_black_bold"
 			borderSize = {x = 0 y = 0}
 			text = "POPULATION"	
@@ -521,7 +521,7 @@ guiTypes = {
 		}
 		textBoxType = { 
 			name = "text_pops"
-			position = { x = 882 y = 4 }
+			position = { x = 878 y = 4 }
 			font = "vic_18_headline"
 			borderSize = {x = 0 y = 0}
 			text = "POPULATION"	
@@ -532,7 +532,7 @@ guiTypes = {
 		}
 			
 		instantTextBoxType = {
-			position = { x = 872 y = 26 }
+			position = { x = 868 y = 26 }
 			name = "population_total_value"
 			font = "Arial12"
 			borderSize = { x = 0 y = 0 }
@@ -547,12 +547,12 @@ guiTypes = {
 		iconType = {
 			name ="topbar_focus"
 			spriteType = "GFX_topbar_natfocus"
-			position = { x= 868 y = 41 }
+			position = { x= 864 y = 41 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType = {
-			position = { x = 888 y = 45 }
+			position = { x = 884 y = 45 }
 			name = "topbar_focus_value"
 			font = "Arial12"
 			borderSize = { x = 0 y = 0 }
@@ -567,11 +567,11 @@ guiTypes = {
 		iconType = {
 			name ="topbar_mil"
 			spriteType = "GFX_topbar_mil"
-			position = { x= 871 y = 59 }
+			position = { x= 867 y = 59 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
-			position = { x = 888 y = 60 }
+			position = { x = 884 y = 60 }
 			name = "population_avg_mil_value"
 			font = "Arial12"
 			borderSize = { x = 0 y = 0 }
@@ -586,12 +586,12 @@ guiTypes = {
 		iconType = {
 			name ="topbar_con"
 			spriteType = "GFX_topbar_con"
-			position = { x= 923 y = 53 }
+			position = { x= 919 y = 53 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType = {
-			position = { x = 945 y = 60 }
+			position = { x = 941 y = 60 }
 			name = "population_avg_con_value"
 			font = "Arial12"
 			borderSize = { x = 0 y = 0 }
@@ -609,19 +609,19 @@ guiTypes = {
 		guiButtonType = {
 			name = "topbarbutton_trade"
 			quadTextureSprite ="GFX_topbar_button_trade"
-			position = { x = 989 y = 5 }
+			position = { x = 985 y = 5 }
 			shortcut = "F6"
 			clicksound = click
 		}
 		iconType = {
 			name ="icon_trade"
 			spriteType = "GFX_topbar_trade"
-			position = { x= 988 y = 2 }
+			position = { x= 984 y = 2 }
 			Orientation = "UPPER_LEFT"
 		}
 		textBoxType = { 
 			name = "text_trade_shadow"
-			position = { x = 1010 y = 5 }
+			position = { x = 1006 y = 5 }
 			font = "vic_18_black_bold"
 			borderSize = {x = 0 y = 0}
 			text = "TRADE"	
@@ -632,7 +632,7 @@ guiTypes = {
 		}
 		textBoxType = { 
 			name = "text_trade"
-			position = { x = 1009 y = 4 }
+			position = { x = 1005 y = 4 }
 			font = "vic_18_headline"
 			borderSize = {x = 0 y = 0}
 			text = "TRADE"	
@@ -646,7 +646,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "topbar_tradeframe_tooltip"
 			font = "Arial12"
-			position = { x = 990 y = 24 }
+			position = { x = 986 y = 24 }
 			maxWidth = 120
 			maxHeight = 45
 		}		
@@ -654,7 +654,7 @@ guiTypes = {
 		iconType = {
 			name = "topbar_export"
 			spriteType = "GFX_topbar_export"
-			position = { x = 997 y = 24 }
+			position = { x = 993 y = 24 }
 			#allwaystransparent = yes
 		}
 		
@@ -662,28 +662,28 @@ guiTypes = {
 		iconType = {
 			name = "topbar_import0"
 			spriteType = "GFX_resources_small_transparent"
-			position = { x = 1039 y = 51 }
+			position = { x = 1035 y = 51 }
 			#allwaystransparent = yes
 		}
 
 		iconType = {
 			name = "topbar_import1"
 			spriteType = "GFX_resources_small_transparent"
-			position = { x = 1059 y = 51 }
+			position = { x = 1055 y = 51 }
 			#allwaystransparent = yes
 		}
 
 		iconType = {
 			name = "topbar_import2"
 			spriteType = "GFX_resources_small_transparent"
-			position = { x = 1079 y = 51 }
+			position = { x = 1075 y = 51 }
 			#allwaystransparent = yes
 		}
 		
 		iconType = {
 			name = "topbar_import"
 			spriteType = "GFX_topbar_import"
-			position = { x = 997 y = 46 }
+			position = { x = 993 y = 46 }
 			#allwaystransparent = yes
 		}
 		
@@ -691,19 +691,19 @@ guiTypes = {
 		iconType = {
 			name = "topbar_export0"
 			spriteType = "GFX_resources_small_transparent"
-			position = { x = 1039 y = 29 }
+			position = { x = 1035 y = 29 }
 			#allwaystransparent = yes
 		}
 		iconType = {
 			name = "topbar_export1"
 			spriteType = "GFX_resources_small_transparent"
-			position = { x = 1059 y = 29 }
+			position = { x = 1055 y = 29 }
 			#allwaystransparent = yes
 		}
 		iconType = {
 			name = "topbar_export2"
 			spriteType = "GFX_resources_small_transparent"
-			position = { x = 1079 y = 29 }
+			position = { x = 1075 y = 29 }
 			#allwaystransparent = yes
 		}	
 		
@@ -711,19 +711,19 @@ guiTypes = {
 		guiButtonType = {
 			name = "topbarbutton_diplomacy"
 			quadTextureSprite ="GFX_topbar_button_diplo"
-			position = { x = 1116 y = 5 }
+			position = { x = 1112 y = 5 }
 			shortcut = "F7"
 			clicksound = click
 		}
 		iconType = {
 			name ="icon_diplomacy"
 			spriteType = "GFX_topbar_diplomacy"
-			position = { x= 1114 y = 2 }
+			position = { x= 1110 y = 2 }
 			Orientation = "UPPER_LEFT"
 		}
 		textBoxType = { 
 			name = "text_diplomacy_shadow"
-			position = { x = 1137 y = 5 }
+			position = { x = 1133 y = 5 }
 			font = "vic_18_black_bold"
 			borderSize = {x = 0 y = 0}
 			text = "DIPLOMACY"	
@@ -734,7 +734,7 @@ guiTypes = {
 		}
 		textBoxType = { 
 			name = "text_diplomacy"
-			position = { x = 1136 y = 4 }
+			position = { x = 1132 y = 4 }
 			font = "vic_18_headline"
 			borderSize = {x = 0 y = 0}
 			text = "DIPLOMACY"	
@@ -745,7 +745,7 @@ guiTypes = {
 		}
 		
 		instantTextBoxType = {
-			position = { x = 1127 y = 29 }
+			position = { x = 1123 y = 29 }
 			name = "diplomacy_status"
 			font = "Arial12"
 			borderSize = { x = 0 y = 0 }
@@ -759,7 +759,7 @@ guiTypes = {
 		
 		OverlappingElementsBoxType = {
 			name = "diplomacy_at_war"
-			position = { x = 1126 y = 28 }
+			position = { x = 1122 y = 28 }
 			size = { x=110 y= 20 }
 			Orientation = "UPPER_LEFT"
 			format = left
@@ -769,13 +769,13 @@ guiTypes = {
 		iconType = {
 			name ="topbar_diplopts"
 			spriteType = "GFX_topbar_diplopts"
-			position = { x= 1200 y = 23 }
+			position = { x= 1196 y = 23 }
 			Orientation = "UPPER_LEFT"
 			#allwaystransparent = yes
 		}
 		
 		instantTextBoxType = {
-			position = { x = 1223 y = 29 }
+			position = { x = 1219 y = 29 }
 			name = "diplomacy_diplopoints_value"
 			font = "Arial12"
 			borderSize = { x = 0 y = 0 }
@@ -790,7 +790,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "alert_colonial_tooltip"
 			font = "Arial12"
-			position = { x = 1120 y = 49 }
+			position = { x = 1116 y = 49 }
 			maxWidth = 28
 			maxHeight = 28
 		}
@@ -798,7 +798,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "alert_colony"
 			quadTextureSprite ="GFX_topbar_alert_colony"
-			position = { x = 1120 y = 49 }
+			position = { x = 1116 y = 49 }
 			clicksound = click
 		}
 
@@ -806,7 +806,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "alert_crisis_tooltip"
 			font = "Arial12"
-			position = { x = 1153 y = 49 }
+			position = { x = 1149 y = 49 }
 			maxWidth = 28
 			maxHeight = 28
 		}
@@ -814,7 +814,7 @@ guiTypes = {
 		iconType = {
 			name = "alert_crisis"
 			spriteType = "GFX_topbar_alert_crisis"
-			position = { x = 1153 y = 49 }
+			position = { x = 1149 y = 49 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
 		}
@@ -822,27 +822,27 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "alert_can_increase_opinion_tooltip"
 			font = "Arial12"
-			position = { x = 1181 y = 49 }
+			position = { x = 1177 y = 49 }
 			maxWidth = 28
 			maxHeight = 28
 		}
 		iconType = {
 			name = "alert_can_increase_opinion"
 			spriteType = "GFX_topbar_alert_sphere"
-			position = { x = 1181 y = 49 }
+			position = { x = 1177 y = 49 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
 			name = "alert_loosing_gp_tooltip"
 			font = "Arial12"
-			position = { x = 1209 y = 48 }
+			position = { x = 1205 y = 48 }
 			maxWidth = 28
 			maxHeight = 28
 		}
 		iconType = {
 			name = "alert_loosing_gp"
 			spriteType = "GFX_topbar_alert_greatpower"
-			position = { x = 1209  y = 48 }
+			position = { x = 1205  y = 48 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -853,19 +853,19 @@ guiTypes = {
 		guiButtonType = {
 			name = "topbarbutton_military"
 			quadTextureSprite ="GFX_topbar_button_military"
-			position = { x = 1243 y = 5 }
+			position = { x = 1239 y = 5 }
 			shortcut = "F8"
 			clicksound = click
 		}
 		iconType = {
 			name ="icon_military"
 			spriteType = "GFX_topbar_military"
-			position = { x= 1243 y = 2 }
+			position = { x= 1239 y = 2 }
 			Orientation = "UPPER_LEFT"
 		}
 		textBoxType = { 
 			name = "text_military_shadow"
-			position = { x = 1265 y = 5 }
+			position = { x = 1261 y = 5 }
 			font = "vic_18_black_bold"
 			borderSize = {x = 0 y = 0}
 			text = "MILITARY"	
@@ -876,7 +876,7 @@ guiTypes = {
 		}
 		textBoxType = { 
 			name = "text_military"
-			position = { x = 1264 y = 4 }
+			position = { x = 1260 y = 4 }
 			font = "vic_18_headline"
 			borderSize = {x = 0 y = 0}
 			text = "MILITARY"	
@@ -890,11 +890,11 @@ guiTypes = {
 		iconType = {
 			name ="topbar_army"
 			spriteType = "GFX_topbar_army"
-			position = { x= 1240 y = 20 }
+			position = { x= 1236 y = 20 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
-			position = { x = 1268 y = 31 }
+			position = { x = 1264 y = 31 }
 			name = "military_army_value"
 			font = "Arial12"
 			borderSize = { x = 0 y = 0 }
@@ -909,12 +909,12 @@ guiTypes = {
 		iconType = {
 			name ="topbar_navy"
 			spriteType = "GFX_topbar_navy"
-			position = { x= 1244 y = 46 }
+			position = { x= 1240 y = 46 }
 			Orientation = "UPPER_LEFT"
 			#allwaystransparent = yes
 		}
 		instantTextBoxType = {
-			position = { x = 1268 y = 55 }
+			position = { x = 1264 y = 55 }
 			name = "military_navy_value"
 			font = "Arial12"
 			borderSize = { x = 0 y = 0 }
@@ -929,12 +929,12 @@ guiTypes = {
 		iconType = {
 			name ="topbar_manpower"
 			spriteType = "GFX_topbar_manpower"
-			position = { x= 1313 y = 20 }
+			position = { x= 1309 y = 20 }
 			Orientation = "UPPER_LEFT"
 			#allwaystransparent = yes
 		}
 		instantTextBoxType = {
-			position = { x = 1337 y = 31 }
+			position = { x = 1333 y = 31 }
 			name = "military_manpower_value"
 			font = "Arial12"
 			borderSize = { x = 0 y = 0 }
@@ -949,12 +949,12 @@ guiTypes = {
 		iconType = {
 			name ="topbar_leadership"
 			spriteType = "GFX_topbar_leadership"
-			position = { x= 1314 y = 45 }
+			position = { x= 1310 y = 45 }
 			Orientation = "UPPER_LEFT"
 			#allwaystransparent = yes
 		}		
 		instantTextBoxType = {
-			position = { x = 1337 y = 55 }
+			position = { x = 1333 y = 55 }
 			name = "military_leadership_value"
 			font = "Arial12"
 			borderSize = { x = 0 y = 0 }
