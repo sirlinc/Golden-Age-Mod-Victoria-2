@@ -50,19 +50,19 @@ guiTypes = {
 		guiButtonType = {
 			name = "topbarbutton_production"
 			quadTextureSprite ="GFX_topbar_button_production"
-			position = { x = 5 y = 5 }
+			position = { x = 132 y = 5 }
 			shortcut = "F1"
 			clicksound = click
 		}
 		iconType = {
 			name ="icon_production"
 			spriteType = "GFX_topbar_production"
-			position = { x= 6 y = 1 }
+			position = { x= 133 y = 1 }
 			Orientation = "UPPER_LEFT"
 		}
 		textBoxType = { 
 			name = "text_production_shadow"
-			position = { x = 27 y = 5 }
+			position = { x = 154 y = 5 }
 			font = "vic_18_black_bold"
 			borderSize = {x = 0 y = 0}
 			text = "PRODUCTION"	
@@ -73,7 +73,7 @@ guiTypes = {
 		}
 		textBoxType = { 
 			name = "text_production"
-			position = { x = 26 y = 4 }
+			position = { x = 153 y = 4 }
 			font = "vic_18_headline"
 			borderSize = {x = 0 y = 0}
 			text = "PRODUCTION"	
@@ -84,7 +84,7 @@ guiTypes = {
 		}
 		
 		#instantTextBoxType = {
-		#	position = { x = 17 y = 22 }
+		#	position = { x = 144 y = 22 }
 		#	name = "production_top_produced"
 		#	font = "Arial12"
 		#	borderSize = { x = 0 y = 0 }
@@ -99,106 +99,106 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "topbar_produced0_tooltip"
 			font = "Arial12"
-			position = { x = 16 y = 28 }
+			position = { x = 143 y = 28 }
 			maxWidth = 16
 			maxHeight = 16
 		}
 		iconType = {
 			name = "topbar_produced0"
 			spriteType = "GFX_resources_small_transparent"
-			position = { x = 16 y = 28 }
+			position = { x = 143 y = 28 }
 			#allwaystransparent = yes
 		}
 		instantTextBoxType = {
 			name = "topbar_produced1_tooltip"
 			font = "Arial12"
-			position = { x = 36 y = 28 }
+			position = { x = 163 y = 28 }
 			maxWidth = 16
 			maxHeight = 16
 		}
 		iconType = {
 			name = "topbar_produced1"
 			spriteType = "GFX_resources_small_transparent"
-			position = { x = 36 y = 28 }
+			position = { x = 163 y = 28 }
 			#allwaystransparent = yes
 		}
 		instantTextBoxType = {
 			name = "topbar_produced2_tooltip"
 			font = "Arial12"
-			position = { x = 56 y = 28 }
+			position = { x = 183 y = 28 }
 			maxWidth = 16
 			maxHeight = 16
 		}
 		iconType = {
 			name = "topbar_produced2"
 			spriteType = "GFX_resources_small_transparent"
-			position = { x = 56 y = 28 }
+			position = { x = 183 y = 28 }
 			#allwaystransparent = yes
 		}
 		instantTextBoxType = {
 			name = "topbar_produced3_tooltip"
 			font = "Arial12"
-			position = { x = 76 y = 28 }
+			position = { x = 203 y = 28 }
 			maxWidth = 16
 			maxHeight = 16
 		}
 		iconType = {
 			name = "topbar_produced3"
 			spriteType = "GFX_resources_small_transparent"
-			position = { x = 76 y = 28 }
+			position = { x = 203 y = 28 }
 			#allwaystransparent = yes
 		}
 		instantTextBoxType = {
 			name = "topbar_produced4_tooltip"
 			font = "Arial12"
-			position = { x = 96 y = 28 }
+			position = { x = 223 y = 28 }
 			maxWidth = 16
 			maxHeight = 16
 		}
 		iconType = {
 			name = "topbar_produced4"
 			spriteType = "GFX_resources_small_transparent"
-			position = { x = 96 y = 28 }
+			position = { x = 223 y = 28 }
 			#allwaystransparent = yes
 		}
 		
 		instantTextBoxType = {
 			name = "alert_building_factories_tooltip"
 			font = "Arial12"
-			position = { x = 15 y = 48 }
+			position = { x = 142 y = 48 }
 			maxWidth = 28
 			maxHeight = 28
 		}
 		iconType = {
 			name = "alert_building_factories"
 			spriteType = "GFX_topbar_alert_building"
-			position = { x = 15 y = 48 }
+			position = { x = 142 y = 48 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
 			name = "alert_closed_factories_tooltip"
 			font = "Arial12"
-			position = { x = 51 y = 48 }
+			position = { x = 178 y = 48 }
 			maxWidth = 28
 			maxHeight = 28
 		}
 		iconType = {
 			name = "alert_closed_factories"
 			spriteType = "GFX_topbar_alert_factoryclosed"
-			position = { x = 51 y = 48 }
+			position = { x = 178 y = 48 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
 			name = "alert_unemployed_workers_tooltip"
 			font = "Arial12"
-			position = { x = 88 y = 48 }
+			position = { x = 215 y = 48 }
 			maxWidth = 28
 			maxHeight = 28
 		}
 		iconType = {
 			name = "alert_unemployed_workers"
 			spriteType = "GFX_topbar_alert_unemployed"
-			position = { x = 88 y = 48 }
+			position = { x = 215 y = 48 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -206,19 +206,19 @@ guiTypes = {
 		guiButtonType = {
 			name = "topbarbutton_budget"
 			quadTextureSprite ="GFX_topbar_button_budget"
-			position = { x = 132 y = 5 }
+			position = { x = 5 y = 5 }
 			shortcut = "F2"
 			clicksound = click
 		}
 		iconType = {
 			name ="icon_budget"
 			spriteType = "GFX_topbar_budget"
-			position = { x= 132 y = 2 }
+			position = { x= 5 y = 2 }
 			Orientation = "UPPER_LEFT"
 		}
 		textBoxType = { 
 			name = "text_budget_shadow"
-			position = { x = 153 y = 5 }
+			position = { x = 26 y = 5 }
 			font = "vic_18_black_bold"
 			borderSize = {x = 0 y = 0}
 			text = "BUDGET"	
@@ -229,7 +229,7 @@ guiTypes = {
 		}
 		textBoxType = { 
 			name = "text_budget"
-			position = { x = 152 y = 4 }
+			position = { x = 25 y = 4 }
 			font = "vic_18_headline"
 			borderSize = {x = 0 y = 0}
 			text = "BUDGET"	
@@ -242,24 +242,24 @@ guiTypes = {
 		iconType = {
 			name = "budget_linechart_bg"
 			spriteType = "GFX_topbar_linechart_bg"
-			position = { x = 145 y = 24 }
+			position = { x = 18 y = 24 }
 		}
 		
 		instantTextBoxType = {
 			name = "budget_linechart_tooltip"
 			font = "Arial12"
-			position = { x = 146 y = 26 }
+			position = { x = 19 y = 26 }
 			maxWidth = 97
 			maxHeight = 26
 		}
 		iconType = {
 			name = "budget_linechart"
 			spriteType = "GFX_topbar_linechart"
-			position = { x = 146 y = 26 }
+			position = { x = 19 y = 26 }
 		}	
 		
 		instantTextBoxType = {
-			position = { x = 130 y = 59 }
+			position = { x = 3 y = 59 }
 			name = "budget_funds"
 			font = "Arial12"
 			borderSize = { x = 0 y = 0 }
@@ -275,19 +275,19 @@ guiTypes = {
 		guiButtonType = {
 			name = "topbarbutton_tech"
 			quadTextureSprite ="GFX_topbar_button_tech"
-			position = { x = 259 y = 5 }
+			position = { x = 858 y = 5 }
 			shortcut = "F3"
 			clicksound = click
 		}
 		iconType = {
 			name ="icon_tech"
 			spriteType = "GFX_topbar_tech"
-			position = { x= 259 y = 3 }
+			position = { x= 858 y = 3 }
 			Orientation = "UPPER_LEFT"
 		}
 		textBoxType = { 
 			name = "text_tech_shadow"
-			position = { x = 280 y = 5 }
+			position = { x = 879 y = 5 }
 			font = "vic_18_black_bold"
 			borderSize = {x = 0 y = 0}
 			text = "TECHNOLOGY"	
@@ -298,7 +298,7 @@ guiTypes = {
 		}
 		textBoxType = { 
 			name = "text_tech"
-			position = { x = 279 y = 4 }
+			position = { x = 878 y = 4 }
 			font = "vic_18_headline"
 			borderSize = {x = 0 y = 0}
 			text = "TECHNOLOGY"	
@@ -311,12 +311,12 @@ guiTypes = {
 		iconType = {
 			name ="topbar_tech_progress"
 			spriteType = "GFX_topbar_tech_progress"
-			position = { x= 267 y = 30 }
+			position = { x= 866 y = 30 }
 			Orientation = "UPPER_LEFT"
 		}	
 		
 		instantTextBoxType = {
-			position = { x = 266 y = 32 }
+			position = { x = 865 y = 32 }
 			name = "tech_current_research"
 			font = "Arial12"
 			borderSize = { x = 0 y = 0 }
@@ -331,12 +331,12 @@ guiTypes = {
 		iconType = {
 			name ="topbar_literacy"
 			spriteType = "GFX_topbar_literacy"
-			position = { x= 263 y = 54 }
+			position = { x= 862 y = 54 }
 			Orientation = "UPPER_LEFT"
 			#allwaystransparent = yes
 		}		
 		instantTextBoxType = {
-			position = { x = 286 y = 58 }
+			position = { x = 885 y = 58 }
 			name = "tech_literacy_value"
 			font = "Arial12"
 			borderSize = { x = 0 y = 0 }
@@ -351,12 +351,12 @@ guiTypes = {
 		iconType = {
 			name ="topbar_researchpoints"
 			spriteType = "GFX_topbar_researchpoints"
-			position = { x= 322 y = 51 }
+			position = { x= 921 y = 51 }
 			Orientation = "UPPER_LEFT"
 			#allwaystransparent = yes
 		}		
 		instantTextBoxType = {
-			position = { x = 341 y = 58 }
+			position = { x = 940 y = 58 }
 			name = "topbar_researchpoints_value"
 			font = "Arial12"
 			borderSize = { x = 0 y = 0 }
@@ -372,19 +372,19 @@ guiTypes = {
 		guiButtonType = {
 			name = "topbarbutton_politics"
 			quadTextureSprite ="GFX_topbar_button_politics"
-			position = { x = 386 y = 5 }
+			position = { x = 985 y = 5 }
 			shortcut = "F4"
 			clicksound = click
 		}
 		iconType = {
 			name ="icon_politics"
 			spriteType = "GFX_topbar_politics"
-			position = { x= 386 y = 1 }
+			position = { x= 985 y = 1 }
 			Orientation = "UPPER_LEFT"
 		}
 		textBoxType = { 
 			name = "text_politics_shadow"
-			position = { x = 407 y = 5 }
+			position = { x = 1006 y = 5 }
 			font = "vic_18_black_bold"
 			borderSize = {x = 0 y = 0}
 			text = "POLITICS"	
@@ -395,7 +395,7 @@ guiTypes = {
 		}
 		textBoxType = { 
 			name = "text_politics"
-			position = { x = 406 y = 4 }
+			position = { x = 1005 y = 4 }
 			font = "vic_18_headline"
 			borderSize = {x = 0 y = 0}
 			text = "POLITICS"	
@@ -408,11 +408,11 @@ guiTypes = {
 		iconType = {
 			name ="politics_party_icon"
 			spriteType = "GFX_politics_party_plupp2"
-			position = { x= 389 y = 19 }
+			position = { x= 988 y = 19 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
-			position = { x = 411 y = 24 }
+			position = { x = 1010 y = 24 }
 			name = "politics_ruling_party"
 			font = "Arial12"
 			borderSize = { x = 0 y = 0 }
@@ -426,13 +426,13 @@ guiTypes = {
 		guiButtonType = {
 			name ="topbar_supression_icon"
 			quadTextureSprite = "GFX_supression_icon"
-			position = { x= 393 y = 38 }
+			position = { x= 992 y = 38 }
 			Orientation = "UPPER_LEFT"
 			clicksound = click
 		}
 		
 		instantTextBoxType = {
-			position = { x = 412 y = 39 }
+			position = { x = 1011 y = 39 }
 			name = "politics_supressionpoints_value"
 			font = "Arial12"
 			borderSize = { x = 0 y = 0 }
@@ -446,12 +446,12 @@ guiTypes = {
 		iconType = {
 			name ="topbar_infamy_icon"
 			spriteType = "GFX_infamy_icon"
-			position = { x= 459 y = 38 }
+			position = { x= 1058 y = 38 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType = {
-			position = { x = 475 y = 39 }
+			position = { x = 1074 y = 39 }
 			name = "politics_infamy_value"
 			font = "Arial12"
 			borderSize = { x = 0 y = 0 }
@@ -467,7 +467,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "alert_can_do_reforms"
 			quadTextureSprite = "GFX_topbar_alert_reform"
-			position = { x = 388 y = 52 }
+			position = { x = 987 y = 52 }
 			Orientation = "UPPER_LEFT"
 			clicksound = click
 		}
@@ -475,21 +475,21 @@ guiTypes = {
 		guiButtonType = {
 			name = "alert_can_do_decisions"
 			quadTextureSprite = "GFX_topbar_alert_decision"
-			position = { x = 418 y = 52 }
+			position = { x = 1017 y = 52 }
 			Orientation = "UPPER_LEFT"
 			clicksound = click
 		}
 		iconType = {
 			name = "alert_is_in_election"
 			spriteType = "GFX_topbar_alert_election"
-			position = { x = 448 y = 52 }
+			position = { x = 1047 y = 52 }
 			Orientation = "UPPER_LEFT"
 		}
 			
 		guiButtonType = {
 			name = "alert_have_rebels"
 			quadTextureSprite = "GFX_topbar_alert_rebels"
-			position = { x = 478 y = 52 }
+			position = { x = 1077 y = 52 }
 			Orientation = "UPPER_LEFT"
 			clicksound = click
 		}
@@ -498,19 +498,19 @@ guiTypes = {
 		guiButtonType = {
 			name = "topbarbutton_pops"
 			quadTextureSprite ="GFX_topbar_button_pops"
-			position = { x = 858 y = 5 }
+			position = { x = 386 y = 5 }
 			shortcut = "F5"
 			clicksound = click
 		}
 		iconType = {
 			name ="icon_pops"
 			spriteType = "GFX_topbar_pops"
-			position = { x= 857 y = 1 }
+			position = { x= 385 y = 1 }
 			Orientation = "UPPER_LEFT"
 		}
 		textBoxType = { 
 			name = "text_pops_shadow"
-			position = { x = 879 y = 5 }
+			position = { x = 407 y = 5 }
 			font = "vic_18_black_bold"
 			borderSize = {x = 0 y = 0}
 			text = "POPULATION"	
@@ -521,7 +521,7 @@ guiTypes = {
 		}
 		textBoxType = { 
 			name = "text_pops"
-			position = { x = 878 y = 4 }
+			position = { x = 406 y = 4 }
 			font = "vic_18_headline"
 			borderSize = {x = 0 y = 0}
 			text = "POPULATION"	
@@ -532,7 +532,7 @@ guiTypes = {
 		}
 			
 		instantTextBoxType = {
-			position = { x = 868 y = 26 }
+			position = { x = 396 y = 26 }
 			name = "population_total_value"
 			font = "Arial12"
 			borderSize = { x = 0 y = 0 }
@@ -547,12 +547,12 @@ guiTypes = {
 		iconType = {
 			name ="topbar_focus"
 			spriteType = "GFX_topbar_natfocus"
-			position = { x= 864 y = 41 }
+			position = { x= 392 y = 41 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType = {
-			position = { x = 884 y = 45 }
+			position = { x = 412 y = 45 }
 			name = "topbar_focus_value"
 			font = "Arial12"
 			borderSize = { x = 0 y = 0 }
@@ -567,11 +567,11 @@ guiTypes = {
 		iconType = {
 			name ="topbar_mil"
 			spriteType = "GFX_topbar_mil"
-			position = { x= 867 y = 59 }
+			position = { x= 395 y = 59 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
-			position = { x = 884 y = 60 }
+			position = { x = 412 y = 60 }
 			name = "population_avg_mil_value"
 			font = "Arial12"
 			borderSize = { x = 0 y = 0 }
@@ -586,12 +586,12 @@ guiTypes = {
 		iconType = {
 			name ="topbar_con"
 			spriteType = "GFX_topbar_con"
-			position = { x= 919 y = 53 }
+			position = { x= 447 y = 53 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType = {
-			position = { x = 941 y = 60 }
+			position = { x = 469 y = 60 }
 			name = "population_avg_con_value"
 			font = "Arial12"
 			borderSize = { x = 0 y = 0 }
@@ -609,19 +609,19 @@ guiTypes = {
 		guiButtonType = {
 			name = "topbarbutton_trade"
 			quadTextureSprite ="GFX_topbar_button_trade"
-			position = { x = 985 y = 5 }
+			position = { x = 259 y = 5 }
 			shortcut = "F6"
 			clicksound = click
 		}
 		iconType = {
 			name ="icon_trade"
 			spriteType = "GFX_topbar_trade"
-			position = { x= 984 y = 2 }
+			position = { x= 258 y = 2 }
 			Orientation = "UPPER_LEFT"
 		}
 		textBoxType = { 
 			name = "text_trade_shadow"
-			position = { x = 1006 y = 5 }
+			position = { x = 280 y = 5 }
 			font = "vic_18_black_bold"
 			borderSize = {x = 0 y = 0}
 			text = "TRADE"	
@@ -632,7 +632,7 @@ guiTypes = {
 		}
 		textBoxType = { 
 			name = "text_trade"
-			position = { x = 1005 y = 4 }
+			position = { x = 279 y = 4 }
 			font = "vic_18_headline"
 			borderSize = {x = 0 y = 0}
 			text = "TRADE"	
@@ -646,7 +646,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "topbar_tradeframe_tooltip"
 			font = "Arial12"
-			position = { x = 986 y = 24 }
+			position = { x = 260 y = 24 }
 			maxWidth = 120
 			maxHeight = 45
 		}		
@@ -654,7 +654,7 @@ guiTypes = {
 		iconType = {
 			name = "topbar_export"
 			spriteType = "GFX_topbar_export"
-			position = { x = 993 y = 24 }
+			position = { x = 267 y = 24 }
 			#allwaystransparent = yes
 		}
 		
@@ -662,28 +662,28 @@ guiTypes = {
 		iconType = {
 			name = "topbar_import0"
 			spriteType = "GFX_resources_small_transparent"
-			position = { x = 1035 y = 51 }
+			position = { x = 309 y = 51 }
 			#allwaystransparent = yes
 		}
 
 		iconType = {
 			name = "topbar_import1"
 			spriteType = "GFX_resources_small_transparent"
-			position = { x = 1055 y = 51 }
+			position = { x = 329 y = 51 }
 			#allwaystransparent = yes
 		}
 
 		iconType = {
 			name = "topbar_import2"
 			spriteType = "GFX_resources_small_transparent"
-			position = { x = 1075 y = 51 }
+			position = { x = 349 y = 51 }
 			#allwaystransparent = yes
 		}
 		
 		iconType = {
 			name = "topbar_import"
 			spriteType = "GFX_topbar_import"
-			position = { x = 993 y = 46 }
+			position = { x = 267 y = 46 }
 			#allwaystransparent = yes
 		}
 		
@@ -691,19 +691,19 @@ guiTypes = {
 		iconType = {
 			name = "topbar_export0"
 			spriteType = "GFX_resources_small_transparent"
-			position = { x = 1035 y = 29 }
+			position = { x = 309 y = 29 }
 			#allwaystransparent = yes
 		}
 		iconType = {
 			name = "topbar_export1"
 			spriteType = "GFX_resources_small_transparent"
-			position = { x = 1055 y = 29 }
+			position = { x = 329 y = 29 }
 			#allwaystransparent = yes
 		}
 		iconType = {
 			name = "topbar_export2"
 			spriteType = "GFX_resources_small_transparent"
-			position = { x = 1075 y = 29 }
+			position = { x = 349 y = 29 }
 			#allwaystransparent = yes
 		}	
 		
