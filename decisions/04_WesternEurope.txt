@@ -303,36 +303,6 @@ political_decisions = {
         }
         ai_will_do = { factor = 1 }
     }
-	triumph_in_italy = {
-        picture = triumph_in_italy
-        potential = {
-			tag = FRA
-			NOT = { has_country_flag = triumph_in_italy_on }
-        }
-        allow = {
-			has_recently_lost_war = no
-			NOT = {
-				exists = GEN
-				exists = SVY
-				exists = LOM
-			}
-			has_country_flag = centralize_france_on
-			has_country_flag = annex_milan_on
-			has_country_flag = annex_genoa_on
-			has_country_flag = annex_savoy_on
-			has_country_flag = burgundy_issue_completed
-			is_greater_power = yes
-        }
-	
-        effect = {
-			add_country_modifier = {
-				name = king_of_italy
-				duration = 72000
-			}
-			set_country_flag = triumph_in_italy_on
-        }
-        ai_will_do = { factor = 1 }
-    }
 	reclaim_the_burgundian_crown = {
         picture = the_burgundian_question
         potential = {
@@ -352,14 +322,120 @@ political_decisions = {
 			treasury = 50000
 			prestige = 10
 			BRG = {
-				add_core = FRA
+				any_core = {
+					add_core = FRA
+				}
 			}
 			add_country_modifier = {
 				name = burgundian_throne
-				duration = 72000
+				duration = 72000 #QUANDO O MODIFIER ACABAR, O JOGADOR PODERÁ ANEXAR BORGONHA
 			}
 			set_country_flag = triumph_in_italy_on
         }
+        ai_will_do = { factor = 1 }
+    }
+	conquer_flanders = { Control Flanders County - Ambition in Germany
+        picture = conquer_flanders
+        potential = {
+			exists = FLA
+			tag = FRA
+			NOT = {
+				has_country_flag = conquer_flanders_on
+			}
+        }
+        allow = {
+			has_recently_lost_war = no
+			FLA = {
+				NOT = { 
+					relation = { who = FRA value = -175	}
+					is_greater_power = yes 
+				}
+			}
+			has_country_flag = centralize_france_on
+			has_country_flag = conquer_calais_on
+			has_country_flag = burgundy_issue_completed
+			is_greater_power = yes
+			war = no
+        }
+	
+        effect = {
+			set_country_flag = conquer_flanders_on
+			FLA = {
+				any_core = {
+					add_core = FRA
+				}
+			}
+        }
+	
+        ai_will_do = { factor = 1 }
+    }
+	vassalize_lorraine = {
+        picture = vassalize_lorraine
+        potential = {
+			exists = LOR
+			tag = FRA
+			NOT = {
+				has_country_flag = vassalize_lorraine_on
+			}
+        }
+        allow = {
+			has_country_flag = onehundredend
+			is_greater_power = yes
+			LOR = {
+				NOT = {
+					relation = { who = FRA value = -185 }
+					OR = {
+						is_greater_power = yes
+						is_secondary_power = yes
+					}
+				}
+			}
+        }
+	
+        effect = {
+			set_country_flag = vassalize_lorraine_on
+			add_casus_belli = {
+				target = LOR
+				type = make_puppet
+				months = 36
+			}
+        }
+	
+        ai_will_do = { factor = 1 }
+    }
+	helvetic_campaign = { Helvetic Campaing - Ambition in Germany
+        picture = conquer_flanders
+        potential = {
+			exists = FLA
+			tag = FRA
+			NOT = {
+				has_country_flag = conquer_flanders_on
+			}
+        }
+        allow = {
+			has_recently_lost_war = no
+			FLA = {
+				NOT = { 
+					relation = { who = FRA value = -175	}
+					is_greater_power = yes 
+				}
+			}
+			has_country_flag = centralize_france_on
+			has_country_flag = conquer_calais_on
+			has_country_flag = burgundy_issue_completed
+			is_greater_power = yes
+			war = no
+        }
+	
+        effect = {
+			set_country_flag = conquer_flanders_on
+			FLA = {
+				any_core = {
+					add_core = FRA
+				}
+			}
+        }
+	
         ai_will_do = { factor = 1 }
     }
 	move_capital_to_madrid = {
