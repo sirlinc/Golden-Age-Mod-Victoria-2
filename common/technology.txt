@@ -3,35 +3,35 @@
 
 folders = {
 	
-	army_tech = { 
+	army_techs = { 
 		army_doctrine
 		melee_weapons #light_armament
 		throwing_weapon #heavy_armament
 		military_science
 		army_leadership
 	}
-	naval_tech = { 
+	naval_techs = { 
 		naval_doctrine
 		ship_construction
 		colonization
 		naval_science
 		naval_leadership
 	}
-	economic_tech = { 
+	economic_techs = { 
 		financial_institutions
 		monetary_system
 		economic_thought_and_critique
 		commerce
 		tech_organization
 	}
-	society_tech = { 
+	society_techs = { 
 		aesthetics
 		philosophy
 		social_thought
 		political_thought
 		adminstration
 	}
-	production_tech = { 
+	production_techs = { 
 		tech_power
 		mechanization
 		metallurgy
