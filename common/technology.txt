@@ -21,7 +21,7 @@ folders = {
 		financial_institutions
 		monetary_system
 		economic_thought_and_critique
-		commerce
+		market_functionality #trade and commerce
 		tech_organization
 	}
 	society_techs = { 

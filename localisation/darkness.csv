@@ -607,7 +607,7 @@ NAVAL_SORT_LABEL;Sort by:;;Sortieren nach:;;;;;;;;;;;x;
 NAVAL_SORT_TYPE;Type;;Typ;;;;;;;;;;;x;
 NAVAL_SORT_STANCE;Stance;;Haltung;;;;;;;;;;;x;
 NAVAL_SORT_STR_ORG;Str/Org;;Stärke/Org.;;;;;;;;;;;x;
-battleship;Battleship;;Kampfschiff;;;;;;;;;;;x;
+battleship;Galleon;x;
 UNCOLONIZED_WITHDRAW;Withdraw;;Zurückziehen;;;;;;;;;;;x;
 UNCOLONIZED_INVEST_LVL1;Expedition;;Expedition;;;;;;;;;;;x;
 UNCOLONIZED_INVEST_LVL2;Colonists;;Kolonisten;;;;;;;;;;;x;
