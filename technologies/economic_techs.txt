@@ -886,7 +886,7 @@ economic_thought_xi = {
 #market_functionality
 freedom_of_trade = {
 	area = market_functionality
-	year = 1836
+	year = 1444
 	cost = 3600
 
 
@@ -918,7 +918,7 @@ freedom_of_trade = {
 }
 market_structure = {
 	area = market_functionality
-	year = 1836
+	year = 1467
 	cost = 7200
 
 	influence = 0.1
@@ -952,7 +952,7 @@ market_structure = {
 }
 business_regulations = {
 	area = market_functionality
-	year = 1836
+	year = 1490
 	cost = 10800
 
 	influence = 0.2
@@ -981,7 +981,7 @@ business_regulations = {
 }
 market_regulations = {
 	area = market_functionality
-	year = 1850
+	year = 1513
 	cost = 14400
 
 	influence = 0.2
@@ -1008,7 +1008,7 @@ market_regulations = {
 }
 economic_responsibility = {
 	area = market_functionality
-	year = 1870
+	year = 1536
 	cost = 18000
 
 	influence = 0.2
@@ -1035,7 +1035,7 @@ economic_responsibility = {
 }
 government_interventionism = {
 	area = market_functionality
-	year = 1900
+	year = 1559
 	cost = 21600
 
 	influence = 0.2
@@ -1060,12 +1060,145 @@ government_interventionism = {
 	}	
 	
 }
+market_functionality_vii = {
+	area = market_functionality
+	year = 1582
+	cost = 21600
 
+	influence = 0.2
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1000
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1500
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}	
+	
+}
+market_functionality_viii = {
+	area = market_functionality
+	year = 1605
+	cost = 21600
 
+	influence = 0.2
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1000
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1500
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}	
+	
+}
+market_functionality_ix = {
+	area = market_functionality
+	year = 1628
+	cost = 21600
+
+	influence = 0.2
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1000
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1500
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}	
+	
+}
+market_functionality_x = {
+	area = market_functionality
+	year = 1648
+	cost = 21600
+
+	influence = 0.2
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1000
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1500
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}	
+	
+}
+market_functionality_xi = {
+	area = market_functionality
+	year = 1674
+	cost = 21600
+
+	influence = 0.2
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1000
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1500
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}	
+	
+}
 #tech_organization
 guild_based_production = {
 	area = tech_organization
-	year = 1836
+	year = 1444
 	cost = 3600
 	activate_building = canned_food_factory 
 	factory_output = 0.01
@@ -1099,7 +1232,7 @@ guild_based_production = {
 }
 organized_factories = {
 	area = tech_organization
-	year = 1836
+	year = 1467
 	cost = 7200
 
 	factory_output = 0.01
@@ -1137,7 +1270,7 @@ organized_factories = {
 }
 scientific_management = {
 	area = tech_organization
-	year = 1836
+	year = 1490
 	cost = 10800
 
 	factory_output = 0.01
@@ -1175,7 +1308,7 @@ scientific_management = {
 }
 time_saving_measures = {
 	area = tech_organization
-	year = 1850
+	year = 1513
 	cost = 14400
 
 	factory_output = 0.01
@@ -1201,7 +1334,7 @@ time_saving_measures = {
 }
 management_strategy = {
 	area = tech_organization
-	year = 1870
+	year = 1536
 	cost = 18000
 
 	factory_output = 0.01
@@ -1227,7 +1360,7 @@ management_strategy = {
 }
 organizational_development = {
 	area = tech_organization
-	year = 1900
+	year = 1559
 	cost = 21600
 
 	factory_output = 0.01
@@ -1251,5 +1384,133 @@ organizational_development = {
 		}
 	}	
 }
+tech_organization_vii = {
+	area = tech_organization
+	year = 1582
+	cost = 21600
 
+	factory_output = 0.01
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1000
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1500
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}	
+}
+tech_organization_viii = {
+	area = tech_organization
+	year = 1605
+	cost = 21600
 
+	factory_output = 0.01
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1000
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1500
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}	
+}
+tech_organization_ix = {
+	area = tech_organization
+	year = 1628
+	cost = 21600
+
+	factory_output = 0.01
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1000
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1500
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}	
+}
+tech_organization_x = {
+	area = tech_organization
+	year = 1648
+	cost = 21600
+
+	factory_output = 0.01
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1000
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1500
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}	
+}
+tech_organization_xi = {
+	area = tech_organization
+	year = 1674
+	cost = 21600
+
+	factory_output = 0.01
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1000
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1500
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}	
+}
