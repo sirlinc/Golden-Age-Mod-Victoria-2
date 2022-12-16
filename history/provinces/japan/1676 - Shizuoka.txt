@@ -1,6 +1,6 @@
-owner=IGW
-controller=IGW
-add_core=IGW
+owner=ASK
+controller=ASK
+add_core=ASK
 add_core=JAP
 trade_goods = grain
 life_rating = 30

@@ -1,7 +1,7 @@
-owner=IGW
-controller=IGW
-add_core=IGW
+owner=ASK
+controller=ASK
+add_core=ASK
 add_core=JAP
 trade_goods = fish
-life_rating = 6
+life_rating = 25
 terrain = plains

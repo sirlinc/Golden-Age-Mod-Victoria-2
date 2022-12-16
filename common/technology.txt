@@ -13,7 +13,7 @@ folders = {
 	naval_techs = { 
 		naval_doctrine
 		ship_construction
-		colonization
+		naval_engineering
 		naval_science
 		naval_leadership
 	}
@@ -43,7 +43,7 @@ folders = {
 		society_1
 		production_1
 		army_1
-		navy_and_colonisation_1
+		colonization
 	}
 	first_century = { #1400-1500
 		economy_and_commerce

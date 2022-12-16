@@ -1,3 +1,7 @@
-trade_goods = fish
-life_rating = 6
-terrain = arctic
+owner=ASK
+controller=ASK
+add_core=ASK
+add_core=JAP
+trade_goods = timber
+life_rating = 25
+terrain = plains
