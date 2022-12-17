@@ -1,3 +1,7 @@
-trade_goods = coal
+owner=ENL
+controller=ENL
+add_core=ENL
+add_core=FRA
+trade_goods = grain
 life_rating = 30
 terrain = plains

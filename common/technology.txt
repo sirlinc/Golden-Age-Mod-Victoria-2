@@ -38,13 +38,13 @@ folders = {
 		tech_infrastructure
 		chemistry_and_electricity
 	}
-	institutions = { 
-		economy_and_commerce_1
-		society_1
-		production_1
-		army_1
-		colonization
-	}
+	#institutions = { 
+	#	economy_and_commerce_1
+	#	society_1
+	#	production_1
+	#	army_1
+	#	colonization
+	#}
 	first_century = { #1400-1500
 		economy_and_commerce
 		society

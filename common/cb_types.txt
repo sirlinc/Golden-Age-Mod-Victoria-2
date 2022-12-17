@@ -44,9 +44,11 @@ add_to_sphere
 take_from_sphere 
 status_quo 
 gunboat 
+convert_cb
 conquest 
 civil_war 
 acquire_core_state 
+acquire_capital
 annex_core_country
 acquire_state 
 acquire_substate_region
@@ -286,99 +288,6 @@ acquire_capital = { #Thanks: "https://www.reddit.com/r/victoria2/comments/81dpjt
 			value = 0.40
 		}
 	}
-}
-
-holy_war = {
-	sprite_index = 12
-	months = 12
-	constructing_cb = yes
-	crisis = yes
-	construction_speed = 1.0
-	
-	can_use = {
-        THIS = {
-		    is_vassal = no
-            is_greater_power = yes
-            is_culture_group = zzz_religion_catholic
-        }
-        OR = {
-            THIS = {
-                OR = {
-                    war_policy = pro_military
-                    war_policy = jingoism
-                }
-            }
-            war_with = THIS
-        }
-        FROM = {
-			is_vassal = no
-			NOT = { 
-				is_greater_power = yes 
-			}
-			is_culture_group = zzz_religion_sunni
-		}
-        any_owned_province = {
-            OR = {
-                is_core = JER
-                is_core = IRQ
-                is_core = LBN
-                is_core = SYR
-				is_core = GRE
-            }
-        }
-        #NOT = { in_sphere = THIS }
-    }
-
-    allowed_states = {
-        any_owned_province = {
-            OR = {
-                is_core = JER
-                is_core = IRQ
-                is_core = LBN
-                is_core = SYR
-				is_core = GRE
-            }
-        }
-        OR = {
-            THIS = { ai = no }
-            any_owned_province = { any_neighbor_province = { owned_by = THIS } }
-            AND = {
-                any_owned_province = { port = yes }
-                THIS = {
-                    OR = {
-                        is_greater_power = yes
-                        is_secondary_power = yes
-                    }
-                    any_owned_province = { port = yes }
-                }
-            }
-        }
-    }
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 1
-	break_truce_militancy_factor = 1
-	truce_months = 48
-	
-	po_demand_state = yes
-	po_reparations = yes
-	po_disarmament = yes
-    po_remove_cores = yes
-	
-	badboy_factor = 1.2
-	prestige_factor = 5
-	peace_cost_factor = 1
-	penalty_factor = 1
-	
-	on_add = {
-        move_issue_percentage = {
-            from = jingoism
-            to = pro_military
-            value = 0.25
-        }
-    }
-	
-	war_name = WAR_HOLY_WAR_NAME
 }
 gunboat = {
 	sprite_index = 1
@@ -2075,4 +1984,382 @@ eu4_colony_asks_independence = {
 			value = 0.25
 		}
 	}
+}
+# Convert Nation CB - thanks AoE
+convert_cb = {
+    sprite_index = 29
+    is_triggered_only = yes
+    months = 12
+
+    badboy_factor = 1.5
+    prestige_factor = 1
+    peace_cost_factor = 15
+    penalty_factor = 1
+
+    break_truce_prestige_factor = 1
+    break_truce_infamy_factor = 1
+    break_truce_militancy_factor = 1
+    truce_months = 60
+
+    good_relation_prestige_factor = 1
+    good_relation_infamy_factor = 1
+    good_relation_militancy_factor = 1
+
+    po_remove_prestige = yes
+
+    tws_battle_factor = 2.0
+
+    war_name = WAR_HUMILIATE_NAME
+
+    can_use = {
+		war_with = THIS
+		THIS = {
+			religious_policy = moralism
+			war_policy = jingoism
+			always = no
+		}
+		NOT = {
+			AND = {
+				religion = catholic
+				THIS = { religion = catholic }
+			}
+			AND = {
+				religion = protestant
+				THIS = { religion = protestant }
+			}
+			AND = {
+				religion = mormon
+				THIS = { religion = mormon }
+			}
+			AND = {
+				religion = orthodox
+				THIS = { religion = orthodox }
+			}
+			AND = {
+				religion = coptic
+				THIS = { religion = coptic }
+			}
+			AND = {
+				religion = sunni
+				THIS = { religion = sunni }
+			}
+			AND = {
+				religion = shiite
+				THIS = { religion = shiite }
+			}
+			AND = {
+				religion = ibadi
+				THIS = { religion = ibadi }
+			}
+			AND = {
+				religion = druze
+				THIS = { religion = druze }
+			}
+			AND = {
+				religion = jewish
+				THIS = { religion = jewish }
+			}
+			AND = {
+				religion = yazidi
+				THIS = { religion = yazidi }
+			}
+			AND = {
+				religion = mahayana
+				THIS = { religion = mahayana }
+			}
+			AND = {
+				religion = gelugpa
+				THIS = { religion = gelugpa }
+			}
+			AND = {
+				religion = theravada
+				THIS = { religion = theravada }
+			}
+			AND = {
+				religion = sikh
+				THIS = { religion = sikh }
+			}
+			AND = {
+				religion = taoist
+				THIS = { religion = taoist }
+			}
+			AND = {
+				religion = animist
+				THIS = { religion = animist }
+			}
+			AND = {
+				religion = hindu
+				THIS = { religion = hindu }
+			}
+			AND = {
+				religion = shinto
+				THIS = { religion = shinto }
+			}
+			AND = {
+				religion = tengri
+				THIS = { religion = tengri }
+			}
+		}
+    }
+    on_add = {
+        move_issue_percentage = {
+            from = jingoism
+            to = pro_military
+            value = 0.25
+        }
+    }
+
+	on_po_accepted = {
+        country_event = 172661    # Convert Event
+		random_owned = {
+			limit = {
+				owner = {
+					religion = sunni
+				}
+			}
+			owner = {
+				prestige = 15
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					FROM = {
+						religion = catholic
+					}
+				}
+			}
+			owner = {
+				religion = catholic
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					FROM = {
+						religion = protestant
+					}
+				}
+			}
+			owner = {
+				religion = protestant
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					FROM = {
+						religion = mormon
+					}
+				}
+			}
+			owner = {
+				religion = mormon
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					FROM = {
+						religion = orthodox
+					}
+				}
+			}
+			owner = {
+				religion = orthodox
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					FROM = {
+						religion = coptic
+					}
+				}
+			}
+			owner = {
+				religion = coptic
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					FROM = {
+						religion = sunni
+					}
+				}
+			}
+			owner = {
+				religion = sunni
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					FROM = {
+						religion = shiite
+					}
+				}
+			}
+			owner = {
+				religion = shiite
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					FROM = {
+						religion = ibadi
+					}
+				}
+			}
+			owner = {
+				religion = ibadi
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					FROM = {
+						religion = druze
+					}
+				}
+			}
+			owner = {
+				religion = druze
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					FROM = {
+						religion = jewish
+					}
+				}
+			}
+			owner = {
+				religion = jewish
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					FROM = {
+						religion = yazidi
+					}
+				}
+			}
+			owner = {
+				religion = yazidi
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					FROM = {
+						religion = mahayana
+					}
+				}
+			}
+			owner = {
+				religion = mahayana
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					FROM = {
+						religion = gelugpa
+					}
+				}
+			}
+			owner = {
+				religion = gelugpa
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					FROM = {
+						religion = theravada
+					}
+				}
+			}
+			owner = {
+				religion = theravada
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					FROM = {
+						religion = sikh
+					}
+				}
+			}
+			owner = {
+				religion = sikh
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					FROM = {
+						religion = taoist
+					}
+				}
+			}
+			owner = {
+				religion = taoist
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					FROM = {
+						religion = animist
+					}
+				}
+			}
+			owner = {
+				religion = animist
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					FROM = {
+						religion = hindu
+					}
+				}
+			}
+			owner = {
+				religion = hindu
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					FROM = {
+						religion = shinto
+					}
+				}
+			}
+			owner = {
+				religion = shinto
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					FROM = {
+						religion = tengri
+					}
+				}
+			}
+			owner = {
+				religion = tengri
+			}
+		}
+    }
 }
