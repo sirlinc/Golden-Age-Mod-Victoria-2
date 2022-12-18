@@ -146,6 +146,7 @@ political_decisions = {
 			NOT = {
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
+				religion = catholic
 			}
 		}
 		allow = {
@@ -176,6 +177,7 @@ political_decisions = {
 			NOT = {
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
+				religion = coptic
 			}
 		}
 		allow = {
@@ -206,6 +208,7 @@ political_decisions = {
 			NOT = {
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
+				religion = hussite
 			}
 		}
 		allow = {
@@ -236,6 +239,7 @@ political_decisions = {
 			NOT = {
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
+				religion = mormon
 			}
 		}
 		allow = {
@@ -266,6 +270,7 @@ political_decisions = {
 			NOT = {
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
+				religion = lollard
 			}
 		}
 		allow = {
@@ -297,6 +302,7 @@ political_decisions = {
 			NOT = {
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
+				religion = nestorian
 			}
 		}
 		allow = {
@@ -327,6 +333,7 @@ political_decisions = {
 			NOT = {
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
+				religion = orthodox
 			}
 		}
 		allow = {
@@ -356,6 +363,7 @@ political_decisions = {
 			}
 			NOT = {
 				state_religion = secular_state
+				religion = paulician
 				has_country_modifier = cooldown_changed_religion
 			}
 		}
@@ -386,6 +394,7 @@ political_decisions = {
 			}
 			NOT = {
 				state_religion = secular_state
+				religion = protestant
 				has_country_modifier = cooldown_changed_religion
 			}
 		}
@@ -416,6 +425,7 @@ political_decisions = {
 			}
 			NOT = {
 				state_religion = secular_state
+				religion = reformed
 				has_country_modifier = cooldown_changed_religion
 			}
 		}
@@ -446,6 +456,7 @@ political_decisions = {
 			}
 			NOT = {
 				state_religion = secular_state
+				religion = waldensian
 				has_country_modifier = cooldown_changed_religion
 			}
 		}
@@ -476,6 +487,7 @@ political_decisions = {
 			}
 			NOT = {
 				state_religion = secular_state
+				religion = gelugpa
 				has_country_modifier = cooldown_changed_religion
 			}
 		}
@@ -506,6 +518,7 @@ political_decisions = {
 			}
 			NOT = {
 				state_religion = secular_state
+				religion = mahayana
 				has_country_modifier = cooldown_changed_religion
 			}
 		}
@@ -536,6 +549,7 @@ political_decisions = {
 			}
 			NOT = {
 				state_religion = secular_state
+				religion = muism
 				has_country_modifier = cooldown_changed_religion
 			}
 		}
@@ -565,6 +579,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+			religion = shinto
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -595,6 +610,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = shinto
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -624,7 +640,8 @@ political_decisions = {
 			any_core = {
 				is_state_religion = no
 			}
-			NOT = {
+			NOT = { 
+				religion = tibet_bon
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -656,6 +673,7 @@ political_decisions = {
 			}
 			NOT = {
 				state_religion = secular_state
+				religion = tengri_pagan_reformed
 				has_country_modifier = cooldown_changed_religion
 			}
 		}
@@ -685,7 +703,10 @@ political_decisions = {
 				accepted_culture = zzz_religion_catholic
 				primary_culture = zzz_religion_catholic
 			}
-			NOT = { government = theocracy }
+			NOT = { 
+				government = theocracy 
+				has_global_flag = pope_accept_reform
+			}
 			
 		}
 		allow = {
@@ -712,12 +733,15 @@ political_decisions = {
 		picture = reform_accept
 		potential = {
 			tag = PAP
+			has_country_modifier = pap_decision_reform
 		}
 		allow = {
-			protestant_reform = 1
+			nationalism_n_imperialism = 1
 			
 		}
 		effect = {
+			set_global_flag = pope_accept_reform
+			set_global_flag = pope_accept_reform
 			badboy = -5
 			prestige = -0.4
 			any_pop = { consciousness = -1.0 }
@@ -742,9 +766,10 @@ political_decisions = {
 		picture = reform_refuse
 		potential = {
 			tag = PAP
+			has_country_modifier = pap_decision_reform
 		}
 		allow = {
-			protestant_reform = 1
+			nationalism_n_imperialism = 1
 		}
 		effect = {
 			badboy = 5

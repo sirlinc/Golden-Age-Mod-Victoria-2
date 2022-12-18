@@ -7,6 +7,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = baltic_pagan_reformed
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -37,6 +38,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = druidist
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -67,6 +69,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = german_pagan
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -97,6 +100,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = hellenic_pagan
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -127,6 +131,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = norse_pagan_reformed
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -156,7 +161,8 @@ political_decisions = {
 			any_core = {
 				is_state_religion = no
 			}
-			NOT = {
+			NOT = { 
+				religion = finnish_pagan_reformed
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -187,6 +193,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = slavic_pagan_reformed
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -218,6 +225,7 @@ political_decisions = {
 			}
 			NOT = {
 				state_religion = secular_state
+				religion = gnostic
 				has_country_modifier = cooldown_changed_religion
 			}
 		}
@@ -247,6 +255,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+			religion = yazidi
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -277,6 +286,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = hindu
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -308,6 +318,7 @@ political_decisions = {
 			}
 			NOT = {
 				state_religion = secular_state
+				religion = jain
 				has_country_modifier = cooldown_changed_religion
 			}
 		}
@@ -337,6 +348,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = sikh
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -367,6 +379,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = jewish
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -397,6 +410,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = karaite
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -427,6 +441,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = samaritan
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -457,6 +472,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = iconoclast
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -487,6 +503,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = arab_pagan
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -517,6 +534,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = canaanite
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -547,6 +565,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = kemetic
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -577,6 +596,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = shiite
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -607,6 +627,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = sunni
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -637,6 +658,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = ibadi
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -667,6 +689,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = animist
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -697,6 +720,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = shamanism
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -727,6 +751,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = totemism
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -757,6 +782,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = nahuatl
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -787,6 +813,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = mayan
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -817,6 +844,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = inti
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}
@@ -847,6 +875,7 @@ political_decisions = {
 				is_state_religion = no
 			}
 			NOT = {
+				religion = zoroastrian
 				state_religion = secular_state
 				has_country_modifier = cooldown_changed_religion
 			}

@@ -1,11 +1,11 @@
-# prompts you to declare interest for a starting crisis
+#Reformation Event
 country_event = {
 	id = 75432101
 	title = "title101"
 	desc = "desc101"
 	picture = protestantism
 	trigger = {
-		protestant_reform = 1
+		nationalism_n_imperialism = 1
 	}
 
 	option = {
@@ -29,6 +29,7 @@ country_event = {
 	option = {
 		name = "Heresy, call the pope!"
 		PAP = {
+			set_country_flag = call_pope
 			event = 75432102
 		}
 		ai_chance = {
@@ -43,6 +44,7 @@ country_event = {
 	is_triggered_only = yes
 	picture = protestantism
 	trigger = {
+		has_country_flag = call_pope
 		tag = PAP
 	}
 	
