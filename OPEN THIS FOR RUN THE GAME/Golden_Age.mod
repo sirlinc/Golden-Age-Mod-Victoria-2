@@ -1,4 +1,4 @@
-name = "Golden Age Mod"
+name = "Golden Age Mod - 1.0 Beta"
 path = "mod/Golden-Age-Mod-Victoria-2-main"
 user_dir = "Golden-Age-Mod-Victoria-2-main"
 replace_path = "history/provinces"

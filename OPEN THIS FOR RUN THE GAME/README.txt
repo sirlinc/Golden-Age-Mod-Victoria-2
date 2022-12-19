@@ -1,0 +1,1 @@
+Place the "Golden_Age.mod" in the mod folder, separate from the Golden-Age-Mod-Victoria-2-main folder.
