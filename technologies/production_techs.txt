@@ -872,7 +872,7 @@ mechanized_mining = {
 }
 clean_coal = {
 	area = metallurgy
-	year = 1444
+	year = 1467
 	cost = 7200
 	
 	rgo_goods_output = {
@@ -940,7 +940,7 @@ clean_coal = {
 }
 cheap_iron = {
 	area = metallurgy
-	year = 1444
+	year = 1490
 	cost = 10800
 	rgo_goods_output = {
 		precious_metal = 0.1
@@ -1004,7 +1004,7 @@ cheap_iron = {
 }
 cheap_steel = {
 	area = metallurgy
-	year = 1850
+	year = 1513
 	cost = 14400
 	rgo_goods_output = {
 		precious_metal = 0.1
@@ -1065,7 +1065,7 @@ cheap_steel = {
 }
 advanced_metallurgy = {
 	area = metallurgy
-	year = 1870
+	year = 1536
 	cost = 18000
 
 	rgo_goods_output = {
@@ -1127,9 +1127,8 @@ advanced_metallurgy = {
 }
 electric_furnace = {
 	area = metallurgy
-	year = 1900
+	year = 1559
 	cost = 21600
-
 	factory_goods_output = {
 		steel = 0.05 
 	}
@@ -1139,7 +1138,6 @@ electric_furnace = {
 	rgo_goods_output = {
 		iron = 1
 	}
-	
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -1184,8 +1182,291 @@ electric_furnace = {
 		}
 	}
 }
-
-
+metallurgy_vii = {
+	area = metallurgy
+	year = 1582
+	cost = 21600
+	factory_goods_output = {
+		steel = 0.05 
+	}
+	rgo_goods_output = {
+		coal = 1
+	}
+	rgo_goods_output = {
+		iron = 1
+	}
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.6
+			big_producer = coal
+		}
+		modifier = {
+			factor = 1.4
+			big_producer = iron
+		}
+		modifier = {
+			factor = 1.4
+			big_producer = sulphur
+		}
+		modifier = {
+			factor = 1.3
+			any_owned_province = {
+				produces = coal
+			}
+		}
+		modifier = {
+			factor = 1.1
+			any_owned_province = {
+				produces = iron
+			}
+		}
+		modifier = {
+			factor = 1.1
+			any_owned_province = {
+				produces = sulphur
+			}
+		}
+		modifier = {
+			factor = 1.1
+			any_owned_province = {
+				produces = precious_metal
+			}
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = industrial_tech_school
+		}
+	}
+}
+metallurgy_viii = {
+	area = metallurgy
+	year = 1605
+	cost = 21600
+	factory_goods_output = {
+		steel = 0.05 
+	}
+	rgo_goods_output = {
+		coal = 1
+	}
+	rgo_goods_output = {
+		iron = 1
+	}
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.6
+			big_producer = coal
+		}
+		modifier = {
+			factor = 1.4
+			big_producer = iron
+		}
+		modifier = {
+			factor = 1.4
+			big_producer = sulphur
+		}
+		modifier = {
+			factor = 1.3
+			any_owned_province = {
+				produces = coal
+			}
+		}
+		modifier = {
+			factor = 1.1
+			any_owned_province = {
+				produces = iron
+			}
+		}
+		modifier = {
+			factor = 1.1
+			any_owned_province = {
+				produces = sulphur
+			}
+		}
+		modifier = {
+			factor = 1.1
+			any_owned_province = {
+				produces = precious_metal
+			}
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = industrial_tech_school
+		}
+	}
+}
+metallurgy_ix = {
+	area = metallurgy
+	year = 1628
+	cost = 21600
+	factory_goods_output = {
+		steel = 0.05 
+	}
+	rgo_goods_output = {
+		coal = 1
+	}
+	rgo_goods_output = {
+		iron = 1
+	}
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.6
+			big_producer = coal
+		}
+		modifier = {
+			factor = 1.4
+			big_producer = iron
+		}
+		modifier = {
+			factor = 1.4
+			big_producer = sulphur
+		}
+		modifier = {
+			factor = 1.3
+			any_owned_province = {
+				produces = coal
+			}
+		}
+		modifier = {
+			factor = 1.1
+			any_owned_province = {
+				produces = iron
+			}
+		}
+		modifier = {
+			factor = 1.1
+			any_owned_province = {
+				produces = sulphur
+			}
+		}
+		modifier = {
+			factor = 1.1
+			any_owned_province = {
+				produces = precious_metal
+			}
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = industrial_tech_school
+		}
+	}
+}
+metallurgy_x = {
+	area = metallurgy
+	year = 1648
+	cost = 21600
+	factory_goods_output = {
+		steel = 0.05 
+	}
+	rgo_goods_output = {
+		coal = 1
+	}
+	rgo_goods_output = {
+		iron = 1
+	}
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.6
+			big_producer = coal
+		}
+		modifier = {
+			factor = 1.4
+			big_producer = iron
+		}
+		modifier = {
+			factor = 1.4
+			big_producer = sulphur
+		}
+		modifier = {
+			factor = 1.3
+			any_owned_province = {
+				produces = coal
+			}
+		}
+		modifier = {
+			factor = 1.1
+			any_owned_province = {
+				produces = iron
+			}
+		}
+		modifier = {
+			factor = 1.1
+			any_owned_province = {
+				produces = sulphur
+			}
+		}
+		modifier = {
+			factor = 1.1
+			any_owned_province = {
+				produces = precious_metal
+			}
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = industrial_tech_school
+		}
+	}
+}
+metallurgy_xi = {
+	area = metallurgy
+	year = 1674
+	cost = 21600
+	factory_goods_output = {
+		steel = 0.05 
+	}
+	rgo_goods_output = {
+		coal = 1
+	}
+	rgo_goods_output = {
+		iron = 1
+	}
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.6
+			big_producer = coal
+		}
+		modifier = {
+			factor = 1.4
+			big_producer = iron
+		}
+		modifier = {
+			factor = 1.4
+			big_producer = sulphur
+		}
+		modifier = {
+			factor = 1.3
+			any_owned_province = {
+				produces = coal
+			}
+		}
+		modifier = {
+			factor = 1.1
+			any_owned_province = {
+				produces = iron
+			}
+		}
+		modifier = {
+			factor = 1.1
+			any_owned_province = {
+				produces = sulphur
+			}
+		}
+		modifier = {
+			factor = 1.1
+			any_owned_province = {
+				produces = precious_metal
+			}
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = industrial_tech_school
+		}
+	}
+}
 #tech_infrastructure
 experimental_railroad = {
 	area = tech_infrastructure
@@ -1213,7 +1494,7 @@ experimental_railroad = {
 }
 early_railroad = {
 	area = tech_infrastructure
-	year = 1840
+	year = 1467
 	cost = 7200
 
 	max_railroad = 1
@@ -1237,7 +1518,7 @@ early_railroad = {
 }
 iron_railroad = {
 	area = tech_infrastructure
-	year = 1850
+	year = 1490
 	cost = 10800
 
 	max_railroad = 1 
@@ -1260,7 +1541,7 @@ iron_railroad = {
 }
 steel_railroad = {
 	area = tech_infrastructure
-	year = 1870
+	year = 1513
 	cost = 14400
 
 	max_railroad = 1 
@@ -1283,7 +1564,7 @@ steel_railroad = {
 }
 integral_rail_system = {
 	area = tech_infrastructure
-	year = 1898
+	year = 1536
 	cost = 18000
 
 	max_railroad = 1
@@ -1306,7 +1587,7 @@ integral_rail_system = {
 }
 limited_access_roads = {
 	area = tech_infrastructure
-	year = 1919
+	year = 1559
 	cost = 21600
 
 	max_railroad = 1
@@ -1326,8 +1607,116 @@ limited_access_roads = {
 		}
 	}
 }
+infrastructure_vii = {
+	area = tech_infrastructure
+	year = 1582
+	cost = 21600
 
+	max_railroad = 1
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			civilized = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = industrial_tech_school
+		}
+	}
+}
+infrastructure_viii = {
+	area = tech_infrastructure
+	year = 1605
+	cost = 21600
 
+	max_railroad = 1
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			civilized = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = industrial_tech_school
+		}
+	}
+}
+infrastructure_ix = {
+	area = tech_infrastructure
+	year = 1628
+	cost = 21600
+
+	max_railroad = 1
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			civilized = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = industrial_tech_school
+		}
+	}
+}
+infrastructure_x = {
+	area = tech_infrastructure
+	year = 1648
+	cost = 21600
+
+	max_railroad = 1
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			civilized = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = industrial_tech_school
+		}
+	}
+}
+infrastructure_xi = {
+	area = tech_infrastructure
+	year = 1674
+	cost = 21600
+
+	max_railroad = 1
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			civilized = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = industrial_tech_school
+		}
+	}
+}
 #chemistry_and_electricity
 basic_chemistry = {
 	area = chemistry_and_electricity
