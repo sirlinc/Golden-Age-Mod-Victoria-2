@@ -141,7 +141,7 @@ political_decisions = {
 		
 		effect = {
 			prestige = 20
-			change_tag = SPA
+			change_tag = JAP
 			add_accepted_culture = japanese
 			any_country = {
 				limit = {
@@ -249,7 +249,7 @@ political_decisions = {
 		
 		effect = {
 			prestige = 20
-			change_tag = SPA
+			change_tag = RUS
 			add_accepted_culture = russian
 			add_accepted_culture = ugrian
 			any_country = {
@@ -301,7 +301,7 @@ political_decisions = {
 		
 		effect = {
 			prestige = 20
-			change_tag = SPA
+			change_tag = PER
 			add_accepted_culture = uzbek
 			add_accepted_culture = persian
 			any_country = {
